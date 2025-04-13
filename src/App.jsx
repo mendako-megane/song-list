@@ -1,0 +1,275 @@
+import { useState, useEffect } from "react";
+import { songs as allSongs } from "./data/songs";
+import "./App.css";
+
+const searchModes = ["タイトル", "作詞者", "作曲者", "収録"];
+
+export default function App() {
+  const [search, setSearch] = useState("");
+  const [searchMode, setSearchMode] = useState("タイトル");
+  const [sortOption, setSortOption] = useState("name_asc");
+
+  useEffect(() => {
+    setSearch(""); // 検索方法変更でリセット
+  }, [searchMode]);
+
+
+  const albums = [
+    "ええじゃないか",
+    "ええじゃないか[初回盤]",
+    "ええじゃないか[MY BEST CD盤]",
+    "ええじゃないか[通常盤]",
+    "go WEST よーいドン！",
+    "go WEST よーいドン！[初回盤]",
+    "go WEST よーいドン！[通常盤]",
+    "ジパング・おおきに大作戦/夢を抱きしめて",
+    "ジパング・おおきに大作戦/夢を抱きしめて[初回A]",
+    "ジパング・おおきに大作戦/夢を抱きしめて[初回B]",
+    "ジパング・おおきに大作戦/夢を抱きしめて[初回C]",
+    "ジパング・おおきに大作戦/夢を抱きしめて[通常盤]",
+    "ズンドコ パラダイス",
+    "ズンドコ パラダイス[初回A]",
+    "ズンドコ パラダイス[初回B]",
+    "ズンドコ パラダイス[通常盤]",
+    "パリピポ",
+    "パリピポ[初回盤]",
+    "パリピポ[通常盤]",
+    "バリ ハピ",
+    "バリ ハピ[初回A]",
+    "バリ ハピ[初回A]",
+    "バリ ハピ[通常盤]",
+    "ラッキィィィィィィィ7",
+    "ラッキィィィィィィィ7[初回盤]",
+    "ラッキィィィィィィィ7[通常盤]",
+    "逆転Winner",
+    "逆転Winner[初回A]",
+    "逆転Winner[初回B]",
+    "逆転Winner[通常盤]",
+    "人生は素晴らしい",
+    "人生は素晴らしい[初回A]",
+    "人生は素晴らしい[初回B]",
+    "人生は素晴らしい[通常盤]",
+    "なうぇすと",
+    "なうぇすと[初回盤]",
+    "なうぇすと[通常盤]",
+    "おーさか☆愛・EYE・哀/Ya! Hot! Hot!",
+    "おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回A]",
+    "おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回B]",
+    "おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]",
+    "僕ら今日も生きている/考えるな、燃えろ!!",
+    "僕ら今日も生きている/考えるな、燃えろ!![初回A]",
+    "僕ら今日も生きている/考えるな、燃えろ!![初回B]",
+    "僕ら今日も生きている/考えるな、燃えろ!![通常盤]",
+    "WESTival",
+    "WESTival[初回盤]",
+    "WESTival[通常盤]",
+    "プリンシパルの君へ/ドラゴンドッグ",
+    "プリンシパルの君へ/ドラゴンドッグ[初回A]",
+    "プリンシパルの君へ/ドラゴンドッグ[初回B]",
+    "プリンシパルの君へ/ドラゴンドッグ[通常盤]",
+    "スタートダッシュ!",
+    "スタートダッシュ![初回A]",
+    "スタートダッシュ![初回B]",
+    "スタートダッシュ![通常盤]",
+    "WESTV！",
+    "WESTV！[初回盤]",
+    "WESTV！[通常盤]",
+    "ホメチギリスト/傷だらけの愛",
+    "ホメチギリスト/傷だらけの愛[初回A]",
+    "ホメチギリスト/傷だらけの愛[初回B]",
+    "ホメチギリスト/傷だらけの愛[通常盤]",
+    "アメノチハレ",
+    "アメノチハレ[初回A]",
+    "アメノチハレ[初回B]",
+    "アメノチハレ[通常盤]",
+    "Big Shot!!",
+    "Big Shot!![初回A]",
+    "Big Shot!![初回B]",
+    "Big Shot!![通常盤]",
+    "W trouble",
+    "W trouble[初回A]",
+    "W trouble[初回B]",
+    "W trouble[通常盤]",
+    "W trouble[通販盤]",
+    "証拠",
+    "証拠[初回A]",
+    "証拠[初回B]",
+    "証拠[通常盤]",
+    "週刊うまくいく曜日",
+    "週刊うまくいく曜日[初回A]",
+    "週刊うまくいく曜日[初回B]",
+    "週刊うまくいく曜日[通常盤]",
+    "rainboW",
+    "rainboW[初回A]",
+    "rainboW[初回B]",
+    "rainboW[通常盤]",
+    "rainboW[通販盤]",
+    "サムシング・ニュー",
+    "サムシング・ニュー[初回A]",
+    "サムシング・ニュー[初回B]",
+    "サムシング・ニュー[通常盤]",
+    "でっかい愛/喜努愛楽",
+    "でっかい愛/喜努愛楽[初回A]",
+    "でっかい愛/喜努愛楽[初回B]",
+    "でっかい愛/喜努愛楽[通常盤]",
+    "黎明/進むしかねぇ",
+    "黎明/進むしかねぇ[初回A]",
+    "黎明/進むしかねぇ[初回B]",
+    "黎明/進むしかねぇ[通常盤]",
+    "Mixed Juice",
+    "Mixed Juice[初回A]",
+    "Mixed Juice[初回B]",
+    "Mixed Juice[通常盤]",
+    "星の雨",
+    "星の雨[初回A]",
+    "星の雨[初回B]",
+    "星の雨[通常盤]",
+    "星の雨[通販盤]",
+    "POWER",
+    "POWER[初回A]",
+    "POWER[初回B]",
+    "POWER[通常盤]",
+    "POWER[通販盤]",
+    "しあわせの花",
+    "しあわせの花[初回A]",
+    "しあわせの花[初回B]",
+    "しあわせの花[通常盤]",
+    "しあわせの花[通販盤]",
+    "絶体絶命 / Beautiful / AS ONE",
+    "絶体絶命 / Beautiful / AS ONE[初回A]",
+    "絶体絶命 / Beautiful / AS ONE[初回B]",
+    "絶体絶命 / Beautiful / AS ONE[初回C]",
+    "絶体絶命 / Beautiful / AS ONE[通常盤]",
+    "AWARD",
+    "AWARD[初回A]",
+    "AWARD[初回B]",
+    "AWARD[通常盤]",
+    "ハート / FATE",
+    "ハート / FATE[初回A]",
+    "ハート / FATE[初回B]",
+    "ハート / FATE[通常盤]",
+    "ハート / FATE[通販盤]",
+    "まぁいっか！",
+    "まぁいっか！[初回A]",
+    "まぁいっか！[初回B]",
+    "まぁいっか！[通常盤]",
+    "A.H.O. -Audio Hang Out-",
+    "A.H.O. -Audio Hang Out-[初回A]",
+    "A.H.O. -Audio Hang Out-[初回B]",
+    "A.H.O. -Audio Hang Out-[通常盤]"
+  ];
+  
+  
+  const sortOptions = [
+    { label: "⇅ 名前順(あ→わ)", value: "name_desc" },
+    { label: "⇅ 名前順(わ→あ)", value: "name_asc" },
+    { label: "⇅ 古い曲順", value: "date_asc" },
+    { label: "⇅ 新しい曲順", value: "date_desc" },
+  ];
+
+
+  const filteredSongs = allSongs
+    .filter((song) => {
+      const lower = search.toLowerCase();
+
+      if (searchMode === "タイトル") {
+        return song.title.toLowerCase().includes(lower);
+      }
+      if (searchMode === "作詞者") {
+        return song.lyricist.toLowerCase().includes(lower);
+      }
+      if (searchMode === "作曲者") {
+        return song.composer.toLowerCase().includes(lower);
+      }
+      if (searchMode === "収録") {
+        return search === "" || song.album.includes(search);
+      }
+      
+
+      return true;
+    })
+
+  .sort((a, b) => {
+      if (sortOption === "name_asc") {
+        return a.title.localeCompare(b.title, "ja", { sensitivity: "base" });
+      }
+      if (sortOption === "name_desc") {
+        return b.title.localeCompare(a.title, "ja", { sensitivity: "base" });
+      }
+      if (sortOption === "date_asc") {
+        return new Date(a.date) - new Date(b.date);
+      }
+      if (sortOption === "date_desc") {
+        return new Date(b.date) - new Date(a.date);
+      }
+      return 0;
+    });
+  
+
+    return (
+      <div className="container">
+        <h1>🎵 曲リスト</h1>
+  
+        <div className="controls">
+          {/* 検索対象選択 */}
+          <select value={searchMode} onChange={(e) => setSearchMode(e.target.value)}>
+            {searchModes.map((mode) => (
+              <option key={mode} value={mode}>
+                {mode}
+              </option>
+            ))}
+          </select>
+  
+          {/* 入力欄の切り替え */}
+          {searchMode === "収録" ? (
+            <select value={search} onChange={(e) => setSearch(e.target.value)}>
+              <option value="">すべての収録</option>
+              {albums.map((album) => (
+                <option key={album} value={album}>
+                  {album}
+                </option>
+              ))}
+            </select>
+          ) : (
+            <input
+              type="text"
+              placeholder={`${searchMode}で検索...`}
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+          )}
+  
+          {/* ソート選択 */}
+          <select value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
+            {sortOptions.map((option) => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
+        
+        {/* 凡例 */}
+        <div className="song-header">
+          <span>タイトル</span>
+          <span>作詞者</span>
+          <span>作曲者</span>
+          <span>初収録</span>
+          <span>発売日</span>
+        </div>
+
+        {/* 曲リスト表示 */}
+        <div className="song-list">
+          {filteredSongs.map((song) => (
+            <div key={song.id} className="song-card">
+              <span className="song-title">{song.title}</span>
+              <span>{song.lyricist}</span>
+              <span>{song.composer}</span>
+              <span>{song.album[0]}</span>
+              <span className="song-date">{song.date}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+}

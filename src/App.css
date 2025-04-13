@@ -1,0 +1,80 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #FFEDB3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+input, select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.song-card {
+  display: flex;
+  background: #CDFFE7;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.song-header {
+  display: flex;
+  background: #FFC81B;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.song-header span {
+  width: 22%;
+}
+
+.song-card span {
+  width: 22%;
+  overflow-wrap: break-word;
+}
+
+.song-title {
+  font-weight: bold;
+}
+
+.song-date {
+  font-family: monospace;
+}
