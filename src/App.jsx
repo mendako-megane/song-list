@@ -156,13 +156,17 @@ export default function App() {
     "A.H.O. -Audio Hang Out-",
     "A.H.O. -Audio Hang Out-[初回A]",
     "A.H.O. -Audio Hang Out-[初回B]",
-    "A.H.O. -Audio Hang Out-[通常盤]"
+    "A.H.O. -Audio Hang Out-[通常盤]",
+    "ウェッサイソウル！ / BIG LOVE SONG",
+    "ウェッサイソウル！ / BIG LOVE SONG[初回A]",
+    "ウェッサイソウル！ / BIG LOVE SONG[初回B]",
+    "ウェッサイソウル！ / BIG LOVE SONG[通常盤]"
   ];
   
   
   const sortOptions = [
-    { label: "⇅ 名前順(あ→わ)", value: "name_desc" },
-    { label: "⇅ 名前順(わ→あ)", value: "name_asc" },
+    { label: "⇅ 名前順(あ→わ)", value: "name_asc" },
+    { label: "⇅ 名前順(わ→あ)", value: "name_desc" },
     { label: "⇅ 古い曲順", value: "date_asc" },
     { label: "⇅ 新しい曲順", value: "date_desc" },
   ];
@@ -195,21 +199,38 @@ export default function App() {
       return true;
     })
 
-  .sort((a, b) => {
-      if (sortOption === "name_asc") {
-        return a.title.localeCompare(b.title, "ja", { sensitivity: "base" });
+    .sort((a, b) => {
+      const getCategory = (str) => {
+        const char = str.charAt(0);
+        if (char.match(/^[\u3040-\u30FF]/)) return 0; // ひらがな・カタカナ
+        if (char.match(/^[a-zA-Z]/)) return 1;         // アルファベット
+        return 2;                                      // 記号など
+      };
+    
+      if (sortOption === "name_asc" || sortOption === "name_desc") {
+        const catA = getCategory(a.titleKana);
+        const catB = getCategory(b.titleKana);
+    
+        if (catA !== catB) {
+          return sortOption === "name_asc" ? catA - catB : catB - catA;
+        }
+    
+        return sortOption === "name_asc"
+          ? a.titleKana.localeCompare(b.titleKana, "ja", { sensitivity: "base" })
+          : b.titleKana.localeCompare(a.titleKana, "ja", { sensitivity: "base" });
       }
-      if (sortOption === "name_desc") {
-        return b.title.localeCompare(a.title, "ja", { sensitivity: "base" });
-      }
+    
       if (sortOption === "date_asc") {
         return new Date(a.date) - new Date(b.date);
       }
       if (sortOption === "date_desc") {
         return new Date(b.date) - new Date(a.date);
       }
+    
       return 0;
     });
+    
+    
   
 
     return (
@@ -283,5 +304,7 @@ export default function App() {
           ))}
         </div>
       </div>
+      
     );
+  
 }
