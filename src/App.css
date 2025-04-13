@@ -1,8 +1,11 @@
 body, html {
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-y: auto;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 body {
@@ -17,7 +20,6 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  min-height: 100vh;
   box-sizing: border-box;
   font-family: sans-serif;
 }
@@ -79,6 +81,7 @@ input, select {
   min-width: 0;
   font-size: 0.95rem;
 }
+
 
 
 

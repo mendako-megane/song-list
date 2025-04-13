@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { songs as allSongs } from "./data/songs";
 import "./App.css";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "タイアップ"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "タイアップ", "ユニット"];
+
 
 export default function App() {
   const [search, setSearch] = useState("");
@@ -163,6 +164,7 @@ export default function App() {
     "ウェッサイソウル！ / BIG LOVE SONG[通常盤]"
   ];
   
+  const singers = Array.from(new Set(allSongs.map(song => song.singer).filter(Boolean)));
   
   const sortOptions = [
     { label: "⇅ 名前順(あ→わ)", value: "name_asc" },
@@ -192,6 +194,9 @@ export default function App() {
         if (search === "あり") return song.tiup !== null;
         if (search === "なし") return song.tiup === null;
         return true;
+      }
+      if (searchMode === "ユニット") {
+        return search === "" || song.singer === search;
       }
       
       
@@ -257,6 +262,15 @@ export default function App() {
                 </option>
               ))}
             </select>
+          ) : searchMode === "ユニット" ? (
+              <select value={search} onChange={(e) => setSearch(e.target.value)}>
+                <option value="">すべてのユニット</option>
+                {singers.map((s) => (
+                  <option key={s} value={s}>
+                    {s}
+                  </option>
+                ))}
+              </select>
           ) : searchMode === "タイアップ" ? (
             <select value={search} onChange={(e) => setSearch(e.target.value)}>
               <option value="">すべての曲</option>
@@ -282,6 +296,11 @@ export default function App() {
           </select>
         </div>
         
+
+        <div style={{ marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          {filteredSongs.length} 件の曲が見つかりました
+        </div>
+
         {/* 凡例 */}
         <div className="song-header">
           <span>タイトル</span>
