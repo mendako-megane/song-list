@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { songs as allSongs } from "./data/songs";
 import "./App.css";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "収録"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "タイアップ"];
 
 export default function App() {
   const [search, setSearch] = useState("");
@@ -184,6 +184,12 @@ export default function App() {
       if (searchMode === "収録") {
         return search === "" || song.album.includes(search);
       }
+      if (searchMode === "タイアップ") {
+        if (search === "あり") return song.tiup !== null;
+        if (search === "なし") return song.tiup === null;
+        return true;
+      }
+      
       
 
       return true;
@@ -229,6 +235,12 @@ export default function App() {
                   {album}
                 </option>
               ))}
+            </select>
+          ) : searchMode === "タイアップ" ? (
+            <select value={search} onChange={(e) => setSearch(e.target.value)}>
+              <option value="">すべての曲</option>
+              <option value="あり">タイアップあり</option>
+              <option value="なし">タイアップなし</option>
             </select>
           ) : (
             <input
