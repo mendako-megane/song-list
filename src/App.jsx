@@ -191,7 +191,7 @@ export default function App() {
         return search === "" || song.album.includes(search);
       }
       if (searchMode === "披露") {
-        if (search === "披露あり") return song.announce !== "f";
+        if (search === "披露あり") return song.announce == "t";
         if (search === "未披露") return song.announce === "f";
         return true;
       }
