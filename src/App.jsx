@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { songs as allSongs } from "./data/songs";
 import "./App.css";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "タイアップ", "ユニット"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "披露", "ユニット"];
 
 
 export default function App() {
@@ -37,7 +37,7 @@ export default function App() {
     "パリピポ[通常盤]",
     "バリ ハピ",
     "バリ ハピ[初回A]",
-    "バリ ハピ[初回A]",
+    "バリ ハピ[初回B]",
     "バリ ハピ[通常盤]",
     "ラッキィィィィィィィ7",
     "ラッキィィィィィィィ7[初回盤]",
@@ -190,9 +190,9 @@ export default function App() {
       if (searchMode === "収録") {
         return search === "" || song.album.includes(search);
       }
-      if (searchMode === "タイアップ") {
-        if (search === "あり") return song.tiup !== null;
-        if (search === "なし") return song.tiup === null;
+      if (searchMode === "披露") {
+        if (search === "披露あり") return song.announce !== "f";
+        if (search === "未披露") return song.announce === "f";
         return true;
       }
       if (searchMode === "ユニット") {
@@ -271,11 +271,11 @@ export default function App() {
                   </option>
                 ))}
               </select>
-          ) : searchMode === "タイアップ" ? (
+          ) : searchMode === "披露" ? (
             <select value={search} onChange={(e) => setSearch(e.target.value)}>
               <option value="">すべての曲</option>
-              <option value="あり">タイアップあり</option>
-              <option value="なし">タイアップなし</option>
+              <option value="披露あり">披露あり</option>
+              <option value="未披露">未披露</option>
             </select>
           ) : (
             <input
@@ -300,30 +300,27 @@ export default function App() {
         <div style={{ marginBottom: "0.5rem", fontSize: "0.9rem" }}>
           {filteredSongs.length} 件の曲が見つかりました
         </div>
-
-        {/* 凡例 */}
-        <div className="song-header">
-          <span>タイトル</span>
-          <span>作詞者</span>
-          <span>作曲者</span>
-          <span>初収録</span>
-          <span>発売日</span>
-        </div>
-
-        {/* 曲リスト表示 */}
-        <div className="song-list">
-          {filteredSongs.map((song) => (
-            <div key={song.id} className="song-card">
-              <span className="song-title">{song.title}</span>
-              <span>{song.lyricist}</span>
-              <span>{song.composer}</span>
-              <span>{song.album[0]}</span>
-              <span className="song-date">{song.date}</span>
+        <div className="song-list-wrapper">
+          <div className="song-list">
+            <div className="song-header">
+              <span>タイトル</span>
+              <span>作詞者</span>
+              <span>作曲者</span>
+              <span>初収録</span>
+              <span>発売日</span>
             </div>
-          ))}
+            {filteredSongs.map((song) => (
+              <div key={song.id} className="song-card">
+                <span className="song-title">{song.title}</span>
+                <span>{song.lyricist}</span>
+                <span>{song.composer}</span>
+                <span>{song.album[0]}</span>
+                <span className="song-date">{song.date}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-      
     );
   
 }

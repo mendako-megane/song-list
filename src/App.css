@@ -9,7 +9,9 @@ html {
 }
 
 body {
-  background: #FFEDB3;
+  font-family: sans-serif;
+  background-color: #FFEDB3;
+  color: #222;
   overflow-y: auto;
   margin: 0;
   padding: 0;
@@ -82,15 +84,62 @@ input, select {
   font-size: 0.95rem;
 }
 
-
-
-
-
-
 .song-title {
   font-weight: bold;
 }
 
 .song-date {
   font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 0.5rem;
+  }
+
+  .song-header,
+  .song-card {
+    min-width: 600px;
+    flex: 0 0 auto;
+  }
+
+  .song-title {
+    font-size: 1rem;
+  }
+
+  .controls {
+    flex-direction: row;       /* ← 横並びに */
+    flex-wrap: nowrap;         /* ← 折り返さない */
+    overflow-x: hidden;        
+    gap: 0.5rem;
+  }
+
+  .controls select,
+  .controls input {
+    flex: 1 1 0;           /* 各要素が均等に幅を取るように */
+    min-width: 0;          /* はみ出し防止 */
+    font-size: 0.9rem;     /* 文字が大きすぎる場合は調整 */
+    padding: 0.4rem;       /* 少しだけコンパクトに */
+    background-color: #fff;  /* 白背景 */
+    color: #000;             /* 黒文字 */
+    border: 1px solid #ccc;  /* 境界線が薄くあると見やすい */
+    border-radius: 8px;
+  }
+
+  .controls select:focus,
+  .controls input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+    border: 1px solid #007BFF;
+  }
+
+  input, select {
+    width: auto;               /* ← 幅を固定しない */
+    min-width: 150px;          /* ← 必要なら調整 */
+    flex-shrink: 0; 
+  }
 }
