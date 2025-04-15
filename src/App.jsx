@@ -240,7 +240,7 @@ export default function App() {
 
     return (
       <div className="container">
-        <h1>🎵 曲リスト</h1>
+        <h1>WEST. 楽曲リスト</h1>
   
         <div className="controls">
           {/* 検索対象選択 */}
