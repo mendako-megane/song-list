@@ -11,7 +11,7 @@ html {
 body {
   font-family: sans-serif;
   background-color: #FFEDB3;
-  color: #222;
+  color: #333;
   overflow-y: auto;
   margin: 0;
   padding: 0;
@@ -59,6 +59,7 @@ input, select {
   gap: 0.5rem;
   padding: 1rem;
   border-radius: 10px;
+  color: #333;
   align-items: center;
   word-break: break-word;
 }
@@ -68,11 +69,19 @@ input, select {
   font-weight: bold;
   border-bottom: 2px solid #ccc;
   margin-bottom: 1rem;
+  position: sticky;
+  top: 0; /* 上にピッタリくっつける */
+  z-index: 1000; /* 上に重ねる（他要素より上に表示） */
+  background-color: #FFC81B; /* 必ず背景色を指定！ */
 }
 
 .song-card {
   background: #CDFFE7;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.song-card:hover {
+  background-color: #B2EBF2; /* カーソル乗ったらちょっと濃く */
 }
 
 .song-header span,

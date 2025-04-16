@@ -610,7 +610,7 @@ export const songs = [
         titleKana: "しるえっと",
         lyricist: "川口進・MiNE",
         composer: "川口進・Thomas G:son",
-        album: ["人生は素晴らしい","人生は素晴らしい[初回B]","AWARD[通常盤]"],
+        album: ["人生は素晴らしい","人生は素晴らしい[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2016-07-27"
@@ -753,7 +753,7 @@ export const songs = [
         titleKana: "ぼくら",
         lyricist: "さくらももこ",
         composer: "松本良喜",
-        album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]","AWARD[通常盤]"],
+        album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2016-11-30"
@@ -782,8 +782,8 @@ export const songs = [
     },
     {
         id: 72,
-        title: "おーさか☆愛EYE哀",
-        titleKana: "おーさか☆あいEYEあい",
+        title: "おーさか☆愛・EYE・哀",
+        titleKana: "おーさか☆あい・EYE・あい",
         lyricist: "松尾潔",
         composer: "松尾潔・豊島吉宏",
         album: ["おーさか☆愛・EYE・哀/Ya! Hot! Hot!","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回A]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回B]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]","WESTival","WESTival[初回盤]","WESTival[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
@@ -852,7 +852,7 @@ export const songs = [
         titleKana: "なんまんかいだってきみがすき",
         lyricist: "岩田秀聡",
         composer: "岩田秀聡・永野大輔",
-        album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![通常盤]","AWARD[通常盤]"],
+        album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2017-11-22"
@@ -969,8 +969,8 @@ export const songs = [
     },
     {
         id: 89,
-        title: "おーさか☆愛EYE哀 (MURO REMIX)",
-        titleKana: "おーさか☆あいEYEあい (MURO REMIX)",
+        title: "おーさか☆愛・EYE・哀 (MURO REMIX)",
+        titleKana: "おーさか☆あい・EYE・あい (MURO REMIX)",
         lyricist: "松尾潔",
         composer: "松尾潔・豊島吉宏",
         album: ["WESTival","WESTival[通常盤]"],
@@ -1138,7 +1138,7 @@ export const songs = [
         titleKana: "YSSB",
         lyricist: "Komei Kobayashi",
         composer: "Kento Takeda・Christofer Erixon",
-        album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD[通常盤]"],
+        album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2018-12-05"
@@ -1259,7 +1259,7 @@ export const songs = [
         titleKana: "あんじょーやりーな",
         lyricist: "園田健太郎",
         composer: "園田健太郎",
-        album: ["アメノチハレ","アメノチハレ[初回A]","AWARD[通常盤]"],
+        album: ["アメノチハレ","アメノチハレ[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2019-04-24"
@@ -1338,6 +1338,7 @@ export const songs = [
         composer: "庄田ゲゲゲ",
         album: ["Big Shot!!","Big Shot!![通常盤]"],
         announce: "t",
+        singer: "WEST.",
         date: "2019-10-09"
     },
     {
@@ -1511,7 +1512,7 @@ export const songs = [
         titleKana: "まちがっちゃいない。",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
-        album: ["証拠","証拠[初回B]","AWARD[通常盤]"],
+        album: ["証拠","証拠[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2020-06-24"
@@ -1522,7 +1523,7 @@ export const songs = [
         titleKana: "ANS",
         lyricist: "神山智洋・藤井流星",
         composer: "神山智洋",
-        album: ["証拠","証拠[初回B]","AWARD[通常盤]"],
+        album: ["証拠","証拠[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2020-06-24"
@@ -1720,7 +1721,7 @@ export const songs = [
         titleKana: "DOKODA",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
-        album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]","AWARD[通常盤]"],
+        album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]","AWARD","AWARD[通常盤]"],
         announce: "f",
         singer: "WEST.",
         date: "2021-03-17"
@@ -1775,7 +1776,7 @@ export const songs = [
         titleKana: "かくしんろんり",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
-        album: ["rainboW","rainboW[初回A]","AWARD[通常盤]"],
+        album: ["rainboW","rainboW[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17"
@@ -1874,7 +1875,7 @@ export const songs = [
         titleKana: "ぼくらのりゆう",
         lyricist: "柳沢亮太(SUPER BEAVER)",
         composer: "柳沢亮太(SUPER BEAVER)",
-        album: ["サムシング・ニュー","サムシング・ニュー[初回A]","AWARD[通常盤]"],
+        album: ["サムシング・ニュー","サムシング・ニュー[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05"
@@ -1918,7 +1919,7 @@ export const songs = [
         titleKana: "むーんらいと",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
-        album: ["サムシング・ニュー","サムシング・ニュー[通常盤]","AWARD[通常盤]"],
+        album: ["サムシング・ニュー","サムシング・ニュー[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05"
@@ -1973,7 +1974,7 @@ export const songs = [
         titleKana: "まよなかのLION",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
-        album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回A]","AWARD[通常盤]"],
+        album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28"
@@ -2050,7 +2051,7 @@ export const songs = [
         titleKana: "おれとおまえとときどきちぇいさー",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
-        album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回B]","AWARD[通常盤]"],
+        album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19"
@@ -2182,7 +2183,7 @@ export const songs = [
         titleKana: "せらゔぃ",
         lyricist: "キタニタツヤ",
         composer: "キタニタツヤ",
-        album: ["Mixed Juice","Mixed Juice[初回A]","AWARD[通常盤]"],
+        album: ["Mixed Juice","Mixed Juice[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09"
