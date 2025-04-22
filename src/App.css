@@ -41,6 +41,8 @@ h1 {
 }
 
 input, select {
+  flex: 1 1 0;           /* 各要素が均等に幅を取るように */
+  min-width: 0;   
   padding: 0.5rem;
   font-size: 1rem;
   min-width: 150px;

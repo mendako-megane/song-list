@@ -2822,7 +2822,7 @@ export const songs = [
         lyricist: "NakamuraEmi・カワムラヒロシ",
         composer: "NakamuraEmi・カワムラヒロシ",
         album: ["ハート / FATE","ハート / FATE[初回B]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2024-04-24"
     },
@@ -2844,7 +2844,7 @@ export const songs = [
         lyricist: "Shadow-words・篠原とまと",
         composer: "高橋諒",
         album: ["ハート / FATE","ハート / FATE[通販盤]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2024-04-24"
     },
@@ -2866,7 +2866,7 @@ export const songs = [
         lyricist: "Kanata Okajima・Hayato Yamamoto",
         composer: "Kanata Okajima・Hayato Yamamoto",
         album: ["まぁいっか！","まぁいっか！[初回A]","まぁいっか！[初回B]","まぁいっか！[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2024-09-10"
     },
@@ -2877,7 +2877,7 @@ export const songs = [
         lyricist: "山崎あおい",
         composer: "白戸佑輔",
         album: ["まぁいっか！","まぁいっか！[初回A]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2024-09-10"
     },
@@ -2888,7 +2888,7 @@ export const songs = [
         lyricist: "コ太郎 from テンパーセントカーテン",
         composer: "コ太朗 from テンパーセントカーテン",
         album: ["まぁいっか！","まぁいっか！[初回B]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2024-09-10"
     },
@@ -2899,7 +2899,7 @@ export const songs = [
         lyricist: "ET-KING・NAOKI-T",
         composer: "ET-KING・NAOKI-T",
         album: ["まぁいっか！","まぁいっか！[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2024-09-10"
     },
@@ -2910,7 +2910,7 @@ export const songs = [
         lyricist: "長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",
         composer: "長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",
         album: ["まぁいっか！","まぁいっか！[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2024-09-10"
     },
@@ -2932,7 +2932,7 @@ export const songs = [
         lyricist: "篠原とまと",
         composer: "川口進・MiNE・佐原康太",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -2954,7 +2954,7 @@ export const songs = [
         lyricist: "TSINGTAO・Sorato・Dvii・Ryo Ito",
         composer: "TSINGTAO・Sorato・Dvii・Ryo Ito",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -2965,7 +2965,7 @@ export const songs = [
         lyricist: "CONY・Sayaka Inoue",
         composer: "CONY・Sayaka Inoue",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -2976,7 +2976,7 @@ export const songs = [
         lyricist: "大原拓真(Penthouse)",
         composer: "浪岡真太郎(Penthouse)",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -2987,7 +2987,7 @@ export const songs = [
         lyricist: "重岡大毅",
         composer: "重岡大毅",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -2998,7 +2998,7 @@ export const songs = [
         lyricist: "KOPERU・peko・コーラ・KBD・teppei・HATCH・KZ・KennyDoes",
         composer: "Cosaqu",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3009,7 +3009,7 @@ export const songs = [
         lyricist: "東里梨生",
         composer: "東里梨生",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3020,7 +3020,7 @@ export const songs = [
         lyricist: "キヨサク",
         composer: "キヨサク",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3031,7 +3031,7 @@ export const songs = [
         lyricist: "Soflan Daichi",
         composer: "鈴木盛広",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3042,7 +3042,7 @@ export const songs = [
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin’park)・栗原暁(Jazzin'park)",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回B]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3053,7 +3053,7 @@ export const songs = [
         lyricist: "ミヤケ武器",
         composer: "ミヤケ武器",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3064,7 +3064,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-05-07"
     },
@@ -3075,7 +3075,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
-        announce: "",
+        announce: "t",
         singer: "WEST.",
         date: "2025-05-07"
     },
@@ -3086,7 +3086,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-05-07"
     },
@@ -3097,7 +3097,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回B]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-05-07"
     },
@@ -3108,7 +3108,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-05-07"
     },
@@ -3119,7 +3119,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
-        announce: "",
+        announce: "f",
         singer: "WEST.",
         date: "2025-05-07"
     }
