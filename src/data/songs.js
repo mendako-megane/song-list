@@ -3053,7 +3053,7 @@ export const songs = [
         lyricist: "ミヤケ武器",
         composer: "ミヤケ武器",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[通常盤]"],
-        announce: "f",
+        announce: "t",
         singer: "WEST.",
         date: "2025-03-12"
     },
@@ -3108,7 +3108,7 @@ export const songs = [
         lyricist: "",
         composer: "",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
-        announce: "f",
+        announce: "t",
         singer: "WEST.",
         date: "2025-05-07"
     },
