@@ -2877,7 +2877,7 @@ export const songs = [
         lyricist: "山崎あおい",
         composer: "白戸佑輔",
         album: ["まぁいっか！","まぁいっか！[初回A]"],
-        announce: "f",
+        announce: "t",
         singer: "WEST.",
         date: "2024-09-10"
     },
