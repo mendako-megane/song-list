@@ -5,10 +5,12 @@ export const songs = [
         titleKana: "ええじゃないか",
         lyricist: "岩崎貴文・mildsalt",
         composer: "岩崎貴文",
+        arranger: "CHOKKAKU",
         album:["ええじゃないか","ええじゃないか[初回盤]","ええじゃないか[MY BEST CD盤]","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]",],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "ひとつひとまず「なんでやねん！」\nふたつふたりで「どないやねん！」\nみっつみんなで「ほんまやねん！」\n愛の花が咲く\n\n浪速生まれの　浪速育ちや\n今　世界中　さあ響け\nな・に・わ・ぶ・し！\n\nええじゃないか！ええじゃないか！\nまだまだいけるで！\nどっこいどっこいどっこいしょ\nどっこいどっこいどっこいしょ\nホンマにホンマにホンマにホンマにかなわんわ～\nええじゃないか！ええじゃないか！\nまだまだいけるで！\nあっぱれあっぱれあっぱれあっぱれの\n心意気！\n\nよっつ呼ばれて「どーすんねん」\nいつついきなり「なにすんねん」\nむっつ無理矢理「やったるねん」\n来たで七侍！\n\nなにはなくとも　浪速魂\nこの地球上　最強の\nな・に・わ・ぶ・し！\n\nええじゃないか！ええじゃないか！\nまだまだやれるで！\nどっこいどっこいどっこいしょ\nどっこいどっこいどっこいしょ\nナンボのナンボのナンボのナンボのもんやねん～\nええじゃないか！ええじゃないか！\nまだまだやれるで！\nテッペンテッペンテッペンテッペンの\n大勝負！\n\nこれが生き様やねん　晴れ舞台やねん\n踊って舞いあがれ　パッと　花吹雪\n\nええじゃないか！ええじゃないか！\nまだまだいけるで！\nどっこいどっこいどっこいしょ\nどっこいどっこいどっこいしょ\nホンマにホンマにホンマにホンマにかなわんわ～\nええじゃないか！ええじゃないか！\nまだまだいけるで！\nあっぱれあっぱれあっぱれあっぱれの\n心意気！\n\nええじゃないか！ええじゃないか！\nまだまだやれるで！\nどっこいどっこいどっこいしょ\nどっこいどっこいどっこいしょ\nナンボのナンボのナンボのナンボのもんやねん～\nええじゃないか！ええじゃないか！\nまだまだやれるで！\nテッペンテッペンテッペンテッペンの\n大勝負！"
     },
     {          
         id: 2,
@@ -16,10 +18,12 @@ export const songs = [
         titleKana: "ばんざいゆめまんさい",
         lyricist: "zopp",
         composer: "川口進・Joakim Bjornbeg・Christofer Erixon",
+        arranger: "CHOKKAKU",
         album: ["ええじゃないか","ええじゃないか[初回盤]","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "人生はバンザイ！　夢マンサイ！\n泣いたり笑たりでGO!!\n酸いも甘いも　抱きしめ　笑い飛ばして\nほんまサンキューサンキュー！\n\nミスだらけで　へこむ毎日　人の群れに　押し潰され\n水たまりに　映る惨めな自分と　見つめ合う\n\n「昭和は遠くなりにけり」でも\n消せない熱い何かが\n胸(ココ)にはあるよ\n\n頑張って　傷ついて　だけど　踏ん張って\n泣いたって　Never give up Keep on Moving on\n\nさぁ　運命なんて\n変えていったら　ええやろ\n\n人生はバンザイ！　夢マンサイ！\n泣いたり笑たりでGO!!\n酸いも甘いも　抱きしめ　笑い飛ばそう\n愚かでも　構わない　ガムシャラに生きるんだ\n怖いものだらけでも\nみんながいる\nほんまサンキューサンキュー！\n\nほんまにサンキュー！\n\nぶつかる壁　ズタボロの明日　頑張るほど冷やかされて\n夜空の下　涙が溢れて　眠れない\n\n「夢を見ること　なにがダサいの？」\n熱が冷める毎日\n自分を信じろ\n\n胸はって　風切って　走れ　未来へ\nなんだって　叶うって　明日を　掴め\n\nもう　振り向かないで\n変われなくても　ええねん\n\n人生はバンザイ！　夢マンサイ！\n恥ずかしがらないでGO!!\n前のめりに　転べば　結果オーライ！\n戸惑ってる　暇はない　ハチャメチャにぶつかれ\n痛いことだらけさ\nでもそれこそ\nめっちゃイケてんで！\n\nもし時代が　君を拒み\nその扉　閉ざしても\n諦めるな\nいつでもそばにいるよ\n世界を変えてやるんだ　その手で\n\n人生はバンザイ！　夢マンサイ！\n明けない夜はない\n涙さえも　抱きしめ　今を駆け抜けろ\n\n人生はバンザイ！　夢マンサイ！\n泣いたり笑たりでGO!!\n酸いも甘いも　抱きしめ　笑い飛ばそう\n愚かでも　構わない　ガムシャラに生きるんだ\n怖いものだらけでも\nみんながいる\nほんまサンキューサンキュー！\n\nほんまにサンキュー！\n\nほんまサンキューサンキュー！",
     },
     {
         id: 3,
@@ -27,10 +31,12 @@ export const songs = [
         titleKana: "そのさきへ",
         lyricist: "Shusui",
         composer: "Shusui・Seiji Motoyama",
+        arranger: "丸山真由子",
         album: ["ええじゃないか","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "空を見上げて　流れる雲と\n自分自身　重ね合う僕ら\nいつも不安で頼りないけど\n諦めず夢見て\n\nHold on time Believe me now\n歩いて行こう\n\n僕らの人生(みち)はまだまだ続く\n時に激しい風に打たれて\n共に目指した輝く未来\n忘れないで君と笑顔でいよう\n\n傷ついた過去　君と出逢って\n変わって行くその姿に何故か\n涙溢れて　止まらなくなって\n真っすぐ前を見て\n\nHold you tight Close me now\n振り返らない\n\n僕らの未来　照らし続けて\nいつか苦しい　そんな時でも\n信じる心持ち続けよう\n明日はきっと晴れるように願う\n\n君と描いてく人生(みち)のその先に\n想像を超える未来が待っている　その先へ\n\n僕らの未来　照らし続けて\nいつか苦しい　そんな時でも\n信じる心持ち続けよう\n明日はきっと晴れるように\n\n僕らの人生(みち)はまだまだ続く\n時に激しい風に打たれて\n共に目指した輝く未来\n忘れないで君と笑顔でいよう",
     },
     {
         id: 4,
@@ -38,10 +44,12 @@ export const songs = [
         titleKana: "なにわいっとうしょう",
         lyricist: "ケリー・浅利進吾",
         composer: "浅利進吾",
+        arranger: "ha-j",
         album: ["ええじゃないか","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "やったるで　やったるで　浪速の実力見せたるで\nいったるで　いったるで　浪速は世界の一等賞！\nほんまに　やったるで？！\n\nDancing No.1 Singing No.1 Talking No.1　誰にも負けるわけないやろ\n愛情 No.1　愛嬌 No.1　熱い No.1　浪速は一等賞！\n\nドンドン！　俺たちのリズムに合わせろ\nSong Song　ハートで勝負　あの子に届け俺らの歌声\nタンタンカタッタカタン　息する間もなくしゃべり続けて\nハクのかスウのかわからんくなった\n\n心の中感じるパワー　君と僕の未来のため\n世界平和願うんなら\n全部を浪速にしたらええ！！\n\n兄ちゃんも　姉ちゃんも　ばあちゃんも　オトンもオカンも\nわになろう　わになろう　わになろう　浪速でわになろう\nこの地球(ほし)もほら　たこ焼きのカタチ\nこれは絶対誰にも内緒やで\n\nうぉ?!!!!!\nDancing No.1　Singing No.1　Talking No.1　誰にも負けるわけないやろ\nNo.1 ワン ワン　No.1 ワン ワン　No.1 ワン ワン\nNo.1 ワ　ワンワ　ワンワン！！\n\nやったるで　やったるで　浪速の実力見せたるで\nいったるで　いったるで　浪速は世界の一等賞！\n\n心の中感じるパワー　君と僕の未来のため\n世界平和願うんなら\n全部を浪速にしたらええ！！\nしたらええ！！\n\n兄ちゃんも　姉ちゃんも　ばあちゃんも　オトンもオカンも\nわになろう　わになろう　わになろう　浪速でわになろう\nこの地球(ほし)もほら　たこ焼きのカタチ\nこれは絶対誰にも内緒やで\n\nうぉ?!!!!!\nDancing No.1　Singing No.1　Talking No.1　誰にも負けるわけないやろ\n愛情 No.1　愛嬌 No.1　熱い(あっつい)No.1　浪速は一等賞！\nNo.1 ワン ワン　No.1 ワン ワン　No.1 ワン ワン\nNo.1 ワ　ワンワ　ワンワン！！\n\nやったるで　やったるで　浪速の実力見せたるで\nいったるで　いったるで　浪速は世界の一等賞！\n\n浪速は世界の一等賞！",
     },
     {
         id: 5,
@@ -49,10 +57,12 @@ export const songs = [
         titleKana: "Rainbow Dream",
         lyricist: "ケリー",
         composer: "TSUKASA",
+        arranger: "佐藤泰将",
         album: ["ええじゃないか","ええじゃないか[MY BEST CD盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "近づくほどに大きくなる壁\n越えてみせると誓った時から\n俯いたり逃げるくらいなら\n傷つきながらでも進むと決めたよ\n不安も恐怖も抱きしめたまま\n夢は熱く胸の中で燃える太陽\n\nRainbow Dream 輝く未来\n僕らが届けてみせる\n始まりはそうこの時\nこのステージから\nRainbow Dream 信じて欲しい\n僕らは叶えてゆける\n君と素敵な夢を\nいつまでも見てたいから\nAlways with you\nいつも一緒に\n\nRainbow Dream 輝く未来\n僕らが届けてみせる\n始まりはそうこの時\nこのステージから\n\nRainbow Dream 信じて欲しい\n僕らは叶えてゆける\n君と素敵な夢を\nいつまでも見てたいから\nAlways with you\nいつも一緒に",
     },
     {
         id: 6,
@@ -60,10 +70,12 @@ export const songs = [
         titleKana: "My Best Friend",
         lyricist: "下地悠",
         composer: "清水明男",
+        arranger: "家原正樹",
         album: ["ええじゃないか","ええじゃないか[MY BEST CD盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-04-23",
+        lyrics: "がむしゃらに 走り続け\nたどり着いた 最後の部屋\n見上げた窓 強い光\n期待と不安がよぎる\n\n周りを見渡せば\n同じ目をしてる 仲間がいて\n\nしのぎを削りながら\n希望に向かって 必死にもがいた\n\nMy Best Friend My Best Friend\n僕は探し続けていたよ\n教えて 教えて\n分かち合える奇跡の出会いを\n\nMy Best Friend My Best Friend\n僕は運命を手繰り寄せたよ\n未来へ 未来へ\n分かち合える最後の出会いを\n\nMy Best Friend My Best Friend\n僕は探し続けていたよ\n教えて 教えて\n分かち合える奇跡の出会いを\n\nMy Best Friend\nMy Best Friend……",
     },
     {
         id: 7,
@@ -71,10 +83,12 @@ export const songs = [
         titleKana: "Summer Dreamer",
         lyricist: "Komei Kobayashi",
         composer: "Pessi Levanto・MiNE",
+        arranger: "鈴木雅也",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "俺らSummer Dreamer　今 I got take off\nこの季節　終わらないでなんてYou & I\nSummer Dreamer　ほら I got take off\nこんな夏はきっと It's your night\nWe are the Summer Dreamer… A Dreamer\n\n今年の夏は　去年よりずっと刺激的\n神や魔法使いの仕業でもなく仲間のお陰だよ Oh yeah\nI want you, I want you　一度きり、山　越えた先にそっと\n俺たちを待っているのは　あの真っ白い砂浜だよ\n\n夜になれば空を走る流星\nこれ以上　この夏に何を望むの？\n\n俺らSummer Dreamer　今 I got take off\nこの季節　終わらないでなんてYou & I\nSummer Dreamer　ほら I got take off\nこんな夏はきっと It's your night\n駆け抜けて行くNight & day　泣いてないで\n照りつける太陽の下で\nWhat a day go　心配ないから\nこのままHere we go\n\nOh We are the Summer Dreamer\nOh We are the Summer Dreamer\nOh We are the Summer Dreamer\nI got it, Summer Dreamer\n\n天気予報は　外れて降り続いてた雨\nだけど雲の切れ間に太陽が　今、顔をのぞかせるよ\n\n違う色した7つの光が\n重なりあの空に虹をかけるよ\n\n俺らSummer Dreamer　今 I got take off\nスリルさえ楽しんじゃえ　それGot it so\nSummer Dreamer　ほら I got take off\nハメを外しても In the night?\n終わらないよA summer day　朝まで\n仲間達と笑い飛ばそう\nAs over night?　ここにおいでよ\nそのままHere we go\n\nSummer Dreamer… Summer Dreamer\n\n俺らSummer Dreamer\nこの季節　終わらないでなんてYou & I\nSummer Dreamer　こんな夏 It's your night\n\nWe are the Summer Dreamers　お気に入りのTシャツ\n着て探しに行こうぜ　真夏のビーナス\n線香花火が　そっと火花散らす\n消えてしまうまでに　明日へと走り出す\n\n駆け抜けて行くNight & day　泣いてないで\n照りつける太陽の下で\nWhat a day go　心配ないから\nこのままHere we go\n\nOh We are the Summer Dreamer\nOh We are the Summer Dreamer\nOh We are the Summer Dreamer\nI got it, Summer Dreamer\n\nOh 俺らSummer Dreamer\nI got it, Summer Dreamer\nWe are the Summer Dreamer",
     },
     {
         id: 8,
@@ -82,21 +96,25 @@ export const songs = [
         titleKana: "こなもん",
         lyricist: "corin.",
         composer: "corin.",
+        arranger: "鈴木雅也",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "さぁ朝もはよから準備して　今日も粉もん覚悟はえぇか？\nそれがナニワの現実　人々はそれを知れへん\nあぁ焼きそばお好み with 白飯　炭水化物地獄や\nそれがナニワの現実　人々はそれを知れへん\n\nなんやそれは？　クレープちゃうんけ？\n広島焼きも美味いけどな！\n\nお好み焼いてオモロなる\nタコ焼き食べてカシコなる\n猫舌やけどそれがえぇんやん\nアチチの口内　ハフハフハフ\nお好み焼けば仲良なる\nタコ焼き食べりゃ国越える\n小麦粉練ればそれでえぇやん\nアチチの鉄板　ジュウジュウジュウ\n青のり付きのチュチュチュ\nナニワんキスやん\n\nさぁ神の配合見せたろか　ナニワ粉もん　それは宇宙や\nおかんレシピが最高　人々はそれを知れへん\nあぁ月末節約？水多め 痩せる気かおかん？無駄や!\nそれは小麦粉汁や　人々はそれを知れへん\n\nぐろーばるって　なんやそれは？\nちっこい事は言うたらあかん！\n\nお好み焼けば言葉いらん\nツレのツレが地球外生命体\n小麦粉練ればみんな仲間です\n何でも繋ぐで　こ・な・もん！\nお好み焼けば仲良なる\nタコ焼き食べりゃ国越える\n粉もんでさぁ　繋がろうや！\nビリケンさんも　ハッハッハッ\nソース味のチュチュチュ\nナニワんキスやん\n\nもんじゃ？　それがなんぼのもんじゃ！\nナニワの粉もんなめんなや！\n\nお好み焼いてオモロなる\nタコ焼き食べてカシコなる\n猫舌やけどそれがえぇんやん\nアチチの口内　ハフハフハフ\n\n結局もんじゃ食べてみる\nウマ過ぎてもんじゃにハマる\n粉もんならば　なんでもえぇわ\nお口にかきこめ　パクパクパク\nお好み焼けば仲良なる\nタコ焼き食べりゃ国越える\n粉もんでさぁ　繋がろうや！\nビリケンさんも　ハッハッハッ\nソース味のチュチュチュ\nナニワんキスやん",
     },
     {
         id: 9,
         title: "Wake up!",
         titleKana: "Wake up!",
         lyricist: "ケリー",
-        composer: "Petter Nord・Mats Larsson",
+        composer: "Peter Nord・Mats Larsson",
+        arranger: "Peter Nord・Mats Larsson",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "Wake up! Wake up!　おはようSun\n\nニヤケ顔で　幸せそう　俺を蹴飛ばしといて　どんな夢見てる？\n\nこいつらといたら　つい時間も忘れて\n疲れて寝るまで　熱く語って　遅刻寸前\nOh　さん、に、いち、ハイ、Wake up!\n\nよっしゃ!!　夢の続きだWake up!　Sun Sun　お日さんもご機嫌だし\nカーテンを開けて　Wake up! Wake up!　おはようPeace?♪\nもっと　いい夢見ようWake up!　Run Run　リアルな世界で\nあくびなんてしてる　暇なんてない　乗り遅れるなよ\nWake up! Wake up!　おはようSun\n\nちょっと待った　なんか足りない感じ\n二度寝常習犯の　あいつ見当たらない\n\nいっつもこうやって　みんなで怒られたって\n見捨てたりできない　家に戻って　いたずらだ\nYeah　さん、に、いち、ハイ、Wake up!\n\nよっしゃ!!　夢の続きだWake up!　Sun Sun　お日さんもご機嫌だし\nカーテンを開けて　Wake up! Wake up!　おはようPeace?♪\nもっと　楽しい予感Wake up!　Round Round　地球も駆け足\n退屈なんてもん　この世界に　あるわけないだろ\nWake up! Wake up!　おはようSun\n\nどんな無謀な夢も　口に出せば　叶いそうだし\nポジティブに生きよう　世界中を巻き込んで　Hello Hello Wake up!\n\nよっしゃ!!　夢の続きだWake up!　Sun Sun　お日さんもご機嫌だし\nカーテンを開けて　Wake up! Wake up!　おはようPeace?♪\nもっと　いい夢見ようWake up!　Run Run　リアルな世界で\nあくびなんてしてる　暇なんてない　乗り遅れるなよ\nWake up! Wake up!　おはようSun\n\nよっしゃ!!　夢の続きだWake up!　Sun Sun　お日さんもご機嫌だし\nカーテンを開けて　Wake up! Wake up!　おはようPeace?♪\nもっと　楽しい予感Wake up!　Round Round　地球も駆け足\n退屈なんてもん　この世界に　あるわけないだろ\nWake up! Wake up!　おはようSun\n\nWake up! Wake up!　おはようSun",
     },
     {
         id: 10,
@@ -104,10 +122,12 @@ export const songs = [
         titleKana: "LET'S GO WEST ～K A N S A I !!～",
         lyricist: "森月キャス・kenko-p",
         composer: "Peter Nord・Mats Larsson",
+        arranger: "Peter Nord・Mats Larsson",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "ナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\nナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\n\nIt's K - A - N - S - A - I\nまいどアリガトさん\nYeah, We are Funky and Crazy!\nやかましいくらいでちょーどええねん\n\nKANSAI!　BANZAI!　いけてます！\nほめ言葉は　アホや\nちょけた笑顔　べっぴんさん!　おいでませ KANSAI!!\n\nLet's Go West! Happy!　KANSAIにおいでや\nLet's Go West! Lucky!　笑いのパラダイス\nLet's Go West! Happy!　KANSAIにおいでや\nLet's Go West! Lucky!　アホは元気のチカラ！\n\nナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\nナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\n\nK-A-N-S-A-I　KANSAI!　K-A-N-S-A-I　KANSAI!\nK-A-N-S-A-I　KANSAI!　K-A-N-S-A-I　KANSAI!\n\nKANSAI!　BANZAI!　いけてます！\nキメ言葉は　アホや\nビビリやけどパワフル　かましたれ KANSAI!!\n\nLet's Go West…　Let's Go West…\nLet's Go West…　Let's Go West…\n\nLet's Go West! Happy!　KANSAIにおいでや\nLet's Go West! Lucky!　笑いのパラダイス\nLet's Go West! Happy!　KANSAI de BANZAI!\nLet's Go West! Lucky!　アホは元気のチカラ！\n\nナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\nナーナナ…　アホやCrazy!　ナーナナ…　オモロぃCrazy!\nアホやCrazy!",
     },
     {
         id: 11,
@@ -115,10 +135,12 @@ export const songs = [
         titleKana: "P&P",
         lyricist: "Madoka",
         composer: "Peter Nord・Mats Larsson",
+        arranger: "Peter Nord・Mats Larsson",
         album: ["go WEST よーいドン！","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "Wow wow P&P Beautiful\nWow wow P&P Wonderful\n\n夢みたい　でも夢じゃない　ここが　そう　僕らの世界\n自由で心地イイ場所さ　All day, All way, Feel so good\n\n嘘みたい でも嘘じゃない　目に映る　広い世界\n不安なんてどっかいっちゃったよ\n\nどこまで走れるだろう？\nどこまで近づけるんだろう？\nあの大空まで　届きそう Fly away\n\n1, 2, 3 Come on Come on Now!\n僕らと一緒にいかが？P&P　It's a Beautiful Word\nここでBoys&Girls　どうぞご自由に遊んでって\n遠慮はNo! No!\n嬉しいときは歌って　楽しくなったらDanceしたっていい\n気分はPerfect　心もPeakなら\n合言葉はP&P!\n\nWow wow P&P Beautiful\nWow wow P&P Wonderful\n\n夢みたい でも夢じゃない　ここはもう　僕らの世界\n心に描いてた場所さ　All day, All way, Feel so good\n\n嘘みたい　でも嘘じゃない　夢叶う　魔法の世界\n涙だって笑顔に変わったよ\n\nどこまで続くんだろう？\nどこまで広がってくんだろう？\nこの大地を　揺らそうよ Jumping up!\n\n1, 2, 3 Sing Sing Now!\n僕らと一緒にいかが？P&P　It's a Wonderful Word\nここでStep by Step　リズム刻むように踊って\n我慢はNo! No!\n心のうたを歌って　物足りないならDanceしたっていい\n誰もがPerfect　今がPeakなら\n合言葉はP&P!\n\nWow wow P&P Wonderful\n\n新しいこの世界で　また夢をみつけて\nいつも絶好調　まさに最高潮さ\n\n1, 2, 3 Come on Come on Now!\n僕らと一緒にいかが？P&P　It's a Beautiful Word\nここでBoys&Girls　どうぞご自由に遊んでって\n遠慮はNo! No!\n\n1, 2, 3 Sing Sing Now!\n僕らと一緒にいかが？P&P　It's a Wonderful Word\nここでStep by Step　リズム刻むように踊って\n我慢はNo! No!\n心のうたを歌って　物足りないならDanceしたっていい\n誰もがPerfect　今がPeakなら\n合言葉はP&P!\n\nWow wow P&P Beautiful\nWow wow P&P Wonderful\nYeah You're my girl\nP&PでGo!",
     },
     {
         id: 12,
@@ -126,10 +148,12 @@ export const songs = [
         titleKana: "Break Out",
         lyricist: "KOMU",
         composer: "加藤裕介",
+        arranger: "山路一志",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "Shout!　Let's break out!\nJudge myself!\n\n時代ぶち壊せ\nLet's break out!　満たされない欲望を常に抱いた\nJudge myself!　アスファルトにキスして貫いた前傾姿勢\nLet's break out!　鮮明なプラン　頭ん中いつも描いた\nJudge myself!　とりあえず目の前のバリケード粉砕希望\n\n乱れた衝動\n祈りを取り払い\n歪んだ運命を\nあざ笑え\n\n尖ったままの眼差しは\nThe glitter of your eyes freeze even the despair\nやすらぎさえも睨みつけ\nFINE! Even the adversity becomes paradise\nこの闇夜を駆け抜ける\n\nLet's break out!\nJudge myself!\n\n俺を止めてみろよ\nLet's break out!　躊躇いは無い　確かに聞こえたゴーサイン\nJudge myself!　周回もう凄え差で　突き放すポーカーフェイス\nLet's break out!　いつかじゃない　今を生きる為の判断\nJudge myself!　純情も策士も　どっちだってサイテーだろう？\n\n乱れた欲望を\n\n尖ったままの眼差しは\nThe glitter of your eyes freeze even the despair\nやすらぎさえも睨みつけ\nFINE! Even the adversity becomes paradise\n尖ったままでいれるなら\nEven if Love denies this feelings…\n叶わぬ夢を見ていたい\nI will hold on to the hope and sorrow\n終わらない今日を\n輝ける この闇夜を駆け抜ける\n\nLet's break out!　Judge myself!\nLet's break out!　Judge myself!\nJudge myself!",
     },
     {
         id: 13,
@@ -137,10 +161,12 @@ export const songs = [
         titleKana: "Criminal",
         lyricist: "zopp",
         composer: "CHOKKAKU・Takuya Harada・Joakim Bjornberg・Christofer Erixon",
+        arranger: "CHOKKAKU",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "火花が散る路地裏　出口のない闇の中\nサーチライトから Run Run Run Run Run\n君を連れ去って Running away\n君のためなら　なんだってさ\n出来んだ　だって　愛は無敵\n流れる血を　心配そうに　君がじっと見つめるんだ\n\n心隠して　生きるのは　ごめんなんだ　わかるだろ？\n愛はいつも　命がけ\n\nDangerous love　乱れた　Sweet Criminal\n戸惑ってる　暇なんて　ないぜ？\nDangerous love　踊ろうぜ　All through the night\nもう　ギリギリ　Sweet Criminal\nこの愛はもう止められない　Criminal…\n\n人波をかきわけて　ざわめく街を置き去り\n掴みかかる腕ほどき\n車飛び乗りハイウェイへと\n誰も信用なんて出来ないまま\n生きてた　そうさ　今日までは\n君が変えてくれたんだMy girl　誰にも渡さない\n\n後悔なんてない　君なしの　未来なんていらないよ\n愛に生きる　どこまでも\n\nYou're my treasure　狂わす　理性Tonight\n彷徨ってる　心よ　Good night\nYou're my treasure　世界が　終わっても\nもう　構わない　Sweet Criminal\n誰にも邪魔はさせない　Criminal…\n\n過去は捨てて　君と二人　未来へ\n\nDangerous love　乱れた　Sweet Criminal\n戸惑ってる　暇なんてないぜ？\nDangerous love　踊ろうぜ　All through the night\nさぁ　Come on Come on…　Come on Come on…!\n\nYou're my treasure　狂わす　理性Tonight\n彷徨ってる　心よ　Good night\nYou're my treasure　世界が　終わっても\nもう　構わない　Sweet Criminal\nDangerous love　乱れた　Sweet Criminal\n戸惑ってる　暇なんて　ないぜ？\nDangerous love　踊ろうぜ　All through the night\nもう　ギリギリ　Sweet Criminal\nこの愛はもう止められない　Criminal…\n誰にも邪魔はさせない　Criminal…",
     },
     {
         id: 14,
@@ -148,10 +174,12 @@ export const songs = [
         titleKana: "ちゃうねんっ!!",
         lyricist: "Kohei Yokono・ULO",
         composer: "Kohei Yokono・ULO",
+        arranger: "Kohei Yokono",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "本当は誰だって\nやれば出来る子や\n僕達の未来は\n輝くダイヤモンド\n(ギラギラ)\n\nマニュアルなんて存在しない\n勢いでイイ\nシャカリキに自分を信じて\nやるしかないねん！\n\nスタートダッシュかまして\n膝を擦りむいても\nまだいける　怖がらずに\nど派手に行こう\n\nチャチャチャ\nチャチャちゃうね～ん\n失敗もええね～ん\nまた気張りゃええね～ん\n恥ずかしくないね～ん\n\nチャチャチャ\nチャチャちゃうね～ん\n「やれる事少しでもええから」\nチャチャチャ\nチャチャちゃうね～ん\n「人生は最後まで never give up」\n\nチャチャチャ♪\n\n調子乗って\nドヤされても　やめられない\n好きな事に夢中って\n素敵な事やで\n(そやそや)\n\n頭の中でめぐりめぐる\n妄想世界\nアホな事やと笑われても\n正面突破!!\n\n疲れたらひと眠り\n飯食ってふた眠り\n夢見てる　あの世界は\n今も待ってる\n\nチャチャチャ\nチャチャちゃうね～ん\n口だけじゃあかんね～ん\nカッコだけちゃうね～ん\n飛び込めばええね～ん\n\nチャチャチャ\nチャチャちゃうね～ん\n「始まりは誰でも怖いけど」\nチャチャチャ\nチャチャちゃうね～ん\n「やる時はやらねば never give up」\n\nチャチャチャ♪\n\nいつの日も魂には\n熱い情熱を\n辛くても泣きたくても\nすこぶるファイヤー!!!!\n\nチャチャチャ\nチャチャちゃうね～ん\n失敗もええね～ん\nまた気張りゃええね～ん\n恥ずかしくないね～ん\n\nチャチャチャ\nチャチャちゃうね～ん\nアホだけじゃアカンね～ん\nオカンも怒るで～ぃ\nお前誰やね～ん\n\nチャチャチャ\nチャチャちゃうね～ん\n「やれる事少しでもええから」\nチャチャチャ\nチャチャちゃうね～ん\n「人生は最後まで never give up」\n\nチャチャチャ\nチャチャちゃうね～ん\n「始まりは誰でも怖いけど」\nチャチャチャ\nチャチャちゃうね～ん\n「やる時はやらねば never give up」\n\nチャチャチャ♪",
     },
     {
         id: 15,
@@ -159,10 +187,12 @@ export const songs = [
         titleKana: "バンバンッ!!",
         lyricist: "KOMU",
         composer: "浅利進吾",
+        arranger: "鈴木雅也",
         album: ["go WEST よーいドン！","go WEST よーいドン！[初回盤]","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "今　高く掲げた指の示す　夢の先へ\n\nOK! 毎度毎度！\nKing of the Partyの登場！\n\nEverybody Yo! Put your hands up!!\nSay!! BaBaBaBang!\n\nBang! Bang! その手上げろ！ 今を生きるアツさをみせろ\nやっぱ人生　楽しめなきゃ嘘だろ\nHigh! High! その手上げろ！ 大空に声響かせろ\nこんな喜び　こんな瞬間そう　続け永久に\n燦然と咲き誇れ　BaBaBaBang!\n\nよそ見はDoubt (Hey) 狙いすましてBang Bang!!\nそうThe timeは (Why?) 待ったなし (Yeah!)\nLet's hurry hurry up! (Ho!)\nI'm gonna make it いつかは　なんて言ってちゃ So wack\n今すぐJumpin'さ　掴み取れ　そう\nEverytime (Time!) Every night (Night!)\n決して気は抜けない (Yo!)\nYes so アンテナは常に全開で Just 速攻Lock on!! で行動に\n歌え　叫べ　尽き果てるまで (Uh) もっと感情的に (Yeah!)\nEverything, Boooom!! Yo!!\n\n簡単じゃねえ　楽じゃねえ\nだけど決めたんだろ自分で\nWe gotta get! We gotta go!\n年中無休で　夢中で飛びまわれ\nAre you ready?\nSay! BaBaBaBaBaBaBang!\n\nBang! Bang! その手上げろ！ 今を生きるアツさをみせろ\nやっぱ人生　楽しめなきゃ嘘だろ\nHigh! High! その手上げろ！ 大空に声響かせろ\nこんな喜び　こんな瞬間そう　続け永久に\n燦然と咲き誇れ　BaBaBaBang!\n\nまだまだ行くぜ Aight? こんなもんじゃねえ Jumpin' high\nYes 可能性　You know what I'm saying?\nBang!! Bang!! Bang!! Bang!!\n起きちゃ寝ての繰り返し そんなボンクラ意味はねえし\nIt's my life 揺るがない　Everybody say “What !!!???”\n\n冗談じゃねえ　テキトーじゃねえ\nどんなに馬鹿げた夢だって\nWe gotta get! We gotta go!\n年中無休で 目立って駆け抜けろ\nAre you ready?\nSay! BaBaBaBaBaBaBang!\n\nBang! Bang! その手上げろ！ 今を生きるアツさをみせろ\nやっぱ人生　楽しめなきゃ嘘だろ\nHigh! High! その手上げろ！ 大空に声響かせろ\nこんな喜び　こんな瞬間そう　続け永久に\n燦然と咲き誇れ　BaBaBaBang!\n\nきっと僕らが伸ばすこの指先は\nそう　夢を繋げる架け橋\n\n変幻自在な未来を目指して　そう Are you ready?\nSay! BaBaBaBaBaBaBang! BaBaBaBaBaBaBang!\n\nBang! Bang! その手上げろ！ 今を生きるアツさをみせろ\nやっぱ人生　楽しめなきゃ嘘だろ\nHigh! High! その手上げろ！ ともに今日を駆け抜け叫べ\nこんな喜び　こんな瞬間そう　続け永久に\n年中無休で　さあ Are you ready? Say!\n\nBang! Bang! その手上げろ！ 今を生きるアツさをみせろ\nやっぱ人生　楽しめなきゃ嘘だろ\nHigh! High! その手上げろ！ 大空に声響かせろ\nこんな喜び　こんな瞬間そう　続け永久に\n燦然と咲き誇れ　BaBaBaBang!\n\nこっから生まれる明日への一歩　恐れる事なく威風も堂々\nほらその表情　気分も上々　世界に誇れよ俺らの人情\nかなりアツいぜ今夜のBeat　やりすぎぐらいが俺たちBest\n涙がジョージョー　感動劇場　まだまだ行くぜこのまま上々\n\n感謝感激で Say! BaBaBaBaBaBaBang!\nAre you ready?\nSay! BaBaBaBaBaBaBang!",
     },
     {
         id: 16,
@@ -170,10 +200,12 @@ export const songs = [
         titleKana: "Ole Ole Carnival!",
         lyricist: "Shusui・ha-j",
         composer: "Shusui・ha-j",
+        arranger: "Shusui・ha-j",
         album: ["go WEST よーいドン！","go WEST よーいドン！[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-08-06",
+        lyrics: "今年もアゲアゲSummer　毎度おかげSummer\n～Youもみんなも　おいでや!～\n\nええじゃないかって背中を押します (ほんまにありがとSummer)\n夏生まれが5人もいまして (ほんまにありがとSummer)\n季節ごとハジけて　ハメハメ外して\nここでカーニバル (Ole Ole カフェオレ？)\n\nちょけて外して　眠れなくても\nピーチ チェリー　パインナッポー\nよりどりみどり Yeah!\n\n今年もアゲアゲSummer　毎度おかげSummer\nなんてったって　夏だから\nお祭りSummer　ノリノリWEST\nどんなんやって　そんなんやって　フリフリ\n愛に恋と　夏やん、しゃ～ないねん\nトコナツ　ここ夏\nOle Ole Carnival!\n\nイケメンぞろい　みんなでボケるし (ほんまにありがとSummer)\n色気・食い気　なんでもアリです (ほんまにありがとSummer)\n気合い入れ過ぎちゃって　フラフラ　ランデブー\nそれもパラダイス (PARA PARA　炒飯？？)\n\n友達も家族もみんな同じや\nトマト　レタス　トーモロコッシー\n831もモリモリ\n\n俺たちイケイケSummer　突然Thunder\nそんでもって また晴れて\nお任せDinner　ハラヘリWEST\nどんなんやって　そんなんやって　フリフリ\n誰も彼も　何が出るかな？\n夏です、ドーナツ！\nOle Ole Carnival!\n\n夏だ　夏だ　騒げ　騒げ\n花火 PARTY PARTY　スイカ　ワリワリ\n海だ　山だ　はしゃげ　はしゃげ\nOle Ole Carny Balloon!!\n\n今年もアゲアゲSummer　毎度おかげSummer\nなんてったって　夏だから\nお祭りSummer　ノリノリWEST\nこんなんなって　そんなんなって　ヘンなんなって Wao!!\n\nイケイケSummer　キタキタSummer\nなんてったって　夏だから\nOle Ole Summer　神様Summer\nどんなんやって　そんなんやって　フリフリ\n愛に恋と　夏やん、しゃ～ないねん\nトコナツ　ここ夏　夏です、夏フェス\nOle Ole Carnival!",
     },
     {
         id: 17,
@@ -181,10 +213,12 @@ export const songs = [
         titleKana: "じぱんぐおおきにだいさくせん",
         lyricist: "市川喜康・マツコタツロウ・ha-j",
         composer: "市川喜康・マツコタツロウ・ha-j",
+        arranger: "市川喜康・マツコタツロウ・ha-j",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[初回A]","ジパング・おおきに大作戦/夢を抱きしめて[初回B]","ジパング・おおきに大作戦/夢を抱きしめて[初回C]","ジパング・おおきに大作戦/夢を抱きしめて[通常盤]","ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "(そーりゃ！ そーりゃ！)\n(そーりゃそりゃ　そーりゃそりゃ！)\nエビ・バディ・バディ Say “OOKINI”\nニッポンの空に叫ぼう\n明日も元気に参りましょ\n合言葉は、お・お・き・に！\n\nあっちゃこっちゃと忙しく\n今日も全開　大騒ぎ\nてんや (てんや)\nわんや (わんや)\nややこし日々やけど…\n\n感謝感謝　感謝のこころ　忘れずに\n西へ東へ　ジャジャーンと伝えましょう\n\n(そーりゃそりゃ　そーりゃそりゃ！)\nエビ・バディ・バディ Say “OOKINI”\nニッポンの空に叫ぼう\nひとりじゃないで　泣いて　はしゃいで\n毎度　お・お・き・に！\n(どやさー　どやさ！)\nベリー・ハッピー・ハッピー Say “OOKINI”\nニッポンをひとつにしましょう\n笑うてみるだけで　ラッキー最高潮\n明日も元気に参りましょ\n合言葉は、お・お・き・に！\n\n悔し涙もこぼれます\nどうも近頃あきまへん\nてんや (てんや)\nわんや (わんや)\nしんどい日々やから…\n\n感謝感謝　感謝の笑顔　絶やさずに\nいつかド派手な　花火を上げましょう\n\n(そーりゃそりゃ　そーりゃそりゃ！)\nエビ・バディ・バディ Say “OOKINI”\nニッポンの空に叫ぼう\nあきらめへんで　勝っても負けても\n毎度　お・お・き・に！\n(どやさー　どやさ！)\nベリー・ハッピー・ハッピー Say “OOKINI”\nニッポンをひとつにしましょう\n七転び八起きで　ラッキー最高潮\nぼちぼち踏ん張って参りましょ\n合言葉は、お・お・き・に！\n\n(そーりゃそりゃ　そーりゃそりゃ　そーりゃそりゃ！ はっ！)\n(そーりゃそりゃ　そーりゃそりゃ　どっこいしょーどっこいしょ！)\n(そーりゃそりゃ　そーりゃそりゃ　そーりゃそりゃ！ はっ！)\n\n(ジャニーズWEST)\nごっついことはエエことやけど\n(ジャニーズWEST)\n小さなことからコツコツと\n(ジャニーズWEST)\n喜びを育てましょう\n\n(よぉ～っ！)\n(そーりゃそりゃ　そーりゃそりゃ!)\nエビ・バディ・バディ Say “OOKINI”\nニッポンの空に叫ぼう\nひとりじゃないで　泣いて　はしゃいで\n毎度　お・お・き・に！\n(どやさー　どやさ！)\nベリー・ハッピー・ハッピー Say “OOKINI”\nニッポンをひとつにしましょう\n笑うてみるでけで　ラッキー最高潮\n明日も元気に参りましょ\n合言葉は、お・お・き・に！\n\nどなた様も、お・お・き・に！\n\nお・お・き・に！",
     },
     {
         id: 18,
@@ -192,10 +226,12 @@ export const songs = [
         titleKana: "ゆめをだきしめて",
         lyricist: "canna",
         composer: "Shusui・RAAY・ART HUNTER",
+        arranger: "RAAY",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[初回A]","ジパング・おおきに大作戦/夢を抱きしめて[初回B]","ジパング・おおきに大作戦/夢を抱きしめて[初回C]","ジパング・おおきに大作戦/夢を抱きしめて[通常盤]","ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "午前二時の　待ち合わせ\nびしょ濡れに　なりながら\n駆け出してく\n\nあの頃の僕はただ\n恐れも知らずに生きていたんだ\n\n傷ついて冷えきった心\n君だけが白い胸で\nあたためてくれた\n\n夢を抱きしめて\n涙と誓いを胸に\nどんな辛い日々が来たとしても\n強く強く生きていたい\n\n夢を抱きしめて\n愛を抱きしめて\n逃げないで今なら言えるよ君に…\n\n恋に落ちた瞬間に\n何もかも奪われて\n落ちてゆく\n\n真実の愛なんて\nどこに行けば見つけられるのだろう\n\nたとえば　君がそばにいたら\nどんな壁も乗り越える僕へ変わるかな\n\n夢を抱きしめて\n唇を重ね合う\n僕ら二人ひとつになるために\n強く強く抱きしめ合う\n\n夢を抱きしめて\n愛を抱きしめて\n逃げないで今なら言えるよ君に…\n\n大切なことは\n君を信じることで\n募る想い大事にあたためて\n君へ愛をつらぬくこと\n\n夢を抱きしめて\n涙と誓いを胸に\nどんな辛い日々が来たとしても\n強く強く生きていたい\n\n夢を抱きしめて\n愛を抱きしめて\n逃げないで今なら\n言えるよ君に…\n\nこれからずっと愛してると",
      },
     {
         id: 19,
@@ -203,10 +239,12 @@ export const songs = [
         titleKana: "WESTERN PARADE",
         lyricist: "Shusui",
         composer: "Shusui・Fredrik Hult・Car Utbult",
+        arranger: "Shusui・Fredrik Hult・Car Utbult",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[初回C]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "夢を叶えるために\n旅に出よう、派手なパレードで\n7つの海を渡り\n辿り着いた　夢の楽園\n\n君に勇気と希望を\nほら　僕らと　さぁ　盛り上がれ！\n\nパレードに行こう\nみんなで騒ごう\n派手派手衣装　アゲアゲで！\n歌わにゃSong!\n踊らにゃ損やで！\n友達 You達もSo\n一緒に笑いなよ WOW\n\n北は北海道　でっかいどう！\n南は沖縄　美ら海\n仙台　会津若松\nさいたま　よこはまアリーナ\n\n僕ら　君の笑顔のためなら\n何でもやれるやろ\n\nIt's WESTERN PARADE\n僕らとはしゃごう\nポジティブパワー　全開で\n感じたらええ\n裸足のままで\n子供の頃のように\n無邪気に笑えばええ YEAH YEAH\n\n大阪　東京　名古屋\n札幌　福岡　ドーム\n富士山　あべのハルカス\nHigh High High!!!\n岡山　広島　高知\n粉もん　長崎ちゃんぽん\n僕ら\nジャニーズWESTやぁ～！\n\nパレードに行こう\nみんなで騒ごう\n派手派手衣装　アゲアゲで！\n歌わにゃSong!\n踊らにゃ損やで！\n友達 You達もSo\n一緒に笑いなよ WOW",
     },
     {
         id: 20,
@@ -214,10 +252,12 @@ export const songs = [
         titleKana: "Can’t Stop",
         lyricist: "zoop",
         composer: "Takuya Harada・STEVEN LEE・Goldfingerz",
+        arranger: "鈴木雅也",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[初回C]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "Can't stop\n\nシャンデリア　煌めき　宴のざわめき\nFeel so lonely こんなそばにいても\nCan't even touch 君の存在は　近くて遠い\n\nヤツがくれた　指輪見つめて\n作り笑いした君\nふいに視線　ぶつかる\n「助けて欲しい」\nそんな目してた\n\nCome to me 伝えたい But I can't tell\n抱きしめたい強く But I can't do\n連れ去りたい　想いが溢れた\n\n綺麗な愛なんて I don't care\n世界が軽蔑したって\nこの想いを遂げたい\nもうCan't stop lovin' you\n汚れた愛でも I don't care\n狂いそうなくらい君が欲しい\nただ君だけ Can't stop lovin' you\n\n君の手つかんで　屋敷を駆けてゆく\nRun like crazy ドアの前で止まる\nCome to myself ノブを握り戸惑う心\n\n薬指の指輪　抜き捨て\n口を結びうなずく\n黒目がちな瞳が\n「ついて行くよ」\n覚悟告げてた\n\n君に出会って For the first time\n愛の意味を知った I can say that\n二人なら　なにも怖くはないよ\n\n叶わぬ愛なんてないんだ\n誰がなに言ったって\nこの熱は消えない\nもうCan't stop lovin' you\n命をかける愛なんだ\n理屈なんてない　これが多分\n運命だったんだよ Can't stop lovin' you\n\nYeah I can be the one for you\nLet's go\nCan't stop\n\n君は僕の一部\nそれでいて全部\n誰にも渡さない\nNo one can stop me\n\n汚れた愛でも I don't care\n狂いそうなくらい君が欲しい\nただ君だけ Can't stop lovin' you\n\n叶わぬ愛なんてないんだ\n誰がなに言ったって\nこの熱は消えない\nもうCan't stop lovin' you\n命をかける愛なんだ\n理屈なんてない　これが多分\n運命だったんだよ Can't stop lovin' you\n\nCan't stop",
     },
     {
         id: 21,
@@ -225,10 +265,12 @@ export const songs = [
         titleKana: "SUPERSTAR",
         lyricist: "Shusui・下地 悠・Litz・堀江里沙",
         composer: "Shusui・Matjaz Vlasic・Bostjan Grabnar",
+        arranger: "Vlasic・Bostjan Grabnar",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "立ち上がろうぜ　怖がらないで\n夢に向かって　手にするまで\n熱い涙　ネバギバ青春\n今を生きろ！ 見せたれ！根性！\n\n迷いと希望　不安、プライド　絡みあう限界超えて\nリアルな明日へ　踏み出せ一歩\n信じるまま奇跡起こせ\n\nCome on, Here we go, Take a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\nHere we go, Get a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\n\nあの日見てた　傷だらけで\n沈む太陽　悔しくても\nやり直そうぜ　食らいついて\n強くなるんだ！ 走り出すんだ！\n\nCome on, Here we go, Take a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\nHere we go, Get a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\n\nCome on, Here we go, Take a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\nHere we go, Get a chance again!\nLaLaLa…\nHere we go, Take a chance again!\nLaLaLa…\nHere we go",
     },
     {
         id: 22,
@@ -236,10 +278,12 @@ export const songs = [
         titleKana: "for now and forever",
         lyricist: "ケリー",
         composer: "Anders Dannvik・Randy Goodrum",
+        arranger: "CHOKKAKU",
         album: ["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2014-10-08",
+        lyrics: "まだ見ぬ未来を　想像(イメージ)して\n怖くなる日も　あったけれど yeah\n絆は強く　軌跡残して\n僕らの物語(ストーリー)を　描きだした\n\nねえ　僕らが生きた　証し残そう\n今、この時に\n\nfor now and forever\n同じ想いを胸に　同じ場所へと共に GO WEST GO WEST\nfor now and forever\n強い風が吹いても　厚い雲かかっても GO WEST いつも\n同じ距離で輝いて　同じ夢を見て　歌を歌っていよう\nfor now and forever\n\n夜が明けるたび　孤独抱いて\n変わらぬ夢を　追いかけてきた so\nもう大丈夫さ　道に迷っても\n君との出会いが　僕ら導く\n\nねえ　この青く伸びる空の下で\n約束しよう\n\nfor now and forever\nまだ知らない明日へ　まだ知らない世界へ GO WEST GO WEST\nfor now and forever\n喜び分け合って　悲しみ乗り越えて GO WEST いつも\n僕に出来る事がある　君の側にいる　どんな未来が来ても\nfor now and forever\n\n言葉にならない\n胸の高鳴り\n手を叩いて\n(forever)\nねえ一緒に\n(forever)\nその鼓動(リズム)を聞かせて\n\nfor now and forever\n同じ想いを胸に　同じ場所へと共に GO WEST GO WEST\nfor now and forever\n強い風が吹いても　厚い雲かかっても GO WEST いつも\n同じ距離で輝いて　同じ夢を見て　歌を歌っていよう\nfor now and forever",
     },
     {
         id: 23,
@@ -247,10 +291,12 @@ export const songs = [
         titleKana: "ずんどこ ぱらだいす",
         lyricist: "岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "CHOKKAKU",
         album: ["ズンドコ パラダイス","ズンドコ パラダイス[初回A]","ズンドコ パラダイス[初回B]","ズンドコ パラダイス[通常盤]","ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-02-04",
+        lyrics: "(ズン　ズン　ズンズンズンズン)\nズンズンドコ　ズンズンドコ　今日も絶好調\nズンズンドコ　ズンズンドコ　浪速最高潮\nズバッと決めるで！ ズンドコ　パラダイス\n\nコンビニ座った　にーちゃん　ねーちゃんも\n元気で　陽気な　おっちゃん　おばちゃんも\nがんばる　張り切る　ついてる　俺達も\n夢の花咲け　はい、たっち！ (はい～！)\n\n熱き　想い　滾(たぎ)らせて\n燃える　胸の　心意気\n俺らの明日はどっちだ？\n日本中へと　羽ばたけ\n\n(ズン　ズン　ズンズンズンズン)\nズンズンドコ　ズンズンドコ　今日も絶好調\nズンズンドコ　ズンズンドコ　浪速最高潮\nしみったれた日も　甘ったれな日も\n笑ったれ　踊ったれ　キンキラキンのキン\nズンズンドコ　ズンズンドコ　好きにやっちゃって～\nズンズンドコ　ズンズンドコ　派手にイっちゃって～\nズバッと決めるで！ ズンドコ　パラダイス\n\nボケては突っ込む　とーちゃん　かーちゃんも\nお祭り騒ぎの　じーちゃん　ばーちゃんも\n一切合切　任せろ　俺達に\nみんな笑って　はい、ちーず！ (はい～！)\n\n明日は明日の風任せ\n俺は俺の新世界\n惚れた腫れた恋心\n世界中へと　振り撒け\n\n(ズン　ズン　ズンズンズンズン)\nズンズンドコ　ズンズンドコ　涙拭いたって\nズンズンドコ　ズンズンドコ　笑顔見したって\nズッコケてもええねん　這い上がればええねん\n歌ったれ　叫んだれ　ピッカピカのピース\nズンズンドコ　ズンズンドコ　前を向いちゃって～\nズンズンドコ　ズンズンドコ　高く飛んじゃって～\nバシっと行きましょう！ ズンドコ　パラダイス\n\n掴んだ夢　その先に\n続く道　一歩ずつ　踏みしめて\n\n(ズン　ズン　ズンズンズンズン)\nズンズンドコ　ズンズンドコ　今日も絶好調\nズンズンドコ　ズンズンドコ　浪速最高潮\nしみったれた日も　甘ったれな日も\n笑ったれ　踊ったれ　キンキラキンのキン\nズンズンドコ　ズンズンドコ　好きにやっちゃって～\nズンズンドコ　ズンズンドコ　派手にイっちゃって～\nズバッと決めるで！ ズンドコ　パラダイス\n\n(ズン　ズン　ズンズンズンズン)\nズンズンドコ　ズンズンドコ　涙拭いたって\nズンズンドコ　ズンズンドコ　笑顔見したって\nズッコケてもええねん　這い上がればええねん\n歌ったれ　叫んだれ　ピッカピカのピース\nズンズンドコ　ズンズンドコ　前を向いちゃって～\nズンズンドコ　ズンズンドコ　高く飛んじゃって～\nバシっと行きましょう！ ズンドコ　パラダイス\n\nもういっちょ\nズバッと決めるで！ ズンドコ　パラダイス",
     },
     {
         id: 24,
@@ -258,10 +304,12 @@ export const songs = [
         titleKana: "SAKURA〜たびだちのうた〜",
         lyricist: "Shusui",
         composer: "Shusui・Matjaz Vlasic・Bostjan Grabnar",
+        arranger: "船山基紀",
         album: ["ズンドコ パラダイス","ズンドコ パラダイス[初回A]","ズンドコ パラダイス[初回B]","ズンドコ パラダイス[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-02-04",
+        lyrics: "もう　春の匂いが　この街を包む頃に\nあぁ　もう　冬の面影　少しずつ　遠ざかって\n\nもう一度　君の言葉　思い出して　ナミダ溢れ\n目を閉じて 窓の外は　雪も溶けて　春色の世界\n\nSAKURA SAKURA\nまた咲き誇る\nSAKURA SAKURA\n君の下で\n僕らの夢　叶えるため\n今は　旅立ちのうた\n\nそう　愛しい君を　失う恐さの中で\nまだ見ぬ　未来の地図を\nはっきり描けなくても\n\nもう二度と君と　会えなくても　振り返らない\nいつかは　そう　この涙を　力に変えて　歩いてゆくんだ\n\nSAKURA SAKURA\n今咲き乱れ\nSAKURA SAKURA\n君を想う\nすぐそばにある　幸せなら\n僕が君に贈るよ\n\n僕と君の思い出の場所は変わらない\n夕日が沈むまで　はしゃいでいたね\nただ一緒にいれば　それで良かったんだ\nそして　僕らは恋に落ちていった\n\nSAKURA SAKURA\nなでしこ色の\nSAKURA SAKURA\n舞い散る恋\n\nSAKURA SAKURA\nまた咲き誇る\nSAKURA SAKURA\n君の下で\n僕らの夢　叶えるため\n今は旅立ちのうた\n\nSAKURA 旅立ちのうた",
     },
     {
         id: 25,
@@ -269,10 +317,12 @@ export const songs = [
         titleKana: "せいしゅんうぉーーー!!",
         lyricist: "下地悠",
         composer: "川口進・MiNE",
+        arranger: "CHOKKAKU",
         album: ["ズンドコ パラダイス","ズンドコ パラダイス[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-02-04",
+        lyrics: "さぁCome on！ It's alright！\n\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nシャカリキ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nバリバリ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\nモット(モット) ズット(Forever)\nそう　ララララララ\n青春やねん\n\n思い立った瞬間　未来が動き出して(Good day)\n果てしない妄想　デッカく膨らんで暴走\n惜しみなく寝だめしてメシ食うたった！\nいつでも Here We Go Goやで\n\n西へ東へ　駆けまわって\n太陽みたいに　ピッカピー\n北へ南へ　ハッピー探して\nめちゃめちゃデッカイ　夢を描くんや\n\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nシャカリキ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nバリバリ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\nワクワクすること　めっちゃ好きやねん\nドキドキしてたいねん\nモット(モット) ズット(Forever)\nそう　ララララララ\n青春やねん\n\nめんどくさいこと　さしづめほっといてって(Bad day)\nおもろそうなこと　たいらげちゃっていこうや\nひょんなことで才能が花開くって!?\n宝箱　開けたれ!!\n\n日進月歩で　結果はオーライ\nマイペースでも　いいんじゃない\n一期一会　感謝しようや\n広い地球で　逢えたミラコーやん\n\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nガッツリ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nYeahって　言え～Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n楽しいことは やめられへんねん\nイマは今しかない\nキット(キット) ズット(Forever)\nそう　ララララララ\n青春やねん\n\nサンセット？ なんでやねんって？\nそやけど寝て起きればまた陽は昇る\n青春は止まらへんわ\n\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nみんなで Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nジャス民 Yeah Yeah Yeah Yeah Yeah\n\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nシャカリキ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\n青春　ウォーウォーウォーウォーウォー\nウォーウォーウォーウォーウォー\nバリバリ Yeah Yeah Yeah Yeah Yeah\nYeah Yeah Yeah\nワクワクすること　めっちゃ好きやねん\nドキドキしてたいねん\nモット(モット) ズット(Forever)\nそう　ララララララ\n青春やねん",
     },
     {
         id: 26,
@@ -280,10 +330,12 @@ export const songs = [
         titleKana: "Time goes by",
         lyricist: "あいみょん",
         composer: "Shusui・川口進",
+        arranger: "ha-j",
         album: ["ズンドコ パラダイス","ズンドコ パラダイス[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-02-04",
+        lyrics: "忘れられないまま　大人になっていた\n高いビルを目でなぞり　周り続ける街で\n情けないほどに思い出すこと\n嘘と書いて石を投げた　僕の顔だった\n\n何もなかったようなそぶり\nごまかし続けていた言葉も\nブレーキをかけたままじゃ一歩も前には進めない\n\n限られた 時間(とき)でどれだけの人に出会えるのかな\n後悔してばかりのあの日を　消して\n目の前に　ある大切なものに気づく時は来るさ\n無限大の　明日があるから\n\n答えられなかった　自信がなかったから\n今でも知らんふりして通る　傷つけた場所を\n\nどうでもいい事と割り切って\n電話越しに聞こえた泣き声を\n今でも思うたび　抱きしめたくなる　ごめんねと\n\n間違いじゃ　なかったとあの日確かに強がっていた\n今になって　気づくことばかり　僕は\nそばにいる　優しさに照れ笑い素直になりたいから\n差し伸べた　手を握らせてよ\n\n出会い　別れを繰り返し　いつだって\nオレンジ色の箱の中で　揺れる僕らの影\n\n限られた　時間(とき)でどれだけの人に出会えるのかな\n後悔してばかりのあの日を　消して\n目の前に　ある大切なものに気づく時は来るさ\n無限大の　明日があるから\n何度でも　明日は来るから",
     },
     {
         id: 27,
@@ -291,10 +343,12 @@ export const songs = [
         titleKana: "ぱりぴぽあんせむ",
         lyricist: "永田雅規",
         composer: "永田雅規",
+        arranger: "ha-j",
         album: ["パリピポ","パリピポ[初回盤]","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ 笑っちゃってこう！！\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ もうめっちゃサイコー！！\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ 笑っちゃってこう！！\n上がっちゃってこう！！ 騒いじゃってこう！！\n楽しんだもん勝ちでしょ！！\n\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nまだまだこんなもんじゃ　物足んねえ　もっと湧かせ！！\nハンパねえ　史上最幸 NO SMILE, NO LIFE\nマチガイナイ！！ 終わらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n\nYO！！ Ready Go！！ Ready Go！！ 唸れ　イカしたPartyソング\n素敵レディー　刺激的　マジ？なんで？ ハイテンション\nLet's Go 先陣きって　俺いっちゃうぜ　ノッてこうぜ\nボンボンッキュッ　ボンボンッキュッ BOMB！！\nSEXY ダイナマイト\n\n青い空　白い雲は流れ\nまあまあまあドンマイ　そんなもんだい　調子はどうだい\n出会っちゃって　恋しちゃって　一目惚れ騒動\n声枯らし　叫び　泣き　笑うEveryday\nYO 波瀾万丈　完全燃焼　行くぞ\nごっつ　めっちゃ　ガッツ　俺ら参上！！\nいつでも心配ご無用　最高潮　ゼッコーチョー！！\n1.2.3.4.5\n\nいきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな　スペシャルハッピーな笑顔だらけ\nココロ刻め　忘れんなよ　一分一秒の　熱を\n燃えあがれ　メラメラ FLAME FIRE！！\nそうだ！！ ブッ放せ！！\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nまだまだこんなもんじゃ　物足んねえ　もっと湧かせ！！\nハンパねえ　史上最幸 NO SMILE, NO LIFE\nマチガイナイ！！ 終わらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n\nエンジン全開　バリバリ　寝起きは若干　ダリぃダリぃ\nやるときゃやんぜ　キメてみせまっせ！！\nでもちょっと待った！！ アッチの方向　左向け左　そう\nボンボンッキュッ　ボンボンッキュッ BOMB！！\nSEXY ダイナマイト\n\n駆け抜ける　流れ星の下で\nヘタレ上等　気分上々　テンションは上昇\n語り合って　輪になって　お祭り妄想\n公園のベンチ座って　気づけば朝まで\n完全無敵 We can make it！！ 行くぞ\nごっつ　めっちゃ　やっぱ　俺ら最強！！\nさあ皆！！ 気合いをいれろ！！ 最高潮　ゼッコーチョー！！\n1.2.3.4.5\n\nいきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな素晴らしい時間(とき)と場所で\nココロ刻め　忘れんなよ　青春のストーリー　今を\n鳴らせ　ワレ♂♂(アゲアゲ) ファンファーレ\n響き渡れ\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nみんなそこらじゅう　ハメ外しちゃって OH YEAH！！ 踊れ！！\nハンパねえ　史上最幸　感謝　感激　マチガイナイ！！ 止まらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n\nときには　くじけちゃったり　ときには　逃げてしまったり\n投げ出したいこともあるけど\nそうやって　つまずいて　涙流して\nきっと明日は 1歩踏み出して\n笑い飛ばしちゃって　全身全霊で叫べ！！\n\nいきまっせ～！！ ブンブンブンブンブン\nハジケ飛んで　ブンブンブンブンブン\nいまだかつてない　こんな　スペシャルハッピーな笑顔だらけ\nココロ刻め　忘れんなよ　一分一秒の　熱を\n燃えあがれ　メラメラ FLAME FIRE！！\nそうだ！！ ブッ放せ！！\n行くぜ！！ まだまだ GO GO GO\n空へ羽ばたけ　ブンブンブンブンブン\n飛んで飛んで　ブンブンブンブンブン\nまだまだこんなもんじゃ　物足んねえ　もっと湧かせ！！\nハンパねえ　史上最幸 NO SMILE, NO LIFE\nマチガイナイ！！ 終わらないぜ\nYO Baby 姉ちゃん兄ちゃん寄っといで\n盛んに騒いじゃってこう Let's go パリピポ！！\n盛んに騒いじゃってこう Let's go パリピポ！！\n\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ 笑っちゃってこう！！\n上がっちゃってこう！！ 騒いじゃってこう！！\nブッ飛ばしてこう！！ もうめっちゃサイコー！！\n上がっちゃってこう！！ 騒いじゃってこう！！",
     },
     {
         id: 28,
@@ -302,10 +356,12 @@ export const songs = [
         titleKana: "Toxic Love",
         lyricist: "Komei Kobayashi",
         composer: "STEVEN LEE",
+        arranger: "STEVEN LEE",
         album: ["パリピポ","パリピポ[初回盤]","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "Yeah I can't let you go\nI've been stuck in your Toxic love\nSo listen to me now, Let's go\nYeah woo...\nGet ready for this 1,2,3\nHere we go！\n\n月の　冷たい光へと\n逃げ出したら　身を潜めよう\n頬のラインを　指でなぞって\n閉じた瞼にKiss, Kiss, Kiss oh\n\n滲む暁　重ねた指に\n静かに光る　罪にこごえてる\n触れて Hot, Hot, Hot\n君に Touch, Touch, Touch\n奪い去りたい\n\nBaby Baby Baby\nLove me Love me Love me\n重ねた肌に (止められないKiss me)\nBaby Baby Baby\nKiss me Kiss me Kiss me\n甘いToxic Love I want you now\n\nKiss, Kiss 濡れた唇で\nHey girl 今すぐ教えて\n火照る肌に　乱れた髪は\nごまかせないよ Yeah Oh Yeah\n\n見つめる瞳　こぼれた雫\n今飲み干せば　罪を消せるかな？\nまるで Trap, Trap, Trap\nここに Stuck, Stuck, Stuck\nもう戻れない Yeah Let's go\n\nBaby Baby Baby\nShow me Show me Show me\n触れたぬくもり (今感じたいTouch me)\nBaby Baby Baby\nTouch me Touch me Touch me\n君のToxic Love I need you now\n\nYou're toxic... Yeah\nMake you mine... Ha... Yeah Let's go\n\nもう抜け出せはしないLove\n運命さえもUpside down\n僕のモノにはならないって\n分かってるのに罪を重ねてく\n夜明け前にはFar away\n君の去った僕の部屋で\n残った香りにThinkin' about you\nもういっそ君を壊したくなる\n\nBaby Baby Baby 君の全てを\nLove me Love me Love me 独り占めしたい\n\nBaby Baby Baby\nLove me Love me Love me\n重ねた肌に (止められないKiss me)\nBaby Baby Baby\nKiss me Kiss me Kiss me\n甘いToxic Love I want you now\n\n「もうこれで逢えない」なんて\n言いかけた唇　塞いで\n束の間の愛や幸せ\n燃やすのさ　灰になるまで\n\nBaby Baby Baby\nLove me Love me Love me\n甘いToxic Love (Give me love....)",
     },
     {
         id: 29,
@@ -313,10 +369,12 @@ export const songs = [
         titleKana: "きみこい",
         lyricist: "Shusui",
         composer: "Shusui・RAAY・Art Hunter・Kresimir Tomec",
+        arranger: "RAAY・Kresimir Tomec",
         album: ["パリピポ","パリピポ[初回盤]","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "I WANNA DANCE Oh\nI WANNA DANCE Oh\n\n春風がいたずらしてる　フレアの裾揺らしてる\nたまらず押さえた手に　恋が回り始めた\n\nちょっと待って！見とれちゃったんだ\n通り過ぎる横顔 Hey！\nこんな偶然は二度とはないって\n恋を初めまして\n\n人ごみに揺れる髪\nこのまま　ギュッと　そう、抱きしめたい\n\nCOCORO、COCORO 止まんなくなって\nココロ、ココロ　隠しきれなくなっちゃったんだし\nどうしても、どうしても\n君を振り向かせたい\n恋■来いYou＆Me\nI WANNA LOVE\n恋■来いYou＆Me\nI WANNA LOVE\n\n花びらが色づいてくように 僕らも恋に落ちてく\nそのピンクのコーデ、可愛いね 笑顔もあったかいね\n\nちょっとだけ立ち止まっちゃって\n触れた花の香り Yeah！\nこんな感じは初めてなんだ\n恋を始めようか！\n\n誰よりもキレイな瞳\nそのまま ずっと もう、見つめていたい\n\nCOCORO、COCORO ドキドキしちゃう\nココロ、ココロ 素直に君を感じちゃうんだし\nなにしても、なにしても\n君と一緒にいたい\n恋　来いYou&Me\n\n悲しくて　嬉しくて\n泣きたくなる時でも\n君となら　大丈夫だね\nいつも　いつまでも\n\nCOCORO、COCORO 止まんなくなって\nココロ、ココロ　隠しきれなくなっちゃったんだし\nどうしても、どうしても\n君と踊りたいんだ\n恋　来いYou&Me\nパーティにいこう\n恋　来いYou&Me\nI WANNA DANCE Oh\nI WANNA DANCE Oh",
     },
     {
         id: 30,
@@ -324,10 +382,12 @@ export const songs = [
         titleKana: "SCARS",
         lyricist: "SHIKATA",
         composer: "O-BANKZ・Takuya Harada・SHIKATA",
+        arranger: "O-BANKZ",
         album: ["パリピポ","パリピポ[初回盤]","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "あとどれくらいだろ？ 僕らがこうしていられる瞬間(じかん)は\n幸せな時間(とき)を刻むほど何故か臆病になる\n今日という一日が　終わるとき　側にいたい\n誰にも言えない孤独は　お互いに隠さないでいい\n\nまばたきさえ惜しんだ君の不安　たまらないのさ\n僕は君の為に　誰かを傷つけても　構わない\n\n愛するほど　戸惑う　この恋心\n壊れるくらい抱きしめ合ってく\nたどり着くのは幻だとしても\n今(ここ)に君がいればいい\n他の誰も触(さわ)れない確かな記憶\n消せない本能に刻まれていく\nずっと 2人は愛し合うはずなのに\n素直になる度　疼く傷跡\n\n君は僕を照らし　僕は君の鏡になる\n本当の顔を映した　安らぎがそこにはあった\n\nだからこそ瞬間を求めるように　想いを馳せる\n失うくらいなら　罪と罰を受けようと　構わない\n\n傷つくほど　強くなる　愛しき衝動\n温めあうように慰めていく\n例えばそれがまやかしだとしても\n2人だけは真実\n他の誰も触(さわ)れない深い傷跡\n行き場のない思い　積もらせていく\nずっと 2人は愛し合うはずなのに\n思えば思うほど　切なくなる\n\nもし君が消えたら明日はこない\n心だけが永遠を知る\nどんな哀しい運命だとしても\nその腕の中で　ずっと眠りたい\n\n愛するほど　求め合う　裸の心\n壊れるくらい抱きしめ合ってく\n\n傷つくほど　強くなる　愛しき衝動\n温めあうように慰めていく\n例えばそれがまやかしだとしても\n2人だけは真実\n他の誰も触(さわ)れない深い傷跡\n行き場のない思い　積もらせていく\nずっと 2人は愛し合うはずなのに\n思えば思うほど　切なくなる\n疼く傷跡",
     },
     {
         id: 31,
@@ -335,10 +395,12 @@ export const songs = [
         titleKana: "あかんLOVE〜じゅんじょうあいやで〜",
         lyricist: "小松レナ",
         composer: "星野靖彦",
+        arranger: "渡辺徹",
         album: ["パリピポ","パリピポ[初回盤]","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "おちゃらけてても　お前を見ている\n見逃さへんから　どんな反応しとるのか\n\nその笑顔が　オレの純情　盛り上げる　罪なやつ\n絶対　泣かせへん　信じろ　ほんまのほんま LOVEやで\n\nアカン　めちゃ好きやわ　友達以上の Feeling\nお前とオレの　境界線　飛び越えて　はよ　抱きしめたいねん\nアカン Baby I love you やせやけど　オレ知っとるで\nお前の視線は　いつでも　オレをするりすり抜け\nアイツ…\n\nそや　そうや　そうでした　高嶺の花です\n笑い以外には　必要ないキャラでござる\n\nそれでもええ　オレは一生　この情熱　捧げる\nお前を笑かし続けるで　ほんまのほんま LOVEやで\n\nアカン　皆　言うけど　信念以上に I can\n現実(リアル)とユメ　紙一重　飛び越えて　いざ　立ち上がるから\nせやで Baby I believe you や 欲しいと　思っとったら\nお前の視線が　いつしか　オレを見つめるはず\nSay！ I get you！\n\n日本一の　いやもっと\nアジア一の　もっとでっせ\n世界で一番の　笑顔を\n絶対オレが守るで\n\nアカン　めちゃ好きやわ　友達以上の Feeling\nお前とオレの　境界線　飛び越えて　はよ　抱きしめたいねん\nアカン Baby I love you や　せやけど　オレ知っとるで\nお前の視線は　いつでも　オレをするりすり抜け\nアイツ…",
     },
     {
         id: 32,
@@ -346,10 +408,12 @@ export const songs = [
         titleKana: "Mambo de WEST!",
         lyricist: "市川喜康・マツコタツロウ",
         composer: "市川喜康・マツコタツロウ",
+        arranger: "ha-j",
         album: ["パリピポ","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "Mambo！ Mambo de WEST！\nooh！！\n\nLadys & Gentlemen\nWe are ジャニーズWEST\nAre you ready？\nHere we go！\n\n恥ずかしがり屋のキミだって\n本当はドキドキしたいのに\n真っ赤に色づくハートを抱え\nおすましナデシコ\n\n誘われるのは　女子ばかり\nもっとオシャレして メイクして\n大胆に魅せつけなくちゃ！\nキュートに踊れ　シャイなGirls WEST\n(Woo Mambo！ Mambo！ Mambo！)\n\nほろにがい青春に、\nまたとないハッピーを。\nキミだけのスマイルで切り拓け！\n(笑う門には福来る)\nほとばしる純情に、\nおしみない歓声を。\n俺たちのスタイルで立ち向かえ！\n(いつも心に太陽を)\n\nPa pa shu ba du bi du ba！\nPa pa pa！ Pa pa shu ba du bi du ba！\nPa pa pa！ Pa pa shu bi\nPa pa shu bi\nMambo！ Mambo de WEST！\nooh！！\n\nお調子者のアイツだって\n本当は悩みもありまっせ\n男は泣きたい気持ちを抑え\nオチャラけてまう\n\n解ってるのは 男子ばかり\nきっとダイジョーブ！ 無理すなや！\n俺たちがそばにいるから…\n涙まじり盛り上がれ Boys\n(ナンボのもんじゃい！ Mamboのもんじゃい！)\n\nほろにがい青春に、\nまたとないハッピーを。\nキミだけのスマイルで切り拓け！\n(笑う門には福来る)\nほとばしる純情に、\nおしみない歓声を。\n俺たちのスタイルで立ち向かえ！\n(いつも心に太陽を)\n\nはぁ、みなさん\n今日も一日　お疲れさん\n正直に　まっすぐに\nあしたもいい汗かきましょかー\n\n想いどおりにはいかないさ\nでもそれでイイ！ 僕でイイ！\n誰かのマネじゃ意味がない\nみんなで踊ろっ♪ VIVA！ Mambo de WEST\n(もういっちょ Mambo！ Mambo！ Mambo！)\n\nほろにがい青春に、\nまたとないハッピーを。\nキミだけのスマイルで切り拓け！\n(笑う門には福来る)\nほとばしる純情に、\nおしみない歓声を。\n俺たちのスタイルで立ち向かえ！\n(いつも心に太陽を)\n\nMambo！ Mambo！ Mambo！\nMambo de WEST！",
     },
     {
         id: 33,
@@ -357,10 +421,12 @@ export const songs = [
         titleKana: "PARTY MANIACS",
         lyricist: "Komei Kobayashi",
         composer: "STEVEN LEE・Drew Ryan Scott・Andreas Oberg",
+        arranger: "CHOKKAKU",
         album: ["パリピポ","パリピポ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-04-22",
+        lyrics: "Yo come dance with me…\nBaby what you waiting for？ It's time.\nSo this is my invitation, to the night…\n\nもう迷ってないで　今すぐHere we go\nこの場所においで　このままRock the show\n楽しみたいならここで Anytime\n朝まで踊り明かそう\n\nその体がLittle bit hot I like it like that\n歌い出せばLittle bit loud Everybody sing along\n今夜だけはLittle bit wild You can take it to the head\nWe'll make you bounce, bounce, bounce\n\nFollow me, Follow me イカれた夜に\nLet me see you get low, Let me see you get low\nCan't you see？ Can't you see？ お気に召すままに\nBaby shake it up & down\nWE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\n\nPut ya hands up, Everybody get down now Oh\nWE'RE PARTY MANIACS\nGet ya drinks up, Everybody don't stop now Oh\nWE'RE PARTY MANIACS\n\n君が来れば　どこでもParty's on\n全てをかき消すように Turn it up\n僕に任せてよ Give you what you need\nその仮面取ったら Naughty, Naughty (What？)\n\nほらあのコもLittle bit shy Just lose it right now\nまだこれからLittle bit fun Cuz the party never stops\n手を取ったらLittle bit nice Let me show you how we do\nWe'll make you dance, dance, dance\n\nFollow me, Follow me ほら一度きり\nLet me see you get low, Let me see you get low\nCan't you see？ Can't you see？ 日が昇る前に\nBaby shake it up & down\nWE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\n\nPut ya hands up, Everybody get down now Oh\nWE'RE PARTY MANIACS\nGet ya drinks up, Everybody don't stop now Oh\nWE'RE PARTY MANIACS\n\nOh… Yeah… Woo… Baby…\nここでずっとDance with me\n恐れないでJust believe\nこれがInvitation Just come & party with me\n\nWE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\nWE'RE PARTY MANIACS… WE'RE PARTY MANIACS\n\nPut ya hands up, Everybody get down now Oh\nWE'RE PARTY MANIACS\nGet ya drinks up, Everybody don't stop now Oh\nWE'RE PARTY MANIACS\nPut ya hands up, Everybody get down now Oh\nWE'RE PARTY MANIACS\nGet ya drinks up, Everybody don't stop now Oh\nWE'RE PARTY MANIACS",
     },
     {
         id: 34,
@@ -368,10 +434,12 @@ export const songs = [
         titleKana: "ばり はぴ",
         lyricist: "zopp",
         composer: "Shusui・Raay・Art Hunter",
+        arranger: "Raay",
         album: ["バリ ハピ","バリ ハピ[初回A]","バリ ハピ[初回B]","バリ ハピ[通常盤]","ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-07-29",
+        lyrics: "それぞれの自由　それぞれの理由で\n悲しみ妬み　また傷つけ合って\nなんで僕たちは　同じ夢見れないの\n大切な人　今も泣いてる\n\nこの手のひらは　傷つけるため　あるわけじゃないよ\n一度きりの瞬間　平和になろうよ\n\n1, 2, 3, 4 Go！\n\n今日も超ハッピー　みんなバリハピ　70億のマルになろう\n手を繋いだら　心ひとつ　みんなで輪になって踊ろう\n明日も超ハッピー　みんなバリハピ　70億のマルになろう\n笑顔咲いたら　心ほんわか　みんなで輪になってPeace, Peace, Peace\n\nケータイ・スマホ　いつも握りしめ\nみんなの輪から　はぐれ一人ぼっち\n冷めた眼差しじゃ　心も冷えてくる\n僕を呼ぶ声に　手を伸ばしたんだ\n\n君の手に触れ　凍てつく心　すぐに溶けてった\n胸が　騒ぐ　踊る　一緒に行こうよ\n\n1, 2, 3, 4 Go！\n\n今日も超ハッピー　みんなバリハピ　70億のマルになろう\n手を繋いだら　世界変わる　みんなで輪になって歌おう\n明日も超ハッピー　みんなバリハピ　70億のマルになろう\n君が笑う　地球(ほし)も笑う　みんなで輪になって歌おう\n\nLa La La…\n\nこの手のひらは　傷つけるため　あるわけじゃないよ\n一度きりの瞬間　平和になろうよ\n\n1, 2, 3, 4 Go！\n\nバ・リ・バ・リ　ハッピー　みんなバリハピ　70億のマルになろう\n手を繋いだら　心ひとつ　みんなで輪になって踊ろう\n明日も超ハッピー　みんなバリハピ　70億のマルになろう\n笑顔咲いたら　心ほんわか　みんなで輪になってPeace, Peace, Peace\nみんなで輪になってPeace, Peace　輪になってPeace, Peace\n輪になってPeace, Peace, Peace",
     },
     {
         id: 35,
@@ -379,10 +447,12 @@ export const songs = [
         titleKana: "All My Love",
         lyricist: "下地悠",
         composer: "Joakim Bjornberg・Christofer Erixon・Atsushi Shimada",
+        arranger: "Atsushi Shimada",
         album: ["バリ ハピ","バリ ハピ[初回A]","バリ ハピ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-07-29",
+        lyrics: "遠くに離れて気がついたんや\nあなただけが僕のこと理解(わか)ってくれた\nなのに感謝を言葉にしたり\n恩返しもできひんかった　(ごめんな)\n\nああ　面と向かっては\n恥ずかしくていえへんよ\nああ　せやけどこの気持ちを\n心から伝えたいねん\n\nAll My Love　いまの僕が笑えるのは\nSo, All My Love　あなたがいたから\nしんどいことあっても　乗り越えて強くなれた\nAll My Love　支えてくれて　ありがとう\n\nどうして素直になれへんかった\nこんな僕を見捨てずに叱ってくれたのに\nどんなに迷惑をかけたときでも\nあなただけは味方してくれた　(ありがとう)\n\nああ　偉そうにいうても\n助けてもらってばかり\nああ　何気ない毎日でも\n当たり前なんかやない\n\nAll My Love　これからは僕があなたの\nSo, All My Love　力になりたい\n顔が見えなくっても　分かち合える喜びが\nAll My Love　ほんまに倖せ　ありがとう\n\nいつか　与えられる人から与える人へ\nちょっとずつ　成長したいんや\nそして　あなたから学んだ思いやりを\nこれからもずっと大切な人に伝えたい\n\nAll My Love　いま僕が頑張れるのは\nSo, All My Love　あなたがいたから\nこれからも一緒に　前向いて歩いていこう\nAll My Love　勇気をくれて　ありがとう",
     },
     {
         id: 36,
@@ -390,10 +460,12 @@ export const songs = [
         titleKana: "All My Love〜ちゅらうみっくす〜",
         lyricist: "下地悠",
         composer: "Joakim Bjornberg・Christofer Erixon・Atsushi Shimada",
+        arranger: "Atsushi Shimada",
         album: ["バリ ハピ","バリ ハピ[初回B]"],
         announce: "f",
         singer: "WEST.",
         date: "2015-07-29",
+        lyrics: "遠くに離れて気がついたんや\nあなただけが僕のこと理解(わか)ってくれた\nなのに感謝を言葉にしたり\n恩返しもできひんかった　(ごめんな)\n\nああ　面と向かっては\n恥ずかしくていえへんよ\nああ　せやけどこの気持ちを\n心から伝えたいねん\n\nAll My Love　いまの僕が笑えるのは\nSo, All My Love　あなたがいたから\nしんどいことあっても　乗り越えて強くなれた\nAll My Love　支えてくれて　ありがとう\n\nどうして素直になれへんかった\nこんな僕を見捨てずに叱ってくれたのに\nどんなに迷惑をかけたときでも\nあなただけは味方してくれた　(ありがとう)\n\nああ　偉そうにいうても\n助けてもらってばかり\nああ　何気ない毎日でも\n当たり前なんかやない\n\nAll My Love　これからは僕があなたの\nSo, All My Love　力になりたい\n顔が見えなくっても　分かち合える喜びが\nAll My Love　ほんまに倖せ　ありがとう\n\nいつか　与えられる人から与える人へ\nちょっとずつ　成長したいんや\nそして　あなたから学んだ思いやりを\nこれからもずっと大切な人に伝えたい\n\nAll My Love　いま僕が頑張れるのは\nSo, All My Love　あなたがいたから\nこれからも一緒に　前向いて歩いていこう\nAll My Love　勇気をくれて　ありがとう",
     },
     {
         id: 37,
@@ -401,10 +473,12 @@ export const songs = [
         titleKana: "ま・る・も・う・け",
         lyricist: "栗原暁(Jazzin'park)・久保田真悟(Jazzin'park)",
         composer: "栗原暁(Jazzin'park)・久保田真悟(Jazzin'park)",
+        arranger: "栗原暁(Jazzin'park)・久保田真悟(Jazzin'park)",
         album: ["バリ ハピ","バリ ハピ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-07-29",
+        lyrics: "Oh ピーカン　ピーカン　日本晴れ\nワッショイ　ワッショイ　祭りやで\nなんやゆうても人生は (ヘイッ！ ヘイッ！ …)\n笑顔でいれたらマ・ル・モ・ウ・ケや！！\n\n待ちわびた君の笑顔\n一世一代大勝負 (Go！！)\nキメキメの伊達男 (ヨッ！！)\n「お友達も一緒なの？」(コンニチハ～)\nあ～勘違いのおっちょこちょい (あぁ～)\n\n沈む夕日に　お悩み相談\nやけに胸にしみてまうわ\nたまにゃ　仲間とハジけりゃえぇ\nあっちゅーまに年取るでぇ\n\nOh ピーカン　ピーカン　日本晴れ\nワッショイ　ワッショイ　祭りやで\nなんやゆうても人生は (ヘイッ！ ヘイッ！ …)\n笑顔でいれたらマ・ル・モ・ウ・ケや！！\nピーカン　ピーカン　いざまいれ！！\nワッショイ　ワッショイ　勝負やで！！\nエネルギッシュにど根性 (ヘイッ！ ヘイッ！ …)\nそんなあなたと　ワッショイ！！！ ×4\n\n「忙しい」が口癖だって\nたまの休みなんやから (ヨッシャー！！)\n久々の顔が並べば (ヨッ！！)\nここで会ったが百年目\nさあ　尽きることない思い出話\n\n波打ち際の　黄昏れ当番\nやけに胸にしみてまうわ\nたまにゃせんとな～親孝行\nあっちゅーまに年取るでぇ\n\nOh ピーカン　ピーカン　日本晴れ\nワッショイ　ワッショイ　祭りやで\nなんやゆうても人生は (ヘイッ！ ヘイッ！ …)\n努力　体力　義理　人情\nピーカン　ピーカン　いざまいれ！！\nワッショイ　ワッショイ　勝負やで！！\n不器用だってええんやで (ヘイッ！ ヘイッ！ …)\nそんなオレらとワッショイ！！！ ×4\n\n泣き語言わず　己の道を\n雨が降るから　虹が出る\n嗚呼、明日も花盛り～\n\n人生楽有れば苦も有ります。\n七転八起、七転び八起き。\n描いた夢にまっしぐら。\nつまずきそうな時、涙で景色が滲む時\nあなたのジャニーズWEST、出番です。\nそれではみなさま、御一緒に。\n『盛り上がれんのか！？』\n『俺ら次第や～！！！』\n\nOh ピーカン　ピーカン　日本晴れ\nワッショイ　ワッショイ　祭りやで\nなんやゆうても人生は (ヘイッ！ ヘイッ！ …)\n笑顔でいれたらマ・ル・モ・ウ・ケや！！\nピーカン　ピーカン　いざまいれ！！\nワッショイ　ワッショイ　勝負やで！！\nエネルギッシュにど根性 (ヘイッ！ ヘイッ！ …)\nそんなあなたと　ワッショイ！！！ ×4\n\nOh (ヘイッ！ ヘイッ！ …)\nOh (ヘイッ！ ヘイッ！ …)\nコテコテも (oh-oh)\nチャキチャキも (oh-oh)\n全部ひっくるめてワッショイ！！！ ×4\nOh (ヘイッ！ ヘイッ！ …)\nOh (ヘイッ！ ヘイッ！ …)\n泣いちゃっても (oh-oh)\n悩んじゃっても (oh-oh)\n明日はみんなにやってくるさ",
     },
     {
         id: 38,
@@ -412,10 +486,12 @@ export const songs = [
         titleKana: "めいきゅうSUMMER",
         lyricist: "Komei Kobayashi",
         composer: "Fredrik“Figge”Bostrom・Josef Melin",
+        arranger: "Josef Melin",
         album: ["バリ ハピ","バリ ハピ[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-07-29",
+        lyrics: "I wanna make you, make you, make you, make you mine.\nMake you, Make you, Make you…\n\n流れてく風の中　迷い込んだSea side\n二人の時間は　今だけかもOne chance\n裸足で踊ろうよ　待ち焦がれた　だから弾けるSeason\n刺激求めちゃうでしょ？　おかしくなりそうさ\n\nNo　このままじゃ　ただここから君をこんな風に見てるだけなんてさ\n髪を揺らし　悩ましく\nキリがない思い　止まないまま\n\n夏は止められない　誰にも譲れない\nこのまま Make you mine, Make you mine\nMake you mine, alright？\n君を離したくない　気持ちを確かめたい\n今すぐ Make you mine, Make you mine\n君だけを\nI wanna make you, make you, make you, make you mine.\n\nMake you, Make you, Make you…\nShe's wicked, She's wicked…\n\nいつも通り Party People はしゃぎ回るCan't stop\n大音量　メッチャBang Bang！！ 今流行りのDreamer\n君が踊りだせば　もう周りのみんなが釘付け\n見とれているうちに　夏が終わりそうさ\n\nOh さっきみたいに　君のことを誘い出してみるけど\n愛を込めて振り絞ったこの声　また潮騒がかき消すよ\n\n夏は終わらせない　誰も邪魔させない\nこのまま Make you mine, Make you mine\nMake you mine, alright？\n二度とは戻らない　今を駆け抜けたい\n今すぐ Make you mine, Make you mine\n君だけを\nI wanna make you, make you, make you, make you mine.\n\nMake you, Make you, Make you…\n\n水平線の向こう側　太陽が燃え尽きてしまうよ\n今日と言う日が終わる前に\nBe my lady 抱きしめたい\n\n夏は止められない　誰にも譲れない\nこのまま Make you mine, Make you mine\nMake you mine, alright？\n君を離したくない　気持ちを確かめたい\n今すぐ Make you mine, Make you mine\n二人きり\nI wanna make you, make you, make you, make you mine.\n\n今年の夏こそ Just give me your love, give me your love\n確かめたい　もう二度と離さない　君を抱きしめてたい\n今すぐ Make you mine, Make you mine\n君だけを\nI wanna make you, make you, make you, make you mine.\n\nMake you, Make you, Make you…\nShe's wicked, She's wicked…",
     },
     {
         id: 39,
@@ -423,10 +499,12 @@ export const songs = [
         titleKana: "らっきぃすぺしゃる",
         lyricist: "Shusui・ha-j",
         composer: "Shusui・ha-j",
+        arranger: "Shusui・ha-j",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "Oh それ見ぃ Ya！\n笑うてりゃ福来たる　幸せはいつもスペシャル\nLet's Dance, Let's Dance, Party Time！\n\nEverybody！\nちゃうちゃうちゃう　ちゃちゃっちゃうちゃう！\nちゃうちゃうちゃう　ちゃちゃっちゃうちゃう！\nちゃうちゃうちゃう　ちゃうちゃうちゃう！\nパンパカパン！ パンパカパン！踊れ！歌え！\nHey！\n\n賽は振られた\nドカンと当てようぜ\nやらな、始まんない\n運でもツキでも\n引き寄せりゃええ\n\nそんじゃみんな　ノるかソるか？\n任せときなさい！！\n露出度　満点\n笑顔で満点\nイケイケWEST～\n\nOh それ見ぃ Ya！\n笑うてりゃ福来たる　幸せはいつもスペシャル\nLet's Dance, Let's Dance\nParty Time！\n\n失敗したって\n汗かきべそかき\nそれでも全力！\nみんなでそろって\n天下取ったるで～\n\nちょっと待った、迷った時\nオレを信じろよ\n迫力満点\n気力も満点\nアゲアゲWEST～\n\nOh それ見ぃ Ya！\nみんないりゃ福来たる　まだ見ぬ幸せのため\nLet's Dance, Let's Dance\nParty Time！\n\n君にありったけラッキィを届けたい\nそのための\n無敵の7人、さぁいこうか！\n\n大空　見いや！\n俺たちが見えるやろ！\nOh それ見ぃ Ya！\n笑うてりゃ福来たる　幸せはいつもスペシャル\nLet's Dance, Let's Dance\nParty Time！\nParty Time！",
     },
     {
         id: 40,
@@ -434,10 +512,12 @@ export const songs = [
         titleKana: "Seven Powers",
         lyricist: "森若香織",
         composer: "森若香織",
+        arranger: "杉山圭一・秦千香子・LASTorder",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "ナナナ　ナナナナ　ナナナなんなん？パワー\nナナナ　なんのこっちゃ　七色のパワー\n\n(WEST, WEST, WEST……)\n\n俺はレッド……\n俺はピンク……\n俺はオレンジ……\n俺はイエロー……\n\nおもろいパワー持ってんで　ごっついパワー持ってんで\nめっちゃスゴいの持ってんで　俺俺俺を\n\nおもろいやっちゃ思ってんで　ごっついやっちゃ思ってんで\nめっちゃスゴいと思ってんで　俺俺王\n\n俺はブルー……\n俺はパープル……\n俺はミドリ……\nおんなじ色ちゃうで　セブンぶんBoom！\n\nおもろいパワー持ってんで　ごっついパワー持ってんで\nめっちゃスゴいの持ってんで　俺俺俺を\n\nおもろいやっちゃ思ってんで　ごっついやっちゃ思ってんで\nめっちゃスゴいと思ってんで　俺俺王\n\n(WEST, WEST, WEST……)\nおもろいおもろい色いろいろ　おもろいおもろい色いろいろ\nおもろいおもろい色いろいろ　おもろいおもろい色いろいろ\nやで Yeah Yeah Yeah…\n\nナナナ　ナナナナ　ナナナなんなん？パワー\nナナナ　なんのこっちゃ　七色のパワー\nナナナ　ナナナナ　ナナナなんなん？パワー\nナナナ　なんのこっちゃ　七色のパワー\nナナナ　ナナナナ　ナナナなんなん？パワー\nナナナ　なんのこっちゃ　七色のパワー\nナナナ　ナナナナ　ナナナなんなん？パワー\nナナナ　なんのこっちゃ　七色のパワーパワーパワーパワーパワー",
     },
     {
         id: 41,
@@ -445,10 +525,12 @@ export const songs = [
         titleKana: "ほるもん〜かんさいにつたわりしだいあもんど〜",
         lyricist: "チカラ from Civilian Skunk",
         composer: "ジュンタ from Civilian Skunk",
+        arranger: "鈴木雅也",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "ホルモン\n関西に伝わりしダイアモンド\n\nポイポイポポイあしらわれ (ヘイ！ヘイ！)\n酸いも甘いも味わって (フゥ！フゥ！)\n悶々としてるんだ俺達ゃ\n狼煙(のろし)あげろ　ホルモン男児\n\n(ポ～イ　ポ～イ　ポ～イ　ポポ～イ…)\n\n美味くねぇ！味がねぇ！だなんて固定概念で\n俺ら放る者ほんとマジでもったいねぇ！！\nやればできるぞ大器晩成！？みせたるでいっ！！\n待てば待つほど油のノッたイイ男\n\nプルプルの肌　まだ若いぜ！\n器測るにゃ　まだ早いぜ！\n一度火をつけりゃ止まらないぜ☆\nここらで一丁見せたるでぇ！！\n\nどんな道だって楽じゃない\nスタミナがなけれゃ進めない\nどんな事だって無駄じゃない\n燃え上がれるかは自分次第\n\n生焼けな日々はマジ勘弁　だから\n\nポイポイポポイあしらわれ (ヘイ！ヘイ！)\n酸いも甘いも味わって (フゥ！フゥ！)\n悶々としてるんだ俺達ゃ\n煮ても焼かれてもイケる男 (ワッショイ！)\n放るもんには福がある\nハジケるDAYS 駆け抜けろ\nポイポイ放る者達に\n狼煙(のろし)あげろ　ホルモン男児\n\n根性見せるぜ　東西南北\n目指すはどこでも人気者\n弱火になってどうすんだ！！\n強火で攻めろよファイヤー☆ファイヤー☆\nあさっり放るのなんでやねん！！\nこってりがっつり味わいな\n噛めば噛むほど　旨み溢れる良い男\n\nどんな夢だって楽じゃない\n焦れば危ない橋ばかり\nどんな涙も無駄じゃない\n塩気が笑顔の隠し味\n\n甘ダレばかりじゃ物足んねぇ　だから\n\nポイポイポポイ諦めねぇ (ヘイ！ヘイ！)\n悔いも残さずたいらげて (フゥ！フゥ！)\n悶々を蹴散らした俺達ゃ\n肉汁(いろけ)の滴るイケる男 (ワッショイ！)\n放るモンには華がある\nハニカミFACE お手の物\nポイポイ放る者達に\n誇りみせろ　ホルモン男児\n\nカルビじゃねぇ！タンでもねぇ！\nホルモン好きなら声だせ！Yeah！\nハラミじゃねぇ！ミノでもねぇ！\nホルモン欲しけりゃ声だせ！Yeah！\n迸る汁！道あけな！\n油も売るけど買いまっか？\n放るもんから目指すは天下\n頂 いただくタイミングは\nJust now！！\n(ソレ　ソレ　ソレ　ソレ)\n\nポイポイポポイあしらわれ (ヘイ！ヘイ！)\n酸いも甘いも味わって (フゥ！フゥ！)\n悶々としてるんだ俺達ゃ\n煮ても焼かれてもイケる男 (ワッショイ！)\n放るもんには福がある\nハジケるDAYS 駆け抜けろ\nポイポイ放る者達に\n狼煙(のろし)あげろ　ホルモン男児\n\nホルモン\n関西に伝わりしダイアモンド",
     },
     {
         id: 42,
@@ -456,10 +538,12 @@ export const songs = [
         titleKana: "がってん あんせむ",
         lyricist: "MiNE",
         composer: "川口進・MiNE・Atsushi Shimada",
+        arranger: "Atsushi Shimada",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nガッテン　ガッテンだ！！ チキチキバンバンバン！！\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nイエセッショー　イエセッショー　騒げるヤツ High！！\n\nマジで！？ 何でもかんでも全部君のせいにして\nゆとり世代だってバカにする\nペコペコ頭を下げて身を削る\nそれってもうしんどいやーん！！\nストレス社会の今　不況の荒波も\n\nだから今日はもう開放してみようよ\n締め付けた胸ごとみんな脱いじゃいなよ\n\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nガッテン　ガッテンだ！！ チキチキバンバンバン！！\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nイエセッショー　イエセッショー　騒げるヤツ High！！\n僕らと一緒がパラダイス\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nココロもカラダも裸でGO！！\n(ガッテン　ガッテンだ！！ チキチキバンバンバン！！)\n恥ずかしガールなんてナンセンス\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nShout it out, 今日は忘れてハジけて\nせーので Bounce！！ 遊ぼうぜ\n\nガチで！！ 人生一回。エビィデイ楽しく行きましょ\n皆も友達連れて来い\n誰かが決めたルールを蹴飛ばして\n必死でさぁ遊ぼーーやーー！！\nスマホなんか置いとけ SNSも無視だ\n\n笑顔が見たいな　とびきりのスマイル\n無理するより今日は無茶をしてやれ\n\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nガッテン　ガッテンだ！！ チキチキバンバンバン！！\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nイエセッショー　イエセッショー 　踊れるヤツ Dance！！\n巻き起こすでパーリーハリケーン\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nナヤミもフアンも吹き飛ばせ！！\n(ガッテン　ガッテンだ！！ チキチキバンバンバン！！)\n麗しレディな君はサイコー\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nBeatiful 今日は素敵な笑顔で\nみんなの Love！！ 集めよう\n\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nガッテン　ガッテンだ！！ チキチキバンバンバン！！\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nイエセッショー　イエセッショー　騒げるヤツ High！！\n僕らと一緒がパラダイス\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nココロもカラダも裸でGO！！\n(ガッテン　ガッテンだ！！ チキチキバンバンバン！！)\n恥ずかしガールなんてナンセンス\n(ガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！)\nShout it out, 今日は忘れてハジけて\nせーので Bounce！！ 遊ぼうぜ\n\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nガッテン　ガッテンだ！！ チキチキバンバンバン！！\nガッテン　ガッテンだ！！ チキチキバンバン　バンババン！！\nイエセッショー　イエセッショー　騒げるヤツ High！！",
     },
     {
         id: 43,
@@ -467,10 +551,12 @@ export const songs = [
         titleKana: "3.141592654",
         lyricist: "チカラ from Civilian Skunk",
         composer: "ジュンタ from Civilian Skunk",
+        arranger: "宮崎歩",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "さぁ一緒行こう 3.14\n\n314 159 2653 589\n793 238 4626 433\n\n3.141592\nさぁ今皆で円になり\nScreaming Yeah！！\nJumping Yeah！！\n終わらないない Party！！Party！！\n\n僕らで手をとりゃEternity\n皆まで言わずに盛り上がり\n\nThree One Four！！\nThree One Four！！\nEndless Number\nLike a We are！！\n\n角張ってちゃロンリーナ\n意地張ってちゃメンドイナ\n落ち込んでちゃπになれねぇ\nWAになれ！！\n\nまんまる笑顔 3.14\n君の瞳は 3.14\n\n届け 3.1415926535\nどこまでも続く地平線\n繋がっているんだ\nほら一人じゃないんだ\n3.1415926535\nこの先が知りたいなら\n進みだすんだ\nさぁ！一緒行こう！3.1415\n\n314 159 2653 589\n793 238 4626 433\n良いこと嫌なこと\n沢山DAYS！！\nマイナス要素は\n四捨五入して\n切り捨て　切り替え\n前向いてやるしかねぇ！！\n進むしかねぇ！！\nsin, cos, tan\nよりかも大事な三大要素\nまず根性！！ 次　友情！！\n決め手は才能？ NO！NO！直感！！\n\nひねくれてちゃロンリーナ\nべそかいてちゃメンドイナ\n俯いてちゃπになれん\nWAになれ！！\n\n溢れる涙 3.14\n拭える強さ 3.14\n\n響け 3.1415926535\nどこにいても同じ夕焼け\n繋がっているんだ\nほら一人じゃないんだ\n3.1415926535\nこの先が知りたいから\n進みだすんだ\nさぁ！一緒いこう！3.1415\n\n全員、整列ー！「ハイ！」\n前ならえ！「ハイ！」\nなおれ！回れ右！\n1 2 サンキュー！\n前すすめ！\n全体止まれ！「イチ！ニ！」\n着席！起立！\n礼！よくできました☆\n\nまわる世界は3.14\n手を取り合えば3.14\n\n届け 3.1415926535\nどこまでも続く地平線\n繋がっているんだ\nほら一人じゃないんだ\n3.1415926535\nこの先が知りたいなら\n進みだすんだ\nさぁ！一緒行こう！3.1415",
     },
     {
         id: 44,
@@ -478,10 +564,12 @@ export const songs = [
         titleKana: "きみへのめろでぃー",
         lyricist: "SOU by COZMIC CODE",
         composer: "KASUMI・SOU by COZMIC CODE",
+        arranger: "KASUMI by COZMIC CODE",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "月が浮かぶ夜空に　気付けばきみを映してるよ\nきみの声が聴こえたようで　ちょっと笑顔がこぼれた\n\n強がりな性格にその横顔\n誰よりも温かいその声に\n柄でもないんだけど　胸が苦しいよ\nゆっくりと募ってゆく感情が走りだした\n\n好きだよ。ねえ好きだよ。きみのことが\n一言が言えずにいたけど\n今ほらすべてを伝えよう\nかけがえのない人へ\nあきれるくらいのきみへのメロディー\nふたりなら奏でられるはず\n一緒にまた歩んでいきたい　この手はにぎったままで\n離さないから\n\nそっと吹いた夜風は　気付けば少し冷えていた\nきみは何をしているのかなって　また笑顔になれた\n\nまっすぐな瞳に僕が映る度\nこの気持ちが吸い寄せられてゆくよ\n見上げた夜空にもきみを感じてる\n二度目の冬その肩を　抱き寄せてキスをしよう\n\n好きだよ。ねえ好きだよ。ただその想いが\nまた今日も溢れてゆくから\nその目はそらさないでいてほしい\n少し照れくさいけれど\nこれからの未来を　のぞいてみよう\nふたりまた笑っていられますように\n新しい明日見つけよう　ふたりだけのLOVE STORY\n待ってるから\n\nいつも傍で感じていたいよ\nちょっと　泣き虫なとこもあるけど\nすべてが愛おしくて守りたい\n僕のすべてで\n\n好きだよ。ねえ好きだよ。きみのことが\nそれさえも言えずにいたけど\n今ならありのまま伝えたい\nかけがえのない人へ\n\nあきれるくらいのきみへのメロディー\nふたりなら奏でられるはず\n一緒にまた歩んでいきたい　この手はにぎったままで\n離さないから",
     },
     {
         id: 45,
@@ -489,10 +577,12 @@ export const songs = [
         titleKana: "Eternal",
         lyricist: "zopp",
         composer: "STEVEN LEE・Andreas Stone Johansson",
+        arranger: "STEVEN LEE・Andreas Stone Johansson",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[初回盤]","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2015-12-09",
+        lyrics: "No one “Can't stop” ハイウェイを抜け出し\n最果ての街へと　廃屋に潜み All good\n魚のように身を寄せ合う Just let it go, Don't you worry\n\nセピアの月に照らされ　震える天使を強く抱いた\n君を愛せて　自分になれたよ Gotta go Gotta go my way\n\n愛が止められない　止めたくない\nどこにも I can't let you go\n輝く未来も涙も　全てくれないか\n刹那のKissでも Like a 永遠\n終わりじゃ消せない情熱\n世界中敵になっても　君を守り抜く\n君がいないと Only Eternal Darkness\n\nエンジン音が　近づいてくる\nあいつらがやってくる　安息の時は Too short\nこれが最後の戦いだ Just do it now, I'm ready now\n\n君が隣にいるなら　どんな終わりも綺麗だね\n後悔なんてない　夜が明けてくよ Gotta go Gotta go my way\n\n命が尽きても　また逢える\nどこでも I'll be there for you\n君は優しく微笑んで　静かにうなずいた\n刹那の愛でも It's a 永遠\n闇夜じゃ消せない輝き\nどんな罪も罰も受ける　でも邪魔はさせない I never say goodbye\n\n愛が止められない　止めたくない\nどこにも I can't let you go\n輝く未来も涙も　全てくれないか\n刹那のKissでも Like a 永遠\n終わりじゃ消せない情熱\n世界中敵になっても　君を守り抜く\n君がいないと Only Eternal Darkness",
     },
     {
         id: 46,
@@ -500,10 +590,12 @@ export const songs = [
         titleKana: "TAMER",
         lyricist: "中間淳太",
         composer: "Kevin Borg・Simon Gribbe",
+        arranger: "Kevin Borg・Simon Gribbe",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "中間淳太",
         date: "2015-12-09",
+        lyrics: "燃える Fire ring 唸る Something roars\nThe beast looks crazy in my amazing show\n\n早くおいで Girl ここは Wonderland\nNow forget all and let me drive your mind, babe\n\n甘く Open your heart 徐々に Lose control\nとまらない Heartbeat まだ欲しいの？ NO…\nYou'd better to start running\nCuz I このままじゃ心からキミをKill\n\nHey bro, time to hunt！\nまたひとり Came up to our show tonight\n狙え　全て捕らえろ　出来た子には褒美をGive ya！！\nHey girl, time to fall！\n脱け出せぬ檻の中へTonight\nDon't be scared, Come here…\nCuz I'm your TAMER\nTAMER\n\n照らす Hot spot lights 踊る Clouds of dust\nThe audience looks crazy in my amazing show\n\n魅了する My beasts 弄ぶ Yellow whip\nDon't forget, I run a tight ship, so beware good girl\n\n甘く Open your heart 徐々に Lose control\nとまらない Heartbeat まだ欲しいの？ NO…\nYou'd better to start running\nCuz You このままじゃ心までボクのSlave\n\nHey bro, time to hunt！\nまたひとり Came up to our show tonight\n掴め　二度と離すな　出来た子には褒美をGive ya！！\nHey girl, time to fall！\nボクの支配する檻へTonight\nDon't you know？ You're mine…\nCan't escape\n\nSay your prayers！！\n\n何も恐れないRed lion\n冷静なBlue wolf\nコミカルなOrange bear\n宙(そら)飛び回るPurple eagle\nオシャレ好きGreen tiger\nいつだってCuteなPink elephant\nこの指鳴らせばGo sign\nAre you ready？\nIt's show time！！\n\n底なしの闇へ\nI'm gonna take it all into my world tonight\n\nHey bro, time to hunt！\nまた獲物が Came up to our show tonight\n全て　手に入れてやる　食べきれない褒美をGive me！！\n\nHey bro, time to hunt！\nまたひとり Came up to our show tonight\n狙え　全て捕らえろ　出来た子には褒美をGive ya！！\nHey girl, time to fall！\n脱け出せぬ檻の中へTonight\nDon't be scared, Come here…\nCuz I'm your TAMER\n\nDon't you know？ You're mine…\nCan't escape\n\nTAMER",
     },
     {
         id: 47,
@@ -511,10 +603,12 @@ export const songs = [
         titleKana: "Lovely Xmas",
         lyricist: "イワツボコーダイ",
         composer: "GRP・イワツボコーダイ",
+        arranger: "GRP",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "重岡大毅＆神山智洋",
         date: "2015-12-09",
+        lyrics: "君と初めての待ち合わせ場所へ\nプレゼント　バッグに入れ\nRing Ring... 鐘が鳴る\n白いコートを着た君が笑ってる\n駅の階段の下で\nTick Tack... 今日が始まるよ\n\n何度も夢に見てた　君との近い距離が\n嫌なこと　悲しみ全部溶かした\n\nMerry Xmas…\n赤いリップが　白い雪の上で\nショートケーキみたいさ\nMerry Xmas…\nハニかんだその笑顔\nもうずっと離さないから\n\nこの瞬間　君にだけシェアしてる\n僕の本当の気持ち\nLove Love.. もっと甘くしよう\n\n前髪切りすぎたと　おでこを触る君が\n可愛くて　抱きしめたくって\n困るよ\n\nMerry Xmas …\n長いまつげに　白い雪がそっと\n舞い降りてくるとき\nMerry Xmas…\nプレゼントがあるんだ\nもうちょっと瞳閉じてて\n\nいつの日か僕ら\n思い出すだろう\n初めて2人で歩いた今日の日を\nキャンドルに灯す光で\nいつまでも照らしたい\n\nMerry Xmas …\n赤いリップが 白い雪の上で\nショートケーキみたいさ\nMerry Xmas …\nハニかんだその笑顔\nもうずっと離さないから\n\n街の中はにぎやかなParty Time\n遠回りして君とのWinter Road\nショーウィンドウに映る君の笑顔\n全部宝物\nさぁ開けて1、2、3 For You\n赤いリボン　解いたらもう\n世界が始まる\nもうずっと最高級のDays\n\nもうずっと離さないから",
     },
     { 
         id: 48,
@@ -522,10 +616,12 @@ export const songs = [
         titleKana: "Terrible",
         lyricist: "Komei Kobayashi",
         composer: "Tommy Clint",
+        arranger: "Tommy Clint",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "藤井流星＆小瀧望",
         date: "2015-12-09",
+        lyrics: "Come on baby, Make me terrible\nTerrible…\n\n素直になってみなよ My lonely girl\n刺激が　欲しいんでしょ？ Tonight Tonight\nありふれた日々に Just say goodbye\n指先を絡めて I wanna be with you\n\nただずっと願うよりも\n何だってこの僕の手で\n欲しいモノ全て　君にあげるよ\n\nこっちへ Closer to me\n壊れたいんでしょ？\n夢の世界を I'll show you all night long\nキスの目隠しで　心奪ったら\nGet it on now, Get it on, on now\nCome on baby, Make me terrible\n\nCome kiss me, Boo\nYou gotta give me your love…\n\n誰も知らないような My naughty girl\n真面目なフリしても You're bad, So bad\n自由になっていいよ Just set you free\nありのままの君と I wanna play with you\n\nそうもっと抱き寄せちゃって\n今さら後戻りはNo way\nよこしまな笑顔を 僕に見せてよ\n\n今すぐ Show it to me\n乱れたいんでしょ？\nその寂しさも I'll take you far away\n甘い囁きに　溺れていんじゃない？\nGet it on now, Get it on, on now\nCome on baby, Make me terrible\n\nCome to my world 求め合う心に\nOh, Come to my world 嘘は付かなくていんじゃない？\n\nこっちへ Closer to me\n壊れたいんでしょ？\n夢の世界を I'll show you all night long\nキスの目隠しで　心奪ったら\nGet it on now, Get it on, on now\nCome on baby, Make me terrible\n\nTerrible…\nCome kiss me, Boo",
     },
     {
         id: 49,
@@ -533,10 +629,12 @@ export const songs = [
         titleKana: "こんなきょくつくりました",
         lyricist: "照史と崇裕",
         composer: "Andreas Oberg・Simon Petren",
+        arranger: "Simon Petren",
         album: ["ラッキィィィィィィィ7","ラッキィィィィィィィ7[通常盤]"],
         announce: "t",
         singer: "桐山照史＆濵田崇裕",
         date: "2015-12-09",
+        lyrics: "Hey！　キュートな Girlの皆さん Look at me\n貴女のHeartを　奪うで Cool Guys\n一緒に騒ごや Are you ready？ Say！\nYeah！ 「yeah！」 Yeah！ 「yeah！」\n\n出会って 2秒で　俺らの虜か？ Baby Girl\n「照史と崇裕こっち見て」\nOK！ Don't worry 優しく包むで　子猫ちゃ～ん\nそろそろ　若干　みんなが引きだしてる！\n\n結局　夢物語\n結果は現実逃避\n照史と\n崇裕　伝える\nMen'sの叫び～\n\nなんやかんや　言うても　モテタイ\n俺らも 男の子\nなんやかんや　言うても　モテタイ\n人間　顔じゃない\n俺らの本当の中味(ココ)見てよ\nココ、ココ、どう？「きゃー素敵！」\nなんやかんや　言うても　モテタイ\n一応 ジャニーズWEST！！\n\nそーさ。俺達は英語を喋れない\n\n結局　夢物語\n結果は現実逃避\n照史と\n崇裕　伝える\nMen'sの叫び～\n\nなんやかんや　言うても　モテタイ\n英語を喋りたい\nなんやかんや　言うても　モテタイ\n誰も俺を止めれない\n\n出てもた俺らの悪い癖\nなんやかんや 2番の　歌詞は\nほとんど意味がない\n\nListen！！\n\n結局　夢物語\n結果は現実逃避\n照史と\n崇裕　伝える\nMen'sの叫び～\n\nなんやかんや　どっちが好きなの？\n「もちろん、照史！」\nなんやかんや　どっちが好きなの？\n「もちろん、崇裕！」\n\nなんやかんや　言うても　モテタイ\n俺らも　男の子\nなんやかんや　言うても　モテタイ\n人間　顔じゃない\n俺らの本当の中味(ココ)見てよ\nココ、ココ、どう？「きゃー素敵！」\nなんやかんや「なんやかんや」\nなんやかんや「なんやかんや」\nなんやかんや　言うても　普通の\n男の子！",
     },
     {
         id: 50,
@@ -544,10 +642,12 @@ export const songs = [
         titleKana: "ぎゃくてんWinner",
         lyricist: "松井五郎",
         composer: "岩崎貴文",
+        arranger: "CHOKKAKU",
         album: ["逆転Winner","逆転Winner[初回A]","逆転Winner[初回B]","逆転Winner[通常盤]","WESTival","WESTival[初回盤]","WESTival[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
         date: "2016-04-20",
+        lyrics: "君が目にしてる世界\nそれってほんとうかい\nいま正しい答え\n誰が決める？\n\n女神が弾いたコイン\nなにかが変わるサイン\nゴールまでの長い距離に\n一歩　踏み出す時だろう\n\n運命なんて\n決まっちゃいない\nひらめきを\n信じなくちゃ\n\nやるならガンガン攻めようぜ\n逃げてちゃ将来だって後悔\n前を向いて　汗をかいて\nほら　その涙に Shout\n\n異議あり！\n\n逆転しようぜ Justice\n絶体絶命も Chance\nどんな愛も　どんな夢も\n取りに行こう　きっと\nきっと勝ちに行こう\n\n負けて覚えた強さ\n失くすものもあるさ\nつらいときには　誰かの手を\nぎゅっと握りしめていい\n\n限界だって\nわかっちゃいない\nときめきを\n感じなくちゃ\n\nここからガンガン攻めようぜ\n解けない問題なんてなんだい\n君はできる　僕とできる\nほら　その心で Shout\n\n異議あり！\n\n逆転しようぜ Justice\n危機一髪こそ Chance\nどんな壁も　どんな逆風(かぜ)も\n怖くないさ　きっと\nきっと勝ちに行こう\n\nそれぞれの瞬間が\n交わる未来\n出逢いは奇跡を\n導くだろう\n\nやるならガンガン攻めようぜ\n逃げてちゃ将来だって後悔\n前を向いて　汗をかいて\nほら　その涙に Shout\n\n異議あり！\n\n逆転しようぜ Justice\n絶体絶命も Chance\nどんな愛も　どんな夢も\n取りに行こう　きっと\nきっと勝ちに行こう",
     },
     {
         id: 51,
@@ -555,10 +655,12 @@ export const songs = [
         titleKana: "100% I Love You",
         lyricist: "YHANAEL・MiNE",
         composer: "川口進・MiNE・Craig McKenzie",
+        arranger: "鈴木雅也",
         album: ["逆転Winner","逆転Winner[初回A]","逆転Winner[初回B]","逆転Winner[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-04-20"
+        date: "2016-04-20",
+        lyrics: "ケータイの音が鳴った\nドキって胸が高鳴った wow\n待ちに待ったレスポンス\nすぐに返そうかなって\nいや、でも迷惑かもって wow\nどうすればいいかな？\n\nEyes！　夜空の向こうにキミの顔\n\nそう Baby I love you\nそう Baby I love you\n100％Yai Yai Yai Yai Ya！\nそう Baby I love you\nそう Baby I love you\n恋を奏でる La La Rock'n'Roll\n明日が待ち遠しいって　初めてや\nそう Baby I need you\nそう Baby I need you\n100％大大大好きだぁ\nそう Baby I need you\nそう Baby I need you\n眠れないほど Cry Cry Cry\nでも夢で会えるなら　会いにいくよ Baby\nキミ以外に欲しい物はない　そう Nothing\n\nとは言えキミは知らない\nこれはただの片思い wow\nすれ違ったあの日\nあんまりにも無邪気に\n笑うキミにマジで wow\n一発でノックダウンや\n\n\nFight！　周りのみんなは知らないけど\n\nそう Baby I love you\nそう Baby I love you\n100％My My My Ah Girl\nそう Baby I love you\nそう Baby I love you\nキミに捧げる La La Love Tune\n照れ笑い　春風もそっとキュンとしてる\nそう Baby I need you\nそう Baby I need you\n100％大大大好きだぁ\nそう Baby I need you\nそう Baby I need you\nキミを好きな僕をキミが\nちゃんと好きって言えるまで\nひとつずつ Growing up\nあせる気持ちを隠して Walk together\n\n簡単な恋はないから\n目が離せないよ Everyday\nこの恋を実らせたい\n夏はすぐそこ！\n\nホントはどう思っているのかな\nちょっとは僕を意識してるかな\n途切れないって事はやっぱり\n脈アリって事でいっちゃお Yeah！\n\nそう Baby I love you\nそう Baby I love you\n100％Yai Yai Yai Yai Ya！\nそう Baby I love you\nそう Baby I love you\n恋を奏でる La La Rock'n'Roll\n明日が待ち遠しいって　初めてや\nそう Baby I need you\nそう Baby I need you\n100％大大大好きだぁ\nそう Baby I need you\nそう Baby I need you\n眠れないほど Cry Cry Cry\nでも夢で会えるなら　会いにいくよ、絶対\nキミ以外に欲しい物はない I Love You",
     },
     {
         id: 52,
@@ -566,10 +668,12 @@ export const songs = [
         titleKana: "King of Chance",
         lyricist: "Komei Kobayashi",
         composer: "Nicklas Eklund・Kevin Borg・Hanif Sabzevari",
+        arranger: "Nicklas Eklund",
         album: ["逆転Winner","逆転Winner[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-04-20"
+        date: "2016-04-20",
+        lyrics: "もう、グダグダ言ってても何も変わらない\n一度くらいは本気出してみちゃいなよ\nWe're gonna, gonna get it on,\nWe're gonna. gonna get it on\n悩んでたって時は過ぎてく\n\n誰にも追いつけないスピードで\n誰よりも先にRide on\n\n掴み取れ！ King of Chance\n狙ってこうゼ Guys！\nKing of Chance\nたどり着くまで King of Chance tonight\n行こうぜ！\n迷ってないでついて来な\n逃げてちゃ始まんない\n\n自分でやってみなきゃ、答えもないだろう\n箙にも限界なんてないぜ\nsay what… I still rock\nその手で　その目で　心で　感じて\nKeep trying, Keep trying\n\nその目に溢れる涙\nゴールまで取っておきな\n\n手放すな！ King of Chance\nもう怖いモノはないぜ\nKing of Chance\n全て始まる King of Chance tonight\nそうだろう？\nビビってないでこっち来な\n夢を叶えるんだろう？\n\nそこまで来たら\nbaby come to me come to me\nもうちょっと行ける\nbaby come to me come to me\n\nそう、この景色を\n見せてあげよう\n\nYou're looking at the King of Chance\n俺たちと King of Chance\n今を楽しもうぜ\nKing of Chance\n未来がここから King of Chance tonight\n始まる\n見たこともないくらいに\n光輝いてる\nKing of Chance\n今を楽しもうぜ\nKing of Chance\n未来が始まる King of Chance tonight\nI'm King of Chance\n迷ってないでついて来な\n光のその先へ\n\nWe can be a King",
     },
     {
         id: 53,
@@ -577,10 +681,12 @@ export const songs = [
         titleKana: "KIZUNA",
         lyricist: "Takuya Harada",
         composer: "Takuya Harada・川口進",
+        arranger: "船山基紀",
         album: ["逆転Winner","逆転Winner[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-04-20"
+        date: "2016-04-20",
+        lyrics: "ほら　あの日夢に見た目の前に拡がる世界\n歯を食いしばって頑張る君へのエールを送ろう\n\nくじけそうなdays\n何度でも確かめ　問いかけて見つめた未来は\n前に向かって　声を上げて\n今輝くから\n\n奇跡起こして　この一瞬に\n僕らはいつでも信じてた\nだからつらくても　もう一度立ち上がれ\nもう二度と来ないこの夏\n\nまだ幼い夢でも　遠く未来を目指すなら\n僕らもこうして君とともに一歩　踏み出すから\n\n倒れそうなdays\nこのままじゃダメだと　叱りつけ励ました君なら\n「強くなりたい」　声を信じて\n輝いてゆけるよ\n\n奇跡起こして　この一瞬を\n全ての力で応えよう\n心に咲く花は　君だけを抱きしめる\n忘れられない夏になる\n\nこの声届くまで\nあきらめない　君は一人じゃない\n流した涙の数　笑顔が待っている\n心から誇ろう\n\n奇跡起こして　この一瞬に\n僕らはいつでも信じてた\nだからつらくても　もう一度立ち上がれ\nもう二度と来ないこの夏",
     },
     {
         id: 54,
@@ -588,10 +694,12 @@ export const songs = [
         titleKana: "じんせいはすばらしい",
         lyricist: "mildsalt",
         composer: "岩崎貴文",
+        arranger: "水島康貴",
         album: ["人生は素晴らしい","人生は素晴らしい[初回A]","人生は素晴らしい[初回B]","人生は素晴らしい[通常盤]","WESTival","WESTival[初回盤]","WESTival[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-07-27"
+        date: "2016-07-27",
+        lyrics: "心のパズル弾け散って　深夜の帰り、疲れ切って\n曲がり角、間違えて　知らない道に出た\n\n生きてゆくことの半分は　壁にぶちあたるばかりだ\n残された半分は　それを乗り越えてゆくためだ\n\n人生は素晴らしい　誰よりも誇らしい\nひとつ、ひとつ　あきらめずにためらわずに行け！\n未来とは七不思議　信じれば叶う夢\n僕と、僕と　新しい明日を叫ぼう\n\n初めて見たその景色は　くじけた僕の目を覚ました\nすぐ家のそばなのに　まぶしい夏の空\n\n僕が学ぶべきことなんて　正解がある訳じゃなくて\nその答え出すために　挑み続けることさ、そうだろう？\n\n人生は素晴らしい　いつだって美しい\nひとつ、ひとつ　組み合わせて　思い描いてく\n上手くいく訳じゃない　何度でもトライして\n君と、君と　新しい明日を探そう\n\n絶対のピンチか？ (どんな)\n絶好のチャンスか？ (時も)\n自分次第だろう、ガッツリいこうぜ！\n\n人生は素晴らしい　誰よりも誇らしい\nひとつ、ひとつ　あきらめずにためらわずに行け！\n未来とは七不思議　信じれば叶う夢\n僕と、僕と　新しい明日を叫ぼう\n僕と、僕と　素晴らしい明日を叫ぼう",
     },
     {
         id: 55,
@@ -599,10 +707,12 @@ export const songs = [
         titleKana: "Mr. Summer WEST",
         lyricist: "Shusui・ha-j",
         composer: "Shusui・ha-j",
+        arranger: "Shusui・ha-j",
         album: ["人生は素晴らしい","人生は素晴らしい[初回A]","人生は素晴らしい[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-07-27"
+        date: "2016-07-27",
+        lyrics: "だから　そう言ったじゃない\n街はRainy day 心もブルーじゃあかん\n虹のビーチへ飛ぼう！\nそれでいいんじゃない　楽しんだもん勝ちやぁ\n\n雨はやがて　止むんやろうて　誰かが言うてたっけ\n災い転じて　福となせば　気分上々で Happy and Smile\n\nオエーオアー！ Hey, Yo！ Yo！ Yo！ Yo！\nオエーオエー！！ Wow Wow Wow Wow\nOle Omae to ジャニーズWEST オーレ！！ オーレ！！\n\nええやろ！ 歌え　歌え　叫べ！\nせやろ！ 今日は Sunny day！\nええやろ！ 踊れ　踊れ　叫べ！\nOle Mr. Summer WEST\n\nオレはもう一人じゃない\nオマエがいる　いやいや四人やろって\nそうや、オレもいるで\nオレもオレも　七色のフレーバーやん\n\n雲はやがて　虹に変わり　やがて　光あふれて\n誰も知らないてっぺんまで　七転び八起きで　行ったるで～\n\nオエーオアー！ Hey, Yo！ Yo！ Yo！ Yo！\nオエーオエー！！ Wow Wow Wow Wow\nOle Omae to ジャニーズWEST オーレ！！ オーレ！！\n\nいくで！ 歌え　歌え　叫べ！\nせやで！ 今日は Sunny day！\nいくで！ 踊れ　踊れ　叫べ！\nOle Mr. Summer WEST\n\n雨はやがて　止むんやろうて　誰かが言うてたっけ\n災い転じて　福となせば　気分上々で Happy and Smile\n\nオエーオアー！ Hey, Yo！ Yo！ Yo！ Yo！\nオエーオエー！！ Wow Wow Wow Wow\nOle Omae to ジャニーズWEST オーレ！！ オーレ！！\n\nええやろ！ 歌え　歌え　叫べ！\nせやろ！ 今日は Sunny day！\nええやろ！ 踊れ　踊れ　叫べ！\nOle Mr. Summer WEST\n\nオーエーオー！\nWow Wow Mr. Summer WEST",
     },
     {
         id: 56,
@@ -610,10 +720,12 @@ export const songs = [
         titleKana: "しるえっと",
         lyricist: "川口進・MiNE",
         composer: "川口進・Thomas G:son",
+        arranger: "石塚知生",
         album: ["人生は素晴らしい","人生は素晴らしい[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-07-27"
+        date: "2016-07-27",
+        lyrics: "2人歩く帰り道　嬉しそうに君が笑うから\n『ちょっと待って』と、その場面をカメラで切り取った\n\nまだ言えなくて残っている　この気持ち届けなきゃ\n大切な事は君がいる事\n\n街の灯りが照らす　僕らのシルエット\n長く伸びる　ふたつの影\n何気ない事が　幸せだと　君がふと　つぶやいたんだ\nもしも君が涙し、辛い時は\n僕が君の為に笑おう\n今は声にせず　その手を握るよ　そばにいて\n\nまだ慣れない駅のホーム　電車が運んでくる風が\nどこか懐かしい街の匂い　思い出 頬に触れた\n\nあの頃撮った君の写真　どれもみな笑ってる\n伝えた言葉を　まだ覚えてる？\n\n夕日の中に溶ける　僕らのシルエット\n少し短い　君の影\n時が流れても　変わらぬモノ　僕に教えてくれたんだ\n君の大好きな歌　街に響き\n僕ら　ずっと口ずさんでた\n同じ空の下　いつも微笑んで　歩いていた\n\n君と見る新しい景色(あす)を　見つけにいこう\nいつもより　ちょっとだけでいい　遠回りしよう\n\n街の灯りが照らす　僕らのシルエット\n長く伸びる　ふたつの影\n何気ない事が　幸せだと　僕はふと　気が付いたんだ\nもしも君が涙し、辛い時は\n僕が君の為に笑おう\n今は声にせず　その手を握るよ　そばにいて",
     },
     {
         id: 57,
@@ -621,10 +733,12 @@ export const songs = [
         titleKana: "かくごしろよSummer",
         lyricist: "SHOCK EYE",
         composer: "SHOCK EYE",
+        arranger: "草野将史",
         album: ["人生は素晴らしい","人生は素晴らしい[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-07-27"
+        date: "2016-07-27",
+        lyrics: "挑戦状　叩きつけろよ　最強の　夏に向かって\nNobody Knows 焼き付けるMemories 覚悟しろよSummer\nレディース＆ジェントルマン ボーイズ＆ガールズ Are you Ready！！？？\n史上最高の好カード　チャレンジャーはもちろん YOU ！！！\n\n忙しいリズム　急かす　雑踏を通り抜け\n目の前広がる　シーズン　サンダルを投げ捨て\nアチアチな砂浜にダイブ　押し寄せる波　ヒップアタック\n体全部使って　全力で戦闘開始！\n\n攻め攻めの熱気を　メラメラ燃やして　はしゃぎまくれ\n太陽より熱く　後悔なしでいこうかい　行くで！火傷寸前　一度きりだろ\n\n夢がビカビカ　明日へギラギラ　この海が沸いちゃうほど　熱く\nやっちゃえばええやん　あっちゅうま　ピーカン\n突き抜けた　その笑顔が眩しい　全力で立ち向かった日々が　君を強く\n“WIN” つかむんだ　思い出一生分　覚悟しろよSummer\n\nそりゃ　時にはあるさ　くもり　雨の日も\n暗い気持ち　逃げ出しちゃうかも\nでもめげるな　まじへこたれるな　勝負はこれから！\n雨上がりのゴング鳴れば　気分は　虹色さ\n文句一つない空　広がった JUMP\n雲に手が届きそうなくらい　蹴り上げろ　砂浜\n\nあっという間に終わる季節　後悔しないように\nこの晴れた空より　どこまでも広く　青く澄んだ夢　デカく強く願おう\n\n夢がビカビカ　明日へギラギラ　この海が沸いちゃうほど　熱く\nやっちゃえばええやん　あっちゅうま　ピーカン\n突き抜けた　その笑顔が眩しい　全力で立ち向かった日々が　君を強く\n“WIN” つかむんだ　思い出一生分　覚悟しろよSummer\n\n赤く火照った体もクールダウン　気づけば　夕焼けが　僕らを包むように\nForever 忘れない　どこか少し寂しい気持ち\nいつか　この日を振り返ったなら　思い出すのさ\nガムシャラな日々こそが宝 ありがとうSummer\n\n君とアゲアゲ　心ハレバレ　この空を一面埋めちゃうほど\n描いちゃえばええやん　カラフルなFuture\n色づいた　明日がほんま楽しみ\nその夢抱きしめたなら　迷わずにまっすぐ\n“WIN” つかむんだ　大事なことにやっと気づけたSummer\n大事なことにやっと気づけたSummer",
     },
     {
         id: 58,
@@ -632,10 +746,12 @@ export const songs = [
         titleKana: "CHO-EXTACY",
         lyricist: "SHIROSE from WHITE JAM",
         composer: "SECRET WEAPON・SHIROSE from WHITE JAM・MAXX SONG",
+        arranger: "CHOKKAKU",
         album: ["人生は素晴らしい","人生は素晴らしい[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-07-27"
+        date: "2016-07-27",
+        lyrics: "始まれば、僕ら止めるヤツがバカみたいに思えるよ\n凄いものに出会った気分になっちゃ\nそれに反対するほうが異常か\n\n二人きり悪いことをしよう　って事じゃないよ Oh Oh Oh\n多数決で決まる常識　まだきっと僕らは　少数派\n\nマジでCHO-EXTACY\n悪魔のパスポートなんて無しでHIGH\nCHO-EXTACY\n今夜は愛も非合法\nThree, Two, One,\nCHO-EXTACY…\n\nOverdose, Oh Oh Overdose,\n愛におぼれてく (All Night Long)\n君の I Love You に殺されそう\n深みにハマってく (どこまでも)\nAh Yeah… ゆっくりスワーヴ\n目を閉じて　そのまま息を Stop\n三時台のフライデーナイ\nTest Drive無しのNight Flight\n\n偏見を売り物にして、平気な人も Oh Oh Oh\nそう誰もが他人を干渉してるクセに　自由を願う\n\nマジでCHO-EXTACY\n今夜のラストなんて無しでFLY\nCHO-EXTACY\n覚醒してく I Love You\nThree, Two, One, Check…\n\nCHO-EXTACY\n\n君のいうこと真に受けるあいつ　冗談でしょ\nけど嘘だとしても、本当にすればいい\n\nマジでCHO-EXTACY\n悪魔のパスポートなんて無しでHIGH\nCHO-EXTACY\n今夜は愛も非合法\nThree, Two, One,\n\nマジでCHO-EXTACY\n今夜のラストなんて無しでFLY\nCHO-EXTACY\n覚醒してく I Love You\nThree, Two, One,\nCHO-EXTACY…",
     },
     {
         id: 59,
@@ -643,10 +759,12 @@ export const songs = [
         titleKana: "Unlimited",
         lyricist: "SHIKATA",
         composer: "SHINO",
+        arranger: "REO",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "そう僕らは数え切れない程の\n夢をBackgroundに　より輝いていく oh\nAh...見上げれば　ハッキリと見えるだろう\n一緒に行こう Just believe my dream...\n\nLet's go Let's go(Hey)　おもいっきり夢に向かって\nLet's go Let's go(Hey) Turn it up Turn it up Turn it up\nLet's go Let's go(Hey)　全速力100パーセント\nLet's go Let's go(Hey) Turn it up Turn it up\n\nDreams come true(Hey)　いつの日か\n必ずこの手に掴んでみせる　輝く Dreamer\nみんなの声が僕らのモーター　共に行こう Don't stop\n地図にない明日へ Go now　限界はないよ飛び超えるボーダー\n\n憧れてきた夢のステージに　きっと辿り着けるさ\n\nそう僕らは数え切れない程の\n夢をBackgroundに　より輝いていく oh\nAh...見上げれば　ハッキリと見えるだろう\n一緒に行こう Just believe my dream... Unlimited\n\nStand up！！ Here we go！！ Now take it to the top\n僕らはずっと夢を描き　進んだ Road\nくじけそうになったとしても Don't worry\n決して逃げない　険しい道ぐらいが丁度良い\n日々日々成長 Step by step　信じる力こそが Make my day\n努力は惜しまない　流してきた涙は無駄じゃない\nテッペンを目指す僕らは Chaser　光求め掲げる Hands up\n諦めない NO NO NO　ただ今は前へ GO GO GO GO\n\n君と交わした約束の場所　辿り着いてみせるさ\n\nさあ走り出そう　最高のステージへ\n導いてゆくよ　笑顔の数だけ oh\nAh...今はまだ　僕らは旅の途中\n一緒に行こう Just believe yourself... Unlimited\n\nそう僕らは数え切れない程の\n夢をBackgroundに　より輝いていく oh\nAh...見上げれば　ハッキリと見えるだろう\n一緒に行こう　Just believe my dream... Unlimited",
     },
     {
         id: 60,
@@ -654,10 +772,12 @@ export const songs = [
         titleKana: "いまあいたいからしょうがない",
         lyricist: "下地悠",
         composer: "岩崎貴文",
+        arranger: "家原正樹",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "出会いは偶然　すれ違う Lady　香りの Shower\nサングラスをずらした瞬間　思わず This is Fate\n\nあの時と同じだね　「君を振り向かせたい」\n二度と会えなくなってもいいの？\nちょっと待って！ dkdkdkdk　どうしても\n\nいま逢いたいからしょうがない\nどうにかなっても In the Night\nそのすべて Talking, Making Love　抱きしめたいのさ\nいま逢いたいからしょうがない\nいま逢いたいからしょうがない\n二人きり　本気のなうで Show Time　わかるでしょ？？\n今度は Good　離さない\n\n見違えたね　大人びた Make Up　艶めルージュ\n止まった時間(とき)動かしたら　Destiny の One More Chance\n\nあれから一度だって　忘れたことなんてない\nまた恋を始めようよ　だから\nこっち向いて！ mjmjmjmj　どうしても\n\nいま逢いたいからしょうがない\nひとつになっても In the Night\n止められない Shaking, Making Love　抱きしめたいのさ\nいま逢いたいからしょうがない\nいま逢いたいからしょうがない\n思い切り Cool　に恋して Midnight　欲しいでしょ？？\nこのまま Good　夢見せて\n\nその腕を(強く)　引き寄せて(強く)\n抱き合って踊り明かしたい\n揺れるフロア、甘い香り　さあおいで\n目を閉じて Kiss しようよ\n\nいま逢いたいからしょうがない\nどうにかなっても In the Night\nそのすべて Talking, Making Love　抱きしめたいのさ\nいま逢いたいからしょうがない\nいま逢いたいからしょうがない\n二人きり　本気のなうで Show Time　わかるでしょ？？\n今度は Good 離さない",
     },
     {
         id: 61,
@@ -665,10 +785,12 @@ export const songs = [
         titleKana: "ええやんけぇ!!",
         lyricist: "無敵DEAD SNAKE",
         composer: "無敵DEAD SNAKE",
+        arranger: "生田真心",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "ええやんけ！！\n\n誰一人俺は飼い慣らせない\nダイヤモンドのように意志は固い\nどんなに嘲笑われても　どんなに引き止められても\n俺には譲れないものがあるんだ\n\n負けへんで！\n夢を掴もうじゃないか\nプライド脱ぎ捨てて\n覚悟決めろ　押忍！押忍！\n\nええやん　ええやん　ええやん　ええやん\n\nええやんけ　にぃちゃん！　ええやんけ　にぃちゃん！\n男気全開　ええやんけ　にぃちゃん！\n\nもう二度と私は涙見せない\n無意味な不満も愚痴も言わない\nどんなに追い詰められても　どんなに疲れ果てても\n私は笑顔で乗り越えるんだ\n\n負けへんで！\n引っくり返そうじゃないか\n昨日の自分から\n生まれ変われ　押忍！押忍！\n\nええやん　ええやん　ええやん　ええやん\n\nええやんけ　ねぇちゃん！　ええやんけ　ねぇちゃん！\nあんたに惚れたで　ええやんけ　ねぇちゃん！\n\n何言われてもええやんけ！\n誇り持てばええやんけ！\n自分貫くその瞳\n俺は好きや　私も好きや\nマジであんたは最高や！\n\nええやんけ　にぃちゃん！　ええやんけ　にぃちゃん！\n男気全開　ええやんけ　にぃちゃん！\n\nそれそれっ！！\n\nええやんけ　ねぇちゃん！　ええやんけ　ねぇちゃん！\nあんたに惚れたで　ええやんけ　ねぇちゃん！\n\nええやんけ！！",
     },
     {
         id: 62,
@@ -676,10 +798,12 @@ export const songs = [
         titleKana: "おおさかべんら〜にんぐ",
         lyricist: "corin.",
         composer: "corin.",
+        arranger: "corin.",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "大阪弁の醍醐味は　まるで清水のような清涼感\nそして洗練された抑揚感\nさあ、行くでみんなでレッスンわん！\n\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo！ Goo Goo Goo Goo！\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo Goo Goo Goo Goo Gooooo！\n\n「もっさい」\n意味：限りなくダサい\n例文：もっさい服着た兄ちゃん\n\n「イキっとる」\n意味：うかれて調子に乗る様\n例文：あいつイキっとんな最近\n\n「アメちゃん」\n意味：擬人化してオバちゃんが配ります\n例文：兄ちゃんアメちゃん食べるか？\n\nどやせやアカンしてまっせ！\nごっついぎょうさんでっか？\nもっさい兄ちゃんイキってチョケて\nアメちゃんもらってどないもこないもあれへん\n英語みたいやろ？\nちゃうちゃう勘違いや！\nボケてつっこむ俺らベタ\n右も左もなにわっ子！\n老若男女　こてこて！\n\nえびばでセイ！「もっさい」\nヒョウ柄のエコバッグどこで貰うてん？　さあ！\nえびばでセイ！「イキっとる」\nアカンのか？イカンのか？目立ってナンボ\nせやせやぼちぼち行くで大阪！はっ！\n\n出来そうででけへん『なんで↑やねん』\n発音間違いは『な↑んでやねん』\nそんなんどうでもえぇけどな\nさあ、行くでみんなでレッスンとぅ！\n\n「あほ」\n意味：好意を表す最上級\n例文：もう、、あほやな\n\n「あほ」\n意味：Words to send to those who respect\n例文：あいつホンマモンのあほや…\n\n「あほ」\n意味：踊る阿呆に見る阿呆\n例文：同じ阿呆なら踊らにゃ損損\nそれ大阪ちゃうやろ！\n\nうちえらいちゃうやん\nどついたるねんまいど\nずっこいもっかい堪忍してや\nあっちゃこっちゃごっついすんまへん\nどいつ語っぽいやろ？\nちゃうちゃう勘違いや！\nボケてつっこむ俺らベタ\n猫も杓子もなにわっ子！\n産声既にこてこて！\n\nえびばでセイ！「あほ」\n馬鹿(うましか)は禁句やで気ぃつけや兄ちゃん　さあ！\nえびばでセイ！「アメちゃん」\nガム煎餅アイスクリーム擬人化対象外\nどやどやほなほな行こか大阪！はっ！\n\n『おおき↑に』も難しいか？\n怪しい関西人『お↑おきに』\nそんなんどうでもえぇけどな\nさあ、行くでみんなでレッスンすりー！\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo！ Goo Goo Goo Goo！\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo Goo Goo Goo Goo Gooooo！\n\nこてこて！\n\n大阪弁ら～にんぐ\n意味なんて知らんでえぇ要はハートや！\nさあ！\n大阪弁ら～にんぐ\n困ったら日本語で喋ればえぇやん…\nせやせやぼちぼち行くで大阪！\nどやどやほなほな行こか大阪！\n行くで大阪！\nはっ！\n\n大阪弁の醍醐味は　まるで清水のような清涼感\n洗練された抑揚感\nさあ、行くでみんなでレッスンふぉー！\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo！ Goo Goo Goo Goo！\nWow　大阪弁ら～にんぐ\nGoo Goo Goo Goo Goo Goo Goo Goo\nGoo Goo Goo Goo Goo Goo Goo Goo Gooooo！",
     },
     {
         id: 63,
@@ -687,10 +811,12 @@ export const songs = [
         titleKana: "I got the FLOW",
         lyricist: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・JUN・前田佑",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・JUN・前田佑",
+        arranger: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・JUN・前田佑",
         album: ["なうぇすと","なうぇすと[通常盤]"],
         announce: "t",
         singer: "神山智洋＆藤井流星",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "Let's rock Let's go\nLet's rock Let's go\nGet ready now, time to party\nCome along and shake it everybody\n\nEverybody lovin' it YES\nNever too late come on be my GUEST\nEveryone アゲてくぜ\nWe got whole lot of people going\nHAPPY HOUR\nDrink up this nasty soda\nand you be supernova\nBottom up we take it high\nI mean way UP high\n\nHi, 派手な body line\nボンキュッボン凄え Grind\n一晩中 shake it,\ndo it do it do it now. Uh\nハメ外し move\n音に乗り groove\nついてこい\nPARTY ROCK\nOH VERY GOOOOOOOD.........\n\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\nOh baby very\nWILD WILD WILD\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\n見せつけろ\nWOW WOW WOW WOW\n\nEverybody crazy like FES\nPositive vibe feeling my BEST\nEveryone　連れてくぜ\nWe got whole lot of people going\nHAPPY HOUR\nDancing like BEAST MODE\nContinue EPISODE\nGet it down we take it high\nand don't ask why\n\nHi, 派手なメイク and スタイル\n飛び跳ねな fly\n一晩中 shake it,\ndo it do it do it now.　Uh\n理性的 RULE\n忘れ be a fool\n終わらない\nPARTY ROCK\nOH VERY GOOOOOOOD.........\n\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\nOh baby very\nWILD WILD WILD\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\n見せつけろ\nWOW WOW WOW WOW\n\n刺激的 Young　衝撃的 Young\n刺激的 Young　衝撃的 Young\n刺激的 Young　衝撃的 Young\n\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\nOh baby very\nWILD WILD WILD\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\n見せつけろ\nWOW WOW WOW WOW\n\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\nOh baby very\nWILD WILD WILD\nI got the FLOW(I got the flow)\nYABAIZO！！！！(yabaizo)\nI got the FLOW(I got the flow)\n見せつけろ\nWOW WOW WOW WOW\n\nLet's rock Let's go\nLet's rock Let's go\nGet ready now, time to party\nCome along and shake it everybody\n\nLet's rock Let's go\nLet's rock Let's go\nGet ready now, time to party\nCome along and shake it everybody",
     },
     {
         id: 64,
@@ -698,10 +824,12 @@ export const songs = [
         titleKana: "You're My Treasure",
         lyricist: "Atsushi Shimada・MiNE",
         composer: "SHIKATA・REO",
+        arranger: "REO",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "Ha... Miss you girl...\nI remember you...\nYou are the only one, You know？\n\nドアを開けると　かすかに残ってる\nキミの匂いを　探してる\nカーテン越しに見える月が\n一人の僕を笑った\n\n寂しさ埋めたくて　火を灯すキャンドル\n淡い光　浮かんだ影に　キミはいない Tonight\n\nまるでパズルみたい　二人のピース　一人きりじゃ意味がない\nまぶた閉じれば今もキミが微笑んでる\n時を戻せたら　もっと素直にこの想いを伝えられる\n今さらだって笑われちゃうかな\nYou're my treasure\n\n飾ってた写真そっと伏せたら\n新しい朝　迎えに行こう\nうまく笑うには　まだかかりそう\n強がりも少しだけ許して\n\n街角を歩けば　キミの姿探して\nそんなことも終わりにしよう　進み出すよ My life\n\nきっとパズルなら　最後のピース　探している頃かな\n少し時間がかかり過ぎてしまったけれど\n時を戻せても　ゆっくり探すよ一つ一つ胸に刻み\n遅すぎだって笑われちゃうかな\nYou're my treasure\n\nSo　キミが僕にくれた思い出\nSo　何もかもが宝物さ\nくだらないことも笑いあった日々も\nすべてキセキ Yeah...\n\n本当パズルみたい　重ねたピース　今はそばで笑ってる\n僕に甘えてもたれかかる愛しいキミ\n時はイタズラに　またこの街で赤い糸を結んでゆく\n過去を二人で笑い話に\nYou're my treasure\n\nHa... Love you girl...\nBaby kiss for you...\nYou are the only one, You know？",
     },
     {
         id: 65,
@@ -709,10 +837,12 @@ export const songs = [
         titleKana: "Colorful Magic",
         lyricist: "市川喜康・マツコタツロウ・ha-j",
         composer: "市川喜康・マツコタツロウ・ha-j",
+        arranger: "市川喜康・マツコタツロウ・ha-j",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "降り出した雪が　街の音色を消した時刻(ころ)\n静けさのなかで　僕らは想い出を見上げた\n\n振り返ればいつだって\n必ず寄り添いあって\nたどり着いた「今」がある\n\n積み重ねていく\n小さな時間を忘れないように\nこれからも僕ら\n急がずにゆこう　ずっとふたりらしく\n\n僕にしか出来ないことや\n君にしか守れないもの\nこの地球(ほし)は　そんな奇蹟で溢れている\n真っ白に染まる街並\n色とりどりの想いがあればこそ\n世界は輝いていく\n君と夢を願う Holy Night\n\nかじかむ指先　そっとつつみ込む掌\n結んだその手を　君はポケットに隠した\n\n簡単なことなんて\n僕らの前にはなくて\n思えば戸惑うことばかり\n\n手に入れた地図が\nまたふっと一瞬で　色あせてしまう\n信じられるのは\n右手に伝う　確かな温もり\n\n僕にしか出来ないことや\n君にしか守れないもの\nそう誰もが　たった一人の主人公さ\n本当は分かっているのになぁ\nつまずくたび忘れてしまう僕を\nとなりで支えてくれた\n君は夢に架かるヒカリ\n\n窓辺に咲いた横顔\n笑いあった秘密のフォト\nすべて僕らのチカラに変わる\n魔法の欠片(かけら)\n\n君と巡り会えたことも\n僕らをつないだ願いも\nこの地球(ほし)に　ただ1つだけの物語\n\n僕にしか出来ないことや\n君にしか守れないもの\nこの地球(ほし)は　そんな奇蹟で溢れている\n真っ白に染まる街並\n色とりどりの想いがあればこそ\n世界は輝いていく\n君と夢を願う Holy Night\n\n思いのままに\n君と夢を願う Holy Night",
     },
     {
         id: 66,
@@ -720,10 +850,12 @@ export const songs = [
         titleKana: "ぎらぎらぶべいびー",
         lyricist: "Junxix",
         composer: "Junxix・Saku.",
+        arranger: "kAi",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "ギラギラブベイベー！！！！！！！\n\nOh Yeah　やってきました　アゲアゲのエビデイ　ナーナナナナー\nOh Yeah　ドライブの Music これがNo.1　ナーナナナナー\n\nAh　どこもかしこもバケーション　Ah　まさに最高のシチュエーション\n手を叩け　声出せ　なんなら俺らとどうですか？\n\n「こっち来いよ」\n\nギラギラブベイベー　ギラギラブベイベー\n気持ちはスッポンポンで飛び込め\nギラギラブじゃね？　ハチャメチャでOK\n嫌なコト蹴っ飛ばして夢みろ\nいつでも俺らはギラギラ　メッチャギラギラ　ラブラブしてるぜ\n\nOh Yeah　お待たせしました　ハダカの My Venus　ナーナナナナー\nOh Yeah　心解放だ　ここはパラダイス　ナーナナナナー\n\nAh　どこもかしこもイチャイチャ　Ah　まさか乗り遅れた！？\n手を叩け　声出せ　そんなの俺らのせいぢゃない\n\n「マジかよ？」\n\nギラギラブかも　ギラギラで Come On\nなんだかすっ転んで出逢った\nギラギラブじゃね？　まじで神様\n捨てたもんじゃねえ　やっぱり\n場面で彼女とギラギラ　メッチャギラギラ　ラブラブしたいぜ\n\n心のままシェケシェケナベイベー\n\nYeah　この時を Yeah 最高にしようじゃないか\n準備OK！？　もっと来いよ　だったら俺らといっとけ　いったれ？\n\n「お前だけやで」\n\nギラギラブかも　ギラギラブバディ\nすべすべ真っ白な素肌を\nギラギラブかも　ウハウハしちゃお\n俺色に焦がしちゃいなよ\nギラギラブベイベー　ギラギラブベイベー\n気持ちはスッポンポンで飛び込め\nギラギラブじゃね？　ハチャメチャでOK\n嫌なコト蹴っ飛ばして夢みろ\nいつでも俺らはギラギラ　メッチャギラギラ　ラブラブしてるぜ",
     },
     {
         id: 67,
@@ -731,10 +863,12 @@ export const songs = [
         titleKana: "Believer",
         lyricist: "Komei Kobayashi",
         composer: "Christofer Erixon・SHIKATA・COMMAND FREAKS",
+        arranger: "COMMAND FREAKS",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "惰性を　幸せと割り切れたら\n傷付かず　生きてはいけるけれど\n\nTake it back, Take it back\n焚きつけるように\n脈打つ胸の高鳴り Hey\nBring it back, Bring it back\n冷めたフリして\n逃げるのはもうやめよう\n\nこのまま Get down...\nいつでも Don't stop...\n\n今も諦めない I'm a believer Oh singin' Oh\n誰も止められない Just take it higher Oh singin' Oh\nI got to fight, Got to stand　どんな時も\n譲れないモノがあるんだ\n何も怖くはない I'm a believer Oh singin' Oh Yeah\n\n誰かが　僕らを笑うとしても\nこの先も　変わることはないだろう\n\n未来なんて　分からないさ\nアテさえない道も Never back down\n滲んでいく　淡い過去の約束を\n今もまだ覚えてる\n\n今すぐ Wake up...\n何度も Stand up...\n\n今でも変わらない I'm a believer Oh singin' Oh\nこの手は離さない You're my desire Oh singin' Oh\nI got to live, Got to dream　手に入れたい\n忘れかけていた自由を\nここでは終われない I'm a believer Oh singin' Oh Yeah\n\nそう　あの夜　誓ったんだ\n自分が　選んだ道を　歩いて行くと\n\nまだまだ止まれない I'm a believer Oh singin' Oh\n\n今も諦めない I'm a believer Oh singin' Oh\n誰も止められない Just take it higher Oh singin' Oh\nI got to fight, Got to stand　どんな時も\n譲れないモノがあるんだ\n何も怖くはない I'm a believer Oh singin' Oh Yeah\n\nOh singin' Oh Yeah",
     },
     {
         id: 68,
@@ -742,10 +876,12 @@ export const songs = [
         titleKana: "ゆきにねがいを",
         lyricist: "MiNE",
         composer: "Anders Dannvik・MiNE・Atsushi Shimada",
+        arranger: "ha-j",
         album: ["なうぇすと","なうぇすと[通常盤]"],
         announce: "t",
         singer: "濵田崇裕＆小瀧望",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "ため息さえも白く形どった凍える街で\nいつもより寒いのは君がそばにいないせいかな？\n\nそう Little baby girl...\n去年と同じ様になんて　とても笑えそうにない\nそう Little baby girl...\nうつむきながら歩いてる僕の肩に降る華\n\n冬空に舞う雪に願いをかけた\nこんなにもこんなにも愛しています\n街を静かに白く染めるこの雪が　君にも届け\nWish and snow...Wish and snow...\n空は違うけど　君にも見せたいんだ\n\n全てが1人じゃ未完成だよ　君のいない街は\n心に残してくれたモノ全部美しすぎて\n\nそう Little baby girl...\n粉雪が溶けた道にほら　新しい花が咲いた\nそう Little baby girl...\nなんだかやさしい記憶が　僕の涙誘った\n\n変わり変わる空に言葉を乗せた\nこんなにもこんなにも愛しています\n巡る季節のどこかでまた出会えるように　想いを込めて\nWish and snow...Wish and snow...\n君も同じ空の下　見てるかな？\n\n確かに僕らは足跡つけた\nどれも宝物でまだ思い出すよ\nどんな景色でも君がいたから\n意味があったよ\n\nそう Little baby girl...\nあの日と同じ様になんて　とても笑えそうにない\n\n冬空に舞う雪に願いをかけた\nこんなにもこんなにも愛しています\n街を静かに白く染めるこの雪が　君にも届け\nWish and snow...Wish and snow...\n空は違うけど　君にも見せたいんだ",
     },
     {
         id: 69,
@@ -753,10 +889,12 @@ export const songs = [
         titleKana: "ぼくら",
         lyricist: "さくらももこ",
         composer: "松本良喜",
+        arranger: "松本良喜",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "何もかも飛びこえてすぐに会いに行くよ\nご機嫌ななめの横顔もほらね Just smiley now\n\nいつもボクを見てたこと誰よりも知ってるよ\n振り向けば必ずキミが笑ってたよね\n\nボクがボクだという手がかりはキミのその笑顔だけなんだ\nたとえ景色がめぐりめぐって変わったとしても\n大事なことはずっと変わらないままさ\n\nあの日と同じ　胸いっぱいのぬくもりを感じて\n抱きしめよう　あふれそうな想い　キミに伝えよう\nあの日と同じ坂道を　うれしさ抱いて\n走り出したらあの日と同じ歌を口ずさもうよ\n\nいつもキミを見てたけど秘密にしていたんだ\nでもとっくにバレてたね　背中が笑ってた\n\nキミはキミのために生きるんだボクはキミの陽だまりになる\nいつかわかる日がくるさ　きっと幸せだったこと\n大事なことはずっと変わらないはずさ\n\nあの日と同じひとりきり涙があふれてる\n弱いボクを　隠したはずなのにキミも泣いてたね\nあの日と同じ思いきりくやしさを感じて\n泣き顔のままあの日と同じ夢を抱いて眠ろう\n\n不思議だね　星の歴史と同じくらい　ボクら\nたぶん…\nたとえ自分が泣いて転んで\n悲しみの中で　倒れても\n\nあの日と同じ誰よりもやさしい瞳で\n見つめながら笑うんだろ　そうさ　キミとこの場所で\nあの日と同じさわやかなあの風が吹いたら\nステップを踏んであの日と同じ愛で包み込もうよ\n\nキミはキミのために生きるんだ　ボクはキミの陽だまりになる",
     },
     {
         id: 70,
@@ -764,10 +902,13 @@ export const songs = [
         titleKana: "むてっぽうぼーい",
         lyricist: "kima'n",
         composer: "koma'n",
+        arranger: "koma'n",
+        brassarrange: "koma'n/ 倉内達矢",
         album: ["なうぇすと","なうぇすと[通常盤]"],
         announce: "t",
         singer: "重岡大毅＆桐山照史＆中間淳太",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "瞬間的　溺れちゃうぜ　夢みたいな出会いだね\nEye to eye　でマジスタート　君にひとめぼれさ\n\nOnly you！ So I need you！\n話すたびトキメキ Up！ Up！ Dancing！\nアホみたいに Hold me tight\nこの手で君のハート掴み取るさ\n行くぜ Bang Bang Ba-Ba-Ba-Bang！\n\n映画行こうぜ？ No No No\n水族館は？ No No No No\nOh yes 求愛！　へこたれへんで Vi Vi Vi\nランチ行こうぜ？ No No No\nほな一緒に帰ろ？ No No No No\nYou are 強敵！　諦めず Go Go Go！\nGo Go Go！ Go Go Go！\n\n攻略方法探さなきゃ Let's look for it\n意外に相当ハードだね\nI can break the 鉄壁ガード\nめげずに立ち向かえ\n\n恋夢中！　五里霧中！\n難しすぎるから　あっぷあっぷ男子！\nWhat can I say？　わかんないぜ？\nここらで引き下がるわけにゃいかない\n飛ばせ Boom Boom B-B-B-Boom！\n\nメールしようぜ？ No No No\n電話はどうよ？ No No No No\nPlease don't 着拒！　負けられへんで Vi Vi Vi\n10分だけ！ No No No\nほな3分だけ！ No No No No\nOh It's 拒絶！？　諦めず Go Go Go！\nGo Go Go！ Go Go Go！\n\nオーマイガー… You're 厳しい Girl\n仲良くなりたいだけなのに\nこんなんじゃ I'm a 落武者\nとにかく君のハート掴み取るさ\n行くぜ\nBang Bang Ba-Ba-Ba-Ba-Ba-Bang Bang Bang Bang！\n\n一切合切 No No No？\n未来永劫 No No No No？\nYes more 求愛！　まだまだいくで Vi Vi Vi\nVi Vi Vi  Vi Vi Vi\n\n映画行こうぜ？ No No No　水族館は？\n行きたいとこは？ No No No No　どこだっていいぜ君となら\nOh yes 求愛！　へこたれへんで Vi Vi Vi\nランチ行こうぜ？ No No No　ディナーでもいいぜ\nほなご馳走するで No No No No　いくらでも\nやっぱ強敵！\n諦めず Go Go Go！　強過ぎるぜ\nGo Go Go！　あきらめへんへこたれへん\nGo Go Go！",
     },
     {
         id: 71,
@@ -775,10 +916,12 @@ export const songs = [
         titleKana: "one chance",
         lyricist: "SHIROSE from WHITE JAM",
         composer: "Takuya Harada・Christofer Erixon",
+        arranger: "CHOKKAKU",
         album: ["なうぇすと","なうぇすと[初回盤]","なうぇすと[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2016-11-30"
+        date: "2016-11-30",
+        lyrics: "Let's Go！\nHey clap clap clap...　やれフィーバー\nHey clap clap clap...　やれフィーバー\n\n救世主が必要なんじゃない？　世界は文明、文明だ\n君を幸せにしたテクノロジー、愛も買えそうだ。\nでもどんなに便利になって、不自由がなくなっても\n僕らの不安はきっと、アプリじゃ満たせない。\n\nねえ僕は誰を守りたい？　僕は君を守りたい？\nだれか僕を助けて！　守りたくて救われたい\nアップデートした僕ら Ah...\n\n運命のone chance　いつも「今」が変われるチャンスだろ\n人生を変える　今日がその日になるような　そんな気がしてる\n待っていちゃダメだろ　ヒーローは　心の中にある\n運命のone chance　本気出したら\nこんな今日でも最高に　なるから\n\nHey clap clap clap...　やれフィーバー\n\nSFのような　未来がきて　進化してくけど\n真実は検索しても　出てこない\n\n誰も僕を救えない？　僕も誰も救えない？\n誰も助けてくれない！　こんな自分を今変えたい\nアップデートする僕ら Ah...\n\n運命のone chance　大事な事はベスト尽くすことさ\n積み重ねてく　今日がその日になるかどうかは　わからなくても\n一生懸命なんて全員が　やってることだから\n運命のone chance　本気出したら\n今日が最低でも君と　笑えそうさ\n\n何が　正しいかはわからないよ\nだけどLive your life.　描いていくのさ　その手で\nCreate the future baby. Do it now.\nWe gotta get down！\n\n誰でも\nSo get ready\nなれるんだ\n超いい。。。\n\n運命のone chance　いつも「今」が変われるチャンスだろ\n人生を変える　今日がその日になるような そんな気がしてる\n待っていちゃダメだろ　ヒーローは　心の中にある\n運命のone chance　本気出したら\nこんな今日でも最高に　なるから\nLet's go！\n\nHey clap clap clap...　やれフィーバー\nHey clap clap clap...　やれフィーバー",
     },
     {
         id: 72,
@@ -786,10 +929,13 @@ export const songs = [
         titleKana: "おーさか☆あい・EYE・あい",
         lyricist: "松尾潔",
         composer: "松尾潔・豊島吉宏",
+        arranger: "Maestro-T",
+        produce: "松尾潔",
         album: ["おーさか☆愛・EYE・哀/Ya! Hot! Hot!","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回A]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回B]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]","WESTival","WESTival[初回盤]","WESTival[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-06-21"
+        date: "2017-06-21",
+        lyrics: "じらすようなまなざしで　足を組みかえて笑う\nうねるような腰つきで　オトコたちに火をつけな\n\n誰も気づかない時をねらって\n僕だけに目くばせした\n\nそんな目で見つめてくんの　やめてくれ\nこんな胸騒ぎには慣れてへん\nホレたらアカンから.......おーさか\n\n波のようなまばたきで　罪のないオトコ泣かす\n風のようなささやきで　その気にさせたら捨てな\n\n暗闇の中で光る不死鳥\n気まぐれに羽ばたく夜\n\nどんな目で君を見つめ返せばいい\nこんなゲーム　いつまでも続かへん\nホレたら負けやから.......おーさか\n\n愛・EYE・哀・アイ・l-ight\nあ一い・愛・EYE・哀・アイ・l-ight...おーさか\n\n誰も気づかない時をねらって\n僕だけに目くばせした\n\nそんな目で見つめてくんの　やめてくれ\nこんな胸騒ぎには慣れてへん\nホレたらアカンから.......おーさか\nホレたら負けやから.......おーさか\n\n愛・EYE・哀・アイ・l-ight\nあーい・愛・EYE・哀・アイ・l-ight…おーさか",
     },
     {
         id: 73,
@@ -797,10 +943,12 @@ export const songs = [
         titleKana: "Ya! Hot! Hot!",
         lyricist: "下地悠・Lauren Kaori・YHANAEL・岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "CHOKKAKU",
         album: ["おーさか☆愛・EYE・哀/Ya! Hot! Hot!","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回A]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![初回B]","おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]","WESTival","WESTival[初回盤]","WESTival[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-06-21"
+        date: "2017-06-21",
+        lyrics: "さぁみんな\nヤッホッホ～　ヤッホッホ～\nおっきなこえで　うたっちゃお\nヤッホッホ～　ヤッホッホ～\nてをつないで　おどっちゃお\nなついのすきなひと　このゆびとまれ\nアチ　アチ　アチチのチ　アチ　アチ　アチチのチ)\n\nあおいそらは　ゆめいっぱい\nなないろ　いろいろ　トッピング\nむねのおとが　ドキドキする\nたいよう　めがけて　ジャンピング\n\nたのしいこと　さがしにいこうよ oh yeah\nにじのむこう　うみをとびこえて\n\nせーのーで！\nヤッホッホ～　ヤッホッホ～\nあついのなんて　へっちゃLove\nヤッホッホ～　ヤッホッホ～\nぼくら　まなつの Oh Summer\nさあ　みんなおいでよ　このゆびとまれ\n(アチ　アチ　アチチのチ　アチ　アチ　アチチのチ)\n\nよるのそらに　ドーンっとはなび\nキラキラ　パチパチ　ポッピング\nせかいじゅうが　ワクワクする\nおどろき　ときめき　ウォッチング\n\nたからものを　さがしにいこうよ oh yeah\nやまをこえて　そらのかなたまで\n\nせーのーで！\nヤッホッホ～　ヤッホッホ～\nあついのなんて　へっちゃLove\nヤッホッホ～　ヤッホッホ～\nきっとみらいの　おひめSummer\nさあ　みんなおいでよ　このゆびとまれ\n\nあめがふったって　かぜがふいたって\nあしたはきっとハレルヤ\nてをたたいて　ピースサイン\nいいかんじでハッピーデイ\n\nせーのーで！\nヤッホッホ～　ヤッホッホ～\nびしょびしょでも　きにしない\nヤッホッホ～　ヤッホッホ～\nうえをむいて　わらっちゃお\n\nさぁみんな\nヤッホッホ～　ヤッホッホ～\nおっきなこえで　うたっちゃお\nヤッホッホ～　ヤッホッホ～\nてをつないで　おどっちゃお\nなついのすきなひと　このゆびとまれ\n(アチ　アチ　アチチのチ　アチ　アチ　アチチのチ)",
     },
     {
         id: 74,
@@ -808,10 +956,12 @@ export const songs = [
         titleKana: "PARA! PARA! ちゃ〜はん",
         lyricist: "Yu-ki Kokubo",
         composer: "Kohei Yokono・Yu-ki Kokubo",
+        arranger: "Kohei Yokono",
         album: ["おーさか☆愛・EYE・哀/Ya! Hot! Hot!","おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-06-21"
+        date: "2017-06-21",
+        lyrics: "Ladies and gentlemen\nメチャウマチャーハンツクリマッセ\nキッチン立ってDance Time\nハイ！ハイ！ハイ！ハイ！\nAre you ready！？\n\n玉ねぎ　チャーシュー　お好み具材\nザクザク刻んで\n昨日の冷や飯をレンチンしたなら\n勝負はここから\n\n決め手はそうさ　攻めの姿勢や\n強火でBurning Heart\nフライパンのダンスフロアで\n「ゴマ油ムーンウォーク」\n\nよっしゃ！\nお水を一滴垂らしたら\nすぐ蒸発するくらい　カ！ネ！ツ！\n熱気ムンムンのパーリータイムに\nご飯と卵を混ぜ混ぜ\n塩胡椒は？「少々！」\nほら気分は？「上々！」\n隠し味に愛情をダンク\n\nThis is the パラパラチャーハン\nファイアー　ファイアー\n男飯の定番やん\nマジ　ハラハラ　ココロ\nハイアー　ハイアー\nお口に合うかな？\n目指せ君の笑顔 Here we go\n鍋振って　腰振って\nShake Shake Shake\nほら　パラパラチャーハン\nファイアー　ファイアー\n胃袋を掴め　恋のパラパラチャーハン\n\n盛り付けはスピードが命や\nアツアツのうちに\n溢れそうなキミヘの想い添えて\nお皿にのせましよ\n\n見た目はそうさ　ドーム型よりも\nド派手にMaking Heart\n磨き上げた　お玉さばきで\n「超絶！！ OTAMA　パンキング！！」\n\nよっしゃ！\nお腹のサイレン聞こえてまっせ\n今すぐ行くから待っとって～\n餃子？　焼売？　グルグル円卓？\nでも今日だけは直球の\n渾身の一品入魂！！\nチャーハンOnlyでFall in Love\n\nダイエット中とか言いながら\n結局残さずに　ペロリ\n完食しちゃう　(食いしん坊で)\n照れ屋な君が　(大好きなのさ)\n料理は　味覚のラブレター\n\nThis is the パラパラチャーハン\nファイアー　ファイアー\n男飯の定番やん\nマジ　ハラハラ　ココロ\nハイアー　ハイアー\nお口に合うかな？\n仕上げに　パラパラトッピング\nジャンジャン　ジャンジャン\n紅生姜は間違いない\nきっと　ポロポロ　キミは\nCryや　Cryや\n嬉し涙カモーン\n\n目指せ君の笑顔 Here we go\n鍋振って　腰振って\nShake Shake Shake\nほら　パラパラチャーハン\nファイアー　ファイアー\n胃袋を掴め　恋のパラパラチャーハン",
     },
     {
         id: 75,
@@ -819,10 +969,12 @@ export const songs = [
         titleKana: "ありがとうじゃたりない",
         lyricist: "岩崎愛",
         composer: "岩崎愛",
+        arranger: "岩崎愛・中村タイチ・井上陽介(Turntable Films)",
         album: ["おーさか☆愛・EYE・哀/Ya! Hot! Hot!","おーさか☆愛・EYE・哀/Ya! Hot! Hot![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-06-21"
+        date: "2017-06-21",
+        lyrics: "Oh...\n\nつらかった事と　楽しかった事\nどちらも今は　笑って話せる\n叱られた事が　ずいぶん経ってから\nあれは大きな　愛だったと気付いた\n\n「ありがとう」じゃ足りない　うまく言葉見つからない\n僕が今ここにいる　道を照らしたのはあなた\n「ありがとう」じゃ足りない　この気持ち伝えたい\nあなたに届く日まで　歌い続けるよ\n\nOh...\n\nバラバラになって　すれ違った時も\nそれでも僕ら　乗り越えてきた\n\nアホな話ばかり　いつもふざけるけど\nちゃんと大きな夢　分かち合ってる\n\n「ありがとう」じゃ足りない　いつも側にいるけれど\nあなたがいてくれたから　前を向いて進めたよ\n「ありがとう」じゃ足りない　力にいつもなりたい\nくじけそうになったら　思い出してほしい\n\n「ありがとう」じゃ足りない　うまく言葉見つからない\n僕が今ここにいる　道を照らしたのはあなた\n「ありがとう」じゃ足りない　この気持ち伝えたい\nあなたに届く日まで　歌い続けるよ\n\nOh...\n\nあなたを笑顔に　包み込めるならば\nその為にいつまでも　歌い続けよう",
     },
     {
         id: 76,
@@ -830,10 +982,12 @@ export const songs = [
         titleKana: "ぼくらきょうもいきている",
         lyricist: "MORISHIN",
         composer: "川口進・MORISHIN",
+        arranger: "水島康貴",
         album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![初回A]","僕ら今日も生きている/考えるな、燃えろ!![初回B]","僕ら今日も生きている/考えるな、燃えろ!![通常盤]","WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-11-22"
+        date: "2017-11-22",
+        lyrics: "僕ら今日も生きている　僕ら今日も笑ってる\nそれだけでもう何もいらない\n今すぐにRIDE ON\n僕らすぐに求める　欲張りな生き物さ\n何も持たずに生まれてきたのに\n\n幸せは　そばにあって　近くにあって\n大切なものほど見えなくなるけど\n感謝して　何が起きたって分かってくれる人へ\n誰にだって　逃げたくなって\n自分を見失いそうになるけど\n愛は必ず君の心にあるよ\n僕ら一緒に歩いて行こうよ\n\n僕ら今日も夢見てる　僕ら今日も笑ってる\nそれこそがそうだよエネルギー\n生きてる証\n僕らならば描ける　素晴らしい人生を\nどこまでも繋がる出会いこそ\n\n抱きしめて　離さないで　見逃さないで\n確かなことはそう　一人じゃないから\n感動は　温もりがあって初めて生まれる\n誰にだって　逃げたくなって\n自分を見失いそうになるけど\n明日は輝く君の心にあるよ\n僕ら一緒に歩いて行こうよ\n\n同じ空の下　同じ空を見上げながら\n美しい色の絆数えていよう\n\n幸せはいつも　そばにあって　近くにあって\n大切なものほど見えなくなるけど\n感謝して　何が起きたって分かってくれる人へ\n誰にだって　逃げたくなって\n自分を見失いそうになるけど\n愛は必ず君の心にあるよ\n僕ら一緒に歩いて行こうよ",
     },
     {
         id: 77,
@@ -841,10 +995,12 @@ export const songs = [
         titleKana: "かんがえるな、もえろ!!",
         lyricist: "PA-NON・松本タカヒロ・ha-j",
         composer: "PA-NON・松本タカヒロ・ha-j",
+        arranger: "ha-j",
         album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![初回A]","僕ら今日も生きている/考えるな、燃えろ!![初回B]","僕ら今日も生きている/考えるな、燃えろ!![通常盤]","WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-11-22"
+        date: "2017-11-22",
+        lyrics: "「考えるな、、、燃えろー！！」\nもっと激しく　真っ赤に熱く　俺のハートはメラメラ\nFire！\n\n正義のため背負った十字架\n受けてたったるわ　(たちまくるわ)\nぐっと拳突き上げ\n\nいちかばちか無茶すぎるバトル\nつかみとったるわ　(とりまくるわ)\nガッとこの手に明日を\n\n立ち止まってちゃなにも変わらない\n始まりのゴングはもう\nガンガンガンガン鳴っている！\n「燃えろ！！」\nFire！\n\n燃えろ！燃え尽きたって行けよFighting Road\n汗と涙　流してこそが青春\n叫べ！すべてを賭けて挑み続けろ\n向かい風が吹いてくるほど\nもっと激しく　真っ赤に熱く\n俺のハートはメラメラ\nFire！\n\n与えられた宿命歩んで\nそれで満足か　(No満足！)\nよっしゃ蹴り飛ばしてやれ\n\n俺を見守る綺麗な瞳\n君からのエールはもう\nガンガンガンガン聞こえてる！\n「燃えろ！！」\nFire！\n\n燃えろ！あの未来へと続くFighting Road\nヒィヒィ嘆かんで「火」と「火」で作れ「炎」\n愛を握りしめたら夢に飛び込め\n逃げ出したらそこで終わりさ\nそうだ人生　待ったなしだろ\nいつもハートはメラメラ\nFire！\n\n「考えるな、、、燃えろー！！」\nFire！\n\n嗚呼、守りたいものがここにあるなら立ち向かうだけ\nこれが男だ！\nそれが男だ！\nぶっとばしてかっとばしてやったるで！\nFire！\n\n燃えろ！燃え尽きたって行けよFighting Road\n汗と涙　流してこそが青春\n叫べ！すべてを賭けて挑み続けろ\n向かい風が吹いてくるほど\nもっと激しく　真っ赤に熱く\n俺のハートはメラメラ\nFire！\n\nライライラ　ライライラ　ライライラ　ライ‥",
     },
     {
         id: 78,
@@ -852,10 +1008,12 @@ export const songs = [
         titleKana: "なんまんかいだってきみがすき",
         lyricist: "岩田秀聡",
         composer: "岩田秀聡・永野大輔",
+        arranger: "岩田秀聡・永野大輔",
         album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-11-22"
+        date: "2017-11-22",
+        lyrics: "夕陽に染まる君を　いつまでも抱きしめてた\n恋とかの気持ちじゃなくて　怖かった、僕が弱虫で\n\nダメになりそうな　現実から逃げたいこんな夜だって\n何も言わずただそばにいてくれた　それだけでよかったんだ\n\n何百回だって伝えるよ　何万回だって「君が好き」\n現在(いま)も昨日も　君とだから痛くたって顔を上げた\n何百回だって泣けばいい　何万回だってまた笑える\n夢も明日も　君とだったら　信じていけるかなって思えるんだ\n\n君に触れるだけで　この胸が感じてるんだよ\nいつだって強がりだから　少しずつ僕に甘えなよ\n\n全部を見せてほしい　その心に隠した小さな傷だって\n信じてよ　そう言って見つめてた　それだけで君が笑った\n\n何百回だって伝えるよ　何万回だって「君が好き」\n苦しい過去も抱きしめるよ　大丈夫越えてゆける\n何百回だってつまずいても　何万回だってやり直せる\n切ない時間が教えてくれた　いつでもこの心に君がいるんだって\n\n素直になれないまま　言葉に出来ないまま\nそれでも信じ合うことが出来たんだ\nこの先何があったとしても　この手だけは離さない\n今日が未来へ続いてゆく限り\n\n何百回だって伝えるよ　何万回だって「君が好き」\nそばに、そばに　君がいれば毎日が輝いてく\n\n何百回だって伝えるよ　何万回だって「君が好き」\n現在(いま)も昨日も　君とだから痛くたって顔を上げた\n何百回だって泣けばいい　何万回だってまた笑える\n夢も希望も　君とだったら　信じていけるんだって思えるんだ\n\nそう思えたんだ",
     },
     {
         id: 79,
@@ -863,10 +1021,12 @@ export const songs = [
         titleKana: "SHE IS MY…",
         lyricist: "SHIROSE from WHITE JAM",
         composer: "COMMAND FREAKS・SHIROSE from WHITE JAM",
+        arranger: "COMMAND FREAKS",
         album: ["僕ら今日も生きている/考えるな、燃えろ!!","僕ら今日も生きている/考えるな、燃えろ!![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2017-11-22"
+        date: "2017-11-22",
+        lyrics: "Hey yo\nやなら止めてみろよこのキスを\nSHE IS MY BABY…\n\n甘い誘惑、高カロリーのビスケット\n「リスク込みで食べるか、我慢するか？」ほら。\nもう必要ないよね、説明は省略\nSexy にさ言っちゃってセーノ\nYes or No\n\nどんどん来なよもっと来なよ\nダンスもテキトーテキトーでよし\n君が感じるままに　僕らのこの声を頼りに\nやなこと全部ふきとばそうよ\n笑顔生み出してくための魔法\nジェットコースターよりもドープ\n僕らのやり方はこう\n\nほっぺにキス　おでこにキス　やなら止めろ\nほらほら言いかけてたセリフが出ない\n\nSHE IS MY BABY\nやなら止めてみろよこのキスを\n帰りたいふりして電源オフして\nSHE IS MY BABY\nやなら止めてみろよこのキスを\nいいのさ綺麗なステップじゃなくても\nSHE IS MY BABY\nこっちこいよ\nダメダメ\nSHE IS MY BABY\nやなら止めてみろよこのキスを\n守りもしない約束をして\nすぐにやぶるぜ\n\n誰にも言えないキスをこれから始めようか\n誰にもできないことを今から始めようか\n\nどんどん来なよもっと来なよ\nリミッター解除、ダイブ Let's go！\n君が笑顔になれば僕も最高に嬉しいから\n\nパーリーは終わらない　僕はここにいる\n君を笑顔にしたい　僕の声で\n\nSHE IS MY BABY\nやなら止めてみろよこのキスを\nあげない、それじゃたりないスパークして\nSHE IS MY BABY\nやなら止めてみろよこのキスを\nいいのさいつもと少し違くても\nSHE IS MY BABY\nこっちこいよ\nダメダメ\nSHE IS MY BABY\nやなら止めてみろよこのキスを\n破裂しそうな秘密のゆくえ\nやばすぎて怖い\n\n心配ない\nここは楽園\n僕にサインを見せてみて\nその手あげて\n声を出して君を見せて\n\nパーリーは終わらない　僕はここにいる\n君を笑顔にしたい　僕の声で\n\nSHE IS MY BABY\nやなら止めてみろよこのキスを\n帰りたいふりして電源オフして\nSHE IS MY BABY\nやなら止めてみろよこのキスを\nいいのさ綺麗なステップじゃなくても\nSHE IS MY BABY\nこっちこいよ\nダメダメ\nSHE IS MY BABY\nやなら止めてみろよこのキスを\n守りもしない約束をして\nすぐにやぶるぜ\n\nSHE IS MY BABY",
     },
     {
         id: 80,
@@ -874,10 +1034,12 @@ export const songs = [
         titleKana: "もう1%",
         lyricist: "Shusui・川口進",
         composer: "Shusui・川口進",
+        arranger: "川口進",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "描いた未来の先に　見えた希望があるから\n一歩ずつでも近づきたい\n苦しいことの先に　新しい扉が\nそうだろう、見つかると信じて\n\n生まれたことが　チャンスの始まりさ\nとことん立ち向かえ！　運命よ、邪魔するな！\n\n「あきらめない」強く願えば(Let's go on my way, Let's go to journey)\n不可能も自分も変えられる\n簡単さ、心のニンジャ　叩き起こせ！(Let's go again)\nもう1%　自分を信じていこう、強く！\n\n夢は語る方がいい　言葉が夢になるから\nそうだろう、想いは無限大\n\n1%の限界を超えたら\nきっと失敗も成長してくれる\n\n「あきらめない」そう答える(Let's go on my way, Let's go to journey)\n勝てる気持ちがもったいないから\n何度でも立ち上がって、負けたとしても(Let's go again)\n恥ずかしがらないで　絆を信じていこう、強く！\n\n100%の限界を超えたら\nきっと世界も一つになれるから\n\n「あきらめない」強く願えば(Let's go on my way, Let's go to journey)\n不可能も自分も変えられる\n簡単さ、心のニンジャ　叩き起こせ！(Let's go again)\nもう1%　あきらめたらダメさ\nもう1%　自分を信じていこう、強く！",
     },
     {
         id: 81,
@@ -885,10 +1047,12 @@ export const songs = [
         titleKana: "なにわかんばんむすこ〜なめたらあかん~",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
+        arranger: "MUTEKI DEAD SNAKE",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "はやくこい\nはやくこい\n浪速は楽しいよ\nだからはやくこい\nはやくこい\n浪速はこっちだよ\n\nいらっしゃい\n\nあんちゃん　ちょっと待っておくんなまし\nちょっと聞き捨てならねぇなぁ(はいどうぞ！)\n図々しくない　優しいだけや\n義理と人情　関西人(うぉおおお！)\n多分あんちゃん一見さんやろ\nそんなことを言う前に(あぁそうだ！)\n俺らの歌を聴いていけ\nここは楽しい街やで浪速\n\nっておとっつぁ～ん！\nそこで寝たらあきまへんやん！\nそこ今から　俺らが歌うステージですやん！\nあぁおとっつぁ～ん！　あぁおとっつぁ～ん！\nもう風邪引くで　おいとまして\n布団はこっちよ！\n\nちょいとお時間いただきやす！\n\n俺ら浪速の看板息子だよ(YO！)よ(YO！)\nなめたらあかん(あらよっと！)\n俺ら浪速の看板息子だよ(YO！)よ(YO！)\nたこやきいかが？(ヘイらっしゃい！)\n乱痴気騒ぎは十八番やで　でも人情だけは忘れへんで\n浪速　浪速　浪速はええで\n日本一のおもてなし\n\nいらっしゃい\n\nほなほな、まだまだいくでぇ～！\n\nあんちゃんどうよどうよこの感じが\nめっちゃええんとちゃいますの？(あらよっと！)\nすってんころりんしちゃいましても\n俺らはいたって真面目でいつでも全力奉仕\n\nってお客さ～ん！\nそこは笑うとこちゃいまんがな！\n今は俺らが　頑張っているとこですやん！\nあぁお客さ～ん！　あぁお客さ～ん！\nもうちょいとばかり\n真剣に見てもらえます？\n\nいっちょいかせていただきやす！\n\n俺ら浪速の看板しょって歩いてるよ(YO！)よ(YO！)\n責任重大(はぁ～どっこい！)\n俺ら浪速の看板しょって歩いてるよ(YO！)よ(YO！)\n西の男(ヘイどうぞ！)\n惚れた腫れたよこの街に　人々が織り成す物語\n浪速　浪速　浪速の街は\n世界で一番　落ち着くわぁ～\n\n最後にもういっちょかまさせて！\n\n俺ら浪速の看板息子だよ(YO！)よ(YO！)\nなめたらあかん(あらよっと！)\n俺ら浪速の看板息子だよ(YO！)よ(YO！)\nたこやきいかが？(ヘイらっしゃい！)\n乱痴気騒ぎは十八番やで　でも人情だけは忘れへんで\n浪速　浪速　浪速はええで\n日本一のおもてなし\n\nどないや！！",
     },
     {
         id: 82,
@@ -896,10 +1060,12 @@ export const songs = [
         titleKana: "Baby Good!!!",
         lyricist: "MiNE",
         composer: "STEVEN LEE・Takuya Harada・Christofer Erixon",
+        arranger: "吉岡たく",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "Uh… Everybody gonna party time Yeah！！\nUh… To the rainbow mirror ball\n1. 2. 3. Hands up！！\n\nCrazy Baby Crazy Baby Crazy Baby Good！！ (Hey！！！)\nデッカイ声で So, Make some noise！！ (Hey！！！)\nSuper Baby Super Baby Super Baby Good！！ (Hey！！！)\n今宵出し切れ　全開 Bomb！！ (Oh… Hey！！！)\n\nFall down, 全部サラケ出せ\nShut down, 常識ナド壊セ\nCount down, 一緒ニ遊ボウ\nAh, Ah, Are you ready now？\n1… 壊レヨウ 2… 暴レヨウ 3… 乱レヨウ\n(始メヨウ…) Let's go！！\n\n悲“シゲ”なキミが“ダイ”好きな (Party time)\n時間“キリ”取ろう“アキ”る程　(Oh…)\n光の“ナカ”“ジュン”備はOK！？\n馬鹿になれ Alright！！\n\nYou…“カミ”がかった夜“トモ”に行こう\n“フジ”身な Partyが“リュウ”儀 (My Style)\n“ハマ”っちゃうぜ“タカ”い Tension\nまば“タキ”せず Show を“ノゾ”いて (Hey！！！)\n\nCrazy Baby Crazy Baby Crazy Baby Good！！ (Hey！！！)\nデッカイ声で So, Make some noise！！ (Hey！！！)\nSuper Baby Super Baby Super Baby Good！！ (Hey！！！)\n混ざり合うカラー Shall we dance！？ (Oh… Hey！！！)\nNa Na Na Na… (Hey！！ Oh… Hey！！)\nBaby Good！！！ (So Baby Good！！！)\nBaby Good！！！ (So Baby Good！！！)\nNa Na Na Na… (Hey！！！)\n今宵出し切れ　全開 Bomb！！\n\n“真っ赤”に燃やしてこうぜ Heart beat (Party time)\n“オレンジ”の朝が来るまで (Oh…)\n“黄色い”歓声　それが大好物\nアホになれ Tonight！！\n\nYou…“ブルー”なキミも笑顔になる\n“紫”の月も笑った (Smiling)\n胸の信号“グリーン”のLight\n“ピンク”に染まるキミのFace, Hey！！！\n\nCrazy Baby Crazy Baby Crazy Baby Good！！ (Hey！！！)\nその手をかざせ Raise your hands！！ (Hey！！！)\nSuper Baby Super Baby Super Baby Good！！ (Hey！！！)\n虹のステージで Shall we bounce！？\n\nFall down, 全部サラケ出せ\nShut down, 常識ナド壊セ\nCount down, 一緒ニ遊ボウ\nAh, Ah, Are you ready now？\nWow… Uh… 終わらない Party\nYeah… Oh… Baby Good… さぁ Evolution…\n\nCrazy Baby Crazy Baby Crazy Baby Good！！ (Hey！！！)\nデッカイ声で So, Make some noise！！ (Hey！！！)\nSuper Baby Super Baby Super Baby Good！！ (Hey！！！)\n混ざり合うカラー Shall we dance！？ (Oh… Hey！！！)\nNa Na Na Na… (Hey！！ Oh… Hey！！)\nBaby Good！！！ (So Baby Good！！！)\nBaby Good！！！ (So Baby Good！！！)\nNa Na Na Na… (Hey！！！)\nひとつになろう　全開 Bomb！！",
     },
     {
         id: 83,
@@ -907,10 +1073,12 @@ export const songs = [
         titleKana: "Evoke",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "CHOKKAKU",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "Ladies and Gentlemen\nThe time has come\nWe gon' party over here\nEverybody clap ya hands\nWe be coming through\nGet out of my way\nIt's invitation to the new ground\nY'all better watch us\nHey, Don't look away\nLet's get the show started now\n\nHair is done　粋にキメたDress code\n誘うRed carpet　手を取りEscort\n欲望だらけのParty people　暴走で最高潮\nVoltage　上昇徐々に Lose control\n\n一目で虜さ中毒まさにBlack hole\n見惚れてCan't sneak　注目掻(か)っ攫(さら)うDarkhorse\n轟かすMy name　俺が台風の目\n響くBass　ShyなBae\nSaveなんて不要さぁFeel the beats\n\n人が犇(ひし)めくDance floor\nそれぞれが自由に歌い叫び\n燦然(さんぜん)と煌(きら)めく宙のMirror ball\n踊る心照らし続けて\n今宵はSpecial day　Rhythmにのって\nParadiseにRuleはTABOO\n心の赴くままDancing now Ready？\nVolumeを上げろMake some noise\n\nUntil the time ends\nUntil the sun rises\nHey wussup？ Don't stop the party\nLet me hear you say YEAH！ (YEAH！)\nsay OH！ (OH！)\nLet's hang out　もっとTurn it up\nイカしたGirl Shall we dance？\nWay to go\n\nBeatで揺れるHip\nSceneに合わせるMusic\nHeat up　一緒にKeep on\nMoving Stepping Jumping Dancing\n憧れのVIP seat\nGlass 掲げPeace & Cheers\nWe gon' party like this\nFollow me\n\n燃え上がってFire\n灼熱の熱帯夜\n汗だくDead tired\nでももっとアガって　Higher\nまだ物足りないでしょ？今すぐCall me\nCome on,\nLet's move it & Put ya hands up in the air\n\n魅力溢れるDiamond\n輝きに心奪われ溺れ\nまるで無法地帯　Crazy Ceremony\nLimiter　外れ止まれなくて\n肌を伝うSweat　髪掻き上げ\n暴れ疲れてDIZZY\n適当でOkay　更にTo the top Ready？\nただ求めるまま Running wild\n\nStill more swingin' swingin'\nDon't stop Get it Get it\nBreak down, Regret is deferment\nNow scream\n(Bounce Bounce)\nFangirls voice ExtraでGOATなSuperstar\nGot a swag Got your back OMG！！！\nGirls are delighted Waves of the light\nTonight we excited\nFly so high Touch the sky\nNever felt like that Check this out\nIt's lit Let's go\n\nUntil the time ends\nUntil the sun rises\nLet me sing it now\nOh\nOne more time\nOh\nLet's dance\nOh\n\nSatisfied？",
     },
     {
         id: 84,
@@ -918,10 +1086,12 @@ export const songs = [
         titleKana: "OH LA LA",
         lyricist: "SUNNY BOY",
         composer: "Christofer Erixon・Josef Mekin",
+        arranger: "ha-j",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "OH LA LA OH LA LA LA LA\nOH LA LA OH LA LA LA LA\n1 2 3 Go！\n\n普段はShyな君も Ima set you free\n俺らと一緒に Let's\nParty Party　どん派手にパーリー\nOH LA LA OH LA LA LA LA\n\nリミット突破したいなら\n俺らといれば Alright\n体を揺らして Now sing\nOH LA LA OH LA LA LA LA\n\n人生は一度きりだから\nはしゃぎまわって自由になれ\n\nアゲロ！！　Hey！！\nハチャメチャになるまで\n行っとけ！！　Hey！！\n盛り上がれよ Everyday\n嫌なこと全て　忘れるまで Party\n枯れるまで We sing\nOH LA LA LA LA\nOH LA LA LA LA\n\n今はRide　この音でGo side to side\nまだまだ激しく\nノレノレ半端なくノレ\nOH LA LA OH LA LA LA LA\n\n真面目になりすぎはダメダメ\n肩の力をほぐして\n気を抜いて Everybody sing\nOH LA LA OH LA LA LA LA\n\n人生色々あるけど\n喜怒哀楽を楽しもうぜ\n\nアゲロ！！　Hey！！\nハチャメチャになるまで\n行っとけ！！　Hey！！\n盛り上がれよ Everyday\n余計なことばかり　考えすぎずに\nどんな時も We sing\nOH LA LA LA LA\n\nEverybody stand up (Stand up！)\n騒ぐ準備は！？ (出来たッ！)\n手を上げな！！ Hands up！！ (Hands up！)\n飛び跳ねろ！！ Jump up！！ (& down)\n踊りまくろう！！ Yeah！ (Oh yeah)\nSo　枯れるまで OH LA LA\n俺らについてきな Yeah\nAre you ready？！\n100%今を楽しもうぜ！！\n\nアゲロ！！　Hey！！\nハチャメチャになるまで\n行っとけ！！　Hey！！\n盛り上がれよ Everyday\n嫌なこと全て　忘れるまで Party\n枯れるまで We sing\nOh baby\nアゲロ！！　Hey！！\nハチャメチャになるまで\n行っとけ！！　Hey！！\n盛り上がれよ Everyday\n余計なことばかり　考えすぎずに\nどんな時も We sing\nOH LA LA LA LA LA\nOH LA LA LA LA LA\n\nOH LA LA OH LA LA LA LA",
     },
     {
         id: 85,
@@ -929,10 +1099,12 @@ export const songs = [
         titleKana: "Parade!!",
         lyricist: "福岡良太",
         composer: "Takuya Harada・Christofer Erixon・Josef Melin",
+        arranger: "船山基紀",
         album: ["WESTival","WESTival[初回盤]","WESTival[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "Ladies & Gentlemen\nWelcome to the Parade！！　Ha ha！\n\n天気予報　外れたけど\n足取り軽やかに\n騒がしい Sunday\n僕、はにかんで\n飛び越えた水溜り\n\n街中は…\n(So happy happy happy mood)\n君の待つ場所へ\nカラフルに咲いた傘たち\n揺れるよサイドステップ\n\n君を見つけた瞬間に\n1.2.3. Knock out！\n濡れた髪と　肌を滑る Raindrop\n\nI love you！\nはぐれぬように今夜は僕がエスコート\n流れ出すメロディーに乗せて Shall we dance？\n始まるよ恋のパレード\nOh, ファンタジックに描いてくよ Love story\n君だけが Specialさ (Just you) I want you (I want you)\n今夜こそきっと言うよ…\n「You're all I need… You know？」\n\n人混みは…\n(So loving loving loving mood)\n不意に触れた指\n寄り添う二つの影　照れてスライドステップ\n\n君の気持ちが知りたくて\n1.2.3. Right now！\n焦る僕を　急かすようにライトアップ\n\nI love you！\n2人の想い乗せてまわるメリーゴーランド\n駆け引きは Round & Round 誘う Take your hands\n始まった恋のパレード\nOh, ロマンティックに2人包む Like a magic\n君だけがPrecious さ (Just you) I need you (I need you)\n今夜こそきっと言うよ…\n\n2人で見る景色(ステージ)は\n色とりどりに輝いてる\nSo come on！ (So come on！)\n君に伝えるよ　行こう　フィナーレさ！！\n\nI love you！\n君と2人この先もずっと We're in love\n祝福のカーニバル　踊ろう Side by side\n終わらないよ恋のパレード\nOh, ドラマチックに口付けを交わす2人\n君だけさ Only you (Just you) I want you (I want you)\n今夜こそきっと\n「離さない君を」\nって言うよ…\n「You're all I need… You know？」",
     },
     {
         id: 86,
@@ -940,10 +1112,12 @@ export const songs = [
         titleKana: "GOD DAMN",
         lyricist: "Kanata Okajima",
         composer: "COMMAND FREAKS・CHRISTOFER ERIXON・ERIK LIDBOM",
+        arranger: "COMMAND FREAKS",
         album: ["WESTival","WESTival[通常盤]"],
         announce: "t",
         singer: "神山智洋＆濵田崇裕",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "What's going on？\n終わり無き　都会の戦場は\n生きるか　死ぬか\nもう忙しいゼ\n\n理不尽な Everyday　憤り隠して\n不適な微笑み\n狙うは TOP of TOP\n\nひるんだ隙に　一瞬で奪い取れ\n永遠なる　フラストレーション Life\nいつ終わるのか　何が正解か\n…誰もわからない\n\nGOD DAMN\n燃え上がる Ambition\nリアルに　今は挑むだけ\nGOD DAMN\n己の限界なんて\n決められてたまるか\n無駄な光まみれ\n駆け抜ける　ランウェイ\n毒された　俺ら止まれない\nGOD DAMN\nお前はちゃんと生きてる？\n一度きりのイキザマ\n\nYou got it guys？\n\nWhat's going on？\nまたも意味の無い Clash\nどこもラスボスばかり\nもう嫌んなるゼ\n\n余裕かましてる Perfect Hero も\n一晩で真っ逆さま\n明日は我が身\n\n小さな街から　大きな夢抱いて\n戦って来たんだろう？\n後ろ向いている\n…暇なんてないゼ\n\nGOD DAMN\n火を吹く Ignition\n貪欲に　今は突っ込むだけ\nGOD DAMN\n勝ち気なスタイルで\n常識を塗り変えて行け\n無駄な欲にまみれ\n溢れだす Champagnes\n毒された　俺ら戻れない\nGOD DAMN\nお前はちゃんと生きてる？\n一度きりのイキザマ\n\n浮ついたこの世界に\n意味があるかは I don't know\n(No one ever knows)\nでも言い訳なら　もう Enough\n充分しただろう？\n\n正義をかざすだけで\n生きられるなら\nそりゃ美しいけれど\n幕は上がってるのさ\n\nこの先なんて\n…誰もわからない\n\nGOD DAMN\n燃え上がる Ambition\nリアルに　今は挑むだけ\nGOD DAMN\n己の限界なんて\n決められてたまるか\n無駄な光まみれ\n駆け抜ける　ランウェイ\n毒された　俺ら止まれない\nGOD DAMN\nお前はちゃんと生きてる？\n一度きりのイキザマ\n\nGOD DAMN\n俺はちゃんと生きてる？\n一度きりのイキザマ",
     },
     {
         id: 87,
@@ -951,10 +1125,12 @@ export const songs = [
         titleKana: "Into Your Eyes",
         lyricist: "中間淳太・Komei Mckinnon",
         composer: "Josef Melin・Adrian Mckinnon",
+        arranger: "Josef Melin",
         album: ["WESTival","WESTival[通常盤]"],
         announce: "t",
         singer: "中間淳太＆藤井流星＆小瀧望",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "Yeah… Hey girl… Come here…\nWoo… Something I wanna say\nYou know, Listen up\n\n何気ない　平日の夜\n約束もないけれど　こうして会えたね　Alright\n苦いコーヒー　飲めないくせに\n「私もそれで」と　笑う\n\nまるで　子供みたい\nそっと　君を引き寄せ\n「嘘つきめ」と抱きしめる\n\nLook into your eyes, girl\n何も言わないで\nLook into your eyes, girl\nその笑顔は誰にも見せないで\n鳴った　電話に　遮られた時間の\n続きを　探そうか？\n\nOh　君へと　近づくほど\n友達のフリがうまくなってく　Oh no baby\nワガママだって　愛せるけど\n本当の　気持ちは　言えない\n\n振り返りざま　そっと　笑う　君に\n「またいつか」と手を振った\n\nLook into your eyes, girl\nどこにも行かないで\nLook into your eyes, girl\nその言葉を静かに飲み込んで\n最終　電車に　乗り込んでいく君の\n背中を　見ていた\n\nGet down, Break down\nもっと恋に落ちてく\nGet down, Cuz I can't stop\n瞳に溺れてく\nGet down, Break down\nもっと君に堕ちてく\nGet down, Cuz I can't stop\n瞳に溺れてく\nWoo… Pretty baby (Into your eyes)\nKeep on lovin' (Lovin', Lovin'), Keep on lovin' (All day)\n\nLook into your eyes, girl\nもう何も聞かないで\nLook into your eyes, girl\n許された　時間を壊さないで\nWon't stop　君を\n愛すほどに Lost my way\n濡れたシャツもTake off\n\nLook into your eyes\n肌を重ねDancing\nLook into your eyes\n首に残すルージュと過ち\n今日も　君の\n寂しげな瞳が\nうつす指のウソ",
     },
     {
         id: 88,
@@ -962,10 +1138,12 @@ export const songs = [
         titleKana: "のりこしらぶすとーりー",
         lyricist: "重岡大毅",
         composer: "YHANAEL",
+        arranger: "丸山真由子",
         album: ["WESTival","WESTival[通常盤]"],
         announce: "t",
         singer: "桐山照史＆重岡大毅",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "ガタンゴトン揺れる僕らは\n出会い別れまた恋をして\nドンと構えた僕の切符\n乗り越しラブストーリー\n\n「よっ」て言えよはよ\n車窓透けた僕赤ら顔\nこっち気づいてや\nキレイなってる横顔\n\nいつだって何だって繋いだ手と手\n「めっちゃ幸せ」言うて見つめ合った\n目を閉じて　思い出ひたっとったけど\nドア開く　まだ好きなんや\n\nガタンゴトン揺れる僕らは\nいったいどこへ向かってるの\nポケットつまづいた僕の切符\n乗り越しラブストーリー\n\n誕生日にくれた流行りのキャップ\n実はサイズ　きつい\n「私も一緒に使いたくって」\nってエヘヘちゃうで\n\n怒らせたくて　パシャリ寝顔\n「もうやめて～」って僕見つけてギュッ\nアダムとイヴも二度見しとったやろ\nドア開く　まだ降りないで\n\nガタンゴトン揺れる僕らは\nきっと笑うため泣いてたの\nポケットでぽけーっと僕の切符\n乗り越しラブストーリー\n\n僕を待つ君がもしいたら\nどんなに笑えんだろう\n本当は知ってた　サヨナラだって\n君の切符　幸せそう\n僕が降りる駅　見えてきたよ\n\nガタンゴトン揺れる僕らは\n出会い別れまた恋をして\nドンと構えた僕の切符\n乗り越しラブストーリー\n乗り越しラブストーリー\n乗り越しラブストーリー\n\n揺れる心　行け涙　僕の“愛してる”",
     },
     {
         id: 89,
@@ -973,10 +1151,12 @@ export const songs = [
         titleKana: "おーさか☆あい・EYE・あい (MURO REMIX)",
         lyricist: "松尾潔",
         composer: "松尾潔・豊島吉宏",
+        arranger: "",
         album: ["WESTival","WESTival[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2018-01-02"
+        date: "2018-01-02",
+        lyrics: "じらすようなまなざしで　足を組みかえて笑う\nうねるような腰つきで　オトコたちに火をつけな\n\n誰も気づかない時をねらって\n僕だけに目くばせした\n\nそんな目で見つめてくんの　やめてくれ\nこんな胸騒ぎには慣れてへん\nホレたらアカンから.......おーさか\n\n波のようなまばたきで　罪のないオトコ泣かす\n風のようなささやきで　その気にさせたら捨てな\n\n暗闇の中で光る不死鳥\n気まぐれに羽ばたく夜\n\nどんな目で君を見つめ返せばいい\nこんなゲーム　いつまでも続かへん\nホレたら負けやから.......おーさか\n\n愛・EYE・哀・アイ・l-ight\nあ一い・愛・EYE・哀・アイ・l-ight...おーさか\n\n誰も気づかない時をねらって\n僕だけに目くばせした\n\nそんな目で見つめてくんの　やめてくれ\nこんな胸騒ぎには慣れてへん\nホレたらアカンから.......おーさか\nホレたら負けやから.......おーさか\n\n愛・EYE・哀・アイ・l-ight\nあーい・愛・EYE・哀・アイ・l-ight…おーさか",
     },
     {
         id: 90,
@@ -984,10 +1164,12 @@ export const songs = [
         titleKana: "ぷりんしぱるのきみへ",
         lyricist: "HoneyWorks",
         composer: "HoneyWorks",
+        arranger: "CHOKKAKU",
         album: ["プリンシパルの君へ/ドラゴンドッグ","プリンシパルの君へ/ドラゴンドッグ[初回A]","プリンシパルの君へ/ドラゴンドッグ[初回B]","プリンシパルの君へ/ドラゴンドッグ[通常盤]","WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-03-07"
+        date: "2018-03-07",
+        lyrics: "最高最大の物語真っ白な世界\nここから始まる何を描こう\n\nどうしたの？ため息なんて\n周りばっか気にしてる\n君らしくいる事難しいけど\nその方が好きだよ\n\n恋にかかる魔法かけて\n君の心の鍵を開ける\n\n最高最大の物語カラフルになれ\n大人は見えない夢の地図\n最愛を探す旅走り出したら\nここから始まる君の世界\n\n物語主役は君で\nどんな話を作るの？\nすぐそばに居るから\n恐がらないで君の色を描こう\n\n恋が進む魔法かけて\n雪は溶けて道ができてく\n\n最高最大の物語わがままになれ\n誰にも消せない夢の地図\n散々な一日も笑い飛ばそう\n涙は似合わない君の世界\n\nいくつもの恋が生まれて\nいくつもの恋が眠って\n君は誰かに恋してる？\n僕は君に恋してる\n\n旅は続く傷ついても\n遠回りは近道になる\n\n最高最大の物語カラフルになれ\n大人は見えない夢の地図\n最愛を探す旅走り出そうよ\n無限に広がる世界へ\n\n最高の物語幸せになれ\n知らない扉も恐くない\n最愛を探す旅息を切らして\n世界を楽しめ君は主役",
     },
     {
         id: 91,
@@ -995,10 +1177,12 @@ export const songs = [
         titleKana: "どらごんどっぐ",
         lyricist: "Shusui",
         composer: "Shusui・Josef Melin",
+        arranger: "Josef Melin",
         album: ["プリンシパルの君へ/ドラゴンドッグ","プリンシパルの君へ/ドラゴンドッグ[初回A]","プリンシパルの君へ/ドラゴンドッグ[初回B]","プリンシパルの君へ/ドラゴンドッグ[通常盤]","WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-03-07"
+        date: "2018-03-07",
+        lyrics: "何言ってんだ　出来ないかもって\n何やってんだ　下向いちゃって\nHey you！　やる前に諦めちゃ\n何言ってんだ　ダメダメ\n\n上にいくんだろう？\n壊していけよ\n常識だって\n\nまだだ　ギリギリ間に合うだろう？\nもっとガチャガチャかき回せばいい\n一度しかない青春なら\nギラギラしてやれ\n勝っても負けてもお前は\nドラゴンドッグ！\n\nどこ見てるんだ　顔色ばっかり\n何してるんだ　振り向くばっかり\nHey you！　それで勝てるのかって\nどこ向いてるんだ　ダメダメ\n\n誰のためじゃない\n自分の武器で\n戦うんだ\n\nそうだ　めちゃくちゃやっちまえよ\nでなきゃトップドッグ\nなれるわけがない\nどこまでも強く生きてやれ\nメラメラ燃えてやれ\n勝っても負けてもお前は\nドラゴンドッグ！\n\nもっとギラギラ…\nもっとメラメラ…\n\n胸がジンジン痺れるほど\n今　ビリビリきまくってるだろう\nその手で超えてやれトップドッグ\n今こそ火を吹け！\n\nまだだ　ギリギリ間に合うだろう？\nもっとガチャガチャかき回せばいい\n一度しかない青春なら\nギラギラしてやれ\n勝っても負けてもお前は\nドラゴンドッグ！",
     },
     {
         id: 92,
@@ -1006,10 +1190,12 @@ export const songs = [
         titleKana: "あおぞらねがってまたあした",
         lyricist: "MORISHIN・Komei Kobayashi",
         composer: "川口進・MORISHIN・佐原康太",
+        arranger: "ha-j",
         album: ["プリンシパルの君へ/ドラゴンドッグ","プリンシパルの君へ/ドラゴンドッグ[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-03-07"
+        date: "2018-03-07",
+        lyrics: "黄昏の街　歩道橋の上\nあの僕らの歌　今日も聴いてる\nどこかで君も　同じような気持ちでいるかな？\n\n抱えきれないほどの期待と\n不安をカバンに詰め込んだら\n少し背伸びをして\n今日も僕は　歩くよ\n\nずっと僕ら　探していた\nいつかの未来を今生きてる\nそれぞれの空　晴れ渡る朝\n見つけにいこう\n\nそうさ\n愛が愛が愛が溢れてる\n世界が僕らを繋いでいく\n“大丈夫”“大丈夫”\n君の声がきっと誰かを笑顔にする\nだから\n愛が愛が愛が溢れだす\nそれは僕ら生きている証\n描いた夢　芽吹いていくように\n青空願ってまた明日\n\n僕らが待ちわびた今日でさえ\nいつか思い出になっていくけど\nそれぞれの未来が\n重なる日を　夢見てる\n\n急ぎ足の　街の中で\n肩がぶつかることもあるでしょう\n自分の弱さ　受け止めたなら\n優しくなれる\n\nずっと\n愛が愛が愛が続いてく\n未来を僕らは生きていく\n“大丈夫”“大丈夫”\nいつかの声はちゃんと今も聞こえてるから\nいつも\n愛が愛が愛が続いてる\nあの日僕ら出会った証\n夢見た場所　辿り着くように\n青空願ってまた明日\n\nがむしゃらにもがいてた\n長い夜も明けていく\n選んだ道の先\n新しい自分　そこで待ってるはずさ\n\nそうさ\n愛が愛が愛が溢れてる\n世界が僕らを繋いでいく\n“大丈夫”“大丈夫”\n君の声がきっと誰かを笑顔にする\nだから\n愛が愛が愛が溢れだす\nそれは僕ら生きている証\n描いた夢　芽吹いていくように\n青空願ってまた明日\n\n青空へ",
     },
     {
         id: 93,
@@ -1017,10 +1203,12 @@ export const songs = [
         titleKana: "はつこい",
         lyricist: "MiNE",
         composer: "川口進・MiNE",
+        arranger: "川口進",
         album: ["プリンシパルの君へ/ドラゴンドッグ","プリンシパルの君へ/ドラゴンドッグ[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-03-07"
+        date: "2018-03-07",
+        lyrics: "ずっと一緒にいようなんて\n言葉は照れくさくて\nあの日に交わしたキスのあと\n甘酸っぱい恋に気づいた\n\n2人あれから笑い合い涙も流し\nずっとそうして乗り越えたその先が「今」\n\n僕らはきっと“愛してる”以上の言葉を　(I love you so)\n見つける為に生きてきたんだ　(Never end)\n手を取り合ってまた進んでゆこう　(My life)\nそれがひとつの軌跡さ\n僕らはずっと優しさの答え合わせをして　(I love you so)\n2人足跡を残してゆくよ\nもう汚れた靴でもいいんじゃない？　(My life)\n隣では君が笑ってて、幸せ咲く\n\n何度もぶつかり合った後に\n何度も好きになって\n自然に居場所がここになって\nかけがえない2人になってた\n\n僕の溢れるこの気持ちを空に書いて\nもっと大事なことを今、君に歌うよ\n\n僕らはきっと“愛してる”以上の想いで　(I love you so)\n「これからもずっとこうしていよう」　(Never end)\n手を取り合って見つめ合いながら　(My life)\nほら、また君が笑ってる、笑ってる\n\n誰もわからない　未来はわからない\nそれでも受け止めてゆく　僕が連れてってあげるよ\n歩こう　(歩こう)　歩こう　(歩こう)\n君を離さない\n\n僕らはきっと“愛してる”以上の言葉を\n見つける為に生きていたんだ\n旅立つ君と送り出す僕と\nそれが2人の答えさ\n僕らはずっと優しさの答え合わせをして　(I love you so)\n支え合って生きてこれたんだ\n君のいない街に慣れたら　(My life)\n空に書く、僕のこの想い届いてって\n\nMy Love…Oh Yeah…",
     },
     {
         id: 94,
@@ -1028,10 +1216,12 @@ export const songs = [
         titleKana: "すたーとだっしゅ!",
         lyricist: "藤林聖子",
         composer: "岩崎貴文",
+        arranger: "家原正樹",
         album: ["スタートダッシュ!","スタートダッシュ![初回A]","スタートダッシュ![初回B]","スタートダッシュ![通常盤]","WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-08-15"
+        date: "2018-08-15",
+        lyrics: "転んだ時の　芝生の匂い\n仰ぎ見た　空の青　果てしなかった\n\n迷って戻り　進む軌道が\n果てしない夢を見る　僕たちの地図\n\nゴールを逸れた希望があっても\nまた立ち上がるなら　夢は終わらない\n\nナンバーワン！　誰より速く　駆け抜け\nトリッキーなプレイで世界へ向け　スタートダッシュ！\nラン＆ラン！　憧れだけが僕らを\nジリジリジリ　動かすよ\nメラメラメラ　行くぜキックオフ\n飛び出そう　どデカイ　ドリームフィールド\n\n誰も最初は　自分がいちばん\n上手いって　強いって　信じてるけど\n\nみんな同じ　才能じゃない\n違うとこ　認め合い　奇跡を起こせ\n\n悔しさは　心の栄養さ\n伸びしろのポテンシャル　迷わず進め\n\nナンバーワン！　誰より早く　夢まで\n一番乗りで注目浴び　スタートダッシュ！\nラン＆ラン！　情熱だけが僕らを\nジリジリジリ　焦がすから\nメラメラメラ　本気出して\n羽ばたこう　どデカイ　ドリームフィールド\n\n右の手には友情　左の手には夢を\nそれがそう　僕たちの翼さ\n\nナンバーワン！　誰より速く　駆け抜け\nトリッキーなプレイで世界へ向け　スタートダッシュ！\nラン＆ラン！　憧れだけが僕らを\nジリジリジリ　動かすよ\nメラメラメラ　行くぜキックオフ\n飛び出そう　どデカイ　ドリームフィールド",
     },
     {
         id: 95,
@@ -1039,10 +1229,12 @@ export const songs = [
         titleKana: "あかつき",
         lyricist: "森若香織",
         composer: "5u5h1",
+        arranger: "CHOKKAKU",
         album: ["スタートダッシュ!","スタートダッシュ![初回A]","スタートダッシュ![初回B]","スタートダッシュ![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-08-15"
+        date: "2018-08-15",
+        lyrics: "赤い光　月の明り　不思議な空　まわる宇宙\n綺麗な声　恋におちる　その笑顔の奥のほう\n僕の瞳　映る姿　嘘と理想　揺れる世界\n甘い言葉　孤独な夢　悲しみ纏ってるジェラシー\n\n心を開いて　ありのままを見せたら\nねえ君は　すべて受け止めてくれるかな\n\n大好きだよ　なのに張り裂けそうに切ない\n抱きしめたら　壊れそうなレプリカ\n未完成な　僕らのまま愛し合えるように\n教室の窓　静かに照らしたアカツキ\n\n赤い神話　月と太陽　無限のリバース　幼い記憶\n流す涙　隠すルール　誰かに破ってほしかった\n\n人は見かけより　心に傷があるよ\n弱いから　強がって　自分守るんだ\n\n大好きだよ　なのに素直になるのが怖くて\n抱きしめても　すり抜けるホログラム\n未完成な　僕らのまま許し合えるように\nすれ違う廊下　想いを伝えるアカツキ\n\nどうすれば…\n\n愛されたいとか　愛してたいその願いは\n終わらない　少しずつ　カタチ変えるだけ\n\n大好きだよ　だから張り裂けそうに切ない\n抱きしめたら　壊れそうなレプリカ\n未完成な　僕らのまま笑い合える時に\n教室のドア　もう一度開けるアカツキ",
      },
     {
         id: 96,
@@ -1050,10 +1242,12 @@ export const songs = [
         titleKana: "ぼくらのきせき〜じゃにーずWESTれっとうじゅうだん〜",
         lyricist: "MiNE",
         composer: "Takuya Harada・MiNE・Atsushi Shimada",
+        arranger: "ha-j",
         album: ["スタートダッシュ!","スタートダッシュ![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-08-15"
+        date: "2018-08-15",
+        lyrics: "いらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！\nいらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！\n\n日本全国　皆で旅しよか\n北海道　青森　岩手　宮城　秋田\n山形　福島　茨城　栃木　に　群馬\n(そう列島縦断！！)\n旅する魂\n\n埼玉　千葉　首都　東京　も越えて\n神奈川　新潟　富山　石川　に　福井\nそう　山梨　長野\n岐阜　静岡　愛知　三重　に　滋賀\n\n京都　大阪　兵庫　奈良　和歌山　鳥取　島根\n岡山　広島　山口　徳島　香川　に　愛媛\n高知　福岡　佐賀　長崎　熊本　大分　宮崎　鹿児島　沖縄\n全国制覇！！\n\n今宵　騒げ　騒げ　全国にセンキュー\n47都道府県のジャス民！！\nおいで　おいで　宴へいらっしゃい\n歌って盛り上がれ\nオーエーオーエーオーエーオエーオー！！\nオーエーオーエーオーエーオエーオー！！\nオーエーオーエーオーエーオエーオー！！\n歌って飛び跳ねろ\n\nいらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！\nいらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！\n\n札幌　青森　盛岡　仙台　秋田\n山形　福島　水戸　宇都宮\n前橋　さいたま　千葉　に　東京 Yeah\n(そう全身全霊！！)\n駆け抜けてゆく\n\n横浜　甲府　新潟　長野\n富山　に　金沢　福井　に　名古屋\n岐阜　静岡　に　津　大阪　京都\n神戸　大津　奈良　和歌山\n鳥取　松江　岡山\n\n広島　山口　徳島　に　高松\n松山　に　高知　福岡　佐賀\n長崎　熊本　大分　に　宮崎\n鹿児島　那覇　完全制覇！！\n\n今宵　騒げ　騒げ　全国のピーポー\n年がら年中　暴れジャニスト\nおいで　おいで　さぁ手の鳴る方へ\n踊ってブチアゲろ\n\n誰にだって故郷があるレペゼン地元\n俺たちの大阪ありがとうーーー！！\nほら踊れ！！\n\n今宵　騒げ　騒げ　全国にセンキュー\n47都道府県のジャス民！！\nおいで　おいで　宴へいらっしゃい\n歌って盛り上がれ\nオーエーオーエーオーエーオエーオー！！\nオーエーオーエーオーエーオエーオー！！\nオーエーオーエーオーエーオエーオー！！\n歌って飛び跳ねろ\n\nいらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！\nいらっしゃい！！　いらっしゃい！！\nジャパ！！　ジャパ！！　ジャパ！！　ジャパーン！！",
     },
     {
         id: 97,
@@ -1061,10 +1255,12 @@ export const songs = [
         titleKana: "くちうつし",
         lyricist: "SHIROSE from WHITE JAM",
         composer: "Christofer Erixon・Erik Lidbom・Doojinso",
+        arranger: "Erik Lidbom",
         album: ["スタートダッシュ!","スタートダッシュ![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-08-15"
+        date: "2018-08-15",
+        lyrics: "いつも通りの夕方　涼しい風\n焼けるコンクリート\nこの季節が来るたびに僕らはまた\n子供みたいにアイスを食べよう\n\n300日ぶりの夏\n普段は苦手な集団行動\nAye Oh Oh Aye Oh Oh Oh\n夜風と仲間と、ビーチ\n風に紛れて、別行動\nAye Oh Aye Oh\nジュースでも買いに行こう\n\n何か飲みたい？　こぼすジュース\n君が僕をぬぐった。\n\n夏の夕陽、焦がれて\n今日は、僕におごらせてeeeい\n(so give it to me)\nこんな内緒　シェアしない\nこのあと、君に騙されたaaaい\nねぇまたのどが渇いた\nカラカラな唇、ジュースをクチウツシ\nびしょびしょな熱帯夜、とけ出した Ice cream\n\n空気を読んだ友達のナイスパス\nyou got it, oh oh. you got it, yeah.\nもう無言でも僕らは感じ合える\nドラマごっこで、わらっちゃうね\n\n何が飲みたい？　もうわかるよ\n今夜は全部やろう\n\n夏の夕陽、焦がれて\n今日は、僕におごらせてeeeい\n(so give it to me)\nこんな内緒　シェアしない\nこのあと、君に騙されたaaaい\nねぇまたのどが渇いた\n\n太陽が沈んだ砂浜\n暗い誰もいないビーチさ\n何か、いいにおいがするね。\n(Ah Ah Ah Ah？　Ah Ah Ah Ah…)\n(Ah Ah Ah Ah？　Ah Ah Ah)\n\n夏の夕陽、焦がれて\n今日は、僕におごらせてeeeい\n(so give it to me)\nこんな内緒　シェアしない\nこのあと、君に騙されたaaaい\nねぇもう一杯飲もうよ\n\n太陽の裏　隠れて\n今夜、僕に送らせてeeeい\n(so give it to me)\nこんな内緒　シェアしない\nこのあと、君に溺れたaaaい\nこの気持ちは飲み干せない\nカラカラな唇、ジュースをクチウツシ\nびしょびしょな熱帯夜、とけ出した Ice cream\n\nカラカラな唇、ジュースをクチウツシ\nびしょびしょな熱帯夜、とけ出した Ice cream",
     },
     {
         id: 98,
@@ -1072,21 +1268,25 @@ export const songs = [
         titleKana: "We are WEST!!!!!!!",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "ha-j",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "(しげー！！)はぁーい！！\n(あきとー！！)はいさい！！\n(じゅんたー！！)あいよー！！\n(かみちゃーん！！)はいはーい！！\n(りゅーせー！！)えっ！？\n(はまちゃーん！！)あぃぃぃいー！！\n(のんちゃーん！！)うぃっす！！\nジャニーズWEST！！\nWe are WEST!!!!!!!\nS！！ K！！ N！！ K！！ F！！ H！！ K！！ WEST！！\n\n浪速の魂かかげ参上\n誇りを胸に暴れまわって\n(なんでやねん！！ どないやねん！！)\n希望のつぼみ開いていく\n輝く太陽に憧れて\nめっちゃ個性的なアホが集った\n(ボケて！！ツッコンで！！)\nがむしゃらに咲き乱れる\n\n困難でも(はい！！) 信念が(はい！！)\n俺ら突き(はい！！) 動かす(はい！！)\n純粋な心で(気張って！！行こうぜ！！)\nさぁここから　空の彼方へ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(あ～もう腕疲れたぁ)\nなんてまだ序の口ここから限界突破さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\nかけがえない楽しい思い出積み重ね\n届け Happiness\n\nがっつりと根を張って奮い立つ\n一日花で終わらせないさ\n(ガッチャガチャ！！ ワッチャワチャ！！)\nたぎる意志は枯らさないから\n\n糧を種に(はい！！)すれば(はい！！)\n見事な花(はい！！)が咲く(はい！！)\n来たる正念場(踏ん張って！！進め！！)\n暗闇でも　さぁ駆け抜けろ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(あ～もう声ガラガラ～)\nなんてまだ序の口ここから限界突破さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\n遠く広がる満開の花びら舞う如く\n空へ Fly away\n\nNaughtyな関西人　陽気でやかましい\nバリバリのチャキチャキたまに噛み噛みタジタジマジ(ワロタ www)\nFunky な感じでも本気で Catch the dream\n七転び八起きでファイティーン！！ Ready to go！！\n\n逆境も(ばっちこーい！！)\n理不尽も(ばっちこーい！！)\n抱いていく大きな夢は(Fu！！Fu！！)\nまだこれから(どんどん！！)\n増えてくから(頑張れー！！)\n風に吹かれても(Go！！)\n雨に濡れても(Go！！)\n進め一歩でも(Go！！)\n描く道のその(Go！！) 先を Wow\nさぁ咲き誇れ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(やばいめっちゃ楽しい↑↑)\nって弾ける笑顔　花丸100点満点さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\n大輪の花が彩り　すべての心繋ぐ\n虹色の We are WEST!!!!!!!\nWow",
     },
     {
         id: 99,
         title: "パーリパーリパリ - カタカナを叫べ -",
         titleKana: "ぱーりぱーりぱり - かたかなをさけべ -",
         lyricist: "SHIROSE from WHITE JAM・GASHIMA from WHITE JAM",
-        composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・SHIROSE from WHIT",
+        composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・SHIROSE from WHIT JAM・GASHIMA from WHITE JAM",
+        arranger: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "下むいてるより　ハイハイハイ　上むいてる方が　サイコー\nぶち上がろうヤ　声を出そうヤ\nJohnny's WEST, Jasmine & Everybody\nLet's go\n\nパーリパーリパリ Everybody get down\nパーリパーリパリ　めんどくさいことほっといて\nぶち上がろうヤ　共に行こうヤ\nてんしょん上がって　キター\nパーリパーリパリ Everybody get down\nパーリパーリパリ　俯いてないで\n太陽は誰にも　モエテル\nほら絶対見上げなきゃ　モッタイナイ\n\nヘイ！ 周り見渡してみ(ミー)\n最高な今日が始まる What you wanna do(ドゥー)\nこんな時にへこんでちゃ意味ない\nすかしてないでのって来い(ハーイ)\n\nSo, レッツパーリー\n行くで、レッツパーリー\nみんなで、レッツパーリー\nSo check it out！(フーフー)\n太陽もジリジリ　乗りな、エビバディ\n飛ばせ AXL踏み込んで　ブンブンブンベビ\n\nヘイ　燃えている太陽も\nホー　輝いてる星も\n君がいなきゃ全く意味ない　ってことで\nイキマショカ\n\nI know I know You know You know\nSay　ふぉー(フォー)\nEyesの愛の準備運動\nほらいっせーので\nイッセーノーデッ\n\nパーリパーリパリ Everybody get down\nパーリパーリパリ　めんどくさいことほっといて\nぶち上がろうヤ　共に行こうヤ\nてんしょん上がって　キター\nパーリパーリパリ Everybody get down\nパーリパーリパリ　俯いてないで\n太陽は誰にも　モエテル\nほら絶対見上げなきゃ　モッタイナイ\n\n下むいてるより　ハイハイハイ　上むいてる方が　サイコー\nわかんないくらいが　ライライライ　今日はだいたい　ダイジョウブ\n\n真面目な話は2次会で　イェー\n大好きな曲かけて　イェーイェーイェー\n適当に替え歌で　ウォーウォー\n電波届かないとこに　ゴーゴー\n\nやばすぎ　イェー　食べ過ぎ　イェー\nあほすぎ　イェー　そうはしゃぎすぎ　イェー\nでも止まらないぜ　マダマダ\nこれは　マダマダ\nほんのカタナラシ\n\nI know I know You know You know\nSay　ふぉー(フォー)\nちょっと　内緒　急にいうよ\nほらいっせーので\nイッセーノーデッ\n\nパーリパーリパリ Everybody get down\nパーリパーリパリ　めんどくさいことほっといて\nぶち上がろうヤ　声を出そうヤ\nてんしょん上がって　キター\nパーリパーリパリ Everybody get down\nパーリパーリパリ　俯いてないで\n太陽は誰にも　モエテル\nほら絶対見上げなきゃ　モッタイナイ\n\n下むいてるより　ハイハイハイ　上むいてる方が　サイコー\nわかんないくらいが　ライライライ　今日はだいたい　ダイジョウブ\n\nでもあがりっぱなしも　バテバテ\nだから映画みて力　タメタメ\nPizza　半分こで　アーン\nごちそうさま　アンアンアン\nEyesの愛の準備運動 Say\n\nパーリパーリパリ\nパーリパーリパリ\nパーリパーリパリ\nEverybody get down\n\nパーリパーリパリ Everybody get down\nパーリパーリパリ　めんどくさいことほっといて\nぶち上がろうヤ　共に行こうヤ\nてんしょん上がって　キター\nパーリパーリパリ Everybody get down\nパーリパーリパリ　俯いてないで\n太陽は誰にも　モエテル\nほら絶対見上げなきゃ　モッタイナイ\n\n下むいてるより　ハイハイハイ　上むいてる方が　サイコー\nわかんないくらいが　ライライライ　今日はだいたい　ダイジョウブ\n\n下むいてるより　ハイハイハイ　上むいてる方が　サイコー\nぶち上がろうヤ　声を出そうヤ\nJohnny's WEST, Jasmine & Everybody\nLet's go",
     },
     {
         id: 100,
@@ -1094,10 +1294,12 @@ export const songs = [
         titleKana: "WESTV!しょっぴんぐ!Part 1",
         lyricist: "岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "岩崎貴文",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "良いもの揃えてお値打ちに\n真心添えて届けます\nあなたの笑顔を見たいから\nWESTVショッピング\n\nさぁみなさん！こちらをご覧ください！(どれですか？)\nこちらの商品はなで肩と(ん)\nなで肩ぎょっ、ぎょっ(ん、ん？なんて？)\nなで肩ぎょっ、あれ？(なに？)\nなで肩(うん)\nぎょうせいギプスです！(漢字ちゃんと読みなさいよ！)\nこれをね1日10分(おう)\n付けるだけでいいんですよ！(お、付けるだけ！)\nみなさん和服とか(うん)\nお似合いですよね(や、ちょ、日本語おかしい)\nっ、似合いたいですよね(そうそうそう、似合いたい)\nそういう時にこちらを付けることによって(おう、どうなるの)\nなで肩の養成ギプスになれる、ちょ、いや(いやもうぐちゃぐちゃやないか！)\n(ちゃんとやりなさいよ！)(辞めさせてもらうわ！)(もうええわ！)\n\nWESTV！お買い得だ\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！\n\nあぁもうどうしよう\nやぁどうしたんだいジェニファー\nあぁボブ掃除する気が起きなくて\nそういう時ってあるよね(あるある)\nそういう時はこいつの出番だ(お！)\nアクロバティックお掃除ロボット「モンチ」(なに！？)\n見た目は派手だけど部屋の隅から隅までピカピカにしてくれるんだ\nすごいわボブ！(すごい、あ、あ、)\nでもそれだけじゃないんだこの「モンチ」\nドローン機能が付いているんだ(ええ！)\n手の届かなかった照明や本棚の上だってお茶の子さいさい\nすごい！(すごっ！はっ、ジェニファー)\nじゃあこれからはボブにお願いしなくていいのね\nってことはもう必要ないってことじゃない？(ボブ、俺もいるぞ)\nおいおいジェニファー\n冗談がきついな！\nハッハッハ(仲がいいな！)\n\nWESTV！お買い得だ\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！",
     },
     {
         id: 101,
@@ -1105,10 +1307,12 @@ export const songs = [
         titleKana: "あいのどれい",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
+        arranger: "MUTEKI DEAD SNAKE",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "I'm a slave！\n\n「どこにいるの？」\n「何してるの？」\n「誰と一緒なの？」\n疑ってるわけじゃないわ\nでも不安になるのよ\n\nメールしたり　電話したり\nいつも探り合う\n四六時中　恋愛ルーティン\n踏み絵の繰り返し\n\nもっと下さい(愛！愛！愛！)\n愛を下さい(愛！愛！愛！)\n心を満たすのは\n一つよ Only Love\n\nあなただけを見つめている\n従順なる　愛の奴隷\n気づけばまた　想い馳せる\n哀しいほど　愛の奴隷\nねぇ　これが「好き」ということなの？\n自分ではわからない\n私、調教済みだから... I'm a slave！\n\n“愛する人と結婚すれば　幸せになれる”\nどうしてかな？\nいつの間にか\nそう刷り込まれていた\n\n学校でも　仕事場でも\nみんな探してる\n胸が躍る　恋愛チャンス\n「誰にしようかしら？」\n\nもっと知りたい(愛！愛！愛！)\n愛を知りたい(愛！愛！愛！)\n心を染めるのは\nいつでも Only Love\n\nこの惑星(ほし)を生きる誰もが\n完璧なる　愛の奴隷\nラヴ・ロマンスに憑りつかれた\nサラブレッド　愛の奴隷\nねぇ　これは「人の性」でしょうか？\n客観性持てない\n私、調教済みだから...\n\n愛だけが　愛だけが\n人を支配し　人を満たす\nそういうものってあるのかしら\nないわ！\nWithout Love！\n\nアイヲクダサイ！\n\n世界はもう気づいている\nこの世はそう　愛の奴隷\n歴史が続いてきたこと\nそれはつまり　愛の奴隷\n自分に嘘はつけないよ\n口先で否定しても\n心は正直なの\n今日も欲しがってるわ\n私、調教済みだから... I'm a slave！\n\n愛の奴隷",
     },
     {
         id: 102,
@@ -1116,10 +1320,12 @@ export const songs = [
         titleKana: "WESTV!しょっぴんぐ!Part 2",
         lyricist: "岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "岩崎貴文",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n奥さん(なんやの)\n日々の生活に潤い、欲しくない？(潤いよりお金欲しいわ)\nそんな時はこの「じゅんじゅんリップクリーム」を使えば(ん？)\n魅惑のフレグランスが(え？)\nリラックス効果を与えて(ちょっと)\nプルップルでグラマラスな唇にしてくれますよ(あんたさっきからなに言うてんの)\n奥さんの魅力をさらに引き出してくれるでしょう(そんなことより私パーマあてたい)\n家事や育児に疲れた奥さん！(パーマどう？)\nきっと旦那さんもあなたの変化に気づいてくれるでしょう(旦那よりあんたに気づいて欲しい)\nまあ僕は、いつでも気づいてますけどね(...すき)\n\nWESTV！お買い得な\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！\n\n今回！桐山照史が特別に紹介する商品はこちら！(うん、なんや)\nラーメン！(あぁいいですね、ラーメン)\nさぁ、特別に今回はなんと！(うん)\n咀嚼音を！お届けいたしましょう！(どういうことやろか)\nでは参ります(え、食べんの？)\nふーふふっふーズーズズッズー(え、うそやろ、食べてるやん)\nもぐもぐもぐ\nうーん(うーんじゃなくて)\nふぅん(ふぅんじゃないよ、紹介しようよ)\nいいねぇ(いいねぇちゃうねん、商品紹介やって)(え、なんの時間？これ？)\n今回限りでもう１つ！\n次は、私が大好きなぁ(おぉなんや)\n咀嚼音！たくあん！(たくあんて)\nでは、参ります(いやだから咀嚼音のコーナーじゃないのよ)\nカリっカリッカリ(いや、ええ音！ええ音やけど)\nポリっポリ(商品紹介！)\nんあぁぁぁ\n\nWSTV！ショッピング！(なんやこれ)\n\nWESTV！お買い得な\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！",
     },
     {
         id: 103,
@@ -1127,10 +1333,12 @@ export const songs = [
         titleKana: "Drift!!",
         lyricist: "YU-G",
         composer: "h-wonder",
+        arranger: "h-wonder",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "Come on now！！\n\n片道一車線　ギリギリのオフロード\n握る汗\n入り組む3Dなway　制御不能なイエローライト\nNobody let go　無責任\n\n退屈な毎日じゃ　逆に眠気を誘う\nこうしちゃいられない　忍ばせた\nSecrets　ニトロブースト火を付けて\n\n好きに狂わせて　限界までもうちょっと\nDrift！！　焦げ付いた trace\n大都会の夜を　派手に横切って\nDrift！！　鮮やかに slipping like a skate.\n\nStep deep, Drift！！\nStep deeply.\nすべて転がしてく Drift！！\n\n色とりどりのstage　目一杯に着飾って\nキメるだけ\n一途に夢見て　他のは専門外\n君も let go　不敵に\n\n半信半疑な振る舞いじゃ　逆に粗が目立っていく\nあーもう勿体無い　抑えていた\nInside　独創性に輪をかけて\n\n好きに踊らせて　今日くらいはもうちょっと\nDrift！！　外しなよブレーキ\n大都会の夜を存分に欲張って\nDrift！！　誰よりも slipping like a skate.\n\n今日が明日に変わる\n59から0へ\n強引に定めたこの境界線を塗り替えよう\n\n好きに狂わせて　限界までもうちょっと\nDrift！！　焦げ付いた trace\n大都会の夜を　派手に横切って\nDrift！！\n\n好きに踊らせて　今日くらいはもうちょっと\nDrift！！　外しなよブレーキ\n大都会の夜を　存分に欲張って\nDrift！！　誰よりも slipping like a skate.\n\nStepping, Deeply to free.\nStep deep　もっと自由に\nDrift！！\nStepping, Deeply to free.\nStep deeply.\nすべて転がしてく Drift！！",
     },
     {
         id: 104,
@@ -1138,10 +1346,12 @@ export const songs = [
         titleKana: "YSSB",
         lyricist: "Komei Kobayashi",
         composer: "Kento Takeda・Christofer Erixon",
+        arranger: "Kento Takeda",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "Let's party！ YOLO！ Ready to go！\nさぁ行こうぜ We can go all night\nもう早速 All eyes on you\nまずは焦らずに Play it cool\nDon't you like it like it too？\nいっそこのまま Make it true\nEverybody take it to the flooooooor！\nLet's go！\n\nHey！ We can shake it up！\n君の思うまま Shake it up！\nYeah...(One time)\nOh...(Two time)\nHey！ Bouncin' up & down！\nもっと行こうまた Up & Down\nYeah...\nYou're mine, mine, mine...\n\n夜空に手が届くまでHands high\n音の中へとGet on the floor\nTurn it up Turn it up Turn it up\n目が眩むほど\nYou're so sexy baby\n\nそばにおいで\nI...たまらない Sexy baby\nもう逃げないで\nI...Let's take it to the dance floor\nまだまだ We can get it on\nこれから Do it all night long\n二人で Dancing to the song\n今すぐ Take it to the top\nこのまま Never ever stop\n朝まで Gotta make it hot\nLet's take it to the dance floor\n\nYou're so sexy baby\n\nここじゃ止まれない\nWe ready to party tonight\n本能に任せて Let's go crazy\n\n今さら戻れない\nEverybody feeling alive\n感じるまま Good life\nGet it up and feel the vibe\n\nHey！ We can break it down！\nブレーキ外したら Break it down！\nYeah...(One time)\nGet it up and feel the vibe\nHey！ Do it side to side\n身体預けたら Side to side\nYeah...\nYou're mine, mine, mine...\n\n限界越えて行くのさ Let's ride\n時間も気にせず Play one more song\nBurn it up Burn it up Burn it up\n理性も壊れそう\nYou're so sexy baby\n\nそばにおいで\nI...たまらない Sexy baby\nもう逃げないで\nI...Let's take it to the dance floor\nまだまだ We can get it on\nこれから Do it all night long\n二人で Dancing to the song\n今すぐ Take it to the top\nこのまま Never ever stop\n朝まで Gotta make it hot\nLet's take it to the dance floor\n\n朽ち果てるまで Louder\n鳴り止まないこの Music\n燃え上がる Weekend\n今夜は Feel so high\nYou're so sexy baby\n\nそばにおいで\nI...たまらない Sexy baby\nもう逃げないで\nI...Let's take it to the dance floor\nまだまだ We can get it on\nこれから Do it all night long\n二人で Dancing to the song\n今すぐ Take it to the top\nこのまま Never ever stop\n朝まで Gotta make it hot\nLet's take it to the dance floor",
     },
     {
         id: 105,
@@ -1149,10 +1359,12 @@ export const songs = [
         titleKana: "WESTV!しょっぴんぐ!Part 3",
         lyricist: "岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "岩崎貴文",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続いての商品はこちらぁ！(かわいいねぇ、うん)(あ、かわいい)\n国民的弟による2.5枚目アイマスク、「のんぴろー」(のん...ぴろー)(うん)\n表側には瞳をプリントしてありますので(うーん)(うーん)\nあなた自身にあっつあつの小瀧愛が(うん)(うぅん)\nじんわーっと浸透(あーもう買いますぅ)(うんー買う買うー)\n瞳を閉じれば、いつでも憧れの彼と夢の中で会えちゃう！アイマスクゥ！(うん、うん)(うん、どしたん？)\n翌朝はとても幸せな気分で目覚めることができるでしょう(あ、買いますぅ)(買う、買う！)\nさぁ！最高の幸せをあなたにぃ！(買うー！)(買いまぁぁぁぁす！)\n\nさぁ！次にご紹介する商品はこちら！(お、しげか！)(なにかな)\n最新型スマートフォン、「しげフォン」(嫌な予感...)(やな...)\n「おいしげ！」と声をかければ、あなたをサポートします！(えぇ、できるかぁ？)\nでは、早速やってみましょう！(俺はできひんと思う)\n「おいしげ！今日の天気は？」\nピロンッ\n「んーご機嫌ななめな天気でございますねぇ、こちらは」(いや、なんやねんその声)(しっかり答えなさい)(腹立つなぁ)\n「んー、雨、ということですねぇ」(最初から雨でいいわ)\n「雨が降るからねぇ傘持ってったほうがいいのかもねぇ」(これはアホフォンですね)\nめちゃめちゃスベってるー\n\nWESTV！お買い得な\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！\n\nルルルルルルル　ルルルルルルル\nルルルルルルルルー\n\nよっしゃ！(おぉ、びっくりした！)\nやっと、俺の、番や！(よし、お前の番や！)(そうですよ)\nどうも！藤井流星です！(はい、藤井流星くん！パチパチパチ)\nいやぁもう今日はもう、めちゃくちゃ頑張りますっ！(頑張ろうな！)(期待してますよ)\nこの商品を、みなさんに、届けたい！(圧がすごい)\nそ、それだけ！(時間ないから、ほら早く！)(大丈夫か？)\nほんまに、頑張ります(流星...)(なにしてんの、ほら！)\nちょっと待って、めっちゃ緊張してきた(緊張してる場合ちゃうて！)(大丈夫や大丈夫、落ち着け)\nちょっと、人って書いて飲も\n手のひらに(割と古風やな)\n人、よしっ(古典的)(いけいけ！)\nうん、飲んだ！いきまっ\n\nWESTV！ショッピング！\n\nWESTV！お買い得な\nWESTV！夢のショッピング\nWESTV！今がチャンス\nWESTV！ショッピング！\n\nWESTV！ショッピング！\n\nWESTV！ショッピングー！\n\nジャカジャン！",
     },
     {
         id: 106,
@@ -1160,10 +1372,12 @@ export const songs = [
         titleKana: "あかいまふらー",
         lyricist: "草川瞬",
         composer: "Takuya Harada・Joakim Bjornberg",
+        arranger: "Takuya Harada",
         album: ["WESTV！","WESTV！[初回盤]","WESTV！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "冷えた手　ポケットに\n突っ込んだまま\nあの日の君の温もり探した\n\nため息白くぼやけて　曖昧になる\nこのまま忘れられたら\nどれだけ　いいかな…\n\n冬が来るたび\n何もかも嘘だったかのように\n舞い落ちる雪のように溶けて\n思い出の君まで奪うよ\nそれなのに\nどこにいても何をしていても\nまだ君が隣にいるようで\n今年もきっと変えられない\n赤いマフラー\n\nそれなりに強がっても\n格好はつかずに\n誰もいない\n交差点信号を待つ\n\n二人出逢わなければ\nこんな苦しい思い\n感じなくて済んだのに\nそれでも　好きだった\n\n冬の終わりに\n何もかも嘘だったかのように\n舞い落ちる雪のように溶けて\n思い出も消えていったら…\n本当は\nもし時間を戻せるのなら\nまだ君の隣でずっと\n巻いていたいよ\n一緒に選んだ　赤いマフラー\n\n最後の言葉はまだ\n言えないけど\n同じ空の下で\n君の幸せ願っているよ\n\n何もかも嘘だったかのように\nほら雪のように溶けていくけど\n思い出は決して消えないよ\nいつかまた\n二人笑い合えるその日まで\nきっと相変わらず大切に\n巻いているよ\n一緒に選んだ　赤いマフラー",
     },
     {
         id: 107,
@@ -1171,10 +1385,12 @@ export const songs = [
         titleKana: "ONI-CHAN",
         lyricist: "中間淳太・藤井流星",
         composer: "Fredrik “Figge” Bostrom・Pontus Soderqvist・Takuya Harada",
+        arranger: "Pontus Soderqvist",
         album: ["WESTV！","WESTV！[通常盤]"],
         announce: "t",
         singer: "中間淳太＆藤井流星",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "この勝負にかけた　みんなのお兄ちゃん\nYou たちのためなら　俺ら2人は燃える！\n\nYou たちがもしも　辛すぎて落ち込んでる日に\n命がけで励ますなら　お前はどうする？\n\nこっちにおいでよ\nよしよしってしてあげるから\n「これでどうだ？」\n「どきな！　次は俺の番だ！！」\n大好きなプリン\nあーんで口に運んであげる\n君は\nどっちが\n理想なの？\nりゅせじゅんお兄ちゃん\n\n熱くなってきた　みんなのお兄ちゃん\nYou たちのためなら　俺ら2人は頑張る！\n\nYou たちがもしも　冬の寒さで凍える夜に\n命がけで　あっためるなら　お前はどうする？\n\n俺のジャケットを\nふんわり肩にかけてあげる\n「これでどうだ？」\n「どきな！　次は俺の番だ！！」\nあつめのココアを\nフーフーして飲ませてあげる\n君は\nどっちが\n理想なの？\nりゅせじゅんお兄ちゃん\n\n「じゅん兄お前やるな…」\n「りゅう兄もやるな…」\n『でもお兄ちゃんは1人でいい！』\n永遠(とわ)のサバイバルゲーム\n\nどっちを選ぶの？\nとまらない灼熱ジェットコースター\nI want you\nI need you\nI love you\nブレーキがきかない\nYou たちのためなら\n俺は何だって出来るんだ\nココロ\nカラダ\n捧げるよ\nりゅせじゅんお兄ちゃん",
     },
     {
         id: 108,
@@ -1182,10 +1398,12 @@ export const songs = [
         titleKana: "つくよみびと",
         lyricist: "Satomi",
         composer: "萩原和樹",
+        arranger: "増田武史",
         album: ["WESTV！","WESTV！[通常盤]"],
         announce: "t",
         singer: "桐山照史＆小瀧望",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "巡る巡る季節\nなぜになぜに僕ら\nまるで導かれるように\nあの日あの日出逢い\n揺れる揺れる心\n貴女へ恋に落ちたよ\n\n身の丈の違う\n想い告げられないまま\n音もなく胸で\n燃え滾る静かに...\n\nまるで月詠人(つくよみびと)の如く\nひとり空を見上げる\n想い届くわけでは　ないのにまた\n今宵、貴女も碧い月を\n何処かで見ているなら\n叶わなくともせめて\nその笑顔を\n守りたい\n\n願う願うほどに\nなぜになぜにこんな\n愛より苦しみばかり\n清(さや)か清か水へ\n朽ちる朽ちる夜は\n貴女を想い眠るよ\n\n見つめあうたびに\n戸惑いは風の中へ\n積もっては消えた\n重なる刹那さに...\n\nまるで月詠人の如く\nひとり空を見上げる\n未来(あす)が読めるわけでは　ないのになぜ\n運命にもしも抗って\nふたりが愛したなら\nそれこそが決められた\n運命だと\n信じたい\n\n貴女を知らずにいたのなら\n苦しみとあたたかな\n気持ち知らないままで\n生きてただろう　永遠に...\n\nまるで月詠人の如く\nひとり空を見上げる\n想い届くわけでは　ないのにまた\n今宵、貴女も碧い月を\n何処かで見ているなら\n叶わなくともせめて\nその笑顔を\n守りたい",
     },
     {
         id: 109,
@@ -1193,10 +1411,12 @@ export const songs = [
         titleKana: "まちがっちゃいない",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "ha-j",
         album: ["WESTV！","WESTV！[通常盤]"],
         announce: "t",
         singer: "重岡大毅＆濵田崇裕＆神山智洋",
-        date: "2018-12-05"
+        date: "2018-12-05",
+        lyrics: "涙　一粒\n星降る夜に\n光れない　馴染めない\nなぜ同じ様に生きれないの\n\n予定詰まった\nカバン捨てて帰ろうかな\n眩しい近所の夜空\n\n間違い探しの世界で\n赤ペン持つのかい\nインクが足らないね\n\n間違っちゃいないよな\n君と出会ったことも\n夢を信じることも\n答えに牙むいてさ\n何度も何度でも\nさよなら上の空\n僕は僕で僕なんだ\n間違っちゃいない\n間違っちゃいないんだ\n\nないものねだり\nタラレバを振り払う\n朝の占い　横目で順位気にしてさ\n\n理想と現実で結ぶ靴ひも\n歩けるかな\n教えて近所の青空\n\nぐるぐる渦巻く世界で\n君が花びら\n花丸つくれるね\n\n間違っちゃいないよな\n消えたくなった夜も\n逃げたくなった朝も\nまぁまぁカッコいいんじゃない\n泣きたくて泣けなくて\n“お疲れ”と夕日が　ほら\n君は君で君なんだ\n間違ってもいい\n間違ってもいいんだ\n\n頑張れなくていい\n嫌になったっていい\n情け無くていい\nダサくていい\n怖くなってもいい\nどんな自分だっていい\n\nどうしようも無いくらい\nどうしようの繰り返し\n誰が明日を知ってるんだ\n誰にも解らないから\n\n君と出会ったことも\n夢を信じることも\n答えに牙むいてさ\n間違っちゃいないよな\n目が合う近所の空\n僕は僕で僕だ\n間違っちゃいない\n間違っちゃいないんだ\n間違っちゃいない\n間違っちゃいないんだ",
     },
     {
         id: 110,
@@ -1204,10 +1424,12 @@ export const songs = [
         titleKana: "ほめちぎりすと",
         lyricist: "岩崎貴文",
         composer: "岩崎貴文",
+        arranger: "CHOKKAKU",
         album: ["ホメチギリスト/傷だらけの愛","ホメチギリスト/傷だらけの愛[初回A]","ホメチギリスト/傷だらけの愛[初回B]","ホメチギリスト/傷だらけの愛[通常盤]","W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-01-30"
+        date: "2019-01-30",
+        lyrics: "カバンを背負って猛ダッシュ　満員電車乗り込んだ　いつものルーティン\n語った将来これだっけ？　描いた人生これだっけ？　愚痴ってばかりかい？\n\nなんだかんだちょっと　落ち込む日もあるけれど\nいじけちゃ(ちゃちゃちゃ～)　ダメダメ(No No No～)\n上向いて歩いてこうぜ\nネクタイ(ネクタイ)　取って(取って)　ハイポーズ(はい！)\n\nホメてホメて　ほらアガってこうぜ！ (Fu Fu)\n明日明日から　笑ってこうぜ！ (Fu Fu)\n働いてる　その背中を　讃えましょ！\n食べて飲んで　お祭り騒ぎや！ (Fu Fu)\nおもろおもろくて　男前や～ (Fu Fu)\nたまには自分をホメちぎろうぜ\nめちゃんこイケてるやん！ (やん！)\n\n化粧をとってホッとして　1日雑務耐えました　独りで残業\nヤバイよ深夜冷蔵庫　ストックアイス食べました　自分へご褒美\n\n甘さにちょっと　しょっぱさ混じって　顔上げた\nこぼれた(たったった～)　涙は(わっわっわ～)\n輝くためのスキンケア\nパック(パック)　取って(取って)　ハイポーズ(はい！)\n\nさすがさすがやで　バシッと頑張った！ (Fu Fu)\n昨日昨日まで　お疲れさま！ (Fu Fu)\n忘れていた　その魅力に　気づきましょ！\nいつも輝いて　ドキッとするわ (Fu Fu)\n笑顔可愛くて　惚れてまうわ～ (Fu Fu)\nたまには自分をホメちぎろうぜ\nめちゃんこイケてるやん！ (やん！)\n\n都会の風に吹かれても　君は君さ　ありのままに　胸を張っていこう\nとなりの(はい！)　あの子と(はい！)　肩組んで　ハイポーズ(はい！)\n\nホメてホメて　ほらアガってこうぜ！ (Fu Fu)\n明日明日から　笑ってこうぜ！ (Fu Fu)\n働いてる　その背中を　讃えましょ！\n食べて飲んで　お祭り騒ぎや！ (Fu Fu)\nおもろおもろくて　男前や～ (Fu Fu)\nたまには自分をホメちぎろうぜ\nめちゃんこイケてるやん！ (やん！)",
     },
     {
         id: 111,
@@ -1215,10 +1437,12 @@ export const songs = [
         titleKana: "きずだらけのあい",
         lyricist: "Komei Kobayashi",
         composer: "Takuya Harada・川口進",
+        arranger: "CHOKKAKU・GAKU",
         album: ["ホメチギリスト/傷だらけの愛","ホメチギリスト/傷だらけの愛[初回A]","ホメチギリスト/傷だらけの愛[初回B]","ホメチギリスト/傷だらけの愛[通常盤]","W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-01-30"
+        date: "2019-01-30",
+        lyrics: "燃えるように　一人でも生きてゆけると\nうそぶいて走り続けた\n優しさの　意味さえ知らずに\n\n差し伸べた　君の手を振り払うほど\n強がり続けた　あの頃\n自惚れの脆さを　君は知っていたのに\n\n心まで　打ちのめされたこの夜に\n君の声　探す　この弱さが憎いよ\n今すぐ取り戻しに行かなきゃ\n\nバカだろ？\n愛　傷だらけの愛を信じて\n流れ落ちた涙さえも\nAh　Ah　強さへと変えて\n愛　傷だらけの愛だとしても\n僕らの世界を灯してる\nこの　愛　もう一秒たりとも\n離さない\n\nAh　僕ら　一つの答えを求めて\n正解をぶつけ合ってた\nそんなモノないこと　気付いていたのに\n\n二度とこの　声さえも届かないなら\n今はただ　君の　幸せ願うけど\n本当は君と明日を見たいよ\n\nバカだろ？\n愛　傷だらけの愛を手にして\nちっぽけな自分に気付いた\nAh　Ah　遅くはないだろ？\n愛　傷だらけの愛抱きしめて\n失くした未来を追いかける\nこの　愛　途切れた日々さえ\n埋めていく\n\n自分だけの居場所を　ずっと探していた\nだけど　今は　もう迷わないさ\n僕がありのまま　いられる場所なら\nいつも君の隣にある\n\nバカだろ？\n愛　傷だらけの愛を信じて\n流れ落ちた涙さえも\nAh　Ah　強さへと変えて\n愛　傷だらけの愛だとしても\n僕らの世界を灯してる\nこの　愛　もう一秒たりとも\n離さない",
     },
     {
         id: 112,
@@ -1226,10 +1450,12 @@ export const songs = [
         titleKana: "おおさかとんとんだんす",
         lyricist: "庄田ゲゲゲ・corin.",
         composer: "庄田ゲゲゲ・corin.",
+        arranger: "庄田ゲゲゲ・corin.",
         album: ["ホメチギリスト/傷だらけの愛","ホメチギリスト/傷だらけの愛[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2019-01-30"
+        date: "2019-01-30",
+        lyrics: "とんとん！　とんとん！　とんとん！　とんとん！\n\nおおきにほんならさようなら！\nほな兄ちゃんよろしゅうたのんます\nいやいやこちらこそほんますんません！\nほなアレとコレでとんとんしとこ\nえ？とんとんてなんですのん？\nえ？とんとんはとんとんですやん！\nいや、とんとんはとんとんって言われたって\n訳ワカメやでおとんどうなっとん！？\n\nほぼほぼとんとんでぼちぼちやん\nほんでもって俺たちとんとんやん\n富田林でもっととんとんやん\n抱っこしておんぶしてまたとんとん\n\nいっとんとん！\n\nYeah！　とんとん…\nとうとうとんとんや\nおとんとはとんとん\nおかんはかんかんや\nおまえホンマにとんとんなんか？\n\nへい！　人生はとんとんやん\nへい！　人生は単純やん\nしんどい事の先にあるの　ええ事やろ？\nへい！　大阪とんとんダンス\nへい！　大阪とんとんダンス\nとんとんでえぇやん　前向いて歌おうや！\n\nボケたらツッこんで　(とんとん！)\nプラスとマイナスで　(とんとん！)\n遊んだら勉強して　(とんとん！)\nおっさんとおばはんで　(とんとん！)\nぎょうさん食べたらトイレ行って　(とんとん！)\n涙は拭いたら　(とんとん！)\n風呂入れよ！　(とんとん？)\n\nとんとん！\n\nおやおや兄ちゃんどうしたん？\nさっきまで泣いてたのにどこ行くん？\nいや、ごっついえぇ事ありまして\n泣きっ面に蜂蜜でとんとん\nえ？とんとんてなんですのん？\nえ？とんとんはとんとんですやん！\nいや、さっきも言うたけどとんとんは\nとんとんやなんべん言うたらとんとんなんねん！\n\nそろそろとんとんでえぇ頃やん\n大阪名物パチパチパンチ\n喜連瓜破ったらとんとんやん\nかあさんお肩をたんとんやん\n\nいっとんとん！\n\nワレワレハ、トントン星人でスねん\n地球人をミナ、トントンにするタメにトントン…\n\nへい！　人生はとんとんやん\nへい！　人生は単純やん\nしんどい事の先にあるの　ええ事やろ？\nへい！　大阪とんとんダンス\nへい！　大阪とんとんダンス\nとんとんでえぇやん　前向いて歌おうや！\n\nへそで茶を沸かして　(とんとん！)\n雨降って地固まって　(とんとん！)\nキャッチしてリリースして　(とんとん！)\n梅田駅と大阪駅で　(とんとん！)\n石橋とんとん叩いて渡って　(とんとん！)\n嘘からまこと出て　(とんとん！)\n歯を磨けよ！　(とんとん？)\n\nYeah！　とんとん…\nとんとん…\nいっとんとん！\nとんとん…\nとんとん…\nマタマタ、トントン星人でスねん\nすべてはトントンのタメに　トン！\n\nへい！　人生はとんとんやん\nへい！　人生は単純やん\nしんどい事の先にあるの　ええ事やろ？\nへい！　大阪とんとんダンス\nへい！　大阪とんとんダンス\nとんとんでえぇやん　前向いて歌おうや！\n\n喧嘩して仲直りして　(とんとん！)\n理想と現実で　(とんとん！)\n攻撃は最大の防御で　(とんとん！)\n失敗は笑い飛ばして　(とんとん！)\n光と闇で　(とんとん…)\n世界中がジャス民を敵に回しても\n俺らは君らの味方やから\n\nとん！",
     },
     {
         id: 113,
@@ -1237,10 +1463,12 @@ export const songs = [
         titleKana: "ばればれんたいん",
         lyricist: "Yu-ki Kokubo",
         composer: "Kohei Yokono・Yu-ki Kokubo",
+        arranger: "Kohei Yokono",
         album: ["ホメチギリスト/傷だらけの愛","ホメチギリスト/傷だらけの愛[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-01-30"
+        date: "2019-01-30",
+        lyrics: "Tu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu (Show me your love)\nTu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu\n\n興味ないふりして指折り数えた\nクールな台詞もリハーサルしてます\n机、下駄箱　空っぽにしたら\nドキドキ　本音　隠して\n飛び込もうぜ Special day\n(時間で～す)\n\nI love you, Love you, Love you, Give me your love↑\n(Hey！↑)\nI love you, Love you, Love you, Give me your love↑↑\n(Hey！↑↑)\nI love you, Love you, Love you, Give me your love↑↑↑\n(Hey！↑↑↑)\nI love you, Love you, Wow\n\nバレバレンタインラブ (Love！)\nキミの本チョコ全力で待ってます\nSweetも (Hey！) Bitterも\n何だって　ウェルカムや\nバレバレンタインラブ (Love！)\n愛を確かめ合いたい You & I\n絶対に Get (Get) your (your) big (big) heart (heart)\n勝負の日だ　2.14\n\nTu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu (Show me your love)\nTu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu\n\nバイトのシフトが同じだけで期待\nなるべくキミの近くをウロウロ\n急な「甘党宣言」をしたら\nギラギラ　視線送って\n時は満ちたで Come on\n(時間です！)\n\nI love you, Love you, Love you, Give me your love↑\n(Hey！↑)\nI love you, Love you, Love you, Give me your love↑↑\n(Hey！↑↑)\nI love you, Love you, Love you, Give me your love↑↑↑\n(Hey！↑↑↑)\nI love you, Love you, Wow\n\nバレバレンタインラブ (Love！)\n他の誰かじゃ意味がないよ\n一直線 (You！) キミに\n届けたい My mind\nバレバレンタインラブ (Love！)\n一年一度のチャンス逃せない\n絶対に Get (Get) your (your) big (big) heart (heart)\n勝負の日だ　2.14\n\nあ～～世界中の女子に告げる\n男心は無茶苦茶　繊細\nハンパな素振りは　マジあかん\n甘くとろける恋がした～い\n\nバレバレンタインラブ (Love！)\nキミの本チョコ全力で待ってます\nSweetも (Hey！) Bitterも\n何だって　ウェルカムや\nバレバレンタインラブ (Love！)\n愛を確かめ合いたい You & I\n絶対に Get (Get) your (your) big (big) heart (heart)\n勝負の日だ　2.14\n\nTu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu (Show me your love)\nTu tu tu Tu tu ru tu (Yes)\nTu tu tu ru tu",
     },
     {
         id: 114,
@@ -1248,10 +1476,12 @@ export const songs = [
         titleKana: "あめのちはれ",
         lyricist: "MORISHIN",
         composer: "川口進・MORISHIN",
+        arranger: "CHOKKAKU",
         album: ["アメノチハレ","アメノチハレ[初回A]","アメノチハレ[初回B]","アメノチハレ[通常盤]","W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-04-24"
+        date: "2019-04-24",
+        lyrics: "雨空見上げて\n涙を隠した\n滲んだ願いを空に\n“頑張ろう”\nつぶやいてキミは\nまた歩き出した\n真っ白な明日へ\n\nダメな毎日\n自分ごまかし\n目を背けてきたけど\n“負けないで”\n遠く聞こえたよ\nだから逃げないよ\n朝日が道を照らすよ\n\n微笑みながら　心が泣いていた\n日々はもうサヨナラ Good-bye\n\n大丈夫\n何回だって何万回だって\nやり直せばいい\n喜びを抱いて泣いて\n笑って生まれてきたキミだから\n信じていて(ずっとずっと強く)\nそのままで(もっともっと輝くから)\nキミ色の明日がきっと来る\n\n片隅に置いた\n弾けそうな不安\n無理に閉じ込めてきたけど\n真っ直ぐに\n見つめてあげよう\n弱いその気持ち\n向き合って気づく強さ\n\n大人になって　嘘ばっかついていた\n自分にもうサヨナラ Good-bye\n\n大丈夫\n何回だって何万回だって\n声に出せばいい\n悲しみも抱いて泣いて\n笑って分け合ってきた僕らなら\n忘れないで(ずっとずっとそばに)\nそのままで(もっともっと輝くから)\n夜が明ければきっと大丈夫さ\n\n抱きしめそこねた\n過去があって現在(いま)があるのさ\n「雨のち晴れ」さ　ほら\n傘を置いて\n幸せに会いに行こう\n\n大丈夫\n何回だって何万回だって\n声に出せばいい\n悲しみも抱いて泣いて\n笑って分け合ってきた僕らなら\n\n大丈夫\n何回だって何万回だって\nやり直せばいい\n喜びを抱いて泣いて\n笑って生まれてきたキミだから\n信じていて(ずっとずっと強く)\nそのままで(もっともっと輝くから)\nキミ色の明日が待っている",
     },
     {
         id: 115,
@@ -1259,10 +1489,12 @@ export const songs = [
         titleKana: "あんじょーやりーな",
         lyricist: "園田健太郎",
         composer: "園田健太郎",
+        arranger: "園田健太郎",
         album: ["アメノチハレ","アメノチハレ[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-04-24"
+        date: "2019-04-24",
+        lyrics: "号泣するくらいの感動を\n一生一度の冒険を\n味わいたいんだ　それは贅沢じゃない\n愛せ　君の人生　アンジョーヤリーナ\n\n普通自体が難しい時代に\nもがき続ける僕らいったいなんなんだ\n余裕で笑える人は別世界で\nパリピだリア充だやかましいわ　黙ってくれないか\n\n加工されてる真実　過去になってく現実\nだからこそ僕たちは歌いたいんだ\n嘘じゃない　本当の気持ち\n聞いてくれますか？\n\n日常はそんなにド派手じゃない\nルーティンワークは間違いなわけじゃない\n君の毎日に　君の日常に\n影がさしたら呼んでおくれよ\n\n号泣するくらいの感動を\n一生一度の冒険を\n味わいたいんだ　それは贅沢じゃない\n愛せ　君の人生　アンジョーヤリーナ\n\n後ろ向きが得意なわけじゃない\nただ前に何も見えないだけなんだ\nだけどそんな僕にも意地がある\n誰にも負けない何かをずっと探してるんだ\n\nあれでもない　これでもない\n見つからないのはどうやら自分のせいだった\n\n振り向かず　進め\n\n日常はそんなにド派手じゃない\nルーティンワークは間違いなわけじゃない\n君の毎日に　君の日常に\n影がさしたら呼んでおくれよ\n\n号泣するくらいの感動を\n一生一度の冒険を\n味わいたいんだ　それは贅沢じゃない\n愛せ　君の人生　アンジョーヤリーナ\nアンジョーヤリーナ",
     },
     {
         id: 116,
@@ -1270,10 +1502,12 @@ export const songs = [
         titleKana: "はかな",
         lyricist: "Takuya Harada・井上紗矢香",
         composer: "YOUNG HOLLYWOOD・Takuya Harada・Joakim Bjornberg",
+        arranger: "YOUNG HOLLYWOOD・ha-j",
         album: ["アメノチハレ","アメノチハレ[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2019-04-24"
+        date: "2019-04-24",
+        lyrics: "風に舞ってどこまでも\n昇ってゆく想いを\n眺めていた\n悲しいほどに艶やかな\n春色に打たれては\nざわめくよう\n\n消えてゆく温度に導かれて\nうたかたの時に君を探す\n\n二人は儚い花びらのよう\n散りぬる春に美しく\n凛と咲き踊る\n手のひら佇む約束ひとつ\n忘れかた　知らないままに\n季節(とき)は過ぎゆく\n\n瞬く隙に\n\nふわり　くすぐる香りが\n芽吹く　その訪れを\n囁いてる\n言葉になれないままに\n隠れていた想いが\n疼いている\n\n明ける夜の静寂(しじま)に待ち焦がれた\nかりそめの時に君を探す\n\n二人は眩ゆい木漏れ日のように\nたゆたう春に美しく\n凛と立ち昇る\n手のひら佇む温もりひとつ\n忘れかた　知らないままに\n季節(とき)は過ぎゆく\n\n幾千　夜を越えても\n僕らまた惹かれ合うだろう\n紡がれる二人の想いは\nただ永遠(とわ)に続いていく\nきっと\n\n二人は儚い花びらのよう\n散りぬる春は美しく\n\n二人は儚い花びらのよう\nたゆたう春に美しく\n凛と咲き踊る\n手のひら佇む約束ひとつ\n忘れかた　知らないままに\n季節(とき)は過ぎゆく\n\n瞬く隙に",
     },
     {
         id: 117,
@@ -1281,10 +1515,12 @@ export const songs = [
         titleKana: "ぱちもん",
         lyricist: "庄田ゲゲゲ・corin.",
         composer: "庄田ゲゲゲ・corin.",
+        arranger: "庄田ゲゲゲ・corin.",
         album: ["アメノチハレ","アメノチハレ[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2019-04-24"
+        date: "2019-04-24",
+        lyrics: "パチもん\n\nナンボや？　適当に巻いたパスタ\n難波で見かけたハリウッドスター\nちょ、待って何このサインなんか、、あれ？\n\nパチもん\n\nめっちゃ眩しいブランドファッション\nナンボでこうたん？　ごっつええやんか\nちょ、待ってそれ「N」いっこ多いんとちゃう？\n\nパチもん\n\nホンもんパチもんどっち？\nじぶんまだまだぼちぼちなんか？\nやけどホンもんパチもんどっち？\nもうなんでもえぇからやれや！\n\nいつかはなるでホンマもん\nせやから磨け審美眼\n為せば成るでほら生み出そう\n行くで今オンリーワン！\n\nパパパ　パチもん！(Oh, ベイベー！)\nパパパ　パチもん！(ホンマもんやろ？)\nパパパ　パチもん！(もうわかれへん！)\nパパパパパパパパパパパパパパパ　パチもん！\n\nパチもん\n\n難波じゃおばはんもストリートファッション(あれ、オカン？)\nアメ村に溶け込んだパッション(あれ、、オカン？)\nちょ、待ってSupreman(スプレーマン)って何モンやねん？(お前何モンや！)\n\nパチもん\n\n「バレンシアでガンバってね！」って\nキャワイイあの娘がくれたアディオス\nちょ、待ってこれ線一本多いんとちゃう？\n\nパチもん\n\nホンもんパチもんどっち？\nじぶんそろそろぼちぼちちゃうけ？\nやけどホンもんパチもんどっち？\nもうなんでもえぇからやれや！\n\nいつかはなるでホンマもん\nせやから磨け審美眼\n為せば成ったで脱パチもん\n君は今オンリーワン！\n\nパパパ　パチもん！(Oh, ベイベー！)\nパパパ　パチもん！(ホンマもんやろ？)\nパパパ　パチもん！(もうわかれへん！)\nパパパパパパパパパパパパパパパ　パチもん！\n\nパチもん",
     },
     {
         id: 118,
@@ -1292,10 +1528,12 @@ export const songs = [
         titleKana: "Big Shot!!",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["Big Shot!!","Big Shot!![初回A]","Big Shot!![初回B]","Big Shot!![通常盤]","W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-10-09"
+        date: "2019-10-09",
+        lyrics: "Go Go Jump！！ 掴めよVictory (Hey)\nこのMusic　君へ届けYell (Hey)\nAre you ready！？\nGot to get it！！\nWe're in the Zone\n巻き起こせ Big Storm\n\n勝ち取れよ Big Shot！！ Big Shot！！\n情熱は君の鼓動がくれた答えだ\n信じた自分　見えたなら\nそれだけできっと　未来はGREATだろ\nWinning Rush　必ず To the top\nLALALA　LALALA…\n\nStand up, Get ready！！ Come on & Everybody！！\n波乱の幕開け　止まぬファンファーレ\nさあ一緒にJumping up　声上げろShout it out\nてっぺん目指す衝動からのBattleモード\n\n言葉よりもプライドよりも大事なものがある\n信じ合えば宿る絆\nGo ahead！！ 超えてゆけボーダーライン\nGo ahead！！ Try again！！\n“The world is mine！！”\n\n勝ち取れよ Big Shot！！ Big Shot！！\n思い出せ　それが君の名前だ(Hey)\nやりたいだけ (Hey)　やればいいだけ！！ (Hey)\n時代に選ばれし者になれ\nBig Shot！！ Big Shot！！\n情熱は君の鼓動がくれた答えだ\n信じた自分　見えたなら\nそれだけできっと　未来はGREATだろ\nWinning Rush　必ず To the top\nLALALA　LALALA…\n\n栄光の陰にある苦悩 As you know\n勝利者のみに与えられたカプリシャスな逆境\nYou don't stop (Hey)\n止めるな Your soul (Hey)\nThe winner takes it all (Hoo)\nto be the one\nto be the sun\nWe're No.1！！\n\nひとりだけじゃ　ガッツだけじゃ　越せない壁もある\n認め合えば滾る身体\nGo ahead！！　超えてゆけボーダーライン\nGo ahead！！ Try again！！\n“The world is mine！！”\n\n勝ち取れよ Big Shot！！Big Shot！！\n思い出せ　それが夢の名前だ (Hey)\nやりたいだけ (Hey)　やればいいだけ！！ (Hey)\n世界に選ばれし者になれ\nBig Shot！！ Big Shot！！\n情熱は君の鼓動がくれた答えだ\n信じた自分　見えたなら\nそれだけできっと　未来はGREATだろ\n\n(so get your Victory on)\n(the Music is for the people)\n(Jump in Jump into the Zone)\n(巻き起こせ Big Storm)\n\nGo Go Jump！！ 掴めよVictory (Hey)\nこのMusic　君へ届けYell (Hey)\nAre you ready！？\nGot to get it！！\nWe're in the Zone\n巻き起こせ Big Storm\n\n新たな　記憶も　記録も\n孤独に流れる　汗も　涙も\n譲れない　譲らない\nLet's make our history！！\n\n勝ち取れよ Big Shot！！ Big Shot！！\n思い出せ　それが君の名前だ (Hey)\nやりたいだけ (Hey)　やればいいだけ！！ (Hey)\n時代に選ばれし者になれ\nBig Shot！！ Big Shot！！\n情熱は君の鼓動がくれた答えだ\n信じた自分　見えたなら\nそれだけできっと　未来はGREATだろ\nWinning Rush　必ず To the top\nLALALA　LALALA…\nLALALA　LALALA…",
     },
     {
         id: 119,
@@ -1303,10 +1541,12 @@ export const songs = [
         titleKana: "Go Low Low",
         lyricist: "Kanata Okajima",
         composer: "Takuya Harada・Erik Lidbom",
+        arranger: "CHOKKAKU",
         album: ["Big Shot!!","Big Shot!![初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-10-09"
+        date: "2019-10-09",
+        lyrics: "(No one's gonna know it…)\n\nGonna tell my habit\n素通りのBackyard\nInnocence　まかせ\nいつも Starving for love\n戻れないよ\n隠れようとも No one's gonna make it\nWe're groovin'\nキミはもう in the zone\n\nWhen you are with me\n飛び交う Flashing\nIdiot 同士　睨みつける Instinct\n敵 or 味方\nYou know the truth\n消せないなら　確かめればいい\n\nDon't you see\n真っ赤な嘘で固められた\nDon't you see\n奪い合いの世界へ\nDon't you see\nWhat to believe　馬鹿の一つ覚え\nCrapな正義感？ What you want\n「で、どうしたいの？」\nGo low low, I'm falling\nGo low low, I'm falling\n脳内融解のFantasy\nGo low low, I'm falling\nヤバい程 Feel alive\n\n壁際 Tactics\nHours & hours\nどちらのほうが　引き金 Pull down？\n放さないよ\n忘れようとも　覚えてるよ\nWe're groovin'\n体温は Always honest\n\nWhen you are with me\n一気に Offensive\n奔放なほど　惹かれてるかも\nNothing can't stop me\n有能 Excuse\n肯定しなくてイイ　否定出来ない\n\nDon't you see\n真っ赤な嘘を重ね合って\nDon't you see\n最期は笑い合うんだろ？\nDon't you see\nWhat to believe　馬鹿の一つ覚え\nCrapな正義感？ What you want\n「で、どうしたいの？」\nGo low low, I'm falling\nGo low low, I'm falling\n境界崩壊でOverflow\nGo low low, I'm falling\nヤバい程 Feel alive\n\nWhispering　大胆に\nI could see, you're coming back\n逃れられないから\n常識外れのGame　味わったら\nYou are the queen of the night\n\n(No one's gonna know it…)\n\nDon't you see\n真っ赤な嘘で固められた\nDon't you see\n奪い合いの世界へ\nDon't you see\nWhat to believe　馬鹿の一つ覚え\nCrapな正義感？ What you want\n「で、どうしたいの？」\nGo low low, I'm falling\nGo low low, I'm falling\n脳内融解のFantasy\nGo low low, I'm falling\nヤバい程 Feel alive",
     },
     {
         id: 120,
@@ -1314,10 +1554,13 @@ export const songs = [
         titleKana: "Make a Wish!! ～せかいじゅうがあいしてる～",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
+        stringsarrange: "久保田真悟(Jazzin'park)・和音正人",
         album: ["Big Shot!!","Big Shot!![初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-10-09"
+        date: "2019-10-09",
+        lyrics: "せーの！で　オメデトウ♪\nHappy Birthday, Happy Birthday\n最高の君に告ぐ\n“世界中が愛してる！”\n\nFu Fu Fu Fu Make a Wish\nFu Fu Fu\n\nまずは“おめでとう”\n1番に伝えたかったんだ\n待ちかねたキャンドルも\n明かり消してスタンバイ\n\n部屋中が踊り出すほどの\nデコレーション\nプレゼント、、、それだけじゃ\n伝えきれないメッセージ\n\n今日の主役は○○(キミ)です\n飾らない笑顔見せて\n3.2.1で　ハイ、ポーズ！\n\nせーの！で　オメデトウ♪\nHappy Birthday, Happy Birtday\n最高の君に告ぐ\n“It's your Happy Birthday,\nHappy Happy Birthday”\nスペシャルなパレード\nHappy Birthday, Happy Birthday\nパーティーはそう　終わらない！\nまだまだ Oh, what a night！\n\nFu Fu Fu Fu Make a Wish\nFu Fu Fu\n\n君の笑顔のせいで\n鳴り止まない　カラフルなMusic\n去年よりみんなの笑顔だって\nアップグレード\n\n沢山の素敵な出来事がほら\n一緒なら何度だって\n起きちゃうはずさ\n\n今日の主役は○○(キミ)です\n未来へ送る One day dream\n3.2.1で　ハイ、チーズ！\n\nせーの！で　オメデトウ♪\nHappy Birthday, Happy Birthday\n最高の君に告ぐ\n“It's your Happy Birthday,\nHappy Happy Birthday”\nスペシャルなパレード\nHappy Birthday, Happy Birthday\nパーティーはそう　終わらない！\nまだまだ Oh, what a night！\n\nいくつになっても変わらない My Dear\n夢から覚めても続くから\n\nせーの！で　オメデトウ♪\nHappy Birthday, Happy Birthday\n最高の君に告ぐ\n“It's your Happy Birthday,\nHappy Happy Birthday”\nスペシャルなパレード\nHappy Birthday, Happy Birthday\nパーティーはそう　終わらない！\nまだまだ Oh, what a night！\nHappy Birthday, Happy Birthday\n\nまだまだ　終われない！",
     },
     {
         id: 121,
@@ -1325,10 +1568,12 @@ export const songs = [
         titleKana: "にじのたび",
         lyricist: "CHIYOKO",
         composer: "CHIYOKO・ U-KIRIN",
+        arranger: "U-KIRIN",
         album: ["Big Shot!!","Big Shot!![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-10-09"
+        date: "2019-10-09",
+        lyrics: "暮れゆく街でひとりきり\nあの日の夢とともに\n過ぎ行く日々の足跡たどり\n僕らの旅は続いていく\n\nためらうたび\n進めるように\nこの歌にひとつ　キズナを残す\n\n今日も　迷いながら歌い\nまた　生きる意味を探す\nどんな明日も変えていけるから\nいま誰のために生きて\nこの日々を何に捧ぐ\n答えはここにある\n僕らは行く\n旅をしていく\n\n「立ち止まり焦ってた？」\n「覚悟なんてなかった？」\n怖がらずに行こう\nゆっくりでいい\n過ぎ行く日々に祈りをたくし\n僕らはまた歩き出す\n\nためらうたび\n進めるように\n夢みてた未来への道しるべ\n\n今日も　迷いながら歌い\nまた　生きる意味を探す\nどんな明日も変えていけるから\nいま誰のために生きて\nこの日々を何に捧ぐ\n答えはここにある\n僕らは行く\n\n今日も　迷いながら歌い\nまた　生きる意味を探す\nいつも何処かで願っているから\n\nいま誰のために生きて\nこの日々を何に捧ぐ\n答えはここにある\n僕らは行く\n\n虹の旅を",
     },
     {
         id: 122,
@@ -1336,10 +1581,12 @@ export const songs = [
         titleKana: "WESTぉぉぉぉ!!! ～あいのセッション～",
         lyricist: "庄田ゲゲゲ",
         composer: "庄田ゲゲゲ",
+        arranger: "庄田ゲゲゲ",
         album: ["Big Shot!!","Big Shot!![通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2019-10-09"
+        date: "2019-10-09",
+        lyrics: "じゅんじゅじゅ～ん　はままま～ん\nしげげげ～ん　あっきき～ん　かみきゃみ～ん\nりゅうせせせ～い　こたきき～ん\nWESTォォォォ！！！\n\nジャニーズWEST…\nはい　ジャニーズWEST…\nはい　ジャニーズWEST…\nWEST…\n\nトリリンガルの坊ちゃんはニーハオ\n田舎育ち　なで肩Yeah　マッスル\nHAHAHAHAHAHAHA　歯が多いセンター\n趣味はダイエット特技リバウンド\nYeah！\n\nジャニーズWEST…\nはい　ジャニーズWEST…\nはい　ジャニーズWEST…\nWEST…\n\nメンバー1真面目で\nピアスバチバチで奇抜でおチビなオカン\nギャップで萌えるガチの天然\n最年少のあいつは2.5\nそれぞれの道つながる結晶\ncome on！\n\nじゅんじゅじゅ～ん　はままま～ん\nしげげげ～ん　あっきき～ん　かみきゃみ～ん\nりゅうせせせ～い　こたきき～ん\nWESTォォォォ！！！\n\nYeah！魅せてYeah！数えきれない\n夢・笑い・愛のセッション！\nYeah！これぞYeah！浪速魂\n希望・勇気・愛のセッション！Yeah\n\nはい　ジャニーズWEST…\n\nじゅんじゅじゅ～ん　はままま～ん\nしげげげ～ん　あっきき～ん　かみきゃみ～ん\nりゅうせせせ～い　こたきき～ん\nWESTォォォォ！！！\n\nYeah！魅せてYeah！数えきれない\n夢・笑い・愛のセッション！\nYeah！これぞYeah！浪速魂\n希望・勇気・愛のセッション！Yeah\n\n最高やで！ジャニーズWEST！\n完璧やで！ジャニーズWEST！\n一番やで！ジャニーズWEST！\n\nキミを笑顔にするためにやってきた\n願い叶える　7人の戦士やで\nキミに笑って欲しいから歌うよ\nいつも心に　7人の天使やで\n\nじゅんじゅじゅ～ん　SAY\n(じゅんじゅじゅ～ん)\nはままま～ん　SAY\n(はままま～ん)\nしげげげ～ん　SAY\n(しげげげ～ん)\nあっきき～ん　SAY\n(あっきき～ん)\nかみきゃみ～ん　SAY\n(かみきゃみ～ん)\nりゅうせせせ～い　SAY\n(りゅうせせせ～い)\nこたきき～ん　SAY\n(こたきき～ん)\nWESTォォォォ！！！\n\nYeah！魅せてYeah！数えきれない\n夢・笑い・愛のセッション！\nYeah！これぞYeah！浪速魂\n希望・勇気・愛のセッション！Yeah\n\nじゅんじゅじゅ～ん\n(じゅんじゅじゅ～ん)\nはままま～ん\n(はままま～ん)\nしげげげ～ん\n(しげげげ～ん)\nあっきき～ん\n(あっきき～ん)\nかみきゃみ～ん\n(かみきゃみ～ん)\nりゅうせせせ～い\n(りゅうせせせ～い)\nこたきき～ん\n(こたきき～ん)\nジャニジャニ～ズ\n(ジャニジャニ～ズ)\nWESTォォォォ！！！",
     },
     {
         id: 123,
@@ -1347,10 +1594,12 @@ export const songs = [
         titleKana: "W trouble",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "W trouble\nMake some noise\nLet's get started\n\nDo what you want\nHey　縦横無尽にSpin the world\nThere's no time like now\nOh Gosh！ Gosh！\nHit the ground, Run around\nLose a battle to win a war\n型破りなSoul lover\nYou got the power\n\nチャーミーにお届け Party up\nヒップにフロウかませ Hahaha\n世間はDangerous\nゆえのTenderness\nキミカワイイね\nHit the road jack\n\nシェイクユアバディ　ムーヴユアバディ\nシェイクユアバディ　ムーブユアバディ\nBang it\nBeat it\nBreak your limit\nSet the fire\n超Beatクレイジー！！\n\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow “W trouble”\n最強　最強　最強　最強\nViva Viva Bravo Bravo\nWow “W trouble”\n挑発的 Make some noise\nWoo hah！！\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow “W trouble”\nCome on and shout\nCome on and shout\nW trouble！！\n\n前代未聞のJack-in-the-box\n飛び出せSound　焦んなFirst Round\nDon't rush it Don't rush it\nヘイ Body Body Blow Blow\nジワジワSlow Slow\nNo way...\nなんつってGo Wild\n\nキッチュにお届け Party up\nボケたらつっこめ Hahaha\nDon't worry　想定外\nなくらいで　無問題\nキミノリいいね\nYou are so pretty cat\n\nシェイクユアバディ　ムーヴユアバディ\nシェイクユアバディ　ムーヴユアバディ\nBang it\nBeat it\nBreak your limit\nSet the fire\n超Beatクレイジー！！\n\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow “W trouble”\n最強　最強　最強　最強\nViva Viva Bravo Bravo\nWow “W trouble”\n挑発的 Make some noise\nWoo hah！！\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow “W trouble”\nCome on and shout\nCome on and shout\nW trouble！！\n\nYeah yeah... Yeah yeah...\nIt's like a jungle (Feel it)\nJust like a heaven (Feel it Beat it)\nYOLO！ Gotta have fun！\nLet's feel it Beat it Feel it Beat it\n\nすべてのHeart beat　ヒトツになれば\nnever better... never better...\nカラダ中で Fat beat　感じ合えれば\nnever better... never better...\nJust born to be crazy\nHey　その身を任せて...\n\nBang it\nBeat it\nBreak your limit\nSet the fire\n超Beatクレイジー！！\n\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow“W trouble”\n最強　最強　最強　最強\nViva Viva Bravo Bravo\nWow “W trouble”\n挑発的 Make some noise\nWoo hah！！\n最高　最高　最高　最高\nViva Viva Bravo Bravo\nWow“W trouble”\nCome on and shout\nCome on and shout\nW trouble！！\n\nYeah yeah... Yeah yeah...\nIt's like a jungle jungle (Feel it)\nJust like a heaven (Feel it Beat it)\nYOLO！ Gotta have fun！\nLet's feel it Beat it Feel it Beat it",
     },
     {
         id: 124,
@@ -1358,10 +1607,12 @@ export const songs = [
         titleKana: "Glory Days",
         lyricist: "Komei Kobayashi",
         composer: "Josef Melin・Christofer Erixon",
+        arranger: "Josef Melin",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "Woo！ Yeah, Oh…\nLALALA… Yeah…\nLALALA… 終わらないGlory Days\n\n見慣れた顔が　また一人、二人現れて\nDON DO DON DO DON DON！\nお決まりの曲　そっと流れ出せばこの場所で\nBON BO BON BO BON BON！\n\n約束なんて要らない　口実だって要らない\nどうせ暇してんだろ？　みんな、ここに来な\n\nまた集まって騒ごうぜ　LALALA…\nこれから先も　この場所にいたい\nほらみんなで歌おうぜ　LALALA…\n季節が　過ぎたって\n終わらないGlory Days\n\nLALALA… Yeah…\nLALALA… 終わらないGlory Days\nLALALA… Yeah…\nLALALA… 終わらないGlory Days\n\n街の景色は　今日も変わるけれど俺たちは\nNO NO NO NO NO NO！ (NO NO！)\n胸張って歩こう (Let's go)　すれ違う仲間握手して\nDAN DA DAN DA DAN DAN！ (Here we go)\n\n常識なんて知らない　説明なんていらない (Turn it up)\n俺らだけのルールが　ほら、ここにある\n\nあの日みたいに遊ぼうぜ　LALALA…\n憧れた未来　手放しはしない\n馬鹿みたいに笑おうぜ　LALALA…\n大人に　なったって\n終わらないGlory Days\n\n静かに落ちていく　太陽　光灯す町並み\n変わらない場所は　ここにあるよ\n\nあの日みたいに遊ぼうぜ　LALALA…\n憧れた未来　手放しはしない\n\nまた集まって騒ごうぜ　LALALA…\nこれから先も　この場所にいたい\nほらみんなで歌おうぜ　LALALA…\n季節が　過ぎたって\n終わらないGlory Days\n\nLALALA… Yeah…\nLALALA… 終わらないGlory Days\nLALALA… Yeah…\nLALALA… 終わらないGlory Days",
     },
     {
         id: 125,
@@ -1369,10 +1620,12 @@ export const songs = [
         titleKana: "きみだけの ぼくだけの",
         lyricist: "RYOJI",
         composer: "RYOJI・GRP",
+        arranger: "CHOKKAKU・GAKU",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "涙の止め方すら　わからなくなる時\nどんなTVショーのチャンネルも見る事を躊躇ったりして\n\nなぜどうしたの？　こんなはずじゃなかったよね僕は…\nイフもしもこの迷路の出口が見えなくなっても\n\nはじめから描いてた　未来とは違うけど\n君だけが　僕だけが生きてきた日々\n迷っても選びながら\n迷っても進みながら\n君だけの僕だけの道を歩いてきた意味を\n\n大切な異性(ヒト)が誰かも気づけない日々\nどんな悩みでも打ち明けられた君ならよかったはずで\n\nねぇどうしたの　そんな寂しそうな顔をして\n言わなくても分かり合えた　君はもういなくて\n\nはじめから分かってた　今更で遅いけど\n君だけが　僕だけを愛してた日々\n悩んでも笑いながら\n悩んでも進みながら\n僕らだけの二人だけの道を歩いてきた意味を\n\n生きてきた証が\n僕だけの迷路になる\n悩んだり迷ったりしながら\n今、僕はここにいるよ…\n\nはじめから描いてた　未来とは違うけど\n君だけが　僕だけが生きてきた日々\n迷っても選びながら\n迷っても進みながら\n君だけの僕だけの道を歩いてきた意味を",
     },
     {
         id: 126,
@@ -1380,10 +1633,13 @@ export const songs = [
         titleKana: "Special Love",
         lyricist: "黒沢薫",
         composer: "黒沢薫・竹本健一",
+        arranger: "竹本健一",
+        stringsarrange:  "井上一平",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "キミこそが　Special Love\n誰より深く愛してる　You're my Special Love\n\nずっと探してた　運命はそこにあるよ\nやっと見つけたよ　雑踏でたたずむキミを\n止まってた刻が不意に　動き出す\n互いの鼓動感じて　そのまま　恋に落ちたよ\n\nキミこそが　Special Love\nいつまでもそばで　みつめていたいから\nおいで愛しいひと\n誰より深く愛してる　You're my Special Love\n\n寒い夜だけど　触れ合う肩が温かい\n胸に残る痛み　ボクが消してあげるから\nはにかむように笑って　大丈夫さ\n何があってもふたりは　ずっと　一緒さ\n\nキミこそが　Special Love\nいつまでもそばで　笑顔がみたいから\nおいで愛しいひと　見上げれば　ほら\n満点の星空さ　You're my Special Love\n\nボクらの住むこの世界は\nほんとうみたいな嘘で溢れてるけど\n強く抱きしめた\nこの温もりだけは\n永遠に　ほんとうさ\n\nキミこそが　Special Love\nいつまでもそばで\nみつめていたいから\nおいで愛しいひと\n誰より深く　愛してる　離さない\nYou're my Special Love\n\nキミだけを\n\n誰よりも\n\nYou're my Special Love",
     },
     {
         id: 127,
@@ -1391,10 +1647,12 @@ export const songs = [
         titleKana: "Survival",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "akkin",
         album: ["W trouble","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "Dead or Alive, No place to hide.\nWow yeah.\n\n立ち塞ぐ壁を前にして　為す術無くただ唇噛んで\n怯えという鎖で雁字搦め\nI wonder that I should do.\n俺はいつかどうなりたいんだ？\nOh…Ah…\n\nくだらねぇ言い訳並べて　今の自分正当化して\n無理だって吐き捨てて　塞ぎ込んでIt sucks！\n足掻きもしないで　それでいいのか？\n\n「無様だな」嘲笑うかのように　睨みつけた鏡の中\nHang in there. (Hang in there.)\nガキの頃に胸を張れる俺でいられてんのか？\n抱えたComplex絶つのは今\n躊躇う暇はないぜ\n\nGet ready！ Going my way.\n振り向かず行け\n擦り切れて\n噛みつかれて\n故に傷だらけ\nKiss your past goodbye.\n哭いたって\n惨めで\nみっともなくたって\n何が何でも\n運命に牙を剥け\n\nYOLO.\nTime waits for no one.\n\nVenusが見出す WinnerこそがLeader.\n騒ぐ血が今Heat up　いいか？ We're the freedom.\nHey！ Don't be afraid.　目指せAce.　上行くMake waves.\nWe're gonna shake the world.\nBring it on. Blllllllah!!!!!!!\n\nいざ開幕　響いたGunfire.\n現状は最悪　打ち出せMy style.\n負のSpiral　さえもHijack.\n戦況はClimax.\nこれはSurvival!!!!!!!\n\n蟠りの弾を込めて\n世界へと引き金をひけ\nAre we gonna grow up？\nOr we just fall down？\nどうなるかは自分次第だろ\n\nGoing my way.\n先を越されて\n崖っぷちで\nくじけたって\n後に引けなくて\nI'll never give it up until I die！\nまじで命懸けなんだ\n\nOnly we can change our life.\n妥協は捨てて\n蔑まれ　貶されても\nただかち込むだけ\nIt serves you right！\nそう限界を超えろ\n燃え尽きても\n夢にしがみつけ\nTraumaを取っ払って\nPrideを貫け\n恥をかくのは\n間違いじゃないだろ\n何度だってGet up.\n世間体なんてBreak out.\n挑み続ければ\n未来(あす)はこの手の中\nWe're still alive aiming at higher.",
     },
     {
         id: 128,
@@ -1402,10 +1660,12 @@ export const songs = [
         titleKana: "ごっつえーFriday",
         lyricist: "SUNNY BOY",
         composer: "☆Taku Takahashi(m-flo)・SUNNY BOY",
+        arranger: "☆Taku Takahashi(m-flo)・Mitsunori Ikeda(Tachytelic Inc.)",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "朝から　マジしんどい\nそれでも仕事はバキバキ\nいつまでも一緒　乗り気にはなれない！\nそれでも頑張るから\nお願いちょうだいご褒美！！！\n\nやっと半分ラストスパート\nでも週末までまだファイト\nあともういっちょまで\n目標達成するからこれからも\n毎日がParty　今日もごっつえーFriday！\nどんな日でも花金のような\nハッチャケ祭りやで\n\nわっしょいわっしょい\neverybody　わっしょい\nだるめの日でもwe can enjoy\n頭の中の方向性\nちょびっと　変えるだけで\nWe could be H a p p y\n平日でも we can party like\nTGIF day & night\nIt's ごっつえーFriday Night！！\n\n(Hey Hey) 体まで\n(Hey Hey) Run Automatic\n(Hey Hey) この音まで\n(Hey Hey) アゲアゲで\nwe party everyday like\nIt's ごっつえーFriday (ごっつえーFriday)\n\nOne more time\n君と踊りたい\nNow dance with me\nまるで Friday Night\n羽目を外していこう\ndon't care at all\nsinging like\nLa La La La La La La La (TGIF)\nLa La La La La La La La (TGIF)\nLa La La La La La La La\nEverybody is Friday Night\n\n残業残業もう無理\nwanna go home　いますぐに\n楽しみたいでも楽しめない時\nいったい何をすればいい\nめっちゃ楽勝めちゃ楽勝\nどんな時でも想像力を\n使ってどの場でもクラブに変身\nしてdance all night like a パーリー\n\n調子Slowly徐々に上げていくOne weak\n終わるまで待てないから\nwe should all do this all week\n嫌な事はすべて忘れて　今夜は踊れ！\nAndale！ Andale！\nブルのようにはしゃぎまくれ！\n\n真面目すぎると損損損\n堅苦しい考えはno\nAlways be H a p p y (Happy)\n平日でも we can party like (Party)\nTGIF day & night\nIt's ごっつえーFridayNight！ (Night！)\n\n(Hey Hey) 体まで\n(Hey Hey) Run Automatic\n(Hey Hey) この音まで\n(Hey Hey) アゲアゲで\nwe party everyday like\nIt's ごっつえーFriday (ごっつえーFriday)\n\nOne more time\n君と踊りたい\nNow dance with me\nまるで Friday Night\n羽目を外していこう\ndon't care at all\nsinging like\nLa La La La La La La La (TGIF)\nLa La La La La La La La (TGIF)\nLa La La La La La La La\nEverybody is Friday Night\n\n(Hey Hey) even on Monday\n(Hey Hey) even on Tuesday\n(Hey Hey) even on Wednesday\n(Hey Hey) even on Thursday\nwe party everyday like\nIt's ごっつえーFriday (ごっつえーFriday)",
     },
     {
         id: 129,
@@ -1413,10 +1673,12 @@ export const songs = [
         titleKana: "HEY!!!!!!!",
         lyricist: "JIN",
         composer: "JIN",
+        arranger: "ha-j・高田翼(Diosta inc.)",
         album: ["W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "すれ違ってごめん　君とのデスティニー\n遠回りしてる　僕だけれど\nそこで待ってて　未来のYOU&ME\n\n冴えないeveryday　僕は心鍵をかけた\n期待しちゃ滑る　なんて言われた過去\n\n笑ってたって疲れんぜ　泣いたって意味なんてないし\n優しく許してくれちゃう　君を妄想しよう\n事実につまずいたって　青春って言って流せた\nあの日々My way遠くなってく\n\n夜の銀河を超えて　狙え明日の太陽\nまだだ　まだだ　今だ　狙え\n何度も　やるぞ　さぁ行くんだ\nGo for the best\nGo for the best\nGo for the best\n君に逢いに\nGo for the best\nGo for the best\n今すぐ逢いたい\n\n途切れた会話に　うまく返せないままだし\n(最近) お釣りさえずっと気持ちよく揃わない\n\nふざけたって意味ないし　意外と真面目なんなんだ\n常識だってちゃんとするし　気も回すんだ\nたまには感情爆発　できたら、そりゃぁいいのにな\n閉じた世界からのエスケープ！！\n\n夜の芯まで冷えた　風と孤独な君へと\nまだだ　まだだ　今だ　届け\n何度も　やれと　僕に言うんだ\nGo for the best\nGo for the best\nGo for the best\n君に逢いに\nGo for the best\nGo for the best\n今すぐ話したい\n\nすれ違ってごめん　君とのデスティニー\n遠回りしてる　僕だけれど\nそこで待ってて　未来のYOU&ME\n\n心折れるとき　何もない日々　だがそれでいい\nそれがいい　それで楽しい　待つのもたまにはいい景色\nその時が来た時　世界を一気に飛び出し\nそこで待つ君に　届け未来の僕に\n『どの瞬間だって振り返れば最高の今』\n\n夜の銀河を超えて　狙え明日の太陽\nまだだ　まだだ　今だ　歌え\nそうだ　そうだ　ここで負けんな\n涙の虹抜けて　狙え君の笑顔を\nまだだ　まだだ　今だ　響け\nそうだ　そうだ　それでいいんだ\nGo for the best\nGo for the best\nGo for the best\n君に逢いに\nGo for the best\nGo for the best\nもうすぐ出逢えるから",
     },
     {
         id: 130,
@@ -1424,10 +1686,12 @@ export const songs = [
         titleKana: "to you",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["W trouble","W trouble[通常盤]","W trouble[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "思い出し笑いできるんだ\nあの日々僕の足元を照らすんだ\n何とかなるって　夜明けの魔法すがろうか\nでも何もかも失くしたくない\n\n永遠だとか　一生なんてな\nどこにあるんだ\n\nもう　探さない　見つからない\nまた一人　また一人\nそれぞれの道　歩いてく\nどいつもこいつもいい顔で\n\nじゃあな　じゃあな　寂しくなるぜ\n全てが　全てが　恋しくなったって\n放物線を空に描こう\nあなたへ届け　虹色のピース\nありがとう　ありがとう　旅立つ背中に\nいつか僕は僕で　待っていて　見守って\n一人帰り道　口ずさむ\n新しいメロディー　ふっと笑った\n\nお前の恥ずかしい過去知ってるぜ\nお互い様か　ネタには出来ないな\nあと何分の一日か　他人事みたいに思う\nでも何もかも忘れたくない\n\n永遠だとか　一生なんてな\nどこにあるんだ\n\nもう　戻らない　戻れない\nいつの日にか　いつの間にか\n信じてる道　進むんだ\nお前の夢　笑わないぜ\n\nあばよ　あばよ　会いたくなるぜ\nでもな　でもな　今はまだ早いね\n一人帰り道　この胸に\n止まらないリズム　ふっと感じた\n\nどれもこれも何もかもって\n大事なもんはどんどん増えてって\n自分ってなんだろ　人生ってなんだろ\n何だっていいじゃん love you　やっちゃいな\n\nどいつもこいつもいい顔で\n\nじゃあな　じゃあな　寂しくなんかないぜ\nまたな　またな　今じゃないどこかで\n放物線を空に描こう\nあなたへ届け　お決まりのピース\nありがとう　ありがとう　旅立つ僕らに\nあの日の僕らが　待ってるって　見守ってるって\n一人帰り道　立ちどまる\n懐かしい声に\n\n思い出し笑いできるんだ\nこの日いつか足元を照らすんだ",
     },
     {
         id: 131,
@@ -1435,10 +1699,12 @@ export const songs = [
         titleKana: "Try me now",
         lyricist: "SHIROSE from WHITE JAM・GASHIMA from WHITE JAM",
         composer: "COMMAND FREAKS・Christofer Erixon・J. Praize",
+        arranger: "COMMAND FREAKS",
         album: ["W trouble","W trouble[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "Just get ready, Imma take you higher\nJust keep on burning like the fire\nNo looking back cuz we're fighters\nCan you hear me right now？\nJust get ready, Imma take you higher\nJust keep on burning like the fire\nNo looking back cuz we're fighters\n\n俺についてくるってことは\nわかってるよね？　どういうことか。\n覚悟できたってことね？　今日俺と何かを変えよう。\n関係ない奴が　関係あるみたいに　ごちゃごちゃ。\nDoesn't matter, Doesn't matter what you say\n頭ナデナデしてやるよ。\n\nWork it out, Just to work it out\n周りのペースに合わせても\nLonely now, You're feeling lonely now\n孤独は消せないぜ\n\nRight now... Living in the moment\nJust one life...　一度しか、言わないよ。\nおい。だから、僕は、心込めて言うよ。\nDon't be scared to be yourself\n\nあげろ心拍数。やんでるキスをしよう。\n大丈夫大丈夫大丈夫じゃない。\nあげろよその心拍数。俺と火を付けろ。\n火遊び火遊び火遊びじゃない。\nおい。声をきかせろ。\nHey, We got to do it now\nEverybody gotta do it now\nHey, We got to do it now\nCome on & Try me now\n\n全部を頑張る必要ない。\n変えるのは、たった一個だ。\nBe careful what you're wishing for\n未来はそこにある。\n昨日しなかったことをするとね\n運命が少しだけ変わる。\nWhat you gonna, What you gonna, gonna do？\n少しずついこーよ。\n\nFire... We just keep on burning\nWe're fighters... 夢見ていたいよ。\nおい。だから、僕は、心込めて言うよ。\nJust show me what you got\n\nあげろ心拍数。俺に気を付けろ。\n大丈夫大丈夫大丈夫じゃない。\n時には辛いぜ。\nあげろよその心拍数。やんでるキスをしよう。\n火遊び火遊び火遊びじゃない。\nおい。声をきかせろ。\nHey, We got to do it now\nEverybody gotta do it now\nHey, We got to do it now\nCome on & Try me now\n\nBring it on\nBreak it down\n\nIdon't need nobody, I don't need nobody\nわかったか？　きこえてるか？\nいつかじゃない。誰かじゃない。今、行こう。\n\nあげろ心拍数。やんでるキスをしよう。\nあげろ心拍数。俺とならいけるでしょ。\n\nあげろ心拍数。やんでるキスをしよう。\n大丈夫大丈夫大丈夫じゃない。\nTurn it, Turn it, Turn it up Yeah\nあげろよその心拍数。俺と火を付けろ。\n火遊び火遊び火遊びじゃない。\nおい。声をきかせろ。\nHey, We got to do it now\nEverybody gotta do it now\nHey, We got to do it now\nCome on & Try me now\n\nJust get ready, Imma take you higher\nJust keep on burning like the fire\nNo looking back cuz we're fighters\nCan you hear me right now？\nJust get ready, Imma take you higher\nJust keep on burning like the fire\nNo looking back cuz we're fighters\nCome on & Try me now",
     },
     {
         id: 132,
@@ -1446,10 +1712,12 @@ export const songs = [
         titleKana: "The Call",
         lyricist: "常楽寺澪",
         composer: "Philip Eliason・Anton Hellgren",
+        arranger: "Philip Eliason・Anton Hellgren",
         album: ["W trouble","W trouble[初回B]"],
         announce: "t",
         singer: "濱田崇裕＆藤井流星",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "震え続けたままのPhone　握り締めた\nこれ以上優しい声　聞いていられないわ\n\n部屋に残ったあなたの香り\nNo. I can't forget about it\nあなたはまるで陽だまりのよう\nその手に包まれてた\n\n窓を叩く雨\nbut I don't feel like crying crying\n今は現実を見たくないのよ\n\n最後の言葉はもう You know it now\nどうか忘れないで　愛を\n\nCan't call you back you back you back\n堪えてる　何度も\nCan't call you back you back you back\nI will never call you back\n\nふいに途切れたCall　耳に残ってる\n飲み込んだそのWords　予感してた\n\n本当の声を隠したままで　ずっと側にいたの？\n君はまるで漂う雲さ　この手をすり抜けてく\n\n空が泣き出した\nbut I don't feel like crying crying\n今は真実を見つめたいから\n\n最後にサヨナラだけ Call me back now\nせめて忘れさせて　愛を\n\nJust call me back me back me back\n願ってる　何度も\nJust call me back me back me back\nI want you to call me back\n\nIf you can hear me\nもう一度だけ\nIf you can hear me\n声を聞かせてよ Baby\n\n“Hi, It's me\nI know, I know... you don't love me anymore.\nI feel lonely, just wanna hear your voice, baby\nOne last time, Will you call me back？ yeah”\n\n最後にサヨナラだけ Call me back now\nせめて忘れさせて　愛を\n\nJust call me back me back me back\n願ってる　何度も\nJust call me back me back me back\nI want you to call me back",
     },
     {
         id: 133,
@@ -1457,10 +1725,12 @@ export const songs = [
         titleKana: "do you know, girl??",
         lyricist: "重岡大毅・小瀧望",
         composer: "重岡大毅・小瀧望",
+        arranger: "告井孝通",
         album: ["W trouble","W trouble[初回B]"],
         announce: "t",
         singer: "重岡大毅＆小瀧望",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "上から下へsecurity check it baby\ngateをpass　足早にcheck in　したいね\n\n君の知らない世界\n君と行って見せたい\n0.01 パスポート　着くも着かぬも俺次第\n\nyeah！！　刺激的旅　満たされる度\n何もかも忘れて\n行けぇ！！　愛し合って black out\n突き抜けて white out\n2人乗ってそって\ndo you know, girl？？ sweet kiss？？\n朝になっても気にしない\n\ndessert代わりのproのtalkさ baby\n甘い甘い甘い期待サービス say“yes”\n\n君が肩にもたれる\n君の息が弾む\n0.01 パスポート　飛ぶも飛ばぬも君次第\n\nyeah！！　魅惑的旅　魅せられる度\n何もかも果てまで\n行けぇ！！　繋がって black out\n突き破って white out\n2人寄って添って\ndo you know, girl？？ sweet kiss？？\nバカになっても気にしない\n\nyeah！！　せわしない旅\nただ行ったり来たり\n何もかもさらけだせ\n\n行っけぇ！！　刺激的旅　満たされる度\n何もかも忘れて\n行けぇ！！　愛し合って black out\n突き抜けて white out\n2人乗ってそって\ndo you know, girl？？ sweet kiss？？\n朝になっても気にしない\n今夜の君と俺次第",
     },
     {
         id: 134,
@@ -1468,10 +1738,12 @@ export const songs = [
         titleKana: "GimmeGimmeGimme",
         lyricist: "Yuki Kokubo・中間淳太",
         composer: "Josef Melin",
+        arranger: "Josef Melin",
         album: ["W trouble","W trouble[初回B]"],
         announce: "t",
         singer: "中間淳太＆桐山照史＆神山智洋",
-        date: "2020-03-18"
+        date: "2020-03-18",
+        lyrics: "衝撃的な　夜のFantasy (GimmeGimme)\n耳元で　着飾った言葉は\nまるでアルコール　薄れる記憶\nそのまま　裸で Goodnight baby\n\n「運命を感じちゃう」なんて\n頬赤くして\nOh baby　マジでピュアなんだね\n挨拶代わりのキスくらいで\nあっちゅーまに　本気になって\nMa ma ma My love is like Don Juan\n「楽勝だね。“tonta”」\n\nSo GimmeGimmeGimme\n抱きしめるたび\nWow oh oh... (Wow oh oh...)\n溢れ出す Juicy\n本能のまま Tasting\nWow oh oh... (Wow oh oh...)\n\nHey！ Hey！ Hey！ Hey！ Hey！ Hey！\nGimmeGimme\nHey！ Hey！ Hey！ Hey！\nWow oh oh...\n\n現実的な　朝はSuddenly (Suddenly)\nSo...　ロマンスの先にあるのは未来じゃなくリアル\nシーツの中　濡れた瞳\n涙は　無意味さ Goodbye baby\n\n「貴方だけ　行かないで」なんて\nダサすぎるって\nDon't worry　結局はお前のものだって\nタバコふかし　煙にまいた\n約束は嘘 I'm a liar\nMa ma ma My love is for everyone's\n「逆に親切だろ？“tonta”」\n\nSo GimmeGimmeGimme\n今夜だけのハニー\nWow oh oh... (Wow oh oh...)\n恥じらいの Juicy\n躊躇わず Tasting\nWow oh oh... (Wow oh oh...)\n\nHey！ Hey！ Hey！ Hey！ Hey！ Hey！\nGimmeGimme\nHey！ Hey！ Hey！ Hey！\nWow oh oh...\n\nGimmeGimmeGimmeGimme　全て捨て\n乱れてごらんよ Fill me all the way\nMy heart is pumpin'n pumpin'n (Baby)\nYour heart is pumpin'n pumpin'n\nGimmeGimmeGimmeGimme　果てるまで\n乾いた喉、潤すように\n飲み干してグッと...\n\n誰もが俺に\n酔いしれてKissin'\nWow oh oh... Ohhhhh！！！\n\nSo GimmeGimmeGimme\n抱きしめるたび\nWow oh oh... (Wow oh oh...)\n溢れ出す Juicy\n本能のまま Tasting\nWow oh oh... (Wow oh oh...)\n\nHey！ Hey！ Hey！ Hey！ Hey！ Hey！\nGimmeGimme\nHey！ Hey！ Hey！ Hey！\nWow oh oh...\n\nHey！ Hey！ Hey！ Hey！ Hey！ Hey！\nGimmeGimme\nHey！ Hey！ Hey！ Hey！\nWow oh oh...",
     },
     {
         id: 135,
@@ -1479,10 +1751,12 @@ export const songs = [
         titleKana: "しょうこ",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["証拠","証拠[初回A]","証拠[初回B]","証拠[通常盤]","rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "こんなにも　笑って　いや　泣いて\n忙しなく叫ぶ　キミの心は\n頑張っている証拠だよ\n\n「消えちまえ」\nそれを重ねて\n夢見てるばっかの　僕がいたんだよ\n眠れない　眠りたくない\n迫って来る夜に　また目を背向けた\n\nあーだ　こーだ　言ってみたり\nどーの　こーの　ぼやいたり\nいいさ　歌ってみればいいさ\nそーも　こーも　言ってられない世の中なら\nほら　もっと　もっと　さらけ出せばいい\n\nこんなにも　笑って　いや　泣いて\n忙しなく叫ぶ　キミの心は\n頑張っている証拠だよ\n「置いてきぼり」なんて　言わないで\n完璧じゃ疲れちゃうよ\nらしく行こうぜ\nLong & Winding Road\n\n「もう分からない」\n途方に暮れて\n助け求めてる　キミもいたんだね\n作り笑い　慣れ過ぎてない？\n上手く生きるのがすべてじゃないから\n\nみえ透いたウソばかり\n見たくないものばかり\nでもさ　歌っていればいいさ\nどーも　どーも　やってられない世の中なら\nほら　もっと　もっと　愛しちゃえばイイ\n\nこんなにも　笑って　いや　泣いて\n忙しなく叫ぶ　キミの心は\n頑張っている証拠だよ\n「ひとりきり」だなんて　行かないで\nいつか泣き疲れちゃうよ\nらしく行こうぜ\nLong & Winding Road\n\nとは言え　不器用な僕ら\nもやもやのあっち側\n届かない声は無いって\nがむしゃらに　かき鳴らすのさ\n\nどれが正しくて　間違いで\n手探りのまんま　生きているんだ\n何が悪いのさ Ah\n\nこんなにも　笑って　いや　泣いて\n忙しなく叫ぶ　キミの心は\n間違ってない証拠だよ\n「置いてきぼり」なんて　言わないで\n完璧じゃ疲れちゃうよ\nらしく行こうぜ\nLong & Winding Road",
     },
     {
         id: 136,
@@ -1490,10 +1764,12 @@ export const songs = [
         titleKana: "You ain't mine",
         lyricist: "Kanata Okajima・CLAUDE S.",
         composer: "O-BANKZ・Erik Lidbom・J. Praize",
+        arranger: "O-BANKZ",
         album: ["証拠","証拠[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "You & me　とっくに　スベテ Over\n投げやりに Cut　空虚な Talk\n充分向き合ったし　なす術も無い\nYou've crossed the line badly\n\nI regret, I'm sorry とか\n聞き飽きたよ Girl\nカラダでごまかして\nWe're so stupid creatures\n\n塞ぎ　重ね合う Lips\n傷つけ合うように\nYou know I'm so selfish\nキミのせいさ\n\nYou ain't mine\nYou better know that\n行けるものなら　早く Say good-bye\nYou ain't mine\nI can't believe it\n心はもう居ない\n正義なんて今は Pointlessな言葉\n刻み付けて　忘れさせない\nYou ain't mine\nYou better know that\nで、キミはどうしたい？\n\nいつからだろう　キミの Fake\n気づけなかったのが Mistake\n今更振り返らない\nLet me hung up the phone Girl\n“今すぐ会いたいくらい”は Lie\n色褪せたメロディ Please don't cry\nその涙　騙されない　過ちとか言わせない\nCan't get it right　チョイスはない\nキミのせい\nそう You ain't mine\n\nFirstly　かなり　関係は Complex\nFrom the start　生まれも Far away star\nたまにやけになって\nI went for somebody else\nI've crossed the line badly\n\nBut quite sure　俺しかいない\nThe one that makes you satisfied\n荒っぽく誘い合って\nWe're so stupid creatures\n\n高まってく Breathin'\n掻き消される Moral\nI know you so selfish\n俺のせいかい？\n\nYou ain't mine\nYou better know that\n手放せるなら　どうぞ Say good-bye\nYou ain't mine\nI can't believe it\nもう巻き戻せない\n正義なんて今は Pointlessな言葉\n刻み付けて　忘れさせない\nYou ain't mine\nYou better know that\nさあ罪を感じない？\n\nGirl, can you handle it？\n俺に見せた Deep inside\n出逢えると良いね\nそれまで　さあ One more time\n\n間違いだらけの　二人だけど Tonight\n浅はかに溶けてく運命 You know that？\n戻れない“キミ”はもういない\n描いた未来も今ここまで It's over\n数えきれないほどの　二人の物語も\n儚く散り去り Good night\n朝を待つだけ\n\n結局　重ね合う Lips\nどこか逃げるように\nYou know I'm so selfish\nキミのせいさ\n\nYou ain't mine\nYou better know that\n行けるものなら　早く Say good-bye\nYou ain't mine\nI can't believe it\n心はもう居ない\n正義なんて今は Pointlessな言葉\n刻み付けて　忘れさせない\nYou ain't mine\nYou better know that\nで、キミはどうしたい？\n\nもう罪も感じない\n\nで、キミはどうしたい？",
     },
     {
         id: 137,
@@ -1501,10 +1777,12 @@ export const songs = [
         titleKana: "さよならなんかじゃおわらせないから",
         lyricist: "MORISHIN",
         composer: "MORISHIN・REO",
+        arranger: "REO",
         album: ["証拠","証拠[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "愛が足りないならおいで\n光を注ぐよキミに\n涙で咲かせた花を守るよ\n踏み潰されないように Wow wow wow\n\n“傷つくのはもう慣れたよ”\nそんなこと言わないで\n傷の隙間こぼれる希望拾って\n\n“じゃあね”\nサヨナラなんかじゃ終わらせないから\n何度も言う So 何度でも言う\n生きるんだ So 生き抜くんだ\nWow wow wow wow wow wow\n悲しみなんかじゃ終わらせないから\nI love you　ほら愛ならある\nもう一度笑ってよ\nサヨナラなんかじゃ終わらせないから\n\n“ありがとう”“ごめんね”\nそんな言葉いらない\nサヨナラなんかじゃ\n絶対終わらせないから\n\n“傷つくのはもう慣れたよ”\nそんなこと言わないで\n傷の隙間こぼれる希望拾って\n\n“じゃあね”\nサヨナラなんかじゃ終わらせないから\n何度も言う So 何度でも言う\n生きるんだ So 生き抜くんだ\nWow wow wow wow wow wow\n悲しみなんかじゃ終わらせないから\nI love you　ほら愛ならある\nもう一度笑ってよ\nサヨナラなんかじゃ終わらせないから\n\n愛が足りないならおいで\n光を注ぐよキミに",
     },
     {
         id: 138,
@@ -1512,10 +1790,12 @@ export const songs = [
         titleKana: "まちがっちゃいない。",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["証拠","証拠[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "涙一粒　星降る夜に\n光れない　馴染めない\nなぜ同じ様に生きれないの\n予定詰まったカバン捨てて帰ろうかな\n眩しい近所の夜空\n\n間違い探しの世界で　赤ペン持つのかい\nインクが足らないね\n\n間違っちゃいないよな\n君と出会ったことも　夢を信じることも\n答えに牙むいてさ\n何度も何度でも\nさよなら上の空　僕は僕で僕なんだ\n間違っちゃいない\n間違っちゃいないんだ\n\nないものねだりタラレバを振り払う\n朝の占い　横目で順位気にしてさ\n理想と現実で結ぶ靴ひも　歩けるかな\n教えて近所の青空\n\nぐるぐる渦巻く世界で　君が花びら\n花丸つくれるね\n\n間違っちゃいないよな\n消えたくなった夜も　逃げたくなった朝も\nまぁまぁカッコいいんじゃない\n泣きたくて泣けなくて\n“お疲れ”と夕日がほら　君は君で君なんだ\n間違ってもいい\n間違ってもいいんだ\n\n頑張れなくていい　嫌になったっていい\n情け無くていい　ダサくていい　怖くなってもいい\nどんな自分だっていい\n\nどうしようも無いくらい\nどうしようの繰り返し\n誰が明日を知ってるんだ\n\n誰にも解らないから\n\n君と出会ったことも　夢を信じることも\n答えに牙むいてさ\n間違っちゃいないよな\n目が合う近所の空　僕は僕で僕だ\n間違っちゃいない\n間違っちゃいないんだ\n間違っちゃいない\n間違っちゃいないんだ",
     },
     {
         id: 139,
@@ -1523,10 +1803,12 @@ export const songs = [
         titleKana: "ANS",
         lyricist: "神山智洋・藤井流星",
         composer: "神山智洋",
+        arranger: "akkin",
         album: ["証拠","証拠[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "wow oh...\n\n夢に見た主人公は思い返せば遥か彼方\n大切にしてた拘りさえ捨てちゃおうか？迷いも生まれんだ\n自分と向き合うことにさえ　目を背けて逃げ続けていた\n過去に縛られて　やることなすこと空回るんだ\n\n暗い部屋でポツリ　悪戯に時は流れ\n辛い筈なのに涙は流れなくて\n\nキエチマエ！！　オマエ！！\nお前はいつも影のようにしつこくつきまとって\n繰り返し立ち塞がるのなら\n強く瞬いて\nキエチマエカナシミよ\n\n夕日に照らされ気づく　丸く不細工な背中はいつから？\n下を見てなくちゃ帰る道すら見失いそうなんだ\n\n当たり前のように昇る焼ける朝日\n吹っ切れてないのにまた今日が始まるのか\n\nキエチマエ！！　オマエ！！\nお前がもしも夢ならば早く覚めてくれ\n傷だらけな未来は要らない\nまじで頼むから\nキエチマエカナシミよ\n\nこのままずっとただ流されるだけなら楽だけどさ\nやりたいことなりたいもの追いかける方が\n毎日がワクワクしてこないか？\n\n手繰り寄せた望みがちっぽけでも\n決して手放したりしないから\nカタチなんて関係ないさ\nまだ夢の途中だ　半端じゃ終われないさ\n\n掻き鳴らせ！！　強く！！\n続く未来がどうなるかは自分次第だろ\n打ち鳴らせ！！\n過去の俺がお前を越える度強くなってきたように\n何度でも越えてみせるさ　悲しみ(オマエ)の\n向こう側へ\n\n高い空へ\nキエチマエ！！",
     },
     {
         id: 140,
@@ -1534,10 +1816,12 @@ export const songs = [
         titleKana: "はっぴーめいかー",
         lyricist: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・前田佑",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・前田佑",
+        arranger: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・前田佑",
         album: ["証拠","証拠[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "Hey Everybody\nさあゼロから始めようか\nCome on Everybody\n派手に Sound　奏でようか\nBakubaku Zokuzoku\nジリジリ Party Party\nHey It's ショータイム！！\n\nハッピーメイカー　ハッピーメイカー\n最高！　太陽と踊れフィエスタ\nありのままのキミを見せて\nジリジリ Party Party\nハッピーメイカー　ハッピーメイカー\nさぁ行こう！　情熱と歌えフィエスタ\n汗ばむほど心感じてる\nエビバディ超ベリーGood！！\nSAWAGE SAWAGE SAWAGE！！\n\nAy Yo Funky flow\n灼熱のボディーブロー\n最高へのOne way\nドシャ降りでも Go ahead\nお楽しみが So メニメニあんだって\nShout it out (Shout it out)\nComing out (Coming out)\nLet's get it now now now\n\nエビバディ (Hey！)\nCome on & dance with me\nシェイキョーバディ (Ho！)\nもっと声出して\nアユレディ！？ (Yeah！)\nCome on\nオレたちがユニバース\n\nはみ出しそうさ (We're going high)\nThis is クレイジーなsoul (Crazy soul)\n掴め Fire な　シーズン\nSo we get up get up get up\nCome on and get up get up get up\nSA！ WA！ GE！ Let's go！\n\nハッピーメイカー　ハッピーメイカー\n最高！　太陽と踊れフィエスタ\nありのままのキミを見せて\nジリジリ Party Party\nハッピーメイカー　ハッピーメイカー\nさぁ行こう！　情熱と歌えフィエスタ\n汗ばむほど心感じてる\nエビバディ超ベリーGood！！\nSAWAGE SAWAGE SAWAGE！！\n\nオチなし禁止 It's better better　フレッシュ\nGDP上がるくらいに Party Party it up\nヤングピーポーも　騒ぎな (Hoooo！！)\nアダルトピーポーも　騒ぎな (Hoooo！！)\nShout it out (Shout it out)\nComing out (Coming out)\nLet's get it now now now\n\nエビバディ (Hey！)\nYour heart is shaking now\nムーヴユアバディ (Ho！)\nもっとHighんなって\nアユレディ！？ (Yeah！)\nCome on\nオレたちがユニバース\n\nヤケドしそうさ (We're going high)\nThis is クレイジーなmode (Crazy mode)\nいつも Futureはフリーダム\nSo we get up get up get up\nCome on and get up get up get up\nA！ SO！ BE！ Let's go！\n\nハッピーメイカー　ハッピーメイカー\n最高！　天使のエゴイスト\n身もココロも裸になって\nジリジリ Party Party\nハッピーメイカー　ハッピーメイカー\nさぁ行こう！　衝撃のロマンチスト\nとろけるほど心感じてる\nエビバディ超ベリーGood！！\nASOBE ASOBE ASOBE！！\n\nワチャワチャ　ハメはずせ　ついてこい！\nWow wow (Wow wow)\nギリギリ BAKAになれ　ワンモアタイム！\nWow wow\nLet's get it now now now\n\nEnjoy to the limit\n終わらない…　終わらせない…　この季節\nLet's get it together　その素肌\n大胆に焦がそう\n\nSA！ WA！ GE！ Let's go！\n\nハッピーメイカー　ハッピーメイカー\n最高！　太陽と踊れフィエスタ\nありのままのキミを見せて\nジリジリ Party Party\nハッピーメイカー　ハッピーメイカー\nさぁ行こう！　情熱と歌えフィエスタ\n汗ばむほど心感じてる\nエビバディ超ベリーGood！！\nSAWAGE SAWAGE SAWAGE！！",
     },
     {
         id: 141,
@@ -1545,10 +1829,12 @@ export const songs = [
         titleKana: "いまだ!!",
         lyricist: "松井五郎",
         composer: "馬飼野康二",
+        arranger: "佐々木博史",
         album: ["証拠","証拠[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "頑張りすぎて\nくたびれちゃったり\n心は元気かい？\nどうだい？　Boys & Girls\n\nダメな日もある\n諦めちゃったり\nそれで終わりかい？\nどうだい？　One more Chance\n\nあっちこっち動いてGo\nなんだかんだ試してこう\n後ろ向きじゃ　夢だって　逃げちゃうよ\nさぁ　やっちゃいな\n\n行くぞ　絶対のHopで\n行くぞ　永遠のStepで\n行くぞ　完璧Jumpで\n君はここじゃ終わらない\n\nやるぞ　太陽はHeartだ\nやるぞ　友情はYellだ\nやるぞ　青春はDanceだ\nそれが君の答えさ　いまだ！！\n\nひとりじゃ無理な\n坂道だったら\n肩を貸そうか？\nそうさ　You're my friend\n\n弱点なんて\n誰でもあるさ\nそれでもいいじゃん？\nそうさ　Only One\n\nじっとなんかしてちゃNo\nあーだこーだ叫んじゃおう\nひとつひとつ　未来を　積み上げよう\nさぁ　やっちゃいな\n\n行くぞ　絶対のRhythmで\n行くぞ　永遠のBeatで\n行くぞ　完璧Harmony\n僕らいつも一緒さ\n\nやるぞ　太陽はSignだ\nやるぞ　友情はPowerだ\nやるぞ　青春はChallenge\nそれがきっと答えさ　いまだ！！\n\n難問だって向かってGo\n冒険だってしちゃってこう\nしたいことが　まだまだ　あるはずさ\nさぁ　やっちゃいな\n\n行くぞ　絶対のHopで\n行くぞ　永遠のStepで\n行くぞ　完璧Jumpで\n君はここじゃ終わらない\n\nやるぞ　太陽はHeartだ\nやるぞ　友情はYellだ\nやるぞ　青春はDanceだ\nそれが君の答えさ　いまだ！！\nいまだ！！",
     },
     {
         id: 142,
@@ -1556,10 +1842,12 @@ export const songs = [
         titleKana: "はんぶんこ",
         lyricist: "ジャニーズWEST・MiNE",
         composer: "川口進・MiNE・Atsushi Shimada",
+        arranger: "ha-j",
         album: ["証拠","証拠[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2020-06-24"
+        date: "2020-06-24",
+        lyrics: "上手く笑えない今日の涙は僕と“はんぶんこ”\n一人の思い出　二人にしよう　何倍も笑えるね\n\n雨がポツリこんな日にでさえ (Anytime)\n同じ傘2人で“はんぶんこ” (Oh Oh)\n「濡れるって！」笑顔で押し合って　同じ未来(みち)歩こう\n\nきっと孤独や不安は　1人じゃ抱えきれないから\nそのはんぶんは　僕が持つよ\nほら空いたその手で　手を繋ごう\n\n涙は越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n君とここで生きてる奇跡は偶然じゃない　美しい光\n全てを“はんぶんこ”にして歩いて行こう\n\n退屈な毎日にも　何処かに咲いている愛\n“はんぶんこ”ずつ持ち寄ってさ\n合わせ大きな愛にしよう\n\n涙ホロリそんな時だって (Anytime)\n僕も泣くから“はんぶんこ” (Oh Oh)\n「なんで泣くの！」って君が笑う　また笑顔重なり合う\n\nきっと涙や弱さは　強さ　優しさ　笑顔に変わる\n君は一人じゃないよずっと\n僕らのはんぶんは君だからさ\n\n涙は越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n君とここで生きてる奇跡は偶然じゃない　美しい光\n全てを“はんぶんこ”にして歩いて行こう\n\n幸せのカケラ　拾い集めて\n誰かに分けられる人になろう\n明るい未来　ともに作っていこう\n大丈夫、明日は来る\n\n僕と越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n僕も君も生きている\n僕ら共に生きてゆく　負けない光\n“はんぶんこ”半歩と半歩　僕と君で\n\nありふれた日常だって　ありのままの僕ら待ってるよ\nOh Oh…Fu Fu…\nともに進もう　ずっと",
     },
     {
         id: 143,
@@ -1567,10 +1855,12 @@ export const songs = [
         titleKana: "しゅうかんうまくいくようび",
         lyricist: "山口隆(サンボマスター)",
         composer: "山口隆(サンボマスター)",
+        arranger: "ha-j",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[初回A]","週刊うまくいく曜日[初回B]","週刊うまくいく曜日[通常盤]","rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "上手く笑えない今日の涙は僕と“はんぶんこ”\n一人の思い出　二人にしよう　何倍も笑えるね\n\n雨がポツリこんな日にでさえ (Anytime)\n同じ傘2人で“はんぶんこ” (Oh Oh)\n「濡れるって！」笑顔で押し合って　同じ未来(みち)歩こう\n\nきっと孤独や不安は　1人じゃ抱えきれないから\nそのはんぶんは　僕が持つよ\nほら空いたその手で　手を繋ごう\n\n涙は越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n君とここで生きてる奇跡は偶然じゃない　美しい光\n全てを“はんぶんこ”にして歩いて行こう\n\n退屈な毎日にも　何処かに咲いている愛\n“はんぶんこ”ずつ持ち寄ってさ\n合わせ大きな愛にしよう\n\n涙ホロリそんな時だって (Anytime)\n僕も泣くから“はんぶんこ” (Oh Oh)\n「なんで泣くの！」って君が笑う　また笑顔重なり合う\n\nきっと涙や弱さは　強さ　優しさ　笑顔に変わる\n君は一人じゃないよずっと\n僕らのはんぶんは君だからさ\n\n涙は越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n君とここで生きてる奇跡は偶然じゃない　美しい光\n全てを“はんぶんこ”にして歩いて行こう\n\n幸せのカケラ　拾い集めて\n誰かに分けられる人になろう\n明るい未来　ともに作っていこう\n大丈夫、明日は来る\n\n僕と越えて行こう　笑顔は集めて行こうよ\n君が笑えば僕は嬉しすぎて泣きそう\nずっと味方でいるよ\n僕も君も生きている\n僕ら共に生きてゆく　負けない光\n“はんぶんこ”半歩と半歩　僕と君で\n\nありふれた日常だって　ありのままの僕ら待ってるよ\nOh Oh…Fu Fu…\nともに進もう　ずっと",
     },
     {
         id: 144,
@@ -1578,10 +1868,12 @@ export const songs = [
         titleKana: "かめれおん",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "澄ました顔しているカメレオンは嫌いだ\nそんなに変わり身が早いなんてずるいや\n一人変わってみたって同じ顔ぶれ\n教えてあげたところで気付けぬ遠吠え\n\nもう　幸せ探しに疲れたからって\n誰かを指差す権利なんてないだろう\n今朝　鏡に閉じ込めたエゴは\n玄関あければそっとまた顔を出した\n\n世間は　光しか見ないふりして　誤魔化して\nでもね　汚れた涙も痛みも\n私のものだから\n\n誰かのように生きろと言われても\n息ができない　できない\nため息で曇った鏡なんて\n本当の姿(ジブン)映せない\n\nただ泣くのを我慢してばかりじゃ\n涙枯れちゃう　枯れちゃう\n広げすぎた傷口隠しても\n痛みなど消えやしない\n見せかけじゃもう　生きてけないや\n\nやれ　これみよがし　あいつよりはマシ\n口にしたとこで　自己嫌悪の嵐\n自分には期待　なんてしない\n誰かに擬態　一体誰のスパイ\n\nカラフルに飾る時代に\nモノクロに語るアイロニー\n振りかざされた正義に\nユーモアなんてあるわけ無いさ\n\n世間は欠陥品と決めつけ　粗探しして\n私は　はぐれた心とカラダを\nつなぎとめたいだけなんだ…\n\n誰かのように生きろと言われても\n息ができない　できない\nため息で曇った鏡なんて\n本当の姿(ジブン)映せない\n\nただ泣くのを我慢してばかりじゃ\n涙枯れちゃう　枯れちゃう\n広げすぎた傷口隠しても\n痛みなど消えやしない\n見せかけじゃもう　生きてけないや\n\n君の声を聞かせて\n本当の色を教えて\nまだ見えない　真っ白な未来\n壊したい？\n守りたい？\n\n簡単にユメ語れと言われても\n覚悟できない　できない\nむやみに誰か傷つけてばかりじゃ\n居場所なんて見当たらない\n\nただ泣くのを我慢してばかりじゃ\n涙枯れちゃう　枯れちゃう\n広げすぎた傷口隠しても\n痛みなど消えやしない\n見せかけじゃもう　生きてけないや",
     },
     {
         id: 145,
@@ -1589,10 +1881,12 @@ export const songs = [
         titleKana: "4ねん7かげつ",
         lyricist: "家原正樹・Yu-ki Kokubo",
         composer: "家原正樹・Yu-ki Kokubo",
+        arranger: "家原正樹",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[初回A]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "波音にそっと耳を傾けたら\n寄り添う君の頬にキスをしよう\nオレンジ色に染まってく横顔\n重なり合った2つのシルエット\n\n夏の終わり迎えた　緊張のFirst date\n覚悟決めた　海岸沿いのバス停\n他の誰かじゃNo　君だけだよ\nYou're my everything\n\n忘れないよこの瞬間\nI wanna hold you tight　ずっと\n約束する　君を悲しませないと\nI promise for you\nどんな未来が来たって負けない\n鮮やかに彩り続けるDelight\n今の二人で　変わらぬ夢を描こう\n\nクリスマスなんて興味ないフリしてさ\n無邪気な笑顔　嘘が下手だね\n時計の針が明日へ向かうたび\n拗ねる仕草が　また愛しくて\n\n冬空の下　些細な事で喧嘩\n繋ぐ手を手ほどいて距離測った\nでも不思議なほど　物足りないよ\nYou're part of me\n\n忘れないよこの瞬間\nI wanna hold you tight　ずっと\n誰かを愛す意味を教えてくれる人\nI promise for you\n春夏秋冬　積み重ねていこう\n日ごとに増す　君と叶えたい空想\n今の二人で　大きな夢を描こう\n\nねぇ、君は今幸せかな？\nどんな顔しているの？\n4年7ヶ月　(桜舞う季節)\nサヨナラを告げる　(永遠をリセット)\nそれぞれの答えを　ゆびきりした未来へ\n歩き続けるから\n\n忘れないよあの瞬間\nI wanna hold you tight　ずっと\n刻まれた想い出と　また踏み出す一歩\nMy love is for you\nたった一つ　言える事はそう\n君と過ごした日々は宝物\n今の二人で　新たな夢を描こう\n\nWow oh Wow oh\nずっとずっと\nWow oh Wow oh\nYou're my everything",
     },
     {
         id: 146,
@@ -1600,10 +1894,12 @@ export const songs = [
         titleKana: "おいしごとっ！",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "CHOKKAKU",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "迷子のエゴばら撒く社会\nせかせかしてどーすんの\n働けど働けど\nアゴでGoGo　右往左往Boo\n\nケツKnock　ペンペン　資本主義\nやかましい世間　バナナうんち\n健康に生きていたいだけ\n速度超過時代　物申す\n\nOh！休みちょーだい！\n土日祝日連休ロンバケ無いないBAD！\nされどお仕事\n何様俺様お疲れ様\n\n適当こいて　へのカッパ\nいちにのさんしご自愛ください\nブーブーたれて　ごめんくっさい\n華麗にスカしてブー\n\n態度もエコで済ませてく\nイライラしてどーすんの\n合わせどマジ合わせど\n結局NoNo　右脳左脳Bomb\n\nハイワカリマシタスミマセン\n機械仕掛け3種の神器\n速攻で帰りたいだけ\n俺無課金限界　物欲す\n\nOh！情けちょーだい！\n贅沢散財出金Oh my God　貯金パー！\nされどお仕事\nお客様神様ご苦労様\n\n適当こいて　へのカッパ\nいちにのさんしご自愛ください\nブーブーたれて　ごめんくっさい\n華麗にスカしてプー\n\n頑張る時もありますけど\n頑張らない時もあります\n山ありゃ谷もあんだぜ\n疲労困憊バイバイ　いざララバイ\n\nOh！休みバンザイ！\n土日祝日連休ロンバケいないいないバー！\n目指すは大往生\n月火水木金ぶっ飛ばしてケンケンパー！\nお仕事おい仕事ッ！\n何様皆様お疲れ様\n\n適当こいて　へのカッパ\nいちにのさんしご自愛ください\nブーブーたれて　ごめんくっさい\n華麗にスカして\nチョチョイふんばって\n水に流してフ～",
     },
     {
         id: 147,
@@ -1611,10 +1907,12 @@ export const songs = [
         titleKana: "Candy Shop",
         lyricist: "Komei Kobayashi",
         composer: "Jimmy Claeson・川口進",
+        arranger: "Jimmy Claeson",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "Candy, Candy\nCandy, Candy\nCandy, Candy\nCandy, Candy\n\n笑顔や　態度で　また答えをはぐらかして\n二人の間に　曖昧な境界線\nI know　素直な\nMaybe　気持ちに\nLet's go　全てを任せてみない？\n言い訳さえいらない\n指先を重ねて Closer to me\n\nWoo　裏腹なセリフで\nまた心隠しても\n瞳は嘘つかない\nTonight　その寂しさを\n熱い体温で埋めてみたい\n\n連れてくよ Candy Shop\n唇に触れて Make it pop\n甘く溶けてく Candy Shop\n二人で朝まで Don't you stop, No, No\n誰も邪魔出来ないこの場所\n今すぐ Give it to me, Woo yeah\nこのまま身体を引き寄せて\nとろける Caramel\n\nこぼれた　本音も　酔いが回ったせいにして\nそろそろ　時計は　日付を跨ぐよ\nYou know　途切れた\nBaby　言葉が\nDon't stop　二人の距離埋めたら\n後戻りは出来ない\nただ求め合うまま We can be free\n\nWoo　揺れ動く理性が\n僕たちを咎めても\n二人は止められない\nAlright　この恋しさは\n夜が明けても消えはしない\n\n連れ去るよ Candy Shop\nこの夜を越えて Make it hot\n肌を重ねたら Candy Shop\n全てを忘れて To the top, No, No\n誰も見たことない眼差し\n激しく Shake it for me, Woo yeah\n隠した孤独も受け止めて\n絡まる Chocolate\n\nDon't you go, すぐそばで\nDon't you go, 君を感じてたい\n止まれない　止まらない　熱いFeeling\nまだまだ　終わらない　こんなWeekend\n君の甘い香りが Drive me crazy\n\n連れてくよ Candy Shop\n唇に触れて Make it pop\n甘く溶けてく Candy Shop\n二人で朝まで Don't you stop, No, No\n誰も邪魔出来ないこの場所\n今すぐ Give it to me, Woo yeah\nこのまま身体を引き寄せて\nとろける Caramel\n\nCandy, Candy, Candy, Candy Shop\nCandy, Candy, Candy, Candy Shop\nCandy, Candy, Candy, Candy Shop\nGive it to me, とろける Caramel\nCandy, Candy, Candy, Candy Shop\nCandy, Candy, Candy, Candy Shop\nCandy, Candy, Candy, Candy Shop\nGive it to me, 絡まる Chocolate",
     },
     {
         id: 148,
@@ -1622,10 +1920,12 @@ export const songs = [
         titleKana: "ぎんがけい",
         lyricist: "新羅慎二",
         composer: "新羅慎二",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "僕達の街の夜空には　煌びやかな星が瞬く\nそれぞれの形や輝きは違うけど　違うんだけど\n君が隣で輝いてるから僕は今日もまばたける\n暗い夜空にポツンと一つより天の川のように\n\nどよんとした厚い雲かかっても\n嵐や冷たい雨が降ってても\nその奥の奥の向こうには　星達が歌う銀河\n\n未来もみんな一人じゃない\n光続けろ名もなきSTARよ\n未来をみんなで照らそう\n何億光年の明日へSTART\n生まれた街を離れ　銀河のとある駅で\n夢を配る人に　会ったような気がした\n\n西から東へ夕日が　沈む時に涙を流す\nこれまでもずっと一緒にいた君を　思い出すんだ\n誰にも真似できない歴史　僕達の時代を作る\n帰り道　約束をした　夕日と肩組みながら\n\n幾千の夢を背負っているから\n泣くのは一人になった時だけさ\nまぶたの裏の奥の奥のもう一歩先に夢が\n\n夜の孤独な世界に\nサヨナラを告げ乗り込めSTARLIGHT\n何の為に生きてるか　星屑を集めながら\n\nSTARDUST\nSTARDUST\nSTARDUST\n\n永遠に続け　永遠へと続け\n友よ今声合わせ　星空へ想いを募らせ\n\n未来もみんな一人じゃない\n光続けろ名もなきSTARよ\n未来をみんなで照らそう\n何億光年の明日へSTART\n孤独なジョバンニが　カンパネラと出会った\n君と僕のように　銀河へと旅立った",
     },
     {
         id: 149,
@@ -1633,10 +1933,12 @@ export const songs = [
         titleKana: "Change your mind!",
         lyricist: "タナカヒロキ(LEGO BIG MORL)",
         composer: "阪井一生(flumpool)",
+        arranger: "生田真心",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "世界変えたくて　今歌っている\nそれは簡単なことじゃないけれど\nでも君の明日ならちょっと変えてみせるから\n\n「もしもの話、嫌いなの」なんて言う君は寂しげに\n「期待した方が辛いからさ」って少し笑ってた\n\n全部自分で背負い込んで　両手いっぱい抱え込んで\nいつしか張ってた予防線　なくしてみせるよ\nもうちょっと　そう、もうちょっと\n僕らを頼ってもいいからさ\n\nきっと変えていける　手を離さないで\n君を連れていく　もう決めたんだ\nいつか君が胸張って笑えるように\nずっと大声で歌っていれば　この世界も変えられるかな？\nでも今は君だけを変えてみせよう\nそうすれば明日からはきっと\n君の目に映る世界も少しずつ変わって見えるよ\n視界は晴れてゆく\nChange your mind！\n\n「時が経てば笑えるさ」なんて言う人も構わずに\n笑いたいのはこの「今」なんだって今を生きてきた\n\n頑張りすぎな君だけど　無理をしちゃう君だけど\n僕から君への処方せん　隣にいること\n今日だって　いつだって\n君は君でしかないんだから\n\nもっと楽にして　力を抜いて\n君の人生さ　楽しまないと\n思い描く未来に僕もいていいかな？\nずっとなんてない　わかってるけど\n離れたくない　時間よ止まれ\nでも世界は回ってるんだ　夜が明ける\n太陽は街を照らしていった\nまるで知らない場所に見えるだろう？　世界は変わるよ\n全ては自分次第\nChange the world！\n\n何回でも間違ったっていいさ\n何回でも転んでもいいさ\nその時点で何かが変わり始めてるんだ\n間違いすら楽しんでこう　転んでも笑い合おう\nその為に僕がいる\n\nそっと風が吹く　君の髪が揺れ\n何かが始まる合図みたいだ\n大丈夫だって　側にいるって\n今踏み出そう\n\nきっと\n\nきっと変えていける　手を離さないで\n君を連れていく　もう決めたんだ\nいつか君が胸張って笑えるように\nずっと大声で歌っていれば　この世界も変えられるかな？\nでも今は君だけを変えてみせよう\nそうすれば明日からはきっと\n君の目に映る世界も少しずつ変わって見えるよ\n視界は晴れてゆく\nChange your mind！",
     },
     {
         id: 150,
@@ -1644,10 +1946,12 @@ export const songs = [
         titleKana: "WA! WA! わんだふる!!",
         lyricist: "市川喜康・マツコタツロウ・ha-j",
         composer: "市川喜康・マツコタツロウ・ha-j",
+        arranger: "市川喜康・マツコタツロウ・ha-j",
         album: ["週刊うまくいく曜日","週刊うまくいく曜日[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-01-13"
+        date: "2021-01-13",
+        lyrics: "何も聞かないまま\nそばにいて微笑んでるだけで\n飾らぬ優しさに\nまたも救われた\n\n“愛してる”なんてコトバを\n言える柄じゃないし\n“ありがとう”の想いを込めて…\nおひとつどうかな？\n\nドーナツのWA！(WA！)\nワンダフルな愛のRing\n笑顔WA！(WA！)\n翼にもなる\n心にWA！(WA！)\n君のぬくもり\n次の空へ　飛び立とう\nひとりじゃない\nそれだけで　ワンダフル！！\n\n当たり前のように\n振り向くと君が手をつなぐ\n守られているのは\nたぶん僕のほう\n\n駆け出せば　どんなときにも\n向かい風が吹く\n飛ばされてしまわぬように\n一緒に進もう\n\nドーナツのWA！(WA！)\nワンダフルな愛のRing\nあしたWA！(WA！)\nきっと晴れるさ\n背中にWA！(WA！)\n連ねたMemories\nどんな逆境も超えてゆけ\nこの世界は\n僕らのためにある\n\nドーナツのWA！(WA！)\nワンダフルな愛のRing\n笑顔WA！(WA！)\n翼にもなる\n心にWA！(WA！)\n君のぬくもり\n次の空へ　飛び立とう\n\nドーナツのWA！(WA！)\nワンダフルな愛のRing\nあしたWA！(WA！)\nきっと晴れるさ\n背中にWA！(WA！)\n連ねたMemories\nどんな逆境も超えてゆけ\n\nこの世界は\n僕らのためにある\n\nひとりじゃない\nそれだけで　ワンダフル！！",
     },
     {
         id: 151,
@@ -1655,10 +1959,12 @@ export const songs = [
         titleKana: "はるじゃなくても",
         lyricist: "柳沢亮太(SUPER BEAVER)",
         composer: "柳沢亮太(SUPER BEAVER)",
+        arranger: "柳沢亮太(SUPER BEAVER)",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 152,
@@ -1666,10 +1972,12 @@ export const songs = [
         titleKana: "PUSH",
         lyricist: "JUN・Joshua Leung・D&H",
         composer: "Tommy Clint・川口 進・Atsushi Shimada",
+        arranger: "Atsushi Shimada・Mitsunori Ikeda(Tachytelic Inc.)",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 153,
@@ -1677,10 +1985,12 @@ export const songs = [
         titleKana: "おもい、ふわり",
         lyricist: "山崎あおい",
         composer: "川口進・草川瞬・坂室賢一",
+        arranger: "生田真心",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 154,
@@ -1688,10 +1998,12 @@ export const songs = [
         titleKana: "Shadows",
         lyricist: "Kanata Okajima",
         composer: "P3AK・Adrian Mckinnon",
+        arranger: "P3AK",
         album: ["rainboW","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 155,
@@ -1699,10 +2011,12 @@ export const songs = [
         titleKana: "ぐっ!!とあふたぬ～ん",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "ha-j・神山智洋",
         album: ["rainboW","rainboW[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 156,
@@ -1710,10 +2024,12 @@ export const songs = [
         titleKana: "TRICKSTER",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 157,
@@ -1721,10 +2037,12 @@ export const songs = [
         titleKana: "DOKODA",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
+        arranger: "MUTEKI DEAD SNAKE",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]","AWARD","AWARD[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 158,
@@ -1732,10 +2050,12 @@ export const songs = [
         titleKana: "We Can!!",
         lyricist: "Komei Kobayashi",
         composer: "MiNE・Atsushi Shimada・坂室賢一",
+        arranger: "CHOKKAKU",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 159,
@@ -1743,10 +2063,12 @@ export const songs = [
         titleKana: "Paradise",
         lyricist: "milet",
         composer: "Andreas Oberg・Adrian McKinnon・Christoffer Semelius",
+        arranger: "Christoffer Semelius・Andreas Oberg",
         album: ["rainboW","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 160,
@@ -1754,10 +2076,12 @@ export const songs = [
         titleKana: "Rainbow Chaser",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["rainboW","rainboW[初回A]","rainboW[初回B]","rainboW[通常盤]","rainboW[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 161,
@@ -1765,10 +2089,12 @@ export const songs = [
         titleKana: "Big Dipper",
         lyricist: "D&H",
         composer: "Jan Baars・Rajan Muse・Ronnie Icon",
+        arranger: "Jan Baars・Rajan Muse・Ronnie Icon",
         album: ["rainboW","rainboW[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 162,
@@ -1776,10 +2102,12 @@ export const songs = [
         titleKana: "かくしんろんり",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE",
+        arranger: "鈴木雅也",
         album: ["rainboW","rainboW[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 163,
@@ -1787,10 +2115,12 @@ export const songs = [
         titleKana: "さらりーまんのとうさん",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "CHOKKAKU",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "重岡大毅",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 164,
@@ -1798,10 +2128,12 @@ export const songs = [
         titleKana: "かなさんどー",
         lyricist: "桐山照史",
         composer: "桐山照史",
+        arranger: "生田真心",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "桐山照史",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 165,
@@ -1809,10 +2141,12 @@ export const songs = [
         titleKana: "Pinocchio",
         lyricist: "中間淳太",
         composer: "GRP",
+        arranger: "GRP",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "中間淳太",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 166,
@@ -1820,10 +2154,12 @@ export const songs = [
         titleKana: "KNOCK OUT",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "KNOCK OUT MONKEY",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "神山智洋",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 167,
@@ -1831,10 +2167,12 @@ export const songs = [
         titleKana: "FLOWER OF ROMANCE",
         lyricist: "REO・GOMESS",
         composer: "LEO",
+        arranger: "ALI",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "藤井流星",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 168,
@@ -1842,10 +2180,12 @@ export const songs = [
         titleKana: "やさしいひと",
         lyricist: "Blue Vintage",
         composer: "Blue Vintage・前田佑",
+        arranger: "前田佑",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "濵田崇裕",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 169,
@@ -1853,10 +2193,12 @@ export const songs = [
         titleKana: "BUSY",
         lyricist: "KOMU",
         composer: "KOMU・YU",
+        arranger: "YU",
         album: ["rainboW","rainboW[初回B]"],
         announce: "t",
         singer: "小瀧望",
-        date: "2021-03-17"
+        date: "2021-03-17",
+        lyrics: "",
     },
     {
         id: 170,
@@ -1864,10 +2206,12 @@ export const songs = [
         titleKana: "さむしんぐ・にゅー",
         lyricist: "あいみょん",
         composer: "あいみょん",
+        arranger: "ha-j",
         album: ["サムシング・ニュー","サムシング・ニュー[初回A]","サムシング・ニュー[初回B]","サムシング・ニュー[通常盤]","Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 171,
@@ -1875,10 +2219,12 @@ export const songs = [
         titleKana: "ぼくらのりゆう",
         lyricist: "柳沢亮太(SUPER BEAVER)",
         composer: "柳沢亮太(SUPER BEAVER)",
+        arranger: "柳沢亮太(SUPER BEAVER)",
         album: ["サムシング・ニュー","サムシング・ニュー[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 172,
@@ -1886,10 +2232,12 @@ export const songs = [
         titleKana: "#Followme",
         lyricist: "D&H",
         composer: "Joshua Leung・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "AKIRA・Joshua Leung・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
         album: ["サムシング・ニュー","サムシング・ニュー[初回A]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 173,
@@ -1897,10 +2245,12 @@ export const songs = [
         titleKana: "Don't Stop Loving",
         lyricist: "Kanata Okajima",
         composer: "Josef Melin",
+        arranger: "Josef Melin・久保田真悟(Jazzin'park)",
         album: ["サムシング・ニュー","サムシング・ニュー[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 174,
@@ -1908,10 +2258,12 @@ export const songs = [
         titleKana: "きみのためにうたわせて",
         lyricist: "ONIGASHIMA",
         composer: "Peter Nord・川口進",
+        arranger: "Peter Nord",
         album: ["サムシング・ニュー","サムシング・ニュー[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 175,
@@ -1919,10 +2271,12 @@ export const songs = [
         titleKana: "むーんらいと",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "ha-j",
         album: ["サムシング・ニュー","サムシング・ニュー[通常盤]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 176,
@@ -1930,10 +2284,12 @@ export const songs = [
         titleKana: "Tomorrow",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "akkin",
         album: ["サムシング・ニュー","サムシング・ニュー[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 177,
@@ -1941,10 +2297,12 @@ export const songs = [
         titleKana: "Automatic",
         lyricist: "JUN",
         composer: "Andy Love・dBoi!",
+        arranger: "dBoi!",
         album: ["サムシング・ニュー","サムシング・ニュー[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-05-05"
+        date: "2021-05-05",
+        lyrics: "",
     },
     {
         id: 178,
@@ -1952,10 +2310,12 @@ export const songs = [
         titleKana: "でっかいあい",
         lyricist: "岩越涼大・村野直球・栗原暁(Jazzin'park)",
         composer: "岩越涼大",
+        arranger: "ha-j",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回A]","でっかい愛/喜努愛楽[初回B]","でっかい愛/喜努愛楽[通常盤]","Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 179,
@@ -1963,10 +2323,12 @@ export const songs = [
         titleKana: "きどあいらく",
         lyricist: "吸血亭賛美",
         composer: "偉町大介",
+        arranger: "MUTEKI DEAD SNAKE",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回A]","でっかい愛/喜努愛楽[初回B]","でっかい愛/喜努愛楽[通常盤]","Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 180,
@@ -1974,10 +2336,12 @@ export const songs = [
         titleKana: "まよなかのLION",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 181,
@@ -1985,10 +2349,12 @@ export const songs = [
         titleKana: "みんながいる",
         lyricist: "田尻知之(note native)・本澤尚之",
         composer: "田尻知之(note native)・本澤尚之",
+        arranger: "田尻知之(note native)・本澤尚之",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 182,
@@ -1996,10 +2362,12 @@ export const songs = [
         titleKana: "ばにらかちょこ",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 183,
@@ -2007,10 +2375,12 @@ export const songs = [
         titleKana: "Calling",
         lyricist: "草川瞬",
         composer: "川口進・草川瞬",
+        arranger: "山下洋介",
         album: ["でっかい愛/喜努愛楽","でっかい愛/喜努愛楽[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2021-07-28"
+        date: "2021-07-28",
+        lyrics: "",
     },
     {
         id: 184,
@@ -2018,10 +2388,12 @@ export const songs = [
         titleKana: "れいめい",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回A]","黎明/進むしかねぇ[初回B]","黎明/進むしかねぇ[通常盤]","Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 185,
@@ -2029,10 +2401,12 @@ export const songs = [
         titleKana: "すすむしかねぇ",
         lyricist: "田尻知之(note native)・本澤尚之",
         composer: "田尻知之(note native)・本澤尚之",
+        arranger: "田尻知之(note native)・本澤尚之",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回A]","黎明/進むしかねぇ[初回B]","黎明/進むしかねぇ[通常盤]","Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 186,
@@ -2040,10 +2414,12 @@ export const songs = [
         titleKana: "Cherry on top",
         lyricist: "D&H",
         composer: "Jakob Mihoubi・Rudi Daouk・Isaac Han・Aaron Kim・GHOSTCHILD LTD",
+        arranger: "Isaac Han・GHOSTCHILD LTD・Aaron Kim",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 187,
@@ -2051,10 +2427,12 @@ export const songs = [
         titleKana: "おれとおまえとときどきちぇいさー",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[初回B]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 188,
@@ -2062,10 +2440,12 @@ export const songs = [
         titleKana: "ぶーけ",
         lyricist: "NakamuraEmi",
         composer: "NakamuraEmi",
+        arranger: "Hiroshi Kawamura",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 189,
@@ -2073,10 +2453,12 @@ export const songs = [
         titleKana: "ほほえもひとつさかせましょう",
         lyricist: "MORISHIN",
         composer: "川口進・MORISHIN",
+        arranger: "ha-j・川口進",
         album: ["黎明/進むしかねぇ","黎明/進むしかねぇ[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-01-19"
+        date: "2022-01-19",
+        lyrics: "",
     },
     {
         id: 190,
@@ -2084,10 +2466,12 @@ export const songs = [
         titleKana: "Mixed Juice",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 191,
@@ -2095,10 +2479,12 @@ export const songs = [
         titleKana: "しらんけど",
         lyricist: "庄田ゲゲゲ・corin.",
         composer: "庄田ゲゲゲ・corin.",
+        arranger: "庄田ゲゲゲ・corin.",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 192,
@@ -2106,10 +2492,12 @@ export const songs = [
         titleKana: "るいせん",
         lyricist: "橋口洋平(wacci)",
         composer: "橋口洋平(wacci)",
+        arranger: "村中慧慈(wacci)・因幡始(wacci)",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 193,
@@ -2117,10 +2505,12 @@ export const songs = [
         titleKana: "Contrails",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "akkin・神山智洋",
         album: ["Mixed Juice","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 194,
@@ -2128,10 +2518,12 @@ export const songs = [
         titleKana: "Anything Goes",
         lyricist: "KOMU",
         composer: "KOMU・YU",
+        arranger: "YU",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 195,
@@ -2139,10 +2531,12 @@ export const songs = [
         titleKana: "Born To Be Wild",
         lyricist: "MiNE・Atsushi Shimada",
         composer: "Xisco・坂室賢一・Tommy Clint",
+        arranger: "Xisco",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 196,
@@ -2150,10 +2544,12 @@ export const songs = [
         titleKana: "ぶるーむーん",
         lyricist: "eill",
         composer: "eill・Ryo 'LEFTY' Miyata",
+        arranger: "Ryo 'LEFTY' Miyata・eill・nabeLTD・Katsushiro Sato",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 197,
@@ -2161,10 +2557,12 @@ export const songs = [
         titleKana: "じゃあね",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["Mixed Juice","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 198,
@@ -2172,10 +2570,12 @@ export const songs = [
         titleKana: "つばさ",
         lyricist: "柳沢亮太(SUPER BEAVER)",
         composer: "柳沢亮太(SUPER BEAVER)",
+        arranger: "柳沢亮太(SUPER BEAVER)",
         album: ["Mixed Juice","Mixed Juice[初回A]","Mixed Juice[初回B]","Mixed Juice[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 199,
@@ -2183,10 +2583,12 @@ export const songs = [
         titleKana: "せらゔぃ",
         lyricist: "キタニタツヤ",
         composer: "キタニタツヤ",
+        arranger: "Nobuaki Tanaka・キタニタツヤ",
         album: ["Mixed Juice","Mixed Juice[初回A]","AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 200,
@@ -2194,10 +2596,12 @@ export const songs = [
         titleKana: "どりょくしょう",
         lyricist: "syudou",
         composer: "syudou",
+        arranger: "syudou",
         album: ["Mixed Juice","Mixed Juice[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 201,
@@ -2205,10 +2609,12 @@ export const songs = [
         titleKana: "Plan B",
         lyricist: "PURPLE NIGHT・Yohei",
         composer: "PURPLE NIGHT・Yohei",
+        arranger: "PURPLE NIGHT・Yohei",
         album: ["Mixed Juice","Mixed Juice[初回B]"],
         announce: "t",
         singer: "中間淳太＆神山智洋＆藤井流星＆小瀧望",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 202,
@@ -2216,10 +2622,12 @@ export const songs = [
         titleKana: "じょうねつ",
         lyricist: "上中丈弥(THEイナズマ戦隊)",
         composer: "久保裕行(THEイナズマ戦隊)",
+        arranger: "久保裕行(THEイナズマ戦隊)・名村武",
         album: ["Mixed Juice","Mixed Juice[初回B]"],
         announce: "t",
         singer: "重岡大毅＆桐山照史＆濵田崇裕",
-        date: "2022-03-09"
+        date: "2022-03-09",
+        lyrics: "",
     },
     {
         id: 203,
@@ -2227,10 +2635,12 @@ export const songs = [
         titleKana: "ほしのあめ",
         lyricist: "敬也-amazuti-(KEYTONE)",
         composer: "敬也-amazuti-(KEYTONE)",
+        arranger: "生田真心",
         album: ["星の雨","星の雨[初回A]","星の雨[初回B]","星の雨[通常盤]","星の雨[通販盤]","POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 204,
@@ -2238,10 +2648,12 @@ export const songs = [
         titleKana: "SOUL 2 SOUL",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["星の雨","星の雨[初回A]","星の雨[初回B]","星の雨[通常盤]","星の雨[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 205,
@@ -2249,10 +2661,12 @@ export const songs = [
         titleKana: "あいじょうしじょうしゅぎ",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "ha-j",
         album: ["星の雨","星の雨[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 206,
@@ -2260,10 +2674,12 @@ export const songs = [
         titleKana: "Crazy about you",
         lyricist: "草川瞬",
         composer: "Albin Nordqvist・Marcus Lindberg・草川瞬",
+        arranger: "Marcus Lindberg",
         album: ["星の雨","星の雨[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 207,
@@ -2271,10 +2687,12 @@ export const songs = [
         titleKana: "いきてやれ",
         lyricist: "岩越涼大",
         composer: "岩越涼大",
+        arranger: "NAOKI-T",
         album: ["星の雨","星の雨[通常盤]","星の雨[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 208,
@@ -2282,10 +2700,12 @@ export const songs = [
         titleKana: "さまーれいん",
         lyricist: "山崎あおい",
         composer: "川口進・MiNE・Atsushi Shimada",
+        arranger: "井上薫",
         album: ["星の雨","星の雨[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 209,
@@ -2293,10 +2713,12 @@ export const songs = [
         titleKana: "Summer Memories",
         lyricist: "山下洋介",
         composer: "山下洋介",
+        arranger: "山下洋介",
         album: ["星の雨","星の雨[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2022-08-03"
+        date: "2022-08-03",
+        lyrics: "",
     },
     {
         id: 210,
@@ -2304,10 +2726,12 @@ export const songs = [
         titleKana: "POWER",
         lyricist: "中村瑛彦・栗原暁(Jazzin'park)",
         composer: "中村瑛彦・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)・中村瑛彦",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 211,
@@ -2315,10 +2739,12 @@ export const songs = [
         titleKana: "WEST NIGHT",
         lyricist: "こやまたくや(ヤバイTシャツ屋さん)",
         composer: "こやまたくや(ヤバイTシャツ屋さん)",
+        arranger: "ha-j",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 212,
@@ -2326,10 +2752,12 @@ export const songs = [
         titleKana: "Rewind It Back",
         lyricist: "PURPLE NIGHT",
         composer: "PURPLE NIGHT",
+        arranger: "PURPLE NIGHT",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 213,
@@ -2337,10 +2765,12 @@ export const songs = [
         titleKana: "ひざぎんざ",
         lyricist: "ミヤケ武器",
         composer: "ミヤケ武器",
+        arranger: "ミヤケ武器",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 214,
@@ -2348,10 +2778,12 @@ export const songs = [
         titleKana: "こいにて",
         lyricist: "ARAKI",
         composer: "ARAKI",
+        arranger: "ARAKI",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 215,
@@ -2359,10 +2791,12 @@ export const songs = [
         titleKana: "Share The Time",
         lyricist: "Yu-ki Kokubo",
         composer: "Yu-ki Kokubo・Eunsol(1008)・SUNHEE",
+        arranger: "Eunsol(1008)・ Gou Ishikuro",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 216,
@@ -2370,10 +2804,12 @@ export const songs = [
         titleKana: "Mood",
         lyricist: "D&H(PURPLE NIGHT)",
         composer: "Adam Alexander Sjostrand・Tobias Naslund・Maria Marcus",
+        arranger: "Tobias Naslund・前田佑",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 217,
@@ -2381,10 +2817,12 @@ export const songs = [
         titleKana: "We're the one",
         lyricist: "川口進・坂室賢一",
         composer: "川口進・坂室賢一",
+        arranger: "井上薫",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 218,
@@ -2392,10 +2830,12 @@ export const songs = [
         titleKana: "むちゃくちゃなふぉーむ",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 219,
@@ -2403,10 +2843,12 @@ export const songs = [
         titleKana: "わすれないでいてね",
         lyricist: "大橋ちっぽけ",
         composer: "大橋ちっぽけ",
+        arranger: "岩崎隆一",
         album: ["POWER","POWER[初回A]","POWER[初回B]","POWER[通常盤]","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 220,
@@ -2414,10 +2856,12 @@ export const songs = [
         titleKana: "あんのうん",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["POWER","POWER[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 221,
@@ -2425,10 +2869,12 @@ export const songs = [
         titleKana: "Guilty",
         lyricist: "渡辺拓也",
         composer: "渡辺拓也",
+        arranger: "渡辺拓也",
         album: ["POWER","POWER[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 222,
@@ -2436,10 +2882,12 @@ export const songs = [
         titleKana: "にてないふたり",
         lyricist: "吉田崇展",
         composer: "ズーカラデル",
+        arranger: "ズーカラデル",
         album: ["POWER","POWER[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 223,
@@ -2447,10 +2895,12 @@ export const songs = [
         titleKana: "まっすぐ",
         lyricist: "ティーナ•カリーナ",
         composer: "松本良喜",
+        arranger: "松本良喜",
         album: ["POWER","POWER[初回B]"],
         announce: "t",
         singer: "桐山照史＆神山智洋",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 224,
@@ -2458,10 +2908,12 @@ export const songs = [
         titleKana: "ぼくらしく",
         lyricist: "竹原ピストル",
         composer: "竹原ピストル",
+        arranger: "河野圭",
         album: ["POWER","POWER[初回B]"],
         announce: "t",
         singer: "重岡大毅＆藤井流星",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 225,
@@ -2469,10 +2921,12 @@ export const songs = [
         titleKana: "えごといちず",
         lyricist: "Penthouse",
         composer: "Penthouse",
+        arranger: "TARO MIZOTE・須田悦弘(Relic Lyric inc.)",
         album: ["POWER","POWER[初回B]"],
         announce: "t",
         singer: "中間淳太＆濵田崇裕＆小瀧望",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 226,
@@ -2480,10 +2934,12 @@ export const songs = [
         titleKana: "Strike a blow",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "MUTEKI DEAD SNAKE",
         album: ["POWER","POWER[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 227,
@@ -2491,10 +2947,12 @@ export const songs = [
         titleKana: "Don't be afraid",
         lyricist: "MORISHIN",
         composer: "MORISHIN・REO",
+        arranger: "REO",
         album: ["POWER","POWER[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 228,
@@ -2502,10 +2960,12 @@ export const songs = [
         titleKana: "はるかなれ",
         lyricist: "岩越涼大",
         composer: "川口進・佐原康太・兼松衆",
+        arranger: "井上薫",
         album: ["POWER","POWER[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 229,
@@ -2513,10 +2973,12 @@ export const songs = [
         titleKana: "ちょうしっぱずれのぼくのうた",
         lyricist: "浅利進吾",
         composer: "浅利進吾",
+        arranger: "",
         album: ["POWER","POWER[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "井上薫",
     },
     {
         id: 230,
@@ -2524,10 +2986,12 @@ export const songs = [
         titleKana: "SOUL 2 SOUL〈Special Wind Orchestra Collab Ver.〉",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)・村田陽一",
         album: ["POWER","POWER[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-03-01"
+        date: "2023-03-01",
+        lyrics: "",
     },
     {
         id: 231,
@@ -2535,10 +2999,12 @@ export const songs = [
         titleKana: "しあわせのはな",
         lyricist: "山口隆(サンボマスター)",
         composer: "山口隆(サンボマスター)",
+        arranger: "ha-j",
         album: ["しあわせの花","しあわせの花[初回A]","しあわせの花[初回B]","しあわせの花[通常盤]","しあわせの花[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 232,
@@ -2546,10 +3012,12 @@ export const songs = [
         titleKana: "ぱろでぃ",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["しあわせの花","しあわせの花[初回A]","しあわせの花[初回B]","しあわせの花[通常盤]","しあわせの花[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 233,
@@ -2557,10 +3025,12 @@ export const songs = [
         titleKana: "こいはまけみとめなきゃかてない",
         lyricist: "ゆっきゅん",
         composer: "高橋諒",
+        arranger: "高橋諒",
         album: ["しあわせの花","しあわせの花[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 234,
@@ -2568,10 +3038,12 @@ export const songs = [
         titleKana: "On & On",
         lyricist: "栗原暁(Jazzin'park)・D&H(PURPLE NIGHT)",
         composer: "久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)・D&H(PURPLE NIGHT)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["しあわせの花","しあわせの花[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 235,
@@ -2579,10 +3051,12 @@ export const songs = [
         titleKana: "よわくても",
         lyricist: "岩越涼大",
         composer: "岩越涼大",
+        arranger: "生田真心",
         album: ["しあわせの花","しあわせの花[通常盤]","しあわせの花[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 236,
@@ -2590,10 +3064,12 @@ export const songs = [
         titleKana: "だいそれたろっくんろーる",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["しあわせの花","しあわせの花[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 237,
@@ -2601,10 +3077,12 @@ export const songs = [
         titleKana: "ぱいる",
         lyricist: "河原健介",
         composer: "河原健介",
+        arranger: "石塚知生　　　",
         album: ["しあわせの花","しあわせの花[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-06-07"
+        date: "2023-06-07",
+        lyrics: "",
     },
     {
         id: 238,
@@ -2612,21 +3090,25 @@ export const songs = [
         titleKana: "ぜったいぜつめい",
         lyricist: "杉山勝彦",
         composer: "杉山勝彦・佐々木”コジロー”貴之",
+        arranger: "佐々木”コジロー”貴之",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
-        id: 239,
+        id: 239,　　　　
         title: "Beautiful",
         titleKana: "Beautiful",
         lyricist: "栗原暁(Jazzin'park)",
         composer: "栗原暁(Jazzin'park)・前田佑",
+        arranger: "前田佑",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 240,
@@ -2634,10 +3116,12 @@ export const songs = [
         titleKana: "AS ONE",
         lyricist: "WaO",
         composer: "WaO",
+        arranger: "NAOKI-T",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 241,
@@ -2645,10 +3129,12 @@ export const songs = [
         titleKana: "ちょうきっとだいじょうぶ",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "ha-j",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 242,
@@ -2656,10 +3142,12 @@ export const songs = [
         titleKana: "POP&POP",
         lyricist: "meiyo",
         composer: "meiyo",
+        arranger: "平田洋一郎",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 243,
@@ -2667,10 +3155,13 @@ export const songs = [
         titleKana: "BOYFRIEND",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "井上薫",
+        translate: "D&H( PURPLE NIGHT)",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回C]"],
         announce: "f",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 244,
@@ -2678,10 +3169,12 @@ export const songs = [
         titleKana: "つかれちゃうや",
         lyricist: "Kanata Okajima",
         composer: "Kanata Okajima・ESME MORI",
+        arranger: "ESME MORI",
         album: ["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2023-10-25"
+        date: "2023-10-25",
+        lyrics: "",
     },
     {
         id: 245,
@@ -2689,10 +3182,12 @@ export const songs = [
         titleKana: "AWARD",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 246,
@@ -2700,10 +3195,12 @@ export const songs = [
         titleKana: "REWARD",
         lyricist: "TAKA 3",
         composer: "TAKA 3・芳賀政哉",
+        arranger: "芳賀政哉",
         album: ["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 247,
@@ -2711,10 +3208,12 @@ export const songs = [
         titleKana: "ふぁんたじすた",
         lyricist: "今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
         composer: "今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
         album: ["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 248,
@@ -2722,10 +3221,12 @@ export const songs = [
         titleKana: "FICTION",
         lyricist: "中村瑛彦・栗原暁(Jazzin'park)",
         composer: "中村瑛彦・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)・中村瑛彦",
         album: ["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 249,
@@ -2733,10 +3234,12 @@ export const songs = [
         titleKana: "あかさたなららら",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "生田真心",
         album: ["AWARD","AWARD[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 250,
@@ -2744,10 +3247,12 @@ export const songs = [
         titleKana: "あなたへ",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "久保田真悟(Jazzin'park)・神山智洋",
         album: ["AWARD","AWARD[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 251,
@@ -2755,10 +3260,12 @@ export const songs = [
         titleKana: "あじわい",
         lyricist: "橋口洋平(wacci)",
         composer: "橋口洋平(wacci)",
+        arranger: "因幡始(wacci)",
         album: ["AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 252,
@@ -2766,10 +3273,12 @@ export const songs = [
         titleKana: "We are WEST!!!!!!! (10th Anniversary Version)",
         lyricist: "神山智洋",
         composer: "神山智洋",
+        arranger: "ha-j・神山智洋",
         album: ["AWARD","AWARD[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-03-13"
+        date: "2024-03-13",
+        lyrics: "",
     },
     {
         id: 253,
@@ -2777,10 +3286,12 @@ export const songs = [
         titleKana: "はーと",
         lyricist: "柳沢亮太(SUPER BEAVER)",
         composer: "柳沢亮太(SUPER BEAVER)",
+        arranger: "ha-j・柳沢亮太(SUPER BEAVER)",
         album: ["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 254,
@@ -2788,10 +3299,12 @@ export const songs = [
         titleKana: "FATE",
         lyricist: "久保田真悟(Jazzin'park)・UTA・AKIRA・Yohei",
         composer: "久保田真悟(Jazzin'park)・UTA・AKIRA・Yohei",
+        arranger: "久保田真悟(Jazzin'park)・UTA",
         album: ["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 255,
@@ -2799,10 +3312,12 @@ export const songs = [
         titleKana: "ten",
         lyricist: "WEST.",
         composer: "重岡大毅・神山智洋",
+        arranger: "ha-j・神山智洋",
         album: ["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 256,
@@ -2810,10 +3325,12 @@ export const songs = [
         titleKana: "こんびにいくけどなんかいる？",
         lyricist: "ゆっきゅん",
         composer: "岩崎貴文",
+        arranger: "岩崎貴文",
         album: ["ハート / FATE","ハート / FATE[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 257,
@@ -2821,10 +3338,12 @@ export const songs = [
         titleKana: "くせになる",
         lyricist: "NakamuraEmi・カワムラヒロシ",
         composer: "NakamuraEmi・カワムラヒロシ",
+        arranger: "カワムラヒロシ",
         album: ["ハート / FATE","ハート / FATE[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 258,
@@ -2832,10 +3351,12 @@ export const songs = [
         titleKana: "てんくうえすかれーしょん",
         lyricist: "河田総一郎",
         composer: "河田総一郎・佐々木望",
+        arranger: "Soulife",
         album: ["ハート / FATE","ハート / FATE[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 259,
@@ -2843,10 +3364,12 @@ export const songs = [
         titleKana: "Closer",
         lyricist: "Shadow-words・篠原とまと",
         composer: "高橋諒",
+        arranger: "高橋諒",
         album: ["ハート / FATE","ハート / FATE[通販盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2024-04-24"
+        date: "2024-04-24",
+        lyrics: "",
     },
     {
         id: 260,
@@ -2854,10 +3377,12 @@ export const songs = [
         titleKana: "まぁいっか！",
         lyricist: "meiyo",
         composer: "meiyo",
+        arranger: "高橋諒",
         album: ["まぁいっか！","まぁいっか！[初回A]","まぁいっか！[初回B]","まぁいっか！[通常盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 261,
@@ -2865,10 +3390,12 @@ export const songs = [
         titleKana: "なりふり",
         lyricist: "Kanata Okajima・Hayato Yamamoto",
         composer: "Kanata Okajima・Hayato Yamamoto",
+        arranger: "Hayato Yamamoto",
         album: ["まぁいっか！","まぁいっか！[初回A]","まぁいっか！[初回B]","まぁいっか！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 262,
@@ -2876,10 +3403,12 @@ export const songs = [
         titleKana: "I like you!!",
         lyricist: "山崎あおい",
         composer: "白戸佑輔",
+        arranger: "白戸佑輔",
         album: ["まぁいっか！","まぁいっか！[初回A]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 263,
@@ -2887,10 +3416,12 @@ export const songs = [
         titleKana: "あきらめるしゅやくへ",
         lyricist: "コ太郎 from テンパーセントカーテン",
         composer: "コ太朗 from テンパーセントカーテン",
+        arranger: "佐々木”コジロー”貴之",
         album: ["まぁいっか！","まぁいっか！[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 264,
@@ -2898,10 +3429,12 @@ export const songs = [
         titleKana: "ごーるでんたいむ",
         lyricist: "ET-KING・NAOKI-T",
         composer: "ET-KING・NAOKI-T",
+        arranger: "NAOKI-T",
         album: ["まぁいっか！","まぁいっか！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 265,
@@ -2909,10 +3442,12 @@ export const songs = [
         titleKana: "Checkmate",
         lyricist: "長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",
         composer: "長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",
+        arranger: "小木岳司",
         album: ["まぁいっか！","まぁいっか！[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2024-09-10"
+        date: "2024-09-10",
+        lyrics: "",
     },
     {
         id: 266,
@@ -2920,10 +3455,12 @@ export const songs = [
         titleKana: "A.H.O",
         lyricist: "MUTEKI DEAD SNAKE",
         composer: "MUTEKI DEAD SNAKE・Hiroki Sagawa・児山啓介・鈴木まなか(Relic Lyric, inc.)",
+        arranger: "Hiroki Sagawa(Relic Lyric inc.)",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 267,
@@ -2931,10 +3468,12 @@ export const songs = [
         titleKana: "あっぷるぱい",
         lyricist: "篠原とまと",
         composer: "川口進・MiNE・佐原康太",
+        arranger: "佐原康太",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 268,
@@ -2942,10 +3481,12 @@ export const songs = [
         titleKana: "shhhhhhh!!",
         lyricist: "前田佑・栗原暁(Jazzin’park)",
         composer: "前田佑・栗原暁(Jazzin’park)",
+        arranger: "前田佑",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 269,
@@ -2953,10 +3494,12 @@ export const songs = [
         titleKana: "TICKTOK",
         lyricist: "TSINGTAO・Sorato・Dvii・Ryo Ito",
         composer: "TSINGTAO・Sorato・Dvii・Ryo Ito",
+        arranger: "Sorato",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 270,
@@ -2964,10 +3507,12 @@ export const songs = [
         titleKana: "Sweety",
         lyricist: "CONY・Sayaka Inoue",
         composer: "CONY・Sayaka Inoue",
+        arranger: "CONY",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 271,
@@ -2975,10 +3520,12 @@ export const songs = [
         titleKana: "Rainy Rhapsody",
         lyricist: "大原拓真(Penthouse)",
         composer: "浪岡真太郎(Penthouse)",
+        arranger: "久保田真悟(Jazzin'park)・浪岡真太郎(Penthouse)",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 272,
@@ -2986,10 +3533,12 @@ export const songs = [
         titleKana: "それいけべすとふれんど！",
         lyricist: "重岡大毅",
         composer: "重岡大毅",
+        arranger: "ha-j",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 273,
@@ -2997,10 +3546,13 @@ export const songs = [
         titleKana: "WESTraight",
         lyricist: "KOPERU・peko・コーラ・KBD・teppei・HATCH・KZ・KennyDoes",
         composer: "Cosaqu",
+        arranger: "Cosaqu",
+        produce: "梅田サイファー",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 274,
@@ -3008,10 +3560,12 @@ export const songs = [
         titleKana: "てぃだ",
         lyricist: "東里梨生",
         composer: "東里梨生",
+        arranger: "芳賀政哉",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 275,
@@ -3019,10 +3573,12 @@ export const songs = [
         titleKana: "SOUTH WEST BEACH!!",
         lyricist: "キヨサク",
         composer: "キヨサク",
+        arranger: "ha-j",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 276,
@@ -3030,10 +3586,13 @@ export const songs = [
         titleKana: "Go.",
         lyricist: "Soflan Daichi",
         composer: "鈴木盛広",
+        arranger: "鈴木盛広",
+        stringsarrange: "服部瑞樹",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]"],
         announce: "f",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 277,
@@ -3041,10 +3600,12 @@ export const songs = [
         titleKana: "このせんりつよ だれかのうたになれ",
         lyricist: "Kanata Okajima・栗原暁(Jazzin'park)",
         composer: "Kanata Okajima・久保田真悟(Jazzin’park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin’park)",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回B]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 278,
@@ -3052,10 +3613,12 @@ export const songs = [
         titleKana: "ぱわーすぽっとおれ",
         lyricist: "ミヤケ武器",
         composer: "ミヤケ武器",
+        arranger: "井上薫",
         album: ["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-03-12"
+        date: "2025-03-12",
+        lyrics: "",
     },
     {
         id: 279,
@@ -3063,10 +3626,12 @@ export const songs = [
         titleKana: "うぇっさいそうる！",
         lyricist: "トータス松本",
         composer: "トータス松本",
+        arranger: "ウルフルズ・菅原龍平",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     },
     {
         id: 280,
@@ -3074,10 +3639,12 @@ export const songs = [
         titleKana: "BIG LOVE SONG",
         lyricist: "AKIRA・栗原暁(Jazzin'park)",
         composer: "AKIRA・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",
+        arranger: "久保田真悟(Jazzin'park)",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     },
     {
         id: 281,
@@ -3085,10 +3652,12 @@ export const songs = [
         titleKana: "きみのきらいなきみ",
         lyricist: "ゆっきゅん",
         composer: "如月結愛",
+        arranger: "如月結愛",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]"],
         announce: "f",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     },
     {
         id: 282,
@@ -3096,10 +3665,12 @@ export const songs = [
         titleKana: "escape",
         lyricist: "Yohei",
         composer: "前田佑・Yohei",
+        arranger: "前田佑",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回B]"],
         announce: "f",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     },
     {
         id: 283,
@@ -3107,10 +3678,12 @@ export const songs = [
         titleKana: "はるびより",
         lyricist: "瀬奈",
         composer: "竹内聖",
+        arranger: "竹内聖",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
         announce: "t",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     },
     {
         id: 284,
@@ -3118,10 +3691,12 @@ export const songs = [
         titleKana: "ぼくだけのちいさなはな",
         lyricist: "篠原とまと",
         composer: "山田竜平",
+        arranger: "山田竜平",
         album: ["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],
         announce: "f",
         singer: "WEST.",
-        date: "2025-05-07"
+        date: "2025-05-07",
+        lyrics: "",
     }
       
 

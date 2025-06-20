@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { songs as allSongs } from "./data/songs";
 import "./App.css";
 
+import SongModal from "./SongModal.jsx";
+
 const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "披露", "ユニット"];
 
 
@@ -9,6 +11,8 @@ export default function App() {
   const [search, setSearch] = useState("");
   const [searchMode, setSearchMode] = useState("タイトル");
   const [sortOption, setSortOption] = useState("name_asc");
+  const [selectedSong, setSelectedSong] = useState(null); // 選択された楽曲の情報を保持
+  const [isModalOpen, setIsModalOpen] = useState(false); // モーダルが開いているかどうかの状態
 
   useEffect(() => {
     setSearch(""); // 検索方法変更でリセット
@@ -198,9 +202,6 @@ export default function App() {
       if (searchMode === "ユニット") {
         return search === "" || song.singer === search;
       }
-      
-      
-
       return true;
     })
 
@@ -235,6 +236,15 @@ export default function App() {
       return 0;
     });
     
+    const openModal = (song) => {
+      setSelectedSong(song);
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+      setSelectedSong(null);
+    }
     
   
 
@@ -310,7 +320,7 @@ export default function App() {
               <span>発売日</span>
             </div>
             {filteredSongs.map((song) => (
-              <div key={song.id} className="song-card">
+              <div key={song.id} className="song-card" onClick={() => openModal(song)}>
                 <span className="song-title">{song.title}</span>
                 <span>{song.lyricist}</span>
                 <span>{song.composer}</span>
@@ -320,6 +330,11 @@ export default function App() {
             ))}
           </div>
         </div>
+
+        {isModalOpen && selectedSong && (
+          <SongModal song={selectedSong} onClose={closeModal} />
+        )}
+
       </div>
     );
   
