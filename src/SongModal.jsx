@@ -29,9 +29,24 @@ const SongModal = ({ song, onClose }) => {
         {song.arranger && ( // 編曲者情報がある場合のみ表示
           <p><strong>編曲者:</strong> <span className="modal-item-value">{song.arranger}</span></p>
         )}
+        {song.brassarrange && ( // 編曲者情報がある場合のみ表示
+          <p><strong>ブラスアレンジ:</strong> <span className="modal-item-value">{song.brassarrange}</span></p>
+        )}
+        {song.produce && ( // 編曲者情報がある場合のみ表示
+          <p><strong>プロデュース:</strong> <span className="modal-item-value">{song.produce}</span></p>
+        )}
+        {song.stringsarrange && ( // 編曲者情報がある場合のみ表示
+          <p><strong>ストリングスアレンジ:</strong> <span className="modal-item-value">{song.stringsarrange}</span></p>
+        )}
+        {song.translate && ( // 編曲者情報がある場合のみ表示
+          <p><strong>英訳詞:</strong> <span className="modal-item-value">{song.translate}</span></p>
+        )}
 
         <p><strong>ユニット:</strong> <span className="modal-item-value">{song.singer || 'WEST.'}</span></p> {/* 追加 */}
         <p><strong>発売日:</strong> <span className="modal-item-value">{song.date}</span></p>      {/* 追加 */}
+        {song.tiup && ( // 編曲者情報がある場合のみ表示
+          <p><strong>タイアップ:</strong> <span className="modal-item-value">{song.tiup}</span></p>
+        )}
         <p><strong>収録シングル/アルバム:</strong></p>
         <ul>
           {filteredAlbums.map((album, index) => (
