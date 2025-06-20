@@ -1964,7 +1964,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "朝じゃなくても　決意をして\n春じゃなくても　また会いましょう\n\n好きなら好きと　言えますように\nズレてるなんて　誰が決めるんだろう\n明日のことは　わからないけど\nつまり未来は　可能性だらけ\n\n知らず知らず僕らは　学んできたのさ\n傷つかない手段も　ずる賢さも\nそれはそれで必要　わかってるけど\nなんかもっと単純に笑ってたいよな\n\nだから\n朝じゃなくても　決意をして\n春じゃなくても　また会いましょう\n嘘じゃないこと　大事にして\n僕はいつでも　ちゃんと僕でいよう\n\n知らず知らず僕らは　学んできたのさ\n建前とか　空気の読みかただとか\nそれはそれで必要　わかってるけど\nなんかもっと単純に笑ってたいよな\n\nだから\n朝じゃなくても　決意をして\n春じゃなくても　また会いましょう\n嘘じゃないこと　大事にして\n僕はいつでも　ちゃんと僕でいよう\n\n好きなら好きと　言えますように\nズレてるなんて　誰が決めるんだろう\n明日のことは　わからないけど\nつまり未来は　可能性だらけ\n\n僕はいつでも　ちゃんと僕でいよう",
     },
     {
         id: 152,
@@ -1977,7 +1977,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "Yeah, we goin' like\nPush it baby\nPush Push チュンビテッソ？\nPush it baby\nPush Push 来跟著我\nPush it baby\nPush Push Arigatou\nPush it baby\nPush Push and Push Push\nもっとちょうだいよ\n\n(Another round)\nあらやだ、こんな時間だ　帰らなきゃ\nそう言う君の目は止めてほしい\n(Another round)\nわかるよ、建前は守りましょう\nZoom Zoom ノル チゴッソ\n今夜はハジけよう\n\nLet's get this party started\n放鬆でいいんじゃない\nTonight is the night\n内に秘めてる君を見せてよ\nPush Push\nParty People Mode\n\nPush Push\nParty People Mode\nPush Push\nParty People Mode\n\n(Another round)\n押してもダメなら...って言うけれど\n君を前に　引く選択肢はない\n(Another round)\n口嘗過滋味　都無所謂　好好享受現在\nマショラ チュクチュク\nいつになくFeeling Goooooood!!!!!!!\n\nLet's get this party going\n音楽もイイじゃない\nTonight is the night\n忘れられないような\n最高な夜を\nPush Push\nParty People Mode\n\nPush Push\nParty People Mode\nPush Push\nParty People Mode\n\n近づく距離 Deep inside\n遠慮はいらない\n踊る Ladies　苦い Babies\nまだまだ足りない\n\nPush it baby\nPush Push チュンビテッソ？\nPush it baby\nPush Push 来跟著我\nPush it baby\nPush Push Arigatou\nPush it baby\nPush Push and Push Push\nPush Push\nParty People Mode\n\nPush Push\nParty People Mode\nPush Push\nParty People Mode\n\nPush Push\nParty People Mode",
     },
     {
         id: 153,
@@ -1990,7 +1990,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "ひらひらと　揺れて　近づいて\n\n四月の風が　ぼけた憂鬱をさらう\n僕ら同じタイミングで　くしゃみして笑うよ\n\nかかとを踏んだままで　飛び出した春の空\n今朝のおぼろげな夢の色に　似ていた\n\nここに(いつも)君がいることも\nあたりまえじゃないけど\n願い繋いで　淡く描く未来\n\nひゅるりら\nめぐりめぐる春をふたり待って\n分かち合うよ今を　何度だって\n同じ場所　同じ温度\nそれぞれに芽生える愛\n見せ合っていたい\n\nそれから\nいつか赤い糸がほどけたって\n結び目からはじめよう\nああ　想イ、フワリとやさしく\n手のひら乗せて\n\nうららかな午後　君は大きなあくびをして\nそんな気の抜けた光景も　妙に馴染んできて\n\nきっと(すぐに)大げさな夏が\n上書きしてく前に\nこの感情を　ぎゅっと抱きしめよう\n\nひゅるりら\nはぐれはぐれ褪せた地図たどって\n理屈じゃない場所で　待ち合わせ\n寂しさだって決めつけた\n確かめ合う理由だって\n超えてゆくよ\n\nそれから\n目に見えない宝もの探して\n深く深く潜ってく\nああ　想イ、フワリと流れる\n時に任せて\n\nはなびらの軌道なぞるような\n儚い日々を(君と)\n見失わぬよう　歩こう\nひらひらと　揺れて　近づいて\n\nひゅるりら\nめぐりめぐる春をふたり待って\n分かち合うよ今を　何度だって\n同じ場所　同じ温度\nそれぞれに芽生える愛\n見せ合っていたい\n\nこれから\nいつか赤い糸がほどけたって\n結び目からはじめよう\nああ　想イ、フワリとやさしく\n手のひら乗せて\n\n想イ、フワリ",
     },
     {
         id: 154,
@@ -2003,7 +2003,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "キミを知らない\nカラダが増えて\n気が狂いそうさ\n\n愛に溺れて\n何もかもがキミでも良いのに…\nそう良いのに…\n\n何故さ僕から離れて行くの\nDon't you tell a lie\nもう無理さ\n\n壊れそうな　優しさで\n抱き締めて　傷つけ合って\n夢を見てた\nWhy you gone\n瞳では語っていたの？\nNo, it's too late\n\nI still see your shadows\n煙(けむ)の中の Utopia\n幻のまま　消えるの？\nHow can I let go\nI still see your shadows\nこの恋を知って僕は\nもう戻れない\n変わってしまった\n\nキミ無しじゃもう\n生きられない僕を\n笑いに来て\nI can't live like this no more\nキミ無しじゃもう\n瞳(め)も開けたくないよ\n虚しいだけだから\n誰もいない Utopia\n\n生温い空気　漂う deep sigh\nBeen awake for hours\n無力な red eyes\n機能しないんだ　何もかもそう\nキミがいないと　堕ちてく　どんどん\n\nぼやけてく焦点\nその場凌ぎ　微笑んで\n崩れてく…\n崩れてく…\n\n何故こんなにも\nすべてを奪い去っていったの\nYou know what what you doing\n\n不確かな　世界から\n逃げ出した Bonnie & Clyde みたいに\n出逢ったんだ\nWhy you gone\n欠けたまま　待ちぼうけだよ\n何故だろう\n\nI still see your shadows\n煙(けむ)の中の Utopia\n幻のまま　消えるの？\nHow can I let go\nI still see your shadows\nこの恋を知って僕は\nもう戻れない\n変わってしまった\n\n見つめ合っていた\n踊るように帰ってた\n日々さえ憎いよ\n誰もいない Utopia\n\nこのまま　抜け殻のよう\n終わっていく　筋書きなの？\nそんな無理さ　悪戯ならば　もう止めて\nぼやけた先に　キミがほら…\n\nI still see your shadows\n煙(けむ)の中の Utopia\n幻のまま　消えるの？\nHow can I let go\nI still see your shadows\nこの恋を知って僕は\nもう戻れない\n変わってしまった\n\nキミ無しじゃもう\n生きられない僕を\n笑いに来て\nI can't live like this no more\nキミ無しじゃもう\n瞳(め)も開けたくないよ\n虚しいだけだから\n誰もいない Utopia\n\n僕はもう戻れない",
     },
     {
         id: 155,
@@ -2016,7 +2016,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "フッと一息のお昼休憩　でも働く僕らにはまだ\n午後にも山積みの仕事\n「こりゃ今日も終電コースかな。。。」\n汗をかいて必死になって　そりゃ汗臭くもなるわな\n毎月やりくりしてご飯　あぁ小遣いあがらないかなぁ\n\n少し憂鬱なお昼下がり　だって家の中見渡せば\nてんこ盛りの洗濯物　終われば掃除機もかけなくちゃ\n家事に追われ休みもない　今日の夕飯どうしよう？\n「奥さん」って声をかけてくれるイケメンはTVの中\n\nリゾート地に旅行行きたいなぁ\nまぁそんな時間は無いから\nhurray hurray 男 hurray hurray 女\n帰ればビール　ご褒美のアイス\nもう一踏ん張りさ\n\nほら腰を上げて　頬叩いて　気合い入れて\n負けないで　きっと誰かは頑張りを見てるから\nいつか歳をとって　シワも増えて　ガタがきても\n明日からの自分達の笑顔の為　上を向くんだ\n\n一区切りのお昼休み　でも学生にはまだまだ\n午後の授業　部活　バイト\n「うわ。この後苦手な教科や～ん↓↓」\n卒業して待ち受けてる　就活の波に揉まれて\n現実逃避　どこかに一億円落ちてないかな\n\nゆっくり時間流れないかなぁ\nまぁそんなのありえないから\nhurray hurray 男 hurray hurray 女\nツレとファミレス　カラオケで発散\nもう一頑張りさ\n\nほら胸を張って　頬叩いて　気合入れて\n逃げないで　きっとこの先良い事待ってるから\nいつか歳重ねて　デッカイ夢　心に決めて\n輝いてる自分達の将来の為　前を向くんだ\n\n仕事　学校　早起き辛い\nなんだかんだ帰りも遅い\n\n家に着くなりベッド　バッタンキュー\n電話かけた相手にwussup？(fu-！！)\n携帯と共に自分充電中\nお腹がぐぅ～。そのまま(-_-)zzZ　頑張れ You-!!!!!!!\n\n沈んだ太陽がまた昇る\n時計の針は待ってはくれないぜ\n\nさぁ笑っていこう　進んでいこう　一人じゃないよ\nたまにはほら　自分にも伝えよう「お疲れ様。」\nそんな一言でも不思議と力湧いてくるさ\n僕たちの　私たちの　未来の為　闘うんだ\nう～～～よっしゃー!!!!!!!＼(^o^)／",
     },
     {
         id: 156,
@@ -2029,7 +2029,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "安定志向集え似た者同士\nってもういい大人だし NGは無し Ah\nHurry Hurry！！\n後ろ詰まってる世代 Alright\nHurrah Hurrah！！\nガンガンいこうってな未来\n\nスタートダッシュは\nイマニでも心配すんな\nキミが望むならこっちは味方だ\nHey！ Body Body\nカラダ揺らせば意外\nFuhh！ Buddy Buddy\nお隣さんも笑\n\n冷やかしは好きじゃない(Yah Yah)\nEVERYBODY　さあ声聞かせて(Yah Yah)\n幕は何度開けたってイイんだ...\nrrrrRock you！\nAre you ready！？ ready！？ Go！！\n\nTrickster Trickster Trickster\nキミの　背中押すフィクサー\n手を変え品を変え人知れず\nキミと　夢描くマイスター\nYeeeeeees\nI'm a TRICKSTER\n\nI'm a TRICKSTER\n\nクサイもんに蓋じゃ現実逃避\nぼたもち期待しちゃ　ご褒美は無し Ah\nDo you understand？\nそんなんわかってる世代\nHey, Do you wanna change？\nおだやかじゃない未来\n\n台詞忘れたムービースターも\nひとりぼっちのパーティー野郎も\n大丈夫　まかせとけ\n明けない夜はないよ\nないよ...ないよ...ないよ...\n\n宴は好きでしょ！？(Yah Yah)\nEVERYBODY　さあ手を掲げて(Yah Yah)\nたまにゃ喉枯らしたってイイんだ...\nrrrrRock you！\nAre you ready！？ ready！？ Go！！\n\nTrickster Trickster Trickster\nキミの　背中押すフィクサー\n手を変え品を変え人知れず\nキミと　夢描くマイスター\nYeeeeeees\nI'm a TRICKSTER\n\nツイてる？ツイてない？\n頭でっかちじゃノックダウン\nでも　バカみたいに笑えば\n石ころもダイヤに変わるさ\n最後はFeel nice\nハレルヤ Good vibes\n\nI'm a TRICKSTER\n\n全身全霊いつでも\nキミをたきつけるファイヤー\n心配すんな　一心同体\nAre you ready！？ ready！？ Go！！\n\nTrickster Trickster Trickster\nキミの　背中押すフィクサー\n手を変え品を変え人知れず\nキミと　夢描くマイスター\nYeeeeeees\nI'm a TRICKSTER\nWow wow wow\nI'm a TRICKSTER\n\nI'm a TRICKSTER\nI'm a TRICKSTER",
     },
     {
         id: 157,
@@ -2042,7 +2042,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "淳太は　淳太は　淳太は　淳太は\nどこだ！？どこだ！？どこだ！？\n\n淳太　じゅじゅじゅ淳太\nじゅじゅじゅ淳太はどこだ\n\n淳太　じゅじゅじゅ淳太\nじゅじゅじゅ淳太\n\n僕の唇は繊細だから\nすぐに乾燥するから\n1に保湿で2に保湿的な\nWhere's my Where's my リップクリーム\n\n乾いた音に惹かれているから\nビートが呼んでいるから\nいつでもリズムを刻みたいのさ\nWhere's my Where's my パチカ\nWhere's my Where's my パチカ\n\nCome on baby！\n\nリップは　リップは　リップは　リップは\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\nパチカは　パチカは　パチカは　パチカは\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\nそこか！\n\n何のために生まれてきたのか？\n美味い飯を食うためだろう\nラーメン・つけ麺(濃厚)蕎麦にうどん(あっさり)\nどれでもいいから食べたい\n\nすすれ！すすれ！\n\nSo come on！\n\nご飯は　ご飯は　ご飯は　ご飯は\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\n探しものは　いつだって\n意外と近くにあるものさ\n代わりのきかない Essentials\n\n淳太　じゅじゅじゅ淳太\nじゅじゅじゅ淳太はどこだ\n\n淳太　じゅじゅじゅ淳太\nじゅじゅじゅ淳太\n\n世界の平和を守りたいから\nヒーローになりたいから\n今すぐ僕が救いに行かなきゃ\nWhere's my Where's my ゲーム機\n\nたくましい筋肉が欲しいから\nパンプアップ中だから\n自重だけでは物足りないのさ\nWhere's my Where's my ダンベル\nWhere's my Where's my ダンベル\n\nダブルバイセップス…\n\nゲーム機は　ゲーム機は　ゲーム機は　ゲーム機は\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\nかいしんのいちげき！\n\nダンベルは　ダンベルは　ダンベルは　ダンベルは\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\n探せ！\n\n前代未聞のなで肩には\nボディコンスーツも敵わない\n大量に肩パッド(日本中)持ってこい(品薄に)\n一枚だけじゃ足りない\n\nもっと！もっと！\n\nもっともっともっともっと！\n\n肩　肩　肩　肩　肩　肩　肩　肩\nどこだ！？どこだ！？どこだ！？どこだ！？\nここだ！！\n\nここに　ここにあったはずなのに\nいざと言うときに見つからない\nもしかして　神隠し？\n\n誰にだって　あるだろう\nさりげなくて大事なものが\n人それぞれの Essentials\n\nどこだ！？\n\n七つの　七つの　七つの　七つの\n必需品！！\n\n俺はモノじゃない",
     },
     {
         id: 158,
@@ -2055,7 +2055,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "気が付けば　長い道のり\n僕たちはこんなとこまで来れた\nそばに君がいてくれたから　Baby\n\n山あり谷あり、そんな日々を\nまた今日も僕らは生きている\n知らない道でも怖くない\n君が笑うから　I can smile\nSmile, Smile. Smile\n\nいつまでも\n君のすぐの隣\nずっといさせてよ　そばに\nそこに君がいれば\nWe can make it\nいつかの夢の続き\n誰より君と見たい\n僕らの未来へ\nGotta go, Gotta go. We can make it\n\n離さないで\n信じていて\n忘れないで\nWe can make it\n僕らの生きてく日々\nまだまだ終わりは無い\n足跡並べて\nGotta go, Gotta go. We can make it\n\n「僕たちが　出会えた奇跡」\nなんて言えば　君はまた笑うかな？\n理屈じゃ説明出来ないモノ　Baby\n\n晴れ渡る朝も雨の夜も\n幸せと呼べる気がしてるよ\n無駄なことなんて一つも無い\nつまずいてもまた We can try\nTry, Try, Try\n\nいつまでも\n僕のすぐの隣\n離れずいてよ　そばに\nここに君がいれば\nWe can make it\n開いた扉の先\n変わらず君といたい\n新たな時代へ\nGotta go, Gotta go. We can make it\n\n離さないで\n信じていて\n忘れないで\nWe can make it\n僕らの生きてく日々\nまだまだ終わりは無い\n足跡並べて\nGotta go, Gotta go. We can make it\n\nこの街の景色は　今日も　すぐに　変わりゆくけれど\n変わらないモノなら　いつも　ここにあること　分かるから\nもう迷わない\n\nいつまでも\n君のすぐの隣\nずっといさせてよ　そばに\nそこに君がいれば\nWe can make it\nいつかの夢の続き\n誰より君と見たい\n僕らの未来へ\nGotta go, Gotta go. We can make it\n\n離さないで\n信じていて\n忘れないで\nWe can make it\n僕らの生きてく日々\nまだまだ終わりは無い\n足跡並べて\nGotta go, Gotta go. We can make it",
     },
     {
         id: 159,
@@ -2068,7 +2068,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "Moonlight, why are you so shy？\nI just wanna know you more\n\nYah, you're right\nI'm getting so high\nMaybe your kiss would calm me down\n\n24 hours\nCan I be your lover？\nGive me a chance\nNot a boy anymore\n\nYou say I'm too young to love ya\nBut I'll never ever let you down, my girl\n\nBaby rose on the floor\nI don't wanna be your secret anymore no\nLet me bloom inside your heart\n\nCome on I've found my paradise\nAnd tonight we're gonna come alive\nSo just try me once or twice\nCan't you see？ I'm already yours\n\nBelieve in me\nSuffocate me, fascinate me,\nlove me, taste me\nWrap me 'round your little finger\n\nI've found my paradise\nAm I the only one who falls in love？\n\nI've been out of control\nYou're still cracking my code\nBut I like it\nYour lips were like\nI won't leave you alone\nSo I'm writing this song\nLet me know when you're ready to go\n\n24 hours\nCan I be your lover？\nGive me a chance\nNot a boy anymore, no\n\nLights off\nIf you stay up all night\nNo, I'll never ever let you down, my girl\n\nEvery inch of your soul\nIt's way deeper than the heaven's ocean, no lie\nLet me bloom inside your heart\n\nCome on I've found my paradise\nIt's outside of the paradigm\nSo just try me once or twice\nCan't you see？I'm already yours\n\nBelieve in me\nSuffocate me, fascinate me,\nlove me, taste me\nWrap me 'round your little finger\n\nI've found my paradise\nAm I the only one who falls in love？\n\nI will never be the same\n'Cause I found you, paradise\nAin't nobody here but you and me\n\nCallin' out my name\nOverwriting our memories\nFeel you in my veins\nI miss you, need you more than ever\nNow do it slow\nI'ma give you everything you want\n\nJust say you love me\nSay you want me\n'Cause you've opened up my door\n\nCome on I've found my paradise\nAnd tonight we're gonna come alive\nSo just try me once or twice\nCan't you see？ I'm already yours\n\nBelieve in me\nSuffocate me, fascinate me,\nlove me, taste me\nWrap me 'round your little finger\n\nI've found my paradise\nI'm not the only one who falls in love\n\nYah baby, you're my paradise\nHow did I ever live, ever live without you？\nWe're gonna come alive together\n\nI'm not the only one who falls in...",
     },
     {
         id: 160,
@@ -2081,7 +2081,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "誰かに聞いて欲しくて\n誰かに気付いて欲しくて\n今日も歌い続けんだ\n\nそれでもまだ足りなくて\n時間も待ってくれなくて\n遠くの空見上げた\n\n掴めない未来も\nちゃんと見えているんだ\n雨上がり　光が弧を描く\n\nバカにされたって　笑われたって\n手を伸ばした　キミはRainbow Chaser\nもう　逃げ出したくて　泣き出したくて\nでも歩き続けんだ\n\n代わりなどいないピカソみたいに\n七色の世界　塗りかえよう\n声にして言おう　好きは好きでいい\nOh We're The Rainbow Chaser\n\nわからなかった…\nプライドが邪魔だと知った\nぐっと　飲み込んだ　過去\n行き場のない理想　自由を忘れた現実\nそうさ　遠回りしたっていい\n\n書きかけた譜面と　終わらないHarmony\n描いてた音がまだ　鳴らなくても\n\n思い出せ\nその痛みも　その苦しみも\n見えない明日を　照らすプリズム\n胸を張れ\nそうさ誰もが　噛みしめるのさ\n喜びも　悲しみも\n耳をすませ\n導く声に　気づけるはずさ\n\nバカにされたって　笑われたって\n手を伸ばした　キミはRainbow Chaser\nもう　逃げ出したくて　泣き出したくて\n\nそう　追いつきたくて　追い越せなくて\n此処まできたんだ\nまだ　答えはなくて　でも信じたくて\nWe're The Rainbow Chaser\n\n代わりなどいないピカソみたいに\n七色の世界　塗りかえよう\n声にして言おう　好きは好きでいい\nOh We're The Rainbow Chaser\n\nWalkin' In The Rainbow\nWalkin' In The Rainbow\nLalala\nWe're The Rainbow Chaser\n\nWalkin' In The Rainbow\nWalkin' In The Rainbow\nLalala\nWe're The Rainbow Chaser",
     },
     {
         id: 161,
@@ -2094,7 +2094,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "It's alright\n変わらずに Unconditional love at first sight\nあの日のままの Galaxy so bright\n夢で描いた　星の数くらい\nWe gotta fill this love\nWe gotta fill this love\n\n二人の Flame\n燃やして We're shooting stars\nLooking so amazing\n奇跡という火が　道をLight it\n(Light it up light it up)\nひとつにつないで\n\nいつだって I'm your satellite\n輝く You are my sign of light\nこの想いに Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n幾千の星が Spotlight\n僕らに向けて\n迷わず Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n\nLet't put the lights up\n気づかれるように Keep the lights on\n光と愛が満たされるように\nBetするなら▽にAll in\n無限大\n願ってたあの星も Blessing us burning\n抱きしめて強くなるメテオのように\nYou are my destiny\n行く先はGalaxy\n燃料は Love, my energy\nCause you are next to me\n\nこのまま Flying\n目を逸らさずに To the sky\nFeeling so amazing\n二人の軌跡が　心をLight it\n(Light it up light it up)\nひとつにつないで\n\nいつだって I'm your satellite\n輝く You are my sign of light\nこの想いに Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n幾千の星が Spotlight\n僕らに向けて\n迷わず Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n\n今の想いで Stargazing\nLook up and imagine\n未完成の星をつないで　君にたどり着く\nMilky Wayを Light up\nMiss you\nAlmost there, on my way\n\n溢れ出すこの Feelまま\n振り向かず More\nもっと伝えるんだ\nLet's feel this vibe\nIt's alright　怖くはないんだ\n果てしない　この Journey の Answer is you\n\nいつだって I'm your satellite\n輝く You are my sign of light\nこの想いに Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n\nいつだって I'm your satellite\n輝く You are my sign of light\nこの想いに Click Trigger Trigger\nTo the shiny Big Dipper Dipper\n幾千の星が Spotlight\n僕らに向けて\n迷わず Click Trigger Trigger\nTo the shiny Big Dipper Dipper",
     },
     {
         id: 162,
@@ -2107,7 +2107,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "貼り付けられたレッテル\n決めつけないで\n未来(あす)のポシビリティー\nその目を離した隙に変わってゆくんだろ\n時代も人も全部\n\n懐かしい日々　語り合うのも\n別に悪いことじゃないけど\nねぇ？\n見てよ最新版\n\nOh\n革新論理\n1秒後にどうなってるかわからない\nこんな世界に僕ら生きているんだ\nOh baby\n寄り添ったって　噛み付いたって\n100点なんか取れやしない\nずっと今を正解にしていくんだ\nだったらいっそ　大胆に更新\n人の目ばっか　気にしてもしゃあないし\n\n書き殴られた声明\n目を逸らしても消えないディスプレイ\n「そんなに悪いことかい？」\n無邪気な表情で問いかけてくる\n\n安心感にすがってばかり\n別にまあどうでもいいけど\nねぇ？\n邪魔はしないで\n\nOh\n革新論理\n1秒後にどうなってるかわからない\nこんな世界に僕ら生きているんだ\nOh baby\n賛否両論　飛び交う論争\nどれを選んでもそうでしょ？\nそんで　現状維持は実質退化\n何回だって　大胆に更新\n諸行無常が　きっとこの世の心理\n\n止まれない　止まれない　どうしても\n一体何に追われてる？\n答えもあやふやなままに\n生きるとは　変わり続けることだ\nUpdate only　止まらない\n\nOh\n革新論理\n1秒後にどうなってるかわからない\nこんな世界に僕ら生きているんだ\nOh baby\n寄り添ったって　噛み付いたって\n100点なんか取れやしない\nずっと今を正解にしていくんだ\nだったらいっそ　大胆に更新\n人の目ばっか　気にしてもしゃあないし\n\n繰り返しばっか　退屈なんだ\nいつだって　刺激を欲しがってるんだ\n何回だって　大胆に更新\n諸行無常が　きっとこの世の心理",
     },
     {
         id: 163,
@@ -2120,7 +2120,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "重岡大毅",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "笑顔とため息が\n混じり出した近頃の誕生日\nへこんだ缶コーヒーも\n空のまんま　しゃんとしなくちゃ\n\n責任の肌触りを\n繰り返す日々の意味を\n何より誰かの為に生きる\n難しさを\n\n赤いちゃんちゃんこ着せられ照れて笑う\nあなたの背中思い出す\n世界一だなんてことない　金持ちって程でも無いけど\nスーパーマンも勝てない　サラリーマンの父さん\n赤ん坊の僕を抱きしめた\nいつかの背中思ってる\nあなたの覚悟がこの僕だから\n泣かない　負けない　サラリーマンの父さん\n\nあなたと僕が\n重なり出したこの頃の日曜日\n鳴らない目覚ましと\n置いたまんま枕元のメガネ\n\nあの日ブチ切れられた僕を\n下手くそ風の吹き回しで\n赤と青のグローブ　キャッチボール\n楽しかったなぁ\n\nタイガースが負けてボヤいてたリビング\n街頭照らす　パジャマタバコの影\nボロボロになったガラケー\n何だって知ってる\n母さん怒らせる天才だよな　父さん\n\n鼻で笑う　もう歳だと\n助手席　ぬるい風のエアコン\n生まれて死ぬまで　僕はあなたの息子だからな\n\n赤いちゃんちゃんこ着せられ照れて笑う\nあなたの背中追いかける\n何年何十年　会社に向かう\n幸せ背負った　サラリーマンの父さん\n親孝行って何ができるだろう\n俺もゴルフ始めようかな\n照れ笑いも似てきた　誇らしく思うよ\nあなたの人生　サラリーマンの父さん\n憧れの父さん　僕だけの父さん",
     },
     {
         id: 164,
@@ -2133,7 +2133,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "桐山照史",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "アラームより2時間早く　目覚めた緊張しぃの僕\n今日はビシッ！と伝えると　鏡の僕と約束\n\n新しく買った服を着て　嬉しそうに向かう足音\n同じ気持ちですか？　あなたは？\n\nいつもの砂浜座り　唄う青い空と　共に\n小さく　海うさぎ飛び跳ねて　笑おう\n拗ねると　すぐ涙する　そんな全てが愛しくて\n何気ないこの時間求めて　あなたへ\nこの声を\n\n出逢ったあの日の匂いも　ゆったりした話し方も\n今鮮やかに思い出す　あなたは？\n\nいつもの砂浜座り　唄うオレンジ空　共に\n1番好きなこの場所で　あなたと\nアリ　カンパイ！\n\nいつもの砂浜座り　唄う月明かりと　共に\n眠りに　つく夜凪　見つめて　笑おう\n拗ねると　すぐ涙する　そんな全て愛しくて\n何気ない　この時間求めて　あなたへ\n何気ない　この時間求めて　あなたへ\nこの歌を\n\nいつかは　隣で2人　あなたに会える日を",
     },
     {
         id: 165,
@@ -2146,7 +2146,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "中間淳太",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "はじめて会ったその時　ボクの心は奪われた\n今すぐキミに近づきたい\nはやる気持ちを抑え　忍び足\n繋がった糸が　絡まないようにね\n\nやっと夢が叶ったんだ\n今じゃボクの隣で　キミが笑っている\n\n「あなただけ」\n腕の中　キミの言葉　そっと耳をなぞった\n「アナタだけ」\nそうボクも頷いた\n幸せな時間　鼻高々\n今日もボクは　鼻高々\n\nはじめて会ったその時　僕の心が奪われた\nそれがはじめての恋だった\nドキドキがバレないよう　忍び足\n繋がった糸が　絡まないようにね\n\nでもそれもバレてたんだ\n今じゃヘタだったねと　ボクも笑ってしまう\n\n「あなただけ」\n星の瞬いた夜に　僕は君に誓った\n「アナタだけ」\nそう君も頷いた\n腕の中　見えた　鼻高々\n\nやっとの思いで掴んだ　ひとつだけの運命\n辿った先で　たくさんの糸を手に踊る君が　僕に微笑んだ\n\nその姿に　心を奪われたんだ\nねえ見てよ　今じゃボクの方が上手に踊れるよ\n\n「あなただけ」\n星も眠りだした夜に　キミと僕が重なった\n「アナタだけ」\nそう2人頷いた\n…幸せな時間\n\n「あなただけ」\n僕は君に誓った\n「あなただけ」\n…シアワセな時間　鼻高々\n今日もボクは　鼻高々",
     },
     {
         id: 166,
@@ -2159,7 +2159,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "神山智洋",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "ただでさえ生き辛い世の中\nひたすら鞭打って騙し騙しそーやって生きてる\nメーター振り切りキャパオーバー？\nなら本音をぶち撒けろ\n\nロボットじゃねぇ　着せ替え人形でもねぇ\n勝手に私物化してんじゃねぇ\n意志を持つ人間だ\n何かに染まってたまるかってんだ\n\n嘘ついて自分を曲げんのはゴメンだ\n進む道ぐらい選んでもいいだろ\n\nいつどーなるかもわからない人生　一度きりだぞ？\n誰でもない　主役は自分だ\nバカにされたって　はみ出したっていい　笑い飛ばしてこうぜ\n降りかかる全て擦り傷だって\nまだまだこれから　無我夢中にやりたいようにやれ\n\nSay hello！！\n応答せよ　答えなき迷路　右それとも左　ほら選べよ\n“でも”や“けど”の言い訳を並べてもただのPierrot\n信号はYellowでも止まれねぇよ　白黒つけろ\n押し付けられるEgoに出せベロ　鳴らせよ爆音でStereo\nThree Two One Zero　さぁ Let's go　伸ばせ手を！！\n\n過去は足枷じゃない　糧にするもんだ\n己の物差しだけで測るな\nやる前から無理とか言って逃げても変われねえぞ\n\n比べたりすんな　二度と逃げんな\n未熟でも俺たちには　一歩踏み出す力があるんだ\n思い返して後悔がなけりゃ万々歳さ\nきっといつか実を結ぶ　そう信じて\nやるだけやるのさ　我武者羅に生き抜いてやれ",
     },
     {
         id: 167,
@@ -2172,7 +2172,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "藤井流星",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "かわりがわりひかり弾けた\n孤独な午後の太陽\n危ない色気に目くらみ始めて\n孤独が僕に合わさる\n\nゆらりゆらり\n糸を落ちる\n顔の無い自分に息詰まる\nまたもう一回　またもう一回\n叶うならごめんと、笑って言いたい\n\n破(わ)れた硝子のハートは\nもう砕け散ってバラバラさ\n欠片を拾い　繋ぎ直しても\n同じ形には戻らなかったね\n古くなったチーズ\n捨ててしまえばいいのに　飾ってる\n解ってるのにまだ\n腐ってないからって　馬鹿だろ？\nああ　これじゃまた叱られそうだ\n\nいつからだっけか　僕は君を愛してた\nなのに運命は残酷だな\n君はもういないのに\n君なしの僕に戻れないんだ\n蒼天に星を探して祈る\nひとり抱きしめる想いは永遠に\n暮れてゆくこんな世界でまだ\n君を見つめていたいんだ\n\nかわりがわり踊りはじめた\n大袈裟な午後の陽炎\n危ない色気に目くらみ始めて\n痛みが僕に合わさる\n\nゆらりゆらり\n糸を落ちる\n顔の無い自分に息詰まる\nまたもう一回　またもう一回\n叶うならごめんと、笑ってもいいかな\n\n狂い\n舞いたい\n途方もない\n抱きしめてよ、迷える涙\n透明な記憶　留まらせて\n永遠に近い　時の側で\n\nゆらりゆらり\n糸を落ちる\n顔の無い自分に息詰まる\nまたもう一度　またもう一度\nまた君に出会って　笑っていたい\n\nかわりがわりひかり弾けた\n孤独な午後の太陽\n危ない色気に目くらみ始めて\n痛みが僕に合わさる\n\nゆらりゆらり\n糸を落ちる\n顔の無い自分に息詰まる\nまたもう一回　またもう一回\nまた君に出会って　笑っていたい\n\nもう一度、またもう一度\n\n変わり映えない、あの空を\n\nひらりひらり\n舞い落ちる\n変わりゆく景色と、甘い香り\nもう行かなきゃな　もう行かなくちゃ\n神様に頼んで\nまた会える生命(とき)まで",
     },
     {
         id: 168,
@@ -2185,7 +2185,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "濵田崇裕",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "僕が知っているあなたは\n自分のためよりも誰かのために\n損得勘定とは無縁で\nホントに感心するばかり\n顔を見るたびに体のことばかり\n心配するもんだから\n先に僕が答えてたよね\n\n僕にもなれるかな\nあなたみたいな人に\nハートを形どらない\n角が立たない心模様\nどこまでも大きくて\n丸いそんな温もり\n僕はあなたに出会えた\n\nもらってばかりじゃいられない\n甘えた分だけ返したいけど\nできるのかな\n今はまだわからないけど\n喜びを誰かと分かち合い\n僕もあなたのような　かわいい人に\nなれるのかな\nやさしいひとに\n\n僕の知らないところで\nあなたはきっと沢山の悲しみを\n「涙の数だけ強くなれる」\nって誰かが言ってたな\n「自分らしく生きなさい」\nとかけてくれたその声は何よりも\n僕の背中を押してくれる\n\n僕にもなれるかな\nあなたみたいな人に\n背中で語るような\n愛を言葉にしなくたっても\nどこまでも広くて\n変わらない温もりに\n僕はあなたに出会えた\n\nもらってばかりじゃいられない\n甘えた分だけ返したいけど\nできるのかな\n今はまだわからないけど\nもらってきたものはそれ以上\n僕もあなたのように　許せるように\nなれるのかな\nやさしいひとに\n\n本当の優しさは\n気づきにくいものさ\n形のない贈り物\n僕にもなれるかな\nあなたみたいな人に\nいつの日か届くように\n\nもらってきたものを返したい\n僕もそんな人であり続けたい\nできるまでは\nこの笑顔絶やさないように\nあげたもののお礼はいらない\n僕もあなたのような　かわいい人に\nなれるのかな\nやさしいひとに\n\nやさしいひとに",
     },
     {
         id: 169,
@@ -2198,7 +2198,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "小瀧望",
         date: "2021-03-17",
-        lyrics: "",
+        lyrics: "Just do it, Make it clap　Let's do it, like a dream\n含羞んだ笑顔は Like a ice cream\nJust do it, Make it bounce　Let's do it, like a freak\n滑り込むソファで Once more, please\n\nWe'll make it burn (Shake it shake it shake your body)\nYou follow me (Go right now, give it up honey)\n体中が次第に熱くなって\nLet's keep the burn (Shake it shake it shake your body)\nYou're really sweet (Go low low give it honey)\n隠さないで Affection\n\nYes, I'm busy　止まらない Desire\n充たされるまで (Go lady　We gon' do this)\nYes, I'm busy　そう我儘でもいい\n君のために (Just keep on moving　Uh yeah)\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　さあ教えて\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　Yeah\n\nJust do it, Make it clap　Let's do it, like a dream\n高まる感情は Make a scream\nJust do it, Make it bounce　Let's do it, like a freak\n窓に映る君は Look so sweet\n\nWe'll make it burn (Shake it shake it shake your body)\nYou follow me (Go right now, give it up honey)\n体中が次第に熱くなって\nLet's keep the burn (Shake it shake it shake your body)\nYou're really sweet (Go low low give it honey)\n探らないで Addiction\n\nYes, I'm busy　終わらない Entire\n夜が明けるまで (Go lady　We gon' do this)\nYes, I'm busy　そう好きにやればいい\n君のために (Just keep on moving　Uh yeah)\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　さあ答えて\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　Yeah\n\nCome on！ Wow yeah\n本能の姿で　飽きが来るまで\nMy baby\n\nYes, I'm busy　止まらない Desire\n充たされるまで (Go lady　We gon' do this)\nYes, I'm busy　そう我儘でもいい\n君のために (Just keep on moving　Uh yeah)\nYes, I'm busy　終わらない Entire\n夜が明けるまで (Go lady　We gon' do this)\nYes, I'm busy　そう好きにやればいい\n君のために (Just keep on moving　Uh yeah)\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　さあ答えて\n(Feel me all night long)　Hey！ make it bounce yeah！\n(Trust me all night long)　Yeah\n\nYes, I'm busy for you…",
     },
     {
         id: 170,
@@ -2211,7 +2211,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "僕らは最強なんだぜ\nさあ、進もうよ　姫\n\n大興奮を最小限に落ち着かせ\n何でもないフリをしてそのカードを手に取れ\n僕らが望んでいた景色全部は\n今日という日の為にあったのだ！\n\n大名様もビリケンさんも味方に付け\n何ちゃってヒーロー気分でその角を曲がれ\n僕らの持つ羅針盤を頼りに\n今日という日も乗り越えて行くのだ！\n\n前方100メートル先に\n小さな石ころが落ちています\n大切な君を守るため\n最後まで援護させてください\n\n愛も闇も仕事も君も全部\nこの背中で戦ってみせるよ\n限られた時で出会った人　そうさ\n君がいれば\n僕らは最強なんだぜ\nさあ、進もうよ　姫\n\nだんだん顔が曇ってく君を抱きしめたい\n何でもないフリしてるけどやっぱり怖いんでしょ？\n君が恐れている未来なんかは\n今日限りでサヨナラしてあげる\n\n後方50メートル先に\n君を追いかけてきた人がいます\n渡すものか！僕の好きな人\n最後までこの手離さないよ\n\n嘘も悪も涙も君も全部\nこの両手で鎮めてあげるよ\n無限大の明日があるだろう　そして\n君といれば\n僕は強くなれるんだぜ\nさあ、いざ行こうよ　姫\n\n目の前に2人を引き裂く\n敵が現れたとしても\n僕らの持つ愛の経験値には\n誰もが勝てないよ　進もう\n\n愛も闇も仕事も君も全部\nこの背中で戦ってみせるよ\n限られた時で出会った人　そうさ\n君がいれば\n僕らは最強なんだぜ\nさあ、進もうよ　姫\n\n大興奮で最高潮に幸せです\n「愛してる」願いを込めて\nこのベールをめくる",
     },
     {
         id: 171,
@@ -2224,7 +2224,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "あなたという人の意味は　今日も僕が感じているから\n\n一体何に怯んでしまったの　一体誰と比べてしまったの\nあなたが何度　あなたを嫌っても　僕はあなたのことを嫌いになれないよ\n\n一回くらい挫折をしたってさ　一生が失敗なわけないだろう\nあなたの涙は　あなたゆえの涙で　きっとあなたの魅力の一つになるだろう\n\n正解のない人生に　盛大な拍手が鳴った\n手探りの日々に出会った　手応えはあなたの笑顔で\nだからこそ僕は言うよ　何度も救われてるって\nあなたが自分自身を　もし見失いかけても\nあなたという人の意味は　今日も僕が感じているから\n怯まないで　比べないで　あなたは今日もあなたのままでいいんだ\n\n一体何に怯んでいたんだろう　一体誰と比べていたんだろう\n僕が僕のこと　何度嫌になっても　あなたは好きだと言い続けてくれた\n\n明日は良い日になるなんて　無責任には言えないよ\n明日がどうなるかなんて　知れないから涙こぼれて\nだからこそ僕は言うよ　何度もあなたへと言うよ\n明日こそ良い日にしようって　もう自己嫌悪はやめよう\n綺麗事くらい言おうぜ　願うなら口に出そうぜ\n怯まないで　比べないで　僕らは今日も僕らのままでいいんだ\n\n正解のない人生に　盛大な拍手が鳴った\n手探りの日々に出会った　手応えはあなたの笑顔で\nだからこそ僕は言うよ　何度もあなたへと言うよ\n明日こそ良い日にしようって　もう自己嫌悪はやめよう\n\n一回くらい挫折をしたってさ　一生が失敗なわけないだろう\nあなたの涙は　あなたゆえの涙で　僕はあなたの魅力の一つだと思う　思うよ\n\n正解のない人生に　盛大な拍手が鳴った\nありがとう僕にとって　歓びはあなたの笑顔で\nだからこそ僕は言うよ　何度も救われてるって\nあなたが自分自身を　もし見失いかけても\nあなたという人の意味は　今日も僕が感じているから\n怯まないで　比べないで　あなたは今日もあなたのままでいいんだ\n\nあなたという人の意味を　今日も僕が感じていること\n「明日こそ」を願い続ける理由だ",
     },
     {
         id: 172,
@@ -2237,7 +2237,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "あの日 Babe　載せたSNS\n覚えてるかな　気にしてるんだ\nHonestly sayin'\nハマってる　ドラマを言い訳に\n誤魔化してみたり\nOh\n\nAh　ハートもスキップしながら\n気持ちがバレないような\n絵文字だけ残して\nWating for your love\n\n鬱陶しいぐらいの　Shine of smile\n歩く時すら　君が浮かぶのさ\n隠すのは終わりにして\n(勇気出して　今すぐLike it)\n今なら　Yes I'm ready\n\nどっから話せば Baby\n今日の君を Follow？　tell me\nWish I can\nHold you ayeyaiyaiya\n一人写った写真より\n僕らがメインの　Love Story\n一緒に書こうよ　Time Line\n\nある日 Babe　投げたSNS\n既読になった　気になってるんだ\nHonestly sayin'\n上がってる Postを言い訳に\n話しかけたり\nOh\n\nたまには返事返しも\n気持ちがバレないように\n少しだけ遅れて\nSending to you love\n\n鬱陶しいぐらいの　Shine of smile\n眠る時すら　君が浮かぶのさ\n隠すのは終わりにして\n(勇気出して　今すぐLike it)\n今なら　Yes I'm ready\n\nどっから話せば Baby\n今日の君を Follow？　tell me\nWish I can\nKiss you ayeyaiyaiya\n一人では見られない\n僕らがメインの　Love Story\n一緒に書こうよ　Time Line\n\n(Time Line...Time Line...)\nOoh feel me.　not faraway\n(Tonight...Tonight...)\n小さな画面の\n(Inside...Inside...)\n(I feel in love...)\n君に伝えるのさ\n今なら　Yes I'm ready\n\nどっから話せば Baby\n今日の君を Follow？　tell me\nWish I can\nHold you ayeyaiyaiya\n一人写った写真より\n僕らがメインの　Love Story\n一緒に書こうよ　Time Line\n\nどっから Link したらいい？\n今日こそ伝えたい\nWish I can\nKiss you ayeyaiyaiya\n一人では見られない\n僕らがメインのLove Story\n一緒に書こうよ未来",
     },
     {
         id: 173,
@@ -2250,7 +2250,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "What's the time？\nヤバい　忘れちゃうくらい\nFeelin' so good な Day\nいいんじゃない？\n君と僕とで Fantasy\nハプニングも All okay\n\n楽しんでいこう Everybody\nBangin' da beat　朝まで\nだいぶ　釘付け\nNobody but you\n\nYou & I\n見つめ合ってるだけで\n途端にフリーフォールライド\n\n髪が揺れる度\n眩しい夢の中\nDrowsing, drowsing\n心のまま Ride on\nさあ　飛び込もう\n\nDo lu tu tu lu\nDon't stop loving\n愛を歌おう\nDo lu tu tu lu\nDon't you worry\n好きに踊ればイイ\n信じてみようよ　もっと This love\nDo lu tu tu lu\nDon't stop loving tonight\nDo lu tu tu lu tu\n\nEvery time\n変化してくスピードに\n戸惑うけど\nFeel so right\nHands up で It'll be alright\n身を任せて\n\n楽しんでいこう Everybody\nBangin' da beat　朝まで\nだいぶ　釘付け\nNobody but you\n\nYou & I\n気づけば子供みたい\nCan't stop laughing all night\n\n時にはスベテを\n忘れたくもなるね\nI can hear you\n次はどんな Move で\nアガってこう？\n\nDo lu tu tu lu\nDon't stop loving\n愛を歌おう\nDo lu tu tu lu\nDon't you worry\n好きに踊ればイイ\n信じてみようよ　もっと This love\nDo lu tu tu lu\nDon't stop loving tonight\nDo lu tu tu lu tu\n\nUp and down and up　綺麗だね\nRight and left and you　思ったより\nすべては So　シンプルかも\n\nDo lu tu tu lu\nDon't stop loving\n愛を歌おう\nDo lu tu tu lu\nDon't you worry\n好きに踊ればイイ\n信じてみようよ　もっと\nThis love\nDo lu tu tu lu\nDon't stop loving tonight\nDo lu tu tu lu tu\n\n愛を歌おう　Don't stop your love！\n愛と踊ろう　Don't stop our love！\n愛を歌おう　Don't stop your love！\nDon't stop tonight\nDo lu tu tu lu tu",
     },
     {
         id: 174,
@@ -2263,7 +2263,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "Yeah… Wow…\n君のために歌わせて\nYeah…\n\n迷ったって　悩んだって　歩いて来れた　君と僕ら\nその声が　君の手が　この背中押していた\n泣いて　弱音吐いて　負けそうな日も僕たちなら\n止められない　止められない\nいつも前だけを見ていた\n\n行こう　さぁ、行こう　明日へ進もう\nこの道を照らしてる　Your smile\nきっと　そうきっと　おそれるものはない\n目指してく　あの未来\n\n君へ　この歌が　この歌が　そっと\n届くまで　届くまで　もっと\n聴こえるかな？\nEveryday, Everynight\nWe are singing for you\n声が　枯れるまで　枯れるまで　ずっと\n歌うから　歌うから　きっと\nいつまでも\nEveryday, Everynight\nWe are singing for you\n\nWow… Yeah…\nWow… Yeah…\nどんな時だって\nEveryday, Everynight\nWe are singing for you\n\nYeah… Wow… Yeah…\n\n叫んだって　泣いてたって　日は昇ってくる　東の空\n悲しさも　悔しさも　僕たちを強くした\n最低　だけど最高　悔やんだ過去も誇れるから\nもう逃げない　もう逃げない\n明日が来ると信じてた\n\n行こう　さぁ、行こう　最後に笑おう\nこの先へ続いてく　One way\nもっと　そうもっと　輝く景色を\nまだ君と見ていたい\n\n君が　すぐそばで　すぐそばで　そっと\n笑うから　笑うから　きっと\n辿り着けた\nEveryday, Everynight\nWe are singing for you\n僕ら　この先へ　この先へ　ずっと\n進んでく　進んでく　もっと\nいつだって\nEveryday, Everynight\nWe are singing for you\n\n星のない　暗い夜だって\n君となら　笑い合えた\nだからこれからも　君のすぐそばで　歌うだけ\n\n君へ　この歌が　この歌が　そっと\n届くまで　届くまで　もっと\n聴こえるかな？\nEveryday, Everynight\nWe are singing for you\n声が　枯れるまで　枯れるまで　ずっと\n歌うから　歌うから　きっと\nいつまでも\nEveryday, Everynight\nWe are singing for you\n\nWow… Yeah…\nWow… Yeah…\nどんな時だって\nEveryday, Everynight\nWe are singing for you\n\nYeah… Wow… Yeah…\n\n君のために歌わせて",
     },
     {
         id: 175,
@@ -2276,7 +2276,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "手を突っ込めばポケットの中　宇宙行きチケット\n縁石に乗り込み青空へ　やじろべぇしよう\n\n真昼間の月に僕は種を植えに行くんだ\n誰も見ちゃいないし　見たこともない\n花を咲かそう\n\nどこまで行こうか　まだ何も決めたくないな\nどこまでも行けそうな気がしてさ　Not yet\n知らない明日へセイグッバイ\n今だけは歌ってたいや\nここだけの話をしよう\n世界が止まっても　僕は止まりゃしないんだ\n\n少年たちがいた\nあの頃の僕らだ\n季節外れのTシャツで\n何だって出来るって　そう思えたっけ\n\n真昼間の月に種を植えてみたくなったのは\nいつか君を襲う夜の底　一輪の光を\n\nどこまで行こうか　まだ何も決めたくないな\nどこまでも行けそうな気がしてさ　Not yet\n知らない明日へセイグッバイ\n今だけは歌ってたいや\nここだけの話をしよう\n世界が終わっても　君を終わらせないんだ\nNot yet",
     },
     {
         id: 176,
@@ -2289,7 +2289,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "どこまでも続く人生(みち)\nパズルのピース合わせるように\n出会い別れ　繰り返し　貴方と出逢った\n\n触れることで傷つけたり\n離れることで守れたり\n忘れないで　一人じゃない\n心を繋ごう\n\n全てが当たり前じゃないから　大切を胸に刻もう\n見たことない景色を共に見よう\n輝く未来　待っているから\n\n広い空の下で共に　同じ時を過ごし生きてる\n笑えなくていい　泣けなくてもいい\nそこに　ここに　貴方が居ることに意味があるんだ\n辛いことも笑って話せる　そんな日々がやってくるさ\n下手くそでも言葉を紡ぐよ\n「生まれてきてくれてありがとう。」\n\n明日は何が待ってるかな？　嬉しいこと　悲しいこと\n教えてよ　些細なことも　何でも話そう\n\n想いやる心持ち寄って　支え合って越えていこう\n雨に濡れ　風に吹かれ　雪に凍えても　いつか必ず晴れるからさ\n\n分かち合った時間や記憶は　色褪せない　嘘じゃない\n負けないよ　逃げたりしないよ　強くなれるよ\n貴方が居れば\n\n容赦なく降りかかる苦難はこれからもあるでしょう\n弱くなることもあるけどその時は　優しい瞳で見守っていて\n\n孤独なTonight　後悔しても振り返らない　Never lie\n隠さないで不安の Sign　不甲斐ないけど約束さ　Make you smile\nYou & I　大切な存在　その先にある未来が　Shine a light\n曖昧なことは言わない　辛いことから守りたい　I won't say goodbye\n\n正解がわからなくても　手探りでも生きてゆく\n何かを失って　また何かを欲しがって\n泣いて傷ついて躓きながらも共に進んでくんだ\n頼りなかったあの日からは少しは強くなっているよな\n信じてるから信じて欲しいんだ\n「貴方に出逢えてよかった。」\n\nきっと虹が架かるから\n必ずやってくる　奇跡を信じて\n昨日も今日も越えて　迎えに行こう\n明日を",
     },
     {
         id: 177,
@@ -2302,7 +2302,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-05-05",
-        lyrics: "",
+        lyrics: "Oh that's right\nYou and me, we could do it all right\n\nHey Girl\n気が狂いそう\n君は絵に描いた理想\n全てが　You're my perfect beauty\nBorder Line\n飛び越えちゃってさ\nいわゆる君の何かにはなれないかな\n\nどんな風に振り向かせるかは今　Let me do　Let me do\nこれがいいんでしょ？\n刺激的にアイツよりもスマートに　Let me do　Let me do\nYeah　そんな　Love so hot\n\nBaby Give me your kiss\nここから先は\nAutomatic Automatic\nAutomatic Automatic\nBaby　あとはもう\nヤメられないよ\nAutomatic Automatic\nAutomatic Automatic\n\nマニュアル通りの攻略法\nでは出せないもっと気持ちがいい方\n今演じてる良い子\n気づけば欲しがる君は虜\n\n饒舌にもなるよ　Do it one more time\n下から上に　You know\n\nどんな風に躍らせてあげるかは　Let me do　Let me do\nこれがいいんでしょ？\n時に甘く、戻れなくなるくらいに　Let me do　Let me do\nYeah　俺の　Love so hot\n\nBaby　走る Beat\n早まる鼓動\nAutomatic Automatic\nAutomatic Automatic\nBaby　何度もリピートしたくもなるよ\nAutomatic Automatic\nAutomatic Automatic\n\n火花が散る　鮮やかな夜\n花を咲かす Lady\n目と目が合う　流れるままに\n全てが Automatic\n\nBaby Give me your kiss\nここから先は\nAutomatic Automatic\nAutomatic Automatic\nBaby　あとはもう\nヤメられないよ\nAutomatic Automatic\nAutomatic Automatic",
     },
     {
         id: 178,
@@ -2315,7 +2315,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "好きな明日を見つけにいこうか\nどんな君も僕が抱きしめるから\n\nパーカーのフード握りしめ\n慌てて隠す泣き顔\n「絆創膏、何千枚も必要」って\nソファーで丸まってほほえむ君\n\n一瞬だって笑って今日が終われるなら\nもう少し話そうよ\nジグザグ近づく影　静かに見守る月\nどこまでも　ずっと　そばにいるから\n\n好きなように明日をふたり描こう\n向かい風　君と追い越して\n大きな涙あふれる日も\nいつだって僕が\nでっかい愛が抱きしめる\n\n大爆笑は何万回だっていい\n大好きもいつだって届けたい\n突然手紙書いたら\n君は喜んでくれるかな\n\nざわつく日々も大事なヒント\n想像以上が君のすぐそばに\n明日は熱い風も凪ぎ夏草揺れ\n想いはずっと青空渡る\n\n靴ひもを結び直して\n夕暮れ　ふたりの帰り道\nカレンダーだって知らない未来\n一緒なら僕ら\nでっかい愛と歩いていける\n\n探してたんだ\n君がくれたんだ\n明日色のパレット\nはじめて知った恋の色に\n染まってゆく心\nまるごと全部君のしるし\n\n好きな明日を見つけにいこうよ\nどんな君も抱きしめるから\n\nあの日見上げた飛行機雲\n行く先はわからないけど\n同じ空に夢を浮かべながら\nいつだって君を\nでっかい愛が抱きしめる",
     },
     {
         id: 179,
@@ -2328,7 +2328,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "一歩進んで二歩下がり\n七度転んで八起きなら\n傷だらけでも笑えれば\n少し気も晴れるから\n\nきっと悲しい顔は似合わない\n僕がいて　(君がいる)\n「喜努愛楽」でいっちゃえば良し！\n\n駄目で元々良いじゃない\n失敗を恐れちゃ進めない\n動き出した衝動！止まらない！\n僕がいて　(君がいる)\n独りじゃないさ「喜努愛楽」で良い\n\nどこか寂しい夜空でも\n雨降りで曇り空でも\nいつか夜が明け陽は昇り\n晴れ渡り虹も出る\n\nずっと全て上手くいくなんて無い\n僕がいて　(君がいる)\n「喜努愛楽」でいっちゃえば良し！\n\n見慣れてたはずの風景も\n一人歩いた帰り道も\n同じ空見上げてるから\n僕がいて　(君がいる)\n独りじゃないさ「喜努愛楽」で良い\n\n哀しくて立ち止まったり\n愛しくて胸詰まったり\n言葉に出来ない様な瞬間も\n\nいつだって「思うがまま」で良いんじゃない？\n「感じたまま」は不器用じゃない\n僕ら泣いて笑って生きている\n独りじゃないから\n「喜努愛楽」って言っちゃえば良し！\n\n駄目で元々良いじゃない\n失敗を恐れちゃ進めない\n動き出した衝動！止まらない！\n僕がいて　(君がいる)\n君がいて　(僕がいる)\n思うままに描き出せ\n自分らしく「喜努愛楽」で良い",
     },
     {
         id: 180,
@@ -2341,7 +2341,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "無神経な通り雨が\n僕の足跡邪魔するんだ\n説教じみた街は\n腫れ物にでも触れるかのように\n\n雑踏に噛まれた僕は\nエゴとエゴのスケープゴート\n今日が終わる前に\n吠え方を忘れてしまいそうだ\n\n君だって一人で\nいたいわけじゃないだろう\n誰だってそうさ...\n\n終わらない夜はないと\n知った真夜中のLION\n慌てるように　闇を喰らう\n意地悪なこの世界に\n聞いて欲しくて\nただ　ただ　ただ...\n歌ってるよ\n\nラララ...\n届きますように\n\n泣き止まない赤ん坊\nヒトリ遊びの意味を知る\n歩き出す孤独は\nやけに美しく見えていたんだ\n\n行く手を阻むモノは\nいつでもジブンさ\n\n眠らない夜はないと\n月明かり響く倍音\n憂鬱な朝にまで届け\n閉じかけたこの世界に\n気づいて欲しくて\nただ　ただ　ただ...\n歌ってるよ\n\n乾ききった草原と\n飲み干したオアシス...\nまた居場所探した\n\nちっぽけな僕のハート\n触れたら聞こえる心音\n奏でるように闇に踊れ\n撫でられることのない\nこのタテガミを揺らして...\n\n終わらない夜はないと\n知った真夜中のLION\n慌てるように　闇を喰らう\n意地悪なこの世界に\n聞いて欲しくて\nまだ...\n\n眠らない夜はないと\n月明かり響く倍音\n憂鬱な朝にまで届け\n閉じかけたこの世界に\n気づいて欲しくて\nただ　ただ　ただ...\nAh　ただ　ただ...\n歌ってるよ\n\nラララ...\n届きますように",
     },
     {
         id: 181,
@@ -2354,7 +2354,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "Ai！ Ai！ Ai！\nそれ！よいしょ！\n\n横丁の角をまがるとある\nヘンテコなヒーローの看板\n夕陽に照らされてるこの街\n映えてるね！君が言った\n\nいつの間にか周りが見えなくなり\n何でなのか考えもせずに\n自分が本当にいるべき場所を　探している\n友と呼べる人は誰なんだろう？\n幸せになるってどういうことなんだろう？\n自由って犠牲を伴うことなのかな？\n教えてよ\n\n僕らが描く　未来の明日\n閉ざした扉を　開け放て\n何度も何度も　見失ったって\n君には　みんながいる　ずっと\n\nそれ！よいしょ！\n\nふとした時にこっち見てる\nいつもの散歩道の野良猫\n今夜のおかずは何にしようか\n迷っちゃうね　君が言った\n\nどうしようもなく自暴自棄になり\n何であの娘は振り返ってくれない\n自分だけが取り残されることを　怖がっている\n進むべき道はどこなんだろう？\n僕にそんな場所が見つかるのかな？\n他人より幸せになれるのかな？\n教えてよ\n\nAi！ Ai！ Ai！\nもういっちょ行くぜ！\nAi！ Ai！ Ai！\n\n自分で決めれば　後悔しないよ\n逃げ道ばかりを　探さないで\n今日も明日もその先も　君と見る\n夕陽は　綺麗なんだ\n\n僕らが描く　未来の明日\n閉ざした扉を　開け放て\n何度も何度も　見失ったって\n君には　みんながいる　ずっと\n\nそれ！よいしょ！",
     },
     {
         id: 182,
@@ -2367,7 +2367,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "長くなった短い話　とっくに冷えた頭とつま先\n玄関悩んだスニーカーorスリッパ\nどうせすぐ帰るつもりだったけど\n先に君あとから僕が良い“ごめんね”\n引くに引けずにコンビニエンスストア　ウロチョロ\nうつろな顔の深夜バイトのお兄さん\n厄介ごと一仕事　お互い済まそうか\n\nほのかに口下手くらいが可愛いのに\n\n期間限定アイスクリーム\nバニラかチョコのバリエーション\n白か黒かで余り物はダーリンダーリン\n曖昧な時は甘いチョイスをホラ\nビターで苦いのが僕は好き　うんソレで良い\n告白した夏の夜トリップ\nYes or Noのシチュエーション\n今も昔も決まり文句でダーリンダーリン\n大抵のことは甘いアイスをホラ\nおかえりは無くてもグッバイ　また頼むぜコンビニ\n\n一か八か作り話　とっさにひねった頭と口先\n必要な嘘は有罪or無罪か\nすまし顔　優しい顔　お願い見逃せないか\n\nほっこり鈍感なくらいが可愛いのに\n\n出し過ぎ注意ハンドクリーム\nシェアするべきコミュニケーション\nひび割れ防止で余り物はダーリンダーリン\nあんまりな事はドライなチョイスさホラ\nベタつく空気が君は好き　うん割と好き\n準備万端冬空とリップ\nいつもの街もイルミネーション\nOFFでもONでも素敵さ君はダーリンダーリン\n大切なキスは甘いセリフとホラ\n理想じゃ良い自分でも　寝巻きスリッパ現状にドン引き\n\n“しっかりついてこい”くらいがカッコいいのに\n\n時間制限アイスクリーム\nドア前一人シミュレーション\nただいまおかえり　ぎこちなくてもダーリンダーリン\n幸いなことは甘いアイスがほら\nリハ通りいけばそれでいい　うんコレでいい　あ～\n\n期間限定アイスクリーム\nバニラかチョコのバリエーション\n白か黒かで余り物はダーリンダーリン\n曖昧な時は甘いチョイスをホラ\nビターで苦いのが僕は好き　うんソレで良い\n負担軽減アイスクリーム\n酸いも甘いもノンフィクション\nあの手この手で何がなんでもダーリンダーリン\n「心配事の9割以上はホラ\nおこらないって言ったでしょ？」\nハイハイ　よく笑うぜのんきに\n\noh good day... oh bad day...\noh good day... oh bad day...\noh good day... oh bad day...\noh good day... good day...",
     },
     {
         id: 183,
@@ -2380,7 +2380,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2021-07-28",
-        lyrics: "",
+        lyrics: "Baby Baby　この夏に捧ぐ\nTake it Take it　君をまるごと\nDiving to the Blue　二人で行こう\nOh Yeah Oh Yeah No No No No\n\nクーラー効かせた部屋でじっと\n夏を見過ごしちゃ勿体ないでしょ？\nSay Wow wow wow Wow wow wow\n太陽昇ればEveryday Weekend\n出会いは一瞬で一期一会のLife\nShyな気持ちGood bye　タイミング逃さない\nWow wow wow　蜃気楼抜けて\nWow wow wow　艶やかなリズムで\n\nBaby Baby　この夏に捧ぐ\nShake it Shake it　ココロ踊れ\n\n火照る体を今　解放して\n情熱的に　かつロマンチックに\n二人の世界へ\n\n君と夏が Calling Calling\n見つめるほどに深くハマってく\nLove you Love me\n交わるBody&Soul\n君と夏が Shinin' Shinin'　輝く\n取り乱しそうな自分にCalm down\nどうやって君の期待裏切ろうか？\nOh baby Lovin' you Oh Lovin' you\nもう止められない Can't stop my love\n\nこれは運命の悪戯　それとも夢の中\nいきなりの出会い　もはやドラマ\nSay Wow wow wow Wow wow wow\nココロの整理つかぬまま　始まるストーリー\n何もかも　何もかも　俺色に染めたくて\n押していこう　押していこう\n引かないさこの波のように\nWow wow wow　溢れるこの気持ちを\nWow wow wow　今すぐ届けたくて\n\nBaby Baby　この夏に捧ぐ\nShake it Shake it　ココロ踊れ\n\n夜空に咲いた花火のように\n情熱的に　かつロマンチックに\n二人の世界へ\n\nこの想いは Rolling Rolling\n誰にも分からない恋の行方\nもっと　もっと\n近づいてStay with me\n何もかもが Crazy Crazy　戸惑う\n余裕なフリして君にSmile\n絶対に君を離したくはない\nOh baby Lovin' you Oh Lovin' you\nもう止められない Can't stop my love\n\n一夏の恋と分かっていても\n走り出す気持ちに素直にいるよ\n(Oh baby my love)\n戻れない時間の中で後悔はしないように\nもっと君を知りたいんだ\nそばにいさせて\n\n君と夏が Calling Calling\n見つめるほどに深くハマってく\nLove you Love me\n交わるBody&Soul\n君と夏が Shinin' Shinin'　輝く\n取り乱しそうな運命にCalm down\nどうやって君の期待裏切ろうか？\nOh baby Lovin' you Oh Lovin' you\nもう止められない Can't stop my love",
     },
     {
         id: 184,
@@ -2393,7 +2393,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "ひとりぼっちだと思ってた　夕陽に背を向けて\n僕らはのら猫みたいに　いったり　きたりして\n\nみんなそうだと思ってた　君に出逢うまで\nまわりの瞳(め)に疲れては　夢をみることも忘れて\n\n「ありがとう」も　「ごめんね」も　「あいたい」も\nゆびきりみたい　君と僕を　結ぶメロディ\n\nうまく声には出来なくても　信じてみたくて\nその手を握った\n\n愛に頼ってみたくて\n僕らは寄り添っていた\nたとえば君にとっての愛とは違っても\n何も出来なかったとしても\n夜が明けるよ\n\nあたりまえだった事が　君と違って\nその度に　はにかんで　少し近づいて\n\n君が今好きなものが　もっと好きになって\n僕の大事なものを　もっと知ってほしくて\n\n言葉　言葉　ぶつけ合って　見つけたんだ\n抱えている不安とか　鈍い痛み\n\nうまく声には出来ないけど　ずっと聞こえてたんだ\n今ならわかるよ\n\nただ　愛に触れていたくて\n君と笑っていたくて\n時に言葉がすれ違ってしまったとしても\n想いは消えないから\n\nすべて愛だなんて　そんな訳ないし\nただ口にすると　大げさで照れ臭いけど\nこんな歌なら\n僕ららしい気がすんだ\n\nずっと愛に触れていたくて\n明日を変えてみたくて\nでもまだわからないまま\n\n愛に頼ってみたくて\n僕らは寄り添っていた\nたとえば君にとっての愛とは違っても\n何も出来なかったとしても\n\n夜が明けるよ\nきっとそうだろう\n夜が明けるよ\nみんなそうだろう\n\nみんなそうだろう",
     },
     {
         id: 185,
@@ -2406,7 +2406,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "明日が来れば　きっと笑顔\n腐らずに行け　この世界を\nひとりで　悩んだりしなくていい\nそう　前へ！　前へ！　もっと！　前へ！\n進むしかねぇ！！\n\nどれだけ今が辛くても　泥だらけの毎日でも\n凸凹道を転ぶけど　リアルな話　上等だぜ\n君も気づいている筈さ　いつもお利口なフリして\nお手本通りに生きるのも　苦しくないかい？\n\n精一杯　誰かを頼っていいんだよ\n大丈夫　みんなにはこの唄がある\n\n明日が来れば　きっと笑顔\n腐らずに行け　この世界を\nひとりで　悩んだりしなくていい\nそう　前へ！　前へ！　もっと！　前へ！\n進むしかねぇ！！\n\n今はなんも見えなくても　ただ過ぎる毎日だけど\nあっちこっちぶつかって　辿り着ける場所がある\nだから見守ってくれよな　猪突猛進　我が人生\nお前らと共に行けるなら　楽しくなるさ\n\n精一杯　強がって生きてもいいんだよ\n大丈夫　みんなにはこの唄がある\n\n明日になれば　もっと笑顔\nその為に生きる　この時代を\nひとりきりだなんて　思わないで\nそう　前へ！　前へ！　もっと！　前へ！\n進むしかねぇ！！\n\n曖昧な覚悟しかできずに\n意味あり気に　言葉をじらして\nもがきながら　導き出した\nまだこのままじゃ　やめられねぇよ！\n運命を変えてゆけば　そこから何かが始まるさ\n不器用でも　走り出せよ　ありのままに\n\n明日が来れば　きっと笑顔\n腐らずに行け　この世界を\nひとりで　悩んだりしなくていい\nそう　前へ！　前へ！　もっと！　前へ！\n先へ！　先へ！　もっと！　先へ！\n進むしかねぇ！！",
     },
     {
         id: 186,
@@ -2419,7 +2419,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "Blow my mind 現実も now blind\n目を閉じても消えない You are mine\n惑わされても今日は良いんじゃない？\n重ねた言い訳分だけ\nWant you babe\n\n覗かれてしまった心の中\n苦笑いで hide it\nChicなまま\nOh baby tonight\n目そらさないで\nこのまま君を乗せ ride it\n\nI just wanna feel you　今すぐ\nSo cliche な frameから抜け出して\nOh what is your name？\nLet's skip it\n名前は　必要(いら)ない\nコールするのは君さ\n\nI'm on it oh\nPut my cherry on top top\nSweeter than sweet\nTry me cherry on top top\nFeeling so good\nBaby cherry on top top\nイメージ通りに触れる Love Chain\nI'm on it\n\nYea　まるでケーキ Come here\n指先え“付け”“Taste”“Fallin”\n今 Focus　ズームアップYou, Meふたり\n周りはええんちゃう？　このままで\nリズム合わせて踊ろう\n息をつき、甘くTake slow\nたどり着くココはTasty\n一つになる Marinade\n\nもう我慢できないんだ\nCome get closer now\n首に手まわして\nRiskyなまま\nOh Baby tonight\nもう離せないよ\nこのまま君を乗せ ride it\n\nI just wanna feel you　今すぐ\nSo cliche な frameから抜け出して\nOh what is your name？\nLet's skip it\n名前は　必要(いら)ない\nコールするのは君さ\nI'm on it\n\n刺激的な　この絆\n想うだけで Feel the groove\n後か　先か Cherry on the top\n譲れない Sweet な you\n\nI just wanna feel you　今すぐ\nSo cliche な frameから抜け出して\nOh what is your name？\nLet's skip it\n名前は　必要(いら)ない\nコールするのは君さ\n\nI'm on it oh\nPut my cherry on top top\nSweeter than sweet\nTry me cherry on top top\nFeeling so good\nBaby cherry on top top\nイメージ通りに触れる Love Chain\nI'm on it",
     },
     {
         id: 187,
@@ -2432,7 +2432,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "まだアイツ笑ってる\n一番のツマミだな\n最近どう？って口を突いて出た\n一言じゃ言えない日々\n\nオレがオレのまんまでいれるのは\n一人じゃないから\n思い出が思い出になったのは\nオマエらがそこにいるから\n\nあぁそっか\nいつもありがとな！\n\nだんだん年を取り\n人生変わってゆく\nちっぽけな自分も\n信じてこそかなぁ\nきっと汗もかき\nちゃんと恥もかく\nあの子可愛いよな\n生きてくって大変だ\n\n逆上がり出来るかな？\nいやいや、出来るでしょ\n50メートル走れば何秒？\nわかんねぇ　シャララララ\n\nもしもお先真っ暗になっても\nオレにはオマエ　オマエにはオレ\nひとまず　ええじゃないか\nまた飲もうぜ！\n\nだんだん年を取り\n人生変わってゆく\nちっぽけな自分も\n信じてこそかなぁ\nきっと汗もかき\nちゃんと恥もかく\nあの子可愛いよな\n生きてくって楽しいんだ\n\nラララララララ　また飲もうぜ\nラララララララ　また会おうぜ\nラララララララ　また笑おうぜ\n生きてくって大変だ\nまだ飲もうぜ\nラララララララ　さぁ行こうぜ\nラララララララ　さぁ歌おうぜ\nラララララララ　生きてくって楽しいんだ\n\nラララララララ　また飲もうぜ\nラララララララ　また会おうぜ\nラララララララ　また笑おうぜ\nチェイサーも忘れんな\nまだ飲もうぜ\nラララララララ　さぁ行こうぜ\nラララララララ　さぁ歌おうぜ\nラララララララ　ヨイショ！みんなで\n飲んだって　ええじゃないか",
     },
     {
         id: 188,
@@ -2445,7 +2445,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "どうしてだろう　僕が飲んだ緑茶だけ濁って見えて\nどうしてだろう　シミ抜きしたはずなのに消えなくて\n\n寂しいとも違う　悔しいとも違う　そんな時があって\n汚い気持ちを　落としたい時　あなた思い出す\n\n大人になっても変わらない　悩みは大抵変わらない\n抜け出した瞬間また来た　御伽の国じゃないから\nひどい顔で泣いた日も　欲張って転んだあの日も\n錆び付いて真っ黒なのに　あなたは言ってくれた\n\n花束みたいだ綺麗さ　派手じゃない色だって必要さ\n大丈夫さ　抱えきれなくて　溢れそうな時は\n一緒に抱えるよ\n\nそんなこと言うから　忘れてた深呼吸してみたよ\nそんなこと言うから　錆びたとこ少しずつ溶けてくよ\n\n「もしこうなったら　もしダメだったら」は　旅の荷物になる\n大抵のことは　笑い話になる　時間て素敵だ\n\n胸が傷ついた音は　誰にも聞こえないから\n忘れるくらい綺麗な　音を探し続けるよ\nまた濁って見えても　汚い気持ちになっても\nあなたが言った言葉を　口ずさむよ\n\n花束みたいだ綺麗さ　派手じゃない色だって必要さ\n大丈夫さ　抱えきれなくて　溢れそうな時は　一緒に抱えるよ\n花束みたいな日だって　錆び付いて濁った日だって\n大丈夫さ　抱えすぎたら　御伽の国じゃないから　ちゃんと手放すよ\nそして思い出すよ　僕が花束なんて　笑っちゃうよ\n\n花束みたいだ　大丈夫さ",
     },
     {
         id: 189,
@@ -2458,7 +2458,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-01-19",
-        lyrics: "",
+        lyrics: "誰かが泣いているなら\n涙あとの虹待ってさ\n微笑み一つ　ほら咲かせていきましょう\n\nダメになりそうな時は\n鏡の前でピースサイン\n微笑み一つ　ほら枯れないように\n\n僕らは出会い重ね\n生まれてきた希望のメロディー\nいつまでもずっと奏でていこう\n\n微笑み一つ　咲かせてあげましょう\n君のその笑顔は巡り巡り\n世界を回って笑って戻ってくる\nいつか誰かのため　愛のために生きていこう\n「ありがとう」からの「おかげさま」で\n僕らの星は育つ\n\n誰もが強いわけじゃない\nだからこそ歩み寄ってさ\n微笑み一つ　ほら咲かせていきましょう\n\nそばにいるだけでいいのさ\nそれだけでただそれだけで\n微笑み一つ　一つずつ増えていく\n\n僕ら迷いそうな夜\n「大丈夫」って一歩踏み出せたのさ\nいつも君が僕にくれたから\n\n微笑み一つ　咲かせてあげましょう\n当たり前じゃない毎日に届けていこう\n大切な君と過ごしていく日々に\nそして誰かのため　愛のために生きていこう\n「ありがとう」からの「またあしたね」で\n僕らの未来(あす)は育つ\n\n夢が溢れ\n愛に触れて\n色づく笑顔は\nこの世界もっともっと\n大きな輪に変えていくんだ\n\n微笑み一つ　咲かせてあげましょう\n君のその笑顔は巡り巡り\n世界を回って笑って戻ってくる\nいつか誰かのため　愛のために生きていこう\n「ありがとう」からの「おかげさま」で\n僕らの星は育つ",
     },
     {
         id: 190,
@@ -2471,7 +2471,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "Yeah... It's 超JUICE Yeah....\n\n(Mixed Juice, We're 超JUICE)\n(With you, It's more GOOD)\n\nどんがらがっしゃん\nよせよ冗談w\nお釈迦さま\nお願いONE CHANCE\n\n評論家ぶってる暇無し\n好きなもんなら　マシマシ\nまだ人間性だけじゃ勝負出来ないから\nムチャブリ OK！　毒見させて\n\nイイねの王者 Shows up\n限界を突破　ヤバっ！\n考える前に　脳みそ Rock it\nグイグイいこうぜ\nHey！\n\nイイ予感しかない\n俺ら Mixed Juice ばりに超JUICE\nワクワクしたいじゃない！？\n大胆に Shake it, Shake it　オーライ\n\nエビバディ　サムバディ　陽気にハングリー\nおいしすぎるでしょ？\nYes！ No？　どうなの？\n過去イチ　シュガーハイ\n超JUICE\n\n(Mixed Juice, We're 超JUICE)\n(With you, It's more GOOD)\n\nいけるっしょ　やれるっしょ\n歌うっしょ　ならば　踊るっしょ\nHA HA　お腹空っぽじゃ Weekend\n乗り切れないぜ My friend！\n\n逃げなかったって証\n褒めてくださいって話\nたぶん完成型　もう見えてるから\nあとのせ OK！　あとまかして\n\nなんだかんだ　最高\n最強の相棒\nガンガン行こうぜ\nHey！\n\nイイ予感しかない\n君ら Mixed Juice ばりに超GROOVE\nドキドキしたいじゃない！？\n大胆に Shake it, Shake it　オーライ\n\nエビバディ　サムバディ　陽気にハングリー\nクセあっていいでしょ？\nYes！ No？　どうなの？\n過去イチ　パーティーハイ\n超JUICE\n\n飲み干したいじゃない？\nこんな Mixed Juice ばりの運命\n味わおうじゃない\n「まだまだJOYしてこうか？」\nHey！\n\nイイ予感しかない\n俺ら Mixed Juice ばりに超JUICE\nワクワクしたいじゃない！？\n大胆に Shake it, Shake it　オーライ\n\nエビバディ　サムバディ　陽気にハングリー\nおいしすぎるでしょ？\nYes！ No？　どうなの？\n過去イチ　シュガーハイ\n超JUICE\n\n超JUICE",
     },
     {
         id: 191,
@@ -2484,7 +2484,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "大阪府の面積は　ちょっと前まで日本で最小\nやけど関空出来て　香川抜いて今はブービー　知らんけど\n(知らんのかい)\n一本筋の通った道大阪の大動脈\n御堂筋はノンストップ　だけど高速ちゃうで　知らんけど\n(知らんのかい)\nキタもミナミもえぇ街　それぞれの個性が花開く\nミナミでハメ外して　キタでしっぽり大人の街　知らんけど\n(知らんのかい)\nYO！　とにかくノリのえぇとこ　ノリツッコミで出来たDNA\n府知事がボケりゃ子供ツッコむ　心の垣根超えろ　知らんけど\n(知らんのかい)\n知らんけど\n(知らんのかい)\n\n大阪は今日も雨　知らんけど\n(知らんのかい)\n大阪は午前2時　知らんけど\n\n知らんけど It's magic　(知らんけど)\nオチの無い Indulgence　(知らんけど)\n笑顔になれよ Smile　(知らんけど)\n溺れさせて Punch line\n\n知らんけど\n(知らんのかい)\n\nその言葉は魔法　どんなシーンでも心を開放\nせや一度試しに言うてみたらえぇねん　知らんけど\n(知らんのかい)\nお客様やったらMでえぇんちゃいます？　知らんけど\n(知らんのかい)\nおかげさまでめっちゃ好評らしいで　知らんけど\n(知らんのかい)\n早起きは三文の徳やで　知らんけど\n(知らんのかい)\nまぁ、言うてもなんとかなるんちゃうかな　知らんけど\n(知らんのかい)\nこんなん適当やで　知らんけど\n(知らんのかい)\nえぇ感じちゃう？　知らんけど\n(知らんのかい)\nうん、知ってる　知らんけど\n(知らんのかい)\n\n大阪は今日も雨　知らんけど\n(知らんのかい)\n大阪は午前2時　知らんけど\n\n知らんけど It's magic　(知らんけど)\n午前2時の Teardrop　(知らんけど)\nお約束の Running joke　(知らんけど)\nワガママな Rainy train\n\n知らんけど\n(知らんのかい)\n\nただの　ただの　ただの悪戯な口癖やねん\n(知らんけど)\nホンマはな　知ってるんやで\n(知らんけど)\n知ってるんやで…\n知らんけど…\n\n知らんのかい\n\n知らんけど It's magic　(知らんけど)\n朝靄の Ponytail　(知らんけど)\nA・FU・SA・KAの Tenderness　(知らんけど)\n風の中に Be cool\n\n知らんけど\n(知らんのかい)\n\n大阪は今日も雨　知らんけど\n大阪は午前2時\n知らんけど",
     },
     {
         id: 192,
@@ -2497,7 +2497,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "涙腺が緩くなったと笑ってる　僕らの絆はきっと強くなった\nもう長いこと　同じ歩幅で　踏みしめてきた　僕らの軌跡\n\n見失う度に　差し出しあって\n立ち止まる度に　励ましあって\n僕が勇気を取り戻すのは\n決まって　君の隣だった\n\nなんか照れくさい言葉ほどまっすぐにこの想い\n伝えてくれるから厄介だな\nまたこみ上げてくる前に受け取ってくれるか\nありがとう　君がいて良かった\n\n涙腺が緩くなったと笑ってる　僕らの心はきっと強くなった\n雨の冷たさ　闇の深さも　知らなかったあの頃と違って\n\n一人じゃないと気づかせあって\n諦めんなと声をかけあって\n僕が自分を越えられたのは\n決まって　君の隣だった\n\nなんかくだらない言葉ほどいくらでも言えるから\nいざというときに　そう　躊躇うよな\nまた誤魔化してしまう前に早く言わなきゃ\nありがとう　君がいて良かった\n\n出会った頃の僕らに向かって　何か言えることがあるとしたら\n「大丈夫だよ　信じてゆけよ　かけがえのない旅になるから」\n\nなんの嘘もない言葉ほど喉元につっかえて\nせりあがる愛が苦しいよな\nでも届けたい　もう一度　聞いてくれるか\n\nなんか照れくさい言葉ほどまっすぐにこの想い\n伝えてくれるから厄介だな\nいつか言えなくなる前に受け取ってくれるか\nありがとう　君がいて良かった\n\nこれからも　ずっとよろしくね",
     },
     {
         id: 193,
@@ -2510,7 +2510,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "1枚限りのチケットを握りしめ\n地平線の先へと旅をしてる途中だ\n\n瞬き一つで変わってく時代　僕らは何を残せるだろう\n足跡をログ替わりにただ前へ\n\n見慣れた光景にさようなら　覚悟してドアを叩いた\n意地とかプライドとか重たい荷物背負ってるんだ\n夜明けを待ちきれないのなら迎えに行けばいいさ\n\n高らかに夢を謳おうぜ　戯言(たわごと)戯言(ざれごと)上等だって\n辛い時こそ笑ってる君も強いんだ\n根拠のない自信だって立派なエンジンなんだ\n誰よりも高く翔べ\nJust believe yourself！！\n\nほどけた靴紐に無意味に苛立ったり\n行き場のない憤り抱えて右往左往\n\n轟音響かせ飛び立つ姿　空を仰いでいる僕らは\n迷い悩むちっぽけな存在さ\n\n天秤にかけた〇と×　答えはもうわかっていたさ\n後先よりも疼く脚に正直になりゃいいさ\n\n高らかに今は歌おうぜ　でかい雲が行手阻んだって\n捉え方次第でどーにでもなるのさ\n風の中を駆け抜けて　遠く遥か先まで\n笑う為にさぁ進め\nDon't be afraid！！\n\n昨日にはもう戻れない　明日の自分を信じていたい\n別れ道で心が揺れても　羽が傷み錆び付いても\n立ち尽くしている暇なんかないのさ\nかかるGも楽しんで　さぁ舵を切れ\n\n涙は恥ずかしくないぜ　君がここに居る証拠だって\n生きている理由を空へ向け叫ぶんだ\n\n高らかに夢を謳おうぜ　たとえヒーローじゃないとしたって\n僕らの轍を時代へと刻むんだ\n思うまま好きに描け　キャンバスは真っ新なんだ\n乱気流を乗りこなせ Just believe yourself！！\n誰よりも高く翔べ Just believe myself！！",
     },
     {
         id: 194,
@@ -2523,7 +2523,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "Ohhhh！！\nJ (J！！) WEST (WEST！！) J (J！！) WEST (WEST！！) Go, Ready go！！\nJ (J！！) WEST (WEST！！) J (J！！) WEST (WEST！！) Ready go！！\n\nこれが俺たちのソウルスタイル\n耳かっぽじってよく聞け (OK！！)\nかなりハンパない　そんなParty time\nさあ皆んな準備はOK？ (Oh yeah！！)\nReady？ Bow Wow WEST (WEST WEST！！)\n兎にも角にも出しゃばれ (You know I'm saying！！)\n口から産まれたFreestyle boy\nここらじゃそんなん結構多い\n\n共に共にBounce yeah　巡り巡るHappiness\n3, 2, 1！！\n\nLet's go, Anything goes！！ (Hey！！)　I got it (Ho！！)\nこの夜を越えて　Get up　踊ろうぜ\nLet's go, Anything goes！！ (Go！！)　I got it (Ho！！)\nその声張り上げ　Your mind　解き放て (Yeah yeah yeah！！)\n揺らせ\n\nHolla back Holla back\nDon't stop get it get it\nJust keep it on\n\n間違いないナンバー　上げろバンバン\nそうOne shotだけでパッと酔わすパフォーマンス\nキレたエンターテイナー\nMVPよりV.I.P.　そんなライマー\n登場　とにかくGoes on　思い立ったなら我れ先行動\nDo or Die？　ならやっちゃうスタイル\nだからShall we dance, all night！！\n\nかなりかなりHype yeah　何もかもがHigh sense\n3, 2, 1！！\n\nLet's go, Anything goes！！ (Hey！！)　I got it (Ho！！)\nまだ未知なゾーンまで　Get up　飛ばそうぜ\nLet's go, Anything goes！！ (Go！！)　You got it (Ho！！)\n心を滾らせ　Right now　叫びだせ (Yeah yeah yeah！！)\n共に\n\nEverytime Everywhere I think of you\nそのsmileだけを I just hope you\nYes, I know　君が望むのなら\n覚めない夢まで連れてくよ\nその扉開けたなら　Now, Let's go！\nAre you ready？\n\nPlease, My baby Uh\n\n共に共にBounce yeah　巡り巡るHappiness\n3, 2, 1...Rewind！！\nかなりかなりHype yeah　何もかもがHigh sense\n3, 2, 1！！\n\nLet's go, Anything goes！！ (Hey！！)　I got it (Ho！！)\nこの夜を越えて　Get up　踊ろうぜ\nLet's go, Anything goes！！ (Go！！)　I got it (Ho！！)\nその声張り上げ　Your mind　解き放て (Yeah yeah yeah！！)\n揺らせ\n\nJ (J！！) WEST (WEST！！) J (J！！) WEST (WEST！！) Go, Ready go！！\nJ (J！！) WEST (WEST！！) J (J！！) WEST (WEST！！) Ready go！！",
     },
     {
         id: 195,
@@ -2536,7 +2536,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "Ah…oh yeah, come on baby\nBorn to be wild, let's go\n\n完璧すぎる sweetest girl\n気が付いたら into your eyes, yeah\n刻む step　ほら look at me\nエスコートするから so let's get dancin' now\n\nOh…\n見つめ合えば woof, woof, woof, let's go\nBaby, so ready for this…\n\nBorn to be wild　強引に君を引き寄せ\nBorn to be wild　この愛表現(プレゼン)して\nBorn to be wild　遠慮はいらない感じるままに\n優等生なシンデレラやめて wild…\nWe scream and shout…wow…yeah…\nBorn to be wild　自分を開放して\n\n日常に溢れる black and white\n今夜は忘れて break the chain, yeah\n本能と beat で change your mind\n激しく踊れば so we can feel paradise\n\nOh…\n響き渡る woof, woof, woof, let's go\nBaby, so ready for this…\n\nBorn to be wild　大胆に手を握り締め\nBorn to be wild　この愛不意打(サプライズ)して\nBorn to be wild　後悔させない身を任せて\nガラスの靴を脱ぎ捨てて wild…\nWe scream and shout…\nWe scream and shout, you know？\n\nLet's get started\nI'm waiting for you, my baby\nさぁ溶け合おう　夢中で解けないmagic\n君のreaction　止まらないよ crazy in love…\n\nBorn to be wild　止まない love\nBorn to be wild　身を委ねて trust me\nBorn to be wild, born to be wild, yeah…\nBaby…\n\nBorn to be wild　強引に君を引き寄せ\nBorn to be wild　この愛表現(プレゼン)して\nBorn to be wild　遠慮はいらない感じるままに\n優等生なシンデレラやめて wild…\nWe scream and shout…\nBaby…yeah…\nWe scream and shout…wow…yeah…\nBorn to be wild　自分を解放して",
     },
     {
         id: 196,
@@ -2549,7 +2549,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "霧がかった　神秘的な夜\n月明かり　ふたりだけの船\n浮かべ見つめあって話をしようよ\n\n小さな頃の夢\n苦手な味　好きな季節も\n僕はまだまだ君のこと知らないけど\n\nきっとなんかのためにさ\nちょっと無理して笑ったりして\n空もしょんぼりさ\n\nBaby　月が結んだ出会い\n僕があげられるものは何もないから\n「代わりに漕ぐよ」なんて言ったら\nちょっと目を逸らした隙に消えちゃいそう\nでも気づいてないフリできない\n僕はそんな君を守りたいから\n\nまたそうやって\n誰かの幸せばっか願って眠れないん？\nこんな傷だらけでどこいくん\nここにおいでよ\n僕にはそんな顔しなくていい\nそう思いながらくしゃっと笑う君が眩しい\n優しさを振り翳すわけじゃない君はもう…\n\nきっと何度傷ついても\nちょっと無理して笑っちゃうから\n空も晴れるのさ\n\nBaby　もっとワガママになってみせてよ\n君を困らせる全部\n「代わりに持つよ」触れかけた心\nそっと分けてくれるまで待つよ\n\nBaby　もう幸せを受け取って\nこれ以上なにも望めやしない\n今は　頭を撫でて側にいるだけさ\nOnce in a blue moon\nつぎの月夜まで\nまた気づいてないフリをしよう\n僕はそんな君を守りたいから",
     },
     {
         id: 197,
@@ -2562,7 +2562,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "やっぱりね\nもうダメって言えないよね　普段通りしてたくて\n「最後かなぁ」って\n洗濯カゴを手に　泣かせた\n\nサヨナラ茶化すような魔法下さい\n戻りたい戻れない\n代わりばんこでサイン　夢見てきた\n\n愛しあう　ただ愛しあう\nだけじゃどうにもならないこと\n忘れないなんて　忘れてゆくから\nそんな事言われたっけ\n\n今日もチックタックチック\nおかしいね　涙さえサヨナラしてる\n\nお花見って騒がしそうで\n秋のほうが好きかなって\n手を引かれた桜並木\n春がいちばん好きになった\n\n芽吹いてく　ただ芽吹いてく\nだけでどうして咲いてゆくの\n変わらないなんて　変わってゆくのか\n君に出会い何もかもが変わったように\n\nチックタックチック\nおかしいね　涙とサヨナラしてる\n\n二人チックタックチック\nおかしいね　誰かと出会ってゆく\n\nいつかチックタックチック\nおかしいね　桜は舞い上がり落ちてゆく\n\n愛しあう　また愛しあう\n誰かのとなりでラララララ",
     },
     {
         id: 198,
@@ -2575,7 +2575,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "深くまで沈んで　冷えた心は\nわずかな温もりにも気がつけた\nそれこそが日々「当たり前」と呼んだ\n無防備な優しさ　きっと愛だ\n\n生きがいは　一人一つじゃなくていい\n大切は　一人一つじゃなくていい\nいくつでも　何度でも　好きなだけ\n教えてくれたのは　あなただった\n\n知れば知るほど　広がる世界\n触れれば触れるほど　知らない自分\nありのままがどれかはわからないけど\nあなたといる自分は笑ってる\n\nありふれているなんてこと\nありえないんだろうなあ\n\nよくある話も　当事者にだけは\n絶望にも　幸せにもなるから\n同じ気持ちじゃなくていい\n僕ら　互いのこと　少し想えたら\n\n生きがいは　一人一つじゃなくていい\n大切は　一人一つじゃなくていい\n「当たり前」は　ずっと特別だった\n無防備な優しさ　愛をありがとう\n\nありふれているなんてこと\nありえないのなら\n沈み込んだ理由さえも\n翼になるかな\n\n知れば知るほど　広がる世界\n触れれば触れるほど　知らない自分\nありのままがどれかはわからないけど\nあなたといる自分が好きだ\n\nよくある話も　当事者にだけは\n絶望にも　幸せにもなるから\n同じ気持ちじゃなくていい\n僕ら　互いのこと　少し想えたら\n\nそれこそが日々「当たり前」と呼んだ\n無防備な優しさ　きっと愛だ",
     },
     {
         id: 199,
@@ -2588,7 +2588,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "冬が終わって春が来るように\n気づいた時には大人になっていた\nいつか僕も誰かの思い出の花瓶の中で\n枯れてゆくのだろう\n\n空白がいつか君になっていた\n君がいつかメロディになっていた\nそうやっていつか煙になる頃に笑えるように\n\n季節と共に\n変わっていく僕を怖がらないで\n変わっていく君を責めないで\n花は散って、人はさよならを繰り返す\nC'est la vie, c'est la vie！\n笑えないことばかりが増えてしまって\n流せない涙が溜まってく\n綺麗じゃなくても\n伸ばした手を拒まれても\nうつろいながら続いていく\nC'est la vie.\n\n冬が終わって春が来るように\nあの日の僕らを洗った涼風が\n花で飾った君を鮮やかに染めてゆく様\nあんまり綺麗だから\n\n育った風景が懐かしくなってゆく\nいくつの思い出を落として来たんだろう？\nそうやって傷が増えた代わりに君を知れたように\n\n日に日に変わっていく僕も悪くはないと\n変わっていく君も素敵だと\n少しずつだって受け入れられますように\nC'est la vie, c'est la vie！\n笑えないことばかりが増えてしまって\n流せない涙が溜まってく\n綺麗じゃなくても\n伸ばした手を拒まれても\nうつろいながら続いていく\n\n雪が泥になるように\n人が思い出になるように\n僕の心の何もない場所に\n君が住み着いてしまったりして\n全てがうつろっていく\n古い自分が流されていく\n先の見えない未来に漕ぎ出すこと\n怖がらないで進めばいい\nC'est la vie.\n\nC'est la vie！",
     },
     {
         id: 200,
@@ -2601,7 +2601,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "努力賞なんて後回し\n今は勝って満たされたい\n\nもういったい何度言い訳を並べ\n弱い自分を愛そうとしたの\nそんな事じゃ忘れられぬと分かりながら\n噛んだ砂の味を誰よりも知っているから\n自分はいいと諦めたんだよ\nそれでもまだ\n\n嗚呼　隠した想いがしなだれているんだ\nどんなに転んだり淀んだり止まったって\nその時のために\n\n努力賞なんて後回し\n今は勝って満たされたい\n「逃げてええやん」が鳴り止まない\nけどやっぱ勝ち取りたい\n今日を生きた者だけに明日が待ってる\n努力賞なんて後回し\n今分かって満たされたいだけ\n\nどうやってみたって結果は同じ\nそんな事は知ってんだから\n無謀な道は選びはしないと誓ったのに\n\n嗚呼　抑えた希望が夜中暴れるんだ\nどんなに堪えたり悶えたり眠ったって\n忘れられるかよ\n\n努力賞なんて後回し\n今は勝って満たされたい\n「これでええやん」じゃ物足りない\n勝ち取って見せつけたい\n起きて見る夢のため震え眠ってる\n努力賞なんて後回し\n今分かって満たされたいだけ\n\nこの野望きっと潰えない\n終わりだって見えもしない\nそんな人生を愛したい\n理由なんてありはしない\n\n努力賞なんて後回し\n今は勝って満たされたい\n「逃げてええやん」が鳴り止まない\nけどやっぱ勝ち取りたい\n今日を生きた者だけに明日が待ってる\n努力賞なんて後回し\nそこで待ってるアナタと\n今は勝って満たされたいだけ",
     },
     {
         id: 201,
@@ -2614,7 +2614,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "中間淳太＆神山智洋＆藤井流星＆小瀧望",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "Imagine you again\nWhen we were in California\n君をかすめた breeze\noutta words\nYou stole my view oh girl\nIn that summer mansion\nふと気付く My heart beat\n\nStay　同じぐらいの\nBPM\nIf you're falling behind\nI'll balance it\n\nFeel a little closer\nHeart to heart\n君と作る harmony\n\nI can feel this love is growing on\n二人だけの another\n(Love)\n\nAll my body on your body flowin'\n流れて fall\nComing through\nOh baby together\n\nWrinkled sheets are sweatin'\n嵐のような\nPlan B. It's true\nOh baby together\n\nBurning down the street\nOver and over now\n溶けるまで burn\n\nYou always play me right\n見つめ合う tonight\nI got what you need\n\nOver and over now\n溶けるまで burn\n\n駆け引きは要らない\n体が remember all of....\nYou, Even I'm your excuse\nI don't call it a lie\nOh my love\nGive me a sign\n(Tell me, what should I do)\n\nAll your body\nAll of your scent\nI know it\n隠したまま\nComing through\nOh baby together\n\nWrinkled sheets are flyin'\n囁くような\nPlan B. It's true\nOh baby together\n\nBurning down the street\nOver and over now\n溶けるまで burn\n\nYou always play me right\n見つめ合う tonight\nI got what you need\n\nOver and over now\n溶けるまで burn\n\nBurning down the street\nOver and over now\n溶けるまで burn\n\nYou always play me right\n見つめ合う tonight\nI got what you need\n\nOver and over now\n溶けるまで burn",
     },
     {
         id: 202,
@@ -2627,7 +2627,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "重岡大毅＆桐山照史＆濵田崇裕",
         date: "2022-03-09",
-        lyrics: "",
+        lyrics: "ちょっと未来につまづいて\n見上げた夜空が滲んで\nそんな日々と　そんな日々と\n情けない程うつむいて\n切なさに心震えて\nそんな夜と　そんな夜と\n\n通り過ぎれば小さな石ころ\n分かってるけど心は不器用\n大丈夫さいつもの事\n陽は昇り　沈む\n\nそうさ\n心には燻った火がある\nこの炎には情熱の名がある\n生きる事は辛くとも\n何度でも立ち上がるんだよ\n\n子供の頃は挑戦者\n止まったら死ぬ求道者\nそうだったろ　そうだったな\n今も変わらず挑戦者\n仲間と共に挑戦さ\nそんな事を　そんな事を\n\n愛を知るから起き上がるんだぜ\n背負ってるから潰れないんだぜ\n傷だらけでも笑えたら\n他にはもう　要らない\n\nそうさ\n俺達を繋いでる手がある\nこの温もりと高鳴った鼓動はエール\n生きてこその未来だと\n届けよう　遠く遠くへ\n\nいつかまた悲しみに打ちのめされて\n地を這うよな孤独が来るかも知れない\n切なさを抱きしめて　乗り越えた夜を\n噛み締めた唇は　忘れない傷跡のまま\n\n君の目に見えるのが希望なら\nどんな悲しみも吹き飛ばすヒーローになろう\nそれが俺達の明日\n俺達の生きる証さ\n\n心には燃えたぎる火がある\nこの炎には情熱の名がある\n生きる事は辛くとも\nこの手は　離さないから",
     },
     {
         id: 203,
@@ -2640,7 +2640,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "僕らの前に　流れる星の雨\n掴みたくて　掴めなくて　また手を伸ばし\nそこで夢から覚める\n忘れたいのに　忘れていいのか分からないのに\n輝きだけは覚えている\n\nもしも神様がいるなら　どんな顔してんだろう\nなんて言ったものの　興味もなくて\nただ続く道路(みち)を走らせる\nスピードを上げて　向かい風を受けるたび\nこんな季節なのに　少し肌寒く感じてしまうような\n\n別にもう　寂しくないよ全然この通りさ\n地図はないけど　身を任せてみようか\nいつだって平気だ　平気だ\n\n僕らの前に　流れる星の雨\n掴みたくて　掴めなくて　また手を伸ばし\nそこで夢から覚める\n忘れたいのに　忘れていいのか分からないのに\n残酷だ　輝きだけは覚えている\n\n枝わかれしてる　場所に何度もさしかかる\n通ってきたとこ　通らずきたとこ\n今も佇んで一人\n\n時が経って　忘れてしまったようで\nちゃんと覚えている事もあったりして\nあの夜も　あの朝も\n\nただもう少し　あともう少しだけ\n寝転がって　果てしなく続く夜空に\nそっと手を伸ばしてみる\n星を辿れば　僕だけの形になるかな\n朝がくるその前に　また走りだす\n\n目覚めよう　押し込もう\n今日も美しい一日が僕を待っている\n笑っていよう　押し込もう\n\nすぐそこにある　小さな奇跡には\nなかなか気付けず過ごしてしまうから\n上手くいかないもんだよな\nでも確かな温度は\n君と僕が感じたはずの僕らだけのこの人生は\n信じたい　ただそれだけ\n\n僕らの前に　流れる星の雨\n掴みたくて　掴めなくて　また手を伸ばし\nそこで夢から覚める\nもう届かなくても　もうそこにあるはずもなくても\n君と見た　輝きだけを覚えていく",
     },
     {
         id: 204,
@@ -2653,7 +2653,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "ちょっと待った　話そうぜ　いいか\nベストがマストなわけないさ\nいつからでも　燃やそうぜTHE SOUL\n全肯定型キャンペーン　いっちょかましましょ\n\nTHE SOUL！！\nTHE SOUL！！\n\n正解は　世界にあるのか？\n雑草って　誰が決めるんだ？\n「早起きは三文の徳」って\nそれ　誰得！？\nHhaaaa…\n\nみんな考え過ぎって\n自分だってそうで\n結局　一緒なんだな Ah\n\nカモン！\nEverybody　集合！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\n盛大に頬上げてみっか\n最大の味方は自分だ\n「三歩進んで二歩下がる」って\nいいじゃん　進んでんじゃん\nGOOOOOOOO\n\n自然体って　なんだろな\nどれもこれも全部ジブンか\n今はそれでいいんだな Ah\n\nカモン！\nEverybody　注目！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\nちょっと待った　話そうぜ　いいか\nベストがマストなわけないさ\n\n…とか言って\n真っ直ぐしか進めないし俺\n四六時中　超陽キャな君\n石橋叩いて壊すの誰？\n(あーーーー誰だ？)\n\n冒険　最善　好奇心旺盛　どーすんだ？！(どーすんだ？！)\n安心　安定　帰宅部OK　何が悪いの？(そうだよな！)\nこっそ　こっそ　無言実行も　マチガイない　そう(マチガイない！)\n行ったり来たりで　息してんだ\n話して　沸かして　どんちゃんしようゼ\n\nEverybody　集合！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\nTHE SOUL！！",
     },
     {
         id: 205,
@@ -2666,7 +2666,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "ガソリンランプが光ってる　オレンジに沈む夕日\n暗闇に渇いてく僕を今すぐに　抱いて欲しい\n\n1に君と\n2に僕は\n3しがない毎日が横たわる\n\n「GO WEST」のぞみはある\n最終列車へ急げ！今夜！\n\n君を抱きしめる\nほかに何にももういらない\n指折り数えて待った手を\nほどいて　伸ばしていく\n\n待ってるかい？君は\n行けよ行けばわかるんだ\n記録にも記憶にも残すような\n自己ベストで抱いてやる\n\n1に孤独\n2に涙\n3しあわせはどこにある\n\n「GO WEST」元気ですか\n会いたいから何でも出来る\n\n1、2、3、\n\n大好きだ　愛してる\nほかに何にももういらない\nぬくもり数えて笑ってた\nあの日々　取り戻す\n\n待ってるかい？君は\n行けよ行けばわかるんだ\n記録にも記憶にも残すような\n自己ベストで愛してね\n\n記録とか記憶とかどうでもいいや\n自己ベストでギュッと抱いてやる",
     },
     {
         id: 206,
@@ -2679,7 +2679,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "脳内駆け巡る　ただ　心ごと全て奪うMy girl\n後悔などさせないから　So baby you can count on me\nこんなジグザグの君と僕の恋の始まりは突然だった\n最初はお互いに気にしてなかったのに\n\nこんな好きになるとは思わずに　Baby　引き込まれたMaze\n迷ったまま探さないExit\n閉じ込めた気持ちの中で二人彷徨ってゆきたい\nC'mon baby\n\nCan you feel my love　手を繋いで\nLaugh and laugh　So KissしてHugしよう\n君以外　興味無い Crazy about you, crazy about you\nLove me, love me　君の愛をもっと感じたい\n瞳閉じて Crazy about you, crazy about you\n\n決められた人生なんてNo way　だけど君との出会いは運命\nその横顔守ってゆくよ　何があってもJust don't care\n\nどんなチグハグも君と僕を彩る為の演出だって\n些細な言い合いも絆を深めてゆく\n\nそうさ Crying　涙は似合わない　Timing逃さず取るMood\nたった一瞬でも逃さないメモリー\n気付かぬようにそっと　僕の色に君を染めてゆく\nC'mon baby\n\nCan you feel my love　繰り返し\nTouch your heart　君で心埋まるまで\n君以外　興味無い Crazy about you, crazy about you\nLove me, love me　体温で溶けるぐらいの恋しよう\nもっと感じて Crazy about you, crazy about you\n\n何もいらない君がいるだけで\nEveryday, Everynight, All my life\nTell me, tell me, tell me, tell me, How about you？\nずっと君のそばで感じよう\n二人だけの愛の言葉\n\nCan you feel my love　手を繋いで\nLaugh and laugh　So KissしてHugしよう\n君以外　興味無い Crazy about you, crazy about you\n\nCan you feel my love　手を繋いで\nLaugh and laugh　So KissしてHugしよう\n君以外　興味無い Crazy about you, crazy about you\nLove me, love me　君の愛をもっと感じたい\n瞳閉じて Crazy about you, crazy about you",
     },
     {
         id: 207,
@@ -2692,7 +2692,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "「愛」という嘘だらけの　この街じゃまた笑われたり\n何が正義かなんて　突然悩んで怯えたり\n\n「そこには何もない」「金にならないからしない」\n「楽しそうだからやる」「嫌われそうだからやめておこう」\n\nどんな理由だって人生は\n間違ってもそう　完璧じゃなくても\n信じた明日が答え\n\n意味などないって笑う世界が\n呆れるくらい　イキテヤレ\nリアルな自分に正直になって\n無駄こそ　僕らの生きるパワー\nそこに意味は生まれてゆく\n\n「とりあえず」が口癖にいつも歩いてしまうけど\nそれは本心じゃなくて　理想はちゃんとあって\nでも「今日は何食べよう」とか考えるだけで\n幸せになれたり　なれなかったりもする\n\n夢なんてなくたって人生は\n笑えるのにな　涙できるのに\n何か探してしまうよ\n\nなりたい自分に逢える気がして\nだからこそまだ　イキテヤル\n誰かが描いた地図にないような道でも\n眩しいと思う方へ…\n\n不揃いな僕ら　それぞれ違うけど\nみんな見上げる　青空を\nその下で何ができるのかなんて\nわからないけど　もう少し知ってみたくて\n\n意味などないって笑う世界が\n呆れるくらい　イキテヤレ\nリアルな自分に正直になって\n無駄こそ　僕らの生きるパワー\nそこに意味は生まれてゆく",
     },
     {
         id: 208,
@@ -2705,7 +2705,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "水たまりに　反射した空\n君はなにをしてるかな\nぼんやり歩いてたら　染みてくつま先\n気づかないうち　アイスは溶けて\n\nカメラロール　ふざけた夏が\nいとしくて　ぎゅっとなる　会いたいや\n色づく季節を　確かめあってから\n当たり前が　ずっと\n\nああ　瞬いて　きらり　雨粒みたいに\nそう、きらり　今を照らすんだ\n雲の切れ間から　こぼれた\nホントの愛が\n\nいつか　寝ぼけた朝　聴いたような\nめまいのなかで　見たような\n曖昧なシアワセの途中\n君のままで　僕のままで　続くように\n\n空回りで　張り切るくせに\nタグのついたままのシャツ\nほっとけない人だと　笑ってくれるから\n退屈だって　好きになれたんだ\n\nたぶんそうだ　この恋だけは\n何十年　何百年　キリないや\n汗ばむ想いが　夜風に冷めても\n深いとこで　もっと\n\nああ　夢のなか　ゆらり　漂うみたいに\nそう、ゆらり　同じ歩幅で\n寄り道しながら　見つけた\n心のありか\n\nいつも　やけにさ　照れ臭くなって\nダメだな　冗談めかして\n曖昧な約束ばかり\n形にしよう　言葉にしよう…今度こそは\n\n初めてだよ　こんな素顔\n僕が最後なら　いいのに\nおどけた嘘まじり　でもホントの気持ち\nひとつになる　甘い味\n\nああ　瞬いて　きらり　雨粒みたいに\nそう、未来さえも照らすんだ\n雲の切れ間から　こぼれた\nホントの愛が\n\nいつか　寝ぼけた朝　聴いたような\nめまいのなかで　見たような\n曖昧なシアワセの途中\n君のままで　僕のままで　続くように",
     },
     {
         id: 209,
@@ -2718,7 +2718,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2022-08-03",
-        lyrics: "",
+        lyrics: "(It's burning hot!!) Summer Memories\n(Heating the Beat!!) Summer Memories\n\n雲間から射す光を\n(Feelin' the winds) キャッチして\nクラっとくるくらいでBaby\n(Crazy! Crazy!!) 焦がす胸\n\nLet's have a good time!! good time!!\n何度だって交わそうフィーリング　浜辺に繰り出して\nLet's have a good day!! good day!!\n迫る波音が　憂鬱を吹っ飛ばすBGM\n\nBurning da 太陽に向かって\nWhat's up!?What's up!?\n水平線遥か蜃気楼へ　夏を迎えに行こう\n\nClap your hands!!!\n日差しスリ抜け　気分最高潮\n君と･･･\n今日から始まる　熱い日々に\nAre you ready!Summer Days!!\n\n(Heating the Beat!!) Summer Memories\n\n渚へと通り過ぎてった\n(Feelin' my heart)誘惑\n悩殺な笑顔にちょっと\n(Crazy! Crazy!!) 目も眩む\n\nLet's have a good time!! good time!!\nもっと感じたいねExcite 午後の夏空は\nLet's have a good day!! good day!!\nヤケドしちゃいそうな　夕立も遠慮するサプライズ\n\nShining da ビーチから響くよ\nCome on!! Come on!!\n海岸線そっとなぞったなら　夏を迎えに行こう\n\nClap your hands!!!\n日差しスリ抜け　気分最高潮\n君と･･･\n追い風目一杯　重なり合う\n奇跡のSummer Days!!\n\n高鳴る胸騒ぎ　まだ終われない\n火照る砂浜に　刻もうSummer Memories\n\n燃え盛る夏のGrooveに　Get on!! Get on!!\n魅惑的な季節が　僕らを包み込む\nLast Forever･･･\n\nBurning da 太陽に向かって\nWhat's up!?What's up!?\n水平線遥か蜃気楼へ　夏を迎えに行こう\n\nClap your hands!!!\n日差しスリ抜け　気分最高潮\n君と･･･\n二度と戻らない　広がる世界\nAre you ready! Summer Days!!\n\n(Heating the Beat!!) Summer Memories",
     },
     {
         id: 210,
@@ -2731,7 +2731,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "Hi！\nWe got the POWER！！\n\n46億年の地球(うえ)で生きる\nそりゃ色々ある\nそう考えりゃ今日も\n人間関係 Big Bang　頑張れます\n\n何十兆もの細胞's\nハーモニーは最高\n奇跡の集合体　気分はどうだい？ Yeah\nこんなもんじゃないでしょ\nSo Powerful！？\n\nバタンキューでヘトヘト\nベッドよりもソファにお世話になる\n最幸の前フリさ\n\nありったけでオレ幕開け\n味わっていこうぜ\nしんどいもめんどいもスパイシー超魅了\n迷ったら走ってみるだけ\nDay by Day　御Newの自分へ\n生まれ変われ\nさぁ　出会おうぜ\n\n20XX年！　調子はどう？\nCome on！ Spotlight！？\n正解も不正解も自分次第さ\nパンプアップします\n\n怯むなオレ　ブレんな Ole！！\n奇石の集合体　磨いていこうぜ Yeah\nこんなもんじゃないでしょ\nSo Powerful！？\n\n「とりあえず生」でヘロヘロ\n5%の黄昏で生き返る\n最幸に弾けるさ\n\nありったけでオレ幕開け\n味わっていこうぜ\nしんどいもめんどいもスパイシー超魅了\n迷ったら走ってみるだけ\nDay by Day　御Newの自分へ\n生まれ変われ\nさぁ　出会おうぜ\n\nCome on！\nNever Never\nGive up Give up\nPOWER！！\n皆皆　様様\nPOWER！！\n\n悲しみのエネルギーよ\n喜びのエネルギーを燃やせ POWER！！\n\nありったけ　生きてくだけで\nまずは合格だぜ？\nしんどいもめんどいもスパイシー超魅了\n迷ったら走ってみるだけ\nDay by Day　御Newの自分へ\n生まれ変われ\n誰でもない産声\nはじめまして\nさぁ　出会おうぜ",
     },
     {
         id: 211,
@@ -2744,7 +2744,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "WEST NIGHT (Fu・Fu～！)\nLet's go, WEST NIGHT\n\nわいわい！今夜　作るストーリー\nえーえー！感じに　ケミストリー\n最高の夜にするぜ　君とまじで\nタダじゃおかないぜ\n\n爆速で駆け上がってるだけじゃ　息が切れてまうで\nでも冷静じゃいられへん　ぶっぱなして　完走すんで\n誰にも止めさせへんわ\n\nとかカッコつけてるけど　しんどい時はしんどい！\nけど余裕を見せたいから　強く hold you tight\nオモロくて優しい人になりたい\n君のこと　とにかく笑かしたい\n\n納得いかん毎日を　なんでやねんで押し切るで\n西の夜は長いど　ほな踊ろう　歌おう　この歌を\n朝まで離さんで　帰さへんで\n\nわいわい！今夜　作るストーリー\nえーえー！感じに　ケミストリー\n最高の夜にするぜ　君と居ると\n楽しい!!!!!!!\nわいわい！今夜　作るストーリー\nえーえー！感じに　ケミストリー\n最高の夜にするぜ　君とまじで\nタダじゃおかないぜ\n\n俺がボケたときはちゃんと　全力でツッコんでくれ\nそんな冷たい目せんといて　確かにネタ弱かったけど\n心は折れてへんわ\n\nとかカッコつけてるけど　悔しい時は悔しい！\nけどもっと一緒に居たいから　挑む more smile\nしょうもないことばっかり言いたい\n愛想尽かさんといてね　お願い！\n\n退屈過ぎる日常を　なんでやねんで押し切るで\n西の夜は長いど　ほな踊ろう歌おう　この歌を\n朝まで離さんで　帰さへんで\n\n「えー！なんか元気ないやん！どうしたん！？」\n「やっぱお前のこと笑かしたいねん！」\n「そうそう、その笑顔めっちゃええやん」\n「いつでも俺んとこ遊びにきいやー！」\n\nわいわい！今夜　作るストーリー\nえーえー！感じに　ケミストリー\n最高の夜にするぜ　君と居ると\n楽しい!!!!!!!\nわいわい！今夜　作るストーリー\nえーえー！感じに　ケミストリー\n最高の夜にするぜ　君とまじで\nタダじゃおかないぜ\n\n今夜はまじで WEST NIGHT\nみんなどない？気付いたかい？\nサビの頭文字とったら 「W・E・S・T」\nすごい！WESTになっとるで！\nこれすっごいこと　起きとるで！\nだからなんやねん！って話やけどさぁ\nそのぐらいの遊び心を大切に\nしたいよな　なんて思ったりするよな\n俺と君の化学反応で\nしょうもない夜も全部 PARTY NIGHTに変える\nIt's WEST NIGHT",
     },
     {
         id: 212,
@@ -2757,7 +2757,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "Rewind it back\n\nフルムーン\nCity lights\n染みつく君の香水 tonight\n踊ろう\n近づいて groovin'\n終わらない夢に乗せて\n\nTell me what you wanna hear baby\nOh　耳にそっと囁いてあげるよ\nステージに立つ二人\nYo DJ drop the Friday\nかけて Your favorite song\nREADY？\nLet it go let it go now\n\nI wanna feel you now\nCome try me baby\n言葉は要らない\nI know you feel me now\n重なる movin'\n見つめ合う今を\nRewind it back\n\nRewind it back\nRewind it back\n\nDrum bass vibesが作る\n完璧な夜\nSpin spin our フィルム\nここにはない\nThere is no border\n隠したい shyは\n通用しないんだ alright yeah\nCome in close\nCome in close\n僕らに任せて\nWest Johnny's on the track\nめくろう brand new chapter\n夜が明ける our episode\n\nTell me what I wanna hear baby\nこの胸の中に響かせてよ now\n時の流れに Jump in\nYo DJ drop the Party\nかけて Our favorite song\nREADY？\nLet it flow let it flow yo\n\nI wanna feel you now\nCome try me baby\n言葉は要らない\n\nI wanna feel you now\nCome try me baby\n迷いは要らない\nI know you feel me now\nI can't stop groovin'\n夢だとしても oh\nRewind it back\n\nRewind it back\nRewind it back",
     },
     {
         id: 213,
@@ -2770,7 +2770,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "膝、膝、膝、膝集まれば膝銀座\n若者達が膝を寄せ合い、膝を打ち、膝で笑い、膝を伸ばし\n夢の膝集まる膝銀座\n\n出会い頭　膝頭合わせたい\nが、右膝頭と左膝頭平行線\n膝に住む小僧耳貸そう\n探せばある膝銀座\n\nダン・ド・ダンディン\n\n「ねぇ、ヒザって10回言って」\n嫌だって言われて\n膝から崩れ落ちた公園で\n膝小僧なんて汚れて良いって\n強がりながら膝小僧を抱えて\n\n呪文のように膝膝言い出してる\n吸い寄せられて膝集まり出してる\n\n膝膝並べて膝銀座　夢叶えたいな膝枕\n膝膝傷増え傷銀座　膝膝合わせたいな膝銀座\n\nダン・ド・ダンディン\n\nヒザ、ヒザ、ヒザ…って10回言った後に\n肘を突き出して「ここは何？」って\nそれをやるならピザと言わせて\n銀座で食べたあのマルゲリータ\n\n君の膝がもう大人になりだしてる\n僕の膝はやっとかさぶためくれだす\n\n僕のkneeも君のkneeも傷を負ってgrowでup\n大きくなってまた並べたいな\n\nおやおや若者達は今日も膝銀座で膝を合わせて、膝、膝、膝！\n\n膝膝並べて膝銀座　空いた愛だ君から膝枕\n膝膝おかしくなりそうな　膝膝合わせて膝銀座\n\n絆創膏で覆えないや　膝とも談合したい\n七重の膝を八重に折れれば膝銀座\n\nダン・ド・ダンディン",
     },
     {
         id: 214,
@@ -2783,7 +2783,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "ボックス席に溜まる水滴を\n君が拭き取った瞬間に\n今日も終わってしまうんだ\n\n何回会って、何分話して\n出来上がった“いつも通り”は\n僕が欲しいモノとは違っていたんだ\n\n月が綺麗で何もかも弾けそうな\n路地裏のフィルムで君を撮って\n最初から到底“LIKE”じゃないと\n思い出したの\n\nごめんなさい　もう帰さない\n僕らにもう嘘は要らないよ\n当て馬だって気にしないよ\nもっとあなたに堕ちている\nずっと　2人で夢のように\n昔から好きな歌のように\n運命なんて　奇跡だなんて\nどうでもいいって\nあの時、恋を知った\n\nバイバイまであと少しぐらい\nまだ勘違いしてたいんだ\nいつも通りに茶化してくだらない\n意味のない　2人のまま\n\n君の匂いが今になって僕を試す\n大概はひと目で息を呑んで\n無意識で恋するタイプじゃないと\n思っていたの\n\nごめんなさい　もう離せない\n優しさなんかで誤魔化さないで\n涙の跡を探して撫でる\nその風になってゆく\nそっと　2人で抜け出すように\nあの頃の夜を騒ぐように\n後先なんて　理由だなんて\nどうでもいいって\n迷える手を握った\n\n誰かのせいで泣いた君を\n肩を並べて慰めても\n君との関係は僕にとって\n最初から当然“LOVE”じゃないと\n思っていたの\n見ないフリして\n本当はずっと\n\n愛してたの　ごめんなさい\n僕らにもう嘘は要らないよ\n当て馬だって気にしないよ\nもっとあなたに堕ちている\nずっと　2人で夢のように\n昔から好きな歌のように\n運命なんて　奇跡だなんて\nどうでもいいって\nあの時、恋を知った\n\nボックス席に溜まる水滴を\n君が拭き取った瞬間に\n今日が終わってしまうんだ",
     },
     {
         id: 215,
@@ -2796,7 +2796,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "遠くで　瞬く　淡いStar\n今も手、伸ばしてる\nNeon light　眩い　ビルの隙間\n瞳、凝らした\nいつかは届くかな？\n\n誰かが敷いたレールは歩きづらくて\nずっとSet me free\n遠回りでも　一つ一つがマテリアル\n\n世界を変えるくらいの\nPOWER(チカラ)かわからないけど\nその泣き顔、笑顔に変えてみせるから\n君がいるから僕がいて\nちょっとやそっとくらいじゃ全然ブレないOur trust\nモノクロな景色も照らして (Lit up)\n共にOne way (Ready steady go)\n\nBe together\n最高の未来へ\nLa la la la\nSay la la la la\n願えば　叶うと信じて\nBaby, sing a long\n響かせよう La la la\n\nLet me share the time (Can you feel it now？)\nどんな瞬間も (Every moment)\nSo let me share the time (Don't you give me now？)\nずっとずっと歩んでこう\nBe together\n\n飾らないYou & me\n軌跡が証明に (Cuz we are precious)\n10年先だって\nバカ笑いしてたいね (Always together)\n\nめくるPage　繋ぐPhrase\nBack in da day, yah\nヤワなSense　脱ぎ捨てWe'll never change\n思い通りの景色じゃなくたって (Alright)\n共にOne step (We gotta go now)\n\nBe together\n描いた未来へ\nLa la la la\nSay la la la la\n掲げた　夢のトキメキで\nBaby, sing a long\n響かせよう La la la\n\nLet me share the time (Can you feel it now？)\nどんな瞬間も (Every moment)\nSo let me share the time (Don't you give me now？)\nずっとずっと歩んでこう\nBe together\n\n好きで選んだ道を\n好きのままでいたいから\nボロボロになった Shoelace　結び直したら\nさぁ踏み出そう\n\nBe together\n最高の未来へ\nLa la la la\nSay la la la la\n願えば　叶うと信じて\nBaby, sing a long\n響かせよう La la la\n\nLet me share the time (Can you feel it now？)\nどんな瞬間も (Every moment)\nSo let me share the time (Don't you give me now？)\nずっとずっと歩んでこう\nBe together",
     },
     {
         id: 216,
@@ -2809,7 +2809,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "高まるfeel 登場は like a kingkong\nカミナリ speedで Level up リロード\n東 to the West side 全部 Get down\n敵はもう Freeze it's time for chaser\n数えてcount down 3.2.1 鬼は俺のターン\n隠れ You better run\noh oh\n\nEverywhere I go I'm on the red carpet\n빛이나는 Aura 가 날 감싸 yeah\n全てが完璧な気流 you know\nはみ出して my highway to go\n\n太陽が月に重なる時に\nOh kill the pain and noise\nEclipseの隙を狙え I'm on beast mode\n\n襟 立てて I'm in 狩 mood\n肩 叩いて walking smooth\nランプのGenieみたいに make wish to true\nWatch yourself I'm in 狩 mood\n触れたものは 全部 follow me\n\n君が俺に 堕ちる狩\n顰(しか)める 3rd eyes\n(3rd eyes on)\nWatch yourself I'm in 狩 狩 狩 mood\n\n邪魔させない\n口だけのやつとは 相手にもならない right\nI don't take it\n数えきれない声と想いが\n俺の proof you know it right now\n\n正面から show me what you got! Okay\n바람조차 피해가는 perfect swag\n答えはすでに break into the 脳\nはみ出して my highway to go\n\n繰り返して繋げて行く Our race\nOh kill the pain and noise\n溜めた息を吐き出して Beast mode\n\n襟 立てて I'm in 狩 mood\n肩 叩いて walking smooth\nランプのGenieみたいに make wish to true\nWatch yourself I'm in 狩 mood\n触れたものは 全部 follow me\n\n君が俺に 堕ちる狩\顰(しか)める 3rd eyes\n(3rd eyes on)\nWatch yourself I'm in 狩 狩 狩 mood\n\nI can feel flame under my skin raise up\n焦がす渇きが burn and burn\n飢えた牙で bite you now\n獲物は”R3” I got it\n\n顰(しか)める 3rd eyes\n生まれる One of kind\n一歩踏み出したら 噛みつくまで\nooh Got it right ya\n\n襟 立てて I'm in 狩 mood\n肩 叩いて walking smooth\nランプのGenieみたいに make wish to true\nWatch yourself I'm in 狩 mood\n触れたものは 全部 follow me\n\n君が俺に 堕ちる狩\n顰(しか)める 3rd eyes\n(3rd eyes on)\nWatch yourself I'm in 狩 狩 狩 mood",
     },
     {
         id: 217,
@@ -2822,7 +2822,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "ねぇ\n人波に隠れてはぐれないように\nボロボロのシャツ　汚してきた夢はどこ？\nねぇ\nなんとなくの昨日を　振り返れない今日\nほどほどの明日　想像した自分にBye Bye\n\n踏み出せばいい　いつだって僕ら\nその一歩　何度も\n\n君に届け　熱い想い\n心からの We're the one\n明日は明日の風が吹く\n笑えばきっと\n愛を探そう　夢を語ろう\n僕たちに無限大の未来が\n笑顔で手招きしている\n大丈夫さ　一人じゃない\nWe're the one！\n\nねえ\nあてもない瞳が見つめるTimeline\n本当の君　その声で聴きたいじゃない？\n\n二度とない瞬間(とき)を共に生きてる\n「奇跡」なんかじゃ足りない\n\n君に届け　強い気持ち\n信じたなら We're the one\nいつかの夢はリアルになる\n君ならきっと\n愛を探そう　夢を語ろうに\nいつだって胸の中の答えは\n希望を指差しているんだ\n\n全力の汗も悔し涙も　繋いできた想いも\n全部抱きしめていこう\nいま動き出すんだ\n\n君に届け　強い気持ち\n信じたなら We're the one\nいつかの夢はリアルになる\n君ならきっと\n\n君に届け　熱い想い\n心からの We're the one\n明日は明日の風が吹く\n笑えばきっと\n愛を探そう　夢を語ろう\n僕たちに無限大の未来が\n笑顔で手招きしている\n大丈夫さ　一人じゃないん\nWe're the one！\n\nWe're the one！",
     },
     {
         id: 218,
@@ -2835,7 +2835,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "なぁ　大人になれば解るって　誰かの言葉\nいま　僕は大人になれますか　なぁ　なぁ\n\nやれそうかな　やれなそうだな　やりたいんだけどな\n無茶をする歳じゃないし　そうさ\nどうしようもない　しょうがないって\n自分モドキじゃない　もう終わらすんだ　この涙\n\nむちゃくちゃなフォームで生きていく\nそんな背中悪くもないか\n心臓だって　ど真ん中を\n一歩はみ出し止まらないんだ\nぐしゃぐしゃなフォームで笑ってる　夢はありますか？\nあるよ　あるよ　僕にもやれるんだ\n\nなぁ　地球の色は青だって　もしも嘘なら\nあぁ　怒りはしないよ　この目で見たいな\n\n話そうかな　話せそうだな　話があるんだ\n強くも弱くもない僕　そうさ\n普通なんだよ　普通ってなんだ\nただいまってきっと言える\nそう思えたんだ　この涙\n\nむちゃくちゃなフォームで生きていく\nそんな背中に羽があった\n信じてるって　ただそれだけで\n風が旅立ちを告げたんだ\nぐしゃぐしゃなフォームで笑ってる　夢はありますか？\nあるよ　あるよ　君にも見せるんだ\n\n君がいるのに　僕がいるのに\n人はなぜだか　人はなんだか\n君じゃないとか　僕じゃないとか\n君以外だとか　僕以外だとか\n君じゃなくても　僕じゃなくても\n世界は巡っていこうとするんだ\nなんとなくまた陽が沈む\n\nむちゃくちゃなフォームの愛してる\nどんな理屈も敵わないな\nそばにいようか　そばにいたいな\nぬくもりだけは守りたい\n\nむちゃくちゃなフォームで生きていく\nそんな背中悪くもないか\n心臓だって　ど真ん中を\n一歩はみ出し止まらないんだ\nぐしゃぐしゃなフォームで笑ってる　夢はありますか？\nあるよ　あるよ　君にも見せるんだ\n\nむちゃくちゃなフォームで生きている　いつか会えますか？\nそうか　そうだ　僕にもやれるんだ\n\n僕らはやれるんだ",
     },
     {
         id: 219,
@@ -2848,7 +2848,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "君が好きなものが好き\nそれを話す君の瞳は\nどんな闇さえもかき消しちゃうから\n僕なんて　強くなくて\nその光にまた救われてる\nでも　これだけは伝えておきたいんだ\n\n愛し方は忘れないでいてね\n不確かなものばかりに思えて\n本当の君を無くさないでね\n\nそう　君だけが僕の太陽\n沈んでしまう夜だって\nどうか恐れずいてほしいよ\n\n総じて風の強い日ばっか\n「優しく在りたい」なんて\nその想いだけでじゅうぶんさ\n\n愛し方は忘れないでいてね\n本当の君を無くさないでね\n\n未だ世界はコンプリケイテッド\nちょっと辛いことが大前提？\n流されなくていいんだよ\n変わらずに　ほらシングアロング\n\n誰だって　見失っていく\n心を震わせた原体験\nもう一度　その胸に手を当てて\n\n愛し方は忘れないでいてね\nどんな感動と君が出会って\n大切になったのか　聞かせて\n\nそう　君だけが僕の太陽\n曇ってしまう表情を\n何も恥じることはないよ\n\n総じて風の強い日ばっか\n「優しく在りたい」なんて\nその想いだけでじゅうぶんさ\n\n街の喧騒に砂埃\n宝物も煤けていく\n綺麗じゃなくても　気にしないでよ\n否定じゃなくて　LOVEにしかない魔法\nその力だけはどうか　忘れないでいてね\n\n愛し方は忘れないでいてね\n\nそう君だけが僕の太陽\n沈んでしまう夜だって\nどうか恐れずいてほしいよ\n\n総じて風の強い日ばっか\n「優しく在りたい」なんて\nその想いだけでじゅうぶんさ\n\n愛し方は忘れないでいてね\n本当の君を無くさないでね\n\n忘れないでいてね",
     },
     {
         id: 220,
@@ -2861,7 +2861,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "愛されたい？ hah...\n愛していい？ see ya...\n\n誰もいない　やけに無口な部屋\n現実逃避　探すキミの抜け殻\n雨上がりの虹を待つ Timeline\nあてのないメッセージ\n綴っては消し　読み返しては消し...\n\n何も持たず Walking in the dark\n忘れさられた　公園のベンチ\n誰かが捨てた　愛も風晒し\nそこは寂れた One man stage\n\n自分重ね　涙の雨\n色のない世界...\nNo more pain\nNo more rain\n\n行き場のない　この感情\n痛みの破片　かき集めて\n想い出に火を灯してるだけ\n\n泣いても泣いても許してみたり\n笑って笑ってごまかしたり\n気付けば Passion　無防備んなって\nAh...\n愛されたい？ hah...\n愛していい？ see ya...\n息しても良い場所探した\n\n愛されたい？ hah...\n愛していい？ see ya...\n\n逃げ出した　そこは酷く広い世界\n知りたくもない　現実ばかりスクロール\n華やかな Fake　踊らされる Truth\n拡声器で本音晒す\n匿名(アノニマス)\n\n要らないエンパシー\nShower で洗い流し\n物思いにふけ　今夜飛びたい気分\n空などないさ...\n笑えないジョーク\nそれなら楽しめ True man show\n\n入り口だらけ\n出口なんてないんだ\nNo more fantasy\n此処はどこ　僕は誰\n\n抱きしめた　この感情\n君の欠片　集めた\nカレイドスコープ\nもっと覗いて欲しいだけ\n\n理想な自分演じてみたり\nジャンクな気分晒してみたり\n気付けば Passion　無防備んなって\nAh...\n愛されたい？ hah...\n愛していい？ see ya...\n息しても良い場所探した\n\n行き場のない　この感情\n痛みの破片　かき集めて\n想い出に火を灯してるだけ\n\nただたわいのないキスをして\nまたじゃれあってカラダ重ね\n気付けば Passion　無防備んなって\nAh...\n愛されたい？ hah...\n愛していい？ see ya...\n息しても良い場所探した",
     },
     {
         id: 221,
@@ -2874,7 +2874,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "明けない夜　月が照らす\n光と影　浮かぶregret\n\n僕ら時代をただ睨んでいる\nだけど未来を今　探してんだよ\n一筋の希望　光射す日まで\n\n叫んで　壊して　うざったい罪はもう捨てて\n破って　吐き出して　抱いた痛み愛していたい\n守りたい大切なもんだけ　無くさないように\n\n変わり続けてく毎日の中で　戸惑い　溺れて\n見つけ出した答えすら信じ合えず　傷つけ合ってしまった\n\n誰も知らず知らず　すれ違ってく\nだから君の想い伝えなきゃ\n過去の過ちを許し合える日まで\n\n唸って　剥がして　じれったい罪はもう捨てて\n繋いで　混ぜ込んで　笑って痛いの飛んでいけ\n譲れないもの同士でも　道の先に\n\n遠い空の下　誰かが奪った笑顔が\n巡り巡って僕らの涙になって流れた\n\nそれでも進もう\n\n叫んで　壊して　うざったい罪はもう捨てて\n破って　吐き出して　抱いた痛み愛していたい\n守りたい大切なもんだけ　無くさないように\n譲れないもの同士でも　道の先に\n\n一筋の希望　光を探して",
     },
     {
         id: 222,
@@ -2887,7 +2887,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "君と出会うためこの世に生まれた\nとか　そんなことは言えないけれど\nわかって欲しいよ\n愛とか恋だけじゃ生きていけないが\n君がそこにいるだけで\nそれも忘れてしまうのさ\nそりゃもう忘れちまうのさ\n\nできれば言葉には頼らずに伝えたいよ\n今のこの感じ\n真実の愛とか運命とか\nそういうのよりちょっとだけ面白い\nからかったり愚痴こぼしたりしながら\nなるべく優しくありたい\nやりすぎてむかついた夜は\nちゃんと話し合おうね\n\n喜びや悲しみの全部を\nあなたと見せ合いたいのよ\n虚しさや退屈の全部を\nあなたと分け合って\n\n誰にも似てないふたりをただ重ねよう\nふざけ合って呆れたりしながら歳をとってさ\n誰にも似てない記憶をただ集めよう\nそれだけでなんだかドキドキしているんだよ\n拾い集めた毎日を\n名前のつかない未来を\n全部飲み込んで行く\n\n息をするだけで擦り傷は絶えないな\n人だかりで躓いてたら置いて行かれた\nできれば言葉には頼らずに\n心だけで君の全てが分かればいいのに\n\n耳鳴りやはらいたの全部を\n分け合えなくてもそばにいて\n体が遠く離れた時も\nちゃんと思い出して\n\n誰にも似てないふたりをただ重ねよう\n駄目な夜は震えながら体寄せ合ってさ\n誰にも似てない記憶をただ集めよう\n朝焼けの方角　窓から手を伸ばして\n悲しみの毎日を\n未だ見えぬ未来を\n全部飲み込んで行く\n\n広がってる真っ暗闇で\nどこまでも他人同士のふたり\n君がそこにいるだけでもう全部\n忘れてしまうようなこと\n\n誰にも似てない心をただ誇ろう\nその涙は自分の手で拭ってみせて\n\n誰にも似てないふたりをただ重ねよう\nふざけ合って呆れたりしながら歳をとってさ\n誰にも似てない記憶をただ集めよう\nそれだけでなんだかドキドキしているんだよ\n\n誰にも似てないふたりをただ誇ろう\n誰にも似てない記憶をただ誇ろう\n\n拾い集めた毎日を\n名前のつかない未来を\n全部飲み込んで行く\n喜びの毎日を\n未だ見えぬ未来を\n全部飲み込んで行く",
     },
     {
         id: 223,
@@ -2900,7 +2900,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "桐山照史＆神山智洋",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "あなたと出会い　あなたに恋して\n今までずっと幸せでした\nでも　さよなら…\n\nさっき観た映画の感想\n夢中になって話す横顔\nいつもならふざけてばっかりの声の色が\n少し違ってた\n\n「叶えたい夢のために一緒におられへん」って\nそんなセリフ笑えないでしょ\nこんなにも早く終わりが来たのね\n\nあなたと出会い　あなたに恋して\nモノクロだった世界がやっと色づいたの\n勝手ばかりで憎めない　可愛い人\n私が幸せにしてあげたかった\n\n「そのままのお前が好きや」と\n出会った頃に言ってくれたね\n真っ直ぐな瞳に吸い込まれ\n気づけばもう　恋に落ちてた\n\nあなたの喋り方を真似して笑われたっけ\nそんな顔で謝らないでよ\n笑ってるあなたが一番好きなの\n\n些細なことで喧嘩した夜も\n子犬みたいにじゃれ合うように甘えた日々も\nお酒の味の口づけも忘れない\nいつまでもこうしていられたらいいのに\n\n生まれ変わっても　また私を見つけて恋してね\n思い出にしてあげるわ\n私の好きなあなたのまま　貫いて\n\n最後にお願い\n強く抱きしめて\n溶け合うように一つになって\n綺麗にして\n過ぎた時間はどこまでも真っ直ぐに\nこの胸で輝くの…\n\nあなたと出会い　あなたに恋して\n今までずっと幸せでした\n元気でいてね\n大事な夢をその手で叶えるまで\n中途半端なまま連絡してきたら\n絶対許さへんから",
     },
     {
         id: 224,
@@ -2913,7 +2913,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "重岡大毅＆藤井流星",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "季節の終わりの風が吹いている。\nふと思い浮かぶ顔がある。\n甘いような苦いような。。\nどっちつかずの感傷を持て余し、ツムジをつつく。\n\n“ありがとう。”も“ごめんね。”も、\n“好きだよ。”も“好きだったよ。”も\n口に出さなくなっただけで、思わなくなったわけじゃない。\n大人になったけど、大人になったけど\n大人になったけど、大人になっただけ。\n\nやるせなさに寝返りを繰り返し\n不甲斐なさに唇を噛み締める夜を越えて\n\n全然そんな気分じゃないのに晴模様。\nチグハグチグハグ歩いて行くよ。\nぼくらしさって何だろ？何だろ？何だろ？って\n首をかしげ続けていくよ、ぼくらしく。\n\n季節の始まりの風が吹いている。\nふと込み上げる胸の高鳴りがある。\n例えば新しい服で、新しい靴で\n街と街の継ぎ目をいよいよ跨ごうとするときのような。。\n\n“夢”も“希望”も、“勝ちたい”も“負けたくない”も\n口に出さなくなっただけで、思わなくなったわけじゃない。\n大人になったけど、大人になったけど\n大人になったけど、大人になっただけ。\n\nめくるめくイメージにひとりニヤけ\nそっと吸い込まれるように眠る夜を越えて\n\nせっかくこんな気持ちなのに雨模様。\nあべこべあべこべ歩いて行くよ。\nぼくらしさって何だろ？何だろ？何だろ？って\n首をかしげ続けていくよ、ぼくらしく。\n\n全然そんな気分じゃないのに晴模様。\nチグハグチグハグ歩いて行くよ。\nぼくらしさって何だろ？何だろ？何だろ？って\n首をかしげ続けていくよ、ぼくらしく。",
     },
     {
         id: 225,
@@ -2926,7 +2926,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "中間淳太＆濵田崇裕＆小瀧望",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "そう　どうにか　隣にいたいなど\nとっくに　望んじゃいないよ　そういうもんさ\n身勝手に　理想系のディテールを描いて\n思い出は　嘘並べて作っていく\n\nエゴと一途の境目を　いつ見失ったかわからない\n「見返りなど　求めぬもの　それこそが愛だから」\n\nThis is love in isolation　届かなくていい\nいつまでも見つめていたいだけだ　終わりは見えないの\nI don't need any conversation　いつかの声を\n徒に慰めの当てにして　また「愛」に耽る\n\nつまんない漫画に　挟んだ栞が\n積み上がって見えなくなったって　どこかで　続きを気にしている\n\nエゴと一途の境目に　今更気づいても戻れない\n「わたしだけはあなたのこと　信じるって決めたから」\n\nThis is love in isolation　届かなくていい\nいつまでも見つめていたいだけだ　終わりは見えないの\nI don't need any conversation　かすれた声で\n無理矢理な言い訳を口にして　また「愛」に沈む\n\n指先がなぞる唇\nうだるような口づけを\n気づいたの　わたし本当は\nあなたのこと　独り占めする夢見てる\n\nThis is love in isolation　忘れなくていい？\n気づいてる届きやしない　だけど終わらせられないの\nI don't need any conversation　いつかの声を\n徒に慰めの当てにして　また「愛」に耽る\n\nThis is love in isolation　届かなくていい\nいつまでも見つめていたいだけだ　終わりは見えないの\nI don't need any conversation　かすれた声で\n無理矢理な言い訳を口にして　また「愛」に沈む",
     },
     {
         id: 226,
@@ -2939,7 +2939,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "We are all challengers\nNow is the time to stand up\n始まるSurvival　鳴り響いたGong\n\nピリピリと張り詰めた日々の中\n絶え間なくConfront\n避けては通れぬMatch up\n\nしかと焼き付けろこれが生き様\n\nI'm gonna take it back　夢を奏で\nJust brace yourself　術が要\n塗り潰せWipe out　戦い現在進行形\n「どうなったっていい」これが運命(さだめ)？\nDon't worry　ちょいミスっただけ！\n掴むのさ Grand slam\n有象無象はねじ伏せ Perfect game\n\nWe are all fighters\nMay be a lonely battle\n立ち塞ぐRival　既にUnder dog？\n\nジリジリと詰め寄った\n隙見せりゃすかさずLock on\n努力も虚しくTime's up\n\n下されたJudgement\n白旗あげりゃそこでGame over\n砕け散った誇りを拾い集めて\n己焚き付けもぎ取る白星\n\nI'm gonna take it back　夢を奏で\nJust brace yourself　術が要\n塗り潰せ Wipe out　戦い現在進行形\n「どうなったっていい」これが運命(さだめ)？\nDon't worry　ちょいミスっただけ！\n掴むのさ Grand slam\n有象無象はねじ伏せ Perfect game\n\nWhat were we born for？\nWhat can I do in my lifetime？\nLive each day as if it's your last.\nIt's all up to you.\n\n後悔ばかりの日々とおさらば\n\nI'm gonna take it back　夢を奏で\nJust brace yourself　術が要\n塗り潰せ Wipe out　戦い現在進行形\n\nTake it back　さあ呼び醒ませ\nWish I could have done　雁字搦め？\nまだまだ Life goes on　我ら未だ未完成形\nいつか勝利の花咲かせ　いずれ有終の美を飾れ\nぶちかませ Knock out\n狙い定めど真ん中 Strike a blow",
     },
     {
         id: 227,
@@ -2952,7 +2952,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "聞こえるよ痛いほど\n聞こえてくるよ胸痛いほど\nキミならできるよFight\nたまらずにCry\n耳寒いだ日々\n脳内がメリーゴーランド\nほらごらんまわる前に\n優しい声に手を伸ばすんだ\n\n負けるなgoing going going　行こう行こうよ\n聞こえるよhurray！ hurray！\n光射す方へ今日もgoing\nたまに力抜いてgroovin'\n忘れない愛から生まれてきた感謝を\n優しい声もう受け止めるよ\n\n忘れないから\n忘れないから\nキミの声を胸に強く生きるよ\n立ち向かうから\n負けたくないから\nキミの声を信じ進み続けるよ\nDon't be afraid Don't be afraid Don't be afraid\n今日も聞こえる\nDon't be afraid Don't be afraid Don't be afraid\n光射す方へ\nDon't be afraid\n\n広がるよ見たいもの\n広がり続けるよ見たいもの\nキミならできるよTry\n止まらずにFly\n見失わない道\n問題ないReady go now\nほらごらん考える前に\n行きたい場所に手を伸ばすんだ\n\n負けるなgoing going going　行こう行こうよ\n聞こえるよhurray！ hurray！\n光待つ方へ今日もgoing\nたまに身を任せてgroovin'\n失くさない愛から生まれてきた願いを\n描いた夢また動きだすよ\n\n失くさないから\n失くさないから\nキミと夢を胸に強く生きるよ\n立ち向かうから\n負けたくないから\nキミと夢を信じ進み続けるよ\nDon't be afraid Don't be afraid Don't be afraid\n今日も呼んでる\nDon't be afraid Don't be afraid Don't be afraid\n光待つ方へ\nDon't be afraid\n\n耳を澄ませば聞こえてくる\n目を閉じても迷わない地図\n答えはいつもそこにあるから\n恐れないで突き進むよ\n\n忘れないから\n忘れないから\nキミの声を胸に強く生きるよ\n立ち向かうから\n負けたくないから\nキミの声を信じ進み続けるよ\nDon't be afraid Don't be afraid Don't be afraid\n今日も聞こえる\nDon't be afraid Don't be afraid Don't be afraid\n光射す方へ\nDon't be afraid",
     },
     {
         id: 228,
@@ -2965,7 +2965,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "1.2.3\nせーので　ここからじゃない？(強く)\n空高く\n君の声よ　ハルカナレ\n未来に響きますように\n\n空に夢を描き合えば\nまるで世界を旅してる気分\nかけがえない希望(チケット)を片手に\nあかね雲飛び乗るんだ\n\n昨日よりきっと\n明日はもっと\n新しい風吹くって　君が笑うのさ\n\n終わらない鼓動が止まらない理由だ\n行く先遥か　進め\nどこまでも\n\n1.2.3\nせーので　ここからじゃない？(強く)\n想い重ね　奏で合わせ輝け　歌え愛を\n3.2.1\n羽ばたく勇気つばさに(高く)\n空高く\n君の声よ　ハルカナレ\n未来に響きますように\n\n「じゃあ、またね」と手を振るのは\nすぐに会えると信じてるから\n少しの寂しさもスパイスに\n日々を深く味わえるように\n\n昨日のナミダも\n明日にずっと\n繋がるストーリー　全部連れて行こう\n\n幾千の願いがいつかの景色を\n宝物に変えるよ\nいつまでも\n\n1.2.3\nせーのでここからじゃない？(強く)\n想い重ね　奏で合わせ輝け　歌え愛を\n3.2.1\n雲の上はいつでも(青く)\n晴れ晴れさ\n君の声が　届くとき\nありえない正解が待ってる\n\nココロの地図広げてみて\nいつもそこに答えがある\n\n君といればどんな夢さえも叶うよ\noh yeah\n\nいつだって\n\n1.2.3\nせーのでここからじゃない？(強く)\n想い重ね　奏で合わせ輝け　歌え愛を\n3.2.1\n羽ばたく勇気つばさに(高く)\n空高く\n君の声よ　ハルカナレ\n未来に響きますように",
     },
     {
         id: 229,
@@ -2973,12 +2973,12 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         titleKana: "ちょうしっぱずれのぼくのうた",
         lyricist: "浅利進吾",
         composer: "浅利進吾",
-        arranger: "",
+        arranger: "井上薫",
         album: ["POWER","POWER[通販盤]"],
         announce: "f",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "井上薫",
+        lyrics: "生き方は一つじゃない\n決められた道筋なんて・・・\n知らないペンで書かれたストーリー\n時には落書きしたいんだ\n\n落ちてく　夕日が\n灯ってく　星々が\n「変わらなくてもいい」\n教えてくれた　気がしたんだ\n\n調子っぱずれの歌を\nどんな時でも　恐れないでいい\n「ヨロシク」と明日へ\n挨拶を込めて　手を振って行こう\n僕が僕のために歌うメロディ\n歌おう\n\nいつものバス停に並ぶ\n行き先の違う人たち\nどこをとっても　同じじゃないんだな\n当たり前のことなのに\n\n忙しい　毎日に\nながれる　流行りに廃りに\n追いかけられてた　そんな日々に\nさよならさ\n\n生き方は一つじゃない\n何も決められちゃいない\n\nそういうことさ\n\n調子っぱずれの歌を\nどんな時でも　誇れたらいい\n「アイシテル」と未来へ\n希望を抱いて　迎えられるように\n僕が僕であるためのメロディ\n歌おう\n\n歌おう\n\nラララ・・・\n\n行こう",
     },
     {
         id: 230,
@@ -2991,7 +2991,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-03-01",
-        lyrics: "",
+        lyrics: "ちょっと待った　話そうぜ　いいか\nベストがマストなわけないさ\nいつからでも　燃やそうぜTHE SOUL\n全肯定型キャンペーン　いっちょかましましょ\n\nTHE SOUL！！\nTHE SOUL！！\n\n正解は　世界にあるのか？\n雑草って　誰が決めるんだ？\n「早起きは三文の徳」って\nそれ　誰得！？\nHhaaaa…\n\nみんな考え過ぎって\n自分だってそうで\n結局　一緒なんだな Ah\n\nカモン！\nEverybody　集合！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\n盛大に頬上げてみっか\n最大の味方は自分だ\n「三歩進んで二歩下がる」って\nいいじゃん　進んでんじゃん\nGOOOOOOOO\n\n自然体って　なんだろな\nどれもこれも全部ジブンか\n今はそれでいいんだな Ah\n\nカモン！\nEverybody　注目！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\nちょっと待った　話そうぜ　いいか\nベストがマストなわけないさ\n\n…とか言って\n真っ直ぐしか進めないし俺\n四六時中　超陽キャな君\n石橋叩いて壊すの誰？\n(あーーーー誰だ？)\n\n冒険　最善　好奇心旺盛　どーすんだ？！(どーすんだ？！)\n安心　安定　帰宅部OK　何が悪いの？(そうだよな！)\nこっそ　こっそ　無言実行も　マチガイない　そう(マチガイない！)\n行ったり来たりで　息してんだ\n話して　沸かして　どんちゃんしようゼ\n\nEverybody　集合！\n\nTHE SOUL！！\n抱きしめたもん勝ちだろう\nキミの中の答え\nTHE SOUL！！\nそうだ世界は　後からついてくる\nやっちゃえばいい Wow\nどちらもありでしょ　キミはどう？\n\nTHE SOUL！！",
     },
     {
         id: 231,
@@ -3004,7 +3004,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "幸せよこの指にとまれ　抱きしめた思いに花が咲くのさ\n夢のような日　早くはじまれ　今すぐ　今すぐ　今すぐ\n\n君自身を悲しませないで　(我々ははじまったばかり)\n冷たい夜は続かないさ (HERE WE GO！ HERE WE GO！)\n呼びかけてくるものと　感じ取って選んだもの\nそれだけを見つめよう　それだけを見つめようよ\n\n行き詰まったなんて言わないで　(やり方はいくらでもあるさ)\n長い夜が終わり始めた (HERE WE GO！ HERE WE GO！)\nつかみかけているのさ　きっとそれでいいのさ\nだから確かめに行こう　だから確かめに行こうよ\n\nみなよ長い間　僕らを閉じ込めてた窓\n君が笑ったとたんに　開いたのさ　そんな君に誓いたい\nI Love You！ I Love You！ I Love You！\n\n幸せよこの指にとまれ　抱きしめた思いに花が咲くのさ\n夢のような日　早くはじまれ　今すぐ　今すぐ　今すぐ\n\n幸せよこの指にとまれ　愛しさが悲しみ打ち破るのさ\n夢のような日に　向かって駈けだせ\nためらわず　ためらわず　ためらわず\n\nSIAWASE　笑っているほうがずっといい\nSIAWASE　笑っているほうがきっといい\n\nSIAWASE　笑っているほうがずっといい\nSIAWASE　笑っているほうがきっといい\n\n目の前のこと　受けとめきれない時は\n思い出そうよ　優しい気持ちの歌\n\nやるせない夜　いくつもこえてきた　だから寂しさよ　懐かしさに変われ\nひとしずくでも望みがあれば　僕ら笑って咲けるさ\n\n幸せよこの指にとまれ　いま生命(いのち)がキミに語りはじめて\n見える景色の色が変わっていく　だからもう　ためらわず　ためらわず\n\n幸せよこの指にとまれ　咲きほこる喜び感じたいのさ\n夢のような日　早くはじまれ　今すぐ　今すぐ　今すぐ\n\n幸せよこの指とまれ　キミと笑い合いたくてしかたないのさ\n夢のような日に　向かって駈けだして　踊ろう　踊ろう　踊ろう\n\nSIAWASE　笑っているほうがずっといい\nSIAWASE　笑っているほうがきっといい\n\nSIAWASE　笑っているほうがずっといい\nSIAWASE　笑っているほうがきっといい\n\nSIAWASE　笑っているほうがずっといい\nSIAWASE　笑っているほうがきっといい",
     },
     {
         id: 232,
@@ -3017,7 +3017,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "Uh wow baby\nLive the life you love\nSing along！\nAh Ah Ah Ah\nNobody knows tomorrow\nPa Pa Pa Pa\nLike a parody\n\nDirtyなことほど\nCleanに塗られて uh\nあらま世間は従順な優等生\n悪戦苦闘した\n自己ブランディングで\nSo　どうにか乗り切る Friday\n\n誰だって辛い　そのくせしてDRYな\n日常にちょっとしたユーモア\nLet it flow flow flow\n寝落ちしそうな　夕焼けが\n「おつかれさま」って笑ってる\n\n格好つけちゃってすっ転んでBaby\n汗も涙も　そりゃ才能さ\n人生にパロディって思えたら\n明日もきっと\n笑ってキミと\n過ごせるんじゃない\n\nAh Ah Ah Ah\nNobody knows tomorrow\nPa Pa Pa Pa\nLike a parody\n\n思い切ったら\nおもいっきりやっちゃって...uh\nドンマイからの　楽しむ方向で\nどんなお悩みも　角度次第じゃ\nSo　満員御礼　Good Game\n\nあれも欲しい　これも欲しくて\n結局それって必要なの？\nLet it flow flow flow\nちょっとまって　ふりだしでも口笛\n吹いてたいね\n\n格好つけちゃってすっ転んでBaby\n汗も涙も　そりゃ才能さ\n人生にパロディって思えたら\n明日もきっと\n笑ってキミと\n過ごせるんじゃない\n\n思い通りになんなくたって\nやった通りになるもんだって\nいっちょまえに\nも一歩前に\nたまにはグッと期待ね\n\n守るべきものは何だっけ？Baby\n恋も仕事も...そりゃそうだけど\n今日が最高とか言えたなら\n明日はもっと Oh Yeah\n\n格好つけちゃってすっ転んでBaby\n汗も涙も　そりゃ才能さ\n人生にパロディって思えたら\n明日もきっと\n笑ってキミと\n過ごせるんじゃない\n\nAh Ah Ah Ah\nNobody knows tomorrow\nPa Pa Pa Pa\nそれでいいんじゃない\n\nね！それが良いんじゃない",
     },
     {
         id: 233,
@@ -3030,7 +3030,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "新宿でルーローハン　一人で食べてる\n行けなかった台北旅行の雑誌の味\n意地悪な質問　自問自答して\n大学生みたいに泣きそうだ\n\n「別れよう」って結論みたいに\n悲しそうに言うから　悔しい\n突然だと思ってるのは僕の方だけだよね\nそういうとこだな　負けたよ\n\n十年！君のこと想った\nこの恋は負け認めなきゃ勝てない\nTAXI！捕まえんの上手かったね\n立ちすくむ今の僕とは大違いだ\n誰に伝えりゃいい？\n\nでかすぎるポップコーン　食べて寝てたね\nもう観に行かない　シリーズ5作目は来月\n本棚から好きに持っていけばいいよ\nどっちのかもう覚えてないし\n\nいつだって僕は昨日ばっか\n君は明日の夢　語っていた\nそんな風にして二人の道\n続いてるみたいだよねって\n笑えてた部屋　戻れない\n\n十年！君は友達でもあった\nこの恋に負け認め続け勝ちたい\nTwo Weeks！　受け止めてみてるんだ\nだけど…\n\n思い出は　(ああ忘れるかな)　完璧になってしまう\n追いつけないくらい　光に打たれて\n離れるきっかけ探して　行かないで　(ここにいて)\n\n十年！君のこと想った\nこの恋は負け認めなきゃ勝てない\n何年！過ぎても好きだったら\nキモいかなあ　ねえわかりたかったもっと\n十年！君は友達でもあった\nどうしようもない今を認めてあげなくちゃ\nMusic！情けない笑えない\n大丈夫じゃない自分も自分なのがしんどい\n君に負けて知った、心を",
     },
     {
         id: 234,
@@ -3043,7 +3043,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "君はどこにもいない\n街は笑ってら\nベタつく雑踏　俺に愛を\nクラクションからGet away\n\nどこまでも続くドラマ\n行く先はもう決めない\nたまにセンチメンタルに揺られて\n口笛吹きながら\nたまんないね～\n\nRide on, ride on\nGood luck, alright\nノープランで窓全開\n\nBGMは爆音\n人生はOn & On\n羊雲の背中を追って\nロマンス探すみたいな\nサングラスはTeardrop\nキメ顔でHere we go\nおひとりさま　それも味な\nはやる気持ち　ちょいとお待ち\n邪魔はいないぜ\n\n誰がさらってくれんだ\n超Busyな　ため息\n日々のTrouble　うなされTerrible\n自画自賛でフェーダウェイ\n\nフォトジェニックな夕陽\n誰かのイイねなんていらない\nでっかすぎる　世界の片隅で\n妙に寂しくなっちゃう\nわかんないね～\n\nRide on, ride on\nGood luck, alright\nご心配はノーセンキュー\n\nBGMは爆音\n人生はOn & On\n羊雲の背中を追って\nロマンス探すみたいな\nエンドレスにTurn it up\n胸躍れツーステップ\n気の向くまま　それも味な\nやけに恋しくなってきたね\n夜が近いね\n\nヴァイブス right\nAll set\nAre you ready to jump\nLivin' it up\n今\nOh feeling the moment\nBurn it up\nRight now\nIt's time to show\nGo higher\n今\nHands in the air ah\n\nWhat you waiting for now\nFollow me let's get start it\nSpeakerより　Shout out\n弾けて　Let's go up\n風、太陽　so LIT\nEverything is slow motion\n熱い Passionのせいで\n溶けてしまった Clock\nHold up！！！\nTurn it up Turn it up\nテンションは MAXで行こうぜ\nTurn it up Turn it up\n“Y”ou “O”nly “L”ive “O”nce\nYOLO！！！！！！！\n\n気の向くままにGo on\n星空とシンガロン\n今日の景色　やけに素敵\nなんだこれジワリくんだ\n\nBGMは爆音\n人生はOn & On\n羊雲の背中を追って\nロマンス探すみたいな\nサングラスはTeardrop\nキメ顔でHere we go\nおひとりさま　それも味な\nはやる気持ち　ちょいとお待ち\n邪魔はいないぜ",
     },
     {
         id: 235,
@@ -3056,7 +3056,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "誰かが言ったひょんな言葉が\nずっとずっと胸に残って一人傷付いて\n見えないとこで泣いてる君\n\n不安はきっと希望のせいだ\n愛を知ってしまった僕らはみんな欲張りで\n幸せじゃなきゃ怖くなるから\n\n“ありのまま”に蓋をして嘘を食べて生きてる\nそんな今日が許せるなら\nその涙に頼ればいい\n\n弱くても強くあれ\n明日が怖くても\n信じた自分で歩いてこそ全てが輝く\n変わらない愛も\n消したい昨日も\nどれも本当さ\nそうやって強く胸を張れ\n\n毒にも薬にもならない　そんな言葉が欲しくなって\nいつも逃げ出すのは\n誰でもない自分自身から\n\n“明日からこうするんだ”と僕ら何度誓っただろう\n変われないのが人ならば\n変わらぬまま歩くのもいい\n\n弱くても強くあれ\n明日が怖くても\n迷い止めないで歩いてこそ何かに出会える\nそれが笑顔でも\nそれが涙でも\nどれも人生さ\n誰だって強くないから\n\n遠回りでも\n近道でも\n真っ直ぐにでも\n手探りでいい\n道しるべなら　いつでも心が知っている\n\n弱くても強くあれ...\n\n弱くても強くあれ\n明日が怖くても\n信じた自分で歩いてこそ全てが輝く\n変わらない愛も\n消したい昨日も\nどれも本当さ\nそうやって強く胸を張れ",
     },
     {
         id: 236,
@@ -3069,7 +3069,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "二度寝ばっか　もう愛想を尽かしてる\n二度見ばっか　夢の続きはどうしたの\n二度あること三度ある　嘘偽りじゃない\nあのバンドマンまた　良い曲書くんだろうな\n\n三度目の正直って　言い回しもあるんだ　あぁ\n\n今日のオレはどんな言葉を信じて\n誰のために歯を食いしばって\n何気なく情けない日だって\n歌を歌って　笑っていたい\n\nこんにちはロックンロールスター\nあなたなら何を歌いますか\n大それたこと　言うのなら\nオレだってベイベ！\n\n夜明けまで降った大雨は\n窓に残る涙の跡さ\n素直になれたそんな気がした\n\n言葉なんて　ずっと探しているけど\n言葉なんて　大事な所でいつも\n足りないこと　バーカ　で呆れもするんだよ\n\nもう一度　正直に愛してるって言っていいですか？\n\n君がどんな言葉を信じて\n誰と何処で何をしてたって\nさみしい　夜の隙間を狙って\nこの声で　オトしてみたい\n\nこんにちはロックンロールスター\nあなたなら何を歌いますか\n大それたこと　言うのなら\n誰だってベイベ！ベイベ！\n\n人はどんな言葉を信じて\n何のために歯を食いしばって\n頬を伝う涙の数より\n歌を歌って　笑っていたい\n\nオレは目にうつるこの景色も\n耳に残るどんな出来事も\n夢にみてる　いつか君と\nその声で　笑っていたい\n\n大好きかロックンロールは？\n大嫌いかロックンロールは？\n\n大それたロックンロール　さぁ",
     },
     {
         id: 237,
@@ -3082,7 +3082,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-06-07",
-        lyrics: "",
+        lyrics: "ずっと頭に鳴り響いてたメロディ\n気づけばどうしても思い出せない\nアンドゥして拾い出せたらいいのに\n\n思わず口から飛び出した言葉と\n忘れたことさえ気付いてない記憶は\nもう取り戻せないって知った\n\nいつのまにかこんなに\n遠くまで来たんだなんて\n感慨はなくもないけど今は\n日当たり悪い窓辺に\n置いたままにしてしまった\nあの花が気がかりだ\n\n車窓の向こうに閃いた\n焦燥に目を逸らしたんだ\n行き場をなくした言葉が\n降り積もって出口塞いでく\n「もしあの時もっと...」\n脳裏に響く声に\n打ち込まれたままのパイルが\nふらつきだしてまた\nため息に溺れる\nFu......\n\n知らなくてもいいようなことばかりを\n溜め込んでいつでも容量不足\n大事なことも見えなくなっ\n\n窓に映る自分を\nぼんやり眺めてると\n考え過ぎの癖のせいでまた\n浮かんでは消えてゆく\n答えのない問いかけに\n当てもなく沈み込んでく\n\n虚像の向こうに煌めいた\n希望に目を凝らしたんだ\n未来はいつでもずっと\n未来のままで揺らいでる\n通りすぎた場所に\n手を伸ばしてるより\n打ち込まれたままのパイルを\n握ってる力を少しずつ緩めて\n\nドアが閉まる\n列車は次の駅へと\n違う景色が流れてゆく\n\n車窓の向こうに閃いた\n焦燥に目を逸らしたんだ\n行き場をなくした言葉が\n新しいメロディ紡いでく\nこんな日々もきっと\n温かく思えるよ\n喉元すぎるようにそっと\n変わってく季節に\nため息が溶けてく\nFu......",
     },
     {
         id: 238,
@@ -3095,7 +3095,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "良い人とか呼ぶなって\n僕はそんな良いヤツじゃない\nそこ止まりの人と\nラベルを貼るのやめろって\n秒針の音も胸の鼓動も耳障りだ\n君がすぐに返事をしないせいで壊れそうだ\n\n眠れない　僕の知らない　誰かの指で\n悶える君が　浮かんで消える\nひとり見上げる夜空に\nやけに綺麗な月とかいらない Ah\n届かない願いなら\n壊してしまいたい\n\n今夜　絶体絶命\n愛せば愛すほどに\n君を遠く感じて　狂おしくなる\nどうせ僕だけでしょう？\n現在進行形\nどうしてフリーじゃない女性(ヒト)\n奪いたい癖(ヘキ)とか\n全然ないって\nただ君が欲しいだけ\n\n僕は君にとって\nさみしい時だけの存在かい？\nそれってもしかして　都合の良い男性(ヒト)\n\nね、良いの？　そんな僕を信用して\n胸のホクロさえも知ってるのに\n違う　そんな　君を脅すワケ\nないよ　ただね　少し逢いたいだけ\n\n信じたい　僕の目を見て\nはじめて本気になったよと言ってた\nあの日の君を\nいくら飲んでも酔えない夜に限って\n飲まずにいられない Ah\n行くあてのない感情\n飲み干してしまいたい\n\n今夜　絶体絶命\nどうしても止まれない\n独りで果てたってさ　消えるわけないのに\nあの肌の感触\n目一杯説明\nなんていらない抱きしめて\nそれよりも何よりも　抱きしめさせて\n僕だけの女性(ヒト)でいて\n\n絶体絶命\n愛せば愛すほどに\n君を遠く感じて　狂おしくなる\nどうせ僕だけでしょう？\n一体全体さ\nルールなんかで止まれるの？\nそうじゃないのが愛だって\n教えたくせに\n知らなけりゃ良かったよ\n\nこの痛みに　愛情以外\n何があるの？\nただ君が欲しいだけ",
     },
     {
         id: 239,　　　　
@@ -3108,7 +3108,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "Sha La La\nLove is automatic　逆らえない...\n思わず息を呑んだ\n\nBeautiful Beautiful\nYou're Beautiful Beautiful\nBeautiful Beautiful\nYou're Beautiful Beautiful\n\nないものばかり　探してる\n纏った涙は何色？\n誰かじゃなくてキミの運命はどこ\nWhat do you really want？\n\nWhy…　自由なほど不自由で\n危険なほど気になって\n「出口はこちらへどうぞ」\n自分見失うくらいなら\nちゃんと欲しがればいいさ\n\n本当のキミは隠せない\nてゆうか　隠さなくて良い\n裸の瞳　吸い込まれてゆく\nSecret...　ひとさし指　約束\n\nSha La La\nLove is automatic　逆らえない...\n思わず息を呑んだ Your lips\nたとえ全て失っても　確かにキミを\n抱きしめるよ...\n\nBitter or Sweet！？\nどんなオレが欲しい！？\nDon't wait and see\nおあずけとか無理\nCrazy baby... Let's kiss\n\nいつも誰かと比べてない？\n気にしないオレSuit & tie\n大切なのは今日も\n昨日より上手く笑うことさ\n\nLove...　近づくほど遠のいて\n期待するほど不安で\n「入口はこちらですよ」\n無防備なほどに守りたい\nそのままでいればいいよ\n\n本当のオレも隠せない\nてゆうか　隠さなくて良い\n裸の瞳　ちゃんとこっちを見て\nDon't move...　触れた頬　色づく\n\nSha La La\nLove is automatic　逆らえない...\n思わず息を呑んだ Your lips\nたとえ全て失っても　確かにキミを\n\n一番近くで...\nキミを見ていたんだ\n何度触れたって...\nまだ足りなくて\n生まれ変わってもキミがいい\nどんな明日が待っていても\n\n誰も邪魔できない　邪魔させない\n迷わず愛したいんだ This love\nキミがいるこの世界ごと\n奪い去りたい\nSha La La\nLove is automatic　逆らえない...\n思わず息を呑んだ Your lips\nたとえ全て失っても　確かにキミを\n抱きしめるよ...\n\nBeautiful Beautiful\nYou're Beautiful Beautiful\nBeautiful Beautiful\nYou're Beautiful Beautiful",
     },
     {
         id: 240,
@@ -3121,7 +3121,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "何度立ち上がってきただろう\nここで終われるわけないと\n悔しさは明日へのアンセム\n心の支えは君の呼ぶ声\n\n強いから勝つんじゃない\n勝者がいつだって強い\n笑いあうその日まで\n諦める理由探すのやめて\n挑み続けるよ\nそう何度でも\n\nOh\n君と描くHistory\nOh\nBE AS ONE\n\n揺らせgo！ go！ goal！\n最高の景色を目指して\n最後の最後の一秒まで共にゆこう\n刻め忘れ得ぬ時代を\nパッションは群青\nオオゾラアガレ愛\nOh\n君の思い\n繋げる　未来へと\n届け僕らの願い(シュート)！\ngo！ go！ goal！\n\n今日を頑張ったって\n誰かに褒められたいからじゃない\n心は誤魔化せない鏡さ\n僕ららしくいたい　昨日よりもっと\n\n傷つきたいわけじゃない\n傷つけたいわけじゃない\nだから強くありたい\n焦り苛立ちもがく日々でも\n夜明けは来るんだ\nそう何度でも\n\nOh\n一人一人が奇跡\nOh\nBE AS ONE\n\n掴めgo！ go！ goal！\n最高の景色を目指して\n最後の最後の一秒まで共にゆこう\n歌え忘れ得ぬ夢を\nエモーションは金青\nオオゾラアガレ愛\nOh\n君の思い\n駆けだす　未来へと\n叫べ僕らの衝動\ngo！ go！ go！\n\n届け僕らの願い(シュート)！\ngo！ go！ goal！",
     },
     {
         id: 241,
@@ -3134,7 +3134,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "くだらない明日ってなんだろう\nみっともない明日ってなんだろう\nおんなじ　おんなじ事で悩んでる\n知らない誰かになってみるなら\n知らない明日を生きてみるのさ\n終わり　そんな事言うなよ\n\n笑ってる　笑ってる　いっせーのーせーエイエイオー\n\nおまたせしました　ジャジャーン登場さ応援団！\n見える　見える　君が笑ってる\n悲しい言葉など　似合わないから\n超きっと大丈夫　もういっちょ大丈夫\nそうきっと大丈夫\n\nくだらない明日ってなんだろう\nみっともない明日ってなんだろう\nおんなじ　終わりのない日々に\n\nおまたせしました　ジャジャーン登場さ応援団！\n言える　言える　君は頑張ってる\n押してもダメならば引いてみようか\nそんな事言わない　超一緒に押してやる\n超きっと大丈夫　超一緒に生きてやる　さぁ行け\n\nおもいっきり　ジャジャーンプで登場さ応援団！\n見える　見える　君が笑ってる\n悲しい言葉など　似合わないから\n超きっと大丈夫　もういっちょ大丈夫\nそうきっと大丈夫\n\n美しい　美しい　君は何より美しい\n笑ってる　笑ってる　最後に君が笑ってる",
     },
     {
         id: 242,
@@ -3147,7 +3147,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "Get Up！Get Up！Get Up！Get Up！Pop&Pop！\n踏み出せばOK！\n\nあぁもうまたウッカリ　落ちてしまうことばかりコリゴリ\n自分で自分のご機嫌取り　とりあえずまた来る明日\nいつも通り　無問題\nハッ！と気付いたらまた　大胆に本末転倒\n嫌んなる本当…ってかいつになりゃ\nブラックなんて頼める大人になれるんだ？\n\n涙目でも　ダメダメでも\n僕だけは君の味方、なんて\n柄じゃないけど\n\nパッパレ！\nなんもかんも忘れて Be alright！\nもうあんなことこんなこと Dreams come true！\n案外そのまんまで良いんじゃない？　パラッパッパッパッパ！\n\nGet Up！Get Up！Get Up！Get Up！Pop&Pop！\n踏み出せばOK！\n\nあれやこれや夢や妄想の類じゃマズいか？\n現実に向き合うか…\nなんか上手いこと説得されてばっかりじゃないか！？\nいつからこんなに難しくなった？\n淡々生きる毎日の散々だこと\nやることなすこと希望に溢れた時代に縋ってたってもう\n\n君とふたり　取り留めのない\n言葉も一つずつ拾いあえば\n無くさないでしょ？\n\nパッパレ！\n簡単なことだぜ Be alright！\n困難も楽しめたら Dreams come true！\n今日はダメだっても良いんじゃない？　パラッパッパッパッパ！\n\nGet Up！Get Up！Get Up！Get Up！Pop&Pop！\n笑えばOK！\n\n間違いなんて一つもない\n心が歌い出すフレーズを\nただ真っ直ぐに飛ばそう\nそれだけ\n\nパッパレ！\nなんもかんも忘れて Be alright！\nもうあんなことこんなこと Dreams come true！\n案外そのまんまで良いんじゃない？　パラッパッパッパッパ！\n\nGet Up！Get Up！Get Up！Get Up！Pop&Pop！\n踏み出せばOK！\n\nLa La La…\n\n自分のことほど分かんない　そのくらいで良い！\n\nGet Up！Get Up！Get Up！Get Up！Pop&Pop！\nそれだけでOK！",
     },
     {
         id: 243,
@@ -3161,7 +3161,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "I got the lightning shock yea\nYour beauty caught my eyes\nWhat're you looking for？\nよそ見しないで\nI'm all yours alright\nI can't breath cause of ya\nOur time is ticking\nTell me about you babe\nどうしたらいい？\nMy heart is pounding\nWhat'd you do to me？\n\nI can't control\nMy head is full of ya\nCan't you feel it now？\nI can't do anything without you\nWould you be my...\nSending the sign for you\nStart with the letter “L”\nAll you gotta say is “YES”\nWould you be my girl？\nWanna be your boyfriend now\n\nなんかフワフワすんだ\n何も喉を通らない\nこれがいわゆる恋煩いってやつか\n教えてよ\n君の好きを好きになりたいから\nビビッと来た\n僕らを結ぶ赤い糸\n\nYou got me all over this game of love\nFeelin' me right now\nI can't do anything without you\nWould you be my...\nEven I see you in my dream\nI'll say the start with “L”\nAll you gotta say is “YES”\nWould you be my girl？\nWanna be your boyfriend now\n\nI just wanna be your boyfriend now\n(Your boyfriend)\nWould you be my girlfriend now？\n(My girlfriend)\n例えばアダムとイヴさ\nどうしようもなく君が好き\n\nI can't control\nMy head is full of ya\nCan't you feel it now？\nI can't do anything without you\nWould you be my...\nSending the sign for you\nStart with the letter “L”\nAll you gotta say is “YES”\nWould you be my girl？\n\nI can't control\nMy head is full of ya\n(Can't you feel it now？)\nI can't do anything without you\n(Would you be my...)\nYou got me all over this game of love\n(Feelin' me right now)\nI can't do anything without you\nWould you be my girl？\nWanna be your boyfriend now",
     },
     {
         id: 244,
@@ -3174,7 +3174,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2023-10-25",
-        lyrics: "",
+        lyrics: "疲れちゃうや\nデタラメの海に\n疲れちゃうや\n欲しいのは君と静けさだけ\nまた振り出しとか反吐が出るや\nこんなに無駄に好きだったのに\n\n気づいてる？\n君＆僕(ぼくら)の世界\nおかげさまで\n微妙なムード\n\n上手く行っていたはずなのに\n目の前にいる君はもう\nLike　画面の向こう\n\n飲み飽きた珈琲\n無理矢理流し込んで\nなんだか笑えてきた\n\n疲れちゃうや\nデタラメの海に\n疲れちゃうや\n欲しいのは君と静けさだけ\nまた振り出しとか反吐が出るや\nこんなに無駄に好きだったのに\n\n夢見てた\nいわゆる未来\n“普通”が一番\n何気にむずい\n\n真面目に生きているのに\n信じてる幸せはもう\nOnly　画面の向こう？\n\nわからないや\n此処はどこだ\n嫌になるや\n僕はどこだ\nわからないや\n此処はどこだ\n嫌になるや\n\n疲れちゃうや\nデタラメの海に\n疲れちゃうや\n欲しいのは君と静けさだけ\nまた振り出しとか反吐が出るや\nこんなに好きだったのに\n\n疲れちゃうや\nため息の部屋に\n疲れちゃうや\n残った支払いと甘めMemory\nまた振り出しとか反吐が出るや\nこんなに無駄に好きだったのに\n\n疲れちゃうや\nわかんないや\n疲れちゃうや\nわかんないや",
     },
     {
         id: 245,
@@ -3187,7 +3187,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "オリジナルのRUNWAY\n夢　並べてこうぜ\n明日もきっと素敵で賞\n言わせてよ　あえて\n君と出逢えて\n一生がHAPPY AWARD\n\n「やれば出来る」って？\n分かるけど待って！\nレペゼンマイペースからの3 2 1 でAction！\n「なんでもない日バンザイ！」\nとか言えたら君も天才\n一山超えたらノミネート　毎日Vパレード\n\n晴れでも雨でも\n君の隣だから\n全部愛しいんじゃない\nオツカレ　ごめんね　アリガト　だいすき\nAWARD\n\nオリジナルのRUNWAY\n夢　並べてこうぜ\n明日もきっと素敵で賞\n言わせてよ　あえて\n君と出逢えて\n一生がHAPPY AWARD\n\n関係各位感謝　つねに新陳代謝\n色々あるけれどバラ色です\n目指せオンリーワンのしわしわ作品賞\n酸いも甘いも抱きしめて Hey！　もう一杯どう？\n\nメンタル四面楚歌\n程々にしてください\nなんかごめんなさい\n何卒よろしくどうにかお願い\nAWARD\n\nまがりくねった MY WAY\n肩　並べてこうぜ\n明日はきっと無敵で賞\n言わせてよ　あえて\n君と出逢えて\n一生がHAPPY AWARD\n\nこんなもんじゃない\nGimme！\n(Gimme AWARD AWARD)\n叶えたいじゃない\nGimme！\n(Gimme AWARD AWARD)\n待って！　ネタじゃない\nGimme！\n(Gimme　慌,　慌 AWARD, AWARD...)\n\nこれからも　いつまでも\n何度でも　一緒に笑ってくれますか\n\n伝えたいことがあって\n会いたい人がいて\n全部全部　ひっくるめて人生でShow\n\nはいもういっちょ\n\nオリジナルのRUNWAY\n夢　並べてこうぜ\n明日もきっと素敵で賞\n言わせてよ　あえて\n君と出逢えて\n世界一の超幸せ者\n一生がHAPPY AWARD",
     },
     {
         id: 246,
@@ -3200,7 +3200,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "Award part2\nLet's go\nさあさあ\n待ちわびた\nShowの幕開けだ\nIt's time for seven\nいざ今日をこじ開けよう\nPut your hands up say ho (Ho)\n負け戦はNo more (Oh)\n雨は上がり\n虹はかかる\n願いかける\nKeep in mind\n\n恥かいたら\nみっともねーか？\nやる前から\n言ってもねーや\n食らいつくように進め\n思い上がんなや\n当たってから\n砕けりゃいーや\nそうやって前へ\nhoo hoo\nEverybody\nhoo hoo\nタラリラ\n\nLet's go up and up\n\n愛だって恋だって\n前ならえ？ (Hey)\n前例なんてなくたって\n気持ち鼓舞して\n手をとって\n輪になって\n声あげて (Hey)\nオドレヤ　(オドレヤ)\n騒ぎましょ宴　(ウタゲ)\n\nwo o o o o o　(ワッショイ)\nwo o o o　歌えや going going\n(Let's go Let's go)\nwo o o o o o　(ワッショイ)\n前人未到の\nAward掴め\n\nEeny, meeny, miny, moe\n俯いても何も\n希望は見当たらね\n光射す方へ\n手を伸ばせ\nOne more time\n地を張って\nもう一回\nいざ賞手にするまで\nビビデバビデランデブー\n\nあの日君と誓った場所へ\n扉は今ここで開かれる\nこれからも一緒に\n夢のまた夢　叶えにいこう\n\nLet's go up and up\n\n愛だって恋だって\n前ならえ？ (Hey)\n前例なんてなくたって\n気持ち鼓舞して\n手をとって\n輪になって\n声あげて (Hey)\nオドレヤ　(オドレヤ)\n騒ぎましょ宴　(ウタゲ)\n\nwo o o o o o　(ワッショイ)\nwo o o o　歌えや going going\n(Let's go Let's go)\nwo o o o o o　(ワッショイ)\n前人未到の\nAward掴め",
     },
     {
         id: 247,
@@ -3213,7 +3213,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "手を伸ばせばきっと掴めるさ\nMake my dreams come true\n必ず\nDon't wanna, don't wanna,\ndon't wanna give it up\n\n走り続けた　涙も汗も枯れるほど\nあの日々がFlash back\n痛みを勇気に変えて\n\n今 Stand up\n守るべきものがある\nNow, we can get together\n見えない道でもたどり着ける\nWe go！\n\n手を伸ばせばきっと掴めるさ\nMake my dreams come true\n必ず\nDon't wanna, don't wanna,\ndon't wanna give it up\n誰よりも願えば　勝ち取る翼になる\n必ず\nWe're gonna, we're gonna,\nwe're gonna be the one\n\n逆境は最強への兆候\n時代を変えろファンタジスタ\n地平線へ続く Victory road\n信じた分だけ近づくゴール\nCome on！！\n\nStand up\n誇るべきものがある\nNow, we can get together\n世界の風に髪がなびく\nWe go！\n\n手を伸ばせばきっと掴めるさ\nMake my dreams come true\n必ず\nDon't wanna, don't wanna,\ndon't wanna give it up\n誰よりも願えば　勝ち取る翼になる\n必ず\nWe're gonna, we're gonna,\nwe're gonna be the one\nTo the next stage\n\n近づくほどに遠ざかる理想\n好奇心を追い風に\nキミが信じた君でゆけばいいさ\n\n手を伸ばせばきっと掴めるさ\nMake my dreams come true\n必ず\nDon't wanna, don't wanna,\ndon't wanna give it up\n同じ時を越えて　同じ鼓動感じた\n必ず\nWe're gonna, we're gonna,\nwe're gonna be the one\n\nあの日見た大空を飛び越えて",
     },
     {
         id: 248,
@@ -3226,7 +3226,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "単調なノンフィクションに\n飾られた騙し絵\nそうやって演じ疲れて\nねえ　今　キミは誰？\n\n無限の階段上って降りても\nここはどこ...頂上(こたえ)はない\nやけに虚しくて\n\n目に映った君は\n理不尽なほどに美しい\n次のセリフ　隠さないで\nワンカットで\n\nどうして月に裏切られた太陽\n僕は誰のために泣いた\n知れば傷つき　知らぬも傷ついて\nどこからどこまでフィクション？\n今まだ抱えきれない絶望も\nそこから生まれてよ　希望\nそれが愛なら\n優しい嘘はいらない...\n\n作り笑いでセッション\n皮肉混じり　やつれた現実\n覗き込む　ボクは誰？\n\n誰かの過ち願ってみたって\nそれがなに...\n喜劇になる筈もなくて\n\n信じてた涙は\n雪解けのように美しい\nその景色に　隠れないで\nスポットライトへ\n\nどうして月に裏切られた太陽\n僕は誰のために泣いた\n知れば傷つき　知らぬも傷ついて\nどこからどこまでフィクション？\n今まだ抱えきれない絶望も\nそこから生まれてよ　希望\nそれが愛なら\n優しい嘘はいらない...\n\n自作自演　絡み合うエゴのFlame\n疑心暗鬼　逃れられないBad End\nWow　痛いのはごめんだ\n目を伏せ無関心の完成\nダレカレカマワズ\nアレコレネタバレ\nルートA　ルートB\nティックタックどっちだ\n\n気づけばずっと探してた結末\n君は誰のために泣いた？\n信じてみたくて\n信じて欲しくて\nそばにいたのに\n\nどうして月に裏切られた太陽\n僕は誰のために泣いた\n知れば傷つき　知らぬも傷ついて\nどこからどこまでフィクション？\n今まだ抱えきれない絶望も\nそこから生まれてよ　希望\nそれが愛なら\n終わらないから\n抱きしめるから\n優しい嘘はいらない...",
     },
     {
         id: 249,
@@ -3239,7 +3239,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "ありがとう　あなたにちゃんと送るよ\nまた会おう　思い出にそっと手を振ろう\nおめでとう　答えは一つじゃないのさ\n初めまして　ピリオド\n\nおはよう　おやすみ僕らの間に\nただいま　君の声が聞こえてきた\nおかえり　いつかはきっとくるのさ\nまたね　いってらっしゃい\n\nあかさたな　はまやらわ　たった50音で\nありのままの僕の自由を縛り付けてみせてよ\n\nあぁ　感じたままに\n君のもとへ駆け出せる\n負けないよ　ありがとうにさえも\n僕はどんな言葉も超える\n僕はどんな僕らを探し出す\nあぁ　楽しいって楽しいんだ！\n\nありがとう　小さい子どもが言ってきた\nまっすぐ　夢いっぱいそうな声で\nあした晴れるといいね\n元気でいてね\n\nありがとう　愛してる　本気のごめんなさい\nありのままの僕の全てを伝えることができるの\n\nあぁ　感じたままに\n君のもとへ駆け出せる\n負けないよ　ありがとうにさえも\n僕はどんな言葉も超える\n僕はどんな僕らを探し出す\nあぁ　楽しいって楽しいんだ！\n\nあぁ　感じたままに\n君のもとへ駆け出してる\n負けないよ　アイラブユーにさえも\n君はなにげない日々の君へ\nかけがえのない日々を送る\nあぁ　会いたいって会いたいんだ\nあぁ　何度だって何度だって\nあぁ　幸せって幸せだ！",
     },
     {
         id: 250,
@@ -3252,7 +3252,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "言葉じゃ上手く纏められそうもないけど\n歌にすれば伝えられそう\nどうか聞いてください\n\nありのままが一番難しい\nでも　あなたにしか出せない魅力\n唯一無二の色\n\nちょっとでも自分を褒めてあげれば\nガチガチの心ほどけていく\n痛いの痛いのとんでいけ\n\nあなたへ\n一人じゃない　一人にしない\n隣で笑う僕たちがいる\n七転び八起きなんて言うけどさ\n疲れたんなら転がったままでいいんじゃない？\n\n「大丈夫」って魔法の言葉\n重なって「ま、いっか」って\n明日は今日よリー皮剥けたらいいな\n\n肩肘張って幾重にもバリアを張って\n気づかぬよう　傷つかぬよう　準備をしてるの？\n\n1のマイナスが10のプラスを越えちゃって\nネガティブスイッチ　無条件にON　現実逃避行\n\nどん底に落ちた夜は長くて\n遠くまで逃げたいよね\nただ　ここが地獄じゃあるまいし\n\nあなたへ\n日が昇る　夜明けはすぐ\n意味の無い人なんてどこにも居ないんだ\n強くなれとか言われてもさ\n悲しいんなら泣きじゃくっていたっていいんじゃない？\n\n時が経てばしょーもなくなるさ\n切り替えて「もういっちょ」って\n自分のことだけは信じてあげようか\n\n苦しむなら自分の為に苦しみたいよな\n何かを大切にするならまずは自分を大切にしないとな\n考えること多いな　疲れるな\nだからこそ自分らしく“I”したい\nそんな自分を一番に愛していたい\n\nあなたへ\nただ届け　あなたの元へ\n軌跡(みち)は続くよ\n響けファンファーレ\n何気ない一日が幸せと気づいた\nたまにはさ　急がば回れでいいんじゃない？\n\n「なんとかなる」って些細なことが\n連なって　叶っちゃって\n新たな何か探し続けていくんだろうな\n\n生きとし生ける　あなたへ愛を",
     },
     {
         id: 251,
@@ -3265,7 +3265,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "こっちは薄くて　こっちは濃すぎるな\nふいに思い立った僕の慣れない料理に\n美味しいと笑いながら食べる君を見て\nなんだか照れくさくて　俯く僕\n\n春がアルバムをめくる\n花瓶の花が揺れる\n出会いから全てが宝物だよ\n\n狭いけれど甘い夜も　背を向け合う苦い朝も\nとろけそうなほどのキスも　しょっぱくて仕方ない涙も\nまだまだまだ君と味わっていきたいんだよ\n大好きな君へ\n\n同じレシピでも　人によって違う\nこの世界でたった一つ　僕らの恋\n妬いて　沸かして　煮詰まって　不器用だけれど\nごめんね　に　ありがとう　をまぶしながら\n\n変わりゆく時の中で　変わることのないもの\n一つでも多く　君と二人で\n\nチョコレートの甘い文字も　背伸びをしたフルコースも\n飲めもしないアルコールも　甘酸っぱくて青い台詞も\nまだまだまだ君と味わっていきたいんだよ\n全然飽きないから\n\n大好物のその笑顔　クセになるあの冗談も\nまろみのある粋な毒も　噛めば噛むほどに出る魅力も\nまだまだまだ君を味わっていきたいんだよ\nしわしわになるまで\n\n狭いけれど甘い夜も　背を向け合う苦い朝も\nとろけそうなほどのキスも　しょっぱくて仕方ない涙も\nまだまだまだ君と味わっていきたいんだよ\n確かめにいこう　幸せの味を\n\nこっちは薄くて　こっちは濃すぎるな\nふいに思い立った僕の慣れない料理に\n椅子にもたれて　お腹をさすりながら\n「美味しかったよ」とやっぱり笑う君に\n「そうでしょ」と言いながら泣きそうな僕",
     },
     {
         id: 252,
@@ -3278,7 +3278,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-03-13",
-        lyrics: "",
+        lyrics: "(しげー！！)はぁーい！！\n(あきとー！！)はいさい！！\n(じゅんたー！！)あいよー！！\n(かみちゃーん！！)はいはーい！！\n(りゅーせー！！)えっ！？\n(はまちゃーん！！)あぃぃぃいー！！\n(のんちゃーん！！)うぃっす！！\nLOVE, PEACE & WEST.\nWe are WEST!!!!!!!\nS！！ K！！ N！！ K！！ F！！ H！！ K！！ WEST！！\n\n浪速の魂かかげ参上\n誇りを胸に暴れまわって\n(なんでやねん！！ どないやねん！！)\n希望のつぼみ開いていく\n輝く太陽に憧れて\nめっちゃ個性的なアホが集った\n(ボケて！！ツッコンで！！)\nがむしゃらに咲き乱れる\n\n困難でも(はい！！) 信念が(はい！！)\n俺ら突き(はい！！) 動かす(はい！！)\n純粋な心で(気張って！！行こうぜ！！)\nさぁここから　空の彼方へ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(あ～もう腕疲れたぁ)\nなんてまだ序の口ここから限界突破さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\nかけがえない楽しい思い出積み重ね\n届け Happiness\n\nがっつりと根を張って奮い立つ\n一日花で終わらせないさ\n(ガッチャガチャ！！ ワッチャワチャ！！)\nたぎる意志は枯らさないから\n\n糧を種に(はい！！)すれば(はい！！)\n見事な花(はい！！)が咲く(はい！！)\n来たる正念場(踏ん張って！！進め！！)\n暗闇でも　さぁ駆け抜けろ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(あ～もう声ガラガラ～)\nなんてまだ序の口ここから限界突破さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\n遠く広がる満開の花びら舞う如く\n空へ Fly away\n\nNaughtyな関西人　陽気でやかましい\nバリバリのチャキチャキたまに噛み噛みタジタジマジ(ワロタ www)\nFunky な感じでも本気で Catch the dream\n七転び八起きでファイティーン！！ Ready to go！！\n\n逆境も(ばっちこーい！！)\n理不尽も(ばっちこーい！！)\n抱いていく大きな夢は(Fu！！Fu！！)\nまだこれから(どんどん！！)\n増えてくから(頑張れー！！)\n風に吹かれても(Go！！)\n雨に濡れても(Go！！)\n進め一歩でも(Go！！)\n描く道のその(Go！！) 先を Wow\nさぁ咲き誇れ\n\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！\n(やばいめっちゃ楽しい↑↑)\nって弾ける笑顔　花丸100点満点さ\n跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)\n踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)\n大輪の花が彩り　すべての心繋ぐ\n虹色の We are WEST!!!!!!!\nWow",
     },
     {
         id: 253,
@@ -3291,7 +3291,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "諦めたい夢なんてないよな\n\n敵わないかも　横を見て　上を見て　落ち込んだって\nいずれ全身全霊が　必須なことには違いない\n叶わないかも　焦るけど　足元見て　気がつくんだ\nいずれ前進する以外　叶えられる術はないと\n\n楽しいってさ　涙を蹴散らすことじゃなくて\n悔しい気持ちも　仲間と思えたときの心のこと\n\nきっと　いつまでも　どこまでも　ずっと\n戦っていくんだろう　張り合っていくんだろう　自分と\n諦めたい夢なんてないよな\n涙って僕らの　正直さなんだよ\n誰にも止められやしない　勝ち越せたらいい\n好機を演出するのは　「信じる」をやめないハート\n\n本当の敵は内側に　それもまた一つの真実\nそれでも負けたくない誰か　競り合うことも間違いじゃない\nただ見失いたくないな　打ち負かして　ニヤけたい　わけじゃないこと\n横も　上も　下もない　僕自身を\n\n楽しいってさ　涙を蹴散らすことじゃなくて\n悔しい気持ちも　仲間と思えたときの心のこと\n\nきっと　いつまでも　どこまでも　ずっと\n戦っていくんだろう　張り合っていくんだろう\n\nそう　いつまでも　どこまでも　ずっと\n戦っていくんだよ　張り合っていくんだよ　自分と\n諦めたい夢なんてないよな\n涙って僕らの　正直さなんだよ\n誰にも止められやしない　勝ち越せたらいい\n言い換えるのなら　最後の最後に\n仲間と肩組み　笑えたならいい\n好機を演出するのは　「信じる」をやめないハート\n\n「信じる」をやめないハート",
     },
     {
         id: 254,
@@ -3304,7 +3304,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "魘(うな)された夢は現(うつつ)か\n嗚呼　いつしか涙涸らして\n彷徨って\n使命とやらを喰いもんにして\n\n感じないようにしてた\n見えないようにしてたんだ\n\n戻れぬ道だろうと\nもう果てなど無かろうと\n思い出すんだ...誰の為だよ\n声にならなくたって\nもう一度逆らい叫ぶ\nI'll be the one\n明日も目覚める運命だ\n\n箱に仕舞った感情など\n嗚呼　鍵も失くした筈だった\n巡り合う　その瞬間(とき)までの話さ\n\nとめどなく染まってる\nColorful world　戸惑う\n刹那に触れ　色を取り戻す\nI wanna run　僕の番\n一筋の光　掴もう\n失っても　乗り越えればいい\n\n光を手繰り寄せた手に残った感触を\n忘れないんだ...乾きが襲っても\n我が身燃え尽きたって\nこの目逸らしはしない\nWhy I'm the one？\n明日も目覚める運命だ\n\n焦がれた夢　邪魔で動けやしない\nただ守り抜くのが無様って言うんなら\n無様な儘でいいんだ\n\n戻れぬ道だろうと\nもう果てなど無かろうと\n思い出すんだ...誰の為だよ\n声にならなくたって\nもう一度逆らい叫ぶ\nI'll be the one\n\n光を手繰り寄せた手に残った感触を\n忘れないんだ...乾きが襲っても\n我が身燃え尽きたって\nこの目逸らしはしない\nWhy I'm the one？\n明日も目覚める運命だ",
     },
     {
         id: 255,
@@ -3317,7 +3317,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "ライフ　イズ　オンリーワン！\nもうこんな時間か\n自分ってなんだ\n自由っておもしろいよなぁ\n今日やろうかな？\nいや、明日でいいよな\n会いたいな。\n\n「大人」になったな！って\n笑い合ったりしてさ…\n本当はずっと「こどな」でいたいんだ！\n「また明日ね」ってフレーズ\nなんか良いよね\nずっと言ってたい\nそう思わん？\n\nこの前買ったビンテージのワイン\n今度一緒に開けてみようよ\nもうすぐお前誕生日だし\nよく笑った\n明日何時？\n遅刻するなよ。\nお前がゆうな！w\n\nドレミファ　なんでもいい\nソラシド　なんじゃない\nドシラソファミレ　どうかなぁ\nなんとかしなくたっていい\nなるようになってるし\n今までもこれからも\n話をしようよ\n\nシャラララ　ラランラン　いつ\nルルルン　どこで\nドタバタ　ジャカジャン　誰が\nなんにもしなくたっていい\nちゃんとわかってるし\n今までもこれからも\n待ちあわせしようよ\n\n「そうやっけ？」「そうやって！」\n笑い合ってそうやって\nどこまでだって\n変わりゆく中で　変わりはしないもの\nらしく行こう　今日も\n\nドレミファ　なんでもいい\nソラシド　なんじゃない\nドシラソファミレ　どうかなぁ\nなんとかしなくたっていい\nなるようになってるし\n今までもこれからも\n話をしようよ\n\nシャラララ　ラランラン　いつ\nルルルン　どこで\nドタバタ　ジャカジャン　誰が\nなんにもしなくたっていい\nちゃんとわかってるし\n今までもこれからも\n待ちあわせしようよ",
     },
     {
         id: 256,
@@ -3330,7 +3330,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "コンビニ行くけどなんかいる？\nなあ俺にできることなんかある？\nコンビニ行くけど一緒行く？\nよし俺にできること考える！\n\nこの時間帯っておにぎりゼロじゃん　(えー！)\n来た意味ないけど笑えるね (YEAH！)\nそんな今日もOK！ (OK！)　散歩でもしようよ (YEAH！)\n隣でふざけ続けてもいい？　(はーい)\n\nさくら味の春　頑張っちゃう夏　ずっと見てたいよ (YO！)\nすべての君に会いにゆく覚悟あるんだ (YEAH！)\n\n24 Hours！\n眠れない夜も　寝過ぎた朝も\nコンビニみたいに寄り添って\n君が笑顔になる瞬間　なんで泣けてくるんだろう\n充電器貸すよ　何度だって100%で永遠を始めようよ\n気圧、貯蓄、たんぱく、口角？\n一緒にアゲてく　人生ってYEAH！\n\n期間限定を何度も逃して　(はーあ)\n二人それなりに過ごしたね (YEAH！)\nどんな今日もOK！ (OK！)　来週末遊園地！ (YEAH！)\n隣で歌い続けてもいい？　(はーい)\n\nピスタチオは秋　極端な冬　そっと見てたいよ (YO！)\nすべての君に会いにきてもらえるように (YEAH！)\n\n24 Hours！\n何もない日曜も　特別な水曜も\nコンビニみたいにここにいよう\n俺が真顔になる瞬間　なんか君は笑ってくる\n偶然だったかな？何度も確かめて必然を見つけようよ\n経験値、前髪、まなざし、セロトニン！\n一緒にアゲてく　人生ってYEAH！\n\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nコンビニ行くけどなんかいる？\nああ、なんかあったらほんまに言って\n\n24 Hours！\n眠れない夜も　寝過ぎた朝も\nコンビニみたいに寄り添って\n君が笑顔になる瞬間　そのために生きてこう\n充電器貸すよ　何度だって100%で永遠を作り出そうよ\n気圧、貯蓄、たんぱく、口角？\n経験値、前髪、まなざし、セロトニン！\n一緒にアゲてく　人生ってYEAH！",
     },
     {
         id: 257,
@@ -3343,7 +3343,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "君に釘付けクセになる　ステキなステキなMy Fave\n君に釘付けクセになる　ステキなステキなMy Fave\n\nメイク落としてさっぱり　今日の嫌なことバッサリ\n年々あっちゅう間に過ぎてくさ　理想は素敵なVintage\nモヤモヤはスパイスと煮込んでしまえ\n飲み込めるかは　知らんけど\n\nでも君は風呂上がりのビールのよう　眠る前のアイスのよう\nキュートでコメディー　遠巻きニヤリ眺めております\n\n君のキラキラした生き様を　見るとこっちも輝けちゃうよ\n何でも話してくれる君が大好きさ\n\n君に釘付けクセになる　ステキなステキなMy Fave\n君に釘付けクセになる　ステキなステキなMy Fave\n目薬をさしたところで　その白目にはならない\nマシュマロを食べたところで　その白さにもならない\nでもいいのさ　そんなのいいのさ\n明日は明日　頑張りましょう！\n\nここは洗濯機の中ですか？　気持ちの渦に泡吹きそう\nそれは燃えるゴミですか？　いえ自分にとっちゃ宝物\nあちらの電球が切れそうです　こちらの電池も切れそうです\nどの花も枯れちゃうよ　あぁもうカラカラ\n\n誰かを受けとめること　誰かを応援すること\n自分に余裕がないと　できないかもしれない\n\nたまには空気を入れ替えて　新しい柔軟剤にして\n誰かの価値観なんて　じゃぶじゃぶ洗い流して\nいっぱい太陽を浴びて　遊び心の余裕を\n君のことが大事な今が大好きさ\n\n君に釘付けクセになる　ステキなステキなMy Fave\n君に釘付けクセになる　ステキなステキなMy Fave\n向かい風も追い風に変えてしまおう\n綺麗な白い花がゆらゆら揺れてる\n土砂降りの雨も止んだら七色の虹がかかるよ\n明日は明日　頑張りましょう！",
     },
     {
         id: 258,
@@ -3356,7 +3356,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "上がる　上がる　天空まで上がってく\nハルカ澄んだ　あの場所に\n届けるまで　止めないでエナジー\n\nあの日君に出会った瞬間\nディストーションみたいな直感\n目の前の景色が全部\nパワースポットに変わったよ\n\n泣き出しそうなCloudy skyもRainy dayも\n虹を待つ序章なんだよって\n君が教えてくれたから\nもうどんな　今日も　無駄にしない\n\n曲がりくねった道だからこそ\nたくさんのカーブで景色見れるよ\n君といるなら　遠回りもOK\n\n変わる　変わる　この街も変わってく\n昨日よりも　“今日が好き”\nEveryday, Power-Up\n明日もBeautiful day\n上がる　上がる　天空まで上がってく\nハルカ澄んだ　あの場所が\n待ってるから　止めないでエナジー\n\n幸せの基準は曖昧\nだからこそ感じてたい I like it！！\nMAPに載らない up-downも\n君となら　アトラクションさ\n\n迷った時は　あのタワーのように\n目印にして　僕を頼って\nつまずいたって　止まらないで　One way\n\nHigher Higher Higher\n無重力の世界みたいに　(離さないで)\nFly Fly Fly\n恋も急上昇　(どこまでも)\n君と上がってこう\n\nきらり　ひかり　今日がまた始まる\n君を連れて　駆け上がってく\n\n変わる　変わる　僕たちも変わってく\n昨日よりも　“君が好き”\nEveryday, Power-Up\n今日だってBeautiful day\n上がる　上がる　天空まで上がってく\nハルカ澄んだ　あの場所に\nどんな景色　広がってるの？\nこの目で君と　見たいから\nいま心に　湧き上がるエナジー",
     },
     {
         id: 259,
@@ -3369,7 +3369,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2024-04-24",
-        lyrics: "",
+        lyrics: "(Got this melting love)\n(Lighting up my soul)\n(Right, you might be in love)\n(But not in control)\n\nさあ 君ならこれからどうしたい？\n未知の展開 find\n居心地最高 ぬるま湯ライフ\nハッピーな振りだけなんじゃない？\n一貫した no clueless\nそれとも素直になれないフェーズ？\n解せない じゃ俺から先制で\n0から100まで Give me all of you\n\n選べぬ choice\n揺れ動いて heart beating\nリスキーな priority\nI can understand\nDon't hide away\nWhy'd you make that face?\n塞いだ唇に this reality\nYeah, I know\nI still love you\n\n窓の外 rainy blue\nさめざめ止まぬ小雨\n雨にも負けず\n心に問う 躊躇いの決め手に\n広がる sky blue\n厚い雲はいずれ晴れる\nもうその愛が呼んでんだ\n\nSo I won't let you go\n(Baby)\n掛け違えた想いが drowning\n惹かれ合ってまた向こう\n交わらない 逃避行\nI won't let you go\n(No)\n御伽話でも構わない\nAlright, alright\nCome on closer\n\n(Got this melting love)\n(Lighting up my soul)\n(Right, you might be in love)\n(But not in control)\nYeah 焦ってんな\nアドリブだけじゃ無理 突破\n溢れる思いをブチまけたい\n喉は痺れて何も言えない\nYeah 焦ってんな\nアドリブだけじゃ無理 突破\n溢れる思いをブチまけたい\n君の目の中へ now respond\n\nめでたく一緒 新生 couple\nそうなりゃ毎日 bright\n陽だまりの中 見つめ合い\n分かち合うのさ 喜怒哀楽(Always)\nたまにはmore遠くまで\nなんぼあってもいい思い出\n最高 no mercyな現実に\n見えた夢\n\n(Met you, my heart unsealed)\n愛に口実はいらない\n(Just feel)\n縛れない\n(Know you now and it's real)\nもう誰も止められない\n(Just feel)\nI'll take you out\n(Thought of you, my heart peels)\n\n輝いて city lights\n雨模様 空の下\n(Up high)\n強く抱き寄せた\n(in these skies)\nこのハートを君へ\n(Feel them inside)\n\n言葉なんていいから\n君の全てを\n教えてほしい 心からの君を\n言い訳なんていいから\n描いてみよう 無限の夢想\n\nSo I won't let you go\n(Baby)\n絡み合う日々を now, draw them\nつかず離れず 探り合う\n時間忘れて all night long\nI won't let you go\n(No)\nありふれた朝を君と keep on\n\nSo I won't let you go\n(Baby)\n掛け違えた想いが drowning\n惹かれ合ってまた向こう\n交わらない 逃避行\nI won't let you go\n(No)\n御伽話でも構わない\nAlright, alright\nCome on closer\n\n(Got this melting love)\n(Lighting up my soul)\n(Right, you might be in love)\n(But not in control)\nYeah そんな馬鹿な\n胸を焦がして オーバーヒート\nシナリオ狂って大暴走\n見つけた気がした ハッピーエンド\nYeah 馬鹿は俺だ\n見えないものを見ようとした\n醒めた後に残った感情\nまっすぐに君を愛してた",
     },
     {
         id: 260,
@@ -3382,7 +3382,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "(ワンツー...まぁいっか！)\nLa La La...\n(まぁいっか！まぁいっか！)\n\nこの物語の主人公は僕です\n絶対そうって言い切れる！\nいつか見た理想や　あのとき笑われた夢が\nキラッと光って今　僕を照らしている\n\n(まぁいっか！)\n\nちょっとの事など気にしないぜ (Z！)\n昨日よりも今日の方が最強じゃん！ (でも？)\n時々あっちゃこっちゃ羨ましいなって...\n僕は僕なのに！\n\nまぁいっか！\nなんとなく過ごす日々に愛は隠れてる\nやり切れないことばっか押し寄せて来ちゃうけど\nみんな違ってみんな良いだなんて思えなくても良い\n僕が僕を愛してあげないとさ\n大好きな君に笑われちゃうよな\n\n少し大げさに言うなれば\n無敵のヒーローです\n誰かの理想に　イヤイヤ合わせるくらいなら\nサイテーの上で　歌って踊ってやる！\n\n(まぁいっか！)\n\n「みんなそんなもんでしょ」ってかなわんわ (そーれ！)\n楽しんだもん勝ちって言ってんじゃん！ (ピース！)\n根拠なんてないんだけど\n馬鹿馬鹿しいなって　とりあえず　それとなく\n笑えればIt's OK！\n\nまぁいっか！\nなんとなく過ごす日々に愛は隠れてる\nやり切れないことばっか押し寄せて来ちゃうけど\nみんな違ってみんな良いだなんて思えなくても良い\n僕が僕を愛してあげないとさ\n大好きな君に笑われちゃうよな\n\nLa La La...\n\nまぁいっか！\n\nこうやってなんとなく過ごす日々に愛が溢れてく\nそんなイメージ持ってりゃこんな世界もちょっと煌めくぜ！\nみんな違ってみんな良いだなんて思えなくても良い\n少しも難しいことはないのさ\n僕が僕を愛していたいから\n大好きな君のために歌っていいかな\n\nLa La La...\n(まぁいっか！まぁいっか！)",
     },
     {
         id: 261,
@@ -3395,7 +3395,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "僕が選んだからには\nありきたりで終わらせないぜ\n扉　ぶっ壊れた今こそ\n誰も邪魔出来ないんだ\n\nアリエナイ　バカミタイ\n散々言われたけれど\n後悔するくらいなら\n笑われたほうが良いや\n\n「何者かになりたい」それだけ\nポケットに捩じ込んだ Night\n時代のせいにしてたら\nなんかゲームセットじゃない\n眺めてた　街の灯りも\n消えてくころ　僕は出てくよ\n勇敢なヒーローの振りして\n\nなりふりかまわず　生きたくて\n何処かで愛求め　迷子だった衝動は\n僕をつくり　僕を目覚めさせる\n前だけ見てりゃ上等さ\n\nなにやってんの\n涼しい顔してらんないよ\n心に突き刺さるメンション\nWhy'd you stop？ お前に聞いてんの\n変わってみたいなら\n向き合うしか無いかな\nまだ　僕を諦めたくないや\n\nひたすら信じていたい　それだけ\n止まっては　進んでく Style\n時計の針に追いかけられている場合じゃない\nつまづいた時の砂利の味も\n今でも忘れていないよ\nいっさいがっさいを味方にして\n\nなりふりかまわず　生きたくて\n何処かで愛求め　迷子だった衝動は\n僕をつくり　僕を目覚めさせる\n前だけ見てりゃ上等さ\n\nWow...... 響いていく\nWow...... 広がっていく\n\n僕らがいて\nあなたがいて\nそれだけで笑える\nこれでいいんだって思える\nあなたがいて\n僕らがいる\n生きたいって思える\n\nなりふりかまわず　生きたくて\n何処かで愛求め　迷子だった衝動は\n僕をつくり　僕を目覚めさせる\n今を歌えりゃ　充分さ\n\n僕らがいて\nあなたがいて\nあなたがいて\n僕らがいる\n\n僕らがいる",
     },
     {
         id: 262,
@@ -3408,7 +3408,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "まっすぐ声にしよう\nやっぱり僕らは\n“I like you！！”\nねえ、手を繋ごう\n\n午後の金木犀が\nゆっくり街をつつんだの\nふいに出会ったころの\n君が揺らめいて\n\nとっくに見慣れたすっぴん\n良いのに、うつむかないで\nからかってないけどさ\nいとしくて　ごめんね\n\nふたつの影\nまるで当たり前の幸せ\nこんな日に似合う\n言の葉を集めて\n\nまっすぐ声にしよう\nやっぱり僕らは\n“I love you！！”以上\n“I like you！！”が「らしい」ね\n\nしわくちゃになったら\n着こなせるかな\n“I love you！！”\nそっと待ってて\n\n巡るたび季節は\nきっとね　加速してる\n君もそう思うんなら\n気のせいじゃないかも？\n\nバースデー　そろそろだね\nヒントは9つまで\nかわいい願い事を\n今年こそ当てるよ\n\nひとつになる\n思い出と未来のシュプール\nはぐれないように\nひらめく限りの灯を\n\n最後の恋にしよう\nやっぱり君だよ\n“I like you！！”一生\n言ったって　足りないや\n\n芽生えたあの日と\n同じ温度の\n“I like you！！”\nねえ、手を繋ごう\n\n夕暮れ　細道　笑い合えば\nこだましたやさしさ\nやっと見つけた　愛だ\n\n格好もつけたいけど\nやっぱり僕には\n“I love you！！”以上\n“I like you！！”が「らしい」ね\n\nしわくちゃになっても\nこんな「好き」を重ねよう\n何百回だってさ\n\n最後の恋にしよう\nやっぱり君だよ\n“I like you！！”一生\n言ったって　足りないや\n\n芽生えたあの日と\n同じ温度の\n“I like you！！”\nねえ、手を繋ごう",
     },
     {
         id: 263,
@@ -3421,7 +3421,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "私の毎日を狂わすのは\n錆びた弦でも切れた縁でもない\nまだ好きでいたくて\nまだ好きなのに痛くて\n白黒を選べない\n私は私を選べない\n\nさよなら私の夢よ\n私の想いよ\nこのまま枯れるよりも\nさよなら私の日々よ\n私の全てよ\nおやすみ\n\n春は親切に訪れるの\n風は健気に街を駆けていくの\n私は私で居たくて\n私が私だと痛くて\n何者にでも慣れて\n未だ何者にも成れない\n\n泣いて笑って\n落ち込んで崩れて\nそれでも私の人生\n強く生きてみたりする\n\n誰か気付いて\n誰か気付いて\nこんな私の人生\nこれも私だ\n\n今でも私の光よ。\nこれまでの痛みも\n抱えて探して進んでいく\n全てが私の日々よ\n私が決めるのよ\n\nもう会わないでいようね\n諦める主役",
     },
     {
         id: 264,
@@ -3434,7 +3434,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "踊ろうや歌おうやど真ん中人生謳歌\n(あんたもそうでっか？)\nほな良かったまだまだせーへんSlow down\nめったにないよなこの瞬間\n乗ってけみんなで魔法の絨毯\nしんどい？ hahaまたまた御冗談\nShall we dance？お任せ僕、長男\n\n待ちに待った夢見心地\n(風吹かそうその手を叩いて)\n忘れてええよ明日なんて\n(ふっ飛ばそうぜ月の向こうまで)\n\n君が照らした光目指し\n駆け出す　はじまる　全てはここから\n\nひとりになんてさせやしないぜ\n瞳奪うなんてお手のもんです\n一度きりなんて言わんといて\n他の誰かはちょっと置いといて\n\n巡り巡り君と共に声を響かす (Hey！)\n熱意決意込めて奥に音を届ける (Hey！)\nIt's show time！ ゴールデンタイム！\n踊りたい人　どこ！？　そこ！！\nあそこにも！！了解！！\n\nピカピカ光る笑顔　集まれば始まりの合図\nHey！ 今はぼちぼちじゃなく強引にGoing！\n奇跡起こる予感\nイラーッとなんかしないでここにくれば\n夢のような世界へ\nなにわともあれいくぜ I go my way\n男子も女子も手に手をとったら歌え\nナイナイ心配ナイ緊張なんていらナイ\nここに来たなら楽しむしかナイ\n\nLet it be　思うままに\n予測可能な明日なんかつまんない\n背伸びした景色に\n胸を膨らまして生きる方がいい\n\n君が照らした光　受け取り\n今また　はじまる　まだまだこれから\n\nHey　口から出まかせ\n蔓延る世界に立ち向かえ\n未来に期待全部自分次第\nめちゃくちゃに肩組んで喋りもて\n\nおい！今何時や？\nん？7時ぐらいやな\nおい！めっちゃええやん！\nゴールデンタイムや！\nほんまやな！\nでもゴールデンタイムってなんで\nゴールデンタイムなんや？\nそりゃみんな集まって\n『どっひゃー』なれるからやろ？\nほんまやなー　ピッカピカやー！\n\nピカピカ光る笑顔　集まれば始まりの合図\nHey！ 今はぼちぼちじゃなく強引にGoing！\n奇跡起こる予感\nイラーッとなんかしないでここにくれば\n夢のような世界へ\nなにわともあれいくぜ I go my way\n男子も女子も手に手をとったら歌え\nナイナイ心配ナイ緊張なんていらナイ\nここに来たなら楽しむしかナイ\n\n踊らにゃそんそん\n\nめちゃめちゃええやん最高\nめちゃめちゃええやん最高超でいこう\nキラキラのその笑顔抱きしめに行くよ\nめちゃめちゃええやん最高\nめちゃめちゃええやん最高超でいこう\n曇った世界にこの声届けどこまでも晴れ渡れ\nHey！ めちゃめちゃええ夢みさせるぜ Yeah！\n\n君の為に声を大にここに宣言(Hey！)\n煌びやかに照らすキラリ笑みは満面(Hey！)\nIt's show time！ ゴールデンタイム！\n声聞かせてよ\nいつ！？　今！！いくでGO WEST.",
     },
     {
         id: 265,
@@ -3447,7 +3447,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2024-09-10",
-        lyrics: "",
+        lyrics: "Checkmate\n\nOh Checkmate\n\n目が合うたび逸らす君は\nねぇLove youが漏れてるよ\n白黒つかない態度で\nごまかしたってWhat's your point？\n\n左ならもうGo home\n右ならこの恋Stay hope\nどっち選べばいいか\nわかってるんでしょう\n\n心は“行かないで”\n口では“バイバイ”なんて\n引き止めてほしい君はずるい\n\n覚悟決めて\n会いたいなら会いたい\n触れたいなら触れたい\n素直になれたらYou're the winner\n簡単に攻略できないから燃えるんだろう\n結局\n愛したいから愛したい\n言いたいもう言いたい\n降参しちゃえば欲しいものあげる\n目を閉じてごらん　君の唇に\nCheckmate\nCheckmate\n\n指先触れるたび君は\nWant youの裏返しだね\n僕は強気の一手\n気づかれないよPoker face\n\n下ならひとりDream world\n上ならふたりSweetest night\nどっち狙ってるかなんて\n言うまでもないでしょう\n\n頭じゃ“わかってる”\nみつめて“どうしたい？”なんて\n委ねて逃げるから追いかけちゃう\n\nCheckmate\n\n君のReady次第で僕らはSteady\nもうわかってるくせに\nDon't be a silly billy！\nNo 猜疑心\nEndgame, Checkmate\n終わりのその先へ\nその先へ\n\n「なぁ......言わせんなよ」\n\n会いたいなら会いたい\n触れたいなら触れたい\n素直になれたらYou're the winner\n簡単に攻略できないから燃えるんだろう\n\n結局\n愛したいから愛したい\n言いたいもう言いたい\n降参しちゃえば欲しいものあげる\n目を閉じてごらん　君の唇に\nCheckmate\n\nYeah eh eh, Yeah eh eh eh\nCheckmate\nMate, this is how we make it\nCheckmate",
     },
     {
         id: 266,
@@ -3460,7 +3460,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "夢から醒めた\n現実にマジか (泣)\n余裕とかなくても\nスマホでコーヒータイム\n月曜日 Bonus Day\n火曜日 おつかれDay\n水木金は実質土日で毎日Party\nOh No！前代未聞の失態\n友人に電話して　号泣した翌日\n「まあ、次あるっしょ！」\n「なんとかなるっしょ！」\n反省しても後悔しない\n切り替え早めのスタイル Yeah\n\n本来　人類はみなアニマル\n兄弟　まあ気楽にもう一杯\nアクセルベタ踏みで空も飛びたい\n\n超弩級のAHO AHO AHO AHO AHO\n最強のAHO AHO AHO\nなんて素晴らしい！\n一寸先も　千年先も\n笑えりゃOK　全てはAlright\nつまり悩んでるのもアホらしい\nまあいいっしょ　最低でも最高\nこんなんじゃ足りないや\n\nやめときなさいって　なんでやねん\nほいならおたくはどないやねん\nっちゅうか　なんたらかんたら説教垂れる前に\n踊りゃええんちゃうの？\n\n四の五の言わずに笑えばええ\n恥ずかしがらんで遊べばええ\nそうなんとかかんとか　考えるよりも今\n全部脱ぎ去って\n\nあーやれやれだ　だめだめだ\nアセアセだ　風邪気味だ\nそんなのどうでもいいよ\n人生が一度きりなら\n人の目とか気にすんじゃねえ！\nWe're サラブレッド　ドアホ　ドアホ\n\n最上級のAHO AHO AHO AHO AHO\n空前のAHO AHO AHO\nだってそうでしょ？\n白でもいいじゃん　黒でもいいじゃん\n幸せならば　全ては正解\nつまり後悔するのもアホらしい\n超いいっしょ　最高以上行こう\n胸張って生きたいじゃん\n\n楽しくないと意味ないよ実際\n全部は気分次第\n\n天才じゃなくても\nご立派じゃなくても\nいつだって自分だけは自分の味方でいたい\nマジくだらないよな\nああしろ　こうしろってさ\nやってられないよな\n誰だってアホみたいなもんやのに\nアホがアホにアホって\n言うのが一番アホやん\nOh Yeah！\n\n心配事の99%気にしすぎ\n顔色ばっか窺っても意味ない\nさっさと遊びに行こうか！\n\n超弩級のAHO AHO AHO AHO AHO\n最強のAHO AHO AHO\nなんて素晴らしい！\n一寸先も　千年先も\n笑えりゃOK　全てはAlright\nつまり悩んでるのもアホらしい\nまあいいっしょ　最低でも最高\n人生は喜劇\n最高以上行こう\n確定でハッピーエンド\n人類みな解放\nAHOに生きようぜ\n\nAudio Hang Out",
     },
     {
         id: 267,
@@ -3473,7 +3473,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "(Mmm... c'est si bon...)\nOoh yeah\nWow baby\nOpen your eyes, my sweetie\n\n兎角、この世は愛おしい\n全て手に入れてみせましょう\n投げたRed apple\n夜に溶ける\n惚れ薬　毒をちょっと一匙\n\nIn the night sky (In the night sky)\n甘くないの (甘くないの)\nこれが罠なんて\nもう台無しだわ\n\nFollow me\n世間知らずなフリをして\n炙り出す　本当の答え\n染まる前の夜空にFly away\n触れば仰天、齧(かじ)れば昇天\n君にだけ\n\nYou wanna kiss kiss\nKissing my heart tonight\n丸裸にしたい\nYou wanna kiss kiss\nKissing my lips tonight\nもっと求めてしまいそう\nいずれは醒める夢と\n分かってるつもりよ\nYou wanna kiss kiss\nKissing my lips tonight\nさあ、愛を召し上がれ\nアップルパイ\n\nいつかは素敵な王子様と……\n信じてるなんてお子様ね、ホント\n\nI'm here if you want (I'm here if you want)\nどこにいるの (どこにいるの)\nただ足掻いても\n抜け出せないわ\n\n想像以上　手強い恋の迷路\n貴方を翻弄\n迷う前に出口にRunaway\n迷えば反転、曲がれば終点\n私の方へ\n\nYou wanna kiss kiss\nKissing my heart tonight\n丸裸にしたい\nYou wanna kiss kiss\nKissing my lips tonight\nもっと求めてしまいそう\nいずれは醒める夢と\n分かってるつもりよ\nYou wanna kiss kiss\nKissing my lips tonight\nさあ、愛を召し上がれ\nアップルパイ\n\n甘い蜜に誘われて\nいい気味ね、好きで身を投げて\nOh boy\n軽くお芝居\n全て思い通り\nYou say yes, you say more\nちょろいもんね\n\nOoh yeah\nWow baby\nOpen your eyes, my sweetie\n\nYou wanna kiss kiss\nKissing my heart tonight\nまだまだ満たされない\nYou wanna kiss kiss\nKissing my heart tonight\n飲み込まれてしまいそう\n派手に振り回されても\nたまにはいいでしょ？\nYou wanna kiss kiss\nKissing my heart tonight\nさあ、おはようのキスを\nアップルパイ\n\n抜け出せないわ\n抜け出せないわ",
     },
     {
         id: 268,
@@ -3486,7 +3486,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "わかってるくせに... shhhhhhh！！\n大胆なセリフ\nねえ　言いたい　言えない　言わない　絶対？\n初めての顔を見せて...\n\n無理　無理　昨日から\n普通のフリ　フリ\n思い出すたびにHoney, honey\n甘過ぎて隠しきれないPassionate\n桜色...\n\nHey don't miss it\nOur love is the real\n二人を縛る運命のひも\nStep over the line if you want me...\nなんてね\n\n焦(あせ)り過ぎでしょ...\nまだ開けちゃいけないSweet Box\n誰かに言いたくて\nとろけそうさ\n\nわかってるくせに... shhhhhhh！！\n大胆なセリフ\nねえ　言いたい　言えない　言わない　絶対？\n焦(じ)れったいほどにSweet\nもう　バレちゃう　バレたい　バレない　今日も\nそのままのキミを見たくて...\nKiss you\n\nシャツの奥で　ざわつく　鼓動\n耳を塞いでも　消えない程\nいつから呼んでたファーストネーム\n二人だけが知ってる\n確信犯\n\nCan you feel it？\nOur love is the real\n電話越しでもわかる感触\nCheck deep in my heart if you want me...\nおやすみ\n\n静かな部屋は\n余計に愛しくなるよ\nらしくないことさえ\nしちゃいそうさ\n\nわかってるくせに... shhhhhhh！！\n大胆なセリフ\nねえ　言いたい　言えない　言わない　絶対？\n焦(じ)れったいほどにSweet\nもう　バレちゃう　バレたい　バレない今日も\nそのままのキミを見たくて...\n\nFeelin'... missin'...\nI'm twistin'\nFallin'... Callin'...\nmy heart insistin'\nBitter　今　何処　誰...\nSweet ok　じゃあ　後で\nBitter　嘘...　自問　自答\nSweet　そっか　君も　同じ？\n\n今以上が欲しいから\nDon't change change change my heart\nたったひとつのラストシーン\nわかってるくせに... shhhhhhh！！\n時がとまったのは\n僕だけのキミだったから\n\nわかってるくせに... shhhhhhh！！\n大胆なセリフ\nねえ　言いたい　言えない　言わない　絶対？\n焦(じ)れったいほどにSweet\nもう　バレちゃう　バレたい　バレない今日も\nそのままのキミを見たくて...\n唇に確かめたんだ\n君が少し照れた瞬間\nKiss you",
     },
     {
         id: 269,
@@ -3499,7 +3499,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "Yeah\nTICK TICKTOK\nUh uh uh\n\nYeah　胸の奥でずっと Ringing\n逃げられなくて\nYeah　揺れ動く瞳　I'm asking\nWanna go or stay？ Aye\n\n時計の針重なる瞬間\n急かすように始まる Countdown\n進むほどに戻れない\nうつろう Mind　惹き合う Silhouette\n\nIt's toxic but sweet\n惑わせて焦らせて\nOn & on & on & on\n近づくたび So deep\nもっと君を知りたい　But why？\nJust watch me\n\nUh huh\n\nWe go like TICKTOK\nWe don't stop\n時を忘れ君と刻むこの Rhythm\nLike TICKTOK\nWe don't talk\n言葉じゃなくて距離で確かめる Feelin'\nTICKTOK\n密かに触れ合った手\nTICKTOK\n溶け出す二人の Moment\nTICKTOK\n秒針を狂わせて\n終わりのない夜へ Dive in\n\nAye　失った Patience\n動くだけが Mission\nAye Gotta run　もっと Speed up\n鼓動は BUM BUM\n越える Dimensions\n\n規則的かつ神秘的\n迷い込んだ Space\n吐息だけがずっと Echo\nTICKTOK\n迫り来る音\nYou hear？\n\nDon't stay just say\n気づかせて滾(たぎ)らせて\nOn & on & on & on\n消えていく My fear\n熱を帯びて高鳴った Heart\nJust touch me\n\nOne more time\n\nWe go like TICKTOK\nWe don't stop\n時を忘れ君と刻むこの Rhythm\nLike TICKTOK\nWe don't talk\n言葉じゃなく距離で確かめる Feelin'\nTICKTOK\n密かに触れ合った手\nTICKTOK\n溶け出す二人の Moment\nTICKTOK\n秒針を狂わせて\n終わりのない夜へ Dive in\n\n永遠が流れてる\n君と僕二人の Room\n止まらずこのまま\n誰もいない場所へ\n時を忘れて Let's dive in\n\nWe go like TICKTOK\nWe don't stop\n時を忘れ君と刻むこの Rhythm\nLike TICKTOK\nWe don't talk\n言葉じゃなく距離で確かめる Feelin'\nTICKTOK\n密かに触れ合った手\nTICKTOK\n溶け出す二人の Moment\nTICKTOK\n秒針を狂わせて\n終わりのない夜へ Dive in",
     },
     {
         id: 270,
@@ -3512,7 +3512,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "Sunlight\nYou're my light\nSunlight\n\n待ち合わせていた 3pm\n高鳴る鼓動は BGM\nI know\n\nEverytime, oh oh oh\nEverytime, oh oh oh\n\n憂鬱もスプーンで溶かして\nふたりきりで過ごせば So slow\n最高に贅沢な Saturday\n\n言葉なんていらない Stay with me\n君という Flavor を\nJust let me try\n\nBaby, you are my sweety\nI feel it\nそばにいるだけで\n甘い想い溢れ出す\nSo sweet tea\nWe feel it\n時が止まるように\nふたりだけの世界\n永遠に感じたい\n\nSunlight\nYou're my light\nSunlight\n君がいるなら Alright\n\n君に含まれている成分\nハマってくよ Twenty-four seven\nYou know？\n\nTell me now, oh oh oh\nTell me now, oh oh oh\n\nこれから先も変わらずに\n吸い寄せられる Honeybee みたい\nそれすら愛おしい Common name\n\n他の何かじゃ満ち足りない\n君という Flavor を\nJust let me try\n\nBaby, you are my sweety\nI feel it\n過ごしてく中で\nときに苦い日もあるけど\nSo sweet tea\nWe feel it\nまた君と踊れば\n人生は輝くから\n明日も It's OK\n\n渇いた心に (So sweet)\n愛が満ちてゆく (I need your love)\n花が水を待つように\n僕には君だけだって\n感じてるのさ\n\nBaby, you are my sweety\nI feel it\nそばにいるだけで\n甘い想い溢れ出す\nSo sweet tea\nWe feel it\n時が止まるように\nふたりだけの世界\n永遠に感じたい\n\nSunlight\nYou're my light\nSunlight\nいつまでも Your side\nLight\nYou're my light\nSunlight\n君がいるなら Alright",
     },
     {
         id: 271,
@@ -3525,7 +3525,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "降り出した通り雨がくれた\nひとときの帰れない言い訳\n呟いた「あのね」に手を引かれ\n意味のないくちづけを交わそう\n\n「さよなら」の約束を　濡らす涙がほどいていく\n\n恋は終わりって知ってたって　二度と会えないって知ってたって\n「あと少し」「あと少し」あなたの腕で眠るの\n雨音と鼓動のラプソディーに　呼吸が重なったハーモニーが\nこの願いを確かめさせる\nどうせならこのまま帰れないようにして\n\n雨粒は絶えず鳴り続いて\n古ぼけた映写機のようだね\nいたずらに回り出す思い出\n嫌気がさすほどに美しくて\n\n「さよなら」の熱(ほとぼ)りを　窓の雫が冷ましていく\n\n恋は終わりって言ってたって　二度と会わないって言ってたって\n「もう一度」「もう一度」あなたの腕で眠るの\n雨音に隠したダイアローグ　きっと後少しのエンドロール\n肌重ねてごまかしていく\n言いかけたわがまま気づかれぬようにして\n\n終らせるなら　土砂降りの中\n一人にさせて欲しいのに\nどこまでもずるい人　ほら忘れられなくなってしまうでしょ？\n\n恋は終わりって知ってたって　二度と会えないって知ってたって\n「いつまでも」「いつまでも」あなたの腕で眠るの\n雨音と鼓動のラプソディーに　呼吸が重なったハーモニーで\nこの願いを止められないの\nどうせならこのまま帰れないようにして",
     },
     {
         id: 272,
@@ -3538,7 +3538,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "頑張ってんだろ　ヘイどうだい？\n\n旅立ちの日　名もなき道\n心もとない　僕の鼻唄\n桜吹雪　手を振る先\n言葉に出来ずに　なんだかなぁ\n\n元気でいろよ　ベストフレンド\n新しい街　相も変わらぬフリして\n正直どっかでなんかわかっている\n僕らに幸あれ！\n\n頑張ってんだろ　ヘイどうだい？\nさぁはじめようぜ　胸張ってオーライ\nベイビー　未来は自由自在\nなんだかんだいっても L O V E ラブ\n\n諸行無常の響きあり\n難しくて解りはしないし\nその日暮らし　それも良い感じ\nちいさくでっかく　やっていこう\n\n約束しろよ　ベストフレンド\nいつか会う日に　生きててよかったなんて\nクサいセリフでうまい酒を飲む\n世界に幸あれ！\n\n頑張ってんだろ　ヘイどうだい？\nさぁはじめようぜ　胸張ってオーライ\nベイビー　未来は自由自在\nなんだかんだいっても L O V E ラブ\n\n泣きたくなんだろ　ヘイどうだい？\nなぁよくわかるぜ　誰だってオーライ\nベイビー　いつでも自慢したい\nどいつもこいつも L O V E\n\n頑張ってんだろ　ヘイどうだい？\nさぁはじめようぜ　胸張ってオーライ\n勝たなくてもいい　ただ負けないで\nなんだかんだいっても L O V E ラブ\nそう愛だよな！\n\nそれいけ頑張ろう　ラブ&ピース",
     },
     {
         id: 273,
@@ -3552,7 +3552,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "強くもねぇけど弱くもねぇ\n硬い意志持ってまっすぐに突き進め\n止まらず go way　目指したい方へ\nDon't stop get it get it　今ぶちかませ\n誰もかれも諦めなきゃきっとできる ok？\nなんでもかんでも抱え込んじゃ満足しないどうせ\n所々見直してその繰り返しで\n無理難題の壁ぶち壊せ\n\nするわけないやんびびってガクブル\n分厚い壁おもっくそブチ破る\n突き抜けた先に見えてくるブルー\n狙い目がけて真っ直ぐ当てるブル\n上には上がいるならその上行くだけ\n一生涯走り切る終わりがくるまで\n腹に括った覚悟は揺るがねえ\n俺ら始まったばっかつまり今からだ\n\n今の俺ならブレない右にも左にも\nボイスとプライドはマケナイ説一文\n斜め上の予想だにしないビジョン\n真っ直ぐに届ける君の期待以上\nもはやハンドルロック\n脇見なんて無しでキャントストップ\nコンパス代わりにマイクロフォンが\nさし示す先まで life goes on\n\nデクレシェンドよりもまた make legend\n不滅の熱量で WESTraight\n外野の野次とか受け付けんと\n減速せず正面抜けるゲート\n未だ進行形　新しい光景\n笑い声仲間　魂の共鳴\n怠惰な日常へ抗い挑戦\nFeelしたなら皆　かましにいこうぜ\n\nWESTraight\n駆け抜けていくでネクストへ c'mon\nWESTraight\n真っ直ぐ行くのがベストウェイ c'mon\nWESTraight\nまあ、なんしかしっかりせんとね c'mon\nWESTraight\n\n一度決めたら変えねえルート\n道も半ばじゃ降りねぇずっと\n例えナビが俺を阻もうとしても直線 WESTraight\nCan't stop！\nWon't stop！\nDon't stop now！\n超えろ難関一点突破\nCan't stop！\nWon't stop！\nDon't stop now！\n飛ばせガンガン信じろ直感\n\n振り向くな後ろ前だけを見ろ\nあるで力量メーター振り切ろう\n破竹の勢い　増してくスピード\nライフは一度真っ直ぐ生きろ\n(Hey)100％で挑む\nこの身ひとつでピークに切り込む\n(Hey)まずは Let's get it on\nやってみ？そこの君も　君も\n\n道の先見たかっこいい理想\n憧れてたのはあの日のヒーロー\n俺も主人公　君も主人公\n折れそうな時ほどまっすぐに行こう\n誰だって最初の一歩は新人\nまずは己が己を信じる\nピンチはチャンスの意味を知り\n必死のバッチで　一本道\n\nrep関西沸かす日本\n芯一本通しノリは keep on\n勢いゴリ押しで通す猛スピード\n道のりは強引に go　よーいどん\nでも忘れへんで義理と人情　目指してる場所は前人未到\n全員集合　王道　正規ルートをまっすぐでええっちゅうの\nIt's not over till it's over やでほんま We let you know\n毎回ベストの更新続けるWESTraightや調子どう？\n\nWESTraight\n駆け抜けていくでネクストへ c'mon\nWESTraight\n真っ直ぐ行くのがベストウェイ c'mon\nWESTraight\nまあ、なんしかしっかりせんとね c'mon\nWESTraight\n\nW to da E to da S to da T\n行き止まりもまだ序の口\nW to da E to da S to da T\n壁にぶつかってもまだ直進\nW to da E to da S to da T\n北から南　西から東\nW to da E to da S to da T\nW to da E to da S to da T",
     },
     {
         id: 274,
@@ -3565,7 +3565,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "照りつけるティダ\n僕の心も　熱く焦がしておくれよ\n\nきらめく波に　身を委ねて\nゆらりゆらゆら\n\n普通はこうとか　当たり前だとか\nそんなことはどうでもいいよ\n君が笑っていられるのなら　どんな日もかりゆしDAY\nさぁ両手揺らして　幸せみんなで招き入れよう！\n\n1・2・3 (ティー！ター！ミー！)\n\nハイサイ！　君も一緒に歌おう\n老いも若きも　いちゃりばちょーでー\nハイサイ！　ここで出会えたことが　奇跡なのさ\n\n手を伸ばせば　届きそうな空が\n全て包んでくれるさ\n\n海も風も鳥も花達も\n君を待ってる\n\n誰かと比べて　落ち込まないでね\n君は君のまんまでいいよ\n明日は今日より強くなれるさ　どんな日もかりゆしDAY\nさぁ両手揺らして　喜び悲しみかき混ぜよう！\n\n1・2・3 (ティー！ター！ミー！)\n\nハイサイ！　みんな一緒に歌おう\n君もあなたも　いちゃりばちょーでー\nハイサイ！　君が生まれたことは　奇跡なのさ\n\nもう一回！(ナーティーチ！)\n\nハイサイ！　君も一緒に歌おう\n老いも若きも　いちゃりばちょーでー\nハイサイ！　ここで出会えたことが　奇跡なのさ\n\n君　照らせ　ティダ\n道　照らせ　ティダ\n明日　照らせ　ティダ\n雲突き抜けて\n\n夢　照らせ　ティダ\n日々　照らせ　ティダ\n愛　照らせ　ティダ\n遥か彼方まで",
     },
     {
         id: 275,
@@ -3578,7 +3578,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "Summer breeze, sweet melodies\n風を追いかけて\nYou raise me up, sweet memories\n太陽みたいに笑う\nあどけない夢をみる\n眩しい夏に溶けてく\n\n今すぐ逃げ出そう\n着の身着のまま\n気の向くまま\n\n流離(さすら)い彷徨う\n行くあてもなく\nどこまでも\n\n迷子のように\nドキドキと不安が\n\n振り子のように\n止まらない胸の鼓動\n揺れてる\n\nSummer breeze, sweet melodies\n風に吹かれながら\nYou raise me up, sweet memories\n答えを探しに行こう\n2人だけの夢を見る\n新しい夏に飛び込む\n\nSouth WEST beach！！\nSouth WEST beach！！\n\n迷子のように\nドキドキと不安が\n\n振り子のように\n止まらない胸の鼓動\n揺れてる\n\nSummer breeze, sweet melodies\n風を追いかけて\nYou raise me up, sweet memories\n太陽みたいに笑う\nあどけない夢をみる\n眩しい夏に溶けてく",
     },
     {
         id: 276,
@@ -3592,7 +3592,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "雨上がり手に持て余してる　傘みたいなもんだな　後悔なんて\n晴れ渡る空　塞がる手では Any more　何も掴めなくて\n\nLife...　溢れ出す　その涙輝かすため\n世界はスタートを繰り返す\n東の空に　ほら今日もSun goes up\n\n0秒先の未来だけ見据え　歩み続ける\n無駄なもんは　何ひとつなかったと言えるように\n過去じゃなく　その意味を　変えていけばいい\n「もしあの時」だなんてさ　遠くばっか見てちゃ躓くぜ\n新しい時代　そのど真ん中行こう\n何処へ？なんてないぜ　答えならそう\n心(ここ)にあんだ\n\n地図(ナビ)を辿れば　正解地点\n道を間違えるほうが　難しい時代だろう？\n\nRight...　時に迷い　踏み外し　笑われていいさ\nいつも“未知”切り拓くのは　そんなヤツらさ\nそうやって Make my way\n\n0・100　二元論で出来上がった　イマって時代を\n泥臭い人間論で　彩っていくんだよ\n過去も全部　傷も全部　模様に変えてく\n明るい色だけじゃほら　綺麗な絵なんて描けないぜ\n白・黒じゃない　極彩色の日々を\n書いて　消して　泣いて　繰り返して\n描き上げんだ\n\nWow　濡れたアスファルト Wow　出来た水溜まり　眩しく映った青空\nWow　俯いてたって Wow　どんな場所にいたって　そうさ\n希望(ひかり)は見える\n\n僕らは　後戻りなど出来ない日々を生きてる\nどんな今日も手探りで　進むしかないんだよ\n0秒先の未来だけ見据えてく\n無駄なもんは　何ひとつなかったと言えるように\n過去じゃなく　その意味を　変えていけばいい\n「もしあの時」だなんてさ　遠くばっか見てちゃ躓くぜ\n新しい時代　そのど真ん中行こう\n前へ　前へ　惹かれ続け\n生きて　生きて　讃え続け\n何処へ？なんてないぜ　答えならそう\n心(ここ)にあんだ\n始めようか Yeah",
     },
     {
         id: 277,
@@ -3605,7 +3605,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "上手く歌えなくてもかまわない\nそのクセ　君には届けたい\n何が正義かもわからない\nでも、君といるなら\n\nWe go round & round\nNo need for doubt, doubt, doubt\nWe just sing it loud\n\n「初めまして」も思い出せないくらい\n響いてた音が\n気づけば　ノイズだらけの部屋\n見失った僕は oh\n\n譜面からはみでたメロディー\n必死にすくって　叫んだ\nねえ　今も　聞こえてるの？\nずっと　飲み込んでいた想い　空に向けて\n奏でるのは自由だ\n\n二度とはない感情\n歌うよ　全部　歌うよ\n世界中の賞賛より\n誰かの歌になれ\n\n泣きながら笑っても\nいいんだ　全部　いいんだ\nもう一度始めよう\n君といたいから　僕でいたいから\n\n100回目の渇望　名も無き thrive\nクタクタになろうとも　追いかけてたい\nこんなのどう？　未来永劫 We sing along\n\n目を合わすのも　わずらわしいくらい\n気持ちミュートしてた\n誰かのせいにしていたら\nいつの間にか　ぼっちか oh\n\n今度こそを繰り返して\n奇跡のコード探した\nねえ　今も　聞こえてるの？\nずっと　言いかけてた言葉かき集めて\n奏でるのは自分だ\n\n二度とはない感情\n歌うよ　全部　歌うよ\n世界中の賞賛より\n誰かの歌になれ\n\n泣きながら笑っても\nいいんだ　全部　いいんだ\nもう一度始めよう\n君といたいから　僕でいたいから\n\nこの旋律よ　僕らの歌になれ\nこの旋律よ　誰かの歌になれ\nこの旋律よ　僕らの歌になれ\nこの旋律よ\n\n口ずさむ　探してる\n終わらない　アカペラ\n過ぎて行く今日も\n変わっていく明日も\n昨日の正解(こたえ)も\n嘘じゃない　いいんじゃない\n全部　歌にするんだ\n\n二度とはない感情\n歌うよ　全部　歌うよ\n世界中の賞賛より\n誰かの歌になれ\n\n泣きながら笑っても\nいいんだ　全部　いいんだ\nもう一度始めよう\n君といたいから　僕でいたいから\n\nこの旋律よ　僕らの歌になれ\nこの旋律よ　誰かの歌になれ\nこの旋律よ　僕らの歌になれ\nこの旋律よ　僕らの歌になれ",
     },
     {
         id: 278,
@@ -3618,7 +3618,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-03-12",
-        lyrics: "",
+        lyrics: "パワースポット俺「ほらどうぞ」\n見ていたいなら遠慮なく\nパワースポット俺「あらどうも」\n君はもう何回目よ\n\nパワースポット俺\n\nどっかの山だけじゃ足りてないの\nどっかの岩よりも俺だろ\n一礼したあと手合わせ\n賽銭よりも目を合わせ\n\n気分落ちたらここに来い\n故に作法なんてもう要らない\n風の噂で落ちてない\nそんなに気にしないでも\n\nパワースポット俺「ほらどうぞ」\n見ていたいなら遠慮なく\nパワースポット俺「あらどうも」\n君はもう何回目よ\n\nどっかしらオイラも縋りたいの\n負担かけ合う人はどこ\n強がってる人だってもう\n飽和スレスレなの\n\n気分癒やしたら行って良い\n故に作法なんてもう要らない\n風の噂が耳痛い\nそんなに気にしたくはない\n\nパワースポットお前「ほらどうぞ」\n見ていたいから離れない\nパワースポットお前「あらどうも」\nどうも\n\nパワースポット俺\n\n拝まないで俺の鈴の緒\n巻いたままどっか行かないで\n拝まないで俺の鈴の緒\n御利益なんてもう\n\nパワースポット俺「ほらどうぞ」\n見ていたいなら遠慮なく\nパワースポット俺「あらどうも」\n君はもう何回目よ\n\nパワースポット俺",
     },
     {
         id: 279,
@@ -3631,7 +3631,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "騙されたのか\n悪い夢なのか\nおらは死んじまったのか\n\n誰もいなくなって\n(寂しいよ)\nケータイも壊れちゃって\n(悲しいよ)\nどうすりゃ届くのか\n真っ暗闇で\n\n優柔不断が命取り\n笑わないでお願い\n\nだけど\n最後にゃ最高\nゲットだ　最高を\n最初は最低でも\nNever Give Up！\n前後も左右も　上下も関係ないわ！\nおれがおれでおれはおれさそうさ\n負けへんぞ！\n\nダサい嘘をついた\n(虚しいよ)\n消えてしまおう\n(悔しいよ)\n君が恋しいよ\n\n強く抱きしめて\n(ひと息に)\n叱り飛ばしてよ\n(思いきり)\n思わず涙ぐんだ\n坂の途中で\n\n空前絶後の空回り\n構わないでお願い\n\nだけど\n最後にゃ最高\nゲットだ　最高を\n最初は最低でも\nNever Give Up！\n汗と涙で　白黒つけたるわ！\n伸るか反るか一か八かそうさ\n負けへんぞ！\n\nひとりじゃ張り切れない\n(Oh～West Side Soul)\n君がいなきゃつまらない\n(Oh～West Side Soul)\n悲しくてやりきれない\n(Oh～West Side Soul)\n愛して愛されたい\n(Clap Your Hands\n負けへんぞ！)\n\n最後にゃ最高\nゲットだ　最高を\n最初は最低でも\nNever Give Up！\n前後も左右も　上下も関係ないわ！\nおれがおれでおれはおれさそうさ\nもういっちょう！\n最後にゃ最高\nゲットだ　最高を\n最初は最低でも\nNever Give Up！\n最初で最後\n人生そんなもんやっ！\n伸るか反るか一か八かそうさ\n負けへんぞ！",
     },
     {
         id: 280,
@@ -3644,7 +3644,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "I know　すぐそこにある\n小さく色づく BIG LOVE\n逢いにゆこう\nTu tu tu tu...\nWho's with BIG LOVE？\n\n手のひらの中に収まる\n現実ばかりスライドで\nちょっと食傷気味なDays\n作りかけの理想ばかりで\n味気ないじゃない？ Deny it\nYou'll see that ain't true\n\nゆれるベルベットの夕暮れが\n信号待ち二人を包んだ\nおなじようで違う日々さ\nLet's say...\nなんてBeautiful, Beautiful！\n\nI know　すぐそこにある\n小さく色づく BIG LOVE\n僕らなら\nYou know　その胸の中\n小さく華やぐ BIG HEART\n逢いにゆこう\nTu tu tu tu...\n\n遠回りの近道に\n気づいたら It's OK\nふと開いたPhoto bookで涙\nそれってひょっとして　幸せのカケラ\nひとりぼっちの夜は\n星屑をスプーンですくって\n珈琲に混ぜて\nケセラセラ\n\nそよぐヘルメットの風ん中\nいつものように　手を振るんだ\nこんな日が続けばいいな\nLet's say...\nなんてBeautiful, Beautiful！\n\nI know　すぐそこにある\n小さく色づく BIG LOVE\n抱きしめよう\nYou know　その胸の中\n小さく華やぐ BIG HEART\n逢いにゆこう\n\n'足りない'だらけだって\nそのままでいいよ\nきっと　大丈夫さ\n変わり者と呼ばれても\nオリジナルのスパイスで\n'Life' is yours\nなんてBeautiful\n\nI know　すぐそこにある\n小さく色づく BIG LOVE\n抱きしめよう\nYou know　その胸の中\n小さく華やぐ BIG HEART\n逢いにゆこう\n\nI know　すぐそこにある\nBIG LOVE\n抱きしめよう\nYou know　その胸の中\nTu tu tu tu...\nWho's with BIG LOVE？",
     },
     {
         id: 281,
@@ -3657,7 +3657,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "愛が嫌いなんて　潤んだ目で　言わないでよ\n\n去年は思い出さずにいられた気がしたけど\nまた君　別れて壊した　だとか聞いたから\n\n成長が過去の罪を増やしてく\n今でも、今更、今なら、なんて　遅すぎて\n\n愛が嫌いだって鍵をかけて\n閉じこもった君がまだ泣いてんだ\n名前を呼んで追いかけても\n聴こえないふりしたね　最悪な日\n\n傷つけたくないと遠ざけてさ\n適当に誰かと笑ってんだ\n君の嫌いな君にも会いたかった\n後悔のように疼く夢\n\n楽しく時間を過ごすことだけ考えてたから\n大事な話を逸らすみたいに側にいた\n\n成功は過去の傷を癒やすかな\nそれでも、あの日の、二人の涙　乾かない\n\nぐちゃぐちゃの心で鏡を見た\nいつもと変わらない顔した人がいるんだ\nこうやって　大人になって　強くなって\n弱くなって　ああ　何を守れたんだろう\n\n愛が嫌いだって鍵をかけて\n閉じこもった君は元気ですか\n名前を呼んで追いかけても\n聴こえないふりしても　忘れないよ\n\n傷つけることを恐れないで\n誰かを本気で愛せましたか\n君の嫌いな君にも会いたかった\n後悔を消すように響け　歌\n\n人生で一番好きな人",
     },
     {
         id: 282,
@@ -3670,7 +3670,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "愛が嫌いなんて　潤んだ目で　言わないでよ\n\n去年は思い出さずにいられた気がしたけど\nまた君　別れて壊した　だとか聞いたから\n\n成長が過去の罪を増やしてく\n今でも、今更、今なら、なんて　遅すぎて\n\n愛が嫌いだって鍵をかけて\n閉じこもった君がまだ泣いてんだ\n名前を呼んで追いかけても\n聴こえないふりしたね　最悪な日\n\n傷つけたくないと遠ざけてさ\n適当に誰かと笑ってんだ\n君の嫌いな君にも会いたかった\n後悔のように疼く夢\n\n楽しく時間を過ごすことだけ考えてたから\n大事な話を逸らすみたいに側にいた\n\n成功は過去の傷を癒やすかな\nそれでも、あの日の、二人の涙　乾かない\n\nぐちゃぐちゃの心で鏡を見た\nいつもと変わらない顔した人がいるんだ\nこうやって　大人になって　強くなって\n弱くなって　ああ　何を守れたんだろう\n\n愛が嫌いだって鍵をかけて\n閉じこもった君は元気ですか\n名前を呼んで追いかけても\n聴こえないふりしても　忘れないよ\n\n傷つけることを恐れないで\n誰かを本気で愛せましたか\n君の嫌いな君にも会いたかった\n後悔を消すように響け　歌\n\n人生で一番好きな人",
     },
     {
         id: 283,
@@ -3683,7 +3683,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "t",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "バラバラに光って見えていた\nまたすれ違った言葉\nそっと触れたら壊れちゃいそうな\n僕らのせいだ\n\n曇り空がまた明けていった\n友達みたいな距離を映し出してる\n少しだけ背伸びしてみたくなった\nひとりが好きだなんて\n嘘ついたりしてみたんだ\n\nRainy day　止まらないでいて\nTiny Tiny　届かなくて\nまた曖昧な時間の中\n色づいた景色から\n\nバラバラに光って見えていた\nまたすれ違った色で\nだらしない空が晴れて\n意地悪に影を濃くして\nバカにしてんだ\nきっとまた増えてくこの愛してる\n壊れちゃうから\n言葉なんて要らないや\nこのままで\n\nたしかめたい心の中\n満天の空が褪せた\nTell me　夢の中の僕ら\nみたいな未来は？\nなんとなく期待してみた\nさっきまでの相合傘\nずっと進まないストーリーは\n君の笑顔がもっと見たいから\n\nRainy day　開(ひら)けてく空\nShiny　光るアスファルトが\nどうにもできないこの心色づいた日から\n\n何光年も遠いようで\n傍らに感じている\nだらしない空が晴れて\n僕らが離れてかないように\n君が好きって言いたくて\n増えてくこの愛してる\n壊れないように、大切にしたいんだ\n笑っていてよ\n\n2人光って見えていた\n重なり合った色で\nだらしない空が晴れて\n僕らと答えを重ねてく\nバカにしてんだ\nきっとまた増えてくこの愛してる\n雨上がりに春風が舞い込んだ\nそばにいてよ",
     },
     {
         id: 284,
@@ -3696,7 +3696,7 @@ lyrics: "良いもの揃えてお値打ちに\nWESTV！ショッピング\n\n続
         announce: "f",
         singer: "WEST.",
         date: "2025-05-07",
-        lyrics: "",
+        lyrics: "帰り道　ここでお別れ\n手を振って離れて「じゃあまたね」\n明日へ向かって伸びた影\n戻れない、静かすぎた恋\n\nつまらない授業も\n忙しなく人行き交う大通りも\n二人でなら\n何もかも楽しかった\n\n人は皆違うから面白い\n派手にぶつかるのもご愛嬌\nすれ違うほど強く\n絆の糸は　繋がってく\n\n「ずっとこのままでいられるなら」\n何度も迷って言えないまま\nあと少しだけ時間があれば\nちゃんとした気持ちも伝えられたかな\nとか、考える\n\n今も心の中に咲く\n僕だけの小さな花だから\nささやかにそっと守りたい\n知らぬ間に　消えないように\n胸いっぱい　大きな花束に\n隠す　お気に入りの一輪\n見えなくてもただ祈ろう\n喜びと笑顔　溢れるように\n\n無邪気だった僕も\n忙しなく今じゃ街を駆け回る\nらしくもない\n大人ってやつになっちまった\n\n運命は思惑通りには動かない\nいつも降りかかる急展開\n二択を外したって\n時は戻らず　ただ流れる\n\nポストに届いた君の便り\n君らしいややこしい言葉選び\nどうやら元気でいるみたい\n遠く同じ空の下　幸せならば\nそれでいい\n\n恋の終わりに咲いていた\nあの頃の小さな花だから\n甘酸っぱくて懐かしい\n二人だけ　手も繋げない日々\n\n後悔しないわけじゃない\n胸の棘は取れそうにもない\nこの痛みさえも大切に\n忘れないように\n抱きしめるように\n大事に守るよ\n\n今も心の中に咲く\n僕だけの小さな花だから\nささやかにそっと守りたい\n知らぬ間に　消えないように\n胸いっぱい　大きな花束に\n隠す　お気に入りの一輪\n舞い上がる風に託すよ\nいつまでも愛に満ちた日々を",
     }
       
 
