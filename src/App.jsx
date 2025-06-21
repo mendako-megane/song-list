@@ -182,6 +182,15 @@ export default function App() {
     .filter((song) => {
       const lower = search.toLowerCase();
 
+      const normalizeText = (text) => {
+        if (!text) return '';
+        return text
+        .toLowerCase()
+        .replace(/[！♪？「」（）、。、～…]/g, '') // 不要な記号を除去
+        .replace(/[\s　]+/g, ' ') // 複数のスペース（全角・半角）を単一の半角スペースに統一
+        .trim(); // 前後の空白を除去
+    };
+
       if (searchMode === "タイトル") {
         return song.title.toLowerCase().includes(lower);
       }
@@ -195,8 +204,8 @@ export default function App() {
         return song.arranger.toLowerCase().includes(lower);
       }
       if (searchMode === "歌詞") {
-        return song.lyrics.toLowerCase().includes(lower);
-      }
+        return normalizeText(song.lyrics).includes(normalizeText(lower));
+    }
       if (searchMode === "収録") {
         return search === "" || song.album.includes(search);
       }
@@ -308,6 +317,13 @@ export default function App() {
               <option value="あり">あり</option>
               <option value="なし">なし</option>
             </select>
+          ) : searchMode === "歌詞" ? ( // ★ここから追加★ 歌詞検索
+            <input
+              type="text"
+              placeholder="歌詞で検索..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
           ) : (
             <input
               type="text"
