@@ -193,6 +193,8 @@
   @media (max-width: 480px) {
     .modal-content {
       padding: 15px;
+      width: 85%;
+      max-height: 80vh
     }
     .modal-content h2 {
       font-size: 1.4rem;
