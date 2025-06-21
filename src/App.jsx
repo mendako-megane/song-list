@@ -4,7 +4,7 @@ import "./App.css";
 
 import SongModal from "./SongModal.jsx";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "収録", "披露", "ユニット"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "編曲者", "歌詞", "収録", "披露", "ユニット", "タイアップ"];
 
 
 export default function App() {
@@ -191,6 +191,12 @@ export default function App() {
       if (searchMode === "作曲者") {
         return song.composer.toLowerCase().includes(lower);
       }
+      if (searchMode === "編曲者") {
+        return song.arranger.toLowerCase().includes(lower);
+      }
+      if (searchMode === "歌詞") {
+        return song.lyrics.toLowerCase().includes(lower);
+      }
       if (searchMode === "収録") {
         return search === "" || song.album.includes(search);
       }
@@ -201,6 +207,15 @@ export default function App() {
       }
       if (searchMode === "ユニット") {
         return search === "" || song.singer === search;
+      }
+      if (searchMode === "タイアップ") {
+        if (search === "あり") {
+          return song.tiup && song.tiup.trim() !== '';
+        }
+        if (search === "なし") {
+          return !song.tiup || song.tiup.trim() === '';
+        }
+        return true; 
       }
       return true;
     })
@@ -286,6 +301,12 @@ export default function App() {
               <option value="">すべての曲</option>
               <option value="披露あり">披露あり</option>
               <option value="未披露">未披露</option>
+            </select>
+          ) : searchMode === "タイアップ" ? ( // ★ここから追加★ タイアップ検索のセレクトバー
+            <select value={search} onChange={(e) => setSearch(e.target.value)}>
+              <option value="">すべて</option> {/* 「すべて」の状態 */}
+              <option value="あり">あり</option>
+              <option value="なし">なし</option>
             </select>
           ) : (
             <input
