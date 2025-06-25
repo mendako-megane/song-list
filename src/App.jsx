@@ -4,7 +4,7 @@ import "./App.css";
 
 import SongModal from "./SongModal.jsx";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "編曲者", "歌詞", "収録", "披露", "ユニット", "タイアップ"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "編曲者", "歌詞", "収録", "披露", "ユニット", "タイアップ","公演"];
 
 
 export default function App() {
@@ -167,6 +167,26 @@ export default function App() {
     "ウェッサイソウル！ / BIG LOVE SONG[初回B]",
     "ウェッサイソウル！ / BIG LOVE SONG[通常盤]"
   ];
+
+  const performances = [
+    "なにわともあれ、ほんまにありがとう！",
+    "一発めぇぇぇぇぇぇぇ！",
+    "パリピポ","パリピポ(兵庫オーラス)",
+    "ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟)","ラッキィィィィィィィ7(大阪,宮城)",
+    "24(ニシ)から感謝届けます♡",
+    "なうぇすと(〜横浜3日目)","なうぇすと(横浜4日目〜,福井,福岡,宮城,愛知,静岡,大阪,北海道,広島)","なうぇすと(各会場オーラス)","なうぇすと(広島オーラス)",
+    "WESTival","WESTival(各会場オーラス)","WESTival(北海道オーラス)",
+    "WESTV!","WESTV!(各会場オーラス)",
+    "W trouble12/11","W trouble12/12昼,12/13夜","W trouble12/12夜,12/13昼",
+    "rainboW(北海道)","rainboW(宮城,愛知,新潟,埼玉,熊本)","rainboW(円盤)",
+    "Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10)","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11)","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜)","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼)","Mixed Juice(北海道オーラス)",
+    "TO BE KANSAI COLOR-翔べ関西から-(大阪)","TO BE KANSAI COLOR-翔べ関西から-(名古屋)","TO BE KANSAI COLOR-翔べ関西から-(東京)","TO BE KANSAI COLOR-翔べ関西から-(東京オーラス)",
+    "POWER(宮城)","POWER(横浜,福岡,新潟,静岡,大阪,北海道,愛知)","POWER(愛知オーラス)",
+    "AWARD(大阪)","AWARD(新潟)","AWARD(宮城)","AWARD(愛知)","AWARD(横浜,静岡,福岡,広島,北海道)","AWARD(北海道オーラス)",
+    "DOME TOUR AWARD(大阪,福岡)","DOME TOUR AWARD(東京)","DOME TOUR AWARD(東京オーラス)",
+    "A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12)","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知)","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス)",
+    // 他の公演名があればここに追加
+  ];
   
   const singers = Array.from(new Set(allSongs.map(song => song.singer).filter(Boolean)));
   
@@ -177,6 +197,13 @@ export default function App() {
     { label: "⇅ 新しい曲順", value: "date_desc" },
   ];
 
+  const parsePerformanceEntry = (entry) => {
+    const match = entry.match(/(.*?)\{(\d+)\}/); // 正規表現で公演名と順序番号を抽出
+    if (match && match[1] && match[2]) {
+      return { name: match[1], order: parseInt(match[2], 10) }; // 数値に変換
+    }
+    return null; // フォーマットが一致しない場合はnullを返す
+  };
 
   const filteredSongs = allSongs
     .filter((song) => {
@@ -226,10 +253,66 @@ export default function App() {
         }
         return true; 
       }
+      if (searchMode === "公演") {
+        if (search === "") {
+          return true;
+        }
+        if (Array.isArray(song.performances)) { // song.performance -> song.performances
+          return song.performances.some(pEntry => {
+            const parsed = parsePerformanceEntry(pEntry); // parsePerformanceEntry を使用
+            return parsed && parsed.name === search; // 公演名が一致するかチェック
+          });
+        } else if (typeof song.performances === 'string') { // song.performance -> song.performances
+          const parsed = parsePerformanceEntry(song.performances); // parsePerformanceEntry を使用
+          return parsed && parsed.name === search;
+        }
+        return false;
+      }
       return true;
     })
 
     .sort((a, b) => {
+      if (searchMode === "公演" && search !== "") { // searchはセレクトバーで選択された公演名
+        let aOrder = Infinity; // 楽曲aの順序番号。見つからない場合は無限大（リストの最後に配置）
+        let bOrder = Infinity; // 楽曲bの順序番号。見つからない場合は無限大（リストの最後に配置）
+
+        // 楽曲aのperformancesから、選択された公演に対応する順序番号を抽出
+        if (Array.isArray(a.performances)) {
+          const aEntry = a.performances.find(p => {
+            const parsed = parsePerformanceEntry(p); // "公演名{順序番号}"を解析
+            return parsed && parsed.name === search; // 公演名が一致するかチェック
+          });
+          if (aEntry) {
+            const parsed = parsePerformanceEntry(aEntry);
+            if (parsed) aOrder = parsed.order; // 順序番号を取得
+          }
+        } else if (typeof a.performances === 'string') { // 単一の公演情報の場合
+          const parsed = parsePerformanceEntry(a.performances);
+          if (parsed && parsed.name === search) {
+            aOrder = parsed.order;
+          }
+        }
+
+        // 楽曲bのperformancesから、選択された公演に対応する順序番号を抽出
+        if (Array.isArray(b.performances)) {
+          const bEntry = b.performances.find(p => {
+            const parsed = parsePerformanceEntry(p);
+            return parsed && parsed.name === search;
+          });
+          if (bEntry) {
+            const parsed = parsePerformanceEntry(bEntry);
+            if (parsed) bOrder = parsed.order;
+          }
+        } else if (typeof b.performances === 'string') {
+          const parsed = parsePerformanceEntry(b.performances);
+          if (parsed && parsed.name === search) {
+            bOrder = parsed.order;
+          }
+        }
+        return aOrder - bOrder; // 順序番号が小さい順（昇順）にソート
+      }
+
+
       const getCategory = (str) => {
         const char = str.charAt(0);
         if (char.match(/^[\u3040-\u30FF]/)) return 0; // ひらがな・カタカナ
@@ -316,6 +399,16 @@ export default function App() {
               <option value="">すべて</option> {/* 「すべて」の状態 */}
               <option value="あり">あり</option>
               <option value="なし">なし</option>
+            </select>
+          ) : searchMode === "公演" ? ( // ★このブロックが追加されました★
+            // 公演検索の場合、セレクトバーを表示
+            <select value={search} onChange={(e) => setSearch(e.target.value)}>
+              <option value="">すべての公演</option>
+              {performances.map((p) => (
+                <option key={p} value={p}>
+                  {p}
+                </option>
+              ))}
             </select>
           ) : searchMode === "歌詞" ? ( // ★ここから追加★ 歌詞検索
             <input
