@@ -192,7 +192,7 @@ export default function App() {
     "新グループ名発表します","【WESTube生配信SP】結成10周年やねぇぇぇぇぇぇぇん","【WESTube生配信】4.23デビュー10周年やねぇぇぇぇぇぇぇんSP","【年越し生配信2024→2025】デビュー10周年ありがとう⭐️&登録者数100万人達成記念SP🎉 ✨100/100✨",
     "7周年生配信イベント「虹会」","8周年生配信トーク＆ライブ「虹会」","9周年生配信トーク＆ライブ「虹会」","10周年生配信トーク＆ライブ「虹会」","11周年生配信トーク＆ライブ「虹会」",
     "WEST. 10th Anniversary Live “W”","WEST. 10th Anniversary Live “W”-Film edition-",
-    "なにわ侍　ハローTOKYO","台風n Dreamer", "なにわ侍 団五郎一座","WEST. 10th Anniversary 大阪松竹座公演(昼)","WEST. 10th Anniversary 大阪松竹座公演(夜)","WEST. 10th Anniversary 大阪松竹座公演(千穐楽))",
+    "なにわ侍　ハローTOKYO","台風n Dreamer", "なにわ侍 団五郎一座","WEST. 10th Anniversary 大阪松竹座公演(昼)","WEST. 10th Anniversary 大阪松竹座公演(夜)","WEST. 10th Anniversary 大阪松竹座公演(千穐楽)",
     // 他の公演名があればここに追加
   ];
   
@@ -213,18 +213,68 @@ export default function App() {
     return null; // フォーマットが一致しない場合はnullを返す
   };
 
-  const filteredSongs = allSongs
-    .filter((song) => {
-      const lower = search.toLowerCase();
 
+  const processedSongs = allSongs.flatMap(song => {
+    if (!song.performances || song.performances.length === 0) {
+      // 公演情報を持たない楽曲は、performanceDetailがnullのアイテムとして扱う
+      return [{
+        originalSong: song,
+        performanceDetail: null,
+        id: `song-${song.id}` // ユニークなID
+      }];
+    }
+
+    // 各楽曲のperformances配列内の各エントリに対して、新しいオブジェクトを生成
+    return song.performances.map(pEntry => {
+      const parsedPerformance = parsePerformanceEntry(pEntry);
+      if (!parsedPerformance) {
+        console.warn(`Warning: Could not parse performance entry: "${pEntry}" for song: "${song.title}"`);
+        return {
+          originalSong: song,
+          performanceDetail: null, // 解析失敗の場合もnull
+          id: `song-${song.id}-unparsed-${pEntry.replace(/[^a-zA-Z0-9]/g, '')}`
+        };
+      }
+      return {
+        originalSong: song, // 元の楽曲オブジェクトを保持
+        performanceDetail: parsedPerformance, // 公演詳細（名前と順序）
+        id: `${song.id}-${parsedPerformance.name}-${parsedPerformance.order}` // 各公演ごとのユニークID
+      };
+    }).filter(Boolean); // null (解析失敗) のエントリを除外
+  });
+
+  let currentFilteredList = [];
+
+  if (searchMode === "公演") {
+    // 公演検索モードの場合、processedSongs をベースにフィルタリング
+    currentFilteredList = processedSongs.filter(item => {
+      // 公演情報を持たない項目は除外
+      if (!item.performanceDetail) {
+        return false;
+      }
+      // 選択された公演名でフィルタリング (searchが空なら全ての公演情報を持つ項目を表示)
+      return search === "" || item.performanceDetail.name === search;
+    });
+
+    // ソートも公演の順序番号で行う
+    currentFilteredList.sort((a, b) => {
+      let aOrder = a.performanceDetail ? a.performanceDetail.order : Infinity;
+      let bOrder = b.performanceDetail ? b.performanceDetail.order : Infinity;
+      return aOrder - bOrder;
+    });
+
+  } else {
+    // 公演検索モード以外の場合、allSongs をベースにフィルタリング
+    currentFilteredList = allSongs.filter(song => {
+      const lower = search.toLowerCase();
       const normalizeText = (text) => {
         if (!text) return '';
         return text
-        .toLowerCase()
-        .replace(/[！♪？「」（）、。、～…]/g, '') // 不要な記号を除去
-        .replace(/[\s　]+/g, ' ') // 複数のスペース（全角・半角）を単一の半角スペースに統一
-        .trim(); // 前後の空白を除去
-    };
+          .toLowerCase()
+          .replace(/[！♪？「」（）、。、～…]/g, '')
+          .replace(/[\s　]+/g, ' ')
+          .trim();
+      };
 
       if (searchMode === "タイトル") {
         return song.title.toLowerCase().includes(lower);
@@ -240,7 +290,7 @@ export default function App() {
       }
       if (searchMode === "歌詞") {
         return normalizeText(song.lyrics).includes(normalizeText(lower));
-    }
+      }
       if (searchMode === "収録") {
         return search === "" || song.album.includes(search);
       }
@@ -259,68 +309,12 @@ export default function App() {
         if (search === "なし") {
           return !song.tiup || song.tiup.trim() === '';
         }
-        return true; 
-      }
-      if (searchMode === "公演") {
-        if (search === "") {
-          return true;
-        }
-        if (Array.isArray(song.performances)) { // song.performance -> song.performances
-          return song.performances.some(pEntry => {
-            const parsed = parsePerformanceEntry(pEntry); // parsePerformanceEntry を使用
-            return parsed && parsed.name === search; // 公演名が一致するかチェック
-          });
-        } else if (typeof song.performances === 'string') { // song.performance -> song.performances
-          const parsed = parsePerformanceEntry(song.performances); // parsePerformanceEntry を使用
-          return parsed && parsed.name === search;
-        }
-        return false;
+        return true;
       }
       return true;
-    })
+    });
 
-    .sort((a, b) => {
-      if (searchMode === "公演" && search !== "") { // searchはセレクトバーで選択された公演名
-        let aOrder = Infinity; // 楽曲aの順序番号。見つからない場合は無限大（リストの最後に配置）
-        let bOrder = Infinity; // 楽曲bの順序番号。見つからない場合は無限大（リストの最後に配置）
-
-        // 楽曲aのperformancesから、選択された公演に対応する順序番号を抽出
-        if (Array.isArray(a.performances)) {
-          const aEntry = a.performances.find(p => {
-            const parsed = parsePerformanceEntry(p); // "公演名{順序番号}"を解析
-            return parsed && parsed.name === search; // 公演名が一致するかチェック
-          });
-          if (aEntry) {
-            const parsed = parsePerformanceEntry(aEntry);
-            if (parsed) aOrder = parsed.order; // 順序番号を取得
-          }
-        } else if (typeof a.performances === 'string') { // 単一の公演情報の場合
-          const parsed = parsePerformanceEntry(a.performances);
-          if (parsed && parsed.name === search) {
-            aOrder = parsed.order;
-          }
-        }
-
-        // 楽曲bのperformancesから、選択された公演に対応する順序番号を抽出
-        if (Array.isArray(b.performances)) {
-          const bEntry = b.performances.find(p => {
-            const parsed = parsePerformanceEntry(p);
-            return parsed && parsed.name === search;
-          });
-          if (bEntry) {
-            const parsed = parsePerformanceEntry(bEntry);
-            if (parsed) bOrder = parsed.order;
-          }
-        } else if (typeof b.performances === 'string') {
-          const parsed = parsePerformanceEntry(b.performances);
-          if (parsed && parsed.name === search) {
-            bOrder = parsed.order;
-          }
-        }
-        return aOrder - bOrder; // 順序番号が小さい順（昇順）にソート
-      }
-
-
+    currentFilteredList.sort((a, b) => {
       const getCategory = (str) => {
         const char = str.charAt(0);
         if (char.match(/^[\u3040-\u30FF]/)) return 0; // ひらがな・カタカナ
@@ -350,6 +344,10 @@ export default function App() {
     
       return 0;
     });
+  }
+
+  const filteredSongs = currentFilteredList; // 計算されたリストを最終的なfilteredSongsとして設定
+  // ★ここまで filteredSongs の計算ロジックを変更★
     
     const openModal = (song) => {
       setSelectedSong(song);
@@ -449,7 +447,10 @@ export default function App() {
           {filteredSongs.length} 件の曲が見つかりました
         </div>
         <div className="song-list-wrapper">
-          <div className="song-list">
+          <div className="song-list"
+            // 公演検索時のみグリッドカラムを変更するためのクラスを追加
+            className={searchMode === "公演" && search !== "" ? "song-list show-performance-cols" : "song-list"}
+          >
             <div className="song-header">
               <span>タイトル</span>
               <span>作詞者</span>
@@ -457,13 +458,18 @@ export default function App() {
               <span>初収録</span>
               <span>発売日</span>
             </div>
-            {filteredSongs.map((song) => (
-              <div key={song.id} className="song-card" onClick={() => openModal(song)}>
-                <span className="song-title">{song.title}</span>
-                <span>{song.lyricist}</span>
-                <span>{song.composer}</span>
-                <span>{song.album[0]}</span>
-                <span className="song-date">{song.date}</span>
+            {filteredSongs.map((item) => ( // ★itemはallSongsのsongオブジェクトか、processedSongsのアイテムオブジェクト★
+              <div 
+                key={searchMode === "公演" ? item.id : item.id} // 公演モードならprocessedSongsのID、そうでなければallSongsのID
+                className="song-card" 
+                onClick={() => openModal(searchMode === "公演" ? item.originalSong : item)} // 公演モードならoriginalSong、そうでなければitem自体
+              >
+                {/* 参照するプロパティを searchMode に応じて分岐 */}
+                <span className="song-title">{searchMode === "公演" ? item.originalSong.title : item.title}</span>
+                <span>{searchMode === "公演" ? item.originalSong.lyricist : item.lyricist}</span>
+                <span>{searchMode === "公演" ? item.originalSong.composer : item.composer}</span>
+                <span>{searchMode === "公演" ? item.originalSong.album[0] : item.album[0]}</span>
+                <span className="song-date">{searchMode === "公演" ? item.originalSong.date : item.date}</span>
               </div>
             ))}
           </div>
@@ -475,5 +481,4 @@ export default function App() {
 
       </div>
     );
-  
 }
