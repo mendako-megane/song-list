@@ -185,6 +185,14 @@ export default function App() {
     "AWARD(大阪)","AWARD(新潟)","AWARD(宮城)","AWARD(愛知)","AWARD(横浜,静岡,福岡,広島,北海道)","AWARD(北海道オーラス)",
     "DOME TOUR AWARD(大阪,福岡)","DOME TOUR AWARD(東京)","DOME TOUR AWARD(東京オーラス)",
     "A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12)","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知)","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス)",
+    "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(OSAKA,TOKYO)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
+    "ファンクラブ限定動画(改名発表)","ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>)",
+    "Johnny's World Happy LIVE with YOU(3/29)","Johnny's World Happy LIVE with YOU(6/18)",
+    "ジャニーズWEST デビュー記念イベント デビューしてもええじゃないか ～バンザイ!! その先の一等賞へ～","皆様のおかげSummer Carnival!","We are WEST!!!!!!! やったぜ5周ねぇぇぇぇぇぇぇん ほんまサンキューサンキュー！今日は懐かしい想い出振り返ってもええじゃないか！SP","５周ねんやねん♪よろしゅうねん♪","Special Studio Recording(証拠[初回B])","Johnny's DREAM IsLAND 2020→2025 〜大好きなこの街から〜 大阪松竹座 ジャニーズWEST公演","SPECIAL LIVE(サムシング・ニュー[初回B])","スペシャルセッション(しあわせの花[初回B])",
+    "新グループ名発表します","【WESTube生配信SP】結成10周年やねぇぇぇぇぇぇぇん","【WESTube生配信】4.23デビュー10周年やねぇぇぇぇぇぇぇんSP","【年越し生配信2024→2025】デビュー10周年ありがとう⭐️&登録者数100万人達成記念SP🎉 ✨100/100✨",
+    "7周年生配信イベント「虹会」","8周年生配信トーク＆ライブ「虹会」","9周年生配信トーク＆ライブ「虹会」","10周年生配信トーク＆ライブ「虹会」","11周年生配信トーク＆ライブ「虹会」",
+    "WEST. 10th Anniversary Live “W”","WEST. 10th Anniversary Live “W”-Film edition-",
+    "なにわ侍　ハローTOKYO","台風n Dreamer", "なにわ侍 団五郎一座","WEST. 10th Anniversary 大阪松竹座公演(昼)","WEST. 10th Anniversary 大阪松竹座公演(夜)","WEST. 10th Anniversary 大阪松竹座公演(千穐楽))",
     // 他の公演名があればここに追加
   ];
   
@@ -194,7 +202,7 @@ export default function App() {
     { label: "⇅ 名前順(あ→わ)", value: "name_asc" },
     { label: "⇅ 名前順(わ→あ)", value: "name_desc" },
     { label: "⇅ 古い曲順", value: "date_asc" },
-    { label: "⇅ 新しい曲順", value: "date_desc" },
+    { label: "⇅ 新しい曲順", value: "date_desc" },     
   ];
 
   const parsePerformanceEntry = (entry) => {

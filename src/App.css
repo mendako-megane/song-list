@@ -46,6 +46,7 @@ input, select {
   padding: 0.5rem;
   font-size: 1rem;
   min-width: 150px;
+  max-width: 90%;
 }
 
 .song-list {
@@ -151,6 +152,6 @@ input, select {
   input, select {
     width: auto;               /* ← 幅を固定しない */
     min-width: 150px;          /* ← 必要なら調整 */
-    flex-shrink: 0; 
+    flex-shrink: 0;
   }
 }
