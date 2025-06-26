@@ -4,7 +4,7 @@ import "./App.css";
 
 import SongModal from "./SongModal.jsx";
 
-const searchModes = ["タイトル", "作詞者", "作曲者", "編曲者", "歌詞", "収録", "披露", "ユニット", "タイアップ","公演"];
+const searchModes = ["タイトル", "作詞者", "作曲者", "編曲者", "歌詞", "収録", "披露", "ユニット", "タイアップ","セトリ"];
 
 
 export default function App() {
@@ -170,13 +170,13 @@ export default function App() {
 
   const performances = [
     "なにわともあれ、ほんまにありがとう！",
-    "一発めぇぇぇぇぇぇぇ！",
-    "パリピポ","パリピポ(兵庫オーラス)",
-    "ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟)","ラッキィィィィィィィ7(大阪,宮城)",
-    "24(ニシ)から感謝届けます♡",
+    "一発めぇぇぇぇぇぇぇ！","一発めぇぇぇぇぇぇぇ！(各会場オーラス)","一発めぇぇぇぇぇぇぇ！(大阪オーラス)",
+    "パリピポ","パリピポ(各会場オーラス)","パリピポ(兵庫オーラス)",
+    "ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟)","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟のオーラス)","ラッキィィィィィィィ7(大阪,宮城)","ラッキィィィィィィィ7(大阪オーラス)","ラッキィィィィィィィ7(宮城オーラス)",
+    "24(ニシ)から感謝届けます♡","24(ニシ)から感謝届けます♡(オーラス)",
     "なうぇすと(〜横浜3日目)","なうぇすと(横浜4日目〜,福井,福岡,宮城,愛知,静岡,大阪,北海道,広島)","なうぇすと(各会場オーラス)","なうぇすと(広島オーラス)",
     "WESTival","WESTival(各会場オーラス)","WESTival(北海道オーラス)",
-    "WESTV!","WESTV!(各会場オーラス)",
+    "WESTV!","WESTV!(各会場オーラス)","WESTV!(北海道オーラス)",
     "W trouble12/11","W trouble12/12昼,12/13夜","W trouble12/12夜,12/13昼",
     "rainboW(北海道)","rainboW(宮城,愛知,新潟,埼玉,熊本)","rainboW(円盤)",
     "Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10)","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11)","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜)","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼)","Mixed Juice(北海道オーラス)",
@@ -245,12 +245,16 @@ export default function App() {
 
   let currentFilteredList = [];
 
-  if (searchMode === "公演") {
+  if (searchMode === "セトリ") {
     // 公演検索モードの場合、processedSongs をベースにフィルタリング
     currentFilteredList = processedSongs.filter(item => {
       // 公演情報を持たない項目は除外
       if (!item.performanceDetail) {
         return false;
+      }
+      if (search === "") { 
+        console.log("DEBUG: セトリモードで検索値が空です。このアイテムは除外されます。", item.originalSong.title); // デバッグ用ログ
+        return false; // ★ここが「すべての公演」を表示しないロジックの核心です★
       }
       // 選択された公演名でフィルタリング (searchが空なら全ての公演情報を持つ項目を表示)
       return search === "" || item.performanceDetail.name === search;
@@ -262,7 +266,7 @@ export default function App() {
       let bOrder = b.performanceDetail ? b.performanceDetail.order : Infinity;
       return aOrder - bOrder;
     });
-
+                    
   } else {
     // 公演検索モード以外の場合、allSongs をベースにフィルタリング
     currentFilteredList = allSongs.filter(song => {
@@ -406,10 +410,10 @@ export default function App() {
               <option value="あり">あり</option>
               <option value="なし">なし</option>
             </select>
-          ) : searchMode === "公演" ? ( // ★このブロックが追加されました★
+          ) : searchMode === "セトリ" ? ( // ★このブロックが追加されました★
             // 公演検索の場合、セレクトバーを表示
             <select value={search} onChange={(e) => setSearch(e.target.value)}>
-              <option value="">すべての公演</option>
+              <option value="" disabled selected>公演を選択してください</option>
               {performances.map((p) => (
                 <option key={p} value={p}>
                   {p}
@@ -447,9 +451,8 @@ export default function App() {
           {filteredSongs.length} 件の曲が見つかりました
         </div>
         <div className="song-list-wrapper">
-          <div className="song-list"
-            // 公演検索時のみグリッドカラムを変更するためのクラスを追加
-            className={searchMode === "公演" && search !== "" ? "song-list show-performance-cols" : "song-list"}
+          <div 
+            className={searchMode === "セトリ" && search !== "" ? "song-list show-performance-cols" : "song-list"}
           >
             <div className="song-header">
               <span>タイトル</span>
@@ -460,16 +463,16 @@ export default function App() {
             </div>
             {filteredSongs.map((item) => ( // ★itemはallSongsのsongオブジェクトか、processedSongsのアイテムオブジェクト★
               <div 
-                key={searchMode === "公演" ? item.id : item.id} // 公演モードならprocessedSongsのID、そうでなければallSongsのID
+                key={searchMode === "セトリ" ? item.id : item.id} // 公演モードならprocessedSongsのID、そうでなければallSongsのID
                 className="song-card" 
-                onClick={() => openModal(searchMode === "公演" ? item.originalSong : item)} // 公演モードならoriginalSong、そうでなければitem自体
+                onClick={() => openModal(searchMode === "セトリ" ? item.originalSong : item)} // 公演モードならoriginalSong、そうでなければitem自体
               >
                 {/* 参照するプロパティを searchMode に応じて分岐 */}
-                <span className="song-title">{searchMode === "公演" ? item.originalSong.title : item.title}</span>
-                <span>{searchMode === "公演" ? item.originalSong.lyricist : item.lyricist}</span>
-                <span>{searchMode === "公演" ? item.originalSong.composer : item.composer}</span>
-                <span>{searchMode === "公演" ? item.originalSong.album[0] : item.album[0]}</span>
-                <span className="song-date">{searchMode === "公演" ? item.originalSong.date : item.date}</span>
+                <span className="song-title">{searchMode === "セトリ" ? item.originalSong.title : item.title}</span>
+                <span>{searchMode === "セトリ" ? item.originalSong.lyricist : item.lyricist}</span>
+                <span>{searchMode === "セトリ" ? item.originalSong.composer : item.composer}</span>
+                <span>{searchMode === "セトリ" ? item.originalSong.album[0] : item.album[0]}</span>
+                <span className="song-date">{searchMode === "セトリ" ? item.originalSong.date : item.date}</span>
               </div>
             ))}
           </div>
