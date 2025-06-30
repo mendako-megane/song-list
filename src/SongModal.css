@@ -62,16 +62,21 @@
     font-weight: 500; /* semi-boldくらいに。お好みで600（bold）も試してください */
     color: #333; /* 明確な色に */
   }
-  
-  /* 収録アルバムのリスト */
-  .modal-content ul {
+
+  .modal-content ul { /* ul:not(.performance-list) ではなく、より一般的な ul に適用 */
     list-style-type: none;
     padding-left: 0;
     margin-top: 8px;
     margin-bottom: 20px;
+    /* ★追加：リスト全体と内容を左揃えにする */
+    text-align: left; /* リスト内のブロック要素ではないテキストを左揃え */
   }
   
-  .modal-content li {
+  /* 収録アルバムのリスト */
+  .modal-content ul:not(.performance-list) li { /* ★追加：ul:not(.performance-list) でアルバムリストを明示的にターゲット★ */
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0px;
     margin-bottom: 5px;
     padding-left: 1.5em; /* アイコン分のスペース */
     position: relative;
@@ -82,7 +87,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* 軽く影 */
   }
   
-  .modal-content li::before {
+  .modal-content ul:not(.performance-list) li::before { /* ★追加：ul:not(.performance-list) でアルバムリストを明示的にターゲット★ */
     content: '💿　'; /* 音楽記号アイコン */
     position: absolute;
     left: 10px;
@@ -154,8 +159,55 @@
     transform: translateY(-2px); /* 少し上に浮き上がるような効果 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   }
+
+  .modal-content .performance-list {
+    list-style-type: none; /* デフォルトのリストマーカーを削除 */
+    padding-left: 0;      /* デフォルトの左パディングを削除 */
+    margin-top: 15px;     /* 上の余白を少し増やす */
+    margin-bottom: 25px;  /* 下の余白を少し増やす */
+    display: flex;        /* アイテムを横並びにし、折り返す */
+    flex-wrap: wrap;      /* 幅に合わせて折り返す */
+    gap: 10px;            /* アイテム間の隙間 */
+    /*justify-content: center; /* アイテムを中央揃え */
+  }
   
   
+  .modal-content .performance-list li { /* ★セレクタそのまま★ */
+    /* margin-bottom: 5px; <- gap で代用されるため削除 */
+    padding-left: 1.5em; /* アイコン分のスペース */
+    position: relative;
+    background-color: #E6F0FF; /* 全体のクリーム色に合わせて、少しだけ濃いクリーム色 */
+    border-radius: 12px; /* 少し角丸を強くする */
+    padding: 10px 15px 10px 35px; /* 内側の余白を調整 */
+    margin-left: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 影を強調 */
+    border: 1px solid #FFD700; /* ゴールド系の枠線でリッチに */
+    font-size: 0.95rem;
+    color: #333;
+    flex: 1 1 auto; /* 柔軟に幅を広げ、最小コンテンツ幅で折り返す */
+    min-width: 180px; /* アイテムの最小幅を設定し、長すぎると折り返す */
+    max-width: calc(50% - 5px); /* 2列表示を目指す (gapも考慮) */
+    box-sizing: border-box; /* パディングとボーダーを幅に含める */
+    text-align: center; /* テキストを中央寄せに */
+    transition: all 0.2s ease-in-out; /* ホバー効果のためにトランジションを追加 */
+  }
+  
+  .modal-content .performance-list li::before { /* ★セレクタそのまま★ */
+    content: '🎤'; /* マイクの絵文字アイコン */
+    position: absolute;
+    left: 12px; /* 少し右に移動 */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFC81B; /* メインカラーの黄色 */
+    font-size: 1.1em;
+    line-height: 1; /* 行の高さを調整 */
+  }
+
+  .modal-content .performance-list li:hover {
+    background-color: #D6EFFF; /* ホバーで少し明るい青色 */
+    cursor: default; /* クリック可能ではないためデフォルトのカーソル */
+  }
+
   /* アニメーション */
   @keyframes fadeIn {
     from { opacity: 0; }
@@ -219,5 +271,9 @@
       right: 8px; /* さらに位置を調整 */
       padding: 5px 10px; /* さらにパディングを小さく */
       font-size: 0.85rem;
+    }
+    .modal-content .performance-list li {
+      padding: 8px 10px 8px 30px; /* パディングを少し小さく */
+      font-size: 0.9rem;
     }
   }

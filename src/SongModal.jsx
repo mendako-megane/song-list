@@ -19,6 +19,13 @@ const SongModal = ({ song, onClose }) => {
 
   const filteredAlbums = song.album.filter(albumName => albumName.includes('[') && albumName.includes(']'));
 
+  const getPerformanceName = (entry) => {
+    const match = entry.match(/(.*?)\{/); // '{'の手前までの文字列を抽出
+    if (match && match[1]) {
+      return match[1]; // 公演名のみを返す
+    }
+    return entry; // フォーマットが一致しない場合は、元の文字列をそのまま返す
+  };
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -63,6 +70,18 @@ const SongModal = ({ song, onClose }) => {
             <h3>歌詞</h3>
             <p className="modal-lyrics-text">{song.lyrics}</p> {/* クラス名を追加 */}
           </div>
+        )}
+        {song.performances && song.performances.length > 0 && (
+          <>
+            <p><strong>披露公演:</strong></p>
+            <ul className="performance-list">
+              {song.performances.map((pEntry, index) => (
+                <li key={index}>
+                  <span className="modal-item-value">{getPerformanceName(pEntry)}</span>
+                </li>
+              ))}
+            </ul>
+          </>
         )}
         <button onClick={onClose} className="modal-close-button">閉じる</button>
       </div>
