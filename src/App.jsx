@@ -14,9 +14,16 @@ export default function App() {
   const [selectedSong, setSelectedSong] = useState(null); // 選択された楽曲の情報を保持
   const [isModalOpen, setIsModalOpen] = useState(false); // モーダルが開いているかどうかの状態
 
+  const [selectedPerformanceType, setSelectedPerformanceType] = useState("");
+
   useEffect(() => {
     setSearch(""); // 検索方法変更でリセット
-  }, [searchMode]);
+    setSelectedPerformanceType("");
+  }, [searchMode]); // ★追加：公演の種類もリセット★
+
+  useEffect(() => {
+    setSearch("");
+  }, [selectedPerformanceType]);
 
 
   const albums = [
@@ -168,33 +175,58 @@ export default function App() {
     "ウェッサイソウル！ / BIG LOVE SONG[通常盤]"
   ];
 
-  const performances = [
-    "なにわともあれ、ほんまにありがとう！",
-    "一発めぇぇぇぇぇぇぇ！","一発めぇぇぇぇぇぇぇ！(各会場オーラス)","一発めぇぇぇぇぇぇぇ！(大阪オーラス)",
-    "パリピポ","パリピポ(各会場オーラス)","パリピポ(兵庫オーラス)",
-    "ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟)","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟のオーラス)","ラッキィィィィィィィ7(大阪,宮城)","ラッキィィィィィィィ7(大阪オーラス)","ラッキィィィィィィィ7(宮城オーラス)",
-    "24(ニシ)から感謝届けます♡","24(ニシ)から感謝届けます♡(オーラス)",
-    "なうぇすと(〜横浜3日目)","なうぇすと(横浜4日目〜,福井,福岡,宮城,愛知,静岡,大阪,北海道,広島)","なうぇすと(各会場オーラス)","なうぇすと(広島オーラス)",
-    "WESTival","WESTival(各会場オーラス)","WESTival(北海道オーラス)",
-    "WESTV!","WESTV!(各会場オーラス)","WESTV!(北海道オーラス)",
-    "W trouble12/11","W trouble12/12昼,12/13夜","W trouble12/12夜,12/13昼",
-    "rainboW(北海道)","rainboW(宮城,愛知,新潟,埼玉,熊本)","rainboW(円盤)",
-    "Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10)","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11)","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜)","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼)","Mixed Juice(北海道オーラス)",
-    "TO BE KANSAI COLOR-翔べ関西から-(大阪)","TO BE KANSAI COLOR-翔べ関西から-(名古屋)","TO BE KANSAI COLOR-翔べ関西から-(東京)","TO BE KANSAI COLOR-翔べ関西から-(東京オーラス)",
-    "POWER(宮城)","POWER(横浜,福岡,新潟,静岡,大阪,北海道,愛知)","POWER(愛知オーラス)",
-    "AWARD(大阪)","AWARD(新潟)","AWARD(宮城)","AWARD(愛知)","AWARD(横浜,静岡,福岡,広島,北海道)","AWARD(北海道オーラス)",
-    "DOME TOUR AWARD(大阪,福岡)","DOME TOUR AWARD(東京)","DOME TOUR AWARD(東京オーラス)",
-    "A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12)","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知)","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス)",
-    "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
-    "ファンクラブ限定動画(改名発表)","ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>)",
-    "Johnny's World Happy LIVE with YOU(3/29)","Johnny's World Happy LIVE with YOU(6/18)",
-    "ジャニーズWEST デビュー記念イベント デビューしてもええじゃないか ～バンザイ!! その先の一等賞へ～","皆様のおかげSummer Carnival!","We are WEST!!!!!!! やったぜ5周ねぇぇぇぇぇぇぇん ほんまサンキューサンキュー！今日は懐かしい想い出振り返ってもええじゃないか！SP","５周ねんやねん♪よろしゅうねん♪","Special Studio Recording(証拠[初回B])","Johnny's DREAM IsLAND 2020→2025 〜大好きなこの街から〜 大阪松竹座 ジャニーズWEST公演","SPECIAL LIVE(サムシング・ニュー[初回B])","スペシャルセッション(しあわせの花[初回B])",
-    "新グループ名発表します","【WESTube生配信SP】結成10周年やねぇぇぇぇぇぇぇん","【WESTube生配信】4.23デビュー10周年やねぇぇぇぇぇぇぇんSP","【年越し生配信2024→2025】デビュー10周年ありがとう⭐️&登録者数100万人達成記念SP🎉 ✨100/100✨",
-    "7周年生配信イベント「虹会」","8周年生配信トーク＆ライブ「虹会」","9周年生配信トーク＆ライブ「虹会」","10周年生配信トーク＆ライブ「虹会」","11周年生配信トーク＆ライブ「虹会」",
-    "WEST. 10th Anniversary Live “W”","WEST. 10th Anniversary Live “W”-Film edition-",
-    "なにわ侍　ハローTOKYO!!","台風n Dreamer","なにわ侍 団五郎一座","WEST. 10th Anniversary 大阪松竹座公演(昼)","WEST. 10th Anniversary 大阪松竹座公演(夜)","WEST. 10th Anniversary 大阪松竹座公演(千穐楽)",
-    // 他の公演名があればここに追加
-  ];
+  const performanceCategories = {
+    "ライブ":[
+      "なにわともあれ、ほんまにありがとう！",
+      "一発めぇぇぇぇぇぇぇ！","一発めぇぇぇぇぇぇぇ！(各会場オーラス)","一発めぇぇぇぇぇぇぇ！(大阪オーラス)",
+      "パリピポ","パリピポ(各会場オーラス)","パリピポ(兵庫オーラス)",
+      "ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟)","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟のオーラス)","ラッキィィィィィィィ7(大阪,宮城)","ラッキィィィィィィィ7(大阪オーラス)","ラッキィィィィィィィ7(宮城オーラス)",
+      "24(ニシ)から感謝届けます♡","24(ニシ)から感謝届けます♡(オーラス)",
+      "なうぇすと(〜横浜3日目)","なうぇすと(横浜4日目〜,福井,福岡,宮城,愛知,静岡,大阪,北海道,広島)","なうぇすと(各会場オーラス)","なうぇすと(広島オーラス)",
+      "WESTival","WESTival(各会場オーラス)","WESTival(北海道オーラス)",
+      "WESTV!","WESTV!(各会場オーラス)","WESTV!(北海道オーラス)",
+      "W trouble12/11","W trouble12/12昼,12/13夜","W trouble12/12夜,12/13昼",
+      "rainboW(北海道)","rainboW(宮城,愛知,新潟,埼玉,熊本)","rainboW(円盤)",
+      "Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10)","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11)","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜)","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼)","Mixed Juice(北海道オーラス)",
+      "TO BE KANSAI COLOR-翔べ関西から-(大阪)","TO BE KANSAI COLOR-翔べ関西から-(名古屋)","TO BE KANSAI COLOR-翔べ関西から-(東京)","TO BE KANSAI COLOR-翔べ関西から-(東京オーラス)",
+      "POWER(宮城)","POWER(横浜,福岡,新潟,静岡,大阪,北海道,愛知)","POWER(愛知オーラス)",
+      "AWARD(大阪)","AWARD(新潟)","AWARD(宮城)","AWARD(愛知)","AWARD(横浜,静岡,福岡,広島,北海道)","AWARD(北海道オーラス)",
+      "DOME TOUR AWARD(大阪,福岡)","DOME TOUR AWARD(東京)","DOME TOUR AWARD(東京オーラス)",
+      "A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12)","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知)","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス)",
+    ],
+    "フェス":[
+      "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
+    ],
+    "ファンクラブ限定動画":[
+      "ファンクラブ限定動画(改名発表)","ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>)",
+    ],
+    "Happy Live with you":[
+      "Johnny's World Happy LIVE with YOU(3/29)","Johnny's World Happy LIVE with YOU(6/18)",
+    ],
+    "シングルアルバム特典":[
+      "ジャニーズWEST デビュー記念イベント デビューしてもええじゃないか ～バンザイ!! その先の一等賞へ～","皆様のおかげSummer Carnival!","５周ねんやねん♪よろしゅうねん♪","Special Studio Recording(証拠[初回B])","Johnny's DREAM IsLAND 2020→2025 〜大好きなこの街から〜 大阪松竹座 ジャニーズWEST公演","SPECIAL LIVE(サムシング・ニュー[初回B])","スペシャルセッション(しあわせの花[初回B])",
+    ],
+    "YouTube生配信":[
+      "新グループ名発表します","【WESTube生配信SP】結成10周年やねぇぇぇぇぇぇぇん","【WESTube生配信】4.23デビュー10周年やねぇぇぇぇぇぇぇんSP","【年越し生配信2024→2025】デビュー10周年ありがとう⭐️&登録者数100万人達成記念SP🎉 ✨100/100✨",
+    ],
+    "虹会":[
+      "7周年生配信イベント「虹会」","8周年生配信トーク＆ライブ「虹会」","9周年生配信トーク＆ライブ「虹会」","10周年生配信トーク＆ライブ「虹会」","11周年生配信トーク＆ライブ「虹会」",
+    ],
+    "WOWOW":[
+      "WEST. 10th Anniversary Live “W”","WEST. 10th Anniversary Live “W”-Film edition-",
+    ],
+    "舞台":[
+      "なにわ侍　ハローTOKYO!!","台風n Dreamer","なにわ侍 団五郎一座","WEST. 10th Anniversary 大阪松竹座公演(昼)","WEST. 10th Anniversary 大阪松竹座公演(夜)","WEST. 10th Anniversary 大阪松竹座公演(千穐楽)",
+    ],
+      // 他の公演名があればここに追加
+  };
+
+  const performanceTypes = Object.keys(performanceCategories);
+
+  const filteredPerformances = selectedPerformanceType
+    ? performanceCategories[selectedPerformanceType]
+    : []; // 種類が選択されていない場合は空配列
+  // ★ここまで公演リストの定義を多段階用に変更★
   
   const singers = Array.from(new Set(allSongs.map(song => song.singer).filter(Boolean)));
   
@@ -252,12 +284,19 @@ export default function App() {
       if (!item.performanceDetail) {
         return false;
       }
+      // 1段目の公演の種類が選択されていない場合、何も表示しない
+      if (selectedPerformanceType === "") { // ★追加された条件★
+        return false;
+      }
       if (search === "") { 
         console.log("DEBUG: セトリモードで検索値が空です。このアイテムは除外されます。", item.originalSong.title); // デバッグ用ログ
         return false; // ★ここが「すべての公演」を表示しないロジックの核心です★
       }
       // 選択された公演名でフィルタリング (searchが空なら全ての公演情報を持つ項目を表示)
-      return search === "" || item.performanceDetail.name === search;
+      const isTypeMatch = item.performanceDetail.name && performanceCategories[selectedPerformanceType]?.includes(item.performanceDetail.name); // ★変更された条件★
+      const isNameMatch = item.performanceDetail.name === search;
+
+      return isTypeMatch && isNameMatch; // 両方の条件が満たされる場合のみ表示
     });
 
     // ソートも公演の順序番号で行う
@@ -412,14 +451,32 @@ export default function App() {
             </select>
           ) : searchMode === "セトリ" ? ( // ★このブロックが追加されました★
             // 公演検索の場合、セレクトバーを表示
-            <select value={search} onChange={(e) => setSearch(e.target.value)}>
-              <option value="" disabled selected>公演を選択してください</option>
-              {performances.map((p) => (
-                <option key={p} value={p}>
-                  {p}
-                </option>
-              ))}
-            </select>
+            <>
+              {/* 1段目のセレクトバー：公演の種類 */}
+              <select
+                value={selectedPerformanceType}
+                onChange={(e) => setSelectedPerformanceType(e.target.value)}
+                className="control-select"
+              >
+                <option value="" disabled selected>公演の種類を選択</option>
+                {performanceTypes.map((type) => (
+                  <option key={type} value={type}>
+                    {type}
+                  </option>
+                ))}
+              </select>
+              {/* 2段目のセレクトバー：ツアーの種類（公演名） */}
+              {selectedPerformanceType && (
+                <select value={search} onChange={(e) => setSearch(e.target.value)} className="control-select">
+                  <option value="" disabled selected>ツアーの種類を選択</option>
+                  {filteredPerformances.map((p) => (
+                    <option key={p} value={p}>
+                      {p}
+                    </option>
+                  ))}
+                </select>
+              )}
+            </>
           ) : searchMode === "歌詞" ? ( // ★ここから追加★ 歌詞検索
             <input
               type="text"

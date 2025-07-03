@@ -1612,7 +1612,7 @@ export const songs = [
         arranger: "CHOKKAKU",
         album: ["アメノチハレ","アメノチハレ[初回A]","アメノチハレ[初回B]","アメノチハレ[通常盤]","W trouble","W trouble[初回A]","W trouble[初回B]","W trouble[通常盤]","W trouble[通販盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],
         announce: "t",
-        performances: ["W trouble12/11{18}","W trouble12/12昼,12/13夜{18}","W trouble12/12夜,12/13昼{18}","Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10){16}",],
+        performances: ["W trouble12/11{18}","W trouble12/12昼,12/13夜{18}","W trouble12/12夜,12/13昼{18}","Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10){16}","５周ねんやねん♪よろしゅうねん♪{2}",],
         singer: "WEST.",
         date: "2019-04-24",
         tiup: "日本テレビ系ドラマ『白衣の戦士！』主題歌",

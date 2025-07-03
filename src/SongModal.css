@@ -220,7 +220,7 @@
   }
   
   /* レスポンシブ対応 */
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .modal-content {
       padding: 20px;
       border-radius: 12px;
@@ -239,6 +239,17 @@
       right: 10px; /* 位置を調整 */
       padding: 6px 12px; /* パディングを少し小さく */
       font-size: 0.9rem; 
+    }
+    .modal-content .performance-list {
+      justify-content: flex-start; /* ★追加：モバイルでは左揃えにする★ */
+      gap: 8px; /* 隙間を少し狭く */
+    }
+    .modal-content .performance-list li {
+      min-width: unset; /* モバイルでは最小幅を解除 */
+      max-width: 100%; /* フル幅に */
+      padding: 8px 10px 8px 30px; /* パディングを少し小さく */
+      font-size: 0.9rem;
+      text-align: left; /* モバイルでは左寄せに戻す */
     }
   }
   
