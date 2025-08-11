@@ -132,6 +132,28 @@
     font-size: 0.95rem;
     color: #444;
   }
+
+  .modal-content .mv-section {
+    display: flex; /* 子要素（strongとspan）をFlexアイテムとして配置 */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .modal-content .mv-section strong {
+    /* MV見出しの幅を固定し、改行させない */
+    white-space: nowrap; 
+    flex-shrink: 0; /* 縮小させない */
+    margin-right: 5px; /* MV見出しと値の間に少しスペースを空ける */
+  }
+  
+  .modal-content .mv-section .modal-item-value {
+    /* 残りのスペースを値が占めるようにする */
+    flex-grow: 1; 
+    /* MVの文字列が改行された場合でも、見出しの幅に合わせて文頭が揃うようにする */
+    display: inline-block;
+  }
   
   /* 閉じるボタン */
   .modal-close-button {
@@ -276,6 +298,16 @@
     .modal-lyrics-text {
         max-height: 300px !important; /* さらに狭いスマホでの調整 */
         padding: 10px;
+    }
+    .modal-content .mv-section {
+      flex-direction: column; /* スマートフォンでは縦並びにする */
+      align-items: flex-start; /* 左端に揃える */
+    }
+  
+    .modal-content .mv-section strong {
+      white-space: normal; /* 縦並びなので、見出しも改行を許可 */
+      margin-right: 0;
+      margin-bottom: 5px; /* 見出しと本文の間にスペースを空ける */
     }
     .modal-close-button {
       top: 8px; /* さらに位置を調整 */

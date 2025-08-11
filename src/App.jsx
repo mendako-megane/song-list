@@ -468,7 +468,7 @@ export default function App() {
               {/* 2段目のセレクトバー：ツアーの種類（公演名） */}
               {selectedPerformanceType && (
                 <select value={search} onChange={(e) => setSearch(e.target.value)} className="control-select">
-                  <option value="" disabled selected>ツアーの種類を選択</option>
+                  <option value="" disabled selected>公演名を選択</option>
                   {filteredPerformances.map((p) => (
                     <option key={p} value={p}>
                       {p}

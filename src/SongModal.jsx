@@ -54,6 +54,19 @@ const SongModal = ({ song, onClose }) => {
         {song.tiup && ( // タイアップ情報がある場合のみ表示
           <p><strong>タイアップ:</strong> <span className="modal-item-value">{song.tiup}</span></p>
         )}
+        {song.mv && (
+          <p className="mv-section">
+            <strong>映像:</strong> 
+            <span className="modal-item-value">
+              {song.mv.split('\n').map((line, index, array) => (
+                <React.Fragment key={index}>
+                  {line}
+                  {index < array.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+            </span>
+          </p>
+        )}
         <p><strong>収録シングル/アルバム:</strong></p>
         <ul>
           {filteredAlbums.map((album, index) => (
