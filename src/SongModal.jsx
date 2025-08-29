@@ -1,12 +1,15 @@
 // src/SongModal.jsx
 
-import React from 'react';
+import React, { useState } from 'react'; // useEffectは不要になったため削除
 import './SongModal.css';
 
 const SongModal = ({ song, onClose }) => {
   if (!song) {
     return null;
   }
+
+  const [showLyricsSplit, setShowLyricsSplit] = useState(false);
+  
 
   const displayAnnounce = (announce) => {
     if (announce === 't') {
@@ -56,15 +59,11 @@ const SongModal = ({ song, onClose }) => {
         )}
         {song.mv && (
           <p className="mv-section">
-            <strong>映像:</strong> 
-            <span className="modal-item-value">
-              {song.mv.split('\n').map((line, index, array) => (
-                <React.Fragment key={index}>
-                  {line}
-                  {index < array.length - 1 && <br />}
-                </React.Fragment>
-              ))}
-            </span>
+            <strong>映像:</strong>
+            <span 
+              className="modal-item-value"
+              dangerouslySetInnerHTML={{ __html: song.mv.replace(/\n/g, '<br />') }}
+            />
           </p>
         )}
         <p><strong>収録シングル/アルバム:</strong></p>
@@ -79,9 +78,32 @@ const SongModal = ({ song, onClose }) => {
         </ul>
         <p><strong>披露情報:</strong> <span className="modal-item-value">{displayAnnounce(song.announce)}</span></p> {/* 追加 */}
         {song.lyrics && (
-          <div className="lyrics-section"> {/* クラス名を追加 */}
-            <h3>歌詞</h3>
-            <p className="modal-lyrics-text">{song.lyrics}</p> {/* クラス名を追加 */}
+          <div className="lyrics-section">
+            <div className="lyrics-header">
+              <h3>歌詞</h3>
+              {song.lyricsn && (
+                <div className="toggle-switch-container">
+                  <label className="toggle-switch">
+                    <input
+                      type="checkbox"
+                      checked={showLyricsSplit}
+                      onChange={() => setShowLyricsSplit(!showLyricsSplit)}
+                    />
+                    <span className="slider"></span>
+                  </label>
+                  <span className="toggle-label">{showLyricsSplit ? '歌割り表示' : '通常表示'}</span>
+                </div>
+              )}
+            </div>
+            {/* ★修正：showLyricsSplitの状態に応じてdangerouslySetInnerHTMLを使用★ */}
+            <p
+              className="modal-lyrics-text"
+              dangerouslySetInnerHTML={{
+                __html: showLyricsSplit && song.lyricsn
+                  ? song.lyricsn // 歌割り表示
+                  : song.lyrics.replace(/\n/g, '<br />') // 通常表示
+              }}
+            />
           </div>
         )}
         {song.performances && song.performances.length > 0 && (

@@ -98,32 +98,47 @@
   }
   
   /* 歌詞のセクション */
-  .modal-content .lyrics-section h3 {
-    color: #333;
-    border-bottom: 1px solid #FFC81B; /* メインカラーの黄色 */
+  .lyrics-section {
+    margin-bottom: 20px;
+  }
+
+  /* lyrics-headerの配置を右端に寄せる */
+  .lyrics-header {
+    display: flex;
+    justify-content: space-between; /* ★変更点: flex-endにすることで右端に寄せる★ */
+    align-items: center;
+    border-bottom: 1px solid #FFC81B;
     padding-bottom: 8px;
     margin-bottom: 15px;
-    font-size: 1.5rem;
   }
+
+  .lyrics-header h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0;
+    /* ボタンと並べるために左側にマージンを追加 */
+    margin-right: auto; /* ★追加点: これで見出しとボタンを両端に配置★ */
+  }
+
 
   .modal-lyrics-text { /* クラス名で指定 */
     white-space: pre-wrap;
-    max-height: 400px !important;
-    overflow-y: auto;
+  /*  max-height: 400px !important;
+    overflow-y: auto; */
     border: 1px solid #FFC81B;
     background-color: #FEFFFA;
     padding: 15px;
     border-radius: 8px;
     line-height: 1.7;
     font-size: 0.95rem;
-    font-weight: 400; /* 必要であれば太さを調整 (通常は400) */
+    font-weight: 600; /* 必要であれば太さを調整 (通常は400) */
     color: #444;
   }
   
   .modal-content .lyrics-section p {
     white-space: pre-wrap;
-    max-height: 180px;
-    overflow-y: auto;
+  /*  max-height: 180px;
+    overflow-y: auto; */
     border: 1px solid #FFC81B; /* メインカラーの黄色で枠線 */
     background-color: #FEFFFA; /* ほぼ白に近い背景色 */
     padding: 15px;
@@ -180,6 +195,78 @@
     background-color: #FFDE6B; /* ホバーで少し明るい黄色 */
     transform: translateY(-2px); /* 少し上に浮き上がるような効果 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .modal-close-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #D1A400;
+  }
+
+  .toggle-switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* スイッチとラベルの間隔 */
+    flex-shrink: 0; /* ★追加点: 縮小させないようにする★ */
+  }
+
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px; /* スイッチ全体の幅 */
+    height: 28px; /* スイッチ全体の高さ */
+  }
+
+  /* チェックボックスを非表示にする */
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* スイッチのスライダー（丸い部分と背景バー） */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* OFF時の背景色 */
+    transition: 0.4s;
+    border-radius: 28px; /* 角丸を強くして丸い形に */
+  }
+
+  /* スライダーの丸い部分 */
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%; /* 丸い形 */
+  }
+
+  /* チェックされたときの背景色 */
+  input:checked + .slider {
+    background-color: #FFC81B; /* ON時の背景色 */
+  }
+
+  /* チェックされたときに丸を移動 */
+  input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+
+  /* トグルラベルのスタイル */
+  .toggle-label {
+    font-size: 0.9rem;
+    color: #555;
+    min-width: 72px; /* ★追加点: ラベルの幅も固定する★ */
+    text-align: right; /* ★追加点: 右揃えにする★ */
+    white-space: nowrap; /* テキストが改行されないようにする */
   }
 
   .modal-content .performance-list {
@@ -254,7 +341,7 @@
       font-size: 1.2rem;
     }
     .modal-lyrics-text {
-        max-height: 350px !important; /* モバイルでの調整も忘れずに */
+      /*  max-height: 350px !important; */ /* モバイルでの調整も忘れずに */
     }
     .modal-close-button {
       top: 10px; /* 位置を調整 */
@@ -296,7 +383,7 @@
       padding: 10px;
     }
     .modal-lyrics-text {
-        max-height: 300px !important; /* さらに狭いスマホでの調整 */
+      /*  max-height: 300px !important; /* さらに狭いスマホでの調整 */
         padding: 10px;
     }
     .modal-content .mv-section {
