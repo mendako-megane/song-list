@@ -38,15 +38,15 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var ey;function I0(){if(ey)return Al;ey=1;var E=Y0(),q=oc(),D=C0();function h(n){var s="https://react.dev/errors/"+n;if(1<arguments.length){s+="?args[]="+encodeURIComponent(arguments[1]);for(var a=2;a<arguments.length;a++)s+="&args[]="+encodeURIComponent(arguments[a])}return"Minified React error #"+n+"; visit "+s+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}function K(n){return!(!n||n.nodeType!==1&&n.nodeType!==9&&n.nodeType!==11)}function F(n){var s=n,a=n;if(n.alternate)for(;s.return;)s=s.return;else{n=s;do s=n,(s.flags&4098)!==0&&(a=s.return),n=s.return;while(n)}return s.tag===3?a:null}function rn(n){if(n.tag===13){var s=n.memoizedState;if(s===null&&(n=n.alternate,n!==null&&(s=n.memoizedState)),s!==null)return s.dehydrated}return null}function Z(n){if(F(n)!==n)throw Error(h(188))}function B(n){var s=n.alternate;if(!s){if(s=F(n),s===null)throw Error(h(188));return s!==n?null:n}for(var a=n,o=s;;){var l=a.return;if(l===null)break;var e=l.alternate;if(e===null){if(o=l.return,o!==null){a=o;continue}break}if(l.child===e.child){for(e=l.child;e;){if(e===a)return Z(l),n;if(e===o)return Z(l),s;e=e.sibling}throw Error(h(188))}if(a.return!==o.return)a=l,o=e;else{for(var p=!1,t=l.child;t;){if(t===a){p=!0,a=l,o=e;break}if(t===o){p=!0,o=l,a=e;break}t=t.sibling}if(!p){for(t=e.child;t;){if(t===a){p=!0,a=e,o=l;break}if(t===o){p=!0,o=e,a=l;break}t=t.sibling}if(!p)throw Error(h(189))}}if(a.alternate!==o)throw Error(h(190))}if(a.tag!==3)throw Error(h(188));return a.stateNode.current===a?n:s}function T(n){var s=n.tag;if(s===5||s===26||s===27||s===6)return n;for(n=n.child;n!==null;){if(s=T(n),s!==null)return s;n=n.sibling}return null}var M=Object.assign,on=Symbol.for("react.element"),ln=Symbol.for("react.transitional.element"),vn=Symbol.for("react.portal"),Yn=Symbol.for("react.fragment"),Zn=Symbol.for("react.strict_mode"),Gn=Symbol.for("react.profiler"),Rs=Symbol.for("react.provider"),ms=Symbol.for("react.consumer"),Rn=Symbol.for("react.context"),kn=Symbol.for("react.forward_ref"),_=Symbol.for("react.suspense"),Vn=Symbol.for("react.suspense_list"),xn=Symbol.for("react.memo"),A=Symbol.for("react.lazy"),x=Symbol.for("react.activity"),Sn=Symbol.for("react.memo_cache_sentinel"),dn=Symbol.iterator;function hn(n){return n===null||typeof n!="object"?null:(n=dn&&n[dn]||n["@@iterator"],typeof n=="function"?n:null)}var da=Symbol.for("react.client.reference");function ha(n){if(n==null)return null;if(typeof n=="function")return n.$$typeof===da?null:n.displayName||n.name||null;if(typeof n=="string")return n;switch(n){case Yn:return"Fragment";case Gn:return"Profiler";case Zn:return"StrictMode";case _:return"Suspense";case Vn:return"SuspenseList";case x:return"Activity"}if(typeof n=="object")switch(n.$$typeof){case vn:return"Portal";case Rn:return(n.displayName||"Context")+".Provider";case ms:return(n._context.displayName||"Context")+".Consumer";case kn:var s=n.render;return n=n.displayName,n||(n=s.displayName||s.name||"",n=n!==""?"ForwardRef("+n+")":"ForwardRef"),n;case xn:return s=n.displayName||null,s!==null?s:ha(n.type)||"Memo";case A:s=n._payload,n=n._init;try{return ha(n(s))}catch{}}return null}var Kn=Array.isArray,g=q.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,H=D.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,N={pending:!1,data:null,method:null,action:null},cn=[],f=-1;function v(n){return{current:n}}function R(n){0>f||(n.current=cn[f],cn[f]=null,f--)}function w(n,s){f++,cn[f]=n.current,n.current=s}var k=v(null),Q=v(null),U=v(null),Qn=v(null);function un(n,s){switch(w(U,s),w(Q,n),w(k,null),s.nodeType){case 9:case 11:n=(n=s.documentElement)&&(n=n.namespaceURI)?v3(n):0;break;default:if(n=s.tagName,s=s.namespaceURI)s=v3(s),n=w3(s,n);else switch(n){case"svg":n=1;break;case"math":n=2;break;default:n=0}}R(k),w(k,n)}function xs(){R(k),R(Q),R(U)}function Ce(n){n.memoizedState!==null&&w(Qn,n);var s=k.current,a=w3(s,n.type);s!==a&&(w(Q,n),w(k,a))}function Sl(n){Q.current===n&&(R(k),R(Q)),Qn.current===n&&(R(Qn),ul._currentValue=N)}var Ie=Object.prototype.hasOwnProperty,Ne=E.unstable_scheduleCallback,Ge=E.unstable_cancelCallback,ty=E.unstable_shouldYield,cy=E.unstable_requestPaint,Os=E.unstable_now,fy=E.unstable_getCurrentPriorityLevel,lc=E.unstable_ImmediatePriority,ec=E.unstable_UserBlockingPriority,Ol=E.unstable_NormalPriority,ry=E.unstable_LowPriority,pc=E.unstable_IdlePriority,yy=E.log,iy=E.unstable_setDisableYieldValue,Oo=null,$n=null;function Ps(n){if(typeof yy=="function"&&iy(n),$n&&typeof $n.setStrictMode=="function")try{$n.setStrictMode(Oo,n)}catch{}}var ns=Math.clz32?Math.clz32:dy,uy=Math.log,by=Math.LN2;function dy(n){return n>>>=0,n===0?32:31-(uy(n)/by|0)|0}var Wl=256,El=4194304;function ma(n){var s=n&42;if(s!==0)return s;switch(n&-n){case 1:return 1;case 2:return 2;case 4:return 4;case 8:return 8;case 16:return 16;case 32:return 32;case 64:return 64;case 128:return 128;case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:return n&4194048;case 4194304:case 8388608:case 16777216:case 33554432:return n&62914560;case 67108864:return 67108864;case 134217728:return 134217728;case 268435456:return 268435456;case 536870912:return 536870912;case 1073741824:return 0;default:return n}}function Tl(n,s,a){var o=n.pendingLanes;if(o===0)return 0;var l=0,e=n.suspendedLanes,p=n.pingedLanes;n=n.warmLanes;var t=o&134217727;return t!==0?(o=t&~e,o!==0?l=ma(o):(p&=t,p!==0?l=ma(p):a||(a=t&~n,a!==0&&(l=ma(a))))):(t=o&~e,t!==0?l=ma(t):p!==0?l=ma(p):a||(a=o&~n,a!==0&&(l=ma(a)))),l===0?0:s!==0&&s!==l&&(s&e)===0&&(e=l&-l,a=s&-s,e>=a||e===32&&(a&4194048)!==0)?s:l}function Wo(n,s){return(n.pendingLanes&~(n.suspendedLanes&~n.pingedLanes)&s)===0}function hy(n,s){switch(n){case 1:case 2:case 4:case 8:case 64:return s+250;case 16:case 32:case 128:case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:return s+5e3;case 4194304:case 8388608:case 16777216:case 33554432:return-1;case 67108864:case 134217728:case 268435456:case 536870912:case 1073741824:return-1;default:return-1}}function tc(){var n=Wl;return Wl<<=1,(Wl&4194048)===0&&(Wl=256),n}function cc(){var n=El;return El<<=1,(El&62914560)===0&&(El=4194304),n}function Ke(n){for(var s=[],a=0;31>a;a++)s.push(n);return s}function Eo(n,s){n.pendingLanes|=s,s!==268435456&&(n.suspendedLanes=0,n.pingedLanes=0,n.warmLanes=0)}function my(n,s,a,o,l,e){var p=n.pendingLanes;n.pendingLanes=a,n.suspendedLanes=0,n.pingedLanes=0,n.warmLanes=0,n.expiredLanes&=a,n.entangledLanes&=a,n.errorRecoveryDisabledLanes&=a,n.shellSuspendCounter=0;var t=n.entanglements,c=n.expirationTimes,u=n.hiddenUpdates;for(a=p&~a;0<a;){var m=31-ns(a),O=1<<m;t[m]=0,c[m]=-1;var b=u[m];if(b!==null)for(u[m]=null,m=0;m<b.length;m++){var d=b[m];d!==null&&(d.lane&=-536870913)}a&=~O}o!==0&&fc(n,o,0),e!==0&&l===0&&n.tag!==0&&(n.suspendedLanes|=e&~(p&~s))}function fc(n,s,a){n.pendingLanes|=s,n.suspendedLanes&=~s;var o=31-ns(s);n.entangledLanes|=s,n.entanglements[o]=n.entanglements[o]|1073741824|a&4194090}function rc(n,s){var a=n.entangledLanes|=s;for(n=n.entanglements;a;){var o=31-ns(a),l=1<<o;l&s|n[o]&s&&(n[o]|=s),a&=~l}}function Ue(n){switch(n){case 2:n=1;break;case 8:n=4;break;case 32:n=16;break;case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:case 4194304:case 8388608:case 16777216:case 33554432:n=128;break;case 268435456:n=134217728;break;default:n=0}return n}function ze(n){return n&=-n,2<n?8<n?(n&134217727)!==0?32:268435456:8:2}function yc(){var n=H.p;return n!==0?n:(n=window.event,n===void 0?32:P3(n.type))}function gy(n,s){var a=H.p;try{return H.p=n,s()}finally{H.p=a}}var js=Math.random().toString(36).slice(2),Un="__reactFiber$"+js,jn="__reactProps$"+js,Ca="__reactContainer$"+js,Je="__reactEvents$"+js,Ay="__reactListeners$"+js,Sy="__reactHandles$"+js,ic="__reactResources$"+js,To="__reactMarker$"+js;function Ve(n){delete n[Un],delete n[jn],delete n[Je],delete n[Ay],delete n[Sy]}function Ia(n){var s=n[Un];if(s)return s;for(var a=n.parentNode;a;){if(s=a[Ca]||a[Un]){if(a=s.alternate,s.child!==null||a!==null&&a.child!==null)for(n=B3(n);n!==null;){if(a=n[Un])return a;n=B3(n)}return s}n=a,a=n.parentNode}return null}function Na(n){if(n=n[Un]||n[Ca]){var s=n.tag;if(s===5||s===6||s===13||s===26||s===27||s===3)return n}return null}function vo(n){var s=n.tag;if(s===5||s===26||s===27||s===6)return n.stateNode;throw Error(h(33))}function Ga(n){var s=n[ic];return s||(s=n[ic]={hoistableStyles:new Map,hoistableScripts:new Map}),s}function Ln(n){n[To]=!0}var uc=new Set,bc={};function ga(n,s){Ka(n,s),Ka(n+"Capture",s)}function Ka(n,s){for(bc[n]=s,n=0;n<s.length;n++)uc.add(s[n])}var Oy=RegExp("^[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"),dc={},hc={};function Wy(n){return Ie.call(hc,n)?!0:Ie.call(dc,n)?!1:Oy.test(n)?hc[n]=!0:(dc[n]=!0,!1)}function vl(n,s,a){if(Wy(s))if(a===null)n.removeAttribute(s);else{switch(typeof a){case"undefined":case"function":case"symbol":n.removeAttribute(s);return;case"boolean":var o=s.toLowerCase().slice(0,5);if(o!=="data-"&&o!=="aria-"){n.removeAttribute(s);return}}n.setAttribute(s,""+a)}}function wl(n,s,a){if(a===null)n.removeAttribute(s);else{switch(typeof a){case"undefined":case"function":case"symbol":case"boolean":n.removeAttribute(s);return}n.setAttribute(s,""+a)}}function Ls(n,s,a,o){if(o===null)n.removeAttribute(a);else{switch(typeof o){case"undefined":case"function":case"symbol":case"boolean":n.removeAttribute(a);return}n.setAttributeNS(s,a,""+o)}}var xe,mc;function Ua(n){if(xe===void 0)try{throw Error()}catch(a){var s=a.stack.trim().match(/\n( *(at )?)/);xe=s&&s[1]||"",mc=-1<a.stack.indexOf(`
+ */var py;function I0(){if(py)return Al;py=1;var E=Y0(),q=oc(),D=C0();function h(n){var s="https://react.dev/errors/"+n;if(1<arguments.length){s+="?args[]="+encodeURIComponent(arguments[1]);for(var a=2;a<arguments.length;a++)s+="&args[]="+encodeURIComponent(arguments[a])}return"Minified React error #"+n+"; visit "+s+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}function K(n){return!(!n||n.nodeType!==1&&n.nodeType!==9&&n.nodeType!==11)}function F(n){var s=n,a=n;if(n.alternate)for(;s.return;)s=s.return;else{n=s;do s=n,(s.flags&4098)!==0&&(a=s.return),n=s.return;while(n)}return s.tag===3?a:null}function rn(n){if(n.tag===13){var s=n.memoizedState;if(s===null&&(n=n.alternate,n!==null&&(s=n.memoizedState)),s!==null)return s.dehydrated}return null}function Z(n){if(F(n)!==n)throw Error(h(188))}function B(n){var s=n.alternate;if(!s){if(s=F(n),s===null)throw Error(h(188));return s!==n?null:n}for(var a=n,o=s;;){var l=a.return;if(l===null)break;var p=l.alternate;if(p===null){if(o=l.return,o!==null){a=o;continue}break}if(l.child===p.child){for(p=l.child;p;){if(p===a)return Z(l),n;if(p===o)return Z(l),s;p=p.sibling}throw Error(h(188))}if(a.return!==o.return)a=l,o=p;else{for(var e=!1,t=l.child;t;){if(t===a){e=!0,a=l,o=p;break}if(t===o){e=!0,o=l,a=p;break}t=t.sibling}if(!e){for(t=p.child;t;){if(t===a){e=!0,a=p,o=l;break}if(t===o){e=!0,o=p,a=l;break}t=t.sibling}if(!e)throw Error(h(189))}}if(a.alternate!==o)throw Error(h(190))}if(a.tag!==3)throw Error(h(188));return a.stateNode.current===a?n:s}function T(n){var s=n.tag;if(s===5||s===26||s===27||s===6)return n;for(n=n.child;n!==null;){if(s=T(n),s!==null)return s;n=n.sibling}return null}var M=Object.assign,on=Symbol.for("react.element"),ln=Symbol.for("react.transitional.element"),vn=Symbol.for("react.portal"),Yn=Symbol.for("react.fragment"),Zn=Symbol.for("react.strict_mode"),Gn=Symbol.for("react.profiler"),Rs=Symbol.for("react.provider"),ms=Symbol.for("react.consumer"),Rn=Symbol.for("react.context"),kn=Symbol.for("react.forward_ref"),_=Symbol.for("react.suspense"),Vn=Symbol.for("react.suspense_list"),xn=Symbol.for("react.memo"),A=Symbol.for("react.lazy"),x=Symbol.for("react.activity"),Sn=Symbol.for("react.memo_cache_sentinel"),dn=Symbol.iterator;function hn(n){return n===null||typeof n!="object"?null:(n=dn&&n[dn]||n["@@iterator"],typeof n=="function"?n:null)}var da=Symbol.for("react.client.reference");function ha(n){if(n==null)return null;if(typeof n=="function")return n.$$typeof===da?null:n.displayName||n.name||null;if(typeof n=="string")return n;switch(n){case Yn:return"Fragment";case Gn:return"Profiler";case Zn:return"StrictMode";case _:return"Suspense";case Vn:return"SuspenseList";case x:return"Activity"}if(typeof n=="object")switch(n.$$typeof){case vn:return"Portal";case Rn:return(n.displayName||"Context")+".Provider";case ms:return(n._context.displayName||"Context")+".Consumer";case kn:var s=n.render;return n=n.displayName,n||(n=s.displayName||s.name||"",n=n!==""?"ForwardRef("+n+")":"ForwardRef"),n;case xn:return s=n.displayName||null,s!==null?s:ha(n.type)||"Memo";case A:s=n._payload,n=n._init;try{return ha(n(s))}catch{}}return null}var Kn=Array.isArray,g=q.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,H=D.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,N={pending:!1,data:null,method:null,action:null},cn=[],f=-1;function v(n){return{current:n}}function R(n){0>f||(n.current=cn[f],cn[f]=null,f--)}function w(n,s){f++,cn[f]=n.current,n.current=s}var k=v(null),Q=v(null),U=v(null),Qn=v(null);function un(n,s){switch(w(U,s),w(Q,n),w(k,null),s.nodeType){case 9:case 11:n=(n=s.documentElement)&&(n=n.namespaceURI)?v3(n):0;break;default:if(n=s.tagName,s=s.namespaceURI)s=v3(s),n=w3(s,n);else switch(n){case"svg":n=1;break;case"math":n=2;break;default:n=0}}R(k),w(k,n)}function xs(){R(k),R(Q),R(U)}function Cp(n){n.memoizedState!==null&&w(Qn,n);var s=k.current,a=w3(s,n.type);s!==a&&(w(Q,n),w(k,a))}function Sl(n){Q.current===n&&(R(k),R(Q)),Qn.current===n&&(R(Qn),ul._currentValue=N)}var Ip=Object.prototype.hasOwnProperty,Np=E.unstable_scheduleCallback,Gp=E.unstable_cancelCallback,ty=E.unstable_shouldYield,cy=E.unstable_requestPaint,Os=E.unstable_now,fy=E.unstable_getCurrentPriorityLevel,lc=E.unstable_ImmediatePriority,pc=E.unstable_UserBlockingPriority,Ol=E.unstable_NormalPriority,ry=E.unstable_LowPriority,ec=E.unstable_IdlePriority,yy=E.log,iy=E.unstable_setDisableYieldValue,Oo=null,$n=null;function Ps(n){if(typeof yy=="function"&&iy(n),$n&&typeof $n.setStrictMode=="function")try{$n.setStrictMode(Oo,n)}catch{}}var ns=Math.clz32?Math.clz32:dy,uy=Math.log,by=Math.LN2;function dy(n){return n>>>=0,n===0?32:31-(uy(n)/by|0)|0}var Wl=256,El=4194304;function ma(n){var s=n&42;if(s!==0)return s;switch(n&-n){case 1:return 1;case 2:return 2;case 4:return 4;case 8:return 8;case 16:return 16;case 32:return 32;case 64:return 64;case 128:return 128;case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:return n&4194048;case 4194304:case 8388608:case 16777216:case 33554432:return n&62914560;case 67108864:return 67108864;case 134217728:return 134217728;case 268435456:return 268435456;case 536870912:return 536870912;case 1073741824:return 0;default:return n}}function Tl(n,s,a){var o=n.pendingLanes;if(o===0)return 0;var l=0,p=n.suspendedLanes,e=n.pingedLanes;n=n.warmLanes;var t=o&134217727;return t!==0?(o=t&~p,o!==0?l=ma(o):(e&=t,e!==0?l=ma(e):a||(a=t&~n,a!==0&&(l=ma(a))))):(t=o&~p,t!==0?l=ma(t):e!==0?l=ma(e):a||(a=o&~n,a!==0&&(l=ma(a)))),l===0?0:s!==0&&s!==l&&(s&p)===0&&(p=l&-l,a=s&-s,p>=a||p===32&&(a&4194048)!==0)?s:l}function Wo(n,s){return(n.pendingLanes&~(n.suspendedLanes&~n.pingedLanes)&s)===0}function hy(n,s){switch(n){case 1:case 2:case 4:case 8:case 64:return s+250;case 16:case 32:case 128:case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:return s+5e3;case 4194304:case 8388608:case 16777216:case 33554432:return-1;case 67108864:case 134217728:case 268435456:case 536870912:case 1073741824:return-1;default:return-1}}function tc(){var n=Wl;return Wl<<=1,(Wl&4194048)===0&&(Wl=256),n}function cc(){var n=El;return El<<=1,(El&62914560)===0&&(El=4194304),n}function Kp(n){for(var s=[],a=0;31>a;a++)s.push(n);return s}function Eo(n,s){n.pendingLanes|=s,s!==268435456&&(n.suspendedLanes=0,n.pingedLanes=0,n.warmLanes=0)}function my(n,s,a,o,l,p){var e=n.pendingLanes;n.pendingLanes=a,n.suspendedLanes=0,n.pingedLanes=0,n.warmLanes=0,n.expiredLanes&=a,n.entangledLanes&=a,n.errorRecoveryDisabledLanes&=a,n.shellSuspendCounter=0;var t=n.entanglements,c=n.expirationTimes,u=n.hiddenUpdates;for(a=e&~a;0<a;){var m=31-ns(a),O=1<<m;t[m]=0,c[m]=-1;var b=u[m];if(b!==null)for(u[m]=null,m=0;m<b.length;m++){var d=b[m];d!==null&&(d.lane&=-536870913)}a&=~O}o!==0&&fc(n,o,0),p!==0&&l===0&&n.tag!==0&&(n.suspendedLanes|=p&~(e&~s))}function fc(n,s,a){n.pendingLanes|=s,n.suspendedLanes&=~s;var o=31-ns(s);n.entangledLanes|=s,n.entanglements[o]=n.entanglements[o]|1073741824|a&4194090}function rc(n,s){var a=n.entangledLanes|=s;for(n=n.entanglements;a;){var o=31-ns(a),l=1<<o;l&s|n[o]&s&&(n[o]|=s),a&=~l}}function Up(n){switch(n){case 2:n=1;break;case 8:n=4;break;case 32:n=16;break;case 256:case 512:case 1024:case 2048:case 4096:case 8192:case 16384:case 32768:case 65536:case 131072:case 262144:case 524288:case 1048576:case 2097152:case 4194304:case 8388608:case 16777216:case 33554432:n=128;break;case 268435456:n=134217728;break;default:n=0}return n}function zp(n){return n&=-n,2<n?8<n?(n&134217727)!==0?32:268435456:8:2}function yc(){var n=H.p;return n!==0?n:(n=window.event,n===void 0?32:P3(n.type))}function gy(n,s){var a=H.p;try{return H.p=n,s()}finally{H.p=a}}var js=Math.random().toString(36).slice(2),Un="__reactFiber$"+js,jn="__reactProps$"+js,Ca="__reactContainer$"+js,Jp="__reactEvents$"+js,Ay="__reactListeners$"+js,Sy="__reactHandles$"+js,ic="__reactResources$"+js,To="__reactMarker$"+js;function Vp(n){delete n[Un],delete n[jn],delete n[Jp],delete n[Ay],delete n[Sy]}function Ia(n){var s=n[Un];if(s)return s;for(var a=n.parentNode;a;){if(s=a[Ca]||a[Un]){if(a=s.alternate,s.child!==null||a!==null&&a.child!==null)for(n=B3(n);n!==null;){if(a=n[Un])return a;n=B3(n)}return s}n=a,a=n.parentNode}return null}function Na(n){if(n=n[Un]||n[Ca]){var s=n.tag;if(s===5||s===6||s===13||s===26||s===27||s===3)return n}return null}function vo(n){var s=n.tag;if(s===5||s===26||s===27||s===6)return n.stateNode;throw Error(h(33))}function Ga(n){var s=n[ic];return s||(s=n[ic]={hoistableStyles:new Map,hoistableScripts:new Map}),s}function Ln(n){n[To]=!0}var uc=new Set,bc={};function ga(n,s){Ka(n,s),Ka(n+"Capture",s)}function Ka(n,s){for(bc[n]=s,n=0;n<s.length;n++)uc.add(s[n])}var Oy=RegExp("^[:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD][:A-Z_a-z\\u00C0-\\u00D6\\u00D8-\\u00F6\\u00F8-\\u02FF\\u0370-\\u037D\\u037F-\\u1FFF\\u200C-\\u200D\\u2070-\\u218F\\u2C00-\\u2FEF\\u3001-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFFD\\-.0-9\\u00B7\\u0300-\\u036F\\u203F-\\u2040]*$"),dc={},hc={};function Wy(n){return Ip.call(hc,n)?!0:Ip.call(dc,n)?!1:Oy.test(n)?hc[n]=!0:(dc[n]=!0,!1)}function vl(n,s,a){if(Wy(s))if(a===null)n.removeAttribute(s);else{switch(typeof a){case"undefined":case"function":case"symbol":n.removeAttribute(s);return;case"boolean":var o=s.toLowerCase().slice(0,5);if(o!=="data-"&&o!=="aria-"){n.removeAttribute(s);return}}n.setAttribute(s,""+a)}}function wl(n,s,a){if(a===null)n.removeAttribute(s);else{switch(typeof a){case"undefined":case"function":case"symbol":case"boolean":n.removeAttribute(s);return}n.setAttribute(s,""+a)}}function Ls(n,s,a,o){if(o===null)n.removeAttribute(a);else{switch(typeof o){case"undefined":case"function":case"symbol":case"boolean":n.removeAttribute(a);return}n.setAttributeNS(s,a,""+o)}}var xp,mc;function Ua(n){if(xp===void 0)try{throw Error()}catch(a){var s=a.stack.trim().match(/\n( *(at )?)/);xp=s&&s[1]||"",mc=-1<a.stack.indexOf(`
     at`)?" (<anonymous>)":-1<a.stack.indexOf("@")?"@unknown:0:0":""}return`
-`+xe+n+mc}var Pe=!1;function je(n,s){if(!n||Pe)return"";Pe=!0;var a=Error.prepareStackTrace;Error.prepareStackTrace=void 0;try{var o={DetermineComponentFrameRoot:function(){try{if(s){var O=function(){throw Error()};if(Object.defineProperty(O.prototype,"props",{set:function(){throw Error()}}),typeof Reflect=="object"&&Reflect.construct){try{Reflect.construct(O,[])}catch(d){var b=d}Reflect.construct(n,[],O)}else{try{O.call()}catch(d){b=d}n.call(O.prototype)}}else{try{throw Error()}catch(d){b=d}(O=n())&&typeof O.catch=="function"&&O.catch(function(){})}}catch(d){if(d&&b&&typeof d.stack=="string")return[d.stack,b.stack]}return[null,null]}};o.DetermineComponentFrameRoot.displayName="DetermineComponentFrameRoot";var l=Object.getOwnPropertyDescriptor(o.DetermineComponentFrameRoot,"name");l&&l.configurable&&Object.defineProperty(o.DetermineComponentFrameRoot,"name",{value:"DetermineComponentFrameRoot"});var e=o.DetermineComponentFrameRoot(),p=e[0],t=e[1];if(p&&t){var c=p.split(`
+`+xp+n+mc}var Pp=!1;function jp(n,s){if(!n||Pp)return"";Pp=!0;var a=Error.prepareStackTrace;Error.prepareStackTrace=void 0;try{var o={DetermineComponentFrameRoot:function(){try{if(s){var O=function(){throw Error()};if(Object.defineProperty(O.prototype,"props",{set:function(){throw Error()}}),typeof Reflect=="object"&&Reflect.construct){try{Reflect.construct(O,[])}catch(d){var b=d}Reflect.construct(n,[],O)}else{try{O.call()}catch(d){b=d}n.call(O.prototype)}}else{try{throw Error()}catch(d){b=d}(O=n())&&typeof O.catch=="function"&&O.catch(function(){})}}catch(d){if(d&&b&&typeof d.stack=="string")return[d.stack,b.stack]}return[null,null]}};o.DetermineComponentFrameRoot.displayName="DetermineComponentFrameRoot";var l=Object.getOwnPropertyDescriptor(o.DetermineComponentFrameRoot,"name");l&&l.configurable&&Object.defineProperty(o.DetermineComponentFrameRoot,"name",{value:"DetermineComponentFrameRoot"});var p=o.DetermineComponentFrameRoot(),e=p[0],t=p[1];if(e&&t){var c=e.split(`
 `),u=t.split(`
 `);for(l=o=0;o<c.length&&!c[o].includes("DetermineComponentFrameRoot");)o++;for(;l<u.length&&!u[l].includes("DetermineComponentFrameRoot");)l++;if(o===c.length||l===u.length)for(o=c.length-1,l=u.length-1;1<=o&&0<=l&&c[o]!==u[l];)l--;for(;1<=o&&0<=l;o--,l--)if(c[o]!==u[l]){if(o!==1||l!==1)do if(o--,l--,0>l||c[o]!==u[l]){var m=`
-`+c[o].replace(" at new "," at ");return n.displayName&&m.includes("<anonymous>")&&(m=m.replace("<anonymous>",n.displayName)),m}while(1<=o&&0<=l);break}}}finally{Pe=!1,Error.prepareStackTrace=a}return(a=n?n.displayName||n.name:"")?Ua(a):""}function Ey(n){switch(n.tag){case 26:case 27:case 5:return Ua(n.type);case 16:return Ua("Lazy");case 13:return Ua("Suspense");case 19:return Ua("SuspenseList");case 0:case 15:return je(n.type,!1);case 11:return je(n.type.render,!1);case 1:return je(n.type,!0);case 31:return Ua("Activity");default:return""}}function gc(n){try{var s="";do s+=Ey(n),n=n.return;while(n);return s}catch(a){return`
+`+c[o].replace(" at new "," at ");return n.displayName&&m.includes("<anonymous>")&&(m=m.replace("<anonymous>",n.displayName)),m}while(1<=o&&0<=l);break}}}finally{Pp=!1,Error.prepareStackTrace=a}return(a=n?n.displayName||n.name:"")?Ua(a):""}function Ey(n){switch(n.tag){case 26:case 27:case 5:return Ua(n.type);case 16:return Ua("Lazy");case 13:return Ua("Suspense");case 19:return Ua("SuspenseList");case 0:case 15:return jp(n.type,!1);case 11:return jp(n.type.render,!1);case 1:return jp(n.type,!0);case 31:return Ua("Activity");default:return""}}function gc(n){try{var s="";do s+=Ey(n),n=n.return;while(n);return s}catch(a){return`
 Error generating stack: `+a.message+`
-`+a.stack}}function cs(n){switch(typeof n){case"bigint":case"boolean":case"number":case"string":case"undefined":return n;case"object":return n;default:return""}}function Ac(n){var s=n.type;return(n=n.nodeName)&&n.toLowerCase()==="input"&&(s==="checkbox"||s==="radio")}function Ty(n){var s=Ac(n)?"checked":"value",a=Object.getOwnPropertyDescriptor(n.constructor.prototype,s),o=""+n[s];if(!n.hasOwnProperty(s)&&typeof a<"u"&&typeof a.get=="function"&&typeof a.set=="function"){var l=a.get,e=a.set;return Object.defineProperty(n,s,{configurable:!0,get:function(){return l.call(this)},set:function(p){o=""+p,e.call(this,p)}}),Object.defineProperty(n,s,{enumerable:a.enumerable}),{getValue:function(){return o},setValue:function(p){o=""+p},stopTracking:function(){n._valueTracker=null,delete n[s]}}}}function Hl(n){n._valueTracker||(n._valueTracker=Ty(n))}function Sc(n){if(!n)return!1;var s=n._valueTracker;if(!s)return!0;var a=s.getValue(),o="";return n&&(o=Ac(n)?n.checked?"true":"false":n.value),n=o,n!==a?(s.setValue(n),!0):!1}function Rl(n){if(n=n||(typeof document<"u"?document:void 0),typeof n>"u")return null;try{return n.activeElement||n.body}catch{return n.body}}var vy=/[\n"\\]/g;function fs(n){return n.replace(vy,function(s){return"\\"+s.charCodeAt(0).toString(16)+" "})}function Fe(n,s,a,o,l,e,p,t){n.name="",p!=null&&typeof p!="function"&&typeof p!="symbol"&&typeof p!="boolean"?n.type=p:n.removeAttribute("type"),s!=null?p==="number"?(s===0&&n.value===""||n.value!=s)&&(n.value=""+cs(s)):n.value!==""+cs(s)&&(n.value=""+cs(s)):p!=="submit"&&p!=="reset"||n.removeAttribute("value"),s!=null?_e(n,p,cs(s)):a!=null?_e(n,p,cs(a)):o!=null&&n.removeAttribute("value"),l==null&&e!=null&&(n.defaultChecked=!!e),l!=null&&(n.checked=l&&typeof l!="function"&&typeof l!="symbol"),t!=null&&typeof t!="function"&&typeof t!="symbol"&&typeof t!="boolean"?n.name=""+cs(t):n.removeAttribute("name")}function Oc(n,s,a,o,l,e,p,t){if(e!=null&&typeof e!="function"&&typeof e!="symbol"&&typeof e!="boolean"&&(n.type=e),s!=null||a!=null){if(!(e!=="submit"&&e!=="reset"||s!=null))return;a=a!=null?""+cs(a):"",s=s!=null?""+cs(s):a,t||s===n.value||(n.value=s),n.defaultValue=s}o=o??l,o=typeof o!="function"&&typeof o!="symbol"&&!!o,n.checked=t?n.checked:!!o,n.defaultChecked=!!o,p!=null&&typeof p!="function"&&typeof p!="symbol"&&typeof p!="boolean"&&(n.name=p)}function _e(n,s,a){s==="number"&&Rl(n.ownerDocument)===n||n.defaultValue===""+a||(n.defaultValue=""+a)}function za(n,s,a,o){if(n=n.options,s){s={};for(var l=0;l<a.length;l++)s["$"+a[l]]=!0;for(a=0;a<n.length;a++)l=s.hasOwnProperty("$"+n[a].value),n[a].selected!==l&&(n[a].selected=l),l&&o&&(n[a].defaultSelected=!0)}else{for(a=""+cs(a),s=null,l=0;l<n.length;l++){if(n[l].value===a){n[l].selected=!0,o&&(n[l].defaultSelected=!0);return}s!==null||n[l].disabled||(s=n[l])}s!==null&&(s.selected=!0)}}function Wc(n,s,a){if(s!=null&&(s=""+cs(s),s!==n.value&&(n.value=s),a==null)){n.defaultValue!==s&&(n.defaultValue=s);return}n.defaultValue=a!=null?""+cs(a):""}function Ec(n,s,a,o){if(s==null){if(o!=null){if(a!=null)throw Error(h(92));if(Kn(o)){if(1<o.length)throw Error(h(93));o=o[0]}a=o}a==null&&(a=""),s=a}a=cs(s),n.defaultValue=a,o=n.textContent,o===a&&o!==""&&o!==null&&(n.value=o)}function Ja(n,s){if(s){var a=n.firstChild;if(a&&a===n.lastChild&&a.nodeType===3){a.nodeValue=s;return}}n.textContent=s}var wy=new Set("animationIterationCount aspectRatio borderImageOutset borderImageSlice borderImageWidth boxFlex boxFlexGroup boxOrdinalGroup columnCount columns flex flexGrow flexPositive flexShrink flexNegative flexOrder gridArea gridRow gridRowEnd gridRowSpan gridRowStart gridColumn gridColumnEnd gridColumnSpan gridColumnStart fontWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray strokeDashoffset strokeMiterlimit strokeOpacity strokeWidth MozAnimationIterationCount MozBoxFlex MozBoxFlexGroup MozLineClamp msAnimationIterationCount msFlex msZoom msFlexGrow msFlexNegative msFlexOrder msFlexPositive msFlexShrink msGridColumn msGridColumnSpan msGridRow msGridRowSpan WebkitAnimationIterationCount WebkitBoxFlex WebKitBoxFlexGroup WebkitBoxOrdinalGroup WebkitColumnCount WebkitColumns WebkitFlex WebkitFlexGrow WebkitFlexPositive WebkitFlexShrink WebkitLineClamp".split(" "));function Tc(n,s,a){var o=s.indexOf("--")===0;a==null||typeof a=="boolean"||a===""?o?n.setProperty(s,""):s==="float"?n.cssFloat="":n[s]="":o?n.setProperty(s,a):typeof a!="number"||a===0||wy.has(s)?s==="float"?n.cssFloat=a:n[s]=(""+a).trim():n[s]=a+"px"}function vc(n,s,a){if(s!=null&&typeof s!="object")throw Error(h(62));if(n=n.style,a!=null){for(var o in a)!a.hasOwnProperty(o)||s!=null&&s.hasOwnProperty(o)||(o.indexOf("--")===0?n.setProperty(o,""):o==="float"?n.cssFloat="":n[o]="");for(var l in s)o=s[l],s.hasOwnProperty(l)&&a[l]!==o&&Tc(n,l,o)}else for(var e in s)s.hasOwnProperty(e)&&Tc(n,e,s[e])}function qe(n){if(n.indexOf("-")===-1)return!1;switch(n){case"annotation-xml":case"color-profile":case"font-face":case"font-face-src":case"font-face-uri":case"font-face-format":case"font-face-name":case"missing-glyph":return!1;default:return!0}}var Hy=new Map([["acceptCharset","accept-charset"],["htmlFor","for"],["httpEquiv","http-equiv"],["crossOrigin","crossorigin"],["accentHeight","accent-height"],["alignmentBaseline","alignment-baseline"],["arabicForm","arabic-form"],["baselineShift","baseline-shift"],["capHeight","cap-height"],["clipPath","clip-path"],["clipRule","clip-rule"],["colorInterpolation","color-interpolation"],["colorInterpolationFilters","color-interpolation-filters"],["colorProfile","color-profile"],["colorRendering","color-rendering"],["dominantBaseline","dominant-baseline"],["enableBackground","enable-background"],["fillOpacity","fill-opacity"],["fillRule","fill-rule"],["floodColor","flood-color"],["floodOpacity","flood-opacity"],["fontFamily","font-family"],["fontSize","font-size"],["fontSizeAdjust","font-size-adjust"],["fontStretch","font-stretch"],["fontStyle","font-style"],["fontVariant","font-variant"],["fontWeight","font-weight"],["glyphName","glyph-name"],["glyphOrientationHorizontal","glyph-orientation-horizontal"],["glyphOrientationVertical","glyph-orientation-vertical"],["horizAdvX","horiz-adv-x"],["horizOriginX","horiz-origin-x"],["imageRendering","image-rendering"],["letterSpacing","letter-spacing"],["lightingColor","lighting-color"],["markerEnd","marker-end"],["markerMid","marker-mid"],["markerStart","marker-start"],["overlinePosition","overline-position"],["overlineThickness","overline-thickness"],["paintOrder","paint-order"],["panose-1","panose-1"],["pointerEvents","pointer-events"],["renderingIntent","rendering-intent"],["shapeRendering","shape-rendering"],["stopColor","stop-color"],["stopOpacity","stop-opacity"],["strikethroughPosition","strikethrough-position"],["strikethroughThickness","strikethrough-thickness"],["strokeDasharray","stroke-dasharray"],["strokeDashoffset","stroke-dashoffset"],["strokeLinecap","stroke-linecap"],["strokeLinejoin","stroke-linejoin"],["strokeMiterlimit","stroke-miterlimit"],["strokeOpacity","stroke-opacity"],["strokeWidth","stroke-width"],["textAnchor","text-anchor"],["textDecoration","text-decoration"],["textRendering","text-rendering"],["transformOrigin","transform-origin"],["underlinePosition","underline-position"],["underlineThickness","underline-thickness"],["unicodeBidi","unicode-bidi"],["unicodeRange","unicode-range"],["unitsPerEm","units-per-em"],["vAlphabetic","v-alphabetic"],["vHanging","v-hanging"],["vIdeographic","v-ideographic"],["vMathematical","v-mathematical"],["vectorEffect","vector-effect"],["vertAdvY","vert-adv-y"],["vertOriginX","vert-origin-x"],["vertOriginY","vert-origin-y"],["wordSpacing","word-spacing"],["writingMode","writing-mode"],["xmlnsXlink","xmlns:xlink"],["xHeight","x-height"]]),Ry=/^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i;function Ll(n){return Ry.test(""+n)?"javascript:throw new Error('React has blocked a javascript: URL as a security precaution.')":n}var Xe=null;function Ze(n){return n=n.target||n.srcElement||window,n.correspondingUseElement&&(n=n.correspondingUseElement),n.nodeType===3?n.parentNode:n}var Va=null,xa=null;function wc(n){var s=Na(n);if(s&&(n=s.stateNode)){var a=n[jn]||null;n:switch(n=s.stateNode,s.type){case"input":if(Fe(n,a.value,a.defaultValue,a.defaultValue,a.checked,a.defaultChecked,a.type,a.name),s=a.name,a.type==="radio"&&s!=null){for(a=n;a.parentNode;)a=a.parentNode;for(a=a.querySelectorAll('input[name="'+fs(""+s)+'"][type="radio"]'),s=0;s<a.length;s++){var o=a[s];if(o!==n&&o.form===n.form){var l=o[jn]||null;if(!l)throw Error(h(90));Fe(o,l.value,l.defaultValue,l.defaultValue,l.checked,l.defaultChecked,l.type,l.name)}}for(s=0;s<a.length;s++)o=a[s],o.form===n.form&&Sc(o)}break n;case"textarea":Wc(n,a.value,a.defaultValue);break n;case"select":s=a.value,s!=null&&za(n,!!a.multiple,s,!1)}}}var Qe=!1;function Hc(n,s,a){if(Qe)return n(s,a);Qe=!0;try{var o=n(s);return o}finally{if(Qe=!1,(Va!==null||xa!==null)&&(be(),Va&&(s=Va,n=xa,xa=Va=null,wc(s),n)))for(s=0;s<n.length;s++)wc(n[s])}}function wo(n,s){var a=n.stateNode;if(a===null)return null;var o=a[jn]||null;if(o===null)return null;a=o[s];n:switch(s){case"onClick":case"onClickCapture":case"onDoubleClick":case"onDoubleClickCapture":case"onMouseDown":case"onMouseDownCapture":case"onMouseMove":case"onMouseMoveCapture":case"onMouseUp":case"onMouseUpCapture":case"onMouseEnter":(o=!o.disabled)||(n=n.type,o=!(n==="button"||n==="input"||n==="select"||n==="textarea")),n=!o;break n;default:n=!1}if(n)return null;if(a&&typeof a!="function")throw Error(h(231,s,typeof a));return a}var Bs=!(typeof window>"u"||typeof window.document>"u"||typeof window.document.createElement>"u"),$e=!1;if(Bs)try{var Ho={};Object.defineProperty(Ho,"passive",{get:function(){$e=!0}}),window.addEventListener("test",Ho,Ho),window.removeEventListener("test",Ho,Ho)}catch{$e=!1}var Fs=null,np=null,Bl=null;function Rc(){if(Bl)return Bl;var n,s=np,a=s.length,o,l="value"in Fs?Fs.value:Fs.textContent,e=l.length;for(n=0;n<a&&s[n]===l[n];n++);var p=a-n;for(o=1;o<=p&&s[a-o]===l[e-o];o++);return Bl=l.slice(n,1<o?1-o:void 0)}function Dl(n){var s=n.keyCode;return"charCode"in n?(n=n.charCode,n===0&&s===13&&(n=13)):n=s,n===10&&(n=13),32<=n||n===13?n:0}function Ml(){return!0}function Lc(){return!1}function Fn(n){function s(a,o,l,e,p){this._reactName=a,this._targetInst=l,this.type=o,this.nativeEvent=e,this.target=p,this.currentTarget=null;for(var t in n)n.hasOwnProperty(t)&&(a=n[t],this[t]=a?a(e):e[t]);return this.isDefaultPrevented=(e.defaultPrevented!=null?e.defaultPrevented:e.returnValue===!1)?Ml:Lc,this.isPropagationStopped=Lc,this}return M(s.prototype,{preventDefault:function(){this.defaultPrevented=!0;var a=this.nativeEvent;a&&(a.preventDefault?a.preventDefault():typeof a.returnValue!="unknown"&&(a.returnValue=!1),this.isDefaultPrevented=Ml)},stopPropagation:function(){var a=this.nativeEvent;a&&(a.stopPropagation?a.stopPropagation():typeof a.cancelBubble!="unknown"&&(a.cancelBubble=!0),this.isPropagationStopped=Ml)},persist:function(){},isPersistent:Ml}),s}var Aa={eventPhase:0,bubbles:0,cancelable:0,timeStamp:function(n){return n.timeStamp||Date.now()},defaultPrevented:0,isTrusted:0},Yl=Fn(Aa),Ro=M({},Aa,{view:0,detail:0}),Ly=Fn(Ro),sp,ap,Lo,kl=M({},Ro,{screenX:0,screenY:0,clientX:0,clientY:0,pageX:0,pageY:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,getModifierState:lp,button:0,buttons:0,relatedTarget:function(n){return n.relatedTarget===void 0?n.fromElement===n.srcElement?n.toElement:n.fromElement:n.relatedTarget},movementX:function(n){return"movementX"in n?n.movementX:(n!==Lo&&(Lo&&n.type==="mousemove"?(sp=n.screenX-Lo.screenX,ap=n.screenY-Lo.screenY):ap=sp=0,Lo=n),sp)},movementY:function(n){return"movementY"in n?n.movementY:ap}}),Bc=Fn(kl),By=M({},kl,{dataTransfer:0}),Dy=Fn(By),My=M({},Ro,{relatedTarget:0}),op=Fn(My),Yy=M({},Aa,{animationName:0,elapsedTime:0,pseudoElement:0}),ky=Fn(Yy),Cy=M({},Aa,{clipboardData:function(n){return"clipboardData"in n?n.clipboardData:window.clipboardData}}),Iy=Fn(Cy),Ny=M({},Aa,{data:0}),Dc=Fn(Ny),Gy={Esc:"Escape",Spacebar:" ",Left:"ArrowLeft",Up:"ArrowUp",Right:"ArrowRight",Down:"ArrowDown",Del:"Delete",Win:"OS",Menu:"ContextMenu",Apps:"ContextMenu",Scroll:"ScrollLock",MozPrintableKey:"Unidentified"},Ky={8:"Backspace",9:"Tab",12:"Clear",13:"Enter",16:"Shift",17:"Control",18:"Alt",19:"Pause",20:"CapsLock",27:"Escape",32:" ",33:"PageUp",34:"PageDown",35:"End",36:"Home",37:"ArrowLeft",38:"ArrowUp",39:"ArrowRight",40:"ArrowDown",45:"Insert",46:"Delete",112:"F1",113:"F2",114:"F3",115:"F4",116:"F5",117:"F6",118:"F7",119:"F8",120:"F9",121:"F10",122:"F11",123:"F12",144:"NumLock",145:"ScrollLock",224:"Meta"},Uy={Alt:"altKey",Control:"ctrlKey",Meta:"metaKey",Shift:"shiftKey"};function zy(n){var s=this.nativeEvent;return s.getModifierState?s.getModifierState(n):(n=Uy[n])?!!s[n]:!1}function lp(){return zy}var Jy=M({},Ro,{key:function(n){if(n.key){var s=Gy[n.key]||n.key;if(s!=="Unidentified")return s}return n.type==="keypress"?(n=Dl(n),n===13?"Enter":String.fromCharCode(n)):n.type==="keydown"||n.type==="keyup"?Ky[n.keyCode]||"Unidentified":""},code:0,location:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,repeat:0,locale:0,getModifierState:lp,charCode:function(n){return n.type==="keypress"?Dl(n):0},keyCode:function(n){return n.type==="keydown"||n.type==="keyup"?n.keyCode:0},which:function(n){return n.type==="keypress"?Dl(n):n.type==="keydown"||n.type==="keyup"?n.keyCode:0}}),Vy=Fn(Jy),xy=M({},kl,{pointerId:0,width:0,height:0,pressure:0,tangentialPressure:0,tiltX:0,tiltY:0,twist:0,pointerType:0,isPrimary:0}),Mc=Fn(xy),Py=M({},Ro,{touches:0,targetTouches:0,changedTouches:0,altKey:0,metaKey:0,ctrlKey:0,shiftKey:0,getModifierState:lp}),jy=Fn(Py),Fy=M({},Aa,{propertyName:0,elapsedTime:0,pseudoElement:0}),_y=Fn(Fy),qy=M({},kl,{deltaX:function(n){return"deltaX"in n?n.deltaX:"wheelDeltaX"in n?-n.wheelDeltaX:0},deltaY:function(n){return"deltaY"in n?n.deltaY:"wheelDeltaY"in n?-n.wheelDeltaY:"wheelDelta"in n?-n.wheelDelta:0},deltaZ:0,deltaMode:0}),Xy=Fn(qy),Zy=M({},Aa,{newState:0,oldState:0}),Qy=Fn(Zy),$y=[9,13,27,32],ep=Bs&&"CompositionEvent"in window,Bo=null;Bs&&"documentMode"in document&&(Bo=document.documentMode);var n9=Bs&&"TextEvent"in window&&!Bo,Yc=Bs&&(!ep||Bo&&8<Bo&&11>=Bo),kc=" ",Cc=!1;function Ic(n,s){switch(n){case"keyup":return $y.indexOf(s.keyCode)!==-1;case"keydown":return s.keyCode!==229;case"keypress":case"mousedown":case"focusout":return!0;default:return!1}}function Nc(n){return n=n.detail,typeof n=="object"&&"data"in n?n.data:null}var Pa=!1;function s9(n,s){switch(n){case"compositionend":return Nc(s);case"keypress":return s.which!==32?null:(Cc=!0,kc);case"textInput":return n=s.data,n===kc&&Cc?null:n;default:return null}}function a9(n,s){if(Pa)return n==="compositionend"||!ep&&Ic(n,s)?(n=Rc(),Bl=np=Fs=null,Pa=!1,n):null;switch(n){case"paste":return null;case"keypress":if(!(s.ctrlKey||s.altKey||s.metaKey)||s.ctrlKey&&s.altKey){if(s.char&&1<s.char.length)return s.char;if(s.which)return String.fromCharCode(s.which)}return null;case"compositionend":return Yc&&s.locale!=="ko"?null:s.data;default:return null}}var o9={color:!0,date:!0,datetime:!0,"datetime-local":!0,email:!0,month:!0,number:!0,password:!0,range:!0,search:!0,tel:!0,text:!0,time:!0,url:!0,week:!0};function Gc(n){var s=n&&n.nodeName&&n.nodeName.toLowerCase();return s==="input"?!!o9[n.type]:s==="textarea"}function Kc(n,s,a,o){Va?xa?xa.push(o):xa=[o]:Va=o,s=Se(s,"onChange"),0<s.length&&(a=new Yl("onChange","change",null,a,o),n.push({event:a,listeners:s}))}var Do=null,Mo=null;function l9(n){S3(n,0)}function Cl(n){var s=vo(n);if(Sc(s))return n}function Uc(n,s){if(n==="change")return s}var zc=!1;if(Bs){var pp;if(Bs){var tp="oninput"in document;if(!tp){var Jc=document.createElement("div");Jc.setAttribute("oninput","return;"),tp=typeof Jc.oninput=="function"}pp=tp}else pp=!1;zc=pp&&(!document.documentMode||9<document.documentMode)}function Vc(){Do&&(Do.detachEvent("onpropertychange",xc),Mo=Do=null)}function xc(n){if(n.propertyName==="value"&&Cl(Mo)){var s=[];Kc(s,Mo,n,Ze(n)),Hc(l9,s)}}function e9(n,s,a){n==="focusin"?(Vc(),Do=s,Mo=a,Do.attachEvent("onpropertychange",xc)):n==="focusout"&&Vc()}function p9(n){if(n==="selectionchange"||n==="keyup"||n==="keydown")return Cl(Mo)}function t9(n,s){if(n==="click")return Cl(s)}function c9(n,s){if(n==="input"||n==="change")return Cl(s)}function f9(n,s){return n===s&&(n!==0||1/n===1/s)||n!==n&&s!==s}var ss=typeof Object.is=="function"?Object.is:f9;function Yo(n,s){if(ss(n,s))return!0;if(typeof n!="object"||n===null||typeof s!="object"||s===null)return!1;var a=Object.keys(n),o=Object.keys(s);if(a.length!==o.length)return!1;for(o=0;o<a.length;o++){var l=a[o];if(!Ie.call(s,l)||!ss(n[l],s[l]))return!1}return!0}function Pc(n){for(;n&&n.firstChild;)n=n.firstChild;return n}function jc(n,s){var a=Pc(n);n=0;for(var o;a;){if(a.nodeType===3){if(o=n+a.textContent.length,n<=s&&o>=s)return{node:a,offset:s-n};n=o}n:{for(;a;){if(a.nextSibling){a=a.nextSibling;break n}a=a.parentNode}a=void 0}a=Pc(a)}}function Fc(n,s){return n&&s?n===s?!0:n&&n.nodeType===3?!1:s&&s.nodeType===3?Fc(n,s.parentNode):"contains"in n?n.contains(s):n.compareDocumentPosition?!!(n.compareDocumentPosition(s)&16):!1:!1}function _c(n){n=n!=null&&n.ownerDocument!=null&&n.ownerDocument.defaultView!=null?n.ownerDocument.defaultView:window;for(var s=Rl(n.document);s instanceof n.HTMLIFrameElement;){try{var a=typeof s.contentWindow.location.href=="string"}catch{a=!1}if(a)n=s.contentWindow;else break;s=Rl(n.document)}return s}function cp(n){var s=n&&n.nodeName&&n.nodeName.toLowerCase();return s&&(s==="input"&&(n.type==="text"||n.type==="search"||n.type==="tel"||n.type==="url"||n.type==="password")||s==="textarea"||n.contentEditable==="true")}var r9=Bs&&"documentMode"in document&&11>=document.documentMode,ja=null,fp=null,ko=null,rp=!1;function qc(n,s,a){var o=a.window===a?a.document:a.nodeType===9?a:a.ownerDocument;rp||ja==null||ja!==Rl(o)||(o=ja,"selectionStart"in o&&cp(o)?o={start:o.selectionStart,end:o.selectionEnd}:(o=(o.ownerDocument&&o.ownerDocument.defaultView||window).getSelection(),o={anchorNode:o.anchorNode,anchorOffset:o.anchorOffset,focusNode:o.focusNode,focusOffset:o.focusOffset}),ko&&Yo(ko,o)||(ko=o,o=Se(fp,"onSelect"),0<o.length&&(s=new Yl("onSelect","select",null,s,a),n.push({event:s,listeners:o}),s.target=ja)))}function Sa(n,s){var a={};return a[n.toLowerCase()]=s.toLowerCase(),a["Webkit"+n]="webkit"+s,a["Moz"+n]="moz"+s,a}var Fa={animationend:Sa("Animation","AnimationEnd"),animationiteration:Sa("Animation","AnimationIteration"),animationstart:Sa("Animation","AnimationStart"),transitionrun:Sa("Transition","TransitionRun"),transitionstart:Sa("Transition","TransitionStart"),transitioncancel:Sa("Transition","TransitionCancel"),transitionend:Sa("Transition","TransitionEnd")},yp={},Xc={};Bs&&(Xc=document.createElement("div").style,"AnimationEvent"in window||(delete Fa.animationend.animation,delete Fa.animationiteration.animation,delete Fa.animationstart.animation),"TransitionEvent"in window||delete Fa.transitionend.transition);function Oa(n){if(yp[n])return yp[n];if(!Fa[n])return n;var s=Fa[n],a;for(a in s)if(s.hasOwnProperty(a)&&a in Xc)return yp[n]=s[a];return n}var Zc=Oa("animationend"),Qc=Oa("animationiteration"),$c=Oa("animationstart"),y9=Oa("transitionrun"),i9=Oa("transitionstart"),u9=Oa("transitioncancel"),nf=Oa("transitionend"),sf=new Map,ip="abort auxClick beforeToggle cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emptied encrypted ended error gotPointerCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pause play playing pointerCancel pointerDown pointerMove pointerOut pointerOver pointerUp progress rateChange reset resize seeked seeking stalled submit suspend timeUpdate touchCancel touchEnd touchStart volumeChange scroll toggle touchMove waiting wheel".split(" ");ip.push("scrollEnd");function gs(n,s){sf.set(n,s),ga(s,[n])}var af=new WeakMap;function rs(n,s){if(typeof n=="object"&&n!==null){var a=af.get(n);return a!==void 0?a:(s={value:n,source:s,stack:gc(s)},af.set(n,s),s)}return{value:n,source:s,stack:gc(s)}}var ys=[],_a=0,up=0;function Il(){for(var n=_a,s=up=_a=0;s<n;){var a=ys[s];ys[s++]=null;var o=ys[s];ys[s++]=null;var l=ys[s];ys[s++]=null;var e=ys[s];if(ys[s++]=null,o!==null&&l!==null){var p=o.pending;p===null?l.next=l:(l.next=p.next,p.next=l),o.pending=l}e!==0&&of(a,l,e)}}function Nl(n,s,a,o){ys[_a++]=n,ys[_a++]=s,ys[_a++]=a,ys[_a++]=o,up|=o,n.lanes|=o,n=n.alternate,n!==null&&(n.lanes|=o)}function bp(n,s,a,o){return Nl(n,s,a,o),Gl(n)}function qa(n,s){return Nl(n,null,null,s),Gl(n)}function of(n,s,a){n.lanes|=a;var o=n.alternate;o!==null&&(o.lanes|=a);for(var l=!1,e=n.return;e!==null;)e.childLanes|=a,o=e.alternate,o!==null&&(o.childLanes|=a),e.tag===22&&(n=e.stateNode,n===null||n._visibility&1||(l=!0)),n=e,e=e.return;return n.tag===3?(e=n.stateNode,l&&s!==null&&(l=31-ns(a),n=e.hiddenUpdates,o=n[l],o===null?n[l]=[s]:o.push(s),s.lane=a|536870912),e):null}function Gl(n){if(50<el)throw el=0,St=null,Error(h(185));for(var s=n.return;s!==null;)n=s,s=n.return;return n.tag===3?n.stateNode:null}var Xa={};function b9(n,s,a,o){this.tag=n,this.key=a,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.refCleanup=this.ref=null,this.pendingProps=s,this.dependencies=this.memoizedState=this.updateQueue=this.memoizedProps=null,this.mode=o,this.subtreeFlags=this.flags=0,this.deletions=null,this.childLanes=this.lanes=0,this.alternate=null}function as(n,s,a,o){return new b9(n,s,a,o)}function dp(n){return n=n.prototype,!(!n||!n.isReactComponent)}function Ds(n,s){var a=n.alternate;return a===null?(a=as(n.tag,s,n.key,n.mode),a.elementType=n.elementType,a.type=n.type,a.stateNode=n.stateNode,a.alternate=n,n.alternate=a):(a.pendingProps=s,a.type=n.type,a.flags=0,a.subtreeFlags=0,a.deletions=null),a.flags=n.flags&65011712,a.childLanes=n.childLanes,a.lanes=n.lanes,a.child=n.child,a.memoizedProps=n.memoizedProps,a.memoizedState=n.memoizedState,a.updateQueue=n.updateQueue,s=n.dependencies,a.dependencies=s===null?null:{lanes:s.lanes,firstContext:s.firstContext},a.sibling=n.sibling,a.index=n.index,a.ref=n.ref,a.refCleanup=n.refCleanup,a}function lf(n,s){n.flags&=65011714;var a=n.alternate;return a===null?(n.childLanes=0,n.lanes=s,n.child=null,n.subtreeFlags=0,n.memoizedProps=null,n.memoizedState=null,n.updateQueue=null,n.dependencies=null,n.stateNode=null):(n.childLanes=a.childLanes,n.lanes=a.lanes,n.child=a.child,n.subtreeFlags=0,n.deletions=null,n.memoizedProps=a.memoizedProps,n.memoizedState=a.memoizedState,n.updateQueue=a.updateQueue,n.type=a.type,s=a.dependencies,n.dependencies=s===null?null:{lanes:s.lanes,firstContext:s.firstContext}),n}function Kl(n,s,a,o,l,e){var p=0;if(o=n,typeof n=="function")dp(n)&&(p=1);else if(typeof n=="string")p=h0(n,a,k.current)?26:n==="html"||n==="head"||n==="body"?27:5;else n:switch(n){case x:return n=as(31,a,s,l),n.elementType=x,n.lanes=e,n;case Yn:return Wa(a.children,l,e,s);case Zn:p=8,l|=24;break;case Gn:return n=as(12,a,s,l|2),n.elementType=Gn,n.lanes=e,n;case _:return n=as(13,a,s,l),n.elementType=_,n.lanes=e,n;case Vn:return n=as(19,a,s,l),n.elementType=Vn,n.lanes=e,n;default:if(typeof n=="object"&&n!==null)switch(n.$$typeof){case Rs:case Rn:p=10;break n;case ms:p=9;break n;case kn:p=11;break n;case xn:p=14;break n;case A:p=16,o=null;break n}p=29,a=Error(h(130,n===null?"null":typeof n,"")),o=null}return s=as(p,a,s,l),s.elementType=n,s.type=o,s.lanes=e,s}function Wa(n,s,a,o){return n=as(7,n,o,s),n.lanes=a,n}function hp(n,s,a){return n=as(6,n,null,s),n.lanes=a,n}function mp(n,s,a){return s=as(4,n.children!==null?n.children:[],n.key,s),s.lanes=a,s.stateNode={containerInfo:n.containerInfo,pendingChildren:null,implementation:n.implementation},s}var Za=[],Qa=0,Ul=null,zl=0,is=[],us=0,Ea=null,Ms=1,Ys="";function Ta(n,s){Za[Qa++]=zl,Za[Qa++]=Ul,Ul=n,zl=s}function ef(n,s,a){is[us++]=Ms,is[us++]=Ys,is[us++]=Ea,Ea=n;var o=Ms;n=Ys;var l=32-ns(o)-1;o&=~(1<<l),a+=1;var e=32-ns(s)+l;if(30<e){var p=l-l%5;e=(o&(1<<p)-1).toString(32),o>>=p,l-=p,Ms=1<<32-ns(s)+l|a<<l|o,Ys=e+n}else Ms=1<<e|a<<l|o,Ys=n}function gp(n){n.return!==null&&(Ta(n,1),ef(n,1,0))}function Ap(n){for(;n===Ul;)Ul=Za[--Qa],Za[Qa]=null,zl=Za[--Qa],Za[Qa]=null;for(;n===Ea;)Ea=is[--us],is[us]=null,Ys=is[--us],is[us]=null,Ms=is[--us],is[us]=null}var Pn=null,gn=null,nn=!1,va=null,Ws=!1,Sp=Error(h(519));function wa(n){var s=Error(h(418,""));throw No(rs(s,n)),Sp}function pf(n){var s=n.stateNode,a=n.type,o=n.memoizedProps;switch(s[Un]=n,s[jn]=o,a){case"dialog":j("cancel",s),j("close",s);break;case"iframe":case"object":case"embed":j("load",s);break;case"video":case"audio":for(a=0;a<tl.length;a++)j(tl[a],s);break;case"source":j("error",s);break;case"img":case"image":case"link":j("error",s),j("load",s);break;case"details":j("toggle",s);break;case"input":j("invalid",s),Oc(s,o.value,o.defaultValue,o.checked,o.defaultChecked,o.type,o.name,!0),Hl(s);break;case"select":j("invalid",s);break;case"textarea":j("invalid",s),Ec(s,o.value,o.defaultValue,o.children),Hl(s)}a=o.children,typeof a!="string"&&typeof a!="number"&&typeof a!="bigint"||s.textContent===""+a||o.suppressHydrationWarning===!0||T3(s.textContent,a)?(o.popover!=null&&(j("beforetoggle",s),j("toggle",s)),o.onScroll!=null&&j("scroll",s),o.onScrollEnd!=null&&j("scrollend",s),o.onClick!=null&&(s.onclick=Oe),s=!0):s=!1,s||wa(n)}function tf(n){for(Pn=n.return;Pn;)switch(Pn.tag){case 5:case 13:Ws=!1;return;case 27:case 3:Ws=!0;return;default:Pn=Pn.return}}function Co(n){if(n!==Pn)return!1;if(!nn)return tf(n),nn=!0,!1;var s=n.tag,a;if((a=s!==3&&s!==27)&&((a=s===5)&&(a=n.type,a=!(a!=="form"&&a!=="button")||It(n.type,n.memoizedProps)),a=!a),a&&gn&&wa(n),tf(n),s===13){if(n=n.memoizedState,n=n!==null?n.dehydrated:null,!n)throw Error(h(317));n:{for(n=n.nextSibling,s=0;n;){if(n.nodeType===8)if(a=n.data,a==="/$"){if(s===0){gn=Ss(n.nextSibling);break n}s--}else a!=="$"&&a!=="$!"&&a!=="$?"||s++;n=n.nextSibling}gn=null}}else s===27?(s=gn,fa(n.type)?(n=Ut,Ut=null,gn=n):gn=s):gn=Pn?Ss(n.stateNode.nextSibling):null;return!0}function Io(){gn=Pn=null,nn=!1}function cf(){var n=va;return n!==null&&(Xn===null?Xn=n:Xn.push.apply(Xn,n),va=null),n}function No(n){va===null?va=[n]:va.push(n)}var Op=v(null),Ha=null,ks=null;function _s(n,s,a){w(Op,s._currentValue),s._currentValue=a}function Cs(n){n._currentValue=Op.current,R(Op)}function Wp(n,s,a){for(;n!==null;){var o=n.alternate;if((n.childLanes&s)!==s?(n.childLanes|=s,o!==null&&(o.childLanes|=s)):o!==null&&(o.childLanes&s)!==s&&(o.childLanes|=s),n===a)break;n=n.return}}function Ep(n,s,a,o){var l=n.child;for(l!==null&&(l.return=n);l!==null;){var e=l.dependencies;if(e!==null){var p=l.child;e=e.firstContext;n:for(;e!==null;){var t=e;e=l;for(var c=0;c<s.length;c++)if(t.context===s[c]){e.lanes|=a,t=e.alternate,t!==null&&(t.lanes|=a),Wp(e.return,a,n),o||(p=null);break n}e=t.next}}else if(l.tag===18){if(p=l.return,p===null)throw Error(h(341));p.lanes|=a,e=p.alternate,e!==null&&(e.lanes|=a),Wp(p,a,n),p=null}else p=l.child;if(p!==null)p.return=l;else for(p=l;p!==null;){if(p===n){p=null;break}if(l=p.sibling,l!==null){l.return=p.return,p=l;break}p=p.return}l=p}}function Go(n,s,a,o){n=null;for(var l=s,e=!1;l!==null;){if(!e){if((l.flags&524288)!==0)e=!0;else if((l.flags&262144)!==0)break}if(l.tag===10){var p=l.alternate;if(p===null)throw Error(h(387));if(p=p.memoizedProps,p!==null){var t=l.type;ss(l.pendingProps.value,p.value)||(n!==null?n.push(t):n=[t])}}else if(l===Qn.current){if(p=l.alternate,p===null)throw Error(h(387));p.memoizedState.memoizedState!==l.memoizedState.memoizedState&&(n!==null?n.push(ul):n=[ul])}l=l.return}n!==null&&Ep(s,n,a,o),s.flags|=262144}function Jl(n){for(n=n.firstContext;n!==null;){if(!ss(n.context._currentValue,n.memoizedValue))return!0;n=n.next}return!1}function Ra(n){Ha=n,ks=null,n=n.dependencies,n!==null&&(n.firstContext=null)}function zn(n){return ff(Ha,n)}function Vl(n,s){return Ha===null&&Ra(n),ff(n,s)}function ff(n,s){var a=s._currentValue;if(s={context:s,memoizedValue:a,next:null},ks===null){if(n===null)throw Error(h(308));ks=s,n.dependencies={lanes:0,firstContext:s},n.flags|=524288}else ks=ks.next=s;return a}var d9=typeof AbortController<"u"?AbortController:function(){var n=[],s=this.signal={aborted:!1,addEventListener:function(a,o){n.push(o)}};this.abort=function(){s.aborted=!0,n.forEach(function(a){return a()})}},h9=E.unstable_scheduleCallback,m9=E.unstable_NormalPriority,wn={$$typeof:Rn,Consumer:null,Provider:null,_currentValue:null,_currentValue2:null,_threadCount:0};function Tp(){return{controller:new d9,data:new Map,refCount:0}}function Ko(n){n.refCount--,n.refCount===0&&h9(m9,function(){n.controller.abort()})}var Uo=null,vp=0,$a=0,no=null;function g9(n,s){if(Uo===null){var a=Uo=[];vp=0,$a=Ht(),no={status:"pending",value:void 0,then:function(o){a.push(o)}}}return vp++,s.then(rf,rf),s}function rf(){if(--vp===0&&Uo!==null){no!==null&&(no.status="fulfilled");var n=Uo;Uo=null,$a=0,no=null;for(var s=0;s<n.length;s++)(0,n[s])()}}function A9(n,s){var a=[],o={status:"pending",value:null,reason:null,then:function(l){a.push(l)}};return n.then(function(){o.status="fulfilled",o.value=s;for(var l=0;l<a.length;l++)(0,a[l])(s)},function(l){for(o.status="rejected",o.reason=l,l=0;l<a.length;l++)(0,a[l])(void 0)}),o}var yf=g.S;g.S=function(n,s){typeof s=="object"&&s!==null&&typeof s.then=="function"&&g9(n,s),yf!==null&&yf(n,s)};var La=v(null);function wp(){var n=La.current;return n!==null?n:yn.pooledCache}function xl(n,s){s===null?w(La,La.current):w(La,s.pool)}function uf(){var n=wp();return n===null?null:{parent:wn._currentValue,pool:n}}var zo=Error(h(460)),bf=Error(h(474)),Pl=Error(h(542)),Hp={then:function(){}};function df(n){return n=n.status,n==="fulfilled"||n==="rejected"}function jl(){}function hf(n,s,a){switch(a=n[a],a===void 0?n.push(s):a!==s&&(s.then(jl,jl),s=a),s.status){case"fulfilled":return s.value;case"rejected":throw n=s.reason,gf(n),n;default:if(typeof s.status=="string")s.then(jl,jl);else{if(n=yn,n!==null&&100<n.shellSuspendCounter)throw Error(h(482));n=s,n.status="pending",n.then(function(o){if(s.status==="pending"){var l=s;l.status="fulfilled",l.value=o}},function(o){if(s.status==="pending"){var l=s;l.status="rejected",l.reason=o}})}switch(s.status){case"fulfilled":return s.value;case"rejected":throw n=s.reason,gf(n),n}throw Jo=s,zo}}var Jo=null;function mf(){if(Jo===null)throw Error(h(459));var n=Jo;return Jo=null,n}function gf(n){if(n===zo||n===Pl)throw Error(h(483))}var qs=!1;function Rp(n){n.updateQueue={baseState:n.memoizedState,firstBaseUpdate:null,lastBaseUpdate:null,shared:{pending:null,lanes:0,hiddenCallbacks:null},callbacks:null}}function Lp(n,s){n=n.updateQueue,s.updateQueue===n&&(s.updateQueue={baseState:n.baseState,firstBaseUpdate:n.firstBaseUpdate,lastBaseUpdate:n.lastBaseUpdate,shared:n.shared,callbacks:null})}function Xs(n){return{lane:n,tag:0,payload:null,callback:null,next:null}}function Zs(n,s,a){var o=n.updateQueue;if(o===null)return null;if(o=o.shared,(sn&2)!==0){var l=o.pending;return l===null?s.next=s:(s.next=l.next,l.next=s),o.pending=s,s=Gl(n),of(n,null,a),s}return Nl(n,o,s,a),Gl(n)}function Vo(n,s,a){if(s=s.updateQueue,s!==null&&(s=s.shared,(a&4194048)!==0)){var o=s.lanes;o&=n.pendingLanes,a|=o,s.lanes=a,rc(n,a)}}function Bp(n,s){var a=n.updateQueue,o=n.alternate;if(o!==null&&(o=o.updateQueue,a===o)){var l=null,e=null;if(a=a.firstBaseUpdate,a!==null){do{var p={lane:a.lane,tag:a.tag,payload:a.payload,callback:null,next:null};e===null?l=e=p:e=e.next=p,a=a.next}while(a!==null);e===null?l=e=s:e=e.next=s}else l=e=s;a={baseState:o.baseState,firstBaseUpdate:l,lastBaseUpdate:e,shared:o.shared,callbacks:o.callbacks},n.updateQueue=a;return}n=a.lastBaseUpdate,n===null?a.firstBaseUpdate=s:n.next=s,a.lastBaseUpdate=s}var Dp=!1;function xo(){if(Dp){var n=no;if(n!==null)throw n}}function Po(n,s,a,o){Dp=!1;var l=n.updateQueue;qs=!1;var e=l.firstBaseUpdate,p=l.lastBaseUpdate,t=l.shared.pending;if(t!==null){l.shared.pending=null;var c=t,u=c.next;c.next=null,p===null?e=u:p.next=u,p=c;var m=n.alternate;m!==null&&(m=m.updateQueue,t=m.lastBaseUpdate,t!==p&&(t===null?m.firstBaseUpdate=u:t.next=u,m.lastBaseUpdate=c))}if(e!==null){var O=l.baseState;p=0,m=u=c=null,t=e;do{var b=t.lane&-536870913,d=b!==t.lane;if(d?(X&b)===b:(o&b)===b){b!==0&&b===$a&&(Dp=!0),m!==null&&(m=m.next={lane:0,tag:t.tag,payload:t.payload,callback:null,next:null});n:{var G=n,C=t;b=s;var tn=a;switch(C.tag){case 1:if(G=C.payload,typeof G=="function"){O=G.call(tn,O,b);break n}O=G;break n;case 3:G.flags=G.flags&-65537|128;case 0:if(G=C.payload,b=typeof G=="function"?G.call(tn,O,b):G,b==null)break n;O=M({},O,b);break n;case 2:qs=!0}}b=t.callback,b!==null&&(n.flags|=64,d&&(n.flags|=8192),d=l.callbacks,d===null?l.callbacks=[b]:d.push(b))}else d={lane:b,tag:t.tag,payload:t.payload,callback:t.callback,next:null},m===null?(u=m=d,c=O):m=m.next=d,p|=b;if(t=t.next,t===null){if(t=l.shared.pending,t===null)break;d=t,t=d.next,d.next=null,l.lastBaseUpdate=d,l.shared.pending=null}}while(!0);m===null&&(c=O),l.baseState=c,l.firstBaseUpdate=u,l.lastBaseUpdate=m,e===null&&(l.shared.lanes=0),ea|=p,n.lanes=p,n.memoizedState=O}}function Af(n,s){if(typeof n!="function")throw Error(h(191,n));n.call(s)}function Sf(n,s){var a=n.callbacks;if(a!==null)for(n.callbacks=null,n=0;n<a.length;n++)Af(a[n],s)}var so=v(null),Fl=v(0);function Of(n,s){n=Js,w(Fl,n),w(so,s),Js=n|s.baseLanes}function Mp(){w(Fl,Js),w(so,so.current)}function Yp(){Js=Fl.current,R(so),R(Fl)}var Qs=0,J=null,en=null,En=null,_l=!1,ao=!1,Ba=!1,ql=0,jo=0,oo=null,S9=0;function On(){throw Error(h(321))}function kp(n,s){if(s===null)return!1;for(var a=0;a<s.length&&a<n.length;a++)if(!ss(n[a],s[a]))return!1;return!0}function Cp(n,s,a,o,l,e){return Qs=e,J=s,s.memoizedState=null,s.updateQueue=null,s.lanes=0,g.H=n===null||n.memoizedState===null?lr:er,Ba=!1,e=a(o,l),Ba=!1,ao&&(e=Ef(s,a,o,l)),Wf(n),e}function Wf(n){g.H=se;var s=en!==null&&en.next!==null;if(Qs=0,En=en=J=null,_l=!1,jo=0,oo=null,s)throw Error(h(300));n===null||Bn||(n=n.dependencies,n!==null&&Jl(n)&&(Bn=!0))}function Ef(n,s,a,o){J=n;var l=0;do{if(ao&&(oo=null),jo=0,ao=!1,25<=l)throw Error(h(301));if(l+=1,En=en=null,n.updateQueue!=null){var e=n.updateQueue;e.lastEffect=null,e.events=null,e.stores=null,e.memoCache!=null&&(e.memoCache.index=0)}g.H=H9,e=s(a,o)}while(ao);return e}function O9(){var n=g.H,s=n.useState()[0];return s=typeof s.then=="function"?Fo(s):s,n=n.useState()[0],(en!==null?en.memoizedState:null)!==n&&(J.flags|=1024),s}function Ip(){var n=ql!==0;return ql=0,n}function Np(n,s,a){s.updateQueue=n.updateQueue,s.flags&=-2053,n.lanes&=~a}function Gp(n){if(_l){for(n=n.memoizedState;n!==null;){var s=n.queue;s!==null&&(s.pending=null),n=n.next}_l=!1}Qs=0,En=en=J=null,ao=!1,jo=ql=0,oo=null}function _n(){var n={memoizedState:null,baseState:null,baseQueue:null,queue:null,next:null};return En===null?J.memoizedState=En=n:En=En.next=n,En}function Tn(){if(en===null){var n=J.alternate;n=n!==null?n.memoizedState:null}else n=en.next;var s=En===null?J.memoizedState:En.next;if(s!==null)En=s,en=n;else{if(n===null)throw J.alternate===null?Error(h(467)):Error(h(310));en=n,n={memoizedState:en.memoizedState,baseState:en.baseState,baseQueue:en.baseQueue,queue:en.queue,next:null},En===null?J.memoizedState=En=n:En=En.next=n}return En}function Kp(){return{lastEffect:null,events:null,stores:null,memoCache:null}}function Fo(n){var s=jo;return jo+=1,oo===null&&(oo=[]),n=hf(oo,n,s),s=J,(En===null?s.memoizedState:En.next)===null&&(s=s.alternate,g.H=s===null||s.memoizedState===null?lr:er),n}function Xl(n){if(n!==null&&typeof n=="object"){if(typeof n.then=="function")return Fo(n);if(n.$$typeof===Rn)return zn(n)}throw Error(h(438,String(n)))}function Up(n){var s=null,a=J.updateQueue;if(a!==null&&(s=a.memoCache),s==null){var o=J.alternate;o!==null&&(o=o.updateQueue,o!==null&&(o=o.memoCache,o!=null&&(s={data:o.data.map(function(l){return l.slice()}),index:0})))}if(s==null&&(s={data:[],index:0}),a===null&&(a=Kp(),J.updateQueue=a),a.memoCache=s,a=s.data[s.index],a===void 0)for(a=s.data[s.index]=Array(n),o=0;o<n;o++)a[o]=Sn;return s.index++,a}function Is(n,s){return typeof s=="function"?s(n):s}function Zl(n){var s=Tn();return zp(s,en,n)}function zp(n,s,a){var o=n.queue;if(o===null)throw Error(h(311));o.lastRenderedReducer=a;var l=n.baseQueue,e=o.pending;if(e!==null){if(l!==null){var p=l.next;l.next=e.next,e.next=p}s.baseQueue=l=e,o.pending=null}if(e=n.baseState,l===null)n.memoizedState=e;else{s=l.next;var t=p=null,c=null,u=s,m=!1;do{var O=u.lane&-536870913;if(O!==u.lane?(X&O)===O:(Qs&O)===O){var b=u.revertLane;if(b===0)c!==null&&(c=c.next={lane:0,revertLane:0,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null}),O===$a&&(m=!0);else if((Qs&b)===b){u=u.next,b===$a&&(m=!0);continue}else O={lane:0,revertLane:u.revertLane,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null},c===null?(t=c=O,p=e):c=c.next=O,J.lanes|=b,ea|=b;O=u.action,Ba&&a(e,O),e=u.hasEagerState?u.eagerState:a(e,O)}else b={lane:O,revertLane:u.revertLane,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null},c===null?(t=c=b,p=e):c=c.next=b,J.lanes|=O,ea|=O;u=u.next}while(u!==null&&u!==s);if(c===null?p=e:c.next=t,!ss(e,n.memoizedState)&&(Bn=!0,m&&(a=no,a!==null)))throw a;n.memoizedState=e,n.baseState=p,n.baseQueue=c,o.lastRenderedState=e}return l===null&&(o.lanes=0),[n.memoizedState,o.dispatch]}function Jp(n){var s=Tn(),a=s.queue;if(a===null)throw Error(h(311));a.lastRenderedReducer=n;var o=a.dispatch,l=a.pending,e=s.memoizedState;if(l!==null){a.pending=null;var p=l=l.next;do e=n(e,p.action),p=p.next;while(p!==l);ss(e,s.memoizedState)||(Bn=!0),s.memoizedState=e,s.baseQueue===null&&(s.baseState=e),a.lastRenderedState=e}return[e,o]}function Tf(n,s,a){var o=J,l=Tn(),e=nn;if(e){if(a===void 0)throw Error(h(407));a=a()}else a=s();var p=!ss((en||l).memoizedState,a);p&&(l.memoizedState=a,Bn=!0),l=l.queue;var t=Hf.bind(null,o,l,n);if(_o(2048,8,t,[n]),l.getSnapshot!==s||p||En!==null&&En.memoizedState.tag&1){if(o.flags|=2048,lo(9,Ql(),wf.bind(null,o,l,a,s),null),yn===null)throw Error(h(349));e||(Qs&124)!==0||vf(o,s,a)}return a}function vf(n,s,a){n.flags|=16384,n={getSnapshot:s,value:a},s=J.updateQueue,s===null?(s=Kp(),J.updateQueue=s,s.stores=[n]):(a=s.stores,a===null?s.stores=[n]:a.push(n))}function wf(n,s,a,o){s.value=a,s.getSnapshot=o,Rf(s)&&Lf(n)}function Hf(n,s,a){return a(function(){Rf(s)&&Lf(n)})}function Rf(n){var s=n.getSnapshot;n=n.value;try{var a=s();return!ss(n,a)}catch{return!0}}function Lf(n){var s=qa(n,2);s!==null&&ts(s,n,2)}function Vp(n){var s=_n();if(typeof n=="function"){var a=n;if(n=a(),Ba){Ps(!0);try{a()}finally{Ps(!1)}}}return s.memoizedState=s.baseState=n,s.queue={pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:n},s}function Bf(n,s,a,o){return n.baseState=a,zp(n,en,typeof o=="function"?o:Is)}function W9(n,s,a,o,l){if(ne(n))throw Error(h(485));if(n=s.action,n!==null){var e={payload:l,action:n,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(p){e.listeners.push(p)}};g.T!==null?a(!0):e.isTransition=!1,o(e),a=s.pending,a===null?(e.next=s.pending=e,Df(s,e)):(e.next=a.next,s.pending=a.next=e)}}function Df(n,s){var a=s.action,o=s.payload,l=n.state;if(s.isTransition){var e=g.T,p={};g.T=p;try{var t=a(l,o),c=g.S;c!==null&&c(p,t),Mf(n,s,t)}catch(u){xp(n,s,u)}finally{g.T=e}}else try{e=a(l,o),Mf(n,s,e)}catch(u){xp(n,s,u)}}function Mf(n,s,a){a!==null&&typeof a=="object"&&typeof a.then=="function"?a.then(function(o){Yf(n,s,o)},function(o){return xp(n,s,o)}):Yf(n,s,a)}function Yf(n,s,a){s.status="fulfilled",s.value=a,kf(s),n.state=a,s=n.pending,s!==null&&(a=s.next,a===s?n.pending=null:(a=a.next,s.next=a,Df(n,a)))}function xp(n,s,a){var o=n.pending;if(n.pending=null,o!==null){o=o.next;do s.status="rejected",s.reason=a,kf(s),s=s.next;while(s!==o)}n.action=null}function kf(n){n=n.listeners;for(var s=0;s<n.length;s++)(0,n[s])()}function Cf(n,s){return s}function If(n,s){if(nn){var a=yn.formState;if(a!==null){n:{var o=J;if(nn){if(gn){s:{for(var l=gn,e=Ws;l.nodeType!==8;){if(!e){l=null;break s}if(l=Ss(l.nextSibling),l===null){l=null;break s}}e=l.data,l=e==="F!"||e==="F"?l:null}if(l){gn=Ss(l.nextSibling),o=l.data==="F!";break n}}wa(o)}o=!1}o&&(s=a[0])}}return a=_n(),a.memoizedState=a.baseState=s,o={pending:null,lanes:0,dispatch:null,lastRenderedReducer:Cf,lastRenderedState:s},a.queue=o,a=sr.bind(null,J,o),o.dispatch=a,o=Vp(!1),e=qp.bind(null,J,!1,o.queue),o=_n(),l={state:s,dispatch:null,action:n,pending:null},o.queue=l,a=W9.bind(null,J,l,e,a),l.dispatch=a,o.memoizedState=n,[s,a,!1]}function Nf(n){var s=Tn();return Gf(s,en,n)}function Gf(n,s,a){if(s=zp(n,s,Cf)[0],n=Zl(Is)[0],typeof s=="object"&&s!==null&&typeof s.then=="function")try{var o=Fo(s)}catch(p){throw p===zo?Pl:p}else o=s;s=Tn();var l=s.queue,e=l.dispatch;return a!==s.memoizedState&&(J.flags|=2048,lo(9,Ql(),E9.bind(null,l,a),null)),[o,e,n]}function E9(n,s){n.action=s}function Kf(n){var s=Tn(),a=en;if(a!==null)return Gf(s,a,n);Tn(),s=s.memoizedState,a=Tn();var o=a.queue.dispatch;return a.memoizedState=n,[s,o,!1]}function lo(n,s,a,o){return n={tag:n,create:a,deps:o,inst:s,next:null},s=J.updateQueue,s===null&&(s=Kp(),J.updateQueue=s),a=s.lastEffect,a===null?s.lastEffect=n.next=n:(o=a.next,a.next=n,n.next=o,s.lastEffect=n),n}function Ql(){return{destroy:void 0,resource:void 0}}function Uf(){return Tn().memoizedState}function $l(n,s,a,o){var l=_n();o=o===void 0?null:o,J.flags|=n,l.memoizedState=lo(1|s,Ql(),a,o)}function _o(n,s,a,o){var l=Tn();o=o===void 0?null:o;var e=l.memoizedState.inst;en!==null&&o!==null&&kp(o,en.memoizedState.deps)?l.memoizedState=lo(s,e,a,o):(J.flags|=n,l.memoizedState=lo(1|s,e,a,o))}function zf(n,s){$l(8390656,8,n,s)}function Jf(n,s){_o(2048,8,n,s)}function Vf(n,s){return _o(4,2,n,s)}function xf(n,s){return _o(4,4,n,s)}function Pf(n,s){if(typeof s=="function"){n=n();var a=s(n);return function(){typeof a=="function"?a():s(null)}}if(s!=null)return n=n(),s.current=n,function(){s.current=null}}function jf(n,s,a){a=a!=null?a.concat([n]):null,_o(4,4,Pf.bind(null,s,n),a)}function Pp(){}function Ff(n,s){var a=Tn();s=s===void 0?null:s;var o=a.memoizedState;return s!==null&&kp(s,o[1])?o[0]:(a.memoizedState=[n,s],n)}function _f(n,s){var a=Tn();s=s===void 0?null:s;var o=a.memoizedState;if(s!==null&&kp(s,o[1]))return o[0];if(o=n(),Ba){Ps(!0);try{n()}finally{Ps(!1)}}return a.memoizedState=[o,s],o}function jp(n,s,a){return a===void 0||(Qs&1073741824)!==0?n.memoizedState=s:(n.memoizedState=a,n=Zr(),J.lanes|=n,ea|=n,a)}function qf(n,s,a,o){return ss(a,s)?a:so.current!==null?(n=jp(n,a,o),ss(n,s)||(Bn=!0),n):(Qs&42)===0?(Bn=!0,n.memoizedState=a):(n=Zr(),J.lanes|=n,ea|=n,s)}function Xf(n,s,a,o,l){var e=H.p;H.p=e!==0&&8>e?e:8;var p=g.T,t={};g.T=t,qp(n,!1,s,a);try{var c=l(),u=g.S;if(u!==null&&u(t,c),c!==null&&typeof c=="object"&&typeof c.then=="function"){var m=A9(c,o);qo(n,s,m,ps(n))}else qo(n,s,o,ps(n))}catch(O){qo(n,s,{then:function(){},status:"rejected",reason:O},ps())}finally{H.p=e,g.T=p}}function T9(){}function Fp(n,s,a,o){if(n.tag!==5)throw Error(h(476));var l=Zf(n).queue;Xf(n,l,s,N,a===null?T9:function(){return Qf(n),a(o)})}function Zf(n){var s=n.memoizedState;if(s!==null)return s;s={memoizedState:N,baseState:N,baseQueue:null,queue:{pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:N},next:null};var a={};return s.next={memoizedState:a,baseState:a,baseQueue:null,queue:{pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:a},next:null},n.memoizedState=s,n=n.alternate,n!==null&&(n.memoizedState=s),s}function Qf(n){var s=Zf(n).next.queue;qo(n,s,{},ps())}function _p(){return zn(ul)}function $f(){return Tn().memoizedState}function nr(){return Tn().memoizedState}function v9(n){for(var s=n.return;s!==null;){switch(s.tag){case 24:case 3:var a=ps();n=Xs(a);var o=Zs(s,n,a);o!==null&&(ts(o,s,a),Vo(o,s,a)),s={cache:Tp()},n.payload=s;return}s=s.return}}function w9(n,s,a){var o=ps();a={lane:o,revertLane:0,action:a,hasEagerState:!1,eagerState:null,next:null},ne(n)?ar(s,a):(a=bp(n,s,a,o),a!==null&&(ts(a,n,o),or(a,s,o)))}function sr(n,s,a){var o=ps();qo(n,s,a,o)}function qo(n,s,a,o){var l={lane:o,revertLane:0,action:a,hasEagerState:!1,eagerState:null,next:null};if(ne(n))ar(s,l);else{var e=n.alternate;if(n.lanes===0&&(e===null||e.lanes===0)&&(e=s.lastRenderedReducer,e!==null))try{var p=s.lastRenderedState,t=e(p,a);if(l.hasEagerState=!0,l.eagerState=t,ss(t,p))return Nl(n,s,l,0),yn===null&&Il(),!1}catch{}finally{}if(a=bp(n,s,l,o),a!==null)return ts(a,n,o),or(a,s,o),!0}return!1}function qp(n,s,a,o){if(o={lane:2,revertLane:Ht(),action:o,hasEagerState:!1,eagerState:null,next:null},ne(n)){if(s)throw Error(h(479))}else s=bp(n,a,o,2),s!==null&&ts(s,n,2)}function ne(n){var s=n.alternate;return n===J||s!==null&&s===J}function ar(n,s){ao=_l=!0;var a=n.pending;a===null?s.next=s:(s.next=a.next,a.next=s),n.pending=s}function or(n,s,a){if((a&4194048)!==0){var o=s.lanes;o&=n.pendingLanes,a|=o,s.lanes=a,rc(n,a)}}var se={readContext:zn,use:Xl,useCallback:On,useContext:On,useEffect:On,useImperativeHandle:On,useLayoutEffect:On,useInsertionEffect:On,useMemo:On,useReducer:On,useRef:On,useState:On,useDebugValue:On,useDeferredValue:On,useTransition:On,useSyncExternalStore:On,useId:On,useHostTransitionStatus:On,useFormState:On,useActionState:On,useOptimistic:On,useMemoCache:On,useCacheRefresh:On},lr={readContext:zn,use:Xl,useCallback:function(n,s){return _n().memoizedState=[n,s===void 0?null:s],n},useContext:zn,useEffect:zf,useImperativeHandle:function(n,s,a){a=a!=null?a.concat([n]):null,$l(4194308,4,Pf.bind(null,s,n),a)},useLayoutEffect:function(n,s){return $l(4194308,4,n,s)},useInsertionEffect:function(n,s){$l(4,2,n,s)},useMemo:function(n,s){var a=_n();s=s===void 0?null:s;var o=n();if(Ba){Ps(!0);try{n()}finally{Ps(!1)}}return a.memoizedState=[o,s],o},useReducer:function(n,s,a){var o=_n();if(a!==void 0){var l=a(s);if(Ba){Ps(!0);try{a(s)}finally{Ps(!1)}}}else l=s;return o.memoizedState=o.baseState=l,n={pending:null,lanes:0,dispatch:null,lastRenderedReducer:n,lastRenderedState:l},o.queue=n,n=n.dispatch=w9.bind(null,J,n),[o.memoizedState,n]},useRef:function(n){var s=_n();return n={current:n},s.memoizedState=n},useState:function(n){n=Vp(n);var s=n.queue,a=sr.bind(null,J,s);return s.dispatch=a,[n.memoizedState,a]},useDebugValue:Pp,useDeferredValue:function(n,s){var a=_n();return jp(a,n,s)},useTransition:function(){var n=Vp(!1);return n=Xf.bind(null,J,n.queue,!0,!1),_n().memoizedState=n,[!1,n]},useSyncExternalStore:function(n,s,a){var o=J,l=_n();if(nn){if(a===void 0)throw Error(h(407));a=a()}else{if(a=s(),yn===null)throw Error(h(349));(X&124)!==0||vf(o,s,a)}l.memoizedState=a;var e={value:a,getSnapshot:s};return l.queue=e,zf(Hf.bind(null,o,e,n),[n]),o.flags|=2048,lo(9,Ql(),wf.bind(null,o,e,a,s),null),a},useId:function(){var n=_n(),s=yn.identifierPrefix;if(nn){var a=Ys,o=Ms;a=(o&~(1<<32-ns(o)-1)).toString(32)+a,s="«"+s+"R"+a,a=ql++,0<a&&(s+="H"+a.toString(32)),s+="»"}else a=S9++,s="«"+s+"r"+a.toString(32)+"»";return n.memoizedState=s},useHostTransitionStatus:_p,useFormState:If,useActionState:If,useOptimistic:function(n){var s=_n();s.memoizedState=s.baseState=n;var a={pending:null,lanes:0,dispatch:null,lastRenderedReducer:null,lastRenderedState:null};return s.queue=a,s=qp.bind(null,J,!0,a),a.dispatch=s,[n,s]},useMemoCache:Up,useCacheRefresh:function(){return _n().memoizedState=v9.bind(null,J)}},er={readContext:zn,use:Xl,useCallback:Ff,useContext:zn,useEffect:Jf,useImperativeHandle:jf,useInsertionEffect:Vf,useLayoutEffect:xf,useMemo:_f,useReducer:Zl,useRef:Uf,useState:function(){return Zl(Is)},useDebugValue:Pp,useDeferredValue:function(n,s){var a=Tn();return qf(a,en.memoizedState,n,s)},useTransition:function(){var n=Zl(Is)[0],s=Tn().memoizedState;return[typeof n=="boolean"?n:Fo(n),s]},useSyncExternalStore:Tf,useId:$f,useHostTransitionStatus:_p,useFormState:Nf,useActionState:Nf,useOptimistic:function(n,s){var a=Tn();return Bf(a,en,n,s)},useMemoCache:Up,useCacheRefresh:nr},H9={readContext:zn,use:Xl,useCallback:Ff,useContext:zn,useEffect:Jf,useImperativeHandle:jf,useInsertionEffect:Vf,useLayoutEffect:xf,useMemo:_f,useReducer:Jp,useRef:Uf,useState:function(){return Jp(Is)},useDebugValue:Pp,useDeferredValue:function(n,s){var a=Tn();return en===null?jp(a,n,s):qf(a,en.memoizedState,n,s)},useTransition:function(){var n=Jp(Is)[0],s=Tn().memoizedState;return[typeof n=="boolean"?n:Fo(n),s]},useSyncExternalStore:Tf,useId:$f,useHostTransitionStatus:_p,useFormState:Kf,useActionState:Kf,useOptimistic:function(n,s){var a=Tn();return en!==null?Bf(a,en,n,s):(a.baseState=n,[n,a.queue.dispatch])},useMemoCache:Up,useCacheRefresh:nr},eo=null,Xo=0;function ae(n){var s=Xo;return Xo+=1,eo===null&&(eo=[]),hf(eo,n,s)}function Zo(n,s){s=s.props.ref,n.ref=s!==void 0?s:null}function oe(n,s){throw s.$$typeof===on?Error(h(525)):(n=Object.prototype.toString.call(s),Error(h(31,n==="[object Object]"?"object with keys {"+Object.keys(s).join(", ")+"}":n)))}function pr(n){var s=n._init;return s(n._payload)}function tr(n){function s(y,r){if(n){var i=y.deletions;i===null?(y.deletions=[r],y.flags|=16):i.push(r)}}function a(y,r){if(!n)return null;for(;r!==null;)s(y,r),r=r.sibling;return null}function o(y){for(var r=new Map;y!==null;)y.key!==null?r.set(y.key,y):r.set(y.index,y),y=y.sibling;return r}function l(y,r){return y=Ds(y,r),y.index=0,y.sibling=null,y}function e(y,r,i){return y.index=i,n?(i=y.alternate,i!==null?(i=i.index,i<r?(y.flags|=67108866,r):i):(y.flags|=67108866,r)):(y.flags|=1048576,r)}function p(y){return n&&y.alternate===null&&(y.flags|=67108866),y}function t(y,r,i,S){return r===null||r.tag!==6?(r=hp(i,y.mode,S),r.return=y,r):(r=l(r,i),r.return=y,r)}function c(y,r,i,S){var L=i.type;return L===Yn?m(y,r,i.props.children,S,i.key):r!==null&&(r.elementType===L||typeof L=="object"&&L!==null&&L.$$typeof===A&&pr(L)===r.type)?(r=l(r,i.props),Zo(r,i),r.return=y,r):(r=Kl(i.type,i.key,i.props,null,y.mode,S),Zo(r,i),r.return=y,r)}function u(y,r,i,S){return r===null||r.tag!==4||r.stateNode.containerInfo!==i.containerInfo||r.stateNode.implementation!==i.implementation?(r=mp(i,y.mode,S),r.return=y,r):(r=l(r,i.children||[]),r.return=y,r)}function m(y,r,i,S,L){return r===null||r.tag!==7?(r=Wa(i,y.mode,S,L),r.return=y,r):(r=l(r,i),r.return=y,r)}function O(y,r,i){if(typeof r=="string"&&r!==""||typeof r=="number"||typeof r=="bigint")return r=hp(""+r,y.mode,i),r.return=y,r;if(typeof r=="object"&&r!==null){switch(r.$$typeof){case ln:return i=Kl(r.type,r.key,r.props,null,y.mode,i),Zo(i,r),i.return=y,i;case vn:return r=mp(r,y.mode,i),r.return=y,r;case A:var S=r._init;return r=S(r._payload),O(y,r,i)}if(Kn(r)||hn(r))return r=Wa(r,y.mode,i,null),r.return=y,r;if(typeof r.then=="function")return O(y,ae(r),i);if(r.$$typeof===Rn)return O(y,Vl(y,r),i);oe(y,r)}return null}function b(y,r,i,S){var L=r!==null?r.key:null;if(typeof i=="string"&&i!==""||typeof i=="number"||typeof i=="bigint")return L!==null?null:t(y,r,""+i,S);if(typeof i=="object"&&i!==null){switch(i.$$typeof){case ln:return i.key===L?c(y,r,i,S):null;case vn:return i.key===L?u(y,r,i,S):null;case A:return L=i._init,i=L(i._payload),b(y,r,i,S)}if(Kn(i)||hn(i))return L!==null?null:m(y,r,i,S,null);if(typeof i.then=="function")return b(y,r,ae(i),S);if(i.$$typeof===Rn)return b(y,r,Vl(y,i),S);oe(y,i)}return null}function d(y,r,i,S,L){if(typeof S=="string"&&S!==""||typeof S=="number"||typeof S=="bigint")return y=y.get(i)||null,t(r,y,""+S,L);if(typeof S=="object"&&S!==null){switch(S.$$typeof){case ln:return y=y.get(S.key===null?i:S.key)||null,c(r,y,S,L);case vn:return y=y.get(S.key===null?i:S.key)||null,u(r,y,S,L);case A:var V=S._init;return S=V(S._payload),d(y,r,i,S,L)}if(Kn(S)||hn(S))return y=y.get(i)||null,m(r,y,S,L,null);if(typeof S.then=="function")return d(y,r,i,ae(S),L);if(S.$$typeof===Rn)return d(y,r,i,Vl(r,S),L);oe(r,S)}return null}function G(y,r,i,S){for(var L=null,V=null,Y=r,I=r=0,Mn=null;Y!==null&&I<i.length;I++){Y.index>I?(Mn=Y,Y=null):Mn=Y.sibling;var $=b(y,Y,i[I],S);if($===null){Y===null&&(Y=Mn);break}n&&Y&&$.alternate===null&&s(y,Y),r=e($,r,I),V===null?L=$:V.sibling=$,V=$,Y=Mn}if(I===i.length)return a(y,Y),nn&&Ta(y,I),L;if(Y===null){for(;I<i.length;I++)Y=O(y,i[I],S),Y!==null&&(r=e(Y,r,I),V===null?L=Y:V.sibling=Y,V=Y);return nn&&Ta(y,I),L}for(Y=o(Y);I<i.length;I++)Mn=d(Y,y,I,i[I],S),Mn!==null&&(n&&Mn.alternate!==null&&Y.delete(Mn.key===null?I:Mn.key),r=e(Mn,r,I),V===null?L=Mn:V.sibling=Mn,V=Mn);return n&&Y.forEach(function(ba){return s(y,ba)}),nn&&Ta(y,I),L}function C(y,r,i,S){if(i==null)throw Error(h(151));for(var L=null,V=null,Y=r,I=r=0,Mn=null,$=i.next();Y!==null&&!$.done;I++,$=i.next()){Y.index>I?(Mn=Y,Y=null):Mn=Y.sibling;var ba=b(y,Y,$.value,S);if(ba===null){Y===null&&(Y=Mn);break}n&&Y&&ba.alternate===null&&s(y,Y),r=e(ba,r,I),V===null?L=ba:V.sibling=ba,V=ba,Y=Mn}if($.done)return a(y,Y),nn&&Ta(y,I),L;if(Y===null){for(;!$.done;I++,$=i.next())$=O(y,$.value,S),$!==null&&(r=e($,r,I),V===null?L=$:V.sibling=$,V=$);return nn&&Ta(y,I),L}for(Y=o(Y);!$.done;I++,$=i.next())$=d(Y,y,I,$.value,S),$!==null&&(n&&$.alternate!==null&&Y.delete($.key===null?I:$.key),r=e($,r,I),V===null?L=$:V.sibling=$,V=$);return n&&Y.forEach(function(R0){return s(y,R0)}),nn&&Ta(y,I),L}function tn(y,r,i,S){if(typeof i=="object"&&i!==null&&i.type===Yn&&i.key===null&&(i=i.props.children),typeof i=="object"&&i!==null){switch(i.$$typeof){case ln:n:{for(var L=i.key;r!==null;){if(r.key===L){if(L=i.type,L===Yn){if(r.tag===7){a(y,r.sibling),S=l(r,i.props.children),S.return=y,y=S;break n}}else if(r.elementType===L||typeof L=="object"&&L!==null&&L.$$typeof===A&&pr(L)===r.type){a(y,r.sibling),S=l(r,i.props),Zo(S,i),S.return=y,y=S;break n}a(y,r);break}else s(y,r);r=r.sibling}i.type===Yn?(S=Wa(i.props.children,y.mode,S,i.key),S.return=y,y=S):(S=Kl(i.type,i.key,i.props,null,y.mode,S),Zo(S,i),S.return=y,y=S)}return p(y);case vn:n:{for(L=i.key;r!==null;){if(r.key===L)if(r.tag===4&&r.stateNode.containerInfo===i.containerInfo&&r.stateNode.implementation===i.implementation){a(y,r.sibling),S=l(r,i.children||[]),S.return=y,y=S;break n}else{a(y,r);break}else s(y,r);r=r.sibling}S=mp(i,y.mode,S),S.return=y,y=S}return p(y);case A:return L=i._init,i=L(i._payload),tn(y,r,i,S)}if(Kn(i))return G(y,r,i,S);if(hn(i)){if(L=hn(i),typeof L!="function")throw Error(h(150));return i=L.call(i),C(y,r,i,S)}if(typeof i.then=="function")return tn(y,r,ae(i),S);if(i.$$typeof===Rn)return tn(y,r,Vl(y,i),S);oe(y,i)}return typeof i=="string"&&i!==""||typeof i=="number"||typeof i=="bigint"?(i=""+i,r!==null&&r.tag===6?(a(y,r.sibling),S=l(r,i),S.return=y,y=S):(a(y,r),S=hp(i,y.mode,S),S.return=y,y=S),p(y)):a(y,r)}return function(y,r,i,S){try{Xo=0;var L=tn(y,r,i,S);return eo=null,L}catch(Y){if(Y===zo||Y===Pl)throw Y;var V=as(29,Y,null,y.mode);return V.lanes=S,V.return=y,V}finally{}}}var po=tr(!0),cr=tr(!1),bs=v(null),Es=null;function $s(n){var s=n.alternate;w(Hn,Hn.current&1),w(bs,n),Es===null&&(s===null||so.current!==null||s.memoizedState!==null)&&(Es=n)}function fr(n){if(n.tag===22){if(w(Hn,Hn.current),w(bs,n),Es===null){var s=n.alternate;s!==null&&s.memoizedState!==null&&(Es=n)}}else na()}function na(){w(Hn,Hn.current),w(bs,bs.current)}function Ns(n){R(bs),Es===n&&(Es=null),R(Hn)}var Hn=v(0);function le(n){for(var s=n;s!==null;){if(s.tag===13){var a=s.memoizedState;if(a!==null&&(a=a.dehydrated,a===null||a.data==="$?"||Kt(a)))return s}else if(s.tag===19&&s.memoizedProps.revealOrder!==void 0){if((s.flags&128)!==0)return s}else if(s.child!==null){s.child.return=s,s=s.child;continue}if(s===n)break;for(;s.sibling===null;){if(s.return===null||s.return===n)return null;s=s.return}s.sibling.return=s.return,s=s.sibling}return null}function Xp(n,s,a,o){s=n.memoizedState,a=a(o,s),a=a==null?s:M({},s,a),n.memoizedState=a,n.lanes===0&&(n.updateQueue.baseState=a)}var Zp={enqueueSetState:function(n,s,a){n=n._reactInternals;var o=ps(),l=Xs(o);l.payload=s,a!=null&&(l.callback=a),s=Zs(n,l,o),s!==null&&(ts(s,n,o),Vo(s,n,o))},enqueueReplaceState:function(n,s,a){n=n._reactInternals;var o=ps(),l=Xs(o);l.tag=1,l.payload=s,a!=null&&(l.callback=a),s=Zs(n,l,o),s!==null&&(ts(s,n,o),Vo(s,n,o))},enqueueForceUpdate:function(n,s){n=n._reactInternals;var a=ps(),o=Xs(a);o.tag=2,s!=null&&(o.callback=s),s=Zs(n,o,a),s!==null&&(ts(s,n,a),Vo(s,n,a))}};function rr(n,s,a,o,l,e,p){return n=n.stateNode,typeof n.shouldComponentUpdate=="function"?n.shouldComponentUpdate(o,e,p):s.prototype&&s.prototype.isPureReactComponent?!Yo(a,o)||!Yo(l,e):!0}function yr(n,s,a,o){n=s.state,typeof s.componentWillReceiveProps=="function"&&s.componentWillReceiveProps(a,o),typeof s.UNSAFE_componentWillReceiveProps=="function"&&s.UNSAFE_componentWillReceiveProps(a,o),s.state!==n&&Zp.enqueueReplaceState(s,s.state,null)}function Da(n,s){var a=s;if("ref"in s){a={};for(var o in s)o!=="ref"&&(a[o]=s[o])}if(n=n.defaultProps){a===s&&(a=M({},a));for(var l in n)a[l]===void 0&&(a[l]=n[l])}return a}var ee=typeof reportError=="function"?reportError:function(n){if(typeof window=="object"&&typeof window.ErrorEvent=="function"){var s=new window.ErrorEvent("error",{bubbles:!0,cancelable:!0,message:typeof n=="object"&&n!==null&&typeof n.message=="string"?String(n.message):String(n),error:n});if(!window.dispatchEvent(s))return}else if(typeof process=="object"&&typeof process.emit=="function"){process.emit("uncaughtException",n);return}console.error(n)};function ir(n){ee(n)}function ur(n){console.error(n)}function br(n){ee(n)}function pe(n,s){try{var a=n.onUncaughtError;a(s.value,{componentStack:s.stack})}catch(o){setTimeout(function(){throw o})}}function dr(n,s,a){try{var o=n.onCaughtError;o(a.value,{componentStack:a.stack,errorBoundary:s.tag===1?s.stateNode:null})}catch(l){setTimeout(function(){throw l})}}function Qp(n,s,a){return a=Xs(a),a.tag=3,a.payload={element:null},a.callback=function(){pe(n,s)},a}function hr(n){return n=Xs(n),n.tag=3,n}function mr(n,s,a,o){var l=a.type.getDerivedStateFromError;if(typeof l=="function"){var e=o.value;n.payload=function(){return l(e)},n.callback=function(){dr(s,a,o)}}var p=a.stateNode;p!==null&&typeof p.componentDidCatch=="function"&&(n.callback=function(){dr(s,a,o),typeof l!="function"&&(pa===null?pa=new Set([this]):pa.add(this));var t=o.stack;this.componentDidCatch(o.value,{componentStack:t!==null?t:""})})}function R9(n,s,a,o,l){if(a.flags|=32768,o!==null&&typeof o=="object"&&typeof o.then=="function"){if(s=a.alternate,s!==null&&Go(s,a,l,!0),a=bs.current,a!==null){switch(a.tag){case 13:return Es===null?Wt():a.alternate===null&&An===0&&(An=3),a.flags&=-257,a.flags|=65536,a.lanes=l,o===Hp?a.flags|=16384:(s=a.updateQueue,s===null?a.updateQueue=new Set([o]):s.add(o),Tt(n,o,l)),!1;case 22:return a.flags|=65536,o===Hp?a.flags|=16384:(s=a.updateQueue,s===null?(s={transitions:null,markerInstances:null,retryQueue:new Set([o])},a.updateQueue=s):(a=s.retryQueue,a===null?s.retryQueue=new Set([o]):a.add(o)),Tt(n,o,l)),!1}throw Error(h(435,a.tag))}return Tt(n,o,l),Wt(),!1}if(nn)return s=bs.current,s!==null?((s.flags&65536)===0&&(s.flags|=256),s.flags|=65536,s.lanes=l,o!==Sp&&(n=Error(h(422),{cause:o}),No(rs(n,a)))):(o!==Sp&&(s=Error(h(423),{cause:o}),No(rs(s,a))),n=n.current.alternate,n.flags|=65536,l&=-l,n.lanes|=l,o=rs(o,a),l=Qp(n.stateNode,o,l),Bp(n,l),An!==4&&(An=2)),!1;var e=Error(h(520),{cause:o});if(e=rs(e,a),ll===null?ll=[e]:ll.push(e),An!==4&&(An=2),s===null)return!0;o=rs(o,a),a=s;do{switch(a.tag){case 3:return a.flags|=65536,n=l&-l,a.lanes|=n,n=Qp(a.stateNode,o,n),Bp(a,n),!1;case 1:if(s=a.type,e=a.stateNode,(a.flags&128)===0&&(typeof s.getDerivedStateFromError=="function"||e!==null&&typeof e.componentDidCatch=="function"&&(pa===null||!pa.has(e))))return a.flags|=65536,l&=-l,a.lanes|=l,l=hr(l),mr(l,n,a,o),Bp(a,l),!1}a=a.return}while(a!==null);return!1}var gr=Error(h(461)),Bn=!1;function Cn(n,s,a,o){s.child=n===null?cr(s,null,a,o):po(s,n.child,a,o)}function Ar(n,s,a,o,l){a=a.render;var e=s.ref;if("ref"in o){var p={};for(var t in o)t!=="ref"&&(p[t]=o[t])}else p=o;return Ra(s),o=Cp(n,s,a,p,e,l),t=Ip(),n!==null&&!Bn?(Np(n,s,l),Gs(n,s,l)):(nn&&t&&gp(s),s.flags|=1,Cn(n,s,o,l),s.child)}function Sr(n,s,a,o,l){if(n===null){var e=a.type;return typeof e=="function"&&!dp(e)&&e.defaultProps===void 0&&a.compare===null?(s.tag=15,s.type=e,Or(n,s,e,o,l)):(n=Kl(a.type,null,o,s,s.mode,l),n.ref=s.ref,n.return=s,s.child=n)}if(e=n.child,!pt(n,l)){var p=e.memoizedProps;if(a=a.compare,a=a!==null?a:Yo,a(p,o)&&n.ref===s.ref)return Gs(n,s,l)}return s.flags|=1,n=Ds(e,o),n.ref=s.ref,n.return=s,s.child=n}function Or(n,s,a,o,l){if(n!==null){var e=n.memoizedProps;if(Yo(e,o)&&n.ref===s.ref)if(Bn=!1,s.pendingProps=o=e,pt(n,l))(n.flags&131072)!==0&&(Bn=!0);else return s.lanes=n.lanes,Gs(n,s,l)}return $p(n,s,a,o,l)}function Wr(n,s,a){var o=s.pendingProps,l=o.children,e=n!==null?n.memoizedState:null;if(o.mode==="hidden"){if((s.flags&128)!==0){if(o=e!==null?e.baseLanes|a:a,n!==null){for(l=s.child=n.child,e=0;l!==null;)e=e|l.lanes|l.childLanes,l=l.sibling;s.childLanes=e&~o}else s.childLanes=0,s.child=null;return Er(n,s,o,a)}if((a&536870912)!==0)s.memoizedState={baseLanes:0,cachePool:null},n!==null&&xl(s,e!==null?e.cachePool:null),e!==null?Of(s,e):Mp(),fr(s);else return s.lanes=s.childLanes=536870912,Er(n,s,e!==null?e.baseLanes|a:a,a)}else e!==null?(xl(s,e.cachePool),Of(s,e),na(),s.memoizedState=null):(n!==null&&xl(s,null),Mp(),na());return Cn(n,s,l,a),s.child}function Er(n,s,a,o){var l=wp();return l=l===null?null:{parent:wn._currentValue,pool:l},s.memoizedState={baseLanes:a,cachePool:l},n!==null&&xl(s,null),Mp(),fr(s),n!==null&&Go(n,s,o,!0),null}function te(n,s){var a=s.ref;if(a===null)n!==null&&n.ref!==null&&(s.flags|=4194816);else{if(typeof a!="function"&&typeof a!="object")throw Error(h(284));(n===null||n.ref!==a)&&(s.flags|=4194816)}}function $p(n,s,a,o,l){return Ra(s),a=Cp(n,s,a,o,void 0,l),o=Ip(),n!==null&&!Bn?(Np(n,s,l),Gs(n,s,l)):(nn&&o&&gp(s),s.flags|=1,Cn(n,s,a,l),s.child)}function Tr(n,s,a,o,l,e){return Ra(s),s.updateQueue=null,a=Ef(s,o,a,l),Wf(n),o=Ip(),n!==null&&!Bn?(Np(n,s,e),Gs(n,s,e)):(nn&&o&&gp(s),s.flags|=1,Cn(n,s,a,e),s.child)}function vr(n,s,a,o,l){if(Ra(s),s.stateNode===null){var e=Xa,p=a.contextType;typeof p=="object"&&p!==null&&(e=zn(p)),e=new a(o,e),s.memoizedState=e.state!==null&&e.state!==void 0?e.state:null,e.updater=Zp,s.stateNode=e,e._reactInternals=s,e=s.stateNode,e.props=o,e.state=s.memoizedState,e.refs={},Rp(s),p=a.contextType,e.context=typeof p=="object"&&p!==null?zn(p):Xa,e.state=s.memoizedState,p=a.getDerivedStateFromProps,typeof p=="function"&&(Xp(s,a,p,o),e.state=s.memoizedState),typeof a.getDerivedStateFromProps=="function"||typeof e.getSnapshotBeforeUpdate=="function"||typeof e.UNSAFE_componentWillMount!="function"&&typeof e.componentWillMount!="function"||(p=e.state,typeof e.componentWillMount=="function"&&e.componentWillMount(),typeof e.UNSAFE_componentWillMount=="function"&&e.UNSAFE_componentWillMount(),p!==e.state&&Zp.enqueueReplaceState(e,e.state,null),Po(s,o,e,l),xo(),e.state=s.memoizedState),typeof e.componentDidMount=="function"&&(s.flags|=4194308),o=!0}else if(n===null){e=s.stateNode;var t=s.memoizedProps,c=Da(a,t);e.props=c;var u=e.context,m=a.contextType;p=Xa,typeof m=="object"&&m!==null&&(p=zn(m));var O=a.getDerivedStateFromProps;m=typeof O=="function"||typeof e.getSnapshotBeforeUpdate=="function",t=s.pendingProps!==t,m||typeof e.UNSAFE_componentWillReceiveProps!="function"&&typeof e.componentWillReceiveProps!="function"||(t||u!==p)&&yr(s,e,o,p),qs=!1;var b=s.memoizedState;e.state=b,Po(s,o,e,l),xo(),u=s.memoizedState,t||b!==u||qs?(typeof O=="function"&&(Xp(s,a,O,o),u=s.memoizedState),(c=qs||rr(s,a,c,o,b,u,p))?(m||typeof e.UNSAFE_componentWillMount!="function"&&typeof e.componentWillMount!="function"||(typeof e.componentWillMount=="function"&&e.componentWillMount(),typeof e.UNSAFE_componentWillMount=="function"&&e.UNSAFE_componentWillMount()),typeof e.componentDidMount=="function"&&(s.flags|=4194308)):(typeof e.componentDidMount=="function"&&(s.flags|=4194308),s.memoizedProps=o,s.memoizedState=u),e.props=o,e.state=u,e.context=p,o=c):(typeof e.componentDidMount=="function"&&(s.flags|=4194308),o=!1)}else{e=s.stateNode,Lp(n,s),p=s.memoizedProps,m=Da(a,p),e.props=m,O=s.pendingProps,b=e.context,u=a.contextType,c=Xa,typeof u=="object"&&u!==null&&(c=zn(u)),t=a.getDerivedStateFromProps,(u=typeof t=="function"||typeof e.getSnapshotBeforeUpdate=="function")||typeof e.UNSAFE_componentWillReceiveProps!="function"&&typeof e.componentWillReceiveProps!="function"||(p!==O||b!==c)&&yr(s,e,o,c),qs=!1,b=s.memoizedState,e.state=b,Po(s,o,e,l),xo();var d=s.memoizedState;p!==O||b!==d||qs||n!==null&&n.dependencies!==null&&Jl(n.dependencies)?(typeof t=="function"&&(Xp(s,a,t,o),d=s.memoizedState),(m=qs||rr(s,a,m,o,b,d,c)||n!==null&&n.dependencies!==null&&Jl(n.dependencies))?(u||typeof e.UNSAFE_componentWillUpdate!="function"&&typeof e.componentWillUpdate!="function"||(typeof e.componentWillUpdate=="function"&&e.componentWillUpdate(o,d,c),typeof e.UNSAFE_componentWillUpdate=="function"&&e.UNSAFE_componentWillUpdate(o,d,c)),typeof e.componentDidUpdate=="function"&&(s.flags|=4),typeof e.getSnapshotBeforeUpdate=="function"&&(s.flags|=1024)):(typeof e.componentDidUpdate!="function"||p===n.memoizedProps&&b===n.memoizedState||(s.flags|=4),typeof e.getSnapshotBeforeUpdate!="function"||p===n.memoizedProps&&b===n.memoizedState||(s.flags|=1024),s.memoizedProps=o,s.memoizedState=d),e.props=o,e.state=d,e.context=c,o=m):(typeof e.componentDidUpdate!="function"||p===n.memoizedProps&&b===n.memoizedState||(s.flags|=4),typeof e.getSnapshotBeforeUpdate!="function"||p===n.memoizedProps&&b===n.memoizedState||(s.flags|=1024),o=!1)}return e=o,te(n,s),o=(s.flags&128)!==0,e||o?(e=s.stateNode,a=o&&typeof a.getDerivedStateFromError!="function"?null:e.render(),s.flags|=1,n!==null&&o?(s.child=po(s,n.child,null,l),s.child=po(s,null,a,l)):Cn(n,s,a,l),s.memoizedState=e.state,n=s.child):n=Gs(n,s,l),n}function wr(n,s,a,o){return Io(),s.flags|=256,Cn(n,s,a,o),s.child}var nt={dehydrated:null,treeContext:null,retryLane:0,hydrationErrors:null};function st(n){return{baseLanes:n,cachePool:uf()}}function at(n,s,a){return n=n!==null?n.childLanes&~a:0,s&&(n|=ds),n}function Hr(n,s,a){var o=s.pendingProps,l=!1,e=(s.flags&128)!==0,p;if((p=e)||(p=n!==null&&n.memoizedState===null?!1:(Hn.current&2)!==0),p&&(l=!0,s.flags&=-129),p=(s.flags&32)!==0,s.flags&=-33,n===null){if(nn){if(l?$s(s):na(),nn){var t=gn,c;if(c=t){n:{for(c=t,t=Ws;c.nodeType!==8;){if(!t){t=null;break n}if(c=Ss(c.nextSibling),c===null){t=null;break n}}t=c}t!==null?(s.memoizedState={dehydrated:t,treeContext:Ea!==null?{id:Ms,overflow:Ys}:null,retryLane:536870912,hydrationErrors:null},c=as(18,null,null,0),c.stateNode=t,c.return=s,s.child=c,Pn=s,gn=null,c=!0):c=!1}c||wa(s)}if(t=s.memoizedState,t!==null&&(t=t.dehydrated,t!==null))return Kt(t)?s.lanes=32:s.lanes=536870912,null;Ns(s)}return t=o.children,o=o.fallback,l?(na(),l=s.mode,t=ce({mode:"hidden",children:t},l),o=Wa(o,l,a,null),t.return=s,o.return=s,t.sibling=o,s.child=t,l=s.child,l.memoizedState=st(a),l.childLanes=at(n,p,a),s.memoizedState=nt,o):($s(s),ot(s,t))}if(c=n.memoizedState,c!==null&&(t=c.dehydrated,t!==null)){if(e)s.flags&256?($s(s),s.flags&=-257,s=lt(n,s,a)):s.memoizedState!==null?(na(),s.child=n.child,s.flags|=128,s=null):(na(),l=o.fallback,t=s.mode,o=ce({mode:"visible",children:o.children},t),l=Wa(l,t,a,null),l.flags|=2,o.return=s,l.return=s,o.sibling=l,s.child=o,po(s,n.child,null,a),o=s.child,o.memoizedState=st(a),o.childLanes=at(n,p,a),s.memoizedState=nt,s=l);else if($s(s),Kt(t)){if(p=t.nextSibling&&t.nextSibling.dataset,p)var u=p.dgst;p=u,o=Error(h(419)),o.stack="",o.digest=p,No({value:o,source:null,stack:null}),s=lt(n,s,a)}else if(Bn||Go(n,s,a,!1),p=(a&n.childLanes)!==0,Bn||p){if(p=yn,p!==null&&(o=a&-a,o=(o&42)!==0?1:Ue(o),o=(o&(p.suspendedLanes|a))!==0?0:o,o!==0&&o!==c.retryLane))throw c.retryLane=o,qa(n,o),ts(p,n,o),gr;t.data==="$?"||Wt(),s=lt(n,s,a)}else t.data==="$?"?(s.flags|=192,s.child=n.child,s=null):(n=c.treeContext,gn=Ss(t.nextSibling),Pn=s,nn=!0,va=null,Ws=!1,n!==null&&(is[us++]=Ms,is[us++]=Ys,is[us++]=Ea,Ms=n.id,Ys=n.overflow,Ea=s),s=ot(s,o.children),s.flags|=4096);return s}return l?(na(),l=o.fallback,t=s.mode,c=n.child,u=c.sibling,o=Ds(c,{mode:"hidden",children:o.children}),o.subtreeFlags=c.subtreeFlags&65011712,u!==null?l=Ds(u,l):(l=Wa(l,t,a,null),l.flags|=2),l.return=s,o.return=s,o.sibling=l,s.child=o,o=l,l=s.child,t=n.child.memoizedState,t===null?t=st(a):(c=t.cachePool,c!==null?(u=wn._currentValue,c=c.parent!==u?{parent:u,pool:u}:c):c=uf(),t={baseLanes:t.baseLanes|a,cachePool:c}),l.memoizedState=t,l.childLanes=at(n,p,a),s.memoizedState=nt,o):($s(s),a=n.child,n=a.sibling,a=Ds(a,{mode:"visible",children:o.children}),a.return=s,a.sibling=null,n!==null&&(p=s.deletions,p===null?(s.deletions=[n],s.flags|=16):p.push(n)),s.child=a,s.memoizedState=null,a)}function ot(n,s){return s=ce({mode:"visible",children:s},n.mode),s.return=n,n.child=s}function ce(n,s){return n=as(22,n,null,s),n.lanes=0,n.stateNode={_visibility:1,_pendingMarkers:null,_retryCache:null,_transitions:null},n}function lt(n,s,a){return po(s,n.child,null,a),n=ot(s,s.pendingProps.children),n.flags|=2,s.memoizedState=null,n}function Rr(n,s,a){n.lanes|=s;var o=n.alternate;o!==null&&(o.lanes|=s),Wp(n.return,s,a)}function et(n,s,a,o,l){var e=n.memoizedState;e===null?n.memoizedState={isBackwards:s,rendering:null,renderingStartTime:0,last:o,tail:a,tailMode:l}:(e.isBackwards=s,e.rendering=null,e.renderingStartTime=0,e.last=o,e.tail=a,e.tailMode=l)}function Lr(n,s,a){var o=s.pendingProps,l=o.revealOrder,e=o.tail;if(Cn(n,s,o.children,a),o=Hn.current,(o&2)!==0)o=o&1|2,s.flags|=128;else{if(n!==null&&(n.flags&128)!==0)n:for(n=s.child;n!==null;){if(n.tag===13)n.memoizedState!==null&&Rr(n,a,s);else if(n.tag===19)Rr(n,a,s);else if(n.child!==null){n.child.return=n,n=n.child;continue}if(n===s)break n;for(;n.sibling===null;){if(n.return===null||n.return===s)break n;n=n.return}n.sibling.return=n.return,n=n.sibling}o&=1}switch(w(Hn,o),l){case"forwards":for(a=s.child,l=null;a!==null;)n=a.alternate,n!==null&&le(n)===null&&(l=a),a=a.sibling;a=l,a===null?(l=s.child,s.child=null):(l=a.sibling,a.sibling=null),et(s,!1,l,a,e);break;case"backwards":for(a=null,l=s.child,s.child=null;l!==null;){if(n=l.alternate,n!==null&&le(n)===null){s.child=l;break}n=l.sibling,l.sibling=a,a=l,l=n}et(s,!0,a,null,e);break;case"together":et(s,!1,null,null,void 0);break;default:s.memoizedState=null}return s.child}function Gs(n,s,a){if(n!==null&&(s.dependencies=n.dependencies),ea|=s.lanes,(a&s.childLanes)===0)if(n!==null){if(Go(n,s,a,!1),(a&s.childLanes)===0)return null}else return null;if(n!==null&&s.child!==n.child)throw Error(h(153));if(s.child!==null){for(n=s.child,a=Ds(n,n.pendingProps),s.child=a,a.return=s;n.sibling!==null;)n=n.sibling,a=a.sibling=Ds(n,n.pendingProps),a.return=s;a.sibling=null}return s.child}function pt(n,s){return(n.lanes&s)!==0?!0:(n=n.dependencies,!!(n!==null&&Jl(n)))}function L9(n,s,a){switch(s.tag){case 3:un(s,s.stateNode.containerInfo),_s(s,wn,n.memoizedState.cache),Io();break;case 27:case 5:Ce(s);break;case 4:un(s,s.stateNode.containerInfo);break;case 10:_s(s,s.type,s.memoizedProps.value);break;case 13:var o=s.memoizedState;if(o!==null)return o.dehydrated!==null?($s(s),s.flags|=128,null):(a&s.child.childLanes)!==0?Hr(n,s,a):($s(s),n=Gs(n,s,a),n!==null?n.sibling:null);$s(s);break;case 19:var l=(n.flags&128)!==0;if(o=(a&s.childLanes)!==0,o||(Go(n,s,a,!1),o=(a&s.childLanes)!==0),l){if(o)return Lr(n,s,a);s.flags|=128}if(l=s.memoizedState,l!==null&&(l.rendering=null,l.tail=null,l.lastEffect=null),w(Hn,Hn.current),o)break;return null;case 22:case 23:return s.lanes=0,Wr(n,s,a);case 24:_s(s,wn,n.memoizedState.cache)}return Gs(n,s,a)}function Br(n,s,a){if(n!==null)if(n.memoizedProps!==s.pendingProps)Bn=!0;else{if(!pt(n,a)&&(s.flags&128)===0)return Bn=!1,L9(n,s,a);Bn=(n.flags&131072)!==0}else Bn=!1,nn&&(s.flags&1048576)!==0&&ef(s,zl,s.index);switch(s.lanes=0,s.tag){case 16:n:{n=s.pendingProps;var o=s.elementType,l=o._init;if(o=l(o._payload),s.type=o,typeof o=="function")dp(o)?(n=Da(o,n),s.tag=1,s=vr(null,s,o,n,a)):(s.tag=0,s=$p(null,s,o,n,a));else{if(o!=null){if(l=o.$$typeof,l===kn){s.tag=11,s=Ar(null,s,o,n,a);break n}else if(l===xn){s.tag=14,s=Sr(null,s,o,n,a);break n}}throw s=ha(o)||o,Error(h(306,s,""))}}return s;case 0:return $p(n,s,s.type,s.pendingProps,a);case 1:return o=s.type,l=Da(o,s.pendingProps),vr(n,s,o,l,a);case 3:n:{if(un(s,s.stateNode.containerInfo),n===null)throw Error(h(387));o=s.pendingProps;var e=s.memoizedState;l=e.element,Lp(n,s),Po(s,o,null,a);var p=s.memoizedState;if(o=p.cache,_s(s,wn,o),o!==e.cache&&Ep(s,[wn],a,!0),xo(),o=p.element,e.isDehydrated)if(e={element:o,isDehydrated:!1,cache:p.cache},s.updateQueue.baseState=e,s.memoizedState=e,s.flags&256){s=wr(n,s,o,a);break n}else if(o!==l){l=rs(Error(h(424)),s),No(l),s=wr(n,s,o,a);break n}else{switch(n=s.stateNode.containerInfo,n.nodeType){case 9:n=n.body;break;default:n=n.nodeName==="HTML"?n.ownerDocument.body:n}for(gn=Ss(n.firstChild),Pn=s,nn=!0,va=null,Ws=!0,a=cr(s,null,o,a),s.child=a;a;)a.flags=a.flags&-3|4096,a=a.sibling}else{if(Io(),o===l){s=Gs(n,s,a);break n}Cn(n,s,o,a)}s=s.child}return s;case 26:return te(n,s),n===null?(a=k3(s.type,null,s.pendingProps,null))?s.memoizedState=a:nn||(a=s.type,n=s.pendingProps,o=We(U.current).createElement(a),o[Un]=s,o[jn]=n,Nn(o,a,n),Ln(o),s.stateNode=o):s.memoizedState=k3(s.type,n.memoizedProps,s.pendingProps,n.memoizedState),null;case 27:return Ce(s),n===null&&nn&&(o=s.stateNode=D3(s.type,s.pendingProps,U.current),Pn=s,Ws=!0,l=gn,fa(s.type)?(Ut=l,gn=Ss(o.firstChild)):gn=l),Cn(n,s,s.pendingProps.children,a),te(n,s),n===null&&(s.flags|=4194304),s.child;case 5:return n===null&&nn&&((l=o=gn)&&(o=o0(o,s.type,s.pendingProps,Ws),o!==null?(s.stateNode=o,Pn=s,gn=Ss(o.firstChild),Ws=!1,l=!0):l=!1),l||wa(s)),Ce(s),l=s.type,e=s.pendingProps,p=n!==null?n.memoizedProps:null,o=e.children,It(l,e)?o=null:p!==null&&It(l,p)&&(s.flags|=32),s.memoizedState!==null&&(l=Cp(n,s,O9,null,null,a),ul._currentValue=l),te(n,s),Cn(n,s,o,a),s.child;case 6:return n===null&&nn&&((n=a=gn)&&(a=l0(a,s.pendingProps,Ws),a!==null?(s.stateNode=a,Pn=s,gn=null,n=!0):n=!1),n||wa(s)),null;case 13:return Hr(n,s,a);case 4:return un(s,s.stateNode.containerInfo),o=s.pendingProps,n===null?s.child=po(s,null,o,a):Cn(n,s,o,a),s.child;case 11:return Ar(n,s,s.type,s.pendingProps,a);case 7:return Cn(n,s,s.pendingProps,a),s.child;case 8:return Cn(n,s,s.pendingProps.children,a),s.child;case 12:return Cn(n,s,s.pendingProps.children,a),s.child;case 10:return o=s.pendingProps,_s(s,s.type,o.value),Cn(n,s,o.children,a),s.child;case 9:return l=s.type._context,o=s.pendingProps.children,Ra(s),l=zn(l),o=o(l),s.flags|=1,Cn(n,s,o,a),s.child;case 14:return Sr(n,s,s.type,s.pendingProps,a);case 15:return Or(n,s,s.type,s.pendingProps,a);case 19:return Lr(n,s,a);case 31:return o=s.pendingProps,a=s.mode,o={mode:o.mode,children:o.children},n===null?(a=ce(o,a),a.ref=s.ref,s.child=a,a.return=s,s=a):(a=Ds(n.child,o),a.ref=s.ref,s.child=a,a.return=s,s=a),s;case 22:return Wr(n,s,a);case 24:return Ra(s),o=zn(wn),n===null?(l=wp(),l===null&&(l=yn,e=Tp(),l.pooledCache=e,e.refCount++,e!==null&&(l.pooledCacheLanes|=a),l=e),s.memoizedState={parent:o,cache:l},Rp(s),_s(s,wn,l)):((n.lanes&a)!==0&&(Lp(n,s),Po(s,null,null,a),xo()),l=n.memoizedState,e=s.memoizedState,l.parent!==o?(l={parent:o,cache:o},s.memoizedState=l,s.lanes===0&&(s.memoizedState=s.updateQueue.baseState=l),_s(s,wn,o)):(o=e.cache,_s(s,wn,o),o!==l.cache&&Ep(s,[wn],a,!0))),Cn(n,s,s.pendingProps.children,a),s.child;case 29:throw s.pendingProps}throw Error(h(156,s.tag))}function Ks(n){n.flags|=4}function Dr(n,s){if(s.type!=="stylesheet"||(s.state.loading&4)!==0)n.flags&=-16777217;else if(n.flags|=16777216,!K3(s)){if(s=bs.current,s!==null&&((X&4194048)===X?Es!==null:(X&62914560)!==X&&(X&536870912)===0||s!==Es))throw Jo=Hp,bf;n.flags|=8192}}function fe(n,s){s!==null&&(n.flags|=4),n.flags&16384&&(s=n.tag!==22?cc():536870912,n.lanes|=s,ro|=s)}function Qo(n,s){if(!nn)switch(n.tailMode){case"hidden":s=n.tail;for(var a=null;s!==null;)s.alternate!==null&&(a=s),s=s.sibling;a===null?n.tail=null:a.sibling=null;break;case"collapsed":a=n.tail;for(var o=null;a!==null;)a.alternate!==null&&(o=a),a=a.sibling;o===null?s||n.tail===null?n.tail=null:n.tail.sibling=null:o.sibling=null}}function mn(n){var s=n.alternate!==null&&n.alternate.child===n.child,a=0,o=0;if(s)for(var l=n.child;l!==null;)a|=l.lanes|l.childLanes,o|=l.subtreeFlags&65011712,o|=l.flags&65011712,l.return=n,l=l.sibling;else for(l=n.child;l!==null;)a|=l.lanes|l.childLanes,o|=l.subtreeFlags,o|=l.flags,l.return=n,l=l.sibling;return n.subtreeFlags|=o,n.childLanes=a,s}function B9(n,s,a){var o=s.pendingProps;switch(Ap(s),s.tag){case 31:case 16:case 15:case 0:case 11:case 7:case 8:case 12:case 9:case 14:return mn(s),null;case 1:return mn(s),null;case 3:return a=s.stateNode,o=null,n!==null&&(o=n.memoizedState.cache),s.memoizedState.cache!==o&&(s.flags|=2048),Cs(wn),xs(),a.pendingContext&&(a.context=a.pendingContext,a.pendingContext=null),(n===null||n.child===null)&&(Co(s)?Ks(s):n===null||n.memoizedState.isDehydrated&&(s.flags&256)===0||(s.flags|=1024,cf())),mn(s),null;case 26:return a=s.memoizedState,n===null?(Ks(s),a!==null?(mn(s),Dr(s,a)):(mn(s),s.flags&=-16777217)):a?a!==n.memoizedState?(Ks(s),mn(s),Dr(s,a)):(mn(s),s.flags&=-16777217):(n.memoizedProps!==o&&Ks(s),mn(s),s.flags&=-16777217),null;case 27:Sl(s),a=U.current;var l=s.type;if(n!==null&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(!o){if(s.stateNode===null)throw Error(h(166));return mn(s),null}n=k.current,Co(s)?pf(s):(n=D3(l,o,a),s.stateNode=n,Ks(s))}return mn(s),null;case 5:if(Sl(s),a=s.type,n!==null&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(!o){if(s.stateNode===null)throw Error(h(166));return mn(s),null}if(n=k.current,Co(s))pf(s);else{switch(l=We(U.current),n){case 1:n=l.createElementNS("http://www.w3.org/2000/svg",a);break;case 2:n=l.createElementNS("http://www.w3.org/1998/Math/MathML",a);break;default:switch(a){case"svg":n=l.createElementNS("http://www.w3.org/2000/svg",a);break;case"math":n=l.createElementNS("http://www.w3.org/1998/Math/MathML",a);break;case"script":n=l.createElement("div"),n.innerHTML="<script><\/script>",n=n.removeChild(n.firstChild);break;case"select":n=typeof o.is=="string"?l.createElement("select",{is:o.is}):l.createElement("select"),o.multiple?n.multiple=!0:o.size&&(n.size=o.size);break;default:n=typeof o.is=="string"?l.createElement(a,{is:o.is}):l.createElement(a)}}n[Un]=s,n[jn]=o;n:for(l=s.child;l!==null;){if(l.tag===5||l.tag===6)n.appendChild(l.stateNode);else if(l.tag!==4&&l.tag!==27&&l.child!==null){l.child.return=l,l=l.child;continue}if(l===s)break n;for(;l.sibling===null;){if(l.return===null||l.return===s)break n;l=l.return}l.sibling.return=l.return,l=l.sibling}s.stateNode=n;n:switch(Nn(n,a,o),a){case"button":case"input":case"select":case"textarea":n=!!o.autoFocus;break n;case"img":n=!0;break n;default:n=!1}n&&Ks(s)}}return mn(s),s.flags&=-16777217,null;case 6:if(n&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(typeof o!="string"&&s.stateNode===null)throw Error(h(166));if(n=U.current,Co(s)){if(n=s.stateNode,a=s.memoizedProps,o=null,l=Pn,l!==null)switch(l.tag){case 27:case 5:o=l.memoizedProps}n[Un]=s,n=!!(n.nodeValue===a||o!==null&&o.suppressHydrationWarning===!0||T3(n.nodeValue,a)),n||wa(s)}else n=We(n).createTextNode(o),n[Un]=s,s.stateNode=n}return mn(s),null;case 13:if(o=s.memoizedState,n===null||n.memoizedState!==null&&n.memoizedState.dehydrated!==null){if(l=Co(s),o!==null&&o.dehydrated!==null){if(n===null){if(!l)throw Error(h(318));if(l=s.memoizedState,l=l!==null?l.dehydrated:null,!l)throw Error(h(317));l[Un]=s}else Io(),(s.flags&128)===0&&(s.memoizedState=null),s.flags|=4;mn(s),l=!1}else l=cf(),n!==null&&n.memoizedState!==null&&(n.memoizedState.hydrationErrors=l),l=!0;if(!l)return s.flags&256?(Ns(s),s):(Ns(s),null)}if(Ns(s),(s.flags&128)!==0)return s.lanes=a,s;if(a=o!==null,n=n!==null&&n.memoizedState!==null,a){o=s.child,l=null,o.alternate!==null&&o.alternate.memoizedState!==null&&o.alternate.memoizedState.cachePool!==null&&(l=o.alternate.memoizedState.cachePool.pool);var e=null;o.memoizedState!==null&&o.memoizedState.cachePool!==null&&(e=o.memoizedState.cachePool.pool),e!==l&&(o.flags|=2048)}return a!==n&&a&&(s.child.flags|=8192),fe(s,s.updateQueue),mn(s),null;case 4:return xs(),n===null&&Dt(s.stateNode.containerInfo),mn(s),null;case 10:return Cs(s.type),mn(s),null;case 19:if(R(Hn),l=s.memoizedState,l===null)return mn(s),null;if(o=(s.flags&128)!==0,e=l.rendering,e===null)if(o)Qo(l,!1);else{if(An!==0||n!==null&&(n.flags&128)!==0)for(n=s.child;n!==null;){if(e=le(n),e!==null){for(s.flags|=128,Qo(l,!1),n=e.updateQueue,s.updateQueue=n,fe(s,n),s.subtreeFlags=0,n=a,a=s.child;a!==null;)lf(a,n),a=a.sibling;return w(Hn,Hn.current&1|2),s.child}n=n.sibling}l.tail!==null&&Os()>ie&&(s.flags|=128,o=!0,Qo(l,!1),s.lanes=4194304)}else{if(!o)if(n=le(e),n!==null){if(s.flags|=128,o=!0,n=n.updateQueue,s.updateQueue=n,fe(s,n),Qo(l,!0),l.tail===null&&l.tailMode==="hidden"&&!e.alternate&&!nn)return mn(s),null}else 2*Os()-l.renderingStartTime>ie&&a!==536870912&&(s.flags|=128,o=!0,Qo(l,!1),s.lanes=4194304);l.isBackwards?(e.sibling=s.child,s.child=e):(n=l.last,n!==null?n.sibling=e:s.child=e,l.last=e)}return l.tail!==null?(s=l.tail,l.rendering=s,l.tail=s.sibling,l.renderingStartTime=Os(),s.sibling=null,n=Hn.current,w(Hn,o?n&1|2:n&1),s):(mn(s),null);case 22:case 23:return Ns(s),Yp(),o=s.memoizedState!==null,n!==null?n.memoizedState!==null!==o&&(s.flags|=8192):o&&(s.flags|=8192),o?(a&536870912)!==0&&(s.flags&128)===0&&(mn(s),s.subtreeFlags&6&&(s.flags|=8192)):mn(s),a=s.updateQueue,a!==null&&fe(s,a.retryQueue),a=null,n!==null&&n.memoizedState!==null&&n.memoizedState.cachePool!==null&&(a=n.memoizedState.cachePool.pool),o=null,s.memoizedState!==null&&s.memoizedState.cachePool!==null&&(o=s.memoizedState.cachePool.pool),o!==a&&(s.flags|=2048),n!==null&&R(La),null;case 24:return a=null,n!==null&&(a=n.memoizedState.cache),s.memoizedState.cache!==a&&(s.flags|=2048),Cs(wn),mn(s),null;case 25:return null;case 30:return null}throw Error(h(156,s.tag))}function D9(n,s){switch(Ap(s),s.tag){case 1:return n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 3:return Cs(wn),xs(),n=s.flags,(n&65536)!==0&&(n&128)===0?(s.flags=n&-65537|128,s):null;case 26:case 27:case 5:return Sl(s),null;case 13:if(Ns(s),n=s.memoizedState,n!==null&&n.dehydrated!==null){if(s.alternate===null)throw Error(h(340));Io()}return n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 19:return R(Hn),null;case 4:return xs(),null;case 10:return Cs(s.type),null;case 22:case 23:return Ns(s),Yp(),n!==null&&R(La),n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 24:return Cs(wn),null;case 25:return null;default:return null}}function Mr(n,s){switch(Ap(s),s.tag){case 3:Cs(wn),xs();break;case 26:case 27:case 5:Sl(s);break;case 4:xs();break;case 13:Ns(s);break;case 19:R(Hn);break;case 10:Cs(s.type);break;case 22:case 23:Ns(s),Yp(),n!==null&&R(La);break;case 24:Cs(wn)}}function $o(n,s){try{var a=s.updateQueue,o=a!==null?a.lastEffect:null;if(o!==null){var l=o.next;a=l;do{if((a.tag&n)===n){o=void 0;var e=a.create,p=a.inst;o=e(),p.destroy=o}a=a.next}while(a!==l)}}catch(t){fn(s,s.return,t)}}function sa(n,s,a){try{var o=s.updateQueue,l=o!==null?o.lastEffect:null;if(l!==null){var e=l.next;o=e;do{if((o.tag&n)===n){var p=o.inst,t=p.destroy;if(t!==void 0){p.destroy=void 0,l=s;var c=a,u=t;try{u()}catch(m){fn(l,c,m)}}}o=o.next}while(o!==e)}}catch(m){fn(s,s.return,m)}}function Yr(n){var s=n.updateQueue;if(s!==null){var a=n.stateNode;try{Sf(s,a)}catch(o){fn(n,n.return,o)}}}function kr(n,s,a){a.props=Da(n.type,n.memoizedProps),a.state=n.memoizedState;try{a.componentWillUnmount()}catch(o){fn(n,s,o)}}function nl(n,s){try{var a=n.ref;if(a!==null){switch(n.tag){case 26:case 27:case 5:var o=n.stateNode;break;case 30:o=n.stateNode;break;default:o=n.stateNode}typeof a=="function"?n.refCleanup=a(o):a.current=o}}catch(l){fn(n,s,l)}}function Ts(n,s){var a=n.ref,o=n.refCleanup;if(a!==null)if(typeof o=="function")try{o()}catch(l){fn(n,s,l)}finally{n.refCleanup=null,n=n.alternate,n!=null&&(n.refCleanup=null)}else if(typeof a=="function")try{a(null)}catch(l){fn(n,s,l)}else a.current=null}function Cr(n){var s=n.type,a=n.memoizedProps,o=n.stateNode;try{n:switch(s){case"button":case"input":case"select":case"textarea":a.autoFocus&&o.focus();break n;case"img":a.src?o.src=a.src:a.srcSet&&(o.srcset=a.srcSet)}}catch(l){fn(n,n.return,l)}}function tt(n,s,a){try{var o=n.stateNode;Q9(o,n.type,a,s),o[jn]=s}catch(l){fn(n,n.return,l)}}function Ir(n){return n.tag===5||n.tag===3||n.tag===26||n.tag===27&&fa(n.type)||n.tag===4}function ct(n){n:for(;;){for(;n.sibling===null;){if(n.return===null||Ir(n.return))return null;n=n.return}for(n.sibling.return=n.return,n=n.sibling;n.tag!==5&&n.tag!==6&&n.tag!==18;){if(n.tag===27&&fa(n.type)||n.flags&2||n.child===null||n.tag===4)continue n;n.child.return=n,n=n.child}if(!(n.flags&2))return n.stateNode}}function ft(n,s,a){var o=n.tag;if(o===5||o===6)n=n.stateNode,s?(a.nodeType===9?a.body:a.nodeName==="HTML"?a.ownerDocument.body:a).insertBefore(n,s):(s=a.nodeType===9?a.body:a.nodeName==="HTML"?a.ownerDocument.body:a,s.appendChild(n),a=a._reactRootContainer,a!=null||s.onclick!==null||(s.onclick=Oe));else if(o!==4&&(o===27&&fa(n.type)&&(a=n.stateNode,s=null),n=n.child,n!==null))for(ft(n,s,a),n=n.sibling;n!==null;)ft(n,s,a),n=n.sibling}function re(n,s,a){var o=n.tag;if(o===5||o===6)n=n.stateNode,s?a.insertBefore(n,s):a.appendChild(n);else if(o!==4&&(o===27&&fa(n.type)&&(a=n.stateNode),n=n.child,n!==null))for(re(n,s,a),n=n.sibling;n!==null;)re(n,s,a),n=n.sibling}function Nr(n){var s=n.stateNode,a=n.memoizedProps;try{for(var o=n.type,l=s.attributes;l.length;)s.removeAttributeNode(l[0]);Nn(s,o,a),s[Un]=n,s[jn]=a}catch(e){fn(n,n.return,e)}}var Us=!1,Wn=!1,rt=!1,Gr=typeof WeakSet=="function"?WeakSet:Set,Dn=null;function M9(n,s){if(n=n.containerInfo,kt=Re,n=_c(n),cp(n)){if("selectionStart"in n)var a={start:n.selectionStart,end:n.selectionEnd};else n:{a=(a=n.ownerDocument)&&a.defaultView||window;var o=a.getSelection&&a.getSelection();if(o&&o.rangeCount!==0){a=o.anchorNode;var l=o.anchorOffset,e=o.focusNode;o=o.focusOffset;try{a.nodeType,e.nodeType}catch{a=null;break n}var p=0,t=-1,c=-1,u=0,m=0,O=n,b=null;s:for(;;){for(var d;O!==a||l!==0&&O.nodeType!==3||(t=p+l),O!==e||o!==0&&O.nodeType!==3||(c=p+o),O.nodeType===3&&(p+=O.nodeValue.length),(d=O.firstChild)!==null;)b=O,O=d;for(;;){if(O===n)break s;if(b===a&&++u===l&&(t=p),b===e&&++m===o&&(c=p),(d=O.nextSibling)!==null)break;O=b,b=O.parentNode}O=d}a=t===-1||c===-1?null:{start:t,end:c}}else a=null}a=a||{start:0,end:0}}else a=null;for(Ct={focusedElem:n,selectionRange:a},Re=!1,Dn=s;Dn!==null;)if(s=Dn,n=s.child,(s.subtreeFlags&1024)!==0&&n!==null)n.return=s,Dn=n;else for(;Dn!==null;){switch(s=Dn,e=s.alternate,n=s.flags,s.tag){case 0:break;case 11:case 15:break;case 1:if((n&1024)!==0&&e!==null){n=void 0,a=s,l=e.memoizedProps,e=e.memoizedState,o=a.stateNode;try{var G=Da(a.type,l,a.elementType===a.type);n=o.getSnapshotBeforeUpdate(G,e),o.__reactInternalSnapshotBeforeUpdate=n}catch(C){fn(a,a.return,C)}}break;case 3:if((n&1024)!==0){if(n=s.stateNode.containerInfo,a=n.nodeType,a===9)Gt(n);else if(a===1)switch(n.nodeName){case"HEAD":case"HTML":case"BODY":Gt(n);break;default:n.textContent=""}}break;case 5:case 26:case 27:case 6:case 4:case 17:break;default:if((n&1024)!==0)throw Error(h(163))}if(n=s.sibling,n!==null){n.return=s.return,Dn=n;break}Dn=s.return}}function Kr(n,s,a){var o=a.flags;switch(a.tag){case 0:case 11:case 15:aa(n,a),o&4&&$o(5,a);break;case 1:if(aa(n,a),o&4)if(n=a.stateNode,s===null)try{n.componentDidMount()}catch(p){fn(a,a.return,p)}else{var l=Da(a.type,s.memoizedProps);s=s.memoizedState;try{n.componentDidUpdate(l,s,n.__reactInternalSnapshotBeforeUpdate)}catch(p){fn(a,a.return,p)}}o&64&&Yr(a),o&512&&nl(a,a.return);break;case 3:if(aa(n,a),o&64&&(n=a.updateQueue,n!==null)){if(s=null,a.child!==null)switch(a.child.tag){case 27:case 5:s=a.child.stateNode;break;case 1:s=a.child.stateNode}try{Sf(n,s)}catch(p){fn(a,a.return,p)}}break;case 27:s===null&&o&4&&Nr(a);case 26:case 5:aa(n,a),s===null&&o&4&&Cr(a),o&512&&nl(a,a.return);break;case 12:aa(n,a);break;case 13:aa(n,a),o&4&&Jr(n,a),o&64&&(n=a.memoizedState,n!==null&&(n=n.dehydrated,n!==null&&(a=z9.bind(null,a),e0(n,a))));break;case 22:if(o=a.memoizedState!==null||Us,!o){s=s!==null&&s.memoizedState!==null||Wn,l=Us;var e=Wn;Us=o,(Wn=s)&&!e?oa(n,a,(a.subtreeFlags&8772)!==0):aa(n,a),Us=l,Wn=e}break;case 30:break;default:aa(n,a)}}function Ur(n){var s=n.alternate;s!==null&&(n.alternate=null,Ur(s)),n.child=null,n.deletions=null,n.sibling=null,n.tag===5&&(s=n.stateNode,s!==null&&Ve(s)),n.stateNode=null,n.return=null,n.dependencies=null,n.memoizedProps=null,n.memoizedState=null,n.pendingProps=null,n.stateNode=null,n.updateQueue=null}var bn=null,qn=!1;function zs(n,s,a){for(a=a.child;a!==null;)zr(n,s,a),a=a.sibling}function zr(n,s,a){if($n&&typeof $n.onCommitFiberUnmount=="function")try{$n.onCommitFiberUnmount(Oo,a)}catch{}switch(a.tag){case 26:Wn||Ts(a,s),zs(n,s,a),a.memoizedState?a.memoizedState.count--:a.stateNode&&(a=a.stateNode,a.parentNode.removeChild(a));break;case 27:Wn||Ts(a,s);var o=bn,l=qn;fa(a.type)&&(bn=a.stateNode,qn=!1),zs(n,s,a),fl(a.stateNode),bn=o,qn=l;break;case 5:Wn||Ts(a,s);case 6:if(o=bn,l=qn,bn=null,zs(n,s,a),bn=o,qn=l,bn!==null)if(qn)try{(bn.nodeType===9?bn.body:bn.nodeName==="HTML"?bn.ownerDocument.body:bn).removeChild(a.stateNode)}catch(e){fn(a,s,e)}else try{bn.removeChild(a.stateNode)}catch(e){fn(a,s,e)}break;case 18:bn!==null&&(qn?(n=bn,L3(n.nodeType===9?n.body:n.nodeName==="HTML"?n.ownerDocument.body:n,a.stateNode),ml(n)):L3(bn,a.stateNode));break;case 4:o=bn,l=qn,bn=a.stateNode.containerInfo,qn=!0,zs(n,s,a),bn=o,qn=l;break;case 0:case 11:case 14:case 15:Wn||sa(2,a,s),Wn||sa(4,a,s),zs(n,s,a);break;case 1:Wn||(Ts(a,s),o=a.stateNode,typeof o.componentWillUnmount=="function"&&kr(a,s,o)),zs(n,s,a);break;case 21:zs(n,s,a);break;case 22:Wn=(o=Wn)||a.memoizedState!==null,zs(n,s,a),Wn=o;break;default:zs(n,s,a)}}function Jr(n,s){if(s.memoizedState===null&&(n=s.alternate,n!==null&&(n=n.memoizedState,n!==null&&(n=n.dehydrated,n!==null))))try{ml(n)}catch(a){fn(s,s.return,a)}}function Y9(n){switch(n.tag){case 13:case 19:var s=n.stateNode;return s===null&&(s=n.stateNode=new Gr),s;case 22:return n=n.stateNode,s=n._retryCache,s===null&&(s=n._retryCache=new Gr),s;default:throw Error(h(435,n.tag))}}function yt(n,s){var a=Y9(n);s.forEach(function(o){var l=J9.bind(null,n,o);a.has(o)||(a.add(o),o.then(l,l))})}function os(n,s){var a=s.deletions;if(a!==null)for(var o=0;o<a.length;o++){var l=a[o],e=n,p=s,t=p;n:for(;t!==null;){switch(t.tag){case 27:if(fa(t.type)){bn=t.stateNode,qn=!1;break n}break;case 5:bn=t.stateNode,qn=!1;break n;case 3:case 4:bn=t.stateNode.containerInfo,qn=!0;break n}t=t.return}if(bn===null)throw Error(h(160));zr(e,p,l),bn=null,qn=!1,e=l.alternate,e!==null&&(e.return=null),l.return=null}if(s.subtreeFlags&13878)for(s=s.child;s!==null;)Vr(s,n),s=s.sibling}var As=null;function Vr(n,s){var a=n.alternate,o=n.flags;switch(n.tag){case 0:case 11:case 14:case 15:os(s,n),ls(n),o&4&&(sa(3,n,n.return),$o(3,n),sa(5,n,n.return));break;case 1:os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),o&64&&Us&&(n=n.updateQueue,n!==null&&(o=n.callbacks,o!==null&&(a=n.shared.hiddenCallbacks,n.shared.hiddenCallbacks=a===null?o:a.concat(o))));break;case 26:var l=As;if(os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),o&4){var e=a!==null?a.memoizedState:null;if(o=n.memoizedState,a===null)if(o===null)if(n.stateNode===null){n:{o=n.type,a=n.memoizedProps,l=l.ownerDocument||l;s:switch(o){case"title":e=l.getElementsByTagName("title")[0],(!e||e[To]||e[Un]||e.namespaceURI==="http://www.w3.org/2000/svg"||e.hasAttribute("itemprop"))&&(e=l.createElement(o),l.head.insertBefore(e,l.querySelector("head > title"))),Nn(e,o,a),e[Un]=n,Ln(e),o=e;break n;case"link":var p=N3("link","href",l).get(o+(a.href||""));if(p){for(var t=0;t<p.length;t++)if(e=p[t],e.getAttribute("href")===(a.href==null||a.href===""?null:a.href)&&e.getAttribute("rel")===(a.rel==null?null:a.rel)&&e.getAttribute("title")===(a.title==null?null:a.title)&&e.getAttribute("crossorigin")===(a.crossOrigin==null?null:a.crossOrigin)){p.splice(t,1);break s}}e=l.createElement(o),Nn(e,o,a),l.head.appendChild(e);break;case"meta":if(p=N3("meta","content",l).get(o+(a.content||""))){for(t=0;t<p.length;t++)if(e=p[t],e.getAttribute("content")===(a.content==null?null:""+a.content)&&e.getAttribute("name")===(a.name==null?null:a.name)&&e.getAttribute("property")===(a.property==null?null:a.property)&&e.getAttribute("http-equiv")===(a.httpEquiv==null?null:a.httpEquiv)&&e.getAttribute("charset")===(a.charSet==null?null:a.charSet)){p.splice(t,1);break s}}e=l.createElement(o),Nn(e,o,a),l.head.appendChild(e);break;default:throw Error(h(468,o))}e[Un]=n,Ln(e),o=e}n.stateNode=o}else G3(l,n.type,n.stateNode);else n.stateNode=I3(l,o,n.memoizedProps);else e!==o?(e===null?a.stateNode!==null&&(a=a.stateNode,a.parentNode.removeChild(a)):e.count--,o===null?G3(l,n.type,n.stateNode):I3(l,o,n.memoizedProps)):o===null&&n.stateNode!==null&&tt(n,n.memoizedProps,a.memoizedProps)}break;case 27:os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),a!==null&&o&4&&tt(n,n.memoizedProps,a.memoizedProps);break;case 5:if(os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),n.flags&32){l=n.stateNode;try{Ja(l,"")}catch(d){fn(n,n.return,d)}}o&4&&n.stateNode!=null&&(l=n.memoizedProps,tt(n,l,a!==null?a.memoizedProps:l)),o&1024&&(rt=!0);break;case 6:if(os(s,n),ls(n),o&4){if(n.stateNode===null)throw Error(h(162));o=n.memoizedProps,a=n.stateNode;try{a.nodeValue=o}catch(d){fn(n,n.return,d)}}break;case 3:if(ve=null,l=As,As=Ee(s.containerInfo),os(s,n),As=l,ls(n),o&4&&a!==null&&a.memoizedState.isDehydrated)try{ml(s.containerInfo)}catch(d){fn(n,n.return,d)}rt&&(rt=!1,xr(n));break;case 4:o=As,As=Ee(n.stateNode.containerInfo),os(s,n),ls(n),As=o;break;case 12:os(s,n),ls(n);break;case 13:os(s,n),ls(n),n.child.flags&8192&&n.memoizedState!==null!=(a!==null&&a.memoizedState!==null)&&(mt=Os()),o&4&&(o=n.updateQueue,o!==null&&(n.updateQueue=null,yt(n,o)));break;case 22:l=n.memoizedState!==null;var c=a!==null&&a.memoizedState!==null,u=Us,m=Wn;if(Us=u||l,Wn=m||c,os(s,n),Wn=m,Us=u,ls(n),o&8192)n:for(s=n.stateNode,s._visibility=l?s._visibility&-2:s._visibility|1,l&&(a===null||c||Us||Wn||Ma(n)),a=null,s=n;;){if(s.tag===5||s.tag===26){if(a===null){c=a=s;try{if(e=c.stateNode,l)p=e.style,typeof p.setProperty=="function"?p.setProperty("display","none","important"):p.display="none";else{t=c.stateNode;var O=c.memoizedProps.style,b=O!=null&&O.hasOwnProperty("display")?O.display:null;t.style.display=b==null||typeof b=="boolean"?"":(""+b).trim()}}catch(d){fn(c,c.return,d)}}}else if(s.tag===6){if(a===null){c=s;try{c.stateNode.nodeValue=l?"":c.memoizedProps}catch(d){fn(c,c.return,d)}}}else if((s.tag!==22&&s.tag!==23||s.memoizedState===null||s===n)&&s.child!==null){s.child.return=s,s=s.child;continue}if(s===n)break n;for(;s.sibling===null;){if(s.return===null||s.return===n)break n;a===s&&(a=null),s=s.return}a===s&&(a=null),s.sibling.return=s.return,s=s.sibling}o&4&&(o=n.updateQueue,o!==null&&(a=o.retryQueue,a!==null&&(o.retryQueue=null,yt(n,a))));break;case 19:os(s,n),ls(n),o&4&&(o=n.updateQueue,o!==null&&(n.updateQueue=null,yt(n,o)));break;case 30:break;case 21:break;default:os(s,n),ls(n)}}function ls(n){var s=n.flags;if(s&2){try{for(var a,o=n.return;o!==null;){if(Ir(o)){a=o;break}o=o.return}if(a==null)throw Error(h(160));switch(a.tag){case 27:var l=a.stateNode,e=ct(n);re(n,e,l);break;case 5:var p=a.stateNode;a.flags&32&&(Ja(p,""),a.flags&=-33);var t=ct(n);re(n,t,p);break;case 3:case 4:var c=a.stateNode.containerInfo,u=ct(n);ft(n,u,c);break;default:throw Error(h(161))}}catch(m){fn(n,n.return,m)}n.flags&=-3}s&4096&&(n.flags&=-4097)}function xr(n){if(n.subtreeFlags&1024)for(n=n.child;n!==null;){var s=n;xr(s),s.tag===5&&s.flags&1024&&s.stateNode.reset(),n=n.sibling}}function aa(n,s){if(s.subtreeFlags&8772)for(s=s.child;s!==null;)Kr(n,s.alternate,s),s=s.sibling}function Ma(n){for(n=n.child;n!==null;){var s=n;switch(s.tag){case 0:case 11:case 14:case 15:sa(4,s,s.return),Ma(s);break;case 1:Ts(s,s.return);var a=s.stateNode;typeof a.componentWillUnmount=="function"&&kr(s,s.return,a),Ma(s);break;case 27:fl(s.stateNode);case 26:case 5:Ts(s,s.return),Ma(s);break;case 22:s.memoizedState===null&&Ma(s);break;case 30:Ma(s);break;default:Ma(s)}n=n.sibling}}function oa(n,s,a){for(a=a&&(s.subtreeFlags&8772)!==0,s=s.child;s!==null;){var o=s.alternate,l=n,e=s,p=e.flags;switch(e.tag){case 0:case 11:case 15:oa(l,e,a),$o(4,e);break;case 1:if(oa(l,e,a),o=e,l=o.stateNode,typeof l.componentDidMount=="function")try{l.componentDidMount()}catch(u){fn(o,o.return,u)}if(o=e,l=o.updateQueue,l!==null){var t=o.stateNode;try{var c=l.shared.hiddenCallbacks;if(c!==null)for(l.shared.hiddenCallbacks=null,l=0;l<c.length;l++)Af(c[l],t)}catch(u){fn(o,o.return,u)}}a&&p&64&&Yr(e),nl(e,e.return);break;case 27:Nr(e);case 26:case 5:oa(l,e,a),a&&o===null&&p&4&&Cr(e),nl(e,e.return);break;case 12:oa(l,e,a);break;case 13:oa(l,e,a),a&&p&4&&Jr(l,e);break;case 22:e.memoizedState===null&&oa(l,e,a),nl(e,e.return);break;case 30:break;default:oa(l,e,a)}s=s.sibling}}function it(n,s){var a=null;n!==null&&n.memoizedState!==null&&n.memoizedState.cachePool!==null&&(a=n.memoizedState.cachePool.pool),n=null,s.memoizedState!==null&&s.memoizedState.cachePool!==null&&(n=s.memoizedState.cachePool.pool),n!==a&&(n!=null&&n.refCount++,a!=null&&Ko(a))}function ut(n,s){n=null,s.alternate!==null&&(n=s.alternate.memoizedState.cache),s=s.memoizedState.cache,s!==n&&(s.refCount++,n!=null&&Ko(n))}function vs(n,s,a,o){if(s.subtreeFlags&10256)for(s=s.child;s!==null;)Pr(n,s,a,o),s=s.sibling}function Pr(n,s,a,o){var l=s.flags;switch(s.tag){case 0:case 11:case 15:vs(n,s,a,o),l&2048&&$o(9,s);break;case 1:vs(n,s,a,o);break;case 3:vs(n,s,a,o),l&2048&&(n=null,s.alternate!==null&&(n=s.alternate.memoizedState.cache),s=s.memoizedState.cache,s!==n&&(s.refCount++,n!=null&&Ko(n)));break;case 12:if(l&2048){vs(n,s,a,o),n=s.stateNode;try{var e=s.memoizedProps,p=e.id,t=e.onPostCommit;typeof t=="function"&&t(p,s.alternate===null?"mount":"update",n.passiveEffectDuration,-0)}catch(c){fn(s,s.return,c)}}else vs(n,s,a,o);break;case 13:vs(n,s,a,o);break;case 23:break;case 22:e=s.stateNode,p=s.alternate,s.memoizedState!==null?e._visibility&2?vs(n,s,a,o):sl(n,s):e._visibility&2?vs(n,s,a,o):(e._visibility|=2,to(n,s,a,o,(s.subtreeFlags&10256)!==0)),l&2048&&it(p,s);break;case 24:vs(n,s,a,o),l&2048&&ut(s.alternate,s);break;default:vs(n,s,a,o)}}function to(n,s,a,o,l){for(l=l&&(s.subtreeFlags&10256)!==0,s=s.child;s!==null;){var e=n,p=s,t=a,c=o,u=p.flags;switch(p.tag){case 0:case 11:case 15:to(e,p,t,c,l),$o(8,p);break;case 23:break;case 22:var m=p.stateNode;p.memoizedState!==null?m._visibility&2?to(e,p,t,c,l):sl(e,p):(m._visibility|=2,to(e,p,t,c,l)),l&&u&2048&&it(p.alternate,p);break;case 24:to(e,p,t,c,l),l&&u&2048&&ut(p.alternate,p);break;default:to(e,p,t,c,l)}s=s.sibling}}function sl(n,s){if(s.subtreeFlags&10256)for(s=s.child;s!==null;){var a=n,o=s,l=o.flags;switch(o.tag){case 22:sl(a,o),l&2048&&it(o.alternate,o);break;case 24:sl(a,o),l&2048&&ut(o.alternate,o);break;default:sl(a,o)}s=s.sibling}}var al=8192;function co(n){if(n.subtreeFlags&al)for(n=n.child;n!==null;)jr(n),n=n.sibling}function jr(n){switch(n.tag){case 26:co(n),n.flags&al&&n.memoizedState!==null&&g0(As,n.memoizedState,n.memoizedProps);break;case 5:co(n);break;case 3:case 4:var s=As;As=Ee(n.stateNode.containerInfo),co(n),As=s;break;case 22:n.memoizedState===null&&(s=n.alternate,s!==null&&s.memoizedState!==null?(s=al,al=16777216,co(n),al=s):co(n));break;default:co(n)}}function Fr(n){var s=n.alternate;if(s!==null&&(n=s.child,n!==null)){s.child=null;do s=n.sibling,n.sibling=null,n=s;while(n!==null)}}function ol(n){var s=n.deletions;if((n.flags&16)!==0){if(s!==null)for(var a=0;a<s.length;a++){var o=s[a];Dn=o,qr(o,n)}Fr(n)}if(n.subtreeFlags&10256)for(n=n.child;n!==null;)_r(n),n=n.sibling}function _r(n){switch(n.tag){case 0:case 11:case 15:ol(n),n.flags&2048&&sa(9,n,n.return);break;case 3:ol(n);break;case 12:ol(n);break;case 22:var s=n.stateNode;n.memoizedState!==null&&s._visibility&2&&(n.return===null||n.return.tag!==13)?(s._visibility&=-3,ye(n)):ol(n);break;default:ol(n)}}function ye(n){var s=n.deletions;if((n.flags&16)!==0){if(s!==null)for(var a=0;a<s.length;a++){var o=s[a];Dn=o,qr(o,n)}Fr(n)}for(n=n.child;n!==null;){switch(s=n,s.tag){case 0:case 11:case 15:sa(8,s,s.return),ye(s);break;case 22:a=s.stateNode,a._visibility&2&&(a._visibility&=-3,ye(s));break;default:ye(s)}n=n.sibling}}function qr(n,s){for(;Dn!==null;){var a=Dn;switch(a.tag){case 0:case 11:case 15:sa(8,a,s);break;case 23:case 22:if(a.memoizedState!==null&&a.memoizedState.cachePool!==null){var o=a.memoizedState.cachePool.pool;o!=null&&o.refCount++}break;case 24:Ko(a.memoizedState.cache)}if(o=a.child,o!==null)o.return=a,Dn=o;else n:for(a=n;Dn!==null;){o=Dn;var l=o.sibling,e=o.return;if(Ur(o),o===a){Dn=null;break n}if(l!==null){l.return=e,Dn=l;break n}Dn=e}}}var k9={getCacheForType:function(n){var s=zn(wn),a=s.data.get(n);return a===void 0&&(a=n(),s.data.set(n,a)),a}},C9=typeof WeakMap=="function"?WeakMap:Map,sn=0,yn=null,P=null,X=0,an=0,es=null,la=!1,fo=!1,bt=!1,Js=0,An=0,ea=0,Ya=0,dt=0,ds=0,ro=0,ll=null,Xn=null,ht=!1,mt=0,ie=1/0,ue=null,pa=null,In=0,ta=null,yo=null,io=0,gt=0,At=null,Xr=null,el=0,St=null;function ps(){if((sn&2)!==0&&X!==0)return X&-X;if(g.T!==null){var n=$a;return n!==0?n:Ht()}return yc()}function Zr(){ds===0&&(ds=(X&536870912)===0||nn?tc():536870912);var n=bs.current;return n!==null&&(n.flags|=32),ds}function ts(n,s,a){(n===yn&&(an===2||an===9)||n.cancelPendingCommit!==null)&&(uo(n,0),ca(n,X,ds,!1)),Eo(n,a),((sn&2)===0||n!==yn)&&(n===yn&&((sn&2)===0&&(Ya|=a),An===4&&ca(n,X,ds,!1)),ws(n))}function Qr(n,s,a){if((sn&6)!==0)throw Error(h(327));var o=!a&&(s&124)===0&&(s&n.expiredLanes)===0||Wo(n,s),l=o?G9(n,s):Et(n,s,!0),e=o;do{if(l===0){fo&&!o&&ca(n,s,0,!1);break}else{if(a=n.current.alternate,e&&!I9(a)){l=Et(n,s,!1),e=!1;continue}if(l===2){if(e=s,n.errorRecoveryDisabledLanes&e)var p=0;else p=n.pendingLanes&-536870913,p=p!==0?p:p&536870912?536870912:0;if(p!==0){s=p;n:{var t=n;l=ll;var c=t.current.memoizedState.isDehydrated;if(c&&(uo(t,p).flags|=256),p=Et(t,p,!1),p!==2){if(bt&&!c){t.errorRecoveryDisabledLanes|=e,Ya|=e,l=4;break n}e=Xn,Xn=l,e!==null&&(Xn===null?Xn=e:Xn.push.apply(Xn,e))}l=p}if(e=!1,l!==2)continue}}if(l===1){uo(n,0),ca(n,s,0,!0);break}n:{switch(o=n,e=l,e){case 0:case 1:throw Error(h(345));case 4:if((s&4194048)!==s)break;case 6:ca(o,s,ds,!la);break n;case 2:Xn=null;break;case 3:case 5:break;default:throw Error(h(329))}if((s&62914560)===s&&(l=mt+300-Os(),10<l)){if(ca(o,s,ds,!la),Tl(o,0,!0)!==0)break n;o.timeoutHandle=H3($r.bind(null,o,a,Xn,ue,ht,s,ds,Ya,ro,la,e,2,-0,0),l);break n}$r(o,a,Xn,ue,ht,s,ds,Ya,ro,la,e,0,-0,0)}}break}while(!0);ws(n)}function $r(n,s,a,o,l,e,p,t,c,u,m,O,b,d){if(n.timeoutHandle=-1,O=s.subtreeFlags,(O&8192||(O&16785408)===16785408)&&(il={stylesheets:null,count:0,unsuspend:m0},jr(s),O=A0(),O!==null)){n.cancelPendingCommit=O(p3.bind(null,n,s,e,a,o,l,p,t,c,m,1,b,d)),ca(n,e,p,!u);return}p3(n,s,e,a,o,l,p,t,c)}function I9(n){for(var s=n;;){var a=s.tag;if((a===0||a===11||a===15)&&s.flags&16384&&(a=s.updateQueue,a!==null&&(a=a.stores,a!==null)))for(var o=0;o<a.length;o++){var l=a[o],e=l.getSnapshot;l=l.value;try{if(!ss(e(),l))return!1}catch{return!1}}if(a=s.child,s.subtreeFlags&16384&&a!==null)a.return=s,s=a;else{if(s===n)break;for(;s.sibling===null;){if(s.return===null||s.return===n)return!0;s=s.return}s.sibling.return=s.return,s=s.sibling}}return!0}function ca(n,s,a,o){s&=~dt,s&=~Ya,n.suspendedLanes|=s,n.pingedLanes&=~s,o&&(n.warmLanes|=s),o=n.expirationTimes;for(var l=s;0<l;){var e=31-ns(l),p=1<<e;o[e]=-1,l&=~p}a!==0&&fc(n,a,s)}function be(){return(sn&6)===0?(pl(0),!1):!0}function Ot(){if(P!==null){if(an===0)var n=P.return;else n=P,ks=Ha=null,Gp(n),eo=null,Xo=0,n=P;for(;n!==null;)Mr(n.alternate,n),n=n.return;P=null}}function uo(n,s){var a=n.timeoutHandle;a!==-1&&(n.timeoutHandle=-1,n0(a)),a=n.cancelPendingCommit,a!==null&&(n.cancelPendingCommit=null,a()),Ot(),yn=n,P=a=Ds(n.current,null),X=s,an=0,es=null,la=!1,fo=Wo(n,s),bt=!1,ro=ds=dt=Ya=ea=An=0,Xn=ll=null,ht=!1,(s&8)!==0&&(s|=s&32);var o=n.entangledLanes;if(o!==0)for(n=n.entanglements,o&=s;0<o;){var l=31-ns(o),e=1<<l;s|=n[l],o&=~e}return Js=s,Il(),a}function n3(n,s){J=null,g.H=se,s===zo||s===Pl?(s=mf(),an=3):s===bf?(s=mf(),an=4):an=s===gr?8:s!==null&&typeof s=="object"&&typeof s.then=="function"?6:1,es=s,P===null&&(An=1,pe(n,rs(s,n.current)))}function s3(){var n=g.H;return g.H=se,n===null?se:n}function a3(){var n=g.A;return g.A=k9,n}function Wt(){An=4,la||(X&4194048)!==X&&bs.current!==null||(fo=!0),(ea&134217727)===0&&(Ya&134217727)===0||yn===null||ca(yn,X,ds,!1)}function Et(n,s,a){var o=sn;sn|=2;var l=s3(),e=a3();(yn!==n||X!==s)&&(ue=null,uo(n,s)),s=!1;var p=An;n:do try{if(an!==0&&P!==null){var t=P,c=es;switch(an){case 8:Ot(),p=6;break n;case 3:case 2:case 9:case 6:bs.current===null&&(s=!0);var u=an;if(an=0,es=null,bo(n,t,c,u),a&&fo){p=0;break n}break;default:u=an,an=0,es=null,bo(n,t,c,u)}}N9(),p=An;break}catch(m){n3(n,m)}while(!0);return s&&n.shellSuspendCounter++,ks=Ha=null,sn=o,g.H=l,g.A=e,P===null&&(yn=null,X=0,Il()),p}function N9(){for(;P!==null;)o3(P)}function G9(n,s){var a=sn;sn|=2;var o=s3(),l=a3();yn!==n||X!==s?(ue=null,ie=Os()+500,uo(n,s)):fo=Wo(n,s);n:do try{if(an!==0&&P!==null){s=P;var e=es;s:switch(an){case 1:an=0,es=null,bo(n,s,e,1);break;case 2:case 9:if(df(e)){an=0,es=null,l3(s);break}s=function(){an!==2&&an!==9||yn!==n||(an=7),ws(n)},e.then(s,s);break n;case 3:an=7;break n;case 4:an=5;break n;case 7:df(e)?(an=0,es=null,l3(s)):(an=0,es=null,bo(n,s,e,7));break;case 5:var p=null;switch(P.tag){case 26:p=P.memoizedState;case 5:case 27:var t=P;if(!p||K3(p)){an=0,es=null;var c=t.sibling;if(c!==null)P=c;else{var u=t.return;u!==null?(P=u,de(u)):P=null}break s}}an=0,es=null,bo(n,s,e,5);break;case 6:an=0,es=null,bo(n,s,e,6);break;case 8:Ot(),An=6;break n;default:throw Error(h(462))}}K9();break}catch(m){n3(n,m)}while(!0);return ks=Ha=null,g.H=o,g.A=l,sn=a,P!==null?0:(yn=null,X=0,Il(),An)}function K9(){for(;P!==null&&!ty();)o3(P)}function o3(n){var s=Br(n.alternate,n,Js);n.memoizedProps=n.pendingProps,s===null?de(n):P=s}function l3(n){var s=n,a=s.alternate;switch(s.tag){case 15:case 0:s=Tr(a,s,s.pendingProps,s.type,void 0,X);break;case 11:s=Tr(a,s,s.pendingProps,s.type.render,s.ref,X);break;case 5:Gp(s);default:Mr(a,s),s=P=lf(s,Js),s=Br(a,s,Js)}n.memoizedProps=n.pendingProps,s===null?de(n):P=s}function bo(n,s,a,o){ks=Ha=null,Gp(s),eo=null,Xo=0;var l=s.return;try{if(R9(n,l,s,a,X)){An=1,pe(n,rs(a,n.current)),P=null;return}}catch(e){if(l!==null)throw P=l,e;An=1,pe(n,rs(a,n.current)),P=null;return}s.flags&32768?(nn||o===1?n=!0:fo||(X&536870912)!==0?n=!1:(la=n=!0,(o===2||o===9||o===3||o===6)&&(o=bs.current,o!==null&&o.tag===13&&(o.flags|=16384))),e3(s,n)):de(s)}function de(n){var s=n;do{if((s.flags&32768)!==0){e3(s,la);return}n=s.return;var a=B9(s.alternate,s,Js);if(a!==null){P=a;return}if(s=s.sibling,s!==null){P=s;return}P=s=n}while(s!==null);An===0&&(An=5)}function e3(n,s){do{var a=D9(n.alternate,n);if(a!==null){a.flags&=32767,P=a;return}if(a=n.return,a!==null&&(a.flags|=32768,a.subtreeFlags=0,a.deletions=null),!s&&(n=n.sibling,n!==null)){P=n;return}P=n=a}while(n!==null);An=6,P=null}function p3(n,s,a,o,l,e,p,t,c){n.cancelPendingCommit=null;do he();while(In!==0);if((sn&6)!==0)throw Error(h(327));if(s!==null){if(s===n.current)throw Error(h(177));if(e=s.lanes|s.childLanes,e|=up,my(n,a,e,p,t,c),n===yn&&(P=yn=null,X=0),yo=s,ta=n,io=a,gt=e,At=l,Xr=o,(s.subtreeFlags&10256)!==0||(s.flags&10256)!==0?(n.callbackNode=null,n.callbackPriority=0,V9(Ol,function(){return y3(),null})):(n.callbackNode=null,n.callbackPriority=0),o=(s.flags&13878)!==0,(s.subtreeFlags&13878)!==0||o){o=g.T,g.T=null,l=H.p,H.p=2,p=sn,sn|=4;try{M9(n,s,a)}finally{sn=p,H.p=l,g.T=o}}In=1,t3(),c3(),f3()}}function t3(){if(In===1){In=0;var n=ta,s=yo,a=(s.flags&13878)!==0;if((s.subtreeFlags&13878)!==0||a){a=g.T,g.T=null;var o=H.p;H.p=2;var l=sn;sn|=4;try{Vr(s,n);var e=Ct,p=_c(n.containerInfo),t=e.focusedElem,c=e.selectionRange;if(p!==t&&t&&t.ownerDocument&&Fc(t.ownerDocument.documentElement,t)){if(c!==null&&cp(t)){var u=c.start,m=c.end;if(m===void 0&&(m=u),"selectionStart"in t)t.selectionStart=u,t.selectionEnd=Math.min(m,t.value.length);else{var O=t.ownerDocument||document,b=O&&O.defaultView||window;if(b.getSelection){var d=b.getSelection(),G=t.textContent.length,C=Math.min(c.start,G),tn=c.end===void 0?C:Math.min(c.end,G);!d.extend&&C>tn&&(p=tn,tn=C,C=p);var y=jc(t,C),r=jc(t,tn);if(y&&r&&(d.rangeCount!==1||d.anchorNode!==y.node||d.anchorOffset!==y.offset||d.focusNode!==r.node||d.focusOffset!==r.offset)){var i=O.createRange();i.setStart(y.node,y.offset),d.removeAllRanges(),C>tn?(d.addRange(i),d.extend(r.node,r.offset)):(i.setEnd(r.node,r.offset),d.addRange(i))}}}}for(O=[],d=t;d=d.parentNode;)d.nodeType===1&&O.push({element:d,left:d.scrollLeft,top:d.scrollTop});for(typeof t.focus=="function"&&t.focus(),t=0;t<O.length;t++){var S=O[t];S.element.scrollLeft=S.left,S.element.scrollTop=S.top}}Re=!!kt,Ct=kt=null}finally{sn=l,H.p=o,g.T=a}}n.current=s,In=2}}function c3(){if(In===2){In=0;var n=ta,s=yo,a=(s.flags&8772)!==0;if((s.subtreeFlags&8772)!==0||a){a=g.T,g.T=null;var o=H.p;H.p=2;var l=sn;sn|=4;try{Kr(n,s.alternate,s)}finally{sn=l,H.p=o,g.T=a}}In=3}}function f3(){if(In===4||In===3){In=0,cy();var n=ta,s=yo,a=io,o=Xr;(s.subtreeFlags&10256)!==0||(s.flags&10256)!==0?In=5:(In=0,yo=ta=null,r3(n,n.pendingLanes));var l=n.pendingLanes;if(l===0&&(pa=null),ze(a),s=s.stateNode,$n&&typeof $n.onCommitFiberRoot=="function")try{$n.onCommitFiberRoot(Oo,s,void 0,(s.current.flags&128)===128)}catch{}if(o!==null){s=g.T,l=H.p,H.p=2,g.T=null;try{for(var e=n.onRecoverableError,p=0;p<o.length;p++){var t=o[p];e(t.value,{componentStack:t.stack})}}finally{g.T=s,H.p=l}}(io&3)!==0&&he(),ws(n),l=n.pendingLanes,(a&4194090)!==0&&(l&42)!==0?n===St?el++:(el=0,St=n):el=0,pl(0)}}function r3(n,s){(n.pooledCacheLanes&=s)===0&&(s=n.pooledCache,s!=null&&(n.pooledCache=null,Ko(s)))}function he(n){return t3(),c3(),f3(),y3()}function y3(){if(In!==5)return!1;var n=ta,s=gt;gt=0;var a=ze(io),o=g.T,l=H.p;try{H.p=32>a?32:a,g.T=null,a=At,At=null;var e=ta,p=io;if(In=0,yo=ta=null,io=0,(sn&6)!==0)throw Error(h(331));var t=sn;if(sn|=4,_r(e.current),Pr(e,e.current,p,a),sn=t,pl(0,!1),$n&&typeof $n.onPostCommitFiberRoot=="function")try{$n.onPostCommitFiberRoot(Oo,e)}catch{}return!0}finally{H.p=l,g.T=o,r3(n,s)}}function i3(n,s,a){s=rs(a,s),s=Qp(n.stateNode,s,2),n=Zs(n,s,2),n!==null&&(Eo(n,2),ws(n))}function fn(n,s,a){if(n.tag===3)i3(n,n,a);else for(;s!==null;){if(s.tag===3){i3(s,n,a);break}else if(s.tag===1){var o=s.stateNode;if(typeof s.type.getDerivedStateFromError=="function"||typeof o.componentDidCatch=="function"&&(pa===null||!pa.has(o))){n=rs(a,n),a=hr(2),o=Zs(s,a,2),o!==null&&(mr(a,o,s,n),Eo(o,2),ws(o));break}}s=s.return}}function Tt(n,s,a){var o=n.pingCache;if(o===null){o=n.pingCache=new C9;var l=new Set;o.set(s,l)}else l=o.get(s),l===void 0&&(l=new Set,o.set(s,l));l.has(a)||(bt=!0,l.add(a),n=U9.bind(null,n,s,a),s.then(n,n))}function U9(n,s,a){var o=n.pingCache;o!==null&&o.delete(s),n.pingedLanes|=n.suspendedLanes&a,n.warmLanes&=~a,yn===n&&(X&a)===a&&(An===4||An===3&&(X&62914560)===X&&300>Os()-mt?(sn&2)===0&&uo(n,0):dt|=a,ro===X&&(ro=0)),ws(n)}function u3(n,s){s===0&&(s=cc()),n=qa(n,s),n!==null&&(Eo(n,s),ws(n))}function z9(n){var s=n.memoizedState,a=0;s!==null&&(a=s.retryLane),u3(n,a)}function J9(n,s){var a=0;switch(n.tag){case 13:var o=n.stateNode,l=n.memoizedState;l!==null&&(a=l.retryLane);break;case 19:o=n.stateNode;break;case 22:o=n.stateNode._retryCache;break;default:throw Error(h(314))}o!==null&&o.delete(s),u3(n,a)}function V9(n,s){return Ne(n,s)}var me=null,ho=null,vt=!1,ge=!1,wt=!1,ka=0;function ws(n){n!==ho&&n.next===null&&(ho===null?me=ho=n:ho=ho.next=n),ge=!0,vt||(vt=!0,P9())}function pl(n,s){if(!wt&&ge){wt=!0;do for(var a=!1,o=me;o!==null;){if(n!==0){var l=o.pendingLanes;if(l===0)var e=0;else{var p=o.suspendedLanes,t=o.pingedLanes;e=(1<<31-ns(42|n)+1)-1,e&=l&~(p&~t),e=e&201326741?e&201326741|1:e?e|2:0}e!==0&&(a=!0,m3(o,e))}else e=X,e=Tl(o,o===yn?e:0,o.cancelPendingCommit!==null||o.timeoutHandle!==-1),(e&3)===0||Wo(o,e)||(a=!0,m3(o,e));o=o.next}while(a);wt=!1}}function x9(){b3()}function b3(){ge=vt=!1;var n=0;ka!==0&&($9()&&(n=ka),ka=0);for(var s=Os(),a=null,o=me;o!==null;){var l=o.next,e=d3(o,s);e===0?(o.next=null,a===null?me=l:a.next=l,l===null&&(ho=a)):(a=o,(n!==0||(e&3)!==0)&&(ge=!0)),o=l}pl(n)}function d3(n,s){for(var a=n.suspendedLanes,o=n.pingedLanes,l=n.expirationTimes,e=n.pendingLanes&-62914561;0<e;){var p=31-ns(e),t=1<<p,c=l[p];c===-1?((t&a)===0||(t&o)!==0)&&(l[p]=hy(t,s)):c<=s&&(n.expiredLanes|=t),e&=~t}if(s=yn,a=X,a=Tl(n,n===s?a:0,n.cancelPendingCommit!==null||n.timeoutHandle!==-1),o=n.callbackNode,a===0||n===s&&(an===2||an===9)||n.cancelPendingCommit!==null)return o!==null&&o!==null&&Ge(o),n.callbackNode=null,n.callbackPriority=0;if((a&3)===0||Wo(n,a)){if(s=a&-a,s===n.callbackPriority)return s;switch(o!==null&&Ge(o),ze(a)){case 2:case 8:a=ec;break;case 32:a=Ol;break;case 268435456:a=pc;break;default:a=Ol}return o=h3.bind(null,n),a=Ne(a,o),n.callbackPriority=s,n.callbackNode=a,s}return o!==null&&o!==null&&Ge(o),n.callbackPriority=2,n.callbackNode=null,2}function h3(n,s){if(In!==0&&In!==5)return n.callbackNode=null,n.callbackPriority=0,null;var a=n.callbackNode;if(he()&&n.callbackNode!==a)return null;var o=X;return o=Tl(n,n===yn?o:0,n.cancelPendingCommit!==null||n.timeoutHandle!==-1),o===0?null:(Qr(n,o,s),d3(n,Os()),n.callbackNode!=null&&n.callbackNode===a?h3.bind(null,n):null)}function m3(n,s){if(he())return null;Qr(n,s,!0)}function P9(){s0(function(){(sn&6)!==0?Ne(lc,x9):b3()})}function Ht(){return ka===0&&(ka=tc()),ka}function g3(n){return n==null||typeof n=="symbol"||typeof n=="boolean"?null:typeof n=="function"?n:Ll(""+n)}function A3(n,s){var a=s.ownerDocument.createElement("input");return a.name=s.name,a.value=s.value,n.id&&a.setAttribute("form",n.id),s.parentNode.insertBefore(a,s),n=new FormData(n),a.parentNode.removeChild(a),n}function j9(n,s,a,o,l){if(s==="submit"&&a&&a.stateNode===l){var e=g3((l[jn]||null).action),p=o.submitter;p&&(s=(s=p[jn]||null)?g3(s.formAction):p.getAttribute("formAction"),s!==null&&(e=s,p=null));var t=new Yl("action","action",null,o,l);n.push({event:t,listeners:[{instance:null,listener:function(){if(o.defaultPrevented){if(ka!==0){var c=p?A3(l,p):new FormData(l);Fp(a,{pending:!0,data:c,method:l.method,action:e},null,c)}}else typeof e=="function"&&(t.preventDefault(),c=p?A3(l,p):new FormData(l),Fp(a,{pending:!0,data:c,method:l.method,action:e},e,c))},currentTarget:l}]})}}for(var Rt=0;Rt<ip.length;Rt++){var Lt=ip[Rt],F9=Lt.toLowerCase(),_9=Lt[0].toUpperCase()+Lt.slice(1);gs(F9,"on"+_9)}gs(Zc,"onAnimationEnd"),gs(Qc,"onAnimationIteration"),gs($c,"onAnimationStart"),gs("dblclick","onDoubleClick"),gs("focusin","onFocus"),gs("focusout","onBlur"),gs(y9,"onTransitionRun"),gs(i9,"onTransitionStart"),gs(u9,"onTransitionCancel"),gs(nf,"onTransitionEnd"),Ka("onMouseEnter",["mouseout","mouseover"]),Ka("onMouseLeave",["mouseout","mouseover"]),Ka("onPointerEnter",["pointerout","pointerover"]),Ka("onPointerLeave",["pointerout","pointerover"]),ga("onChange","change click focusin focusout input keydown keyup selectionchange".split(" ")),ga("onSelect","focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange".split(" ")),ga("onBeforeInput",["compositionend","keypress","textInput","paste"]),ga("onCompositionEnd","compositionend focusout keydown keypress keyup mousedown".split(" ")),ga("onCompositionStart","compositionstart focusout keydown keypress keyup mousedown".split(" ")),ga("onCompositionUpdate","compositionupdate focusout keydown keypress keyup mousedown".split(" "));var tl="abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting".split(" "),q9=new Set("beforetoggle cancel close invalid load scroll scrollend toggle".split(" ").concat(tl));function S3(n,s){s=(s&4)!==0;for(var a=0;a<n.length;a++){var o=n[a],l=o.event;o=o.listeners;n:{var e=void 0;if(s)for(var p=o.length-1;0<=p;p--){var t=o[p],c=t.instance,u=t.currentTarget;if(t=t.listener,c!==e&&l.isPropagationStopped())break n;e=t,l.currentTarget=u;try{e(l)}catch(m){ee(m)}l.currentTarget=null,e=c}else for(p=0;p<o.length;p++){if(t=o[p],c=t.instance,u=t.currentTarget,t=t.listener,c!==e&&l.isPropagationStopped())break n;e=t,l.currentTarget=u;try{e(l)}catch(m){ee(m)}l.currentTarget=null,e=c}}}}function j(n,s){var a=s[Je];a===void 0&&(a=s[Je]=new Set);var o=n+"__bubble";a.has(o)||(O3(s,n,2,!1),a.add(o))}function Bt(n,s,a){var o=0;s&&(o|=4),O3(a,n,o,s)}var Ae="_reactListening"+Math.random().toString(36).slice(2);function Dt(n){if(!n[Ae]){n[Ae]=!0,uc.forEach(function(a){a!=="selectionchange"&&(q9.has(a)||Bt(a,!1,n),Bt(a,!0,n))});var s=n.nodeType===9?n:n.ownerDocument;s===null||s[Ae]||(s[Ae]=!0,Bt("selectionchange",!1,s))}}function O3(n,s,a,o){switch(P3(s)){case 2:var l=W0;break;case 8:l=E0;break;default:l=Pt}a=l.bind(null,s,a,n),l=void 0,!$e||s!=="touchstart"&&s!=="touchmove"&&s!=="wheel"||(l=!0),o?l!==void 0?n.addEventListener(s,a,{capture:!0,passive:l}):n.addEventListener(s,a,!0):l!==void 0?n.addEventListener(s,a,{passive:l}):n.addEventListener(s,a,!1)}function Mt(n,s,a,o,l){var e=o;if((s&1)===0&&(s&2)===0&&o!==null)n:for(;;){if(o===null)return;var p=o.tag;if(p===3||p===4){var t=o.stateNode.containerInfo;if(t===l)break;if(p===4)for(p=o.return;p!==null;){var c=p.tag;if((c===3||c===4)&&p.stateNode.containerInfo===l)return;p=p.return}for(;t!==null;){if(p=Ia(t),p===null)return;if(c=p.tag,c===5||c===6||c===26||c===27){o=e=p;continue n}t=t.parentNode}}o=o.return}Hc(function(){var u=e,m=Ze(a),O=[];n:{var b=sf.get(n);if(b!==void 0){var d=Yl,G=n;switch(n){case"keypress":if(Dl(a)===0)break n;case"keydown":case"keyup":d=Vy;break;case"focusin":G="focus",d=op;break;case"focusout":G="blur",d=op;break;case"beforeblur":case"afterblur":d=op;break;case"click":if(a.button===2)break n;case"auxclick":case"dblclick":case"mousedown":case"mousemove":case"mouseup":case"mouseout":case"mouseover":case"contextmenu":d=Bc;break;case"drag":case"dragend":case"dragenter":case"dragexit":case"dragleave":case"dragover":case"dragstart":case"drop":d=Dy;break;case"touchcancel":case"touchend":case"touchmove":case"touchstart":d=jy;break;case Zc:case Qc:case $c:d=ky;break;case nf:d=_y;break;case"scroll":case"scrollend":d=Ly;break;case"wheel":d=Xy;break;case"copy":case"cut":case"paste":d=Iy;break;case"gotpointercapture":case"lostpointercapture":case"pointercancel":case"pointerdown":case"pointermove":case"pointerout":case"pointerover":case"pointerup":d=Mc;break;case"toggle":case"beforetoggle":d=Qy}var C=(s&4)!==0,tn=!C&&(n==="scroll"||n==="scrollend"),y=C?b!==null?b+"Capture":null:b;C=[];for(var r=u,i;r!==null;){var S=r;if(i=S.stateNode,S=S.tag,S!==5&&S!==26&&S!==27||i===null||y===null||(S=wo(r,y),S!=null&&C.push(cl(r,S,i))),tn)break;r=r.return}0<C.length&&(b=new d(b,G,null,a,m),O.push({event:b,listeners:C}))}}if((s&7)===0){n:{if(b=n==="mouseover"||n==="pointerover",d=n==="mouseout"||n==="pointerout",b&&a!==Xe&&(G=a.relatedTarget||a.fromElement)&&(Ia(G)||G[Ca]))break n;if((d||b)&&(b=m.window===m?m:(b=m.ownerDocument)?b.defaultView||b.parentWindow:window,d?(G=a.relatedTarget||a.toElement,d=u,G=G?Ia(G):null,G!==null&&(tn=F(G),C=G.tag,G!==tn||C!==5&&C!==27&&C!==6)&&(G=null)):(d=null,G=u),d!==G)){if(C=Bc,S="onMouseLeave",y="onMouseEnter",r="mouse",(n==="pointerout"||n==="pointerover")&&(C=Mc,S="onPointerLeave",y="onPointerEnter",r="pointer"),tn=d==null?b:vo(d),i=G==null?b:vo(G),b=new C(S,r+"leave",d,a,m),b.target=tn,b.relatedTarget=i,S=null,Ia(m)===u&&(C=new C(y,r+"enter",G,a,m),C.target=i,C.relatedTarget=tn,S=C),tn=S,d&&G)s:{for(C=d,y=G,r=0,i=C;i;i=mo(i))r++;for(i=0,S=y;S;S=mo(S))i++;for(;0<r-i;)C=mo(C),r--;for(;0<i-r;)y=mo(y),i--;for(;r--;){if(C===y||y!==null&&C===y.alternate)break s;C=mo(C),y=mo(y)}C=null}else C=null;d!==null&&W3(O,b,d,C,!1),G!==null&&tn!==null&&W3(O,tn,G,C,!0)}}n:{if(b=u?vo(u):window,d=b.nodeName&&b.nodeName.toLowerCase(),d==="select"||d==="input"&&b.type==="file")var L=Uc;else if(Gc(b))if(zc)L=c9;else{L=p9;var V=e9}else d=b.nodeName,!d||d.toLowerCase()!=="input"||b.type!=="checkbox"&&b.type!=="radio"?u&&qe(u.elementType)&&(L=Uc):L=t9;if(L&&(L=L(n,u))){Kc(O,L,a,m);break n}V&&V(n,b,u),n==="focusout"&&u&&b.type==="number"&&u.memoizedProps.value!=null&&_e(b,"number",b.value)}switch(V=u?vo(u):window,n){case"focusin":(Gc(V)||V.contentEditable==="true")&&(ja=V,fp=u,ko=null);break;case"focusout":ko=fp=ja=null;break;case"mousedown":rp=!0;break;case"contextmenu":case"mouseup":case"dragend":rp=!1,qc(O,a,m);break;case"selectionchange":if(r9)break;case"keydown":case"keyup":qc(O,a,m)}var Y;if(ep)n:{switch(n){case"compositionstart":var I="onCompositionStart";break n;case"compositionend":I="onCompositionEnd";break n;case"compositionupdate":I="onCompositionUpdate";break n}I=void 0}else Pa?Ic(n,a)&&(I="onCompositionEnd"):n==="keydown"&&a.keyCode===229&&(I="onCompositionStart");I&&(Yc&&a.locale!=="ko"&&(Pa||I!=="onCompositionStart"?I==="onCompositionEnd"&&Pa&&(Y=Rc()):(Fs=m,np="value"in Fs?Fs.value:Fs.textContent,Pa=!0)),V=Se(u,I),0<V.length&&(I=new Dc(I,n,null,a,m),O.push({event:I,listeners:V}),Y?I.data=Y:(Y=Nc(a),Y!==null&&(I.data=Y)))),(Y=n9?s9(n,a):a9(n,a))&&(I=Se(u,"onBeforeInput"),0<I.length&&(V=new Dc("onBeforeInput","beforeinput",null,a,m),O.push({event:V,listeners:I}),V.data=Y)),j9(O,n,u,a,m)}S3(O,s)})}function cl(n,s,a){return{instance:n,listener:s,currentTarget:a}}function Se(n,s){for(var a=s+"Capture",o=[];n!==null;){var l=n,e=l.stateNode;if(l=l.tag,l!==5&&l!==26&&l!==27||e===null||(l=wo(n,a),l!=null&&o.unshift(cl(n,l,e)),l=wo(n,s),l!=null&&o.push(cl(n,l,e))),n.tag===3)return o;n=n.return}return[]}function mo(n){if(n===null)return null;do n=n.return;while(n&&n.tag!==5&&n.tag!==27);return n||null}function W3(n,s,a,o,l){for(var e=s._reactName,p=[];a!==null&&a!==o;){var t=a,c=t.alternate,u=t.stateNode;if(t=t.tag,c!==null&&c===o)break;t!==5&&t!==26&&t!==27||u===null||(c=u,l?(u=wo(a,e),u!=null&&p.unshift(cl(a,u,c))):l||(u=wo(a,e),u!=null&&p.push(cl(a,u,c)))),a=a.return}p.length!==0&&n.push({event:s,listeners:p})}var X9=/\r\n?/g,Z9=/\u0000|\uFFFD/g;function E3(n){return(typeof n=="string"?n:""+n).replace(X9,`
-`).replace(Z9,"")}function T3(n,s){return s=E3(s),E3(n)===s}function Oe(){}function pn(n,s,a,o,l,e){switch(a){case"children":typeof o=="string"?s==="body"||s==="textarea"&&o===""||Ja(n,o):(typeof o=="number"||typeof o=="bigint")&&s!=="body"&&Ja(n,""+o);break;case"className":wl(n,"class",o);break;case"tabIndex":wl(n,"tabindex",o);break;case"dir":case"role":case"viewBox":case"width":case"height":wl(n,a,o);break;case"style":vc(n,o,e);break;case"data":if(s!=="object"){wl(n,"data",o);break}case"src":case"href":if(o===""&&(s!=="a"||a!=="href")){n.removeAttribute(a);break}if(o==null||typeof o=="function"||typeof o=="symbol"||typeof o=="boolean"){n.removeAttribute(a);break}o=Ll(""+o),n.setAttribute(a,o);break;case"action":case"formAction":if(typeof o=="function"){n.setAttribute(a,"javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')");break}else typeof e=="function"&&(a==="formAction"?(s!=="input"&&pn(n,s,"name",l.name,l,null),pn(n,s,"formEncType",l.formEncType,l,null),pn(n,s,"formMethod",l.formMethod,l,null),pn(n,s,"formTarget",l.formTarget,l,null)):(pn(n,s,"encType",l.encType,l,null),pn(n,s,"method",l.method,l,null),pn(n,s,"target",l.target,l,null)));if(o==null||typeof o=="symbol"||typeof o=="boolean"){n.removeAttribute(a);break}o=Ll(""+o),n.setAttribute(a,o);break;case"onClick":o!=null&&(n.onclick=Oe);break;case"onScroll":o!=null&&j("scroll",n);break;case"onScrollEnd":o!=null&&j("scrollend",n);break;case"dangerouslySetInnerHTML":if(o!=null){if(typeof o!="object"||!("__html"in o))throw Error(h(61));if(a=o.__html,a!=null){if(l.children!=null)throw Error(h(60));n.innerHTML=a}}break;case"multiple":n.multiple=o&&typeof o!="function"&&typeof o!="symbol";break;case"muted":n.muted=o&&typeof o!="function"&&typeof o!="symbol";break;case"suppressContentEditableWarning":case"suppressHydrationWarning":case"defaultValue":case"defaultChecked":case"innerHTML":case"ref":break;case"autoFocus":break;case"xlinkHref":if(o==null||typeof o=="function"||typeof o=="boolean"||typeof o=="symbol"){n.removeAttribute("xlink:href");break}a=Ll(""+o),n.setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",a);break;case"contentEditable":case"spellCheck":case"draggable":case"value":case"autoReverse":case"externalResourcesRequired":case"focusable":case"preserveAlpha":o!=null&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,""+o):n.removeAttribute(a);break;case"inert":case"allowFullScreen":case"async":case"autoPlay":case"controls":case"default":case"defer":case"disabled":case"disablePictureInPicture":case"disableRemotePlayback":case"formNoValidate":case"hidden":case"loop":case"noModule":case"noValidate":case"open":case"playsInline":case"readOnly":case"required":case"reversed":case"scoped":case"seamless":case"itemScope":o&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,""):n.removeAttribute(a);break;case"capture":case"download":o===!0?n.setAttribute(a,""):o!==!1&&o!=null&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,o):n.removeAttribute(a);break;case"cols":case"rows":case"size":case"span":o!=null&&typeof o!="function"&&typeof o!="symbol"&&!isNaN(o)&&1<=o?n.setAttribute(a,o):n.removeAttribute(a);break;case"rowSpan":case"start":o==null||typeof o=="function"||typeof o=="symbol"||isNaN(o)?n.removeAttribute(a):n.setAttribute(a,o);break;case"popover":j("beforetoggle",n),j("toggle",n),vl(n,"popover",o);break;case"xlinkActuate":Ls(n,"http://www.w3.org/1999/xlink","xlink:actuate",o);break;case"xlinkArcrole":Ls(n,"http://www.w3.org/1999/xlink","xlink:arcrole",o);break;case"xlinkRole":Ls(n,"http://www.w3.org/1999/xlink","xlink:role",o);break;case"xlinkShow":Ls(n,"http://www.w3.org/1999/xlink","xlink:show",o);break;case"xlinkTitle":Ls(n,"http://www.w3.org/1999/xlink","xlink:title",o);break;case"xlinkType":Ls(n,"http://www.w3.org/1999/xlink","xlink:type",o);break;case"xmlBase":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:base",o);break;case"xmlLang":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:lang",o);break;case"xmlSpace":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:space",o);break;case"is":vl(n,"is",o);break;case"innerText":case"textContent":break;default:(!(2<a.length)||a[0]!=="o"&&a[0]!=="O"||a[1]!=="n"&&a[1]!=="N")&&(a=Hy.get(a)||a,vl(n,a,o))}}function Yt(n,s,a,o,l,e){switch(a){case"style":vc(n,o,e);break;case"dangerouslySetInnerHTML":if(o!=null){if(typeof o!="object"||!("__html"in o))throw Error(h(61));if(a=o.__html,a!=null){if(l.children!=null)throw Error(h(60));n.innerHTML=a}}break;case"children":typeof o=="string"?Ja(n,o):(typeof o=="number"||typeof o=="bigint")&&Ja(n,""+o);break;case"onScroll":o!=null&&j("scroll",n);break;case"onScrollEnd":o!=null&&j("scrollend",n);break;case"onClick":o!=null&&(n.onclick=Oe);break;case"suppressContentEditableWarning":case"suppressHydrationWarning":case"innerHTML":case"ref":break;case"innerText":case"textContent":break;default:if(!bc.hasOwnProperty(a))n:{if(a[0]==="o"&&a[1]==="n"&&(l=a.endsWith("Capture"),s=a.slice(2,l?a.length-7:void 0),e=n[jn]||null,e=e!=null?e[a]:null,typeof e=="function"&&n.removeEventListener(s,e,l),typeof o=="function")){typeof e!="function"&&e!==null&&(a in n?n[a]=null:n.hasAttribute(a)&&n.removeAttribute(a)),n.addEventListener(s,o,l);break n}a in n?n[a]=o:o===!0?n.setAttribute(a,""):vl(n,a,o)}}}function Nn(n,s,a){switch(s){case"div":case"span":case"svg":case"path":case"a":case"g":case"p":case"li":break;case"img":j("error",n),j("load",n);var o=!1,l=!1,e;for(e in a)if(a.hasOwnProperty(e)){var p=a[e];if(p!=null)switch(e){case"src":o=!0;break;case"srcSet":l=!0;break;case"children":case"dangerouslySetInnerHTML":throw Error(h(137,s));default:pn(n,s,e,p,a,null)}}l&&pn(n,s,"srcSet",a.srcSet,a,null),o&&pn(n,s,"src",a.src,a,null);return;case"input":j("invalid",n);var t=e=p=l=null,c=null,u=null;for(o in a)if(a.hasOwnProperty(o)){var m=a[o];if(m!=null)switch(o){case"name":l=m;break;case"type":p=m;break;case"checked":c=m;break;case"defaultChecked":u=m;break;case"value":e=m;break;case"defaultValue":t=m;break;case"children":case"dangerouslySetInnerHTML":if(m!=null)throw Error(h(137,s));break;default:pn(n,s,o,m,a,null)}}Oc(n,e,t,c,u,p,l,!1),Hl(n);return;case"select":j("invalid",n),o=p=e=null;for(l in a)if(a.hasOwnProperty(l)&&(t=a[l],t!=null))switch(l){case"value":e=t;break;case"defaultValue":p=t;break;case"multiple":o=t;default:pn(n,s,l,t,a,null)}s=e,a=p,n.multiple=!!o,s!=null?za(n,!!o,s,!1):a!=null&&za(n,!!o,a,!0);return;case"textarea":j("invalid",n),e=l=o=null;for(p in a)if(a.hasOwnProperty(p)&&(t=a[p],t!=null))switch(p){case"value":o=t;break;case"defaultValue":l=t;break;case"children":e=t;break;case"dangerouslySetInnerHTML":if(t!=null)throw Error(h(91));break;default:pn(n,s,p,t,a,null)}Ec(n,o,l,e),Hl(n);return;case"option":for(c in a)if(a.hasOwnProperty(c)&&(o=a[c],o!=null))switch(c){case"selected":n.selected=o&&typeof o!="function"&&typeof o!="symbol";break;default:pn(n,s,c,o,a,null)}return;case"dialog":j("beforetoggle",n),j("toggle",n),j("cancel",n),j("close",n);break;case"iframe":case"object":j("load",n);break;case"video":case"audio":for(o=0;o<tl.length;o++)j(tl[o],n);break;case"image":j("error",n),j("load",n);break;case"details":j("toggle",n);break;case"embed":case"source":case"link":j("error",n),j("load",n);case"area":case"base":case"br":case"col":case"hr":case"keygen":case"meta":case"param":case"track":case"wbr":case"menuitem":for(u in a)if(a.hasOwnProperty(u)&&(o=a[u],o!=null))switch(u){case"children":case"dangerouslySetInnerHTML":throw Error(h(137,s));default:pn(n,s,u,o,a,null)}return;default:if(qe(s)){for(m in a)a.hasOwnProperty(m)&&(o=a[m],o!==void 0&&Yt(n,s,m,o,a,void 0));return}}for(t in a)a.hasOwnProperty(t)&&(o=a[t],o!=null&&pn(n,s,t,o,a,null))}function Q9(n,s,a,o){switch(s){case"div":case"span":case"svg":case"path":case"a":case"g":case"p":case"li":break;case"input":var l=null,e=null,p=null,t=null,c=null,u=null,m=null;for(d in a){var O=a[d];if(a.hasOwnProperty(d)&&O!=null)switch(d){case"checked":break;case"value":break;case"defaultValue":c=O;default:o.hasOwnProperty(d)||pn(n,s,d,null,o,O)}}for(var b in o){var d=o[b];if(O=a[b],o.hasOwnProperty(b)&&(d!=null||O!=null))switch(b){case"type":e=d;break;case"name":l=d;break;case"checked":u=d;break;case"defaultChecked":m=d;break;case"value":p=d;break;case"defaultValue":t=d;break;case"children":case"dangerouslySetInnerHTML":if(d!=null)throw Error(h(137,s));break;default:d!==O&&pn(n,s,b,d,o,O)}}Fe(n,p,t,c,u,m,e,l);return;case"select":d=p=t=b=null;for(e in a)if(c=a[e],a.hasOwnProperty(e)&&c!=null)switch(e){case"value":break;case"multiple":d=c;default:o.hasOwnProperty(e)||pn(n,s,e,null,o,c)}for(l in o)if(e=o[l],c=a[l],o.hasOwnProperty(l)&&(e!=null||c!=null))switch(l){case"value":b=e;break;case"defaultValue":t=e;break;case"multiple":p=e;default:e!==c&&pn(n,s,l,e,o,c)}s=t,a=p,o=d,b!=null?za(n,!!a,b,!1):!!o!=!!a&&(s!=null?za(n,!!a,s,!0):za(n,!!a,a?[]:"",!1));return;case"textarea":d=b=null;for(t in a)if(l=a[t],a.hasOwnProperty(t)&&l!=null&&!o.hasOwnProperty(t))switch(t){case"value":break;case"children":break;default:pn(n,s,t,null,o,l)}for(p in o)if(l=o[p],e=a[p],o.hasOwnProperty(p)&&(l!=null||e!=null))switch(p){case"value":b=l;break;case"defaultValue":d=l;break;case"children":break;case"dangerouslySetInnerHTML":if(l!=null)throw Error(h(91));break;default:l!==e&&pn(n,s,p,l,o,e)}Wc(n,b,d);return;case"option":for(var G in a)if(b=a[G],a.hasOwnProperty(G)&&b!=null&&!o.hasOwnProperty(G))switch(G){case"selected":n.selected=!1;break;default:pn(n,s,G,null,o,b)}for(c in o)if(b=o[c],d=a[c],o.hasOwnProperty(c)&&b!==d&&(b!=null||d!=null))switch(c){case"selected":n.selected=b&&typeof b!="function"&&typeof b!="symbol";break;default:pn(n,s,c,b,o,d)}return;case"img":case"link":case"area":case"base":case"br":case"col":case"embed":case"hr":case"keygen":case"meta":case"param":case"source":case"track":case"wbr":case"menuitem":for(var C in a)b=a[C],a.hasOwnProperty(C)&&b!=null&&!o.hasOwnProperty(C)&&pn(n,s,C,null,o,b);for(u in o)if(b=o[u],d=a[u],o.hasOwnProperty(u)&&b!==d&&(b!=null||d!=null))switch(u){case"children":case"dangerouslySetInnerHTML":if(b!=null)throw Error(h(137,s));break;default:pn(n,s,u,b,o,d)}return;default:if(qe(s)){for(var tn in a)b=a[tn],a.hasOwnProperty(tn)&&b!==void 0&&!o.hasOwnProperty(tn)&&Yt(n,s,tn,void 0,o,b);for(m in o)b=o[m],d=a[m],!o.hasOwnProperty(m)||b===d||b===void 0&&d===void 0||Yt(n,s,m,b,o,d);return}}for(var y in a)b=a[y],a.hasOwnProperty(y)&&b!=null&&!o.hasOwnProperty(y)&&pn(n,s,y,null,o,b);for(O in o)b=o[O],d=a[O],!o.hasOwnProperty(O)||b===d||b==null&&d==null||pn(n,s,O,b,o,d)}var kt=null,Ct=null;function We(n){return n.nodeType===9?n:n.ownerDocument}function v3(n){switch(n){case"http://www.w3.org/2000/svg":return 1;case"http://www.w3.org/1998/Math/MathML":return 2;default:return 0}}function w3(n,s){if(n===0)switch(s){case"svg":return 1;case"math":return 2;default:return 0}return n===1&&s==="foreignObject"?0:n}function It(n,s){return n==="textarea"||n==="noscript"||typeof s.children=="string"||typeof s.children=="number"||typeof s.children=="bigint"||typeof s.dangerouslySetInnerHTML=="object"&&s.dangerouslySetInnerHTML!==null&&s.dangerouslySetInnerHTML.__html!=null}var Nt=null;function $9(){var n=window.event;return n&&n.type==="popstate"?n===Nt?!1:(Nt=n,!0):(Nt=null,!1)}var H3=typeof setTimeout=="function"?setTimeout:void 0,n0=typeof clearTimeout=="function"?clearTimeout:void 0,R3=typeof Promise=="function"?Promise:void 0,s0=typeof queueMicrotask=="function"?queueMicrotask:typeof R3<"u"?function(n){return R3.resolve(null).then(n).catch(a0)}:H3;function a0(n){setTimeout(function(){throw n})}function fa(n){return n==="head"}function L3(n,s){var a=s,o=0,l=0;do{var e=a.nextSibling;if(n.removeChild(a),e&&e.nodeType===8)if(a=e.data,a==="/$"){if(0<o&&8>o){a=o;var p=n.ownerDocument;if(a&1&&fl(p.documentElement),a&2&&fl(p.body),a&4)for(a=p.head,fl(a),p=a.firstChild;p;){var t=p.nextSibling,c=p.nodeName;p[To]||c==="SCRIPT"||c==="STYLE"||c==="LINK"&&p.rel.toLowerCase()==="stylesheet"||a.removeChild(p),p=t}}if(l===0){n.removeChild(e),ml(s);return}l--}else a==="$"||a==="$?"||a==="$!"?l++:o=a.charCodeAt(0)-48;else o=0;a=e}while(a);ml(s)}function Gt(n){var s=n.firstChild;for(s&&s.nodeType===10&&(s=s.nextSibling);s;){var a=s;switch(s=s.nextSibling,a.nodeName){case"HTML":case"HEAD":case"BODY":Gt(a),Ve(a);continue;case"SCRIPT":case"STYLE":continue;case"LINK":if(a.rel.toLowerCase()==="stylesheet")continue}n.removeChild(a)}}function o0(n,s,a,o){for(;n.nodeType===1;){var l=a;if(n.nodeName.toLowerCase()!==s.toLowerCase()){if(!o&&(n.nodeName!=="INPUT"||n.type!=="hidden"))break}else if(o){if(!n[To])switch(s){case"meta":if(!n.hasAttribute("itemprop"))break;return n;case"link":if(e=n.getAttribute("rel"),e==="stylesheet"&&n.hasAttribute("data-precedence"))break;if(e!==l.rel||n.getAttribute("href")!==(l.href==null||l.href===""?null:l.href)||n.getAttribute("crossorigin")!==(l.crossOrigin==null?null:l.crossOrigin)||n.getAttribute("title")!==(l.title==null?null:l.title))break;return n;case"style":if(n.hasAttribute("data-precedence"))break;return n;case"script":if(e=n.getAttribute("src"),(e!==(l.src==null?null:l.src)||n.getAttribute("type")!==(l.type==null?null:l.type)||n.getAttribute("crossorigin")!==(l.crossOrigin==null?null:l.crossOrigin))&&e&&n.hasAttribute("async")&&!n.hasAttribute("itemprop"))break;return n;default:return n}}else if(s==="input"&&n.type==="hidden"){var e=l.name==null?null:""+l.name;if(l.type==="hidden"&&n.getAttribute("name")===e)return n}else return n;if(n=Ss(n.nextSibling),n===null)break}return null}function l0(n,s,a){if(s==="")return null;for(;n.nodeType!==3;)if((n.nodeType!==1||n.nodeName!=="INPUT"||n.type!=="hidden")&&!a||(n=Ss(n.nextSibling),n===null))return null;return n}function Kt(n){return n.data==="$!"||n.data==="$?"&&n.ownerDocument.readyState==="complete"}function e0(n,s){var a=n.ownerDocument;if(n.data!=="$?"||a.readyState==="complete")s();else{var o=function(){s(),a.removeEventListener("DOMContentLoaded",o)};a.addEventListener("DOMContentLoaded",o),n._reactRetry=o}}function Ss(n){for(;n!=null;n=n.nextSibling){var s=n.nodeType;if(s===1||s===3)break;if(s===8){if(s=n.data,s==="$"||s==="$!"||s==="$?"||s==="F!"||s==="F")break;if(s==="/$")return null}}return n}var Ut=null;function B3(n){n=n.previousSibling;for(var s=0;n;){if(n.nodeType===8){var a=n.data;if(a==="$"||a==="$!"||a==="$?"){if(s===0)return n;s--}else a==="/$"&&s++}n=n.previousSibling}return null}function D3(n,s,a){switch(s=We(a),n){case"html":if(n=s.documentElement,!n)throw Error(h(452));return n;case"head":if(n=s.head,!n)throw Error(h(453));return n;case"body":if(n=s.body,!n)throw Error(h(454));return n;default:throw Error(h(451))}}function fl(n){for(var s=n.attributes;s.length;)n.removeAttributeNode(s[0]);Ve(n)}var hs=new Map,M3=new Set;function Ee(n){return typeof n.getRootNode=="function"?n.getRootNode():n.nodeType===9?n:n.ownerDocument}var Vs=H.d;H.d={f:p0,r:t0,D:c0,C:f0,L:r0,m:y0,X:u0,S:i0,M:b0};function p0(){var n=Vs.f(),s=be();return n||s}function t0(n){var s=Na(n);s!==null&&s.tag===5&&s.type==="form"?Qf(s):Vs.r(n)}var go=typeof document>"u"?null:document;function Y3(n,s,a){var o=go;if(o&&typeof s=="string"&&s){var l=fs(s);l='link[rel="'+n+'"][href="'+l+'"]',typeof a=="string"&&(l+='[crossorigin="'+a+'"]'),M3.has(l)||(M3.add(l),n={rel:n,crossOrigin:a,href:s},o.querySelector(l)===null&&(s=o.createElement("link"),Nn(s,"link",n),Ln(s),o.head.appendChild(s)))}}function c0(n){Vs.D(n),Y3("dns-prefetch",n,null)}function f0(n,s){Vs.C(n,s),Y3("preconnect",n,s)}function r0(n,s,a){Vs.L(n,s,a);var o=go;if(o&&n&&s){var l='link[rel="preload"][as="'+fs(s)+'"]';s==="image"&&a&&a.imageSrcSet?(l+='[imagesrcset="'+fs(a.imageSrcSet)+'"]',typeof a.imageSizes=="string"&&(l+='[imagesizes="'+fs(a.imageSizes)+'"]')):l+='[href="'+fs(n)+'"]';var e=l;switch(s){case"style":e=Ao(n);break;case"script":e=So(n)}hs.has(e)||(n=M({rel:"preload",href:s==="image"&&a&&a.imageSrcSet?void 0:n,as:s},a),hs.set(e,n),o.querySelector(l)!==null||s==="style"&&o.querySelector(rl(e))||s==="script"&&o.querySelector(yl(e))||(s=o.createElement("link"),Nn(s,"link",n),Ln(s),o.head.appendChild(s)))}}function y0(n,s){Vs.m(n,s);var a=go;if(a&&n){var o=s&&typeof s.as=="string"?s.as:"script",l='link[rel="modulepreload"][as="'+fs(o)+'"][href="'+fs(n)+'"]',e=l;switch(o){case"audioworklet":case"paintworklet":case"serviceworker":case"sharedworker":case"worker":case"script":e=So(n)}if(!hs.has(e)&&(n=M({rel:"modulepreload",href:n},s),hs.set(e,n),a.querySelector(l)===null)){switch(o){case"audioworklet":case"paintworklet":case"serviceworker":case"sharedworker":case"worker":case"script":if(a.querySelector(yl(e)))return}o=a.createElement("link"),Nn(o,"link",n),Ln(o),a.head.appendChild(o)}}}function i0(n,s,a){Vs.S(n,s,a);var o=go;if(o&&n){var l=Ga(o).hoistableStyles,e=Ao(n);s=s||"default";var p=l.get(e);if(!p){var t={loading:0,preload:null};if(p=o.querySelector(rl(e)))t.loading=5;else{n=M({rel:"stylesheet",href:n,"data-precedence":s},a),(a=hs.get(e))&&zt(n,a);var c=p=o.createElement("link");Ln(c),Nn(c,"link",n),c._p=new Promise(function(u,m){c.onload=u,c.onerror=m}),c.addEventListener("load",function(){t.loading|=1}),c.addEventListener("error",function(){t.loading|=2}),t.loading|=4,Te(p,s,o)}p={type:"stylesheet",instance:p,count:1,state:t},l.set(e,p)}}}function u0(n,s){Vs.X(n,s);var a=go;if(a&&n){var o=Ga(a).hoistableScripts,l=So(n),e=o.get(l);e||(e=a.querySelector(yl(l)),e||(n=M({src:n,async:!0},s),(s=hs.get(l))&&Jt(n,s),e=a.createElement("script"),Ln(e),Nn(e,"link",n),a.head.appendChild(e)),e={type:"script",instance:e,count:1,state:null},o.set(l,e))}}function b0(n,s){Vs.M(n,s);var a=go;if(a&&n){var o=Ga(a).hoistableScripts,l=So(n),e=o.get(l);e||(e=a.querySelector(yl(l)),e||(n=M({src:n,async:!0,type:"module"},s),(s=hs.get(l))&&Jt(n,s),e=a.createElement("script"),Ln(e),Nn(e,"link",n),a.head.appendChild(e)),e={type:"script",instance:e,count:1,state:null},o.set(l,e))}}function k3(n,s,a,o){var l=(l=U.current)?Ee(l):null;if(!l)throw Error(h(446));switch(n){case"meta":case"title":return null;case"style":return typeof a.precedence=="string"&&typeof a.href=="string"?(s=Ao(a.href),a=Ga(l).hoistableStyles,o=a.get(s),o||(o={type:"style",instance:null,count:0,state:null},a.set(s,o)),o):{type:"void",instance:null,count:0,state:null};case"link":if(a.rel==="stylesheet"&&typeof a.href=="string"&&typeof a.precedence=="string"){n=Ao(a.href);var e=Ga(l).hoistableStyles,p=e.get(n);if(p||(l=l.ownerDocument||l,p={type:"stylesheet",instance:null,count:0,state:{loading:0,preload:null}},e.set(n,p),(e=l.querySelector(rl(n)))&&!e._p&&(p.instance=e,p.state.loading=5),hs.has(n)||(a={rel:"preload",as:"style",href:a.href,crossOrigin:a.crossOrigin,integrity:a.integrity,media:a.media,hrefLang:a.hrefLang,referrerPolicy:a.referrerPolicy},hs.set(n,a),e||d0(l,n,a,p.state))),s&&o===null)throw Error(h(528,""));return p}if(s&&o!==null)throw Error(h(529,""));return null;case"script":return s=a.async,a=a.src,typeof a=="string"&&s&&typeof s!="function"&&typeof s!="symbol"?(s=So(a),a=Ga(l).hoistableScripts,o=a.get(s),o||(o={type:"script",instance:null,count:0,state:null},a.set(s,o)),o):{type:"void",instance:null,count:0,state:null};default:throw Error(h(444,n))}}function Ao(n){return'href="'+fs(n)+'"'}function rl(n){return'link[rel="stylesheet"]['+n+"]"}function C3(n){return M({},n,{"data-precedence":n.precedence,precedence:null})}function d0(n,s,a,o){n.querySelector('link[rel="preload"][as="style"]['+s+"]")?o.loading=1:(s=n.createElement("link"),o.preload=s,s.addEventListener("load",function(){return o.loading|=1}),s.addEventListener("error",function(){return o.loading|=2}),Nn(s,"link",a),Ln(s),n.head.appendChild(s))}function So(n){return'[src="'+fs(n)+'"]'}function yl(n){return"script[async]"+n}function I3(n,s,a){if(s.count++,s.instance===null)switch(s.type){case"style":var o=n.querySelector('style[data-href~="'+fs(a.href)+'"]');if(o)return s.instance=o,Ln(o),o;var l=M({},a,{"data-href":a.href,"data-precedence":a.precedence,href:null,precedence:null});return o=(n.ownerDocument||n).createElement("style"),Ln(o),Nn(o,"style",l),Te(o,a.precedence,n),s.instance=o;case"stylesheet":l=Ao(a.href);var e=n.querySelector(rl(l));if(e)return s.state.loading|=4,s.instance=e,Ln(e),e;o=C3(a),(l=hs.get(l))&&zt(o,l),e=(n.ownerDocument||n).createElement("link"),Ln(e);var p=e;return p._p=new Promise(function(t,c){p.onload=t,p.onerror=c}),Nn(e,"link",o),s.state.loading|=4,Te(e,a.precedence,n),s.instance=e;case"script":return e=So(a.src),(l=n.querySelector(yl(e)))?(s.instance=l,Ln(l),l):(o=a,(l=hs.get(e))&&(o=M({},a),Jt(o,l)),n=n.ownerDocument||n,l=n.createElement("script"),Ln(l),Nn(l,"link",o),n.head.appendChild(l),s.instance=l);case"void":return null;default:throw Error(h(443,s.type))}else s.type==="stylesheet"&&(s.state.loading&4)===0&&(o=s.instance,s.state.loading|=4,Te(o,a.precedence,n));return s.instance}function Te(n,s,a){for(var o=a.querySelectorAll('link[rel="stylesheet"][data-precedence],style[data-precedence]'),l=o.length?o[o.length-1]:null,e=l,p=0;p<o.length;p++){var t=o[p];if(t.dataset.precedence===s)e=t;else if(e!==l)break}e?e.parentNode.insertBefore(n,e.nextSibling):(s=a.nodeType===9?a.head:a,s.insertBefore(n,s.firstChild))}function zt(n,s){n.crossOrigin==null&&(n.crossOrigin=s.crossOrigin),n.referrerPolicy==null&&(n.referrerPolicy=s.referrerPolicy),n.title==null&&(n.title=s.title)}function Jt(n,s){n.crossOrigin==null&&(n.crossOrigin=s.crossOrigin),n.referrerPolicy==null&&(n.referrerPolicy=s.referrerPolicy),n.integrity==null&&(n.integrity=s.integrity)}var ve=null;function N3(n,s,a){if(ve===null){var o=new Map,l=ve=new Map;l.set(a,o)}else l=ve,o=l.get(a),o||(o=new Map,l.set(a,o));if(o.has(n))return o;for(o.set(n,null),a=a.getElementsByTagName(n),l=0;l<a.length;l++){var e=a[l];if(!(e[To]||e[Un]||n==="link"&&e.getAttribute("rel")==="stylesheet")&&e.namespaceURI!=="http://www.w3.org/2000/svg"){var p=e.getAttribute(s)||"";p=n+p;var t=o.get(p);t?t.push(e):o.set(p,[e])}}return o}function G3(n,s,a){n=n.ownerDocument||n,n.head.insertBefore(a,s==="title"?n.querySelector("head > title"):null)}function h0(n,s,a){if(a===1||s.itemProp!=null)return!1;switch(n){case"meta":case"title":return!0;case"style":if(typeof s.precedence!="string"||typeof s.href!="string"||s.href==="")break;return!0;case"link":if(typeof s.rel!="string"||typeof s.href!="string"||s.href===""||s.onLoad||s.onError)break;switch(s.rel){case"stylesheet":return n=s.disabled,typeof s.precedence=="string"&&n==null;default:return!0}case"script":if(s.async&&typeof s.async!="function"&&typeof s.async!="symbol"&&!s.onLoad&&!s.onError&&s.src&&typeof s.src=="string")return!0}return!1}function K3(n){return!(n.type==="stylesheet"&&(n.state.loading&3)===0)}var il=null;function m0(){}function g0(n,s,a){if(il===null)throw Error(h(475));var o=il;if(s.type==="stylesheet"&&(typeof a.media!="string"||matchMedia(a.media).matches!==!1)&&(s.state.loading&4)===0){if(s.instance===null){var l=Ao(a.href),e=n.querySelector(rl(l));if(e){n=e._p,n!==null&&typeof n=="object"&&typeof n.then=="function"&&(o.count++,o=we.bind(o),n.then(o,o)),s.state.loading|=4,s.instance=e,Ln(e);return}e=n.ownerDocument||n,a=C3(a),(l=hs.get(l))&&zt(a,l),e=e.createElement("link"),Ln(e);var p=e;p._p=new Promise(function(t,c){p.onload=t,p.onerror=c}),Nn(e,"link",a),s.instance=e}o.stylesheets===null&&(o.stylesheets=new Map),o.stylesheets.set(s,n),(n=s.state.preload)&&(s.state.loading&3)===0&&(o.count++,s=we.bind(o),n.addEventListener("load",s),n.addEventListener("error",s))}}function A0(){if(il===null)throw Error(h(475));var n=il;return n.stylesheets&&n.count===0&&Vt(n,n.stylesheets),0<n.count?function(s){var a=setTimeout(function(){if(n.stylesheets&&Vt(n,n.stylesheets),n.unsuspend){var o=n.unsuspend;n.unsuspend=null,o()}},6e4);return n.unsuspend=s,function(){n.unsuspend=null,clearTimeout(a)}}:null}function we(){if(this.count--,this.count===0){if(this.stylesheets)Vt(this,this.stylesheets);else if(this.unsuspend){var n=this.unsuspend;this.unsuspend=null,n()}}}var He=null;function Vt(n,s){n.stylesheets=null,n.unsuspend!==null&&(n.count++,He=new Map,s.forEach(S0,n),He=null,we.call(n))}function S0(n,s){if(!(s.state.loading&4)){var a=He.get(n);if(a)var o=a.get(null);else{a=new Map,He.set(n,a);for(var l=n.querySelectorAll("link[data-precedence],style[data-precedence]"),e=0;e<l.length;e++){var p=l[e];(p.nodeName==="LINK"||p.getAttribute("media")!=="not all")&&(a.set(p.dataset.precedence,p),o=p)}o&&a.set(null,o)}l=s.instance,p=l.getAttribute("data-precedence"),e=a.get(p)||o,e===o&&a.set(null,l),a.set(p,l),this.count++,o=we.bind(this),l.addEventListener("load",o),l.addEventListener("error",o),e?e.parentNode.insertBefore(l,e.nextSibling):(n=n.nodeType===9?n.head:n,n.insertBefore(l,n.firstChild)),s.state.loading|=4}}var ul={$$typeof:Rn,Provider:null,Consumer:null,_currentValue:N,_currentValue2:N,_threadCount:0};function O0(n,s,a,o,l,e,p,t){this.tag=1,this.containerInfo=n,this.pingCache=this.current=this.pendingChildren=null,this.timeoutHandle=-1,this.callbackNode=this.next=this.pendingContext=this.context=this.cancelPendingCommit=null,this.callbackPriority=0,this.expirationTimes=Ke(-1),this.entangledLanes=this.shellSuspendCounter=this.errorRecoveryDisabledLanes=this.expiredLanes=this.warmLanes=this.pingedLanes=this.suspendedLanes=this.pendingLanes=0,this.entanglements=Ke(0),this.hiddenUpdates=Ke(null),this.identifierPrefix=o,this.onUncaughtError=l,this.onCaughtError=e,this.onRecoverableError=p,this.pooledCache=null,this.pooledCacheLanes=0,this.formState=t,this.incompleteTransitions=new Map}function U3(n,s,a,o,l,e,p,t,c,u,m,O){return n=new O0(n,s,a,p,t,c,u,O),s=1,e===!0&&(s|=24),e=as(3,null,null,s),n.current=e,e.stateNode=n,s=Tp(),s.refCount++,n.pooledCache=s,s.refCount++,e.memoizedState={element:o,isDehydrated:a,cache:s},Rp(e),n}function z3(n){return n?(n=Xa,n):Xa}function J3(n,s,a,o,l,e){l=z3(l),o.context===null?o.context=l:o.pendingContext=l,o=Xs(s),o.payload={element:a},e=e===void 0?null:e,e!==null&&(o.callback=e),a=Zs(n,o,s),a!==null&&(ts(a,n,s),Vo(a,n,s))}function V3(n,s){if(n=n.memoizedState,n!==null&&n.dehydrated!==null){var a=n.retryLane;n.retryLane=a!==0&&a<s?a:s}}function xt(n,s){V3(n,s),(n=n.alternate)&&V3(n,s)}function x3(n){if(n.tag===13){var s=qa(n,67108864);s!==null&&ts(s,n,67108864),xt(n,67108864)}}var Re=!0;function W0(n,s,a,o){var l=g.T;g.T=null;var e=H.p;try{H.p=2,Pt(n,s,a,o)}finally{H.p=e,g.T=l}}function E0(n,s,a,o){var l=g.T;g.T=null;var e=H.p;try{H.p=8,Pt(n,s,a,o)}finally{H.p=e,g.T=l}}function Pt(n,s,a,o){if(Re){var l=jt(o);if(l===null)Mt(n,s,o,Le,a),j3(n,o);else if(v0(l,n,s,a,o))o.stopPropagation();else if(j3(n,o),s&4&&-1<T0.indexOf(n)){for(;l!==null;){var e=Na(l);if(e!==null)switch(e.tag){case 3:if(e=e.stateNode,e.current.memoizedState.isDehydrated){var p=ma(e.pendingLanes);if(p!==0){var t=e;for(t.pendingLanes|=2,t.entangledLanes|=2;p;){var c=1<<31-ns(p);t.entanglements[1]|=c,p&=~c}ws(e),(sn&6)===0&&(ie=Os()+500,pl(0))}}break;case 13:t=qa(e,2),t!==null&&ts(t,e,2),be(),xt(e,2)}if(e=jt(o),e===null&&Mt(n,s,o,Le,a),e===l)break;l=e}l!==null&&o.stopPropagation()}else Mt(n,s,o,null,a)}}function jt(n){return n=Ze(n),Ft(n)}var Le=null;function Ft(n){if(Le=null,n=Ia(n),n!==null){var s=F(n);if(s===null)n=null;else{var a=s.tag;if(a===13){if(n=rn(s),n!==null)return n;n=null}else if(a===3){if(s.stateNode.current.memoizedState.isDehydrated)return s.tag===3?s.stateNode.containerInfo:null;n=null}else s!==n&&(n=null)}}return Le=n,null}function P3(n){switch(n){case"beforetoggle":case"cancel":case"click":case"close":case"contextmenu":case"copy":case"cut":case"auxclick":case"dblclick":case"dragend":case"dragstart":case"drop":case"focusin":case"focusout":case"input":case"invalid":case"keydown":case"keypress":case"keyup":case"mousedown":case"mouseup":case"paste":case"pause":case"play":case"pointercancel":case"pointerdown":case"pointerup":case"ratechange":case"reset":case"resize":case"seeked":case"submit":case"toggle":case"touchcancel":case"touchend":case"touchstart":case"volumechange":case"change":case"selectionchange":case"textInput":case"compositionstart":case"compositionend":case"compositionupdate":case"beforeblur":case"afterblur":case"beforeinput":case"blur":case"fullscreenchange":case"focus":case"hashchange":case"popstate":case"select":case"selectstart":return 2;case"drag":case"dragenter":case"dragexit":case"dragleave":case"dragover":case"mousemove":case"mouseout":case"mouseover":case"pointermove":case"pointerout":case"pointerover":case"scroll":case"touchmove":case"wheel":case"mouseenter":case"mouseleave":case"pointerenter":case"pointerleave":return 8;case"message":switch(fy()){case lc:return 2;case ec:return 8;case Ol:case ry:return 32;case pc:return 268435456;default:return 32}default:return 32}}var _t=!1,ra=null,ya=null,ia=null,bl=new Map,dl=new Map,ua=[],T0="mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset".split(" ");function j3(n,s){switch(n){case"focusin":case"focusout":ra=null;break;case"dragenter":case"dragleave":ya=null;break;case"mouseover":case"mouseout":ia=null;break;case"pointerover":case"pointerout":bl.delete(s.pointerId);break;case"gotpointercapture":case"lostpointercapture":dl.delete(s.pointerId)}}function hl(n,s,a,o,l,e){return n===null||n.nativeEvent!==e?(n={blockedOn:s,domEventName:a,eventSystemFlags:o,nativeEvent:e,targetContainers:[l]},s!==null&&(s=Na(s),s!==null&&x3(s)),n):(n.eventSystemFlags|=o,s=n.targetContainers,l!==null&&s.indexOf(l)===-1&&s.push(l),n)}function v0(n,s,a,o,l){switch(s){case"focusin":return ra=hl(ra,n,s,a,o,l),!0;case"dragenter":return ya=hl(ya,n,s,a,o,l),!0;case"mouseover":return ia=hl(ia,n,s,a,o,l),!0;case"pointerover":var e=l.pointerId;return bl.set(e,hl(bl.get(e)||null,n,s,a,o,l)),!0;case"gotpointercapture":return e=l.pointerId,dl.set(e,hl(dl.get(e)||null,n,s,a,o,l)),!0}return!1}function F3(n){var s=Ia(n.target);if(s!==null){var a=F(s);if(a!==null){if(s=a.tag,s===13){if(s=rn(a),s!==null){n.blockedOn=s,gy(n.priority,function(){if(a.tag===13){var o=ps();o=Ue(o);var l=qa(a,o);l!==null&&ts(l,a,o),xt(a,o)}});return}}else if(s===3&&a.stateNode.current.memoizedState.isDehydrated){n.blockedOn=a.tag===3?a.stateNode.containerInfo:null;return}}}n.blockedOn=null}function Be(n){if(n.blockedOn!==null)return!1;for(var s=n.targetContainers;0<s.length;){var a=jt(n.nativeEvent);if(a===null){a=n.nativeEvent;var o=new a.constructor(a.type,a);Xe=o,a.target.dispatchEvent(o),Xe=null}else return s=Na(a),s!==null&&x3(s),n.blockedOn=a,!1;s.shift()}return!0}function _3(n,s,a){Be(n)&&a.delete(s)}function w0(){_t=!1,ra!==null&&Be(ra)&&(ra=null),ya!==null&&Be(ya)&&(ya=null),ia!==null&&Be(ia)&&(ia=null),bl.forEach(_3),dl.forEach(_3)}function De(n,s){n.blockedOn===s&&(n.blockedOn=null,_t||(_t=!0,E.unstable_scheduleCallback(E.unstable_NormalPriority,w0)))}var Me=null;function q3(n){Me!==n&&(Me=n,E.unstable_scheduleCallback(E.unstable_NormalPriority,function(){Me===n&&(Me=null);for(var s=0;s<n.length;s+=3){var a=n[s],o=n[s+1],l=n[s+2];if(typeof o!="function"){if(Ft(o||a)===null)continue;break}var e=Na(a);e!==null&&(n.splice(s,3),s-=3,Fp(e,{pending:!0,data:l,method:a.method,action:o},o,l))}}))}function ml(n){function s(c){return De(c,n)}ra!==null&&De(ra,n),ya!==null&&De(ya,n),ia!==null&&De(ia,n),bl.forEach(s),dl.forEach(s);for(var a=0;a<ua.length;a++){var o=ua[a];o.blockedOn===n&&(o.blockedOn=null)}for(;0<ua.length&&(a=ua[0],a.blockedOn===null);)F3(a),a.blockedOn===null&&ua.shift();if(a=(n.ownerDocument||n).$$reactFormReplay,a!=null)for(o=0;o<a.length;o+=3){var l=a[o],e=a[o+1],p=l[jn]||null;if(typeof e=="function")p||q3(a);else if(p){var t=null;if(e&&e.hasAttribute("formAction")){if(l=e,p=e[jn]||null)t=p.formAction;else if(Ft(l)!==null)continue}else t=p.action;typeof t=="function"?a[o+1]=t:(a.splice(o,3),o-=3),q3(a)}}}function qt(n){this._internalRoot=n}Ye.prototype.render=qt.prototype.render=function(n){var s=this._internalRoot;if(s===null)throw Error(h(409));var a=s.current,o=ps();J3(a,o,n,s,null,null)},Ye.prototype.unmount=qt.prototype.unmount=function(){var n=this._internalRoot;if(n!==null){this._internalRoot=null;var s=n.containerInfo;J3(n.current,2,null,n,null,null),be(),s[Ca]=null}};function Ye(n){this._internalRoot=n}Ye.prototype.unstable_scheduleHydration=function(n){if(n){var s=yc();n={blockedOn:null,target:n,priority:s};for(var a=0;a<ua.length&&s!==0&&s<ua[a].priority;a++);ua.splice(a,0,n),a===0&&F3(n)}};var X3=q.version;if(X3!=="19.1.0")throw Error(h(527,X3,"19.1.0"));H.findDOMNode=function(n){var s=n._reactInternals;if(s===void 0)throw typeof n.render=="function"?Error(h(188)):(n=Object.keys(n).join(","),Error(h(268,n)));return n=B(s),n=n!==null?T(n):null,n=n===null?null:n.stateNode,n};var H0={bundleType:0,version:"19.1.0",rendererPackageName:"react-dom",currentDispatcherRef:g,reconcilerVersion:"19.1.0"};if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__<"u"){var ke=__REACT_DEVTOOLS_GLOBAL_HOOK__;if(!ke.isDisabled&&ke.supportsFiber)try{Oo=ke.inject(H0),$n=ke}catch{}}return Al.createRoot=function(n,s){if(!K(n))throw Error(h(299));var a=!1,o="",l=ir,e=ur,p=br,t=null;return s!=null&&(s.unstable_strictMode===!0&&(a=!0),s.identifierPrefix!==void 0&&(o=s.identifierPrefix),s.onUncaughtError!==void 0&&(l=s.onUncaughtError),s.onCaughtError!==void 0&&(e=s.onCaughtError),s.onRecoverableError!==void 0&&(p=s.onRecoverableError),s.unstable_transitionCallbacks!==void 0&&(t=s.unstable_transitionCallbacks)),s=U3(n,1,!1,null,null,a,o,l,e,p,t,null),n[Ca]=s.current,Dt(n),new qt(s)},Al.hydrateRoot=function(n,s,a){if(!K(n))throw Error(h(299));var o=!1,l="",e=ir,p=ur,t=br,c=null,u=null;return a!=null&&(a.unstable_strictMode===!0&&(o=!0),a.identifierPrefix!==void 0&&(l=a.identifierPrefix),a.onUncaughtError!==void 0&&(e=a.onUncaughtError),a.onCaughtError!==void 0&&(p=a.onCaughtError),a.onRecoverableError!==void 0&&(t=a.onRecoverableError),a.unstable_transitionCallbacks!==void 0&&(c=a.unstable_transitionCallbacks),a.formState!==void 0&&(u=a.formState)),s=U3(n,1,!0,s,a??null,o,l,e,p,t,c,u),s.context=z3(null),a=s.current,o=ps(),o=Ue(o),l=Xs(o),l.callback=null,Zs(a,l,o),a=o,s.current.lanes=a,Eo(s,a),ws(s),n[Ca]=s.current,Dt(n),new Ye(s)},Al.version="19.1.0",Al}var py;function N0(){if(py)return Qt.exports;py=1;function E(){if(!(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__>"u"||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!="function"))try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(E)}catch(q){console.error(q)}}return E(),Qt.exports=I0(),Qt.exports}var G0=N0();const ac=[{id:1,title:"ええじゃないか",titleKana:"ええじゃないか",lyricist:"岩崎貴文・mildsalt",composer:"岩崎貴文",arranger:"CHOKKAKU",album:["ええじゃないか","ええじゃないか[初回盤]","ええじゃないか[MY BEST CD盤]","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`ええじゃないか[初回盤(WEST盤)] （Music Clip & Making）
+`+a.stack}}function cs(n){switch(typeof n){case"bigint":case"boolean":case"number":case"string":case"undefined":return n;case"object":return n;default:return""}}function Ac(n){var s=n.type;return(n=n.nodeName)&&n.toLowerCase()==="input"&&(s==="checkbox"||s==="radio")}function Ty(n){var s=Ac(n)?"checked":"value",a=Object.getOwnPropertyDescriptor(n.constructor.prototype,s),o=""+n[s];if(!n.hasOwnProperty(s)&&typeof a<"u"&&typeof a.get=="function"&&typeof a.set=="function"){var l=a.get,p=a.set;return Object.defineProperty(n,s,{configurable:!0,get:function(){return l.call(this)},set:function(e){o=""+e,p.call(this,e)}}),Object.defineProperty(n,s,{enumerable:a.enumerable}),{getValue:function(){return o},setValue:function(e){o=""+e},stopTracking:function(){n._valueTracker=null,delete n[s]}}}}function Hl(n){n._valueTracker||(n._valueTracker=Ty(n))}function Sc(n){if(!n)return!1;var s=n._valueTracker;if(!s)return!0;var a=s.getValue(),o="";return n&&(o=Ac(n)?n.checked?"true":"false":n.value),n=o,n!==a?(s.setValue(n),!0):!1}function Rl(n){if(n=n||(typeof document<"u"?document:void 0),typeof n>"u")return null;try{return n.activeElement||n.body}catch{return n.body}}var vy=/[\n"\\]/g;function fs(n){return n.replace(vy,function(s){return"\\"+s.charCodeAt(0).toString(16)+" "})}function Fp(n,s,a,o,l,p,e,t){n.name="",e!=null&&typeof e!="function"&&typeof e!="symbol"&&typeof e!="boolean"?n.type=e:n.removeAttribute("type"),s!=null?e==="number"?(s===0&&n.value===""||n.value!=s)&&(n.value=""+cs(s)):n.value!==""+cs(s)&&(n.value=""+cs(s)):e!=="submit"&&e!=="reset"||n.removeAttribute("value"),s!=null?_p(n,e,cs(s)):a!=null?_p(n,e,cs(a)):o!=null&&n.removeAttribute("value"),l==null&&p!=null&&(n.defaultChecked=!!p),l!=null&&(n.checked=l&&typeof l!="function"&&typeof l!="symbol"),t!=null&&typeof t!="function"&&typeof t!="symbol"&&typeof t!="boolean"?n.name=""+cs(t):n.removeAttribute("name")}function Oc(n,s,a,o,l,p,e,t){if(p!=null&&typeof p!="function"&&typeof p!="symbol"&&typeof p!="boolean"&&(n.type=p),s!=null||a!=null){if(!(p!=="submit"&&p!=="reset"||s!=null))return;a=a!=null?""+cs(a):"",s=s!=null?""+cs(s):a,t||s===n.value||(n.value=s),n.defaultValue=s}o=o??l,o=typeof o!="function"&&typeof o!="symbol"&&!!o,n.checked=t?n.checked:!!o,n.defaultChecked=!!o,e!=null&&typeof e!="function"&&typeof e!="symbol"&&typeof e!="boolean"&&(n.name=e)}function _p(n,s,a){s==="number"&&Rl(n.ownerDocument)===n||n.defaultValue===""+a||(n.defaultValue=""+a)}function za(n,s,a,o){if(n=n.options,s){s={};for(var l=0;l<a.length;l++)s["$"+a[l]]=!0;for(a=0;a<n.length;a++)l=s.hasOwnProperty("$"+n[a].value),n[a].selected!==l&&(n[a].selected=l),l&&o&&(n[a].defaultSelected=!0)}else{for(a=""+cs(a),s=null,l=0;l<n.length;l++){if(n[l].value===a){n[l].selected=!0,o&&(n[l].defaultSelected=!0);return}s!==null||n[l].disabled||(s=n[l])}s!==null&&(s.selected=!0)}}function Wc(n,s,a){if(s!=null&&(s=""+cs(s),s!==n.value&&(n.value=s),a==null)){n.defaultValue!==s&&(n.defaultValue=s);return}n.defaultValue=a!=null?""+cs(a):""}function Ec(n,s,a,o){if(s==null){if(o!=null){if(a!=null)throw Error(h(92));if(Kn(o)){if(1<o.length)throw Error(h(93));o=o[0]}a=o}a==null&&(a=""),s=a}a=cs(s),n.defaultValue=a,o=n.textContent,o===a&&o!==""&&o!==null&&(n.value=o)}function Ja(n,s){if(s){var a=n.firstChild;if(a&&a===n.lastChild&&a.nodeType===3){a.nodeValue=s;return}}n.textContent=s}var wy=new Set("animationIterationCount aspectRatio borderImageOutset borderImageSlice borderImageWidth boxFlex boxFlexGroup boxOrdinalGroup columnCount columns flex flexGrow flexPositive flexShrink flexNegative flexOrder gridArea gridRow gridRowEnd gridRowSpan gridRowStart gridColumn gridColumnEnd gridColumnSpan gridColumnStart fontWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray strokeDashoffset strokeMiterlimit strokeOpacity strokeWidth MozAnimationIterationCount MozBoxFlex MozBoxFlexGroup MozLineClamp msAnimationIterationCount msFlex msZoom msFlexGrow msFlexNegative msFlexOrder msFlexPositive msFlexShrink msGridColumn msGridColumnSpan msGridRow msGridRowSpan WebkitAnimationIterationCount WebkitBoxFlex WebKitBoxFlexGroup WebkitBoxOrdinalGroup WebkitColumnCount WebkitColumns WebkitFlex WebkitFlexGrow WebkitFlexPositive WebkitFlexShrink WebkitLineClamp".split(" "));function Tc(n,s,a){var o=s.indexOf("--")===0;a==null||typeof a=="boolean"||a===""?o?n.setProperty(s,""):s==="float"?n.cssFloat="":n[s]="":o?n.setProperty(s,a):typeof a!="number"||a===0||wy.has(s)?s==="float"?n.cssFloat=a:n[s]=(""+a).trim():n[s]=a+"px"}function vc(n,s,a){if(s!=null&&typeof s!="object")throw Error(h(62));if(n=n.style,a!=null){for(var o in a)!a.hasOwnProperty(o)||s!=null&&s.hasOwnProperty(o)||(o.indexOf("--")===0?n.setProperty(o,""):o==="float"?n.cssFloat="":n[o]="");for(var l in s)o=s[l],s.hasOwnProperty(l)&&a[l]!==o&&Tc(n,l,o)}else for(var p in s)s.hasOwnProperty(p)&&Tc(n,p,s[p])}function qp(n){if(n.indexOf("-")===-1)return!1;switch(n){case"annotation-xml":case"color-profile":case"font-face":case"font-face-src":case"font-face-uri":case"font-face-format":case"font-face-name":case"missing-glyph":return!1;default:return!0}}var Hy=new Map([["acceptCharset","accept-charset"],["htmlFor","for"],["httpEquiv","http-equiv"],["crossOrigin","crossorigin"],["accentHeight","accent-height"],["alignmentBaseline","alignment-baseline"],["arabicForm","arabic-form"],["baselineShift","baseline-shift"],["capHeight","cap-height"],["clipPath","clip-path"],["clipRule","clip-rule"],["colorInterpolation","color-interpolation"],["colorInterpolationFilters","color-interpolation-filters"],["colorProfile","color-profile"],["colorRendering","color-rendering"],["dominantBaseline","dominant-baseline"],["enableBackground","enable-background"],["fillOpacity","fill-opacity"],["fillRule","fill-rule"],["floodColor","flood-color"],["floodOpacity","flood-opacity"],["fontFamily","font-family"],["fontSize","font-size"],["fontSizeAdjust","font-size-adjust"],["fontStretch","font-stretch"],["fontStyle","font-style"],["fontVariant","font-variant"],["fontWeight","font-weight"],["glyphName","glyph-name"],["glyphOrientationHorizontal","glyph-orientation-horizontal"],["glyphOrientationVertical","glyph-orientation-vertical"],["horizAdvX","horiz-adv-x"],["horizOriginX","horiz-origin-x"],["imageRendering","image-rendering"],["letterSpacing","letter-spacing"],["lightingColor","lighting-color"],["markerEnd","marker-end"],["markerMid","marker-mid"],["markerStart","marker-start"],["overlinePosition","overline-position"],["overlineThickness","overline-thickness"],["paintOrder","paint-order"],["panose-1","panose-1"],["pointerEvents","pointer-events"],["renderingIntent","rendering-intent"],["shapeRendering","shape-rendering"],["stopColor","stop-color"],["stopOpacity","stop-opacity"],["strikethroughPosition","strikethrough-position"],["strikethroughThickness","strikethrough-thickness"],["strokeDasharray","stroke-dasharray"],["strokeDashoffset","stroke-dashoffset"],["strokeLinecap","stroke-linecap"],["strokeLinejoin","stroke-linejoin"],["strokeMiterlimit","stroke-miterlimit"],["strokeOpacity","stroke-opacity"],["strokeWidth","stroke-width"],["textAnchor","text-anchor"],["textDecoration","text-decoration"],["textRendering","text-rendering"],["transformOrigin","transform-origin"],["underlinePosition","underline-position"],["underlineThickness","underline-thickness"],["unicodeBidi","unicode-bidi"],["unicodeRange","unicode-range"],["unitsPerEm","units-per-em"],["vAlphabetic","v-alphabetic"],["vHanging","v-hanging"],["vIdeographic","v-ideographic"],["vMathematical","v-mathematical"],["vectorEffect","vector-effect"],["vertAdvY","vert-adv-y"],["vertOriginX","vert-origin-x"],["vertOriginY","vert-origin-y"],["wordSpacing","word-spacing"],["writingMode","writing-mode"],["xmlnsXlink","xmlns:xlink"],["xHeight","x-height"]]),Ry=/^[\u0000-\u001F ]*j[\r\n\t]*a[\r\n\t]*v[\r\n\t]*a[\r\n\t]*s[\r\n\t]*c[\r\n\t]*r[\r\n\t]*i[\r\n\t]*p[\r\n\t]*t[\r\n\t]*:/i;function Ll(n){return Ry.test(""+n)?"javascript:throw new Error('React has blocked a javascript: URL as a security precaution.')":n}var Xp=null;function Zp(n){return n=n.target||n.srcElement||window,n.correspondingUseElement&&(n=n.correspondingUseElement),n.nodeType===3?n.parentNode:n}var Va=null,xa=null;function wc(n){var s=Na(n);if(s&&(n=s.stateNode)){var a=n[jn]||null;n:switch(n=s.stateNode,s.type){case"input":if(Fp(n,a.value,a.defaultValue,a.defaultValue,a.checked,a.defaultChecked,a.type,a.name),s=a.name,a.type==="radio"&&s!=null){for(a=n;a.parentNode;)a=a.parentNode;for(a=a.querySelectorAll('input[name="'+fs(""+s)+'"][type="radio"]'),s=0;s<a.length;s++){var o=a[s];if(o!==n&&o.form===n.form){var l=o[jn]||null;if(!l)throw Error(h(90));Fp(o,l.value,l.defaultValue,l.defaultValue,l.checked,l.defaultChecked,l.type,l.name)}}for(s=0;s<a.length;s++)o=a[s],o.form===n.form&&Sc(o)}break n;case"textarea":Wc(n,a.value,a.defaultValue);break n;case"select":s=a.value,s!=null&&za(n,!!a.multiple,s,!1)}}}var Qp=!1;function Hc(n,s,a){if(Qp)return n(s,a);Qp=!0;try{var o=n(s);return o}finally{if(Qp=!1,(Va!==null||xa!==null)&&(bp(),Va&&(s=Va,n=xa,xa=Va=null,wc(s),n)))for(s=0;s<n.length;s++)wc(n[s])}}function wo(n,s){var a=n.stateNode;if(a===null)return null;var o=a[jn]||null;if(o===null)return null;a=o[s];n:switch(s){case"onClick":case"onClickCapture":case"onDoubleClick":case"onDoubleClickCapture":case"onMouseDown":case"onMouseDownCapture":case"onMouseMove":case"onMouseMoveCapture":case"onMouseUp":case"onMouseUpCapture":case"onMouseEnter":(o=!o.disabled)||(n=n.type,o=!(n==="button"||n==="input"||n==="select"||n==="textarea")),n=!o;break n;default:n=!1}if(n)return null;if(a&&typeof a!="function")throw Error(h(231,s,typeof a));return a}var Bs=!(typeof window>"u"||typeof window.document>"u"||typeof window.document.createElement>"u"),$p=!1;if(Bs)try{var Ho={};Object.defineProperty(Ho,"passive",{get:function(){$p=!0}}),window.addEventListener("test",Ho,Ho),window.removeEventListener("test",Ho,Ho)}catch{$p=!1}var Fs=null,ne=null,Bl=null;function Rc(){if(Bl)return Bl;var n,s=ne,a=s.length,o,l="value"in Fs?Fs.value:Fs.textContent,p=l.length;for(n=0;n<a&&s[n]===l[n];n++);var e=a-n;for(o=1;o<=e&&s[a-o]===l[p-o];o++);return Bl=l.slice(n,1<o?1-o:void 0)}function Dl(n){var s=n.keyCode;return"charCode"in n?(n=n.charCode,n===0&&s===13&&(n=13)):n=s,n===10&&(n=13),32<=n||n===13?n:0}function Ml(){return!0}function Lc(){return!1}function Fn(n){function s(a,o,l,p,e){this._reactName=a,this._targetInst=l,this.type=o,this.nativeEvent=p,this.target=e,this.currentTarget=null;for(var t in n)n.hasOwnProperty(t)&&(a=n[t],this[t]=a?a(p):p[t]);return this.isDefaultPrevented=(p.defaultPrevented!=null?p.defaultPrevented:p.returnValue===!1)?Ml:Lc,this.isPropagationStopped=Lc,this}return M(s.prototype,{preventDefault:function(){this.defaultPrevented=!0;var a=this.nativeEvent;a&&(a.preventDefault?a.preventDefault():typeof a.returnValue!="unknown"&&(a.returnValue=!1),this.isDefaultPrevented=Ml)},stopPropagation:function(){var a=this.nativeEvent;a&&(a.stopPropagation?a.stopPropagation():typeof a.cancelBubble!="unknown"&&(a.cancelBubble=!0),this.isPropagationStopped=Ml)},persist:function(){},isPersistent:Ml}),s}var Aa={eventPhase:0,bubbles:0,cancelable:0,timeStamp:function(n){return n.timeStamp||Date.now()},defaultPrevented:0,isTrusted:0},Yl=Fn(Aa),Ro=M({},Aa,{view:0,detail:0}),Ly=Fn(Ro),se,ae,Lo,kl=M({},Ro,{screenX:0,screenY:0,clientX:0,clientY:0,pageX:0,pageY:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,getModifierState:le,button:0,buttons:0,relatedTarget:function(n){return n.relatedTarget===void 0?n.fromElement===n.srcElement?n.toElement:n.fromElement:n.relatedTarget},movementX:function(n){return"movementX"in n?n.movementX:(n!==Lo&&(Lo&&n.type==="mousemove"?(se=n.screenX-Lo.screenX,ae=n.screenY-Lo.screenY):ae=se=0,Lo=n),se)},movementY:function(n){return"movementY"in n?n.movementY:ae}}),Bc=Fn(kl),By=M({},kl,{dataTransfer:0}),Dy=Fn(By),My=M({},Ro,{relatedTarget:0}),oe=Fn(My),Yy=M({},Aa,{animationName:0,elapsedTime:0,pseudoElement:0}),ky=Fn(Yy),Cy=M({},Aa,{clipboardData:function(n){return"clipboardData"in n?n.clipboardData:window.clipboardData}}),Iy=Fn(Cy),Ny=M({},Aa,{data:0}),Dc=Fn(Ny),Gy={Esc:"Escape",Spacebar:" ",Left:"ArrowLeft",Up:"ArrowUp",Right:"ArrowRight",Down:"ArrowDown",Del:"Delete",Win:"OS",Menu:"ContextMenu",Apps:"ContextMenu",Scroll:"ScrollLock",MozPrintableKey:"Unidentified"},Ky={8:"Backspace",9:"Tab",12:"Clear",13:"Enter",16:"Shift",17:"Control",18:"Alt",19:"Pause",20:"CapsLock",27:"Escape",32:" ",33:"PageUp",34:"PageDown",35:"End",36:"Home",37:"ArrowLeft",38:"ArrowUp",39:"ArrowRight",40:"ArrowDown",45:"Insert",46:"Delete",112:"F1",113:"F2",114:"F3",115:"F4",116:"F5",117:"F6",118:"F7",119:"F8",120:"F9",121:"F10",122:"F11",123:"F12",144:"NumLock",145:"ScrollLock",224:"Meta"},Uy={Alt:"altKey",Control:"ctrlKey",Meta:"metaKey",Shift:"shiftKey"};function zy(n){var s=this.nativeEvent;return s.getModifierState?s.getModifierState(n):(n=Uy[n])?!!s[n]:!1}function le(){return zy}var Jy=M({},Ro,{key:function(n){if(n.key){var s=Gy[n.key]||n.key;if(s!=="Unidentified")return s}return n.type==="keypress"?(n=Dl(n),n===13?"Enter":String.fromCharCode(n)):n.type==="keydown"||n.type==="keyup"?Ky[n.keyCode]||"Unidentified":""},code:0,location:0,ctrlKey:0,shiftKey:0,altKey:0,metaKey:0,repeat:0,locale:0,getModifierState:le,charCode:function(n){return n.type==="keypress"?Dl(n):0},keyCode:function(n){return n.type==="keydown"||n.type==="keyup"?n.keyCode:0},which:function(n){return n.type==="keypress"?Dl(n):n.type==="keydown"||n.type==="keyup"?n.keyCode:0}}),Vy=Fn(Jy),xy=M({},kl,{pointerId:0,width:0,height:0,pressure:0,tangentialPressure:0,tiltX:0,tiltY:0,twist:0,pointerType:0,isPrimary:0}),Mc=Fn(xy),Py=M({},Ro,{touches:0,targetTouches:0,changedTouches:0,altKey:0,metaKey:0,ctrlKey:0,shiftKey:0,getModifierState:le}),jy=Fn(Py),Fy=M({},Aa,{propertyName:0,elapsedTime:0,pseudoElement:0}),_y=Fn(Fy),qy=M({},kl,{deltaX:function(n){return"deltaX"in n?n.deltaX:"wheelDeltaX"in n?-n.wheelDeltaX:0},deltaY:function(n){return"deltaY"in n?n.deltaY:"wheelDeltaY"in n?-n.wheelDeltaY:"wheelDelta"in n?-n.wheelDelta:0},deltaZ:0,deltaMode:0}),Xy=Fn(qy),Zy=M({},Aa,{newState:0,oldState:0}),Qy=Fn(Zy),$y=[9,13,27,32],pe=Bs&&"CompositionEvent"in window,Bo=null;Bs&&"documentMode"in document&&(Bo=document.documentMode);var n9=Bs&&"TextEvent"in window&&!Bo,Yc=Bs&&(!pe||Bo&&8<Bo&&11>=Bo),kc=" ",Cc=!1;function Ic(n,s){switch(n){case"keyup":return $y.indexOf(s.keyCode)!==-1;case"keydown":return s.keyCode!==229;case"keypress":case"mousedown":case"focusout":return!0;default:return!1}}function Nc(n){return n=n.detail,typeof n=="object"&&"data"in n?n.data:null}var Pa=!1;function s9(n,s){switch(n){case"compositionend":return Nc(s);case"keypress":return s.which!==32?null:(Cc=!0,kc);case"textInput":return n=s.data,n===kc&&Cc?null:n;default:return null}}function a9(n,s){if(Pa)return n==="compositionend"||!pe&&Ic(n,s)?(n=Rc(),Bl=ne=Fs=null,Pa=!1,n):null;switch(n){case"paste":return null;case"keypress":if(!(s.ctrlKey||s.altKey||s.metaKey)||s.ctrlKey&&s.altKey){if(s.char&&1<s.char.length)return s.char;if(s.which)return String.fromCharCode(s.which)}return null;case"compositionend":return Yc&&s.locale!=="ko"?null:s.data;default:return null}}var o9={color:!0,date:!0,datetime:!0,"datetime-local":!0,email:!0,month:!0,number:!0,password:!0,range:!0,search:!0,tel:!0,text:!0,time:!0,url:!0,week:!0};function Gc(n){var s=n&&n.nodeName&&n.nodeName.toLowerCase();return s==="input"?!!o9[n.type]:s==="textarea"}function Kc(n,s,a,o){Va?xa?xa.push(o):xa=[o]:Va=o,s=Sp(s,"onChange"),0<s.length&&(a=new Yl("onChange","change",null,a,o),n.push({event:a,listeners:s}))}var Do=null,Mo=null;function l9(n){S3(n,0)}function Cl(n){var s=vo(n);if(Sc(s))return n}function Uc(n,s){if(n==="change")return s}var zc=!1;if(Bs){var ee;if(Bs){var te="oninput"in document;if(!te){var Jc=document.createElement("div");Jc.setAttribute("oninput","return;"),te=typeof Jc.oninput=="function"}ee=te}else ee=!1;zc=ee&&(!document.documentMode||9<document.documentMode)}function Vc(){Do&&(Do.detachEvent("onpropertychange",xc),Mo=Do=null)}function xc(n){if(n.propertyName==="value"&&Cl(Mo)){var s=[];Kc(s,Mo,n,Zp(n)),Hc(l9,s)}}function p9(n,s,a){n==="focusin"?(Vc(),Do=s,Mo=a,Do.attachEvent("onpropertychange",xc)):n==="focusout"&&Vc()}function e9(n){if(n==="selectionchange"||n==="keyup"||n==="keydown")return Cl(Mo)}function t9(n,s){if(n==="click")return Cl(s)}function c9(n,s){if(n==="input"||n==="change")return Cl(s)}function f9(n,s){return n===s&&(n!==0||1/n===1/s)||n!==n&&s!==s}var ss=typeof Object.is=="function"?Object.is:f9;function Yo(n,s){if(ss(n,s))return!0;if(typeof n!="object"||n===null||typeof s!="object"||s===null)return!1;var a=Object.keys(n),o=Object.keys(s);if(a.length!==o.length)return!1;for(o=0;o<a.length;o++){var l=a[o];if(!Ip.call(s,l)||!ss(n[l],s[l]))return!1}return!0}function Pc(n){for(;n&&n.firstChild;)n=n.firstChild;return n}function jc(n,s){var a=Pc(n);n=0;for(var o;a;){if(a.nodeType===3){if(o=n+a.textContent.length,n<=s&&o>=s)return{node:a,offset:s-n};n=o}n:{for(;a;){if(a.nextSibling){a=a.nextSibling;break n}a=a.parentNode}a=void 0}a=Pc(a)}}function Fc(n,s){return n&&s?n===s?!0:n&&n.nodeType===3?!1:s&&s.nodeType===3?Fc(n,s.parentNode):"contains"in n?n.contains(s):n.compareDocumentPosition?!!(n.compareDocumentPosition(s)&16):!1:!1}function _c(n){n=n!=null&&n.ownerDocument!=null&&n.ownerDocument.defaultView!=null?n.ownerDocument.defaultView:window;for(var s=Rl(n.document);s instanceof n.HTMLIFrameElement;){try{var a=typeof s.contentWindow.location.href=="string"}catch{a=!1}if(a)n=s.contentWindow;else break;s=Rl(n.document)}return s}function ce(n){var s=n&&n.nodeName&&n.nodeName.toLowerCase();return s&&(s==="input"&&(n.type==="text"||n.type==="search"||n.type==="tel"||n.type==="url"||n.type==="password")||s==="textarea"||n.contentEditable==="true")}var r9=Bs&&"documentMode"in document&&11>=document.documentMode,ja=null,fe=null,ko=null,re=!1;function qc(n,s,a){var o=a.window===a?a.document:a.nodeType===9?a:a.ownerDocument;re||ja==null||ja!==Rl(o)||(o=ja,"selectionStart"in o&&ce(o)?o={start:o.selectionStart,end:o.selectionEnd}:(o=(o.ownerDocument&&o.ownerDocument.defaultView||window).getSelection(),o={anchorNode:o.anchorNode,anchorOffset:o.anchorOffset,focusNode:o.focusNode,focusOffset:o.focusOffset}),ko&&Yo(ko,o)||(ko=o,o=Sp(fe,"onSelect"),0<o.length&&(s=new Yl("onSelect","select",null,s,a),n.push({event:s,listeners:o}),s.target=ja)))}function Sa(n,s){var a={};return a[n.toLowerCase()]=s.toLowerCase(),a["Webkit"+n]="webkit"+s,a["Moz"+n]="moz"+s,a}var Fa={animationend:Sa("Animation","AnimationEnd"),animationiteration:Sa("Animation","AnimationIteration"),animationstart:Sa("Animation","AnimationStart"),transitionrun:Sa("Transition","TransitionRun"),transitionstart:Sa("Transition","TransitionStart"),transitioncancel:Sa("Transition","TransitionCancel"),transitionend:Sa("Transition","TransitionEnd")},ye={},Xc={};Bs&&(Xc=document.createElement("div").style,"AnimationEvent"in window||(delete Fa.animationend.animation,delete Fa.animationiteration.animation,delete Fa.animationstart.animation),"TransitionEvent"in window||delete Fa.transitionend.transition);function Oa(n){if(ye[n])return ye[n];if(!Fa[n])return n;var s=Fa[n],a;for(a in s)if(s.hasOwnProperty(a)&&a in Xc)return ye[n]=s[a];return n}var Zc=Oa("animationend"),Qc=Oa("animationiteration"),$c=Oa("animationstart"),y9=Oa("transitionrun"),i9=Oa("transitionstart"),u9=Oa("transitioncancel"),nf=Oa("transitionend"),sf=new Map,ie="abort auxClick beforeToggle cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emptied encrypted ended error gotPointerCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pause play playing pointerCancel pointerDown pointerMove pointerOut pointerOver pointerUp progress rateChange reset resize seeked seeking stalled submit suspend timeUpdate touchCancel touchEnd touchStart volumeChange scroll toggle touchMove waiting wheel".split(" ");ie.push("scrollEnd");function gs(n,s){sf.set(n,s),ga(s,[n])}var af=new WeakMap;function rs(n,s){if(typeof n=="object"&&n!==null){var a=af.get(n);return a!==void 0?a:(s={value:n,source:s,stack:gc(s)},af.set(n,s),s)}return{value:n,source:s,stack:gc(s)}}var ys=[],_a=0,ue=0;function Il(){for(var n=_a,s=ue=_a=0;s<n;){var a=ys[s];ys[s++]=null;var o=ys[s];ys[s++]=null;var l=ys[s];ys[s++]=null;var p=ys[s];if(ys[s++]=null,o!==null&&l!==null){var e=o.pending;e===null?l.next=l:(l.next=e.next,e.next=l),o.pending=l}p!==0&&of(a,l,p)}}function Nl(n,s,a,o){ys[_a++]=n,ys[_a++]=s,ys[_a++]=a,ys[_a++]=o,ue|=o,n.lanes|=o,n=n.alternate,n!==null&&(n.lanes|=o)}function be(n,s,a,o){return Nl(n,s,a,o),Gl(n)}function qa(n,s){return Nl(n,null,null,s),Gl(n)}function of(n,s,a){n.lanes|=a;var o=n.alternate;o!==null&&(o.lanes|=a);for(var l=!1,p=n.return;p!==null;)p.childLanes|=a,o=p.alternate,o!==null&&(o.childLanes|=a),p.tag===22&&(n=p.stateNode,n===null||n._visibility&1||(l=!0)),n=p,p=p.return;return n.tag===3?(p=n.stateNode,l&&s!==null&&(l=31-ns(a),n=p.hiddenUpdates,o=n[l],o===null?n[l]=[s]:o.push(s),s.lane=a|536870912),p):null}function Gl(n){if(50<pl)throw pl=0,St=null,Error(h(185));for(var s=n.return;s!==null;)n=s,s=n.return;return n.tag===3?n.stateNode:null}var Xa={};function b9(n,s,a,o){this.tag=n,this.key=a,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.refCleanup=this.ref=null,this.pendingProps=s,this.dependencies=this.memoizedState=this.updateQueue=this.memoizedProps=null,this.mode=o,this.subtreeFlags=this.flags=0,this.deletions=null,this.childLanes=this.lanes=0,this.alternate=null}function as(n,s,a,o){return new b9(n,s,a,o)}function de(n){return n=n.prototype,!(!n||!n.isReactComponent)}function Ds(n,s){var a=n.alternate;return a===null?(a=as(n.tag,s,n.key,n.mode),a.elementType=n.elementType,a.type=n.type,a.stateNode=n.stateNode,a.alternate=n,n.alternate=a):(a.pendingProps=s,a.type=n.type,a.flags=0,a.subtreeFlags=0,a.deletions=null),a.flags=n.flags&65011712,a.childLanes=n.childLanes,a.lanes=n.lanes,a.child=n.child,a.memoizedProps=n.memoizedProps,a.memoizedState=n.memoizedState,a.updateQueue=n.updateQueue,s=n.dependencies,a.dependencies=s===null?null:{lanes:s.lanes,firstContext:s.firstContext},a.sibling=n.sibling,a.index=n.index,a.ref=n.ref,a.refCleanup=n.refCleanup,a}function lf(n,s){n.flags&=65011714;var a=n.alternate;return a===null?(n.childLanes=0,n.lanes=s,n.child=null,n.subtreeFlags=0,n.memoizedProps=null,n.memoizedState=null,n.updateQueue=null,n.dependencies=null,n.stateNode=null):(n.childLanes=a.childLanes,n.lanes=a.lanes,n.child=a.child,n.subtreeFlags=0,n.deletions=null,n.memoizedProps=a.memoizedProps,n.memoizedState=a.memoizedState,n.updateQueue=a.updateQueue,n.type=a.type,s=a.dependencies,n.dependencies=s===null?null:{lanes:s.lanes,firstContext:s.firstContext}),n}function Kl(n,s,a,o,l,p){var e=0;if(o=n,typeof n=="function")de(n)&&(e=1);else if(typeof n=="string")e=h0(n,a,k.current)?26:n==="html"||n==="head"||n==="body"?27:5;else n:switch(n){case x:return n=as(31,a,s,l),n.elementType=x,n.lanes=p,n;case Yn:return Wa(a.children,l,p,s);case Zn:e=8,l|=24;break;case Gn:return n=as(12,a,s,l|2),n.elementType=Gn,n.lanes=p,n;case _:return n=as(13,a,s,l),n.elementType=_,n.lanes=p,n;case Vn:return n=as(19,a,s,l),n.elementType=Vn,n.lanes=p,n;default:if(typeof n=="object"&&n!==null)switch(n.$$typeof){case Rs:case Rn:e=10;break n;case ms:e=9;break n;case kn:e=11;break n;case xn:e=14;break n;case A:e=16,o=null;break n}e=29,a=Error(h(130,n===null?"null":typeof n,"")),o=null}return s=as(e,a,s,l),s.elementType=n,s.type=o,s.lanes=p,s}function Wa(n,s,a,o){return n=as(7,n,o,s),n.lanes=a,n}function he(n,s,a){return n=as(6,n,null,s),n.lanes=a,n}function me(n,s,a){return s=as(4,n.children!==null?n.children:[],n.key,s),s.lanes=a,s.stateNode={containerInfo:n.containerInfo,pendingChildren:null,implementation:n.implementation},s}var Za=[],Qa=0,Ul=null,zl=0,is=[],us=0,Ea=null,Ms=1,Ys="";function Ta(n,s){Za[Qa++]=zl,Za[Qa++]=Ul,Ul=n,zl=s}function pf(n,s,a){is[us++]=Ms,is[us++]=Ys,is[us++]=Ea,Ea=n;var o=Ms;n=Ys;var l=32-ns(o)-1;o&=~(1<<l),a+=1;var p=32-ns(s)+l;if(30<p){var e=l-l%5;p=(o&(1<<e)-1).toString(32),o>>=e,l-=e,Ms=1<<32-ns(s)+l|a<<l|o,Ys=p+n}else Ms=1<<p|a<<l|o,Ys=n}function ge(n){n.return!==null&&(Ta(n,1),pf(n,1,0))}function Ae(n){for(;n===Ul;)Ul=Za[--Qa],Za[Qa]=null,zl=Za[--Qa],Za[Qa]=null;for(;n===Ea;)Ea=is[--us],is[us]=null,Ys=is[--us],is[us]=null,Ms=is[--us],is[us]=null}var Pn=null,gn=null,nn=!1,va=null,Ws=!1,Se=Error(h(519));function wa(n){var s=Error(h(418,""));throw No(rs(s,n)),Se}function ef(n){var s=n.stateNode,a=n.type,o=n.memoizedProps;switch(s[Un]=n,s[jn]=o,a){case"dialog":j("cancel",s),j("close",s);break;case"iframe":case"object":case"embed":j("load",s);break;case"video":case"audio":for(a=0;a<tl.length;a++)j(tl[a],s);break;case"source":j("error",s);break;case"img":case"image":case"link":j("error",s),j("load",s);break;case"details":j("toggle",s);break;case"input":j("invalid",s),Oc(s,o.value,o.defaultValue,o.checked,o.defaultChecked,o.type,o.name,!0),Hl(s);break;case"select":j("invalid",s);break;case"textarea":j("invalid",s),Ec(s,o.value,o.defaultValue,o.children),Hl(s)}a=o.children,typeof a!="string"&&typeof a!="number"&&typeof a!="bigint"||s.textContent===""+a||o.suppressHydrationWarning===!0||T3(s.textContent,a)?(o.popover!=null&&(j("beforetoggle",s),j("toggle",s)),o.onScroll!=null&&j("scroll",s),o.onScrollEnd!=null&&j("scrollend",s),o.onClick!=null&&(s.onclick=Op),s=!0):s=!1,s||wa(n)}function tf(n){for(Pn=n.return;Pn;)switch(Pn.tag){case 5:case 13:Ws=!1;return;case 27:case 3:Ws=!0;return;default:Pn=Pn.return}}function Co(n){if(n!==Pn)return!1;if(!nn)return tf(n),nn=!0,!1;var s=n.tag,a;if((a=s!==3&&s!==27)&&((a=s===5)&&(a=n.type,a=!(a!=="form"&&a!=="button")||It(n.type,n.memoizedProps)),a=!a),a&&gn&&wa(n),tf(n),s===13){if(n=n.memoizedState,n=n!==null?n.dehydrated:null,!n)throw Error(h(317));n:{for(n=n.nextSibling,s=0;n;){if(n.nodeType===8)if(a=n.data,a==="/$"){if(s===0){gn=Ss(n.nextSibling);break n}s--}else a!=="$"&&a!=="$!"&&a!=="$?"||s++;n=n.nextSibling}gn=null}}else s===27?(s=gn,fa(n.type)?(n=Ut,Ut=null,gn=n):gn=s):gn=Pn?Ss(n.stateNode.nextSibling):null;return!0}function Io(){gn=Pn=null,nn=!1}function cf(){var n=va;return n!==null&&(Xn===null?Xn=n:Xn.push.apply(Xn,n),va=null),n}function No(n){va===null?va=[n]:va.push(n)}var Oe=v(null),Ha=null,ks=null;function _s(n,s,a){w(Oe,s._currentValue),s._currentValue=a}function Cs(n){n._currentValue=Oe.current,R(Oe)}function We(n,s,a){for(;n!==null;){var o=n.alternate;if((n.childLanes&s)!==s?(n.childLanes|=s,o!==null&&(o.childLanes|=s)):o!==null&&(o.childLanes&s)!==s&&(o.childLanes|=s),n===a)break;n=n.return}}function Ee(n,s,a,o){var l=n.child;for(l!==null&&(l.return=n);l!==null;){var p=l.dependencies;if(p!==null){var e=l.child;p=p.firstContext;n:for(;p!==null;){var t=p;p=l;for(var c=0;c<s.length;c++)if(t.context===s[c]){p.lanes|=a,t=p.alternate,t!==null&&(t.lanes|=a),We(p.return,a,n),o||(e=null);break n}p=t.next}}else if(l.tag===18){if(e=l.return,e===null)throw Error(h(341));e.lanes|=a,p=e.alternate,p!==null&&(p.lanes|=a),We(e,a,n),e=null}else e=l.child;if(e!==null)e.return=l;else for(e=l;e!==null;){if(e===n){e=null;break}if(l=e.sibling,l!==null){l.return=e.return,e=l;break}e=e.return}l=e}}function Go(n,s,a,o){n=null;for(var l=s,p=!1;l!==null;){if(!p){if((l.flags&524288)!==0)p=!0;else if((l.flags&262144)!==0)break}if(l.tag===10){var e=l.alternate;if(e===null)throw Error(h(387));if(e=e.memoizedProps,e!==null){var t=l.type;ss(l.pendingProps.value,e.value)||(n!==null?n.push(t):n=[t])}}else if(l===Qn.current){if(e=l.alternate,e===null)throw Error(h(387));e.memoizedState.memoizedState!==l.memoizedState.memoizedState&&(n!==null?n.push(ul):n=[ul])}l=l.return}n!==null&&Ee(s,n,a,o),s.flags|=262144}function Jl(n){for(n=n.firstContext;n!==null;){if(!ss(n.context._currentValue,n.memoizedValue))return!0;n=n.next}return!1}function Ra(n){Ha=n,ks=null,n=n.dependencies,n!==null&&(n.firstContext=null)}function zn(n){return ff(Ha,n)}function Vl(n,s){return Ha===null&&Ra(n),ff(n,s)}function ff(n,s){var a=s._currentValue;if(s={context:s,memoizedValue:a,next:null},ks===null){if(n===null)throw Error(h(308));ks=s,n.dependencies={lanes:0,firstContext:s},n.flags|=524288}else ks=ks.next=s;return a}var d9=typeof AbortController<"u"?AbortController:function(){var n=[],s=this.signal={aborted:!1,addEventListener:function(a,o){n.push(o)}};this.abort=function(){s.aborted=!0,n.forEach(function(a){return a()})}},h9=E.unstable_scheduleCallback,m9=E.unstable_NormalPriority,wn={$$typeof:Rn,Consumer:null,Provider:null,_currentValue:null,_currentValue2:null,_threadCount:0};function Te(){return{controller:new d9,data:new Map,refCount:0}}function Ko(n){n.refCount--,n.refCount===0&&h9(m9,function(){n.controller.abort()})}var Uo=null,ve=0,$a=0,no=null;function g9(n,s){if(Uo===null){var a=Uo=[];ve=0,$a=Ht(),no={status:"pending",value:void 0,then:function(o){a.push(o)}}}return ve++,s.then(rf,rf),s}function rf(){if(--ve===0&&Uo!==null){no!==null&&(no.status="fulfilled");var n=Uo;Uo=null,$a=0,no=null;for(var s=0;s<n.length;s++)(0,n[s])()}}function A9(n,s){var a=[],o={status:"pending",value:null,reason:null,then:function(l){a.push(l)}};return n.then(function(){o.status="fulfilled",o.value=s;for(var l=0;l<a.length;l++)(0,a[l])(s)},function(l){for(o.status="rejected",o.reason=l,l=0;l<a.length;l++)(0,a[l])(void 0)}),o}var yf=g.S;g.S=function(n,s){typeof s=="object"&&s!==null&&typeof s.then=="function"&&g9(n,s),yf!==null&&yf(n,s)};var La=v(null);function we(){var n=La.current;return n!==null?n:yn.pooledCache}function xl(n,s){s===null?w(La,La.current):w(La,s.pool)}function uf(){var n=we();return n===null?null:{parent:wn._currentValue,pool:n}}var zo=Error(h(460)),bf=Error(h(474)),Pl=Error(h(542)),He={then:function(){}};function df(n){return n=n.status,n==="fulfilled"||n==="rejected"}function jl(){}function hf(n,s,a){switch(a=n[a],a===void 0?n.push(s):a!==s&&(s.then(jl,jl),s=a),s.status){case"fulfilled":return s.value;case"rejected":throw n=s.reason,gf(n),n;default:if(typeof s.status=="string")s.then(jl,jl);else{if(n=yn,n!==null&&100<n.shellSuspendCounter)throw Error(h(482));n=s,n.status="pending",n.then(function(o){if(s.status==="pending"){var l=s;l.status="fulfilled",l.value=o}},function(o){if(s.status==="pending"){var l=s;l.status="rejected",l.reason=o}})}switch(s.status){case"fulfilled":return s.value;case"rejected":throw n=s.reason,gf(n),n}throw Jo=s,zo}}var Jo=null;function mf(){if(Jo===null)throw Error(h(459));var n=Jo;return Jo=null,n}function gf(n){if(n===zo||n===Pl)throw Error(h(483))}var qs=!1;function Re(n){n.updateQueue={baseState:n.memoizedState,firstBaseUpdate:null,lastBaseUpdate:null,shared:{pending:null,lanes:0,hiddenCallbacks:null},callbacks:null}}function Le(n,s){n=n.updateQueue,s.updateQueue===n&&(s.updateQueue={baseState:n.baseState,firstBaseUpdate:n.firstBaseUpdate,lastBaseUpdate:n.lastBaseUpdate,shared:n.shared,callbacks:null})}function Xs(n){return{lane:n,tag:0,payload:null,callback:null,next:null}}function Zs(n,s,a){var o=n.updateQueue;if(o===null)return null;if(o=o.shared,(sn&2)!==0){var l=o.pending;return l===null?s.next=s:(s.next=l.next,l.next=s),o.pending=s,s=Gl(n),of(n,null,a),s}return Nl(n,o,s,a),Gl(n)}function Vo(n,s,a){if(s=s.updateQueue,s!==null&&(s=s.shared,(a&4194048)!==0)){var o=s.lanes;o&=n.pendingLanes,a|=o,s.lanes=a,rc(n,a)}}function Be(n,s){var a=n.updateQueue,o=n.alternate;if(o!==null&&(o=o.updateQueue,a===o)){var l=null,p=null;if(a=a.firstBaseUpdate,a!==null){do{var e={lane:a.lane,tag:a.tag,payload:a.payload,callback:null,next:null};p===null?l=p=e:p=p.next=e,a=a.next}while(a!==null);p===null?l=p=s:p=p.next=s}else l=p=s;a={baseState:o.baseState,firstBaseUpdate:l,lastBaseUpdate:p,shared:o.shared,callbacks:o.callbacks},n.updateQueue=a;return}n=a.lastBaseUpdate,n===null?a.firstBaseUpdate=s:n.next=s,a.lastBaseUpdate=s}var De=!1;function xo(){if(De){var n=no;if(n!==null)throw n}}function Po(n,s,a,o){De=!1;var l=n.updateQueue;qs=!1;var p=l.firstBaseUpdate,e=l.lastBaseUpdate,t=l.shared.pending;if(t!==null){l.shared.pending=null;var c=t,u=c.next;c.next=null,e===null?p=u:e.next=u,e=c;var m=n.alternate;m!==null&&(m=m.updateQueue,t=m.lastBaseUpdate,t!==e&&(t===null?m.firstBaseUpdate=u:t.next=u,m.lastBaseUpdate=c))}if(p!==null){var O=l.baseState;e=0,m=u=c=null,t=p;do{var b=t.lane&-536870913,d=b!==t.lane;if(d?(X&b)===b:(o&b)===b){b!==0&&b===$a&&(De=!0),m!==null&&(m=m.next={lane:0,tag:t.tag,payload:t.payload,callback:null,next:null});n:{var G=n,C=t;b=s;var tn=a;switch(C.tag){case 1:if(G=C.payload,typeof G=="function"){O=G.call(tn,O,b);break n}O=G;break n;case 3:G.flags=G.flags&-65537|128;case 0:if(G=C.payload,b=typeof G=="function"?G.call(tn,O,b):G,b==null)break n;O=M({},O,b);break n;case 2:qs=!0}}b=t.callback,b!==null&&(n.flags|=64,d&&(n.flags|=8192),d=l.callbacks,d===null?l.callbacks=[b]:d.push(b))}else d={lane:b,tag:t.tag,payload:t.payload,callback:t.callback,next:null},m===null?(u=m=d,c=O):m=m.next=d,e|=b;if(t=t.next,t===null){if(t=l.shared.pending,t===null)break;d=t,t=d.next,d.next=null,l.lastBaseUpdate=d,l.shared.pending=null}}while(!0);m===null&&(c=O),l.baseState=c,l.firstBaseUpdate=u,l.lastBaseUpdate=m,p===null&&(l.shared.lanes=0),pa|=e,n.lanes=e,n.memoizedState=O}}function Af(n,s){if(typeof n!="function")throw Error(h(191,n));n.call(s)}function Sf(n,s){var a=n.callbacks;if(a!==null)for(n.callbacks=null,n=0;n<a.length;n++)Af(a[n],s)}var so=v(null),Fl=v(0);function Of(n,s){n=Js,w(Fl,n),w(so,s),Js=n|s.baseLanes}function Me(){w(Fl,Js),w(so,so.current)}function Ye(){Js=Fl.current,R(so),R(Fl)}var Qs=0,J=null,pn=null,En=null,_l=!1,ao=!1,Ba=!1,ql=0,jo=0,oo=null,S9=0;function On(){throw Error(h(321))}function ke(n,s){if(s===null)return!1;for(var a=0;a<s.length&&a<n.length;a++)if(!ss(n[a],s[a]))return!1;return!0}function Ce(n,s,a,o,l,p){return Qs=p,J=s,s.memoizedState=null,s.updateQueue=null,s.lanes=0,g.H=n===null||n.memoizedState===null?lr:pr,Ba=!1,p=a(o,l),Ba=!1,ao&&(p=Ef(s,a,o,l)),Wf(n),p}function Wf(n){g.H=sp;var s=pn!==null&&pn.next!==null;if(Qs=0,En=pn=J=null,_l=!1,jo=0,oo=null,s)throw Error(h(300));n===null||Bn||(n=n.dependencies,n!==null&&Jl(n)&&(Bn=!0))}function Ef(n,s,a,o){J=n;var l=0;do{if(ao&&(oo=null),jo=0,ao=!1,25<=l)throw Error(h(301));if(l+=1,En=pn=null,n.updateQueue!=null){var p=n.updateQueue;p.lastEffect=null,p.events=null,p.stores=null,p.memoCache!=null&&(p.memoCache.index=0)}g.H=H9,p=s(a,o)}while(ao);return p}function O9(){var n=g.H,s=n.useState()[0];return s=typeof s.then=="function"?Fo(s):s,n=n.useState()[0],(pn!==null?pn.memoizedState:null)!==n&&(J.flags|=1024),s}function Ie(){var n=ql!==0;return ql=0,n}function Ne(n,s,a){s.updateQueue=n.updateQueue,s.flags&=-2053,n.lanes&=~a}function Ge(n){if(_l){for(n=n.memoizedState;n!==null;){var s=n.queue;s!==null&&(s.pending=null),n=n.next}_l=!1}Qs=0,En=pn=J=null,ao=!1,jo=ql=0,oo=null}function _n(){var n={memoizedState:null,baseState:null,baseQueue:null,queue:null,next:null};return En===null?J.memoizedState=En=n:En=En.next=n,En}function Tn(){if(pn===null){var n=J.alternate;n=n!==null?n.memoizedState:null}else n=pn.next;var s=En===null?J.memoizedState:En.next;if(s!==null)En=s,pn=n;else{if(n===null)throw J.alternate===null?Error(h(467)):Error(h(310));pn=n,n={memoizedState:pn.memoizedState,baseState:pn.baseState,baseQueue:pn.baseQueue,queue:pn.queue,next:null},En===null?J.memoizedState=En=n:En=En.next=n}return En}function Ke(){return{lastEffect:null,events:null,stores:null,memoCache:null}}function Fo(n){var s=jo;return jo+=1,oo===null&&(oo=[]),n=hf(oo,n,s),s=J,(En===null?s.memoizedState:En.next)===null&&(s=s.alternate,g.H=s===null||s.memoizedState===null?lr:pr),n}function Xl(n){if(n!==null&&typeof n=="object"){if(typeof n.then=="function")return Fo(n);if(n.$$typeof===Rn)return zn(n)}throw Error(h(438,String(n)))}function Ue(n){var s=null,a=J.updateQueue;if(a!==null&&(s=a.memoCache),s==null){var o=J.alternate;o!==null&&(o=o.updateQueue,o!==null&&(o=o.memoCache,o!=null&&(s={data:o.data.map(function(l){return l.slice()}),index:0})))}if(s==null&&(s={data:[],index:0}),a===null&&(a=Ke(),J.updateQueue=a),a.memoCache=s,a=s.data[s.index],a===void 0)for(a=s.data[s.index]=Array(n),o=0;o<n;o++)a[o]=Sn;return s.index++,a}function Is(n,s){return typeof s=="function"?s(n):s}function Zl(n){var s=Tn();return ze(s,pn,n)}function ze(n,s,a){var o=n.queue;if(o===null)throw Error(h(311));o.lastRenderedReducer=a;var l=n.baseQueue,p=o.pending;if(p!==null){if(l!==null){var e=l.next;l.next=p.next,p.next=e}s.baseQueue=l=p,o.pending=null}if(p=n.baseState,l===null)n.memoizedState=p;else{s=l.next;var t=e=null,c=null,u=s,m=!1;do{var O=u.lane&-536870913;if(O!==u.lane?(X&O)===O:(Qs&O)===O){var b=u.revertLane;if(b===0)c!==null&&(c=c.next={lane:0,revertLane:0,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null}),O===$a&&(m=!0);else if((Qs&b)===b){u=u.next,b===$a&&(m=!0);continue}else O={lane:0,revertLane:u.revertLane,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null},c===null?(t=c=O,e=p):c=c.next=O,J.lanes|=b,pa|=b;O=u.action,Ba&&a(p,O),p=u.hasEagerState?u.eagerState:a(p,O)}else b={lane:O,revertLane:u.revertLane,action:u.action,hasEagerState:u.hasEagerState,eagerState:u.eagerState,next:null},c===null?(t=c=b,e=p):c=c.next=b,J.lanes|=O,pa|=O;u=u.next}while(u!==null&&u!==s);if(c===null?e=p:c.next=t,!ss(p,n.memoizedState)&&(Bn=!0,m&&(a=no,a!==null)))throw a;n.memoizedState=p,n.baseState=e,n.baseQueue=c,o.lastRenderedState=p}return l===null&&(o.lanes=0),[n.memoizedState,o.dispatch]}function Je(n){var s=Tn(),a=s.queue;if(a===null)throw Error(h(311));a.lastRenderedReducer=n;var o=a.dispatch,l=a.pending,p=s.memoizedState;if(l!==null){a.pending=null;var e=l=l.next;do p=n(p,e.action),e=e.next;while(e!==l);ss(p,s.memoizedState)||(Bn=!0),s.memoizedState=p,s.baseQueue===null&&(s.baseState=p),a.lastRenderedState=p}return[p,o]}function Tf(n,s,a){var o=J,l=Tn(),p=nn;if(p){if(a===void 0)throw Error(h(407));a=a()}else a=s();var e=!ss((pn||l).memoizedState,a);e&&(l.memoizedState=a,Bn=!0),l=l.queue;var t=Hf.bind(null,o,l,n);if(_o(2048,8,t,[n]),l.getSnapshot!==s||e||En!==null&&En.memoizedState.tag&1){if(o.flags|=2048,lo(9,Ql(),wf.bind(null,o,l,a,s),null),yn===null)throw Error(h(349));p||(Qs&124)!==0||vf(o,s,a)}return a}function vf(n,s,a){n.flags|=16384,n={getSnapshot:s,value:a},s=J.updateQueue,s===null?(s=Ke(),J.updateQueue=s,s.stores=[n]):(a=s.stores,a===null?s.stores=[n]:a.push(n))}function wf(n,s,a,o){s.value=a,s.getSnapshot=o,Rf(s)&&Lf(n)}function Hf(n,s,a){return a(function(){Rf(s)&&Lf(n)})}function Rf(n){var s=n.getSnapshot;n=n.value;try{var a=s();return!ss(n,a)}catch{return!0}}function Lf(n){var s=qa(n,2);s!==null&&ts(s,n,2)}function Ve(n){var s=_n();if(typeof n=="function"){var a=n;if(n=a(),Ba){Ps(!0);try{a()}finally{Ps(!1)}}}return s.memoizedState=s.baseState=n,s.queue={pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:n},s}function Bf(n,s,a,o){return n.baseState=a,ze(n,pn,typeof o=="function"?o:Is)}function W9(n,s,a,o,l){if(np(n))throw Error(h(485));if(n=s.action,n!==null){var p={payload:l,action:n,next:null,isTransition:!0,status:"pending",value:null,reason:null,listeners:[],then:function(e){p.listeners.push(e)}};g.T!==null?a(!0):p.isTransition=!1,o(p),a=s.pending,a===null?(p.next=s.pending=p,Df(s,p)):(p.next=a.next,s.pending=a.next=p)}}function Df(n,s){var a=s.action,o=s.payload,l=n.state;if(s.isTransition){var p=g.T,e={};g.T=e;try{var t=a(l,o),c=g.S;c!==null&&c(e,t),Mf(n,s,t)}catch(u){xe(n,s,u)}finally{g.T=p}}else try{p=a(l,o),Mf(n,s,p)}catch(u){xe(n,s,u)}}function Mf(n,s,a){a!==null&&typeof a=="object"&&typeof a.then=="function"?a.then(function(o){Yf(n,s,o)},function(o){return xe(n,s,o)}):Yf(n,s,a)}function Yf(n,s,a){s.status="fulfilled",s.value=a,kf(s),n.state=a,s=n.pending,s!==null&&(a=s.next,a===s?n.pending=null:(a=a.next,s.next=a,Df(n,a)))}function xe(n,s,a){var o=n.pending;if(n.pending=null,o!==null){o=o.next;do s.status="rejected",s.reason=a,kf(s),s=s.next;while(s!==o)}n.action=null}function kf(n){n=n.listeners;for(var s=0;s<n.length;s++)(0,n[s])()}function Cf(n,s){return s}function If(n,s){if(nn){var a=yn.formState;if(a!==null){n:{var o=J;if(nn){if(gn){s:{for(var l=gn,p=Ws;l.nodeType!==8;){if(!p){l=null;break s}if(l=Ss(l.nextSibling),l===null){l=null;break s}}p=l.data,l=p==="F!"||p==="F"?l:null}if(l){gn=Ss(l.nextSibling),o=l.data==="F!";break n}}wa(o)}o=!1}o&&(s=a[0])}}return a=_n(),a.memoizedState=a.baseState=s,o={pending:null,lanes:0,dispatch:null,lastRenderedReducer:Cf,lastRenderedState:s},a.queue=o,a=sr.bind(null,J,o),o.dispatch=a,o=Ve(!1),p=qe.bind(null,J,!1,o.queue),o=_n(),l={state:s,dispatch:null,action:n,pending:null},o.queue=l,a=W9.bind(null,J,l,p,a),l.dispatch=a,o.memoizedState=n,[s,a,!1]}function Nf(n){var s=Tn();return Gf(s,pn,n)}function Gf(n,s,a){if(s=ze(n,s,Cf)[0],n=Zl(Is)[0],typeof s=="object"&&s!==null&&typeof s.then=="function")try{var o=Fo(s)}catch(e){throw e===zo?Pl:e}else o=s;s=Tn();var l=s.queue,p=l.dispatch;return a!==s.memoizedState&&(J.flags|=2048,lo(9,Ql(),E9.bind(null,l,a),null)),[o,p,n]}function E9(n,s){n.action=s}function Kf(n){var s=Tn(),a=pn;if(a!==null)return Gf(s,a,n);Tn(),s=s.memoizedState,a=Tn();var o=a.queue.dispatch;return a.memoizedState=n,[s,o,!1]}function lo(n,s,a,o){return n={tag:n,create:a,deps:o,inst:s,next:null},s=J.updateQueue,s===null&&(s=Ke(),J.updateQueue=s),a=s.lastEffect,a===null?s.lastEffect=n.next=n:(o=a.next,a.next=n,n.next=o,s.lastEffect=n),n}function Ql(){return{destroy:void 0,resource:void 0}}function Uf(){return Tn().memoizedState}function $l(n,s,a,o){var l=_n();o=o===void 0?null:o,J.flags|=n,l.memoizedState=lo(1|s,Ql(),a,o)}function _o(n,s,a,o){var l=Tn();o=o===void 0?null:o;var p=l.memoizedState.inst;pn!==null&&o!==null&&ke(o,pn.memoizedState.deps)?l.memoizedState=lo(s,p,a,o):(J.flags|=n,l.memoizedState=lo(1|s,p,a,o))}function zf(n,s){$l(8390656,8,n,s)}function Jf(n,s){_o(2048,8,n,s)}function Vf(n,s){return _o(4,2,n,s)}function xf(n,s){return _o(4,4,n,s)}function Pf(n,s){if(typeof s=="function"){n=n();var a=s(n);return function(){typeof a=="function"?a():s(null)}}if(s!=null)return n=n(),s.current=n,function(){s.current=null}}function jf(n,s,a){a=a!=null?a.concat([n]):null,_o(4,4,Pf.bind(null,s,n),a)}function Pe(){}function Ff(n,s){var a=Tn();s=s===void 0?null:s;var o=a.memoizedState;return s!==null&&ke(s,o[1])?o[0]:(a.memoizedState=[n,s],n)}function _f(n,s){var a=Tn();s=s===void 0?null:s;var o=a.memoizedState;if(s!==null&&ke(s,o[1]))return o[0];if(o=n(),Ba){Ps(!0);try{n()}finally{Ps(!1)}}return a.memoizedState=[o,s],o}function je(n,s,a){return a===void 0||(Qs&1073741824)!==0?n.memoizedState=s:(n.memoizedState=a,n=Zr(),J.lanes|=n,pa|=n,a)}function qf(n,s,a,o){return ss(a,s)?a:so.current!==null?(n=je(n,a,o),ss(n,s)||(Bn=!0),n):(Qs&42)===0?(Bn=!0,n.memoizedState=a):(n=Zr(),J.lanes|=n,pa|=n,s)}function Xf(n,s,a,o,l){var p=H.p;H.p=p!==0&&8>p?p:8;var e=g.T,t={};g.T=t,qe(n,!1,s,a);try{var c=l(),u=g.S;if(u!==null&&u(t,c),c!==null&&typeof c=="object"&&typeof c.then=="function"){var m=A9(c,o);qo(n,s,m,es(n))}else qo(n,s,o,es(n))}catch(O){qo(n,s,{then:function(){},status:"rejected",reason:O},es())}finally{H.p=p,g.T=e}}function T9(){}function Fe(n,s,a,o){if(n.tag!==5)throw Error(h(476));var l=Zf(n).queue;Xf(n,l,s,N,a===null?T9:function(){return Qf(n),a(o)})}function Zf(n){var s=n.memoizedState;if(s!==null)return s;s={memoizedState:N,baseState:N,baseQueue:null,queue:{pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:N},next:null};var a={};return s.next={memoizedState:a,baseState:a,baseQueue:null,queue:{pending:null,lanes:0,dispatch:null,lastRenderedReducer:Is,lastRenderedState:a},next:null},n.memoizedState=s,n=n.alternate,n!==null&&(n.memoizedState=s),s}function Qf(n){var s=Zf(n).next.queue;qo(n,s,{},es())}function _e(){return zn(ul)}function $f(){return Tn().memoizedState}function nr(){return Tn().memoizedState}function v9(n){for(var s=n.return;s!==null;){switch(s.tag){case 24:case 3:var a=es();n=Xs(a);var o=Zs(s,n,a);o!==null&&(ts(o,s,a),Vo(o,s,a)),s={cache:Te()},n.payload=s;return}s=s.return}}function w9(n,s,a){var o=es();a={lane:o,revertLane:0,action:a,hasEagerState:!1,eagerState:null,next:null},np(n)?ar(s,a):(a=be(n,s,a,o),a!==null&&(ts(a,n,o),or(a,s,o)))}function sr(n,s,a){var o=es();qo(n,s,a,o)}function qo(n,s,a,o){var l={lane:o,revertLane:0,action:a,hasEagerState:!1,eagerState:null,next:null};if(np(n))ar(s,l);else{var p=n.alternate;if(n.lanes===0&&(p===null||p.lanes===0)&&(p=s.lastRenderedReducer,p!==null))try{var e=s.lastRenderedState,t=p(e,a);if(l.hasEagerState=!0,l.eagerState=t,ss(t,e))return Nl(n,s,l,0),yn===null&&Il(),!1}catch{}finally{}if(a=be(n,s,l,o),a!==null)return ts(a,n,o),or(a,s,o),!0}return!1}function qe(n,s,a,o){if(o={lane:2,revertLane:Ht(),action:o,hasEagerState:!1,eagerState:null,next:null},np(n)){if(s)throw Error(h(479))}else s=be(n,a,o,2),s!==null&&ts(s,n,2)}function np(n){var s=n.alternate;return n===J||s!==null&&s===J}function ar(n,s){ao=_l=!0;var a=n.pending;a===null?s.next=s:(s.next=a.next,a.next=s),n.pending=s}function or(n,s,a){if((a&4194048)!==0){var o=s.lanes;o&=n.pendingLanes,a|=o,s.lanes=a,rc(n,a)}}var sp={readContext:zn,use:Xl,useCallback:On,useContext:On,useEffect:On,useImperativeHandle:On,useLayoutEffect:On,useInsertionEffect:On,useMemo:On,useReducer:On,useRef:On,useState:On,useDebugValue:On,useDeferredValue:On,useTransition:On,useSyncExternalStore:On,useId:On,useHostTransitionStatus:On,useFormState:On,useActionState:On,useOptimistic:On,useMemoCache:On,useCacheRefresh:On},lr={readContext:zn,use:Xl,useCallback:function(n,s){return _n().memoizedState=[n,s===void 0?null:s],n},useContext:zn,useEffect:zf,useImperativeHandle:function(n,s,a){a=a!=null?a.concat([n]):null,$l(4194308,4,Pf.bind(null,s,n),a)},useLayoutEffect:function(n,s){return $l(4194308,4,n,s)},useInsertionEffect:function(n,s){$l(4,2,n,s)},useMemo:function(n,s){var a=_n();s=s===void 0?null:s;var o=n();if(Ba){Ps(!0);try{n()}finally{Ps(!1)}}return a.memoizedState=[o,s],o},useReducer:function(n,s,a){var o=_n();if(a!==void 0){var l=a(s);if(Ba){Ps(!0);try{a(s)}finally{Ps(!1)}}}else l=s;return o.memoizedState=o.baseState=l,n={pending:null,lanes:0,dispatch:null,lastRenderedReducer:n,lastRenderedState:l},o.queue=n,n=n.dispatch=w9.bind(null,J,n),[o.memoizedState,n]},useRef:function(n){var s=_n();return n={current:n},s.memoizedState=n},useState:function(n){n=Ve(n);var s=n.queue,a=sr.bind(null,J,s);return s.dispatch=a,[n.memoizedState,a]},useDebugValue:Pe,useDeferredValue:function(n,s){var a=_n();return je(a,n,s)},useTransition:function(){var n=Ve(!1);return n=Xf.bind(null,J,n.queue,!0,!1),_n().memoizedState=n,[!1,n]},useSyncExternalStore:function(n,s,a){var o=J,l=_n();if(nn){if(a===void 0)throw Error(h(407));a=a()}else{if(a=s(),yn===null)throw Error(h(349));(X&124)!==0||vf(o,s,a)}l.memoizedState=a;var p={value:a,getSnapshot:s};return l.queue=p,zf(Hf.bind(null,o,p,n),[n]),o.flags|=2048,lo(9,Ql(),wf.bind(null,o,p,a,s),null),a},useId:function(){var n=_n(),s=yn.identifierPrefix;if(nn){var a=Ys,o=Ms;a=(o&~(1<<32-ns(o)-1)).toString(32)+a,s="«"+s+"R"+a,a=ql++,0<a&&(s+="H"+a.toString(32)),s+="»"}else a=S9++,s="«"+s+"r"+a.toString(32)+"»";return n.memoizedState=s},useHostTransitionStatus:_e,useFormState:If,useActionState:If,useOptimistic:function(n){var s=_n();s.memoizedState=s.baseState=n;var a={pending:null,lanes:0,dispatch:null,lastRenderedReducer:null,lastRenderedState:null};return s.queue=a,s=qe.bind(null,J,!0,a),a.dispatch=s,[n,s]},useMemoCache:Ue,useCacheRefresh:function(){return _n().memoizedState=v9.bind(null,J)}},pr={readContext:zn,use:Xl,useCallback:Ff,useContext:zn,useEffect:Jf,useImperativeHandle:jf,useInsertionEffect:Vf,useLayoutEffect:xf,useMemo:_f,useReducer:Zl,useRef:Uf,useState:function(){return Zl(Is)},useDebugValue:Pe,useDeferredValue:function(n,s){var a=Tn();return qf(a,pn.memoizedState,n,s)},useTransition:function(){var n=Zl(Is)[0],s=Tn().memoizedState;return[typeof n=="boolean"?n:Fo(n),s]},useSyncExternalStore:Tf,useId:$f,useHostTransitionStatus:_e,useFormState:Nf,useActionState:Nf,useOptimistic:function(n,s){var a=Tn();return Bf(a,pn,n,s)},useMemoCache:Ue,useCacheRefresh:nr},H9={readContext:zn,use:Xl,useCallback:Ff,useContext:zn,useEffect:Jf,useImperativeHandle:jf,useInsertionEffect:Vf,useLayoutEffect:xf,useMemo:_f,useReducer:Je,useRef:Uf,useState:function(){return Je(Is)},useDebugValue:Pe,useDeferredValue:function(n,s){var a=Tn();return pn===null?je(a,n,s):qf(a,pn.memoizedState,n,s)},useTransition:function(){var n=Je(Is)[0],s=Tn().memoizedState;return[typeof n=="boolean"?n:Fo(n),s]},useSyncExternalStore:Tf,useId:$f,useHostTransitionStatus:_e,useFormState:Kf,useActionState:Kf,useOptimistic:function(n,s){var a=Tn();return pn!==null?Bf(a,pn,n,s):(a.baseState=n,[n,a.queue.dispatch])},useMemoCache:Ue,useCacheRefresh:nr},po=null,Xo=0;function ap(n){var s=Xo;return Xo+=1,po===null&&(po=[]),hf(po,n,s)}function Zo(n,s){s=s.props.ref,n.ref=s!==void 0?s:null}function op(n,s){throw s.$$typeof===on?Error(h(525)):(n=Object.prototype.toString.call(s),Error(h(31,n==="[object Object]"?"object with keys {"+Object.keys(s).join(", ")+"}":n)))}function er(n){var s=n._init;return s(n._payload)}function tr(n){function s(y,r){if(n){var i=y.deletions;i===null?(y.deletions=[r],y.flags|=16):i.push(r)}}function a(y,r){if(!n)return null;for(;r!==null;)s(y,r),r=r.sibling;return null}function o(y){for(var r=new Map;y!==null;)y.key!==null?r.set(y.key,y):r.set(y.index,y),y=y.sibling;return r}function l(y,r){return y=Ds(y,r),y.index=0,y.sibling=null,y}function p(y,r,i){return y.index=i,n?(i=y.alternate,i!==null?(i=i.index,i<r?(y.flags|=67108866,r):i):(y.flags|=67108866,r)):(y.flags|=1048576,r)}function e(y){return n&&y.alternate===null&&(y.flags|=67108866),y}function t(y,r,i,S){return r===null||r.tag!==6?(r=he(i,y.mode,S),r.return=y,r):(r=l(r,i),r.return=y,r)}function c(y,r,i,S){var L=i.type;return L===Yn?m(y,r,i.props.children,S,i.key):r!==null&&(r.elementType===L||typeof L=="object"&&L!==null&&L.$$typeof===A&&er(L)===r.type)?(r=l(r,i.props),Zo(r,i),r.return=y,r):(r=Kl(i.type,i.key,i.props,null,y.mode,S),Zo(r,i),r.return=y,r)}function u(y,r,i,S){return r===null||r.tag!==4||r.stateNode.containerInfo!==i.containerInfo||r.stateNode.implementation!==i.implementation?(r=me(i,y.mode,S),r.return=y,r):(r=l(r,i.children||[]),r.return=y,r)}function m(y,r,i,S,L){return r===null||r.tag!==7?(r=Wa(i,y.mode,S,L),r.return=y,r):(r=l(r,i),r.return=y,r)}function O(y,r,i){if(typeof r=="string"&&r!==""||typeof r=="number"||typeof r=="bigint")return r=he(""+r,y.mode,i),r.return=y,r;if(typeof r=="object"&&r!==null){switch(r.$$typeof){case ln:return i=Kl(r.type,r.key,r.props,null,y.mode,i),Zo(i,r),i.return=y,i;case vn:return r=me(r,y.mode,i),r.return=y,r;case A:var S=r._init;return r=S(r._payload),O(y,r,i)}if(Kn(r)||hn(r))return r=Wa(r,y.mode,i,null),r.return=y,r;if(typeof r.then=="function")return O(y,ap(r),i);if(r.$$typeof===Rn)return O(y,Vl(y,r),i);op(y,r)}return null}function b(y,r,i,S){var L=r!==null?r.key:null;if(typeof i=="string"&&i!==""||typeof i=="number"||typeof i=="bigint")return L!==null?null:t(y,r,""+i,S);if(typeof i=="object"&&i!==null){switch(i.$$typeof){case ln:return i.key===L?c(y,r,i,S):null;case vn:return i.key===L?u(y,r,i,S):null;case A:return L=i._init,i=L(i._payload),b(y,r,i,S)}if(Kn(i)||hn(i))return L!==null?null:m(y,r,i,S,null);if(typeof i.then=="function")return b(y,r,ap(i),S);if(i.$$typeof===Rn)return b(y,r,Vl(y,i),S);op(y,i)}return null}function d(y,r,i,S,L){if(typeof S=="string"&&S!==""||typeof S=="number"||typeof S=="bigint")return y=y.get(i)||null,t(r,y,""+S,L);if(typeof S=="object"&&S!==null){switch(S.$$typeof){case ln:return y=y.get(S.key===null?i:S.key)||null,c(r,y,S,L);case vn:return y=y.get(S.key===null?i:S.key)||null,u(r,y,S,L);case A:var V=S._init;return S=V(S._payload),d(y,r,i,S,L)}if(Kn(S)||hn(S))return y=y.get(i)||null,m(r,y,S,L,null);if(typeof S.then=="function")return d(y,r,i,ap(S),L);if(S.$$typeof===Rn)return d(y,r,i,Vl(r,S),L);op(r,S)}return null}function G(y,r,i,S){for(var L=null,V=null,Y=r,I=r=0,Mn=null;Y!==null&&I<i.length;I++){Y.index>I?(Mn=Y,Y=null):Mn=Y.sibling;var $=b(y,Y,i[I],S);if($===null){Y===null&&(Y=Mn);break}n&&Y&&$.alternate===null&&s(y,Y),r=p($,r,I),V===null?L=$:V.sibling=$,V=$,Y=Mn}if(I===i.length)return a(y,Y),nn&&Ta(y,I),L;if(Y===null){for(;I<i.length;I++)Y=O(y,i[I],S),Y!==null&&(r=p(Y,r,I),V===null?L=Y:V.sibling=Y,V=Y);return nn&&Ta(y,I),L}for(Y=o(Y);I<i.length;I++)Mn=d(Y,y,I,i[I],S),Mn!==null&&(n&&Mn.alternate!==null&&Y.delete(Mn.key===null?I:Mn.key),r=p(Mn,r,I),V===null?L=Mn:V.sibling=Mn,V=Mn);return n&&Y.forEach(function(ba){return s(y,ba)}),nn&&Ta(y,I),L}function C(y,r,i,S){if(i==null)throw Error(h(151));for(var L=null,V=null,Y=r,I=r=0,Mn=null,$=i.next();Y!==null&&!$.done;I++,$=i.next()){Y.index>I?(Mn=Y,Y=null):Mn=Y.sibling;var ba=b(y,Y,$.value,S);if(ba===null){Y===null&&(Y=Mn);break}n&&Y&&ba.alternate===null&&s(y,Y),r=p(ba,r,I),V===null?L=ba:V.sibling=ba,V=ba,Y=Mn}if($.done)return a(y,Y),nn&&Ta(y,I),L;if(Y===null){for(;!$.done;I++,$=i.next())$=O(y,$.value,S),$!==null&&(r=p($,r,I),V===null?L=$:V.sibling=$,V=$);return nn&&Ta(y,I),L}for(Y=o(Y);!$.done;I++,$=i.next())$=d(Y,y,I,$.value,S),$!==null&&(n&&$.alternate!==null&&Y.delete($.key===null?I:$.key),r=p($,r,I),V===null?L=$:V.sibling=$,V=$);return n&&Y.forEach(function(R0){return s(y,R0)}),nn&&Ta(y,I),L}function tn(y,r,i,S){if(typeof i=="object"&&i!==null&&i.type===Yn&&i.key===null&&(i=i.props.children),typeof i=="object"&&i!==null){switch(i.$$typeof){case ln:n:{for(var L=i.key;r!==null;){if(r.key===L){if(L=i.type,L===Yn){if(r.tag===7){a(y,r.sibling),S=l(r,i.props.children),S.return=y,y=S;break n}}else if(r.elementType===L||typeof L=="object"&&L!==null&&L.$$typeof===A&&er(L)===r.type){a(y,r.sibling),S=l(r,i.props),Zo(S,i),S.return=y,y=S;break n}a(y,r);break}else s(y,r);r=r.sibling}i.type===Yn?(S=Wa(i.props.children,y.mode,S,i.key),S.return=y,y=S):(S=Kl(i.type,i.key,i.props,null,y.mode,S),Zo(S,i),S.return=y,y=S)}return e(y);case vn:n:{for(L=i.key;r!==null;){if(r.key===L)if(r.tag===4&&r.stateNode.containerInfo===i.containerInfo&&r.stateNode.implementation===i.implementation){a(y,r.sibling),S=l(r,i.children||[]),S.return=y,y=S;break n}else{a(y,r);break}else s(y,r);r=r.sibling}S=me(i,y.mode,S),S.return=y,y=S}return e(y);case A:return L=i._init,i=L(i._payload),tn(y,r,i,S)}if(Kn(i))return G(y,r,i,S);if(hn(i)){if(L=hn(i),typeof L!="function")throw Error(h(150));return i=L.call(i),C(y,r,i,S)}if(typeof i.then=="function")return tn(y,r,ap(i),S);if(i.$$typeof===Rn)return tn(y,r,Vl(y,i),S);op(y,i)}return typeof i=="string"&&i!==""||typeof i=="number"||typeof i=="bigint"?(i=""+i,r!==null&&r.tag===6?(a(y,r.sibling),S=l(r,i),S.return=y,y=S):(a(y,r),S=he(i,y.mode,S),S.return=y,y=S),e(y)):a(y,r)}return function(y,r,i,S){try{Xo=0;var L=tn(y,r,i,S);return po=null,L}catch(Y){if(Y===zo||Y===Pl)throw Y;var V=as(29,Y,null,y.mode);return V.lanes=S,V.return=y,V}finally{}}}var eo=tr(!0),cr=tr(!1),bs=v(null),Es=null;function $s(n){var s=n.alternate;w(Hn,Hn.current&1),w(bs,n),Es===null&&(s===null||so.current!==null||s.memoizedState!==null)&&(Es=n)}function fr(n){if(n.tag===22){if(w(Hn,Hn.current),w(bs,n),Es===null){var s=n.alternate;s!==null&&s.memoizedState!==null&&(Es=n)}}else na()}function na(){w(Hn,Hn.current),w(bs,bs.current)}function Ns(n){R(bs),Es===n&&(Es=null),R(Hn)}var Hn=v(0);function lp(n){for(var s=n;s!==null;){if(s.tag===13){var a=s.memoizedState;if(a!==null&&(a=a.dehydrated,a===null||a.data==="$?"||Kt(a)))return s}else if(s.tag===19&&s.memoizedProps.revealOrder!==void 0){if((s.flags&128)!==0)return s}else if(s.child!==null){s.child.return=s,s=s.child;continue}if(s===n)break;for(;s.sibling===null;){if(s.return===null||s.return===n)return null;s=s.return}s.sibling.return=s.return,s=s.sibling}return null}function Xe(n,s,a,o){s=n.memoizedState,a=a(o,s),a=a==null?s:M({},s,a),n.memoizedState=a,n.lanes===0&&(n.updateQueue.baseState=a)}var Ze={enqueueSetState:function(n,s,a){n=n._reactInternals;var o=es(),l=Xs(o);l.payload=s,a!=null&&(l.callback=a),s=Zs(n,l,o),s!==null&&(ts(s,n,o),Vo(s,n,o))},enqueueReplaceState:function(n,s,a){n=n._reactInternals;var o=es(),l=Xs(o);l.tag=1,l.payload=s,a!=null&&(l.callback=a),s=Zs(n,l,o),s!==null&&(ts(s,n,o),Vo(s,n,o))},enqueueForceUpdate:function(n,s){n=n._reactInternals;var a=es(),o=Xs(a);o.tag=2,s!=null&&(o.callback=s),s=Zs(n,o,a),s!==null&&(ts(s,n,a),Vo(s,n,a))}};function rr(n,s,a,o,l,p,e){return n=n.stateNode,typeof n.shouldComponentUpdate=="function"?n.shouldComponentUpdate(o,p,e):s.prototype&&s.prototype.isPureReactComponent?!Yo(a,o)||!Yo(l,p):!0}function yr(n,s,a,o){n=s.state,typeof s.componentWillReceiveProps=="function"&&s.componentWillReceiveProps(a,o),typeof s.UNSAFE_componentWillReceiveProps=="function"&&s.UNSAFE_componentWillReceiveProps(a,o),s.state!==n&&Ze.enqueueReplaceState(s,s.state,null)}function Da(n,s){var a=s;if("ref"in s){a={};for(var o in s)o!=="ref"&&(a[o]=s[o])}if(n=n.defaultProps){a===s&&(a=M({},a));for(var l in n)a[l]===void 0&&(a[l]=n[l])}return a}var pp=typeof reportError=="function"?reportError:function(n){if(typeof window=="object"&&typeof window.ErrorEvent=="function"){var s=new window.ErrorEvent("error",{bubbles:!0,cancelable:!0,message:typeof n=="object"&&n!==null&&typeof n.message=="string"?String(n.message):String(n),error:n});if(!window.dispatchEvent(s))return}else if(typeof process=="object"&&typeof process.emit=="function"){process.emit("uncaughtException",n);return}console.error(n)};function ir(n){pp(n)}function ur(n){console.error(n)}function br(n){pp(n)}function ep(n,s){try{var a=n.onUncaughtError;a(s.value,{componentStack:s.stack})}catch(o){setTimeout(function(){throw o})}}function dr(n,s,a){try{var o=n.onCaughtError;o(a.value,{componentStack:a.stack,errorBoundary:s.tag===1?s.stateNode:null})}catch(l){setTimeout(function(){throw l})}}function Qe(n,s,a){return a=Xs(a),a.tag=3,a.payload={element:null},a.callback=function(){ep(n,s)},a}function hr(n){return n=Xs(n),n.tag=3,n}function mr(n,s,a,o){var l=a.type.getDerivedStateFromError;if(typeof l=="function"){var p=o.value;n.payload=function(){return l(p)},n.callback=function(){dr(s,a,o)}}var e=a.stateNode;e!==null&&typeof e.componentDidCatch=="function"&&(n.callback=function(){dr(s,a,o),typeof l!="function"&&(ea===null?ea=new Set([this]):ea.add(this));var t=o.stack;this.componentDidCatch(o.value,{componentStack:t!==null?t:""})})}function R9(n,s,a,o,l){if(a.flags|=32768,o!==null&&typeof o=="object"&&typeof o.then=="function"){if(s=a.alternate,s!==null&&Go(s,a,l,!0),a=bs.current,a!==null){switch(a.tag){case 13:return Es===null?Wt():a.alternate===null&&An===0&&(An=3),a.flags&=-257,a.flags|=65536,a.lanes=l,o===He?a.flags|=16384:(s=a.updateQueue,s===null?a.updateQueue=new Set([o]):s.add(o),Tt(n,o,l)),!1;case 22:return a.flags|=65536,o===He?a.flags|=16384:(s=a.updateQueue,s===null?(s={transitions:null,markerInstances:null,retryQueue:new Set([o])},a.updateQueue=s):(a=s.retryQueue,a===null?s.retryQueue=new Set([o]):a.add(o)),Tt(n,o,l)),!1}throw Error(h(435,a.tag))}return Tt(n,o,l),Wt(),!1}if(nn)return s=bs.current,s!==null?((s.flags&65536)===0&&(s.flags|=256),s.flags|=65536,s.lanes=l,o!==Se&&(n=Error(h(422),{cause:o}),No(rs(n,a)))):(o!==Se&&(s=Error(h(423),{cause:o}),No(rs(s,a))),n=n.current.alternate,n.flags|=65536,l&=-l,n.lanes|=l,o=rs(o,a),l=Qe(n.stateNode,o,l),Be(n,l),An!==4&&(An=2)),!1;var p=Error(h(520),{cause:o});if(p=rs(p,a),ll===null?ll=[p]:ll.push(p),An!==4&&(An=2),s===null)return!0;o=rs(o,a),a=s;do{switch(a.tag){case 3:return a.flags|=65536,n=l&-l,a.lanes|=n,n=Qe(a.stateNode,o,n),Be(a,n),!1;case 1:if(s=a.type,p=a.stateNode,(a.flags&128)===0&&(typeof s.getDerivedStateFromError=="function"||p!==null&&typeof p.componentDidCatch=="function"&&(ea===null||!ea.has(p))))return a.flags|=65536,l&=-l,a.lanes|=l,l=hr(l),mr(l,n,a,o),Be(a,l),!1}a=a.return}while(a!==null);return!1}var gr=Error(h(461)),Bn=!1;function Cn(n,s,a,o){s.child=n===null?cr(s,null,a,o):eo(s,n.child,a,o)}function Ar(n,s,a,o,l){a=a.render;var p=s.ref;if("ref"in o){var e={};for(var t in o)t!=="ref"&&(e[t]=o[t])}else e=o;return Ra(s),o=Ce(n,s,a,e,p,l),t=Ie(),n!==null&&!Bn?(Ne(n,s,l),Gs(n,s,l)):(nn&&t&&ge(s),s.flags|=1,Cn(n,s,o,l),s.child)}function Sr(n,s,a,o,l){if(n===null){var p=a.type;return typeof p=="function"&&!de(p)&&p.defaultProps===void 0&&a.compare===null?(s.tag=15,s.type=p,Or(n,s,p,o,l)):(n=Kl(a.type,null,o,s,s.mode,l),n.ref=s.ref,n.return=s,s.child=n)}if(p=n.child,!et(n,l)){var e=p.memoizedProps;if(a=a.compare,a=a!==null?a:Yo,a(e,o)&&n.ref===s.ref)return Gs(n,s,l)}return s.flags|=1,n=Ds(p,o),n.ref=s.ref,n.return=s,s.child=n}function Or(n,s,a,o,l){if(n!==null){var p=n.memoizedProps;if(Yo(p,o)&&n.ref===s.ref)if(Bn=!1,s.pendingProps=o=p,et(n,l))(n.flags&131072)!==0&&(Bn=!0);else return s.lanes=n.lanes,Gs(n,s,l)}return $e(n,s,a,o,l)}function Wr(n,s,a){var o=s.pendingProps,l=o.children,p=n!==null?n.memoizedState:null;if(o.mode==="hidden"){if((s.flags&128)!==0){if(o=p!==null?p.baseLanes|a:a,n!==null){for(l=s.child=n.child,p=0;l!==null;)p=p|l.lanes|l.childLanes,l=l.sibling;s.childLanes=p&~o}else s.childLanes=0,s.child=null;return Er(n,s,o,a)}if((a&536870912)!==0)s.memoizedState={baseLanes:0,cachePool:null},n!==null&&xl(s,p!==null?p.cachePool:null),p!==null?Of(s,p):Me(),fr(s);else return s.lanes=s.childLanes=536870912,Er(n,s,p!==null?p.baseLanes|a:a,a)}else p!==null?(xl(s,p.cachePool),Of(s,p),na(),s.memoizedState=null):(n!==null&&xl(s,null),Me(),na());return Cn(n,s,l,a),s.child}function Er(n,s,a,o){var l=we();return l=l===null?null:{parent:wn._currentValue,pool:l},s.memoizedState={baseLanes:a,cachePool:l},n!==null&&xl(s,null),Me(),fr(s),n!==null&&Go(n,s,o,!0),null}function tp(n,s){var a=s.ref;if(a===null)n!==null&&n.ref!==null&&(s.flags|=4194816);else{if(typeof a!="function"&&typeof a!="object")throw Error(h(284));(n===null||n.ref!==a)&&(s.flags|=4194816)}}function $e(n,s,a,o,l){return Ra(s),a=Ce(n,s,a,o,void 0,l),o=Ie(),n!==null&&!Bn?(Ne(n,s,l),Gs(n,s,l)):(nn&&o&&ge(s),s.flags|=1,Cn(n,s,a,l),s.child)}function Tr(n,s,a,o,l,p){return Ra(s),s.updateQueue=null,a=Ef(s,o,a,l),Wf(n),o=Ie(),n!==null&&!Bn?(Ne(n,s,p),Gs(n,s,p)):(nn&&o&&ge(s),s.flags|=1,Cn(n,s,a,p),s.child)}function vr(n,s,a,o,l){if(Ra(s),s.stateNode===null){var p=Xa,e=a.contextType;typeof e=="object"&&e!==null&&(p=zn(e)),p=new a(o,p),s.memoizedState=p.state!==null&&p.state!==void 0?p.state:null,p.updater=Ze,s.stateNode=p,p._reactInternals=s,p=s.stateNode,p.props=o,p.state=s.memoizedState,p.refs={},Re(s),e=a.contextType,p.context=typeof e=="object"&&e!==null?zn(e):Xa,p.state=s.memoizedState,e=a.getDerivedStateFromProps,typeof e=="function"&&(Xe(s,a,e,o),p.state=s.memoizedState),typeof a.getDerivedStateFromProps=="function"||typeof p.getSnapshotBeforeUpdate=="function"||typeof p.UNSAFE_componentWillMount!="function"&&typeof p.componentWillMount!="function"||(e=p.state,typeof p.componentWillMount=="function"&&p.componentWillMount(),typeof p.UNSAFE_componentWillMount=="function"&&p.UNSAFE_componentWillMount(),e!==p.state&&Ze.enqueueReplaceState(p,p.state,null),Po(s,o,p,l),xo(),p.state=s.memoizedState),typeof p.componentDidMount=="function"&&(s.flags|=4194308),o=!0}else if(n===null){p=s.stateNode;var t=s.memoizedProps,c=Da(a,t);p.props=c;var u=p.context,m=a.contextType;e=Xa,typeof m=="object"&&m!==null&&(e=zn(m));var O=a.getDerivedStateFromProps;m=typeof O=="function"||typeof p.getSnapshotBeforeUpdate=="function",t=s.pendingProps!==t,m||typeof p.UNSAFE_componentWillReceiveProps!="function"&&typeof p.componentWillReceiveProps!="function"||(t||u!==e)&&yr(s,p,o,e),qs=!1;var b=s.memoizedState;p.state=b,Po(s,o,p,l),xo(),u=s.memoizedState,t||b!==u||qs?(typeof O=="function"&&(Xe(s,a,O,o),u=s.memoizedState),(c=qs||rr(s,a,c,o,b,u,e))?(m||typeof p.UNSAFE_componentWillMount!="function"&&typeof p.componentWillMount!="function"||(typeof p.componentWillMount=="function"&&p.componentWillMount(),typeof p.UNSAFE_componentWillMount=="function"&&p.UNSAFE_componentWillMount()),typeof p.componentDidMount=="function"&&(s.flags|=4194308)):(typeof p.componentDidMount=="function"&&(s.flags|=4194308),s.memoizedProps=o,s.memoizedState=u),p.props=o,p.state=u,p.context=e,o=c):(typeof p.componentDidMount=="function"&&(s.flags|=4194308),o=!1)}else{p=s.stateNode,Le(n,s),e=s.memoizedProps,m=Da(a,e),p.props=m,O=s.pendingProps,b=p.context,u=a.contextType,c=Xa,typeof u=="object"&&u!==null&&(c=zn(u)),t=a.getDerivedStateFromProps,(u=typeof t=="function"||typeof p.getSnapshotBeforeUpdate=="function")||typeof p.UNSAFE_componentWillReceiveProps!="function"&&typeof p.componentWillReceiveProps!="function"||(e!==O||b!==c)&&yr(s,p,o,c),qs=!1,b=s.memoizedState,p.state=b,Po(s,o,p,l),xo();var d=s.memoizedState;e!==O||b!==d||qs||n!==null&&n.dependencies!==null&&Jl(n.dependencies)?(typeof t=="function"&&(Xe(s,a,t,o),d=s.memoizedState),(m=qs||rr(s,a,m,o,b,d,c)||n!==null&&n.dependencies!==null&&Jl(n.dependencies))?(u||typeof p.UNSAFE_componentWillUpdate!="function"&&typeof p.componentWillUpdate!="function"||(typeof p.componentWillUpdate=="function"&&p.componentWillUpdate(o,d,c),typeof p.UNSAFE_componentWillUpdate=="function"&&p.UNSAFE_componentWillUpdate(o,d,c)),typeof p.componentDidUpdate=="function"&&(s.flags|=4),typeof p.getSnapshotBeforeUpdate=="function"&&(s.flags|=1024)):(typeof p.componentDidUpdate!="function"||e===n.memoizedProps&&b===n.memoizedState||(s.flags|=4),typeof p.getSnapshotBeforeUpdate!="function"||e===n.memoizedProps&&b===n.memoizedState||(s.flags|=1024),s.memoizedProps=o,s.memoizedState=d),p.props=o,p.state=d,p.context=c,o=m):(typeof p.componentDidUpdate!="function"||e===n.memoizedProps&&b===n.memoizedState||(s.flags|=4),typeof p.getSnapshotBeforeUpdate!="function"||e===n.memoizedProps&&b===n.memoizedState||(s.flags|=1024),o=!1)}return p=o,tp(n,s),o=(s.flags&128)!==0,p||o?(p=s.stateNode,a=o&&typeof a.getDerivedStateFromError!="function"?null:p.render(),s.flags|=1,n!==null&&o?(s.child=eo(s,n.child,null,l),s.child=eo(s,null,a,l)):Cn(n,s,a,l),s.memoizedState=p.state,n=s.child):n=Gs(n,s,l),n}function wr(n,s,a,o){return Io(),s.flags|=256,Cn(n,s,a,o),s.child}var nt={dehydrated:null,treeContext:null,retryLane:0,hydrationErrors:null};function st(n){return{baseLanes:n,cachePool:uf()}}function at(n,s,a){return n=n!==null?n.childLanes&~a:0,s&&(n|=ds),n}function Hr(n,s,a){var o=s.pendingProps,l=!1,p=(s.flags&128)!==0,e;if((e=p)||(e=n!==null&&n.memoizedState===null?!1:(Hn.current&2)!==0),e&&(l=!0,s.flags&=-129),e=(s.flags&32)!==0,s.flags&=-33,n===null){if(nn){if(l?$s(s):na(),nn){var t=gn,c;if(c=t){n:{for(c=t,t=Ws;c.nodeType!==8;){if(!t){t=null;break n}if(c=Ss(c.nextSibling),c===null){t=null;break n}}t=c}t!==null?(s.memoizedState={dehydrated:t,treeContext:Ea!==null?{id:Ms,overflow:Ys}:null,retryLane:536870912,hydrationErrors:null},c=as(18,null,null,0),c.stateNode=t,c.return=s,s.child=c,Pn=s,gn=null,c=!0):c=!1}c||wa(s)}if(t=s.memoizedState,t!==null&&(t=t.dehydrated,t!==null))return Kt(t)?s.lanes=32:s.lanes=536870912,null;Ns(s)}return t=o.children,o=o.fallback,l?(na(),l=s.mode,t=cp({mode:"hidden",children:t},l),o=Wa(o,l,a,null),t.return=s,o.return=s,t.sibling=o,s.child=t,l=s.child,l.memoizedState=st(a),l.childLanes=at(n,e,a),s.memoizedState=nt,o):($s(s),ot(s,t))}if(c=n.memoizedState,c!==null&&(t=c.dehydrated,t!==null)){if(p)s.flags&256?($s(s),s.flags&=-257,s=lt(n,s,a)):s.memoizedState!==null?(na(),s.child=n.child,s.flags|=128,s=null):(na(),l=o.fallback,t=s.mode,o=cp({mode:"visible",children:o.children},t),l=Wa(l,t,a,null),l.flags|=2,o.return=s,l.return=s,o.sibling=l,s.child=o,eo(s,n.child,null,a),o=s.child,o.memoizedState=st(a),o.childLanes=at(n,e,a),s.memoizedState=nt,s=l);else if($s(s),Kt(t)){if(e=t.nextSibling&&t.nextSibling.dataset,e)var u=e.dgst;e=u,o=Error(h(419)),o.stack="",o.digest=e,No({value:o,source:null,stack:null}),s=lt(n,s,a)}else if(Bn||Go(n,s,a,!1),e=(a&n.childLanes)!==0,Bn||e){if(e=yn,e!==null&&(o=a&-a,o=(o&42)!==0?1:Up(o),o=(o&(e.suspendedLanes|a))!==0?0:o,o!==0&&o!==c.retryLane))throw c.retryLane=o,qa(n,o),ts(e,n,o),gr;t.data==="$?"||Wt(),s=lt(n,s,a)}else t.data==="$?"?(s.flags|=192,s.child=n.child,s=null):(n=c.treeContext,gn=Ss(t.nextSibling),Pn=s,nn=!0,va=null,Ws=!1,n!==null&&(is[us++]=Ms,is[us++]=Ys,is[us++]=Ea,Ms=n.id,Ys=n.overflow,Ea=s),s=ot(s,o.children),s.flags|=4096);return s}return l?(na(),l=o.fallback,t=s.mode,c=n.child,u=c.sibling,o=Ds(c,{mode:"hidden",children:o.children}),o.subtreeFlags=c.subtreeFlags&65011712,u!==null?l=Ds(u,l):(l=Wa(l,t,a,null),l.flags|=2),l.return=s,o.return=s,o.sibling=l,s.child=o,o=l,l=s.child,t=n.child.memoizedState,t===null?t=st(a):(c=t.cachePool,c!==null?(u=wn._currentValue,c=c.parent!==u?{parent:u,pool:u}:c):c=uf(),t={baseLanes:t.baseLanes|a,cachePool:c}),l.memoizedState=t,l.childLanes=at(n,e,a),s.memoizedState=nt,o):($s(s),a=n.child,n=a.sibling,a=Ds(a,{mode:"visible",children:o.children}),a.return=s,a.sibling=null,n!==null&&(e=s.deletions,e===null?(s.deletions=[n],s.flags|=16):e.push(n)),s.child=a,s.memoizedState=null,a)}function ot(n,s){return s=cp({mode:"visible",children:s},n.mode),s.return=n,n.child=s}function cp(n,s){return n=as(22,n,null,s),n.lanes=0,n.stateNode={_visibility:1,_pendingMarkers:null,_retryCache:null,_transitions:null},n}function lt(n,s,a){return eo(s,n.child,null,a),n=ot(s,s.pendingProps.children),n.flags|=2,s.memoizedState=null,n}function Rr(n,s,a){n.lanes|=s;var o=n.alternate;o!==null&&(o.lanes|=s),We(n.return,s,a)}function pt(n,s,a,o,l){var p=n.memoizedState;p===null?n.memoizedState={isBackwards:s,rendering:null,renderingStartTime:0,last:o,tail:a,tailMode:l}:(p.isBackwards=s,p.rendering=null,p.renderingStartTime=0,p.last=o,p.tail=a,p.tailMode=l)}function Lr(n,s,a){var o=s.pendingProps,l=o.revealOrder,p=o.tail;if(Cn(n,s,o.children,a),o=Hn.current,(o&2)!==0)o=o&1|2,s.flags|=128;else{if(n!==null&&(n.flags&128)!==0)n:for(n=s.child;n!==null;){if(n.tag===13)n.memoizedState!==null&&Rr(n,a,s);else if(n.tag===19)Rr(n,a,s);else if(n.child!==null){n.child.return=n,n=n.child;continue}if(n===s)break n;for(;n.sibling===null;){if(n.return===null||n.return===s)break n;n=n.return}n.sibling.return=n.return,n=n.sibling}o&=1}switch(w(Hn,o),l){case"forwards":for(a=s.child,l=null;a!==null;)n=a.alternate,n!==null&&lp(n)===null&&(l=a),a=a.sibling;a=l,a===null?(l=s.child,s.child=null):(l=a.sibling,a.sibling=null),pt(s,!1,l,a,p);break;case"backwards":for(a=null,l=s.child,s.child=null;l!==null;){if(n=l.alternate,n!==null&&lp(n)===null){s.child=l;break}n=l.sibling,l.sibling=a,a=l,l=n}pt(s,!0,a,null,p);break;case"together":pt(s,!1,null,null,void 0);break;default:s.memoizedState=null}return s.child}function Gs(n,s,a){if(n!==null&&(s.dependencies=n.dependencies),pa|=s.lanes,(a&s.childLanes)===0)if(n!==null){if(Go(n,s,a,!1),(a&s.childLanes)===0)return null}else return null;if(n!==null&&s.child!==n.child)throw Error(h(153));if(s.child!==null){for(n=s.child,a=Ds(n,n.pendingProps),s.child=a,a.return=s;n.sibling!==null;)n=n.sibling,a=a.sibling=Ds(n,n.pendingProps),a.return=s;a.sibling=null}return s.child}function et(n,s){return(n.lanes&s)!==0?!0:(n=n.dependencies,!!(n!==null&&Jl(n)))}function L9(n,s,a){switch(s.tag){case 3:un(s,s.stateNode.containerInfo),_s(s,wn,n.memoizedState.cache),Io();break;case 27:case 5:Cp(s);break;case 4:un(s,s.stateNode.containerInfo);break;case 10:_s(s,s.type,s.memoizedProps.value);break;case 13:var o=s.memoizedState;if(o!==null)return o.dehydrated!==null?($s(s),s.flags|=128,null):(a&s.child.childLanes)!==0?Hr(n,s,a):($s(s),n=Gs(n,s,a),n!==null?n.sibling:null);$s(s);break;case 19:var l=(n.flags&128)!==0;if(o=(a&s.childLanes)!==0,o||(Go(n,s,a,!1),o=(a&s.childLanes)!==0),l){if(o)return Lr(n,s,a);s.flags|=128}if(l=s.memoizedState,l!==null&&(l.rendering=null,l.tail=null,l.lastEffect=null),w(Hn,Hn.current),o)break;return null;case 22:case 23:return s.lanes=0,Wr(n,s,a);case 24:_s(s,wn,n.memoizedState.cache)}return Gs(n,s,a)}function Br(n,s,a){if(n!==null)if(n.memoizedProps!==s.pendingProps)Bn=!0;else{if(!et(n,a)&&(s.flags&128)===0)return Bn=!1,L9(n,s,a);Bn=(n.flags&131072)!==0}else Bn=!1,nn&&(s.flags&1048576)!==0&&pf(s,zl,s.index);switch(s.lanes=0,s.tag){case 16:n:{n=s.pendingProps;var o=s.elementType,l=o._init;if(o=l(o._payload),s.type=o,typeof o=="function")de(o)?(n=Da(o,n),s.tag=1,s=vr(null,s,o,n,a)):(s.tag=0,s=$e(null,s,o,n,a));else{if(o!=null){if(l=o.$$typeof,l===kn){s.tag=11,s=Ar(null,s,o,n,a);break n}else if(l===xn){s.tag=14,s=Sr(null,s,o,n,a);break n}}throw s=ha(o)||o,Error(h(306,s,""))}}return s;case 0:return $e(n,s,s.type,s.pendingProps,a);case 1:return o=s.type,l=Da(o,s.pendingProps),vr(n,s,o,l,a);case 3:n:{if(un(s,s.stateNode.containerInfo),n===null)throw Error(h(387));o=s.pendingProps;var p=s.memoizedState;l=p.element,Le(n,s),Po(s,o,null,a);var e=s.memoizedState;if(o=e.cache,_s(s,wn,o),o!==p.cache&&Ee(s,[wn],a,!0),xo(),o=e.element,p.isDehydrated)if(p={element:o,isDehydrated:!1,cache:e.cache},s.updateQueue.baseState=p,s.memoizedState=p,s.flags&256){s=wr(n,s,o,a);break n}else if(o!==l){l=rs(Error(h(424)),s),No(l),s=wr(n,s,o,a);break n}else{switch(n=s.stateNode.containerInfo,n.nodeType){case 9:n=n.body;break;default:n=n.nodeName==="HTML"?n.ownerDocument.body:n}for(gn=Ss(n.firstChild),Pn=s,nn=!0,va=null,Ws=!0,a=cr(s,null,o,a),s.child=a;a;)a.flags=a.flags&-3|4096,a=a.sibling}else{if(Io(),o===l){s=Gs(n,s,a);break n}Cn(n,s,o,a)}s=s.child}return s;case 26:return tp(n,s),n===null?(a=k3(s.type,null,s.pendingProps,null))?s.memoizedState=a:nn||(a=s.type,n=s.pendingProps,o=Wp(U.current).createElement(a),o[Un]=s,o[jn]=n,Nn(o,a,n),Ln(o),s.stateNode=o):s.memoizedState=k3(s.type,n.memoizedProps,s.pendingProps,n.memoizedState),null;case 27:return Cp(s),n===null&&nn&&(o=s.stateNode=D3(s.type,s.pendingProps,U.current),Pn=s,Ws=!0,l=gn,fa(s.type)?(Ut=l,gn=Ss(o.firstChild)):gn=l),Cn(n,s,s.pendingProps.children,a),tp(n,s),n===null&&(s.flags|=4194304),s.child;case 5:return n===null&&nn&&((l=o=gn)&&(o=o0(o,s.type,s.pendingProps,Ws),o!==null?(s.stateNode=o,Pn=s,gn=Ss(o.firstChild),Ws=!1,l=!0):l=!1),l||wa(s)),Cp(s),l=s.type,p=s.pendingProps,e=n!==null?n.memoizedProps:null,o=p.children,It(l,p)?o=null:e!==null&&It(l,e)&&(s.flags|=32),s.memoizedState!==null&&(l=Ce(n,s,O9,null,null,a),ul._currentValue=l),tp(n,s),Cn(n,s,o,a),s.child;case 6:return n===null&&nn&&((n=a=gn)&&(a=l0(a,s.pendingProps,Ws),a!==null?(s.stateNode=a,Pn=s,gn=null,n=!0):n=!1),n||wa(s)),null;case 13:return Hr(n,s,a);case 4:return un(s,s.stateNode.containerInfo),o=s.pendingProps,n===null?s.child=eo(s,null,o,a):Cn(n,s,o,a),s.child;case 11:return Ar(n,s,s.type,s.pendingProps,a);case 7:return Cn(n,s,s.pendingProps,a),s.child;case 8:return Cn(n,s,s.pendingProps.children,a),s.child;case 12:return Cn(n,s,s.pendingProps.children,a),s.child;case 10:return o=s.pendingProps,_s(s,s.type,o.value),Cn(n,s,o.children,a),s.child;case 9:return l=s.type._context,o=s.pendingProps.children,Ra(s),l=zn(l),o=o(l),s.flags|=1,Cn(n,s,o,a),s.child;case 14:return Sr(n,s,s.type,s.pendingProps,a);case 15:return Or(n,s,s.type,s.pendingProps,a);case 19:return Lr(n,s,a);case 31:return o=s.pendingProps,a=s.mode,o={mode:o.mode,children:o.children},n===null?(a=cp(o,a),a.ref=s.ref,s.child=a,a.return=s,s=a):(a=Ds(n.child,o),a.ref=s.ref,s.child=a,a.return=s,s=a),s;case 22:return Wr(n,s,a);case 24:return Ra(s),o=zn(wn),n===null?(l=we(),l===null&&(l=yn,p=Te(),l.pooledCache=p,p.refCount++,p!==null&&(l.pooledCacheLanes|=a),l=p),s.memoizedState={parent:o,cache:l},Re(s),_s(s,wn,l)):((n.lanes&a)!==0&&(Le(n,s),Po(s,null,null,a),xo()),l=n.memoizedState,p=s.memoizedState,l.parent!==o?(l={parent:o,cache:o},s.memoizedState=l,s.lanes===0&&(s.memoizedState=s.updateQueue.baseState=l),_s(s,wn,o)):(o=p.cache,_s(s,wn,o),o!==l.cache&&Ee(s,[wn],a,!0))),Cn(n,s,s.pendingProps.children,a),s.child;case 29:throw s.pendingProps}throw Error(h(156,s.tag))}function Ks(n){n.flags|=4}function Dr(n,s){if(s.type!=="stylesheet"||(s.state.loading&4)!==0)n.flags&=-16777217;else if(n.flags|=16777216,!K3(s)){if(s=bs.current,s!==null&&((X&4194048)===X?Es!==null:(X&62914560)!==X&&(X&536870912)===0||s!==Es))throw Jo=He,bf;n.flags|=8192}}function fp(n,s){s!==null&&(n.flags|=4),n.flags&16384&&(s=n.tag!==22?cc():536870912,n.lanes|=s,ro|=s)}function Qo(n,s){if(!nn)switch(n.tailMode){case"hidden":s=n.tail;for(var a=null;s!==null;)s.alternate!==null&&(a=s),s=s.sibling;a===null?n.tail=null:a.sibling=null;break;case"collapsed":a=n.tail;for(var o=null;a!==null;)a.alternate!==null&&(o=a),a=a.sibling;o===null?s||n.tail===null?n.tail=null:n.tail.sibling=null:o.sibling=null}}function mn(n){var s=n.alternate!==null&&n.alternate.child===n.child,a=0,o=0;if(s)for(var l=n.child;l!==null;)a|=l.lanes|l.childLanes,o|=l.subtreeFlags&65011712,o|=l.flags&65011712,l.return=n,l=l.sibling;else for(l=n.child;l!==null;)a|=l.lanes|l.childLanes,o|=l.subtreeFlags,o|=l.flags,l.return=n,l=l.sibling;return n.subtreeFlags|=o,n.childLanes=a,s}function B9(n,s,a){var o=s.pendingProps;switch(Ae(s),s.tag){case 31:case 16:case 15:case 0:case 11:case 7:case 8:case 12:case 9:case 14:return mn(s),null;case 1:return mn(s),null;case 3:return a=s.stateNode,o=null,n!==null&&(o=n.memoizedState.cache),s.memoizedState.cache!==o&&(s.flags|=2048),Cs(wn),xs(),a.pendingContext&&(a.context=a.pendingContext,a.pendingContext=null),(n===null||n.child===null)&&(Co(s)?Ks(s):n===null||n.memoizedState.isDehydrated&&(s.flags&256)===0||(s.flags|=1024,cf())),mn(s),null;case 26:return a=s.memoizedState,n===null?(Ks(s),a!==null?(mn(s),Dr(s,a)):(mn(s),s.flags&=-16777217)):a?a!==n.memoizedState?(Ks(s),mn(s),Dr(s,a)):(mn(s),s.flags&=-16777217):(n.memoizedProps!==o&&Ks(s),mn(s),s.flags&=-16777217),null;case 27:Sl(s),a=U.current;var l=s.type;if(n!==null&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(!o){if(s.stateNode===null)throw Error(h(166));return mn(s),null}n=k.current,Co(s)?ef(s):(n=D3(l,o,a),s.stateNode=n,Ks(s))}return mn(s),null;case 5:if(Sl(s),a=s.type,n!==null&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(!o){if(s.stateNode===null)throw Error(h(166));return mn(s),null}if(n=k.current,Co(s))ef(s);else{switch(l=Wp(U.current),n){case 1:n=l.createElementNS("http://www.w3.org/2000/svg",a);break;case 2:n=l.createElementNS("http://www.w3.org/1998/Math/MathML",a);break;default:switch(a){case"svg":n=l.createElementNS("http://www.w3.org/2000/svg",a);break;case"math":n=l.createElementNS("http://www.w3.org/1998/Math/MathML",a);break;case"script":n=l.createElement("div"),n.innerHTML="<script><\/script>",n=n.removeChild(n.firstChild);break;case"select":n=typeof o.is=="string"?l.createElement("select",{is:o.is}):l.createElement("select"),o.multiple?n.multiple=!0:o.size&&(n.size=o.size);break;default:n=typeof o.is=="string"?l.createElement(a,{is:o.is}):l.createElement(a)}}n[Un]=s,n[jn]=o;n:for(l=s.child;l!==null;){if(l.tag===5||l.tag===6)n.appendChild(l.stateNode);else if(l.tag!==4&&l.tag!==27&&l.child!==null){l.child.return=l,l=l.child;continue}if(l===s)break n;for(;l.sibling===null;){if(l.return===null||l.return===s)break n;l=l.return}l.sibling.return=l.return,l=l.sibling}s.stateNode=n;n:switch(Nn(n,a,o),a){case"button":case"input":case"select":case"textarea":n=!!o.autoFocus;break n;case"img":n=!0;break n;default:n=!1}n&&Ks(s)}}return mn(s),s.flags&=-16777217,null;case 6:if(n&&s.stateNode!=null)n.memoizedProps!==o&&Ks(s);else{if(typeof o!="string"&&s.stateNode===null)throw Error(h(166));if(n=U.current,Co(s)){if(n=s.stateNode,a=s.memoizedProps,o=null,l=Pn,l!==null)switch(l.tag){case 27:case 5:o=l.memoizedProps}n[Un]=s,n=!!(n.nodeValue===a||o!==null&&o.suppressHydrationWarning===!0||T3(n.nodeValue,a)),n||wa(s)}else n=Wp(n).createTextNode(o),n[Un]=s,s.stateNode=n}return mn(s),null;case 13:if(o=s.memoizedState,n===null||n.memoizedState!==null&&n.memoizedState.dehydrated!==null){if(l=Co(s),o!==null&&o.dehydrated!==null){if(n===null){if(!l)throw Error(h(318));if(l=s.memoizedState,l=l!==null?l.dehydrated:null,!l)throw Error(h(317));l[Un]=s}else Io(),(s.flags&128)===0&&(s.memoizedState=null),s.flags|=4;mn(s),l=!1}else l=cf(),n!==null&&n.memoizedState!==null&&(n.memoizedState.hydrationErrors=l),l=!0;if(!l)return s.flags&256?(Ns(s),s):(Ns(s),null)}if(Ns(s),(s.flags&128)!==0)return s.lanes=a,s;if(a=o!==null,n=n!==null&&n.memoizedState!==null,a){o=s.child,l=null,o.alternate!==null&&o.alternate.memoizedState!==null&&o.alternate.memoizedState.cachePool!==null&&(l=o.alternate.memoizedState.cachePool.pool);var p=null;o.memoizedState!==null&&o.memoizedState.cachePool!==null&&(p=o.memoizedState.cachePool.pool),p!==l&&(o.flags|=2048)}return a!==n&&a&&(s.child.flags|=8192),fp(s,s.updateQueue),mn(s),null;case 4:return xs(),n===null&&Dt(s.stateNode.containerInfo),mn(s),null;case 10:return Cs(s.type),mn(s),null;case 19:if(R(Hn),l=s.memoizedState,l===null)return mn(s),null;if(o=(s.flags&128)!==0,p=l.rendering,p===null)if(o)Qo(l,!1);else{if(An!==0||n!==null&&(n.flags&128)!==0)for(n=s.child;n!==null;){if(p=lp(n),p!==null){for(s.flags|=128,Qo(l,!1),n=p.updateQueue,s.updateQueue=n,fp(s,n),s.subtreeFlags=0,n=a,a=s.child;a!==null;)lf(a,n),a=a.sibling;return w(Hn,Hn.current&1|2),s.child}n=n.sibling}l.tail!==null&&Os()>ip&&(s.flags|=128,o=!0,Qo(l,!1),s.lanes=4194304)}else{if(!o)if(n=lp(p),n!==null){if(s.flags|=128,o=!0,n=n.updateQueue,s.updateQueue=n,fp(s,n),Qo(l,!0),l.tail===null&&l.tailMode==="hidden"&&!p.alternate&&!nn)return mn(s),null}else 2*Os()-l.renderingStartTime>ip&&a!==536870912&&(s.flags|=128,o=!0,Qo(l,!1),s.lanes=4194304);l.isBackwards?(p.sibling=s.child,s.child=p):(n=l.last,n!==null?n.sibling=p:s.child=p,l.last=p)}return l.tail!==null?(s=l.tail,l.rendering=s,l.tail=s.sibling,l.renderingStartTime=Os(),s.sibling=null,n=Hn.current,w(Hn,o?n&1|2:n&1),s):(mn(s),null);case 22:case 23:return Ns(s),Ye(),o=s.memoizedState!==null,n!==null?n.memoizedState!==null!==o&&(s.flags|=8192):o&&(s.flags|=8192),o?(a&536870912)!==0&&(s.flags&128)===0&&(mn(s),s.subtreeFlags&6&&(s.flags|=8192)):mn(s),a=s.updateQueue,a!==null&&fp(s,a.retryQueue),a=null,n!==null&&n.memoizedState!==null&&n.memoizedState.cachePool!==null&&(a=n.memoizedState.cachePool.pool),o=null,s.memoizedState!==null&&s.memoizedState.cachePool!==null&&(o=s.memoizedState.cachePool.pool),o!==a&&(s.flags|=2048),n!==null&&R(La),null;case 24:return a=null,n!==null&&(a=n.memoizedState.cache),s.memoizedState.cache!==a&&(s.flags|=2048),Cs(wn),mn(s),null;case 25:return null;case 30:return null}throw Error(h(156,s.tag))}function D9(n,s){switch(Ae(s),s.tag){case 1:return n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 3:return Cs(wn),xs(),n=s.flags,(n&65536)!==0&&(n&128)===0?(s.flags=n&-65537|128,s):null;case 26:case 27:case 5:return Sl(s),null;case 13:if(Ns(s),n=s.memoizedState,n!==null&&n.dehydrated!==null){if(s.alternate===null)throw Error(h(340));Io()}return n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 19:return R(Hn),null;case 4:return xs(),null;case 10:return Cs(s.type),null;case 22:case 23:return Ns(s),Ye(),n!==null&&R(La),n=s.flags,n&65536?(s.flags=n&-65537|128,s):null;case 24:return Cs(wn),null;case 25:return null;default:return null}}function Mr(n,s){switch(Ae(s),s.tag){case 3:Cs(wn),xs();break;case 26:case 27:case 5:Sl(s);break;case 4:xs();break;case 13:Ns(s);break;case 19:R(Hn);break;case 10:Cs(s.type);break;case 22:case 23:Ns(s),Ye(),n!==null&&R(La);break;case 24:Cs(wn)}}function $o(n,s){try{var a=s.updateQueue,o=a!==null?a.lastEffect:null;if(o!==null){var l=o.next;a=l;do{if((a.tag&n)===n){o=void 0;var p=a.create,e=a.inst;o=p(),e.destroy=o}a=a.next}while(a!==l)}}catch(t){fn(s,s.return,t)}}function sa(n,s,a){try{var o=s.updateQueue,l=o!==null?o.lastEffect:null;if(l!==null){var p=l.next;o=p;do{if((o.tag&n)===n){var e=o.inst,t=e.destroy;if(t!==void 0){e.destroy=void 0,l=s;var c=a,u=t;try{u()}catch(m){fn(l,c,m)}}}o=o.next}while(o!==p)}}catch(m){fn(s,s.return,m)}}function Yr(n){var s=n.updateQueue;if(s!==null){var a=n.stateNode;try{Sf(s,a)}catch(o){fn(n,n.return,o)}}}function kr(n,s,a){a.props=Da(n.type,n.memoizedProps),a.state=n.memoizedState;try{a.componentWillUnmount()}catch(o){fn(n,s,o)}}function nl(n,s){try{var a=n.ref;if(a!==null){switch(n.tag){case 26:case 27:case 5:var o=n.stateNode;break;case 30:o=n.stateNode;break;default:o=n.stateNode}typeof a=="function"?n.refCleanup=a(o):a.current=o}}catch(l){fn(n,s,l)}}function Ts(n,s){var a=n.ref,o=n.refCleanup;if(a!==null)if(typeof o=="function")try{o()}catch(l){fn(n,s,l)}finally{n.refCleanup=null,n=n.alternate,n!=null&&(n.refCleanup=null)}else if(typeof a=="function")try{a(null)}catch(l){fn(n,s,l)}else a.current=null}function Cr(n){var s=n.type,a=n.memoizedProps,o=n.stateNode;try{n:switch(s){case"button":case"input":case"select":case"textarea":a.autoFocus&&o.focus();break n;case"img":a.src?o.src=a.src:a.srcSet&&(o.srcset=a.srcSet)}}catch(l){fn(n,n.return,l)}}function tt(n,s,a){try{var o=n.stateNode;Q9(o,n.type,a,s),o[jn]=s}catch(l){fn(n,n.return,l)}}function Ir(n){return n.tag===5||n.tag===3||n.tag===26||n.tag===27&&fa(n.type)||n.tag===4}function ct(n){n:for(;;){for(;n.sibling===null;){if(n.return===null||Ir(n.return))return null;n=n.return}for(n.sibling.return=n.return,n=n.sibling;n.tag!==5&&n.tag!==6&&n.tag!==18;){if(n.tag===27&&fa(n.type)||n.flags&2||n.child===null||n.tag===4)continue n;n.child.return=n,n=n.child}if(!(n.flags&2))return n.stateNode}}function ft(n,s,a){var o=n.tag;if(o===5||o===6)n=n.stateNode,s?(a.nodeType===9?a.body:a.nodeName==="HTML"?a.ownerDocument.body:a).insertBefore(n,s):(s=a.nodeType===9?a.body:a.nodeName==="HTML"?a.ownerDocument.body:a,s.appendChild(n),a=a._reactRootContainer,a!=null||s.onclick!==null||(s.onclick=Op));else if(o!==4&&(o===27&&fa(n.type)&&(a=n.stateNode,s=null),n=n.child,n!==null))for(ft(n,s,a),n=n.sibling;n!==null;)ft(n,s,a),n=n.sibling}function rp(n,s,a){var o=n.tag;if(o===5||o===6)n=n.stateNode,s?a.insertBefore(n,s):a.appendChild(n);else if(o!==4&&(o===27&&fa(n.type)&&(a=n.stateNode),n=n.child,n!==null))for(rp(n,s,a),n=n.sibling;n!==null;)rp(n,s,a),n=n.sibling}function Nr(n){var s=n.stateNode,a=n.memoizedProps;try{for(var o=n.type,l=s.attributes;l.length;)s.removeAttributeNode(l[0]);Nn(s,o,a),s[Un]=n,s[jn]=a}catch(p){fn(n,n.return,p)}}var Us=!1,Wn=!1,rt=!1,Gr=typeof WeakSet=="function"?WeakSet:Set,Dn=null;function M9(n,s){if(n=n.containerInfo,kt=Rp,n=_c(n),ce(n)){if("selectionStart"in n)var a={start:n.selectionStart,end:n.selectionEnd};else n:{a=(a=n.ownerDocument)&&a.defaultView||window;var o=a.getSelection&&a.getSelection();if(o&&o.rangeCount!==0){a=o.anchorNode;var l=o.anchorOffset,p=o.focusNode;o=o.focusOffset;try{a.nodeType,p.nodeType}catch{a=null;break n}var e=0,t=-1,c=-1,u=0,m=0,O=n,b=null;s:for(;;){for(var d;O!==a||l!==0&&O.nodeType!==3||(t=e+l),O!==p||o!==0&&O.nodeType!==3||(c=e+o),O.nodeType===3&&(e+=O.nodeValue.length),(d=O.firstChild)!==null;)b=O,O=d;for(;;){if(O===n)break s;if(b===a&&++u===l&&(t=e),b===p&&++m===o&&(c=e),(d=O.nextSibling)!==null)break;O=b,b=O.parentNode}O=d}a=t===-1||c===-1?null:{start:t,end:c}}else a=null}a=a||{start:0,end:0}}else a=null;for(Ct={focusedElem:n,selectionRange:a},Rp=!1,Dn=s;Dn!==null;)if(s=Dn,n=s.child,(s.subtreeFlags&1024)!==0&&n!==null)n.return=s,Dn=n;else for(;Dn!==null;){switch(s=Dn,p=s.alternate,n=s.flags,s.tag){case 0:break;case 11:case 15:break;case 1:if((n&1024)!==0&&p!==null){n=void 0,a=s,l=p.memoizedProps,p=p.memoizedState,o=a.stateNode;try{var G=Da(a.type,l,a.elementType===a.type);n=o.getSnapshotBeforeUpdate(G,p),o.__reactInternalSnapshotBeforeUpdate=n}catch(C){fn(a,a.return,C)}}break;case 3:if((n&1024)!==0){if(n=s.stateNode.containerInfo,a=n.nodeType,a===9)Gt(n);else if(a===1)switch(n.nodeName){case"HEAD":case"HTML":case"BODY":Gt(n);break;default:n.textContent=""}}break;case 5:case 26:case 27:case 6:case 4:case 17:break;default:if((n&1024)!==0)throw Error(h(163))}if(n=s.sibling,n!==null){n.return=s.return,Dn=n;break}Dn=s.return}}function Kr(n,s,a){var o=a.flags;switch(a.tag){case 0:case 11:case 15:aa(n,a),o&4&&$o(5,a);break;case 1:if(aa(n,a),o&4)if(n=a.stateNode,s===null)try{n.componentDidMount()}catch(e){fn(a,a.return,e)}else{var l=Da(a.type,s.memoizedProps);s=s.memoizedState;try{n.componentDidUpdate(l,s,n.__reactInternalSnapshotBeforeUpdate)}catch(e){fn(a,a.return,e)}}o&64&&Yr(a),o&512&&nl(a,a.return);break;case 3:if(aa(n,a),o&64&&(n=a.updateQueue,n!==null)){if(s=null,a.child!==null)switch(a.child.tag){case 27:case 5:s=a.child.stateNode;break;case 1:s=a.child.stateNode}try{Sf(n,s)}catch(e){fn(a,a.return,e)}}break;case 27:s===null&&o&4&&Nr(a);case 26:case 5:aa(n,a),s===null&&o&4&&Cr(a),o&512&&nl(a,a.return);break;case 12:aa(n,a);break;case 13:aa(n,a),o&4&&Jr(n,a),o&64&&(n=a.memoizedState,n!==null&&(n=n.dehydrated,n!==null&&(a=z9.bind(null,a),p0(n,a))));break;case 22:if(o=a.memoizedState!==null||Us,!o){s=s!==null&&s.memoizedState!==null||Wn,l=Us;var p=Wn;Us=o,(Wn=s)&&!p?oa(n,a,(a.subtreeFlags&8772)!==0):aa(n,a),Us=l,Wn=p}break;case 30:break;default:aa(n,a)}}function Ur(n){var s=n.alternate;s!==null&&(n.alternate=null,Ur(s)),n.child=null,n.deletions=null,n.sibling=null,n.tag===5&&(s=n.stateNode,s!==null&&Vp(s)),n.stateNode=null,n.return=null,n.dependencies=null,n.memoizedProps=null,n.memoizedState=null,n.pendingProps=null,n.stateNode=null,n.updateQueue=null}var bn=null,qn=!1;function zs(n,s,a){for(a=a.child;a!==null;)zr(n,s,a),a=a.sibling}function zr(n,s,a){if($n&&typeof $n.onCommitFiberUnmount=="function")try{$n.onCommitFiberUnmount(Oo,a)}catch{}switch(a.tag){case 26:Wn||Ts(a,s),zs(n,s,a),a.memoizedState?a.memoizedState.count--:a.stateNode&&(a=a.stateNode,a.parentNode.removeChild(a));break;case 27:Wn||Ts(a,s);var o=bn,l=qn;fa(a.type)&&(bn=a.stateNode,qn=!1),zs(n,s,a),fl(a.stateNode),bn=o,qn=l;break;case 5:Wn||Ts(a,s);case 6:if(o=bn,l=qn,bn=null,zs(n,s,a),bn=o,qn=l,bn!==null)if(qn)try{(bn.nodeType===9?bn.body:bn.nodeName==="HTML"?bn.ownerDocument.body:bn).removeChild(a.stateNode)}catch(p){fn(a,s,p)}else try{bn.removeChild(a.stateNode)}catch(p){fn(a,s,p)}break;case 18:bn!==null&&(qn?(n=bn,L3(n.nodeType===9?n.body:n.nodeName==="HTML"?n.ownerDocument.body:n,a.stateNode),ml(n)):L3(bn,a.stateNode));break;case 4:o=bn,l=qn,bn=a.stateNode.containerInfo,qn=!0,zs(n,s,a),bn=o,qn=l;break;case 0:case 11:case 14:case 15:Wn||sa(2,a,s),Wn||sa(4,a,s),zs(n,s,a);break;case 1:Wn||(Ts(a,s),o=a.stateNode,typeof o.componentWillUnmount=="function"&&kr(a,s,o)),zs(n,s,a);break;case 21:zs(n,s,a);break;case 22:Wn=(o=Wn)||a.memoizedState!==null,zs(n,s,a),Wn=o;break;default:zs(n,s,a)}}function Jr(n,s){if(s.memoizedState===null&&(n=s.alternate,n!==null&&(n=n.memoizedState,n!==null&&(n=n.dehydrated,n!==null))))try{ml(n)}catch(a){fn(s,s.return,a)}}function Y9(n){switch(n.tag){case 13:case 19:var s=n.stateNode;return s===null&&(s=n.stateNode=new Gr),s;case 22:return n=n.stateNode,s=n._retryCache,s===null&&(s=n._retryCache=new Gr),s;default:throw Error(h(435,n.tag))}}function yt(n,s){var a=Y9(n);s.forEach(function(o){var l=J9.bind(null,n,o);a.has(o)||(a.add(o),o.then(l,l))})}function os(n,s){var a=s.deletions;if(a!==null)for(var o=0;o<a.length;o++){var l=a[o],p=n,e=s,t=e;n:for(;t!==null;){switch(t.tag){case 27:if(fa(t.type)){bn=t.stateNode,qn=!1;break n}break;case 5:bn=t.stateNode,qn=!1;break n;case 3:case 4:bn=t.stateNode.containerInfo,qn=!0;break n}t=t.return}if(bn===null)throw Error(h(160));zr(p,e,l),bn=null,qn=!1,p=l.alternate,p!==null&&(p.return=null),l.return=null}if(s.subtreeFlags&13878)for(s=s.child;s!==null;)Vr(s,n),s=s.sibling}var As=null;function Vr(n,s){var a=n.alternate,o=n.flags;switch(n.tag){case 0:case 11:case 14:case 15:os(s,n),ls(n),o&4&&(sa(3,n,n.return),$o(3,n),sa(5,n,n.return));break;case 1:os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),o&64&&Us&&(n=n.updateQueue,n!==null&&(o=n.callbacks,o!==null&&(a=n.shared.hiddenCallbacks,n.shared.hiddenCallbacks=a===null?o:a.concat(o))));break;case 26:var l=As;if(os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),o&4){var p=a!==null?a.memoizedState:null;if(o=n.memoizedState,a===null)if(o===null)if(n.stateNode===null){n:{o=n.type,a=n.memoizedProps,l=l.ownerDocument||l;s:switch(o){case"title":p=l.getElementsByTagName("title")[0],(!p||p[To]||p[Un]||p.namespaceURI==="http://www.w3.org/2000/svg"||p.hasAttribute("itemprop"))&&(p=l.createElement(o),l.head.insertBefore(p,l.querySelector("head > title"))),Nn(p,o,a),p[Un]=n,Ln(p),o=p;break n;case"link":var e=N3("link","href",l).get(o+(a.href||""));if(e){for(var t=0;t<e.length;t++)if(p=e[t],p.getAttribute("href")===(a.href==null||a.href===""?null:a.href)&&p.getAttribute("rel")===(a.rel==null?null:a.rel)&&p.getAttribute("title")===(a.title==null?null:a.title)&&p.getAttribute("crossorigin")===(a.crossOrigin==null?null:a.crossOrigin)){e.splice(t,1);break s}}p=l.createElement(o),Nn(p,o,a),l.head.appendChild(p);break;case"meta":if(e=N3("meta","content",l).get(o+(a.content||""))){for(t=0;t<e.length;t++)if(p=e[t],p.getAttribute("content")===(a.content==null?null:""+a.content)&&p.getAttribute("name")===(a.name==null?null:a.name)&&p.getAttribute("property")===(a.property==null?null:a.property)&&p.getAttribute("http-equiv")===(a.httpEquiv==null?null:a.httpEquiv)&&p.getAttribute("charset")===(a.charSet==null?null:a.charSet)){e.splice(t,1);break s}}p=l.createElement(o),Nn(p,o,a),l.head.appendChild(p);break;default:throw Error(h(468,o))}p[Un]=n,Ln(p),o=p}n.stateNode=o}else G3(l,n.type,n.stateNode);else n.stateNode=I3(l,o,n.memoizedProps);else p!==o?(p===null?a.stateNode!==null&&(a=a.stateNode,a.parentNode.removeChild(a)):p.count--,o===null?G3(l,n.type,n.stateNode):I3(l,o,n.memoizedProps)):o===null&&n.stateNode!==null&&tt(n,n.memoizedProps,a.memoizedProps)}break;case 27:os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),a!==null&&o&4&&tt(n,n.memoizedProps,a.memoizedProps);break;case 5:if(os(s,n),ls(n),o&512&&(Wn||a===null||Ts(a,a.return)),n.flags&32){l=n.stateNode;try{Ja(l,"")}catch(d){fn(n,n.return,d)}}o&4&&n.stateNode!=null&&(l=n.memoizedProps,tt(n,l,a!==null?a.memoizedProps:l)),o&1024&&(rt=!0);break;case 6:if(os(s,n),ls(n),o&4){if(n.stateNode===null)throw Error(h(162));o=n.memoizedProps,a=n.stateNode;try{a.nodeValue=o}catch(d){fn(n,n.return,d)}}break;case 3:if(vp=null,l=As,As=Ep(s.containerInfo),os(s,n),As=l,ls(n),o&4&&a!==null&&a.memoizedState.isDehydrated)try{ml(s.containerInfo)}catch(d){fn(n,n.return,d)}rt&&(rt=!1,xr(n));break;case 4:o=As,As=Ep(n.stateNode.containerInfo),os(s,n),ls(n),As=o;break;case 12:os(s,n),ls(n);break;case 13:os(s,n),ls(n),n.child.flags&8192&&n.memoizedState!==null!=(a!==null&&a.memoizedState!==null)&&(mt=Os()),o&4&&(o=n.updateQueue,o!==null&&(n.updateQueue=null,yt(n,o)));break;case 22:l=n.memoizedState!==null;var c=a!==null&&a.memoizedState!==null,u=Us,m=Wn;if(Us=u||l,Wn=m||c,os(s,n),Wn=m,Us=u,ls(n),o&8192)n:for(s=n.stateNode,s._visibility=l?s._visibility&-2:s._visibility|1,l&&(a===null||c||Us||Wn||Ma(n)),a=null,s=n;;){if(s.tag===5||s.tag===26){if(a===null){c=a=s;try{if(p=c.stateNode,l)e=p.style,typeof e.setProperty=="function"?e.setProperty("display","none","important"):e.display="none";else{t=c.stateNode;var O=c.memoizedProps.style,b=O!=null&&O.hasOwnProperty("display")?O.display:null;t.style.display=b==null||typeof b=="boolean"?"":(""+b).trim()}}catch(d){fn(c,c.return,d)}}}else if(s.tag===6){if(a===null){c=s;try{c.stateNode.nodeValue=l?"":c.memoizedProps}catch(d){fn(c,c.return,d)}}}else if((s.tag!==22&&s.tag!==23||s.memoizedState===null||s===n)&&s.child!==null){s.child.return=s,s=s.child;continue}if(s===n)break n;for(;s.sibling===null;){if(s.return===null||s.return===n)break n;a===s&&(a=null),s=s.return}a===s&&(a=null),s.sibling.return=s.return,s=s.sibling}o&4&&(o=n.updateQueue,o!==null&&(a=o.retryQueue,a!==null&&(o.retryQueue=null,yt(n,a))));break;case 19:os(s,n),ls(n),o&4&&(o=n.updateQueue,o!==null&&(n.updateQueue=null,yt(n,o)));break;case 30:break;case 21:break;default:os(s,n),ls(n)}}function ls(n){var s=n.flags;if(s&2){try{for(var a,o=n.return;o!==null;){if(Ir(o)){a=o;break}o=o.return}if(a==null)throw Error(h(160));switch(a.tag){case 27:var l=a.stateNode,p=ct(n);rp(n,p,l);break;case 5:var e=a.stateNode;a.flags&32&&(Ja(e,""),a.flags&=-33);var t=ct(n);rp(n,t,e);break;case 3:case 4:var c=a.stateNode.containerInfo,u=ct(n);ft(n,u,c);break;default:throw Error(h(161))}}catch(m){fn(n,n.return,m)}n.flags&=-3}s&4096&&(n.flags&=-4097)}function xr(n){if(n.subtreeFlags&1024)for(n=n.child;n!==null;){var s=n;xr(s),s.tag===5&&s.flags&1024&&s.stateNode.reset(),n=n.sibling}}function aa(n,s){if(s.subtreeFlags&8772)for(s=s.child;s!==null;)Kr(n,s.alternate,s),s=s.sibling}function Ma(n){for(n=n.child;n!==null;){var s=n;switch(s.tag){case 0:case 11:case 14:case 15:sa(4,s,s.return),Ma(s);break;case 1:Ts(s,s.return);var a=s.stateNode;typeof a.componentWillUnmount=="function"&&kr(s,s.return,a),Ma(s);break;case 27:fl(s.stateNode);case 26:case 5:Ts(s,s.return),Ma(s);break;case 22:s.memoizedState===null&&Ma(s);break;case 30:Ma(s);break;default:Ma(s)}n=n.sibling}}function oa(n,s,a){for(a=a&&(s.subtreeFlags&8772)!==0,s=s.child;s!==null;){var o=s.alternate,l=n,p=s,e=p.flags;switch(p.tag){case 0:case 11:case 15:oa(l,p,a),$o(4,p);break;case 1:if(oa(l,p,a),o=p,l=o.stateNode,typeof l.componentDidMount=="function")try{l.componentDidMount()}catch(u){fn(o,o.return,u)}if(o=p,l=o.updateQueue,l!==null){var t=o.stateNode;try{var c=l.shared.hiddenCallbacks;if(c!==null)for(l.shared.hiddenCallbacks=null,l=0;l<c.length;l++)Af(c[l],t)}catch(u){fn(o,o.return,u)}}a&&e&64&&Yr(p),nl(p,p.return);break;case 27:Nr(p);case 26:case 5:oa(l,p,a),a&&o===null&&e&4&&Cr(p),nl(p,p.return);break;case 12:oa(l,p,a);break;case 13:oa(l,p,a),a&&e&4&&Jr(l,p);break;case 22:p.memoizedState===null&&oa(l,p,a),nl(p,p.return);break;case 30:break;default:oa(l,p,a)}s=s.sibling}}function it(n,s){var a=null;n!==null&&n.memoizedState!==null&&n.memoizedState.cachePool!==null&&(a=n.memoizedState.cachePool.pool),n=null,s.memoizedState!==null&&s.memoizedState.cachePool!==null&&(n=s.memoizedState.cachePool.pool),n!==a&&(n!=null&&n.refCount++,a!=null&&Ko(a))}function ut(n,s){n=null,s.alternate!==null&&(n=s.alternate.memoizedState.cache),s=s.memoizedState.cache,s!==n&&(s.refCount++,n!=null&&Ko(n))}function vs(n,s,a,o){if(s.subtreeFlags&10256)for(s=s.child;s!==null;)Pr(n,s,a,o),s=s.sibling}function Pr(n,s,a,o){var l=s.flags;switch(s.tag){case 0:case 11:case 15:vs(n,s,a,o),l&2048&&$o(9,s);break;case 1:vs(n,s,a,o);break;case 3:vs(n,s,a,o),l&2048&&(n=null,s.alternate!==null&&(n=s.alternate.memoizedState.cache),s=s.memoizedState.cache,s!==n&&(s.refCount++,n!=null&&Ko(n)));break;case 12:if(l&2048){vs(n,s,a,o),n=s.stateNode;try{var p=s.memoizedProps,e=p.id,t=p.onPostCommit;typeof t=="function"&&t(e,s.alternate===null?"mount":"update",n.passiveEffectDuration,-0)}catch(c){fn(s,s.return,c)}}else vs(n,s,a,o);break;case 13:vs(n,s,a,o);break;case 23:break;case 22:p=s.stateNode,e=s.alternate,s.memoizedState!==null?p._visibility&2?vs(n,s,a,o):sl(n,s):p._visibility&2?vs(n,s,a,o):(p._visibility|=2,to(n,s,a,o,(s.subtreeFlags&10256)!==0)),l&2048&&it(e,s);break;case 24:vs(n,s,a,o),l&2048&&ut(s.alternate,s);break;default:vs(n,s,a,o)}}function to(n,s,a,o,l){for(l=l&&(s.subtreeFlags&10256)!==0,s=s.child;s!==null;){var p=n,e=s,t=a,c=o,u=e.flags;switch(e.tag){case 0:case 11:case 15:to(p,e,t,c,l),$o(8,e);break;case 23:break;case 22:var m=e.stateNode;e.memoizedState!==null?m._visibility&2?to(p,e,t,c,l):sl(p,e):(m._visibility|=2,to(p,e,t,c,l)),l&&u&2048&&it(e.alternate,e);break;case 24:to(p,e,t,c,l),l&&u&2048&&ut(e.alternate,e);break;default:to(p,e,t,c,l)}s=s.sibling}}function sl(n,s){if(s.subtreeFlags&10256)for(s=s.child;s!==null;){var a=n,o=s,l=o.flags;switch(o.tag){case 22:sl(a,o),l&2048&&it(o.alternate,o);break;case 24:sl(a,o),l&2048&&ut(o.alternate,o);break;default:sl(a,o)}s=s.sibling}}var al=8192;function co(n){if(n.subtreeFlags&al)for(n=n.child;n!==null;)jr(n),n=n.sibling}function jr(n){switch(n.tag){case 26:co(n),n.flags&al&&n.memoizedState!==null&&g0(As,n.memoizedState,n.memoizedProps);break;case 5:co(n);break;case 3:case 4:var s=As;As=Ep(n.stateNode.containerInfo),co(n),As=s;break;case 22:n.memoizedState===null&&(s=n.alternate,s!==null&&s.memoizedState!==null?(s=al,al=16777216,co(n),al=s):co(n));break;default:co(n)}}function Fr(n){var s=n.alternate;if(s!==null&&(n=s.child,n!==null)){s.child=null;do s=n.sibling,n.sibling=null,n=s;while(n!==null)}}function ol(n){var s=n.deletions;if((n.flags&16)!==0){if(s!==null)for(var a=0;a<s.length;a++){var o=s[a];Dn=o,qr(o,n)}Fr(n)}if(n.subtreeFlags&10256)for(n=n.child;n!==null;)_r(n),n=n.sibling}function _r(n){switch(n.tag){case 0:case 11:case 15:ol(n),n.flags&2048&&sa(9,n,n.return);break;case 3:ol(n);break;case 12:ol(n);break;case 22:var s=n.stateNode;n.memoizedState!==null&&s._visibility&2&&(n.return===null||n.return.tag!==13)?(s._visibility&=-3,yp(n)):ol(n);break;default:ol(n)}}function yp(n){var s=n.deletions;if((n.flags&16)!==0){if(s!==null)for(var a=0;a<s.length;a++){var o=s[a];Dn=o,qr(o,n)}Fr(n)}for(n=n.child;n!==null;){switch(s=n,s.tag){case 0:case 11:case 15:sa(8,s,s.return),yp(s);break;case 22:a=s.stateNode,a._visibility&2&&(a._visibility&=-3,yp(s));break;default:yp(s)}n=n.sibling}}function qr(n,s){for(;Dn!==null;){var a=Dn;switch(a.tag){case 0:case 11:case 15:sa(8,a,s);break;case 23:case 22:if(a.memoizedState!==null&&a.memoizedState.cachePool!==null){var o=a.memoizedState.cachePool.pool;o!=null&&o.refCount++}break;case 24:Ko(a.memoizedState.cache)}if(o=a.child,o!==null)o.return=a,Dn=o;else n:for(a=n;Dn!==null;){o=Dn;var l=o.sibling,p=o.return;if(Ur(o),o===a){Dn=null;break n}if(l!==null){l.return=p,Dn=l;break n}Dn=p}}}var k9={getCacheForType:function(n){var s=zn(wn),a=s.data.get(n);return a===void 0&&(a=n(),s.data.set(n,a)),a}},C9=typeof WeakMap=="function"?WeakMap:Map,sn=0,yn=null,P=null,X=0,an=0,ps=null,la=!1,fo=!1,bt=!1,Js=0,An=0,pa=0,Ya=0,dt=0,ds=0,ro=0,ll=null,Xn=null,ht=!1,mt=0,ip=1/0,up=null,ea=null,In=0,ta=null,yo=null,io=0,gt=0,At=null,Xr=null,pl=0,St=null;function es(){if((sn&2)!==0&&X!==0)return X&-X;if(g.T!==null){var n=$a;return n!==0?n:Ht()}return yc()}function Zr(){ds===0&&(ds=(X&536870912)===0||nn?tc():536870912);var n=bs.current;return n!==null&&(n.flags|=32),ds}function ts(n,s,a){(n===yn&&(an===2||an===9)||n.cancelPendingCommit!==null)&&(uo(n,0),ca(n,X,ds,!1)),Eo(n,a),((sn&2)===0||n!==yn)&&(n===yn&&((sn&2)===0&&(Ya|=a),An===4&&ca(n,X,ds,!1)),ws(n))}function Qr(n,s,a){if((sn&6)!==0)throw Error(h(327));var o=!a&&(s&124)===0&&(s&n.expiredLanes)===0||Wo(n,s),l=o?G9(n,s):Et(n,s,!0),p=o;do{if(l===0){fo&&!o&&ca(n,s,0,!1);break}else{if(a=n.current.alternate,p&&!I9(a)){l=Et(n,s,!1),p=!1;continue}if(l===2){if(p=s,n.errorRecoveryDisabledLanes&p)var e=0;else e=n.pendingLanes&-536870913,e=e!==0?e:e&536870912?536870912:0;if(e!==0){s=e;n:{var t=n;l=ll;var c=t.current.memoizedState.isDehydrated;if(c&&(uo(t,e).flags|=256),e=Et(t,e,!1),e!==2){if(bt&&!c){t.errorRecoveryDisabledLanes|=p,Ya|=p,l=4;break n}p=Xn,Xn=l,p!==null&&(Xn===null?Xn=p:Xn.push.apply(Xn,p))}l=e}if(p=!1,l!==2)continue}}if(l===1){uo(n,0),ca(n,s,0,!0);break}n:{switch(o=n,p=l,p){case 0:case 1:throw Error(h(345));case 4:if((s&4194048)!==s)break;case 6:ca(o,s,ds,!la);break n;case 2:Xn=null;break;case 3:case 5:break;default:throw Error(h(329))}if((s&62914560)===s&&(l=mt+300-Os(),10<l)){if(ca(o,s,ds,!la),Tl(o,0,!0)!==0)break n;o.timeoutHandle=H3($r.bind(null,o,a,Xn,up,ht,s,ds,Ya,ro,la,p,2,-0,0),l);break n}$r(o,a,Xn,up,ht,s,ds,Ya,ro,la,p,0,-0,0)}}break}while(!0);ws(n)}function $r(n,s,a,o,l,p,e,t,c,u,m,O,b,d){if(n.timeoutHandle=-1,O=s.subtreeFlags,(O&8192||(O&16785408)===16785408)&&(il={stylesheets:null,count:0,unsuspend:m0},jr(s),O=A0(),O!==null)){n.cancelPendingCommit=O(e3.bind(null,n,s,p,a,o,l,e,t,c,m,1,b,d)),ca(n,p,e,!u);return}e3(n,s,p,a,o,l,e,t,c)}function I9(n){for(var s=n;;){var a=s.tag;if((a===0||a===11||a===15)&&s.flags&16384&&(a=s.updateQueue,a!==null&&(a=a.stores,a!==null)))for(var o=0;o<a.length;o++){var l=a[o],p=l.getSnapshot;l=l.value;try{if(!ss(p(),l))return!1}catch{return!1}}if(a=s.child,s.subtreeFlags&16384&&a!==null)a.return=s,s=a;else{if(s===n)break;for(;s.sibling===null;){if(s.return===null||s.return===n)return!0;s=s.return}s.sibling.return=s.return,s=s.sibling}}return!0}function ca(n,s,a,o){s&=~dt,s&=~Ya,n.suspendedLanes|=s,n.pingedLanes&=~s,o&&(n.warmLanes|=s),o=n.expirationTimes;for(var l=s;0<l;){var p=31-ns(l),e=1<<p;o[p]=-1,l&=~e}a!==0&&fc(n,a,s)}function bp(){return(sn&6)===0?(el(0),!1):!0}function Ot(){if(P!==null){if(an===0)var n=P.return;else n=P,ks=Ha=null,Ge(n),po=null,Xo=0,n=P;for(;n!==null;)Mr(n.alternate,n),n=n.return;P=null}}function uo(n,s){var a=n.timeoutHandle;a!==-1&&(n.timeoutHandle=-1,n0(a)),a=n.cancelPendingCommit,a!==null&&(n.cancelPendingCommit=null,a()),Ot(),yn=n,P=a=Ds(n.current,null),X=s,an=0,ps=null,la=!1,fo=Wo(n,s),bt=!1,ro=ds=dt=Ya=pa=An=0,Xn=ll=null,ht=!1,(s&8)!==0&&(s|=s&32);var o=n.entangledLanes;if(o!==0)for(n=n.entanglements,o&=s;0<o;){var l=31-ns(o),p=1<<l;s|=n[l],o&=~p}return Js=s,Il(),a}function n3(n,s){J=null,g.H=sp,s===zo||s===Pl?(s=mf(),an=3):s===bf?(s=mf(),an=4):an=s===gr?8:s!==null&&typeof s=="object"&&typeof s.then=="function"?6:1,ps=s,P===null&&(An=1,ep(n,rs(s,n.current)))}function s3(){var n=g.H;return g.H=sp,n===null?sp:n}function a3(){var n=g.A;return g.A=k9,n}function Wt(){An=4,la||(X&4194048)!==X&&bs.current!==null||(fo=!0),(pa&134217727)===0&&(Ya&134217727)===0||yn===null||ca(yn,X,ds,!1)}function Et(n,s,a){var o=sn;sn|=2;var l=s3(),p=a3();(yn!==n||X!==s)&&(up=null,uo(n,s)),s=!1;var e=An;n:do try{if(an!==0&&P!==null){var t=P,c=ps;switch(an){case 8:Ot(),e=6;break n;case 3:case 2:case 9:case 6:bs.current===null&&(s=!0);var u=an;if(an=0,ps=null,bo(n,t,c,u),a&&fo){e=0;break n}break;default:u=an,an=0,ps=null,bo(n,t,c,u)}}N9(),e=An;break}catch(m){n3(n,m)}while(!0);return s&&n.shellSuspendCounter++,ks=Ha=null,sn=o,g.H=l,g.A=p,P===null&&(yn=null,X=0,Il()),e}function N9(){for(;P!==null;)o3(P)}function G9(n,s){var a=sn;sn|=2;var o=s3(),l=a3();yn!==n||X!==s?(up=null,ip=Os()+500,uo(n,s)):fo=Wo(n,s);n:do try{if(an!==0&&P!==null){s=P;var p=ps;s:switch(an){case 1:an=0,ps=null,bo(n,s,p,1);break;case 2:case 9:if(df(p)){an=0,ps=null,l3(s);break}s=function(){an!==2&&an!==9||yn!==n||(an=7),ws(n)},p.then(s,s);break n;case 3:an=7;break n;case 4:an=5;break n;case 7:df(p)?(an=0,ps=null,l3(s)):(an=0,ps=null,bo(n,s,p,7));break;case 5:var e=null;switch(P.tag){case 26:e=P.memoizedState;case 5:case 27:var t=P;if(!e||K3(e)){an=0,ps=null;var c=t.sibling;if(c!==null)P=c;else{var u=t.return;u!==null?(P=u,dp(u)):P=null}break s}}an=0,ps=null,bo(n,s,p,5);break;case 6:an=0,ps=null,bo(n,s,p,6);break;case 8:Ot(),An=6;break n;default:throw Error(h(462))}}K9();break}catch(m){n3(n,m)}while(!0);return ks=Ha=null,g.H=o,g.A=l,sn=a,P!==null?0:(yn=null,X=0,Il(),An)}function K9(){for(;P!==null&&!ty();)o3(P)}function o3(n){var s=Br(n.alternate,n,Js);n.memoizedProps=n.pendingProps,s===null?dp(n):P=s}function l3(n){var s=n,a=s.alternate;switch(s.tag){case 15:case 0:s=Tr(a,s,s.pendingProps,s.type,void 0,X);break;case 11:s=Tr(a,s,s.pendingProps,s.type.render,s.ref,X);break;case 5:Ge(s);default:Mr(a,s),s=P=lf(s,Js),s=Br(a,s,Js)}n.memoizedProps=n.pendingProps,s===null?dp(n):P=s}function bo(n,s,a,o){ks=Ha=null,Ge(s),po=null,Xo=0;var l=s.return;try{if(R9(n,l,s,a,X)){An=1,ep(n,rs(a,n.current)),P=null;return}}catch(p){if(l!==null)throw P=l,p;An=1,ep(n,rs(a,n.current)),P=null;return}s.flags&32768?(nn||o===1?n=!0:fo||(X&536870912)!==0?n=!1:(la=n=!0,(o===2||o===9||o===3||o===6)&&(o=bs.current,o!==null&&o.tag===13&&(o.flags|=16384))),p3(s,n)):dp(s)}function dp(n){var s=n;do{if((s.flags&32768)!==0){p3(s,la);return}n=s.return;var a=B9(s.alternate,s,Js);if(a!==null){P=a;return}if(s=s.sibling,s!==null){P=s;return}P=s=n}while(s!==null);An===0&&(An=5)}function p3(n,s){do{var a=D9(n.alternate,n);if(a!==null){a.flags&=32767,P=a;return}if(a=n.return,a!==null&&(a.flags|=32768,a.subtreeFlags=0,a.deletions=null),!s&&(n=n.sibling,n!==null)){P=n;return}P=n=a}while(n!==null);An=6,P=null}function e3(n,s,a,o,l,p,e,t,c){n.cancelPendingCommit=null;do hp();while(In!==0);if((sn&6)!==0)throw Error(h(327));if(s!==null){if(s===n.current)throw Error(h(177));if(p=s.lanes|s.childLanes,p|=ue,my(n,a,p,e,t,c),n===yn&&(P=yn=null,X=0),yo=s,ta=n,io=a,gt=p,At=l,Xr=o,(s.subtreeFlags&10256)!==0||(s.flags&10256)!==0?(n.callbackNode=null,n.callbackPriority=0,V9(Ol,function(){return y3(),null})):(n.callbackNode=null,n.callbackPriority=0),o=(s.flags&13878)!==0,(s.subtreeFlags&13878)!==0||o){o=g.T,g.T=null,l=H.p,H.p=2,e=sn,sn|=4;try{M9(n,s,a)}finally{sn=e,H.p=l,g.T=o}}In=1,t3(),c3(),f3()}}function t3(){if(In===1){In=0;var n=ta,s=yo,a=(s.flags&13878)!==0;if((s.subtreeFlags&13878)!==0||a){a=g.T,g.T=null;var o=H.p;H.p=2;var l=sn;sn|=4;try{Vr(s,n);var p=Ct,e=_c(n.containerInfo),t=p.focusedElem,c=p.selectionRange;if(e!==t&&t&&t.ownerDocument&&Fc(t.ownerDocument.documentElement,t)){if(c!==null&&ce(t)){var u=c.start,m=c.end;if(m===void 0&&(m=u),"selectionStart"in t)t.selectionStart=u,t.selectionEnd=Math.min(m,t.value.length);else{var O=t.ownerDocument||document,b=O&&O.defaultView||window;if(b.getSelection){var d=b.getSelection(),G=t.textContent.length,C=Math.min(c.start,G),tn=c.end===void 0?C:Math.min(c.end,G);!d.extend&&C>tn&&(e=tn,tn=C,C=e);var y=jc(t,C),r=jc(t,tn);if(y&&r&&(d.rangeCount!==1||d.anchorNode!==y.node||d.anchorOffset!==y.offset||d.focusNode!==r.node||d.focusOffset!==r.offset)){var i=O.createRange();i.setStart(y.node,y.offset),d.removeAllRanges(),C>tn?(d.addRange(i),d.extend(r.node,r.offset)):(i.setEnd(r.node,r.offset),d.addRange(i))}}}}for(O=[],d=t;d=d.parentNode;)d.nodeType===1&&O.push({element:d,left:d.scrollLeft,top:d.scrollTop});for(typeof t.focus=="function"&&t.focus(),t=0;t<O.length;t++){var S=O[t];S.element.scrollLeft=S.left,S.element.scrollTop=S.top}}Rp=!!kt,Ct=kt=null}finally{sn=l,H.p=o,g.T=a}}n.current=s,In=2}}function c3(){if(In===2){In=0;var n=ta,s=yo,a=(s.flags&8772)!==0;if((s.subtreeFlags&8772)!==0||a){a=g.T,g.T=null;var o=H.p;H.p=2;var l=sn;sn|=4;try{Kr(n,s.alternate,s)}finally{sn=l,H.p=o,g.T=a}}In=3}}function f3(){if(In===4||In===3){In=0,cy();var n=ta,s=yo,a=io,o=Xr;(s.subtreeFlags&10256)!==0||(s.flags&10256)!==0?In=5:(In=0,yo=ta=null,r3(n,n.pendingLanes));var l=n.pendingLanes;if(l===0&&(ea=null),zp(a),s=s.stateNode,$n&&typeof $n.onCommitFiberRoot=="function")try{$n.onCommitFiberRoot(Oo,s,void 0,(s.current.flags&128)===128)}catch{}if(o!==null){s=g.T,l=H.p,H.p=2,g.T=null;try{for(var p=n.onRecoverableError,e=0;e<o.length;e++){var t=o[e];p(t.value,{componentStack:t.stack})}}finally{g.T=s,H.p=l}}(io&3)!==0&&hp(),ws(n),l=n.pendingLanes,(a&4194090)!==0&&(l&42)!==0?n===St?pl++:(pl=0,St=n):pl=0,el(0)}}function r3(n,s){(n.pooledCacheLanes&=s)===0&&(s=n.pooledCache,s!=null&&(n.pooledCache=null,Ko(s)))}function hp(n){return t3(),c3(),f3(),y3()}function y3(){if(In!==5)return!1;var n=ta,s=gt;gt=0;var a=zp(io),o=g.T,l=H.p;try{H.p=32>a?32:a,g.T=null,a=At,At=null;var p=ta,e=io;if(In=0,yo=ta=null,io=0,(sn&6)!==0)throw Error(h(331));var t=sn;if(sn|=4,_r(p.current),Pr(p,p.current,e,a),sn=t,el(0,!1),$n&&typeof $n.onPostCommitFiberRoot=="function")try{$n.onPostCommitFiberRoot(Oo,p)}catch{}return!0}finally{H.p=l,g.T=o,r3(n,s)}}function i3(n,s,a){s=rs(a,s),s=Qe(n.stateNode,s,2),n=Zs(n,s,2),n!==null&&(Eo(n,2),ws(n))}function fn(n,s,a){if(n.tag===3)i3(n,n,a);else for(;s!==null;){if(s.tag===3){i3(s,n,a);break}else if(s.tag===1){var o=s.stateNode;if(typeof s.type.getDerivedStateFromError=="function"||typeof o.componentDidCatch=="function"&&(ea===null||!ea.has(o))){n=rs(a,n),a=hr(2),o=Zs(s,a,2),o!==null&&(mr(a,o,s,n),Eo(o,2),ws(o));break}}s=s.return}}function Tt(n,s,a){var o=n.pingCache;if(o===null){o=n.pingCache=new C9;var l=new Set;o.set(s,l)}else l=o.get(s),l===void 0&&(l=new Set,o.set(s,l));l.has(a)||(bt=!0,l.add(a),n=U9.bind(null,n,s,a),s.then(n,n))}function U9(n,s,a){var o=n.pingCache;o!==null&&o.delete(s),n.pingedLanes|=n.suspendedLanes&a,n.warmLanes&=~a,yn===n&&(X&a)===a&&(An===4||An===3&&(X&62914560)===X&&300>Os()-mt?(sn&2)===0&&uo(n,0):dt|=a,ro===X&&(ro=0)),ws(n)}function u3(n,s){s===0&&(s=cc()),n=qa(n,s),n!==null&&(Eo(n,s),ws(n))}function z9(n){var s=n.memoizedState,a=0;s!==null&&(a=s.retryLane),u3(n,a)}function J9(n,s){var a=0;switch(n.tag){case 13:var o=n.stateNode,l=n.memoizedState;l!==null&&(a=l.retryLane);break;case 19:o=n.stateNode;break;case 22:o=n.stateNode._retryCache;break;default:throw Error(h(314))}o!==null&&o.delete(s),u3(n,a)}function V9(n,s){return Np(n,s)}var mp=null,ho=null,vt=!1,gp=!1,wt=!1,ka=0;function ws(n){n!==ho&&n.next===null&&(ho===null?mp=ho=n:ho=ho.next=n),gp=!0,vt||(vt=!0,P9())}function el(n,s){if(!wt&&gp){wt=!0;do for(var a=!1,o=mp;o!==null;){if(n!==0){var l=o.pendingLanes;if(l===0)var p=0;else{var e=o.suspendedLanes,t=o.pingedLanes;p=(1<<31-ns(42|n)+1)-1,p&=l&~(e&~t),p=p&201326741?p&201326741|1:p?p|2:0}p!==0&&(a=!0,m3(o,p))}else p=X,p=Tl(o,o===yn?p:0,o.cancelPendingCommit!==null||o.timeoutHandle!==-1),(p&3)===0||Wo(o,p)||(a=!0,m3(o,p));o=o.next}while(a);wt=!1}}function x9(){b3()}function b3(){gp=vt=!1;var n=0;ka!==0&&($9()&&(n=ka),ka=0);for(var s=Os(),a=null,o=mp;o!==null;){var l=o.next,p=d3(o,s);p===0?(o.next=null,a===null?mp=l:a.next=l,l===null&&(ho=a)):(a=o,(n!==0||(p&3)!==0)&&(gp=!0)),o=l}el(n)}function d3(n,s){for(var a=n.suspendedLanes,o=n.pingedLanes,l=n.expirationTimes,p=n.pendingLanes&-62914561;0<p;){var e=31-ns(p),t=1<<e,c=l[e];c===-1?((t&a)===0||(t&o)!==0)&&(l[e]=hy(t,s)):c<=s&&(n.expiredLanes|=t),p&=~t}if(s=yn,a=X,a=Tl(n,n===s?a:0,n.cancelPendingCommit!==null||n.timeoutHandle!==-1),o=n.callbackNode,a===0||n===s&&(an===2||an===9)||n.cancelPendingCommit!==null)return o!==null&&o!==null&&Gp(o),n.callbackNode=null,n.callbackPriority=0;if((a&3)===0||Wo(n,a)){if(s=a&-a,s===n.callbackPriority)return s;switch(o!==null&&Gp(o),zp(a)){case 2:case 8:a=pc;break;case 32:a=Ol;break;case 268435456:a=ec;break;default:a=Ol}return o=h3.bind(null,n),a=Np(a,o),n.callbackPriority=s,n.callbackNode=a,s}return o!==null&&o!==null&&Gp(o),n.callbackPriority=2,n.callbackNode=null,2}function h3(n,s){if(In!==0&&In!==5)return n.callbackNode=null,n.callbackPriority=0,null;var a=n.callbackNode;if(hp()&&n.callbackNode!==a)return null;var o=X;return o=Tl(n,n===yn?o:0,n.cancelPendingCommit!==null||n.timeoutHandle!==-1),o===0?null:(Qr(n,o,s),d3(n,Os()),n.callbackNode!=null&&n.callbackNode===a?h3.bind(null,n):null)}function m3(n,s){if(hp())return null;Qr(n,s,!0)}function P9(){s0(function(){(sn&6)!==0?Np(lc,x9):b3()})}function Ht(){return ka===0&&(ka=tc()),ka}function g3(n){return n==null||typeof n=="symbol"||typeof n=="boolean"?null:typeof n=="function"?n:Ll(""+n)}function A3(n,s){var a=s.ownerDocument.createElement("input");return a.name=s.name,a.value=s.value,n.id&&a.setAttribute("form",n.id),s.parentNode.insertBefore(a,s),n=new FormData(n),a.parentNode.removeChild(a),n}function j9(n,s,a,o,l){if(s==="submit"&&a&&a.stateNode===l){var p=g3((l[jn]||null).action),e=o.submitter;e&&(s=(s=e[jn]||null)?g3(s.formAction):e.getAttribute("formAction"),s!==null&&(p=s,e=null));var t=new Yl("action","action",null,o,l);n.push({event:t,listeners:[{instance:null,listener:function(){if(o.defaultPrevented){if(ka!==0){var c=e?A3(l,e):new FormData(l);Fe(a,{pending:!0,data:c,method:l.method,action:p},null,c)}}else typeof p=="function"&&(t.preventDefault(),c=e?A3(l,e):new FormData(l),Fe(a,{pending:!0,data:c,method:l.method,action:p},p,c))},currentTarget:l}]})}}for(var Rt=0;Rt<ie.length;Rt++){var Lt=ie[Rt],F9=Lt.toLowerCase(),_9=Lt[0].toUpperCase()+Lt.slice(1);gs(F9,"on"+_9)}gs(Zc,"onAnimationEnd"),gs(Qc,"onAnimationIteration"),gs($c,"onAnimationStart"),gs("dblclick","onDoubleClick"),gs("focusin","onFocus"),gs("focusout","onBlur"),gs(y9,"onTransitionRun"),gs(i9,"onTransitionStart"),gs(u9,"onTransitionCancel"),gs(nf,"onTransitionEnd"),Ka("onMouseEnter",["mouseout","mouseover"]),Ka("onMouseLeave",["mouseout","mouseover"]),Ka("onPointerEnter",["pointerout","pointerover"]),Ka("onPointerLeave",["pointerout","pointerover"]),ga("onChange","change click focusin focusout input keydown keyup selectionchange".split(" ")),ga("onSelect","focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange".split(" ")),ga("onBeforeInput",["compositionend","keypress","textInput","paste"]),ga("onCompositionEnd","compositionend focusout keydown keypress keyup mousedown".split(" ")),ga("onCompositionStart","compositionstart focusout keydown keypress keyup mousedown".split(" ")),ga("onCompositionUpdate","compositionupdate focusout keydown keypress keyup mousedown".split(" "));var tl="abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting".split(" "),q9=new Set("beforetoggle cancel close invalid load scroll scrollend toggle".split(" ").concat(tl));function S3(n,s){s=(s&4)!==0;for(var a=0;a<n.length;a++){var o=n[a],l=o.event;o=o.listeners;n:{var p=void 0;if(s)for(var e=o.length-1;0<=e;e--){var t=o[e],c=t.instance,u=t.currentTarget;if(t=t.listener,c!==p&&l.isPropagationStopped())break n;p=t,l.currentTarget=u;try{p(l)}catch(m){pp(m)}l.currentTarget=null,p=c}else for(e=0;e<o.length;e++){if(t=o[e],c=t.instance,u=t.currentTarget,t=t.listener,c!==p&&l.isPropagationStopped())break n;p=t,l.currentTarget=u;try{p(l)}catch(m){pp(m)}l.currentTarget=null,p=c}}}}function j(n,s){var a=s[Jp];a===void 0&&(a=s[Jp]=new Set);var o=n+"__bubble";a.has(o)||(O3(s,n,2,!1),a.add(o))}function Bt(n,s,a){var o=0;s&&(o|=4),O3(a,n,o,s)}var Ap="_reactListening"+Math.random().toString(36).slice(2);function Dt(n){if(!n[Ap]){n[Ap]=!0,uc.forEach(function(a){a!=="selectionchange"&&(q9.has(a)||Bt(a,!1,n),Bt(a,!0,n))});var s=n.nodeType===9?n:n.ownerDocument;s===null||s[Ap]||(s[Ap]=!0,Bt("selectionchange",!1,s))}}function O3(n,s,a,o){switch(P3(s)){case 2:var l=W0;break;case 8:l=E0;break;default:l=Pt}a=l.bind(null,s,a,n),l=void 0,!$p||s!=="touchstart"&&s!=="touchmove"&&s!=="wheel"||(l=!0),o?l!==void 0?n.addEventListener(s,a,{capture:!0,passive:l}):n.addEventListener(s,a,!0):l!==void 0?n.addEventListener(s,a,{passive:l}):n.addEventListener(s,a,!1)}function Mt(n,s,a,o,l){var p=o;if((s&1)===0&&(s&2)===0&&o!==null)n:for(;;){if(o===null)return;var e=o.tag;if(e===3||e===4){var t=o.stateNode.containerInfo;if(t===l)break;if(e===4)for(e=o.return;e!==null;){var c=e.tag;if((c===3||c===4)&&e.stateNode.containerInfo===l)return;e=e.return}for(;t!==null;){if(e=Ia(t),e===null)return;if(c=e.tag,c===5||c===6||c===26||c===27){o=p=e;continue n}t=t.parentNode}}o=o.return}Hc(function(){var u=p,m=Zp(a),O=[];n:{var b=sf.get(n);if(b!==void 0){var d=Yl,G=n;switch(n){case"keypress":if(Dl(a)===0)break n;case"keydown":case"keyup":d=Vy;break;case"focusin":G="focus",d=oe;break;case"focusout":G="blur",d=oe;break;case"beforeblur":case"afterblur":d=oe;break;case"click":if(a.button===2)break n;case"auxclick":case"dblclick":case"mousedown":case"mousemove":case"mouseup":case"mouseout":case"mouseover":case"contextmenu":d=Bc;break;case"drag":case"dragend":case"dragenter":case"dragexit":case"dragleave":case"dragover":case"dragstart":case"drop":d=Dy;break;case"touchcancel":case"touchend":case"touchmove":case"touchstart":d=jy;break;case Zc:case Qc:case $c:d=ky;break;case nf:d=_y;break;case"scroll":case"scrollend":d=Ly;break;case"wheel":d=Xy;break;case"copy":case"cut":case"paste":d=Iy;break;case"gotpointercapture":case"lostpointercapture":case"pointercancel":case"pointerdown":case"pointermove":case"pointerout":case"pointerover":case"pointerup":d=Mc;break;case"toggle":case"beforetoggle":d=Qy}var C=(s&4)!==0,tn=!C&&(n==="scroll"||n==="scrollend"),y=C?b!==null?b+"Capture":null:b;C=[];for(var r=u,i;r!==null;){var S=r;if(i=S.stateNode,S=S.tag,S!==5&&S!==26&&S!==27||i===null||y===null||(S=wo(r,y),S!=null&&C.push(cl(r,S,i))),tn)break;r=r.return}0<C.length&&(b=new d(b,G,null,a,m),O.push({event:b,listeners:C}))}}if((s&7)===0){n:{if(b=n==="mouseover"||n==="pointerover",d=n==="mouseout"||n==="pointerout",b&&a!==Xp&&(G=a.relatedTarget||a.fromElement)&&(Ia(G)||G[Ca]))break n;if((d||b)&&(b=m.window===m?m:(b=m.ownerDocument)?b.defaultView||b.parentWindow:window,d?(G=a.relatedTarget||a.toElement,d=u,G=G?Ia(G):null,G!==null&&(tn=F(G),C=G.tag,G!==tn||C!==5&&C!==27&&C!==6)&&(G=null)):(d=null,G=u),d!==G)){if(C=Bc,S="onMouseLeave",y="onMouseEnter",r="mouse",(n==="pointerout"||n==="pointerover")&&(C=Mc,S="onPointerLeave",y="onPointerEnter",r="pointer"),tn=d==null?b:vo(d),i=G==null?b:vo(G),b=new C(S,r+"leave",d,a,m),b.target=tn,b.relatedTarget=i,S=null,Ia(m)===u&&(C=new C(y,r+"enter",G,a,m),C.target=i,C.relatedTarget=tn,S=C),tn=S,d&&G)s:{for(C=d,y=G,r=0,i=C;i;i=mo(i))r++;for(i=0,S=y;S;S=mo(S))i++;for(;0<r-i;)C=mo(C),r--;for(;0<i-r;)y=mo(y),i--;for(;r--;){if(C===y||y!==null&&C===y.alternate)break s;C=mo(C),y=mo(y)}C=null}else C=null;d!==null&&W3(O,b,d,C,!1),G!==null&&tn!==null&&W3(O,tn,G,C,!0)}}n:{if(b=u?vo(u):window,d=b.nodeName&&b.nodeName.toLowerCase(),d==="select"||d==="input"&&b.type==="file")var L=Uc;else if(Gc(b))if(zc)L=c9;else{L=e9;var V=p9}else d=b.nodeName,!d||d.toLowerCase()!=="input"||b.type!=="checkbox"&&b.type!=="radio"?u&&qp(u.elementType)&&(L=Uc):L=t9;if(L&&(L=L(n,u))){Kc(O,L,a,m);break n}V&&V(n,b,u),n==="focusout"&&u&&b.type==="number"&&u.memoizedProps.value!=null&&_p(b,"number",b.value)}switch(V=u?vo(u):window,n){case"focusin":(Gc(V)||V.contentEditable==="true")&&(ja=V,fe=u,ko=null);break;case"focusout":ko=fe=ja=null;break;case"mousedown":re=!0;break;case"contextmenu":case"mouseup":case"dragend":re=!1,qc(O,a,m);break;case"selectionchange":if(r9)break;case"keydown":case"keyup":qc(O,a,m)}var Y;if(pe)n:{switch(n){case"compositionstart":var I="onCompositionStart";break n;case"compositionend":I="onCompositionEnd";break n;case"compositionupdate":I="onCompositionUpdate";break n}I=void 0}else Pa?Ic(n,a)&&(I="onCompositionEnd"):n==="keydown"&&a.keyCode===229&&(I="onCompositionStart");I&&(Yc&&a.locale!=="ko"&&(Pa||I!=="onCompositionStart"?I==="onCompositionEnd"&&Pa&&(Y=Rc()):(Fs=m,ne="value"in Fs?Fs.value:Fs.textContent,Pa=!0)),V=Sp(u,I),0<V.length&&(I=new Dc(I,n,null,a,m),O.push({event:I,listeners:V}),Y?I.data=Y:(Y=Nc(a),Y!==null&&(I.data=Y)))),(Y=n9?s9(n,a):a9(n,a))&&(I=Sp(u,"onBeforeInput"),0<I.length&&(V=new Dc("onBeforeInput","beforeinput",null,a,m),O.push({event:V,listeners:I}),V.data=Y)),j9(O,n,u,a,m)}S3(O,s)})}function cl(n,s,a){return{instance:n,listener:s,currentTarget:a}}function Sp(n,s){for(var a=s+"Capture",o=[];n!==null;){var l=n,p=l.stateNode;if(l=l.tag,l!==5&&l!==26&&l!==27||p===null||(l=wo(n,a),l!=null&&o.unshift(cl(n,l,p)),l=wo(n,s),l!=null&&o.push(cl(n,l,p))),n.tag===3)return o;n=n.return}return[]}function mo(n){if(n===null)return null;do n=n.return;while(n&&n.tag!==5&&n.tag!==27);return n||null}function W3(n,s,a,o,l){for(var p=s._reactName,e=[];a!==null&&a!==o;){var t=a,c=t.alternate,u=t.stateNode;if(t=t.tag,c!==null&&c===o)break;t!==5&&t!==26&&t!==27||u===null||(c=u,l?(u=wo(a,p),u!=null&&e.unshift(cl(a,u,c))):l||(u=wo(a,p),u!=null&&e.push(cl(a,u,c)))),a=a.return}e.length!==0&&n.push({event:s,listeners:e})}var X9=/\r\n?/g,Z9=/\u0000|\uFFFD/g;function E3(n){return(typeof n=="string"?n:""+n).replace(X9,`
+`).replace(Z9,"")}function T3(n,s){return s=E3(s),E3(n)===s}function Op(){}function en(n,s,a,o,l,p){switch(a){case"children":typeof o=="string"?s==="body"||s==="textarea"&&o===""||Ja(n,o):(typeof o=="number"||typeof o=="bigint")&&s!=="body"&&Ja(n,""+o);break;case"className":wl(n,"class",o);break;case"tabIndex":wl(n,"tabindex",o);break;case"dir":case"role":case"viewBox":case"width":case"height":wl(n,a,o);break;case"style":vc(n,o,p);break;case"data":if(s!=="object"){wl(n,"data",o);break}case"src":case"href":if(o===""&&(s!=="a"||a!=="href")){n.removeAttribute(a);break}if(o==null||typeof o=="function"||typeof o=="symbol"||typeof o=="boolean"){n.removeAttribute(a);break}o=Ll(""+o),n.setAttribute(a,o);break;case"action":case"formAction":if(typeof o=="function"){n.setAttribute(a,"javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')");break}else typeof p=="function"&&(a==="formAction"?(s!=="input"&&en(n,s,"name",l.name,l,null),en(n,s,"formEncType",l.formEncType,l,null),en(n,s,"formMethod",l.formMethod,l,null),en(n,s,"formTarget",l.formTarget,l,null)):(en(n,s,"encType",l.encType,l,null),en(n,s,"method",l.method,l,null),en(n,s,"target",l.target,l,null)));if(o==null||typeof o=="symbol"||typeof o=="boolean"){n.removeAttribute(a);break}o=Ll(""+o),n.setAttribute(a,o);break;case"onClick":o!=null&&(n.onclick=Op);break;case"onScroll":o!=null&&j("scroll",n);break;case"onScrollEnd":o!=null&&j("scrollend",n);break;case"dangerouslySetInnerHTML":if(o!=null){if(typeof o!="object"||!("__html"in o))throw Error(h(61));if(a=o.__html,a!=null){if(l.children!=null)throw Error(h(60));n.innerHTML=a}}break;case"multiple":n.multiple=o&&typeof o!="function"&&typeof o!="symbol";break;case"muted":n.muted=o&&typeof o!="function"&&typeof o!="symbol";break;case"suppressContentEditableWarning":case"suppressHydrationWarning":case"defaultValue":case"defaultChecked":case"innerHTML":case"ref":break;case"autoFocus":break;case"xlinkHref":if(o==null||typeof o=="function"||typeof o=="boolean"||typeof o=="symbol"){n.removeAttribute("xlink:href");break}a=Ll(""+o),n.setAttributeNS("http://www.w3.org/1999/xlink","xlink:href",a);break;case"contentEditable":case"spellCheck":case"draggable":case"value":case"autoReverse":case"externalResourcesRequired":case"focusable":case"preserveAlpha":o!=null&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,""+o):n.removeAttribute(a);break;case"inert":case"allowFullScreen":case"async":case"autoPlay":case"controls":case"default":case"defer":case"disabled":case"disablePictureInPicture":case"disableRemotePlayback":case"formNoValidate":case"hidden":case"loop":case"noModule":case"noValidate":case"open":case"playsInline":case"readOnly":case"required":case"reversed":case"scoped":case"seamless":case"itemScope":o&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,""):n.removeAttribute(a);break;case"capture":case"download":o===!0?n.setAttribute(a,""):o!==!1&&o!=null&&typeof o!="function"&&typeof o!="symbol"?n.setAttribute(a,o):n.removeAttribute(a);break;case"cols":case"rows":case"size":case"span":o!=null&&typeof o!="function"&&typeof o!="symbol"&&!isNaN(o)&&1<=o?n.setAttribute(a,o):n.removeAttribute(a);break;case"rowSpan":case"start":o==null||typeof o=="function"||typeof o=="symbol"||isNaN(o)?n.removeAttribute(a):n.setAttribute(a,o);break;case"popover":j("beforetoggle",n),j("toggle",n),vl(n,"popover",o);break;case"xlinkActuate":Ls(n,"http://www.w3.org/1999/xlink","xlink:actuate",o);break;case"xlinkArcrole":Ls(n,"http://www.w3.org/1999/xlink","xlink:arcrole",o);break;case"xlinkRole":Ls(n,"http://www.w3.org/1999/xlink","xlink:role",o);break;case"xlinkShow":Ls(n,"http://www.w3.org/1999/xlink","xlink:show",o);break;case"xlinkTitle":Ls(n,"http://www.w3.org/1999/xlink","xlink:title",o);break;case"xlinkType":Ls(n,"http://www.w3.org/1999/xlink","xlink:type",o);break;case"xmlBase":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:base",o);break;case"xmlLang":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:lang",o);break;case"xmlSpace":Ls(n,"http://www.w3.org/XML/1998/namespace","xml:space",o);break;case"is":vl(n,"is",o);break;case"innerText":case"textContent":break;default:(!(2<a.length)||a[0]!=="o"&&a[0]!=="O"||a[1]!=="n"&&a[1]!=="N")&&(a=Hy.get(a)||a,vl(n,a,o))}}function Yt(n,s,a,o,l,p){switch(a){case"style":vc(n,o,p);break;case"dangerouslySetInnerHTML":if(o!=null){if(typeof o!="object"||!("__html"in o))throw Error(h(61));if(a=o.__html,a!=null){if(l.children!=null)throw Error(h(60));n.innerHTML=a}}break;case"children":typeof o=="string"?Ja(n,o):(typeof o=="number"||typeof o=="bigint")&&Ja(n,""+o);break;case"onScroll":o!=null&&j("scroll",n);break;case"onScrollEnd":o!=null&&j("scrollend",n);break;case"onClick":o!=null&&(n.onclick=Op);break;case"suppressContentEditableWarning":case"suppressHydrationWarning":case"innerHTML":case"ref":break;case"innerText":case"textContent":break;default:if(!bc.hasOwnProperty(a))n:{if(a[0]==="o"&&a[1]==="n"&&(l=a.endsWith("Capture"),s=a.slice(2,l?a.length-7:void 0),p=n[jn]||null,p=p!=null?p[a]:null,typeof p=="function"&&n.removeEventListener(s,p,l),typeof o=="function")){typeof p!="function"&&p!==null&&(a in n?n[a]=null:n.hasAttribute(a)&&n.removeAttribute(a)),n.addEventListener(s,o,l);break n}a in n?n[a]=o:o===!0?n.setAttribute(a,""):vl(n,a,o)}}}function Nn(n,s,a){switch(s){case"div":case"span":case"svg":case"path":case"a":case"g":case"p":case"li":break;case"img":j("error",n),j("load",n);var o=!1,l=!1,p;for(p in a)if(a.hasOwnProperty(p)){var e=a[p];if(e!=null)switch(p){case"src":o=!0;break;case"srcSet":l=!0;break;case"children":case"dangerouslySetInnerHTML":throw Error(h(137,s));default:en(n,s,p,e,a,null)}}l&&en(n,s,"srcSet",a.srcSet,a,null),o&&en(n,s,"src",a.src,a,null);return;case"input":j("invalid",n);var t=p=e=l=null,c=null,u=null;for(o in a)if(a.hasOwnProperty(o)){var m=a[o];if(m!=null)switch(o){case"name":l=m;break;case"type":e=m;break;case"checked":c=m;break;case"defaultChecked":u=m;break;case"value":p=m;break;case"defaultValue":t=m;break;case"children":case"dangerouslySetInnerHTML":if(m!=null)throw Error(h(137,s));break;default:en(n,s,o,m,a,null)}}Oc(n,p,t,c,u,e,l,!1),Hl(n);return;case"select":j("invalid",n),o=e=p=null;for(l in a)if(a.hasOwnProperty(l)&&(t=a[l],t!=null))switch(l){case"value":p=t;break;case"defaultValue":e=t;break;case"multiple":o=t;default:en(n,s,l,t,a,null)}s=p,a=e,n.multiple=!!o,s!=null?za(n,!!o,s,!1):a!=null&&za(n,!!o,a,!0);return;case"textarea":j("invalid",n),p=l=o=null;for(e in a)if(a.hasOwnProperty(e)&&(t=a[e],t!=null))switch(e){case"value":o=t;break;case"defaultValue":l=t;break;case"children":p=t;break;case"dangerouslySetInnerHTML":if(t!=null)throw Error(h(91));break;default:en(n,s,e,t,a,null)}Ec(n,o,l,p),Hl(n);return;case"option":for(c in a)if(a.hasOwnProperty(c)&&(o=a[c],o!=null))switch(c){case"selected":n.selected=o&&typeof o!="function"&&typeof o!="symbol";break;default:en(n,s,c,o,a,null)}return;case"dialog":j("beforetoggle",n),j("toggle",n),j("cancel",n),j("close",n);break;case"iframe":case"object":j("load",n);break;case"video":case"audio":for(o=0;o<tl.length;o++)j(tl[o],n);break;case"image":j("error",n),j("load",n);break;case"details":j("toggle",n);break;case"embed":case"source":case"link":j("error",n),j("load",n);case"area":case"base":case"br":case"col":case"hr":case"keygen":case"meta":case"param":case"track":case"wbr":case"menuitem":for(u in a)if(a.hasOwnProperty(u)&&(o=a[u],o!=null))switch(u){case"children":case"dangerouslySetInnerHTML":throw Error(h(137,s));default:en(n,s,u,o,a,null)}return;default:if(qp(s)){for(m in a)a.hasOwnProperty(m)&&(o=a[m],o!==void 0&&Yt(n,s,m,o,a,void 0));return}}for(t in a)a.hasOwnProperty(t)&&(o=a[t],o!=null&&en(n,s,t,o,a,null))}function Q9(n,s,a,o){switch(s){case"div":case"span":case"svg":case"path":case"a":case"g":case"p":case"li":break;case"input":var l=null,p=null,e=null,t=null,c=null,u=null,m=null;for(d in a){var O=a[d];if(a.hasOwnProperty(d)&&O!=null)switch(d){case"checked":break;case"value":break;case"defaultValue":c=O;default:o.hasOwnProperty(d)||en(n,s,d,null,o,O)}}for(var b in o){var d=o[b];if(O=a[b],o.hasOwnProperty(b)&&(d!=null||O!=null))switch(b){case"type":p=d;break;case"name":l=d;break;case"checked":u=d;break;case"defaultChecked":m=d;break;case"value":e=d;break;case"defaultValue":t=d;break;case"children":case"dangerouslySetInnerHTML":if(d!=null)throw Error(h(137,s));break;default:d!==O&&en(n,s,b,d,o,O)}}Fp(n,e,t,c,u,m,p,l);return;case"select":d=e=t=b=null;for(p in a)if(c=a[p],a.hasOwnProperty(p)&&c!=null)switch(p){case"value":break;case"multiple":d=c;default:o.hasOwnProperty(p)||en(n,s,p,null,o,c)}for(l in o)if(p=o[l],c=a[l],o.hasOwnProperty(l)&&(p!=null||c!=null))switch(l){case"value":b=p;break;case"defaultValue":t=p;break;case"multiple":e=p;default:p!==c&&en(n,s,l,p,o,c)}s=t,a=e,o=d,b!=null?za(n,!!a,b,!1):!!o!=!!a&&(s!=null?za(n,!!a,s,!0):za(n,!!a,a?[]:"",!1));return;case"textarea":d=b=null;for(t in a)if(l=a[t],a.hasOwnProperty(t)&&l!=null&&!o.hasOwnProperty(t))switch(t){case"value":break;case"children":break;default:en(n,s,t,null,o,l)}for(e in o)if(l=o[e],p=a[e],o.hasOwnProperty(e)&&(l!=null||p!=null))switch(e){case"value":b=l;break;case"defaultValue":d=l;break;case"children":break;case"dangerouslySetInnerHTML":if(l!=null)throw Error(h(91));break;default:l!==p&&en(n,s,e,l,o,p)}Wc(n,b,d);return;case"option":for(var G in a)if(b=a[G],a.hasOwnProperty(G)&&b!=null&&!o.hasOwnProperty(G))switch(G){case"selected":n.selected=!1;break;default:en(n,s,G,null,o,b)}for(c in o)if(b=o[c],d=a[c],o.hasOwnProperty(c)&&b!==d&&(b!=null||d!=null))switch(c){case"selected":n.selected=b&&typeof b!="function"&&typeof b!="symbol";break;default:en(n,s,c,b,o,d)}return;case"img":case"link":case"area":case"base":case"br":case"col":case"embed":case"hr":case"keygen":case"meta":case"param":case"source":case"track":case"wbr":case"menuitem":for(var C in a)b=a[C],a.hasOwnProperty(C)&&b!=null&&!o.hasOwnProperty(C)&&en(n,s,C,null,o,b);for(u in o)if(b=o[u],d=a[u],o.hasOwnProperty(u)&&b!==d&&(b!=null||d!=null))switch(u){case"children":case"dangerouslySetInnerHTML":if(b!=null)throw Error(h(137,s));break;default:en(n,s,u,b,o,d)}return;default:if(qp(s)){for(var tn in a)b=a[tn],a.hasOwnProperty(tn)&&b!==void 0&&!o.hasOwnProperty(tn)&&Yt(n,s,tn,void 0,o,b);for(m in o)b=o[m],d=a[m],!o.hasOwnProperty(m)||b===d||b===void 0&&d===void 0||Yt(n,s,m,b,o,d);return}}for(var y in a)b=a[y],a.hasOwnProperty(y)&&b!=null&&!o.hasOwnProperty(y)&&en(n,s,y,null,o,b);for(O in o)b=o[O],d=a[O],!o.hasOwnProperty(O)||b===d||b==null&&d==null||en(n,s,O,b,o,d)}var kt=null,Ct=null;function Wp(n){return n.nodeType===9?n:n.ownerDocument}function v3(n){switch(n){case"http://www.w3.org/2000/svg":return 1;case"http://www.w3.org/1998/Math/MathML":return 2;default:return 0}}function w3(n,s){if(n===0)switch(s){case"svg":return 1;case"math":return 2;default:return 0}return n===1&&s==="foreignObject"?0:n}function It(n,s){return n==="textarea"||n==="noscript"||typeof s.children=="string"||typeof s.children=="number"||typeof s.children=="bigint"||typeof s.dangerouslySetInnerHTML=="object"&&s.dangerouslySetInnerHTML!==null&&s.dangerouslySetInnerHTML.__html!=null}var Nt=null;function $9(){var n=window.event;return n&&n.type==="popstate"?n===Nt?!1:(Nt=n,!0):(Nt=null,!1)}var H3=typeof setTimeout=="function"?setTimeout:void 0,n0=typeof clearTimeout=="function"?clearTimeout:void 0,R3=typeof Promise=="function"?Promise:void 0,s0=typeof queueMicrotask=="function"?queueMicrotask:typeof R3<"u"?function(n){return R3.resolve(null).then(n).catch(a0)}:H3;function a0(n){setTimeout(function(){throw n})}function fa(n){return n==="head"}function L3(n,s){var a=s,o=0,l=0;do{var p=a.nextSibling;if(n.removeChild(a),p&&p.nodeType===8)if(a=p.data,a==="/$"){if(0<o&&8>o){a=o;var e=n.ownerDocument;if(a&1&&fl(e.documentElement),a&2&&fl(e.body),a&4)for(a=e.head,fl(a),e=a.firstChild;e;){var t=e.nextSibling,c=e.nodeName;e[To]||c==="SCRIPT"||c==="STYLE"||c==="LINK"&&e.rel.toLowerCase()==="stylesheet"||a.removeChild(e),e=t}}if(l===0){n.removeChild(p),ml(s);return}l--}else a==="$"||a==="$?"||a==="$!"?l++:o=a.charCodeAt(0)-48;else o=0;a=p}while(a);ml(s)}function Gt(n){var s=n.firstChild;for(s&&s.nodeType===10&&(s=s.nextSibling);s;){var a=s;switch(s=s.nextSibling,a.nodeName){case"HTML":case"HEAD":case"BODY":Gt(a),Vp(a);continue;case"SCRIPT":case"STYLE":continue;case"LINK":if(a.rel.toLowerCase()==="stylesheet")continue}n.removeChild(a)}}function o0(n,s,a,o){for(;n.nodeType===1;){var l=a;if(n.nodeName.toLowerCase()!==s.toLowerCase()){if(!o&&(n.nodeName!=="INPUT"||n.type!=="hidden"))break}else if(o){if(!n[To])switch(s){case"meta":if(!n.hasAttribute("itemprop"))break;return n;case"link":if(p=n.getAttribute("rel"),p==="stylesheet"&&n.hasAttribute("data-precedence"))break;if(p!==l.rel||n.getAttribute("href")!==(l.href==null||l.href===""?null:l.href)||n.getAttribute("crossorigin")!==(l.crossOrigin==null?null:l.crossOrigin)||n.getAttribute("title")!==(l.title==null?null:l.title))break;return n;case"style":if(n.hasAttribute("data-precedence"))break;return n;case"script":if(p=n.getAttribute("src"),(p!==(l.src==null?null:l.src)||n.getAttribute("type")!==(l.type==null?null:l.type)||n.getAttribute("crossorigin")!==(l.crossOrigin==null?null:l.crossOrigin))&&p&&n.hasAttribute("async")&&!n.hasAttribute("itemprop"))break;return n;default:return n}}else if(s==="input"&&n.type==="hidden"){var p=l.name==null?null:""+l.name;if(l.type==="hidden"&&n.getAttribute("name")===p)return n}else return n;if(n=Ss(n.nextSibling),n===null)break}return null}function l0(n,s,a){if(s==="")return null;for(;n.nodeType!==3;)if((n.nodeType!==1||n.nodeName!=="INPUT"||n.type!=="hidden")&&!a||(n=Ss(n.nextSibling),n===null))return null;return n}function Kt(n){return n.data==="$!"||n.data==="$?"&&n.ownerDocument.readyState==="complete"}function p0(n,s){var a=n.ownerDocument;if(n.data!=="$?"||a.readyState==="complete")s();else{var o=function(){s(),a.removeEventListener("DOMContentLoaded",o)};a.addEventListener("DOMContentLoaded",o),n._reactRetry=o}}function Ss(n){for(;n!=null;n=n.nextSibling){var s=n.nodeType;if(s===1||s===3)break;if(s===8){if(s=n.data,s==="$"||s==="$!"||s==="$?"||s==="F!"||s==="F")break;if(s==="/$")return null}}return n}var Ut=null;function B3(n){n=n.previousSibling;for(var s=0;n;){if(n.nodeType===8){var a=n.data;if(a==="$"||a==="$!"||a==="$?"){if(s===0)return n;s--}else a==="/$"&&s++}n=n.previousSibling}return null}function D3(n,s,a){switch(s=Wp(a),n){case"html":if(n=s.documentElement,!n)throw Error(h(452));return n;case"head":if(n=s.head,!n)throw Error(h(453));return n;case"body":if(n=s.body,!n)throw Error(h(454));return n;default:throw Error(h(451))}}function fl(n){for(var s=n.attributes;s.length;)n.removeAttributeNode(s[0]);Vp(n)}var hs=new Map,M3=new Set;function Ep(n){return typeof n.getRootNode=="function"?n.getRootNode():n.nodeType===9?n:n.ownerDocument}var Vs=H.d;H.d={f:e0,r:t0,D:c0,C:f0,L:r0,m:y0,X:u0,S:i0,M:b0};function e0(){var n=Vs.f(),s=bp();return n||s}function t0(n){var s=Na(n);s!==null&&s.tag===5&&s.type==="form"?Qf(s):Vs.r(n)}var go=typeof document>"u"?null:document;function Y3(n,s,a){var o=go;if(o&&typeof s=="string"&&s){var l=fs(s);l='link[rel="'+n+'"][href="'+l+'"]',typeof a=="string"&&(l+='[crossorigin="'+a+'"]'),M3.has(l)||(M3.add(l),n={rel:n,crossOrigin:a,href:s},o.querySelector(l)===null&&(s=o.createElement("link"),Nn(s,"link",n),Ln(s),o.head.appendChild(s)))}}function c0(n){Vs.D(n),Y3("dns-prefetch",n,null)}function f0(n,s){Vs.C(n,s),Y3("preconnect",n,s)}function r0(n,s,a){Vs.L(n,s,a);var o=go;if(o&&n&&s){var l='link[rel="preload"][as="'+fs(s)+'"]';s==="image"&&a&&a.imageSrcSet?(l+='[imagesrcset="'+fs(a.imageSrcSet)+'"]',typeof a.imageSizes=="string"&&(l+='[imagesizes="'+fs(a.imageSizes)+'"]')):l+='[href="'+fs(n)+'"]';var p=l;switch(s){case"style":p=Ao(n);break;case"script":p=So(n)}hs.has(p)||(n=M({rel:"preload",href:s==="image"&&a&&a.imageSrcSet?void 0:n,as:s},a),hs.set(p,n),o.querySelector(l)!==null||s==="style"&&o.querySelector(rl(p))||s==="script"&&o.querySelector(yl(p))||(s=o.createElement("link"),Nn(s,"link",n),Ln(s),o.head.appendChild(s)))}}function y0(n,s){Vs.m(n,s);var a=go;if(a&&n){var o=s&&typeof s.as=="string"?s.as:"script",l='link[rel="modulepreload"][as="'+fs(o)+'"][href="'+fs(n)+'"]',p=l;switch(o){case"audioworklet":case"paintworklet":case"serviceworker":case"sharedworker":case"worker":case"script":p=So(n)}if(!hs.has(p)&&(n=M({rel:"modulepreload",href:n},s),hs.set(p,n),a.querySelector(l)===null)){switch(o){case"audioworklet":case"paintworklet":case"serviceworker":case"sharedworker":case"worker":case"script":if(a.querySelector(yl(p)))return}o=a.createElement("link"),Nn(o,"link",n),Ln(o),a.head.appendChild(o)}}}function i0(n,s,a){Vs.S(n,s,a);var o=go;if(o&&n){var l=Ga(o).hoistableStyles,p=Ao(n);s=s||"default";var e=l.get(p);if(!e){var t={loading:0,preload:null};if(e=o.querySelector(rl(p)))t.loading=5;else{n=M({rel:"stylesheet",href:n,"data-precedence":s},a),(a=hs.get(p))&&zt(n,a);var c=e=o.createElement("link");Ln(c),Nn(c,"link",n),c._p=new Promise(function(u,m){c.onload=u,c.onerror=m}),c.addEventListener("load",function(){t.loading|=1}),c.addEventListener("error",function(){t.loading|=2}),t.loading|=4,Tp(e,s,o)}e={type:"stylesheet",instance:e,count:1,state:t},l.set(p,e)}}}function u0(n,s){Vs.X(n,s);var a=go;if(a&&n){var o=Ga(a).hoistableScripts,l=So(n),p=o.get(l);p||(p=a.querySelector(yl(l)),p||(n=M({src:n,async:!0},s),(s=hs.get(l))&&Jt(n,s),p=a.createElement("script"),Ln(p),Nn(p,"link",n),a.head.appendChild(p)),p={type:"script",instance:p,count:1,state:null},o.set(l,p))}}function b0(n,s){Vs.M(n,s);var a=go;if(a&&n){var o=Ga(a).hoistableScripts,l=So(n),p=o.get(l);p||(p=a.querySelector(yl(l)),p||(n=M({src:n,async:!0,type:"module"},s),(s=hs.get(l))&&Jt(n,s),p=a.createElement("script"),Ln(p),Nn(p,"link",n),a.head.appendChild(p)),p={type:"script",instance:p,count:1,state:null},o.set(l,p))}}function k3(n,s,a,o){var l=(l=U.current)?Ep(l):null;if(!l)throw Error(h(446));switch(n){case"meta":case"title":return null;case"style":return typeof a.precedence=="string"&&typeof a.href=="string"?(s=Ao(a.href),a=Ga(l).hoistableStyles,o=a.get(s),o||(o={type:"style",instance:null,count:0,state:null},a.set(s,o)),o):{type:"void",instance:null,count:0,state:null};case"link":if(a.rel==="stylesheet"&&typeof a.href=="string"&&typeof a.precedence=="string"){n=Ao(a.href);var p=Ga(l).hoistableStyles,e=p.get(n);if(e||(l=l.ownerDocument||l,e={type:"stylesheet",instance:null,count:0,state:{loading:0,preload:null}},p.set(n,e),(p=l.querySelector(rl(n)))&&!p._p&&(e.instance=p,e.state.loading=5),hs.has(n)||(a={rel:"preload",as:"style",href:a.href,crossOrigin:a.crossOrigin,integrity:a.integrity,media:a.media,hrefLang:a.hrefLang,referrerPolicy:a.referrerPolicy},hs.set(n,a),p||d0(l,n,a,e.state))),s&&o===null)throw Error(h(528,""));return e}if(s&&o!==null)throw Error(h(529,""));return null;case"script":return s=a.async,a=a.src,typeof a=="string"&&s&&typeof s!="function"&&typeof s!="symbol"?(s=So(a),a=Ga(l).hoistableScripts,o=a.get(s),o||(o={type:"script",instance:null,count:0,state:null},a.set(s,o)),o):{type:"void",instance:null,count:0,state:null};default:throw Error(h(444,n))}}function Ao(n){return'href="'+fs(n)+'"'}function rl(n){return'link[rel="stylesheet"]['+n+"]"}function C3(n){return M({},n,{"data-precedence":n.precedence,precedence:null})}function d0(n,s,a,o){n.querySelector('link[rel="preload"][as="style"]['+s+"]")?o.loading=1:(s=n.createElement("link"),o.preload=s,s.addEventListener("load",function(){return o.loading|=1}),s.addEventListener("error",function(){return o.loading|=2}),Nn(s,"link",a),Ln(s),n.head.appendChild(s))}function So(n){return'[src="'+fs(n)+'"]'}function yl(n){return"script[async]"+n}function I3(n,s,a){if(s.count++,s.instance===null)switch(s.type){case"style":var o=n.querySelector('style[data-href~="'+fs(a.href)+'"]');if(o)return s.instance=o,Ln(o),o;var l=M({},a,{"data-href":a.href,"data-precedence":a.precedence,href:null,precedence:null});return o=(n.ownerDocument||n).createElement("style"),Ln(o),Nn(o,"style",l),Tp(o,a.precedence,n),s.instance=o;case"stylesheet":l=Ao(a.href);var p=n.querySelector(rl(l));if(p)return s.state.loading|=4,s.instance=p,Ln(p),p;o=C3(a),(l=hs.get(l))&&zt(o,l),p=(n.ownerDocument||n).createElement("link"),Ln(p);var e=p;return e._p=new Promise(function(t,c){e.onload=t,e.onerror=c}),Nn(p,"link",o),s.state.loading|=4,Tp(p,a.precedence,n),s.instance=p;case"script":return p=So(a.src),(l=n.querySelector(yl(p)))?(s.instance=l,Ln(l),l):(o=a,(l=hs.get(p))&&(o=M({},a),Jt(o,l)),n=n.ownerDocument||n,l=n.createElement("script"),Ln(l),Nn(l,"link",o),n.head.appendChild(l),s.instance=l);case"void":return null;default:throw Error(h(443,s.type))}else s.type==="stylesheet"&&(s.state.loading&4)===0&&(o=s.instance,s.state.loading|=4,Tp(o,a.precedence,n));return s.instance}function Tp(n,s,a){for(var o=a.querySelectorAll('link[rel="stylesheet"][data-precedence],style[data-precedence]'),l=o.length?o[o.length-1]:null,p=l,e=0;e<o.length;e++){var t=o[e];if(t.dataset.precedence===s)p=t;else if(p!==l)break}p?p.parentNode.insertBefore(n,p.nextSibling):(s=a.nodeType===9?a.head:a,s.insertBefore(n,s.firstChild))}function zt(n,s){n.crossOrigin==null&&(n.crossOrigin=s.crossOrigin),n.referrerPolicy==null&&(n.referrerPolicy=s.referrerPolicy),n.title==null&&(n.title=s.title)}function Jt(n,s){n.crossOrigin==null&&(n.crossOrigin=s.crossOrigin),n.referrerPolicy==null&&(n.referrerPolicy=s.referrerPolicy),n.integrity==null&&(n.integrity=s.integrity)}var vp=null;function N3(n,s,a){if(vp===null){var o=new Map,l=vp=new Map;l.set(a,o)}else l=vp,o=l.get(a),o||(o=new Map,l.set(a,o));if(o.has(n))return o;for(o.set(n,null),a=a.getElementsByTagName(n),l=0;l<a.length;l++){var p=a[l];if(!(p[To]||p[Un]||n==="link"&&p.getAttribute("rel")==="stylesheet")&&p.namespaceURI!=="http://www.w3.org/2000/svg"){var e=p.getAttribute(s)||"";e=n+e;var t=o.get(e);t?t.push(p):o.set(e,[p])}}return o}function G3(n,s,a){n=n.ownerDocument||n,n.head.insertBefore(a,s==="title"?n.querySelector("head > title"):null)}function h0(n,s,a){if(a===1||s.itemProp!=null)return!1;switch(n){case"meta":case"title":return!0;case"style":if(typeof s.precedence!="string"||typeof s.href!="string"||s.href==="")break;return!0;case"link":if(typeof s.rel!="string"||typeof s.href!="string"||s.href===""||s.onLoad||s.onError)break;switch(s.rel){case"stylesheet":return n=s.disabled,typeof s.precedence=="string"&&n==null;default:return!0}case"script":if(s.async&&typeof s.async!="function"&&typeof s.async!="symbol"&&!s.onLoad&&!s.onError&&s.src&&typeof s.src=="string")return!0}return!1}function K3(n){return!(n.type==="stylesheet"&&(n.state.loading&3)===0)}var il=null;function m0(){}function g0(n,s,a){if(il===null)throw Error(h(475));var o=il;if(s.type==="stylesheet"&&(typeof a.media!="string"||matchMedia(a.media).matches!==!1)&&(s.state.loading&4)===0){if(s.instance===null){var l=Ao(a.href),p=n.querySelector(rl(l));if(p){n=p._p,n!==null&&typeof n=="object"&&typeof n.then=="function"&&(o.count++,o=wp.bind(o),n.then(o,o)),s.state.loading|=4,s.instance=p,Ln(p);return}p=n.ownerDocument||n,a=C3(a),(l=hs.get(l))&&zt(a,l),p=p.createElement("link"),Ln(p);var e=p;e._p=new Promise(function(t,c){e.onload=t,e.onerror=c}),Nn(p,"link",a),s.instance=p}o.stylesheets===null&&(o.stylesheets=new Map),o.stylesheets.set(s,n),(n=s.state.preload)&&(s.state.loading&3)===0&&(o.count++,s=wp.bind(o),n.addEventListener("load",s),n.addEventListener("error",s))}}function A0(){if(il===null)throw Error(h(475));var n=il;return n.stylesheets&&n.count===0&&Vt(n,n.stylesheets),0<n.count?function(s){var a=setTimeout(function(){if(n.stylesheets&&Vt(n,n.stylesheets),n.unsuspend){var o=n.unsuspend;n.unsuspend=null,o()}},6e4);return n.unsuspend=s,function(){n.unsuspend=null,clearTimeout(a)}}:null}function wp(){if(this.count--,this.count===0){if(this.stylesheets)Vt(this,this.stylesheets);else if(this.unsuspend){var n=this.unsuspend;this.unsuspend=null,n()}}}var Hp=null;function Vt(n,s){n.stylesheets=null,n.unsuspend!==null&&(n.count++,Hp=new Map,s.forEach(S0,n),Hp=null,wp.call(n))}function S0(n,s){if(!(s.state.loading&4)){var a=Hp.get(n);if(a)var o=a.get(null);else{a=new Map,Hp.set(n,a);for(var l=n.querySelectorAll("link[data-precedence],style[data-precedence]"),p=0;p<l.length;p++){var e=l[p];(e.nodeName==="LINK"||e.getAttribute("media")!=="not all")&&(a.set(e.dataset.precedence,e),o=e)}o&&a.set(null,o)}l=s.instance,e=l.getAttribute("data-precedence"),p=a.get(e)||o,p===o&&a.set(null,l),a.set(e,l),this.count++,o=wp.bind(this),l.addEventListener("load",o),l.addEventListener("error",o),p?p.parentNode.insertBefore(l,p.nextSibling):(n=n.nodeType===9?n.head:n,n.insertBefore(l,n.firstChild)),s.state.loading|=4}}var ul={$$typeof:Rn,Provider:null,Consumer:null,_currentValue:N,_currentValue2:N,_threadCount:0};function O0(n,s,a,o,l,p,e,t){this.tag=1,this.containerInfo=n,this.pingCache=this.current=this.pendingChildren=null,this.timeoutHandle=-1,this.callbackNode=this.next=this.pendingContext=this.context=this.cancelPendingCommit=null,this.callbackPriority=0,this.expirationTimes=Kp(-1),this.entangledLanes=this.shellSuspendCounter=this.errorRecoveryDisabledLanes=this.expiredLanes=this.warmLanes=this.pingedLanes=this.suspendedLanes=this.pendingLanes=0,this.entanglements=Kp(0),this.hiddenUpdates=Kp(null),this.identifierPrefix=o,this.onUncaughtError=l,this.onCaughtError=p,this.onRecoverableError=e,this.pooledCache=null,this.pooledCacheLanes=0,this.formState=t,this.incompleteTransitions=new Map}function U3(n,s,a,o,l,p,e,t,c,u,m,O){return n=new O0(n,s,a,e,t,c,u,O),s=1,p===!0&&(s|=24),p=as(3,null,null,s),n.current=p,p.stateNode=n,s=Te(),s.refCount++,n.pooledCache=s,s.refCount++,p.memoizedState={element:o,isDehydrated:a,cache:s},Re(p),n}function z3(n){return n?(n=Xa,n):Xa}function J3(n,s,a,o,l,p){l=z3(l),o.context===null?o.context=l:o.pendingContext=l,o=Xs(s),o.payload={element:a},p=p===void 0?null:p,p!==null&&(o.callback=p),a=Zs(n,o,s),a!==null&&(ts(a,n,s),Vo(a,n,s))}function V3(n,s){if(n=n.memoizedState,n!==null&&n.dehydrated!==null){var a=n.retryLane;n.retryLane=a!==0&&a<s?a:s}}function xt(n,s){V3(n,s),(n=n.alternate)&&V3(n,s)}function x3(n){if(n.tag===13){var s=qa(n,67108864);s!==null&&ts(s,n,67108864),xt(n,67108864)}}var Rp=!0;function W0(n,s,a,o){var l=g.T;g.T=null;var p=H.p;try{H.p=2,Pt(n,s,a,o)}finally{H.p=p,g.T=l}}function E0(n,s,a,o){var l=g.T;g.T=null;var p=H.p;try{H.p=8,Pt(n,s,a,o)}finally{H.p=p,g.T=l}}function Pt(n,s,a,o){if(Rp){var l=jt(o);if(l===null)Mt(n,s,o,Lp,a),j3(n,o);else if(v0(l,n,s,a,o))o.stopPropagation();else if(j3(n,o),s&4&&-1<T0.indexOf(n)){for(;l!==null;){var p=Na(l);if(p!==null)switch(p.tag){case 3:if(p=p.stateNode,p.current.memoizedState.isDehydrated){var e=ma(p.pendingLanes);if(e!==0){var t=p;for(t.pendingLanes|=2,t.entangledLanes|=2;e;){var c=1<<31-ns(e);t.entanglements[1]|=c,e&=~c}ws(p),(sn&6)===0&&(ip=Os()+500,el(0))}}break;case 13:t=qa(p,2),t!==null&&ts(t,p,2),bp(),xt(p,2)}if(p=jt(o),p===null&&Mt(n,s,o,Lp,a),p===l)break;l=p}l!==null&&o.stopPropagation()}else Mt(n,s,o,null,a)}}function jt(n){return n=Zp(n),Ft(n)}var Lp=null;function Ft(n){if(Lp=null,n=Ia(n),n!==null){var s=F(n);if(s===null)n=null;else{var a=s.tag;if(a===13){if(n=rn(s),n!==null)return n;n=null}else if(a===3){if(s.stateNode.current.memoizedState.isDehydrated)return s.tag===3?s.stateNode.containerInfo:null;n=null}else s!==n&&(n=null)}}return Lp=n,null}function P3(n){switch(n){case"beforetoggle":case"cancel":case"click":case"close":case"contextmenu":case"copy":case"cut":case"auxclick":case"dblclick":case"dragend":case"dragstart":case"drop":case"focusin":case"focusout":case"input":case"invalid":case"keydown":case"keypress":case"keyup":case"mousedown":case"mouseup":case"paste":case"pause":case"play":case"pointercancel":case"pointerdown":case"pointerup":case"ratechange":case"reset":case"resize":case"seeked":case"submit":case"toggle":case"touchcancel":case"touchend":case"touchstart":case"volumechange":case"change":case"selectionchange":case"textInput":case"compositionstart":case"compositionend":case"compositionupdate":case"beforeblur":case"afterblur":case"beforeinput":case"blur":case"fullscreenchange":case"focus":case"hashchange":case"popstate":case"select":case"selectstart":return 2;case"drag":case"dragenter":case"dragexit":case"dragleave":case"dragover":case"mousemove":case"mouseout":case"mouseover":case"pointermove":case"pointerout":case"pointerover":case"scroll":case"touchmove":case"wheel":case"mouseenter":case"mouseleave":case"pointerenter":case"pointerleave":return 8;case"message":switch(fy()){case lc:return 2;case pc:return 8;case Ol:case ry:return 32;case ec:return 268435456;default:return 32}default:return 32}}var _t=!1,ra=null,ya=null,ia=null,bl=new Map,dl=new Map,ua=[],T0="mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset".split(" ");function j3(n,s){switch(n){case"focusin":case"focusout":ra=null;break;case"dragenter":case"dragleave":ya=null;break;case"mouseover":case"mouseout":ia=null;break;case"pointerover":case"pointerout":bl.delete(s.pointerId);break;case"gotpointercapture":case"lostpointercapture":dl.delete(s.pointerId)}}function hl(n,s,a,o,l,p){return n===null||n.nativeEvent!==p?(n={blockedOn:s,domEventName:a,eventSystemFlags:o,nativeEvent:p,targetContainers:[l]},s!==null&&(s=Na(s),s!==null&&x3(s)),n):(n.eventSystemFlags|=o,s=n.targetContainers,l!==null&&s.indexOf(l)===-1&&s.push(l),n)}function v0(n,s,a,o,l){switch(s){case"focusin":return ra=hl(ra,n,s,a,o,l),!0;case"dragenter":return ya=hl(ya,n,s,a,o,l),!0;case"mouseover":return ia=hl(ia,n,s,a,o,l),!0;case"pointerover":var p=l.pointerId;return bl.set(p,hl(bl.get(p)||null,n,s,a,o,l)),!0;case"gotpointercapture":return p=l.pointerId,dl.set(p,hl(dl.get(p)||null,n,s,a,o,l)),!0}return!1}function F3(n){var s=Ia(n.target);if(s!==null){var a=F(s);if(a!==null){if(s=a.tag,s===13){if(s=rn(a),s!==null){n.blockedOn=s,gy(n.priority,function(){if(a.tag===13){var o=es();o=Up(o);var l=qa(a,o);l!==null&&ts(l,a,o),xt(a,o)}});return}}else if(s===3&&a.stateNode.current.memoizedState.isDehydrated){n.blockedOn=a.tag===3?a.stateNode.containerInfo:null;return}}}n.blockedOn=null}function Bp(n){if(n.blockedOn!==null)return!1;for(var s=n.targetContainers;0<s.length;){var a=jt(n.nativeEvent);if(a===null){a=n.nativeEvent;var o=new a.constructor(a.type,a);Xp=o,a.target.dispatchEvent(o),Xp=null}else return s=Na(a),s!==null&&x3(s),n.blockedOn=a,!1;s.shift()}return!0}function _3(n,s,a){Bp(n)&&a.delete(s)}function w0(){_t=!1,ra!==null&&Bp(ra)&&(ra=null),ya!==null&&Bp(ya)&&(ya=null),ia!==null&&Bp(ia)&&(ia=null),bl.forEach(_3),dl.forEach(_3)}function Dp(n,s){n.blockedOn===s&&(n.blockedOn=null,_t||(_t=!0,E.unstable_scheduleCallback(E.unstable_NormalPriority,w0)))}var Mp=null;function q3(n){Mp!==n&&(Mp=n,E.unstable_scheduleCallback(E.unstable_NormalPriority,function(){Mp===n&&(Mp=null);for(var s=0;s<n.length;s+=3){var a=n[s],o=n[s+1],l=n[s+2];if(typeof o!="function"){if(Ft(o||a)===null)continue;break}var p=Na(a);p!==null&&(n.splice(s,3),s-=3,Fe(p,{pending:!0,data:l,method:a.method,action:o},o,l))}}))}function ml(n){function s(c){return Dp(c,n)}ra!==null&&Dp(ra,n),ya!==null&&Dp(ya,n),ia!==null&&Dp(ia,n),bl.forEach(s),dl.forEach(s);for(var a=0;a<ua.length;a++){var o=ua[a];o.blockedOn===n&&(o.blockedOn=null)}for(;0<ua.length&&(a=ua[0],a.blockedOn===null);)F3(a),a.blockedOn===null&&ua.shift();if(a=(n.ownerDocument||n).$$reactFormReplay,a!=null)for(o=0;o<a.length;o+=3){var l=a[o],p=a[o+1],e=l[jn]||null;if(typeof p=="function")e||q3(a);else if(e){var t=null;if(p&&p.hasAttribute("formAction")){if(l=p,e=p[jn]||null)t=e.formAction;else if(Ft(l)!==null)continue}else t=e.action;typeof t=="function"?a[o+1]=t:(a.splice(o,3),o-=3),q3(a)}}}function qt(n){this._internalRoot=n}Yp.prototype.render=qt.prototype.render=function(n){var s=this._internalRoot;if(s===null)throw Error(h(409));var a=s.current,o=es();J3(a,o,n,s,null,null)},Yp.prototype.unmount=qt.prototype.unmount=function(){var n=this._internalRoot;if(n!==null){this._internalRoot=null;var s=n.containerInfo;J3(n.current,2,null,n,null,null),bp(),s[Ca]=null}};function Yp(n){this._internalRoot=n}Yp.prototype.unstable_scheduleHydration=function(n){if(n){var s=yc();n={blockedOn:null,target:n,priority:s};for(var a=0;a<ua.length&&s!==0&&s<ua[a].priority;a++);ua.splice(a,0,n),a===0&&F3(n)}};var X3=q.version;if(X3!=="19.1.0")throw Error(h(527,X3,"19.1.0"));H.findDOMNode=function(n){var s=n._reactInternals;if(s===void 0)throw typeof n.render=="function"?Error(h(188)):(n=Object.keys(n).join(","),Error(h(268,n)));return n=B(s),n=n!==null?T(n):null,n=n===null?null:n.stateNode,n};var H0={bundleType:0,version:"19.1.0",rendererPackageName:"react-dom",currentDispatcherRef:g,reconcilerVersion:"19.1.0"};if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__<"u"){var kp=__REACT_DEVTOOLS_GLOBAL_HOOK__;if(!kp.isDisabled&&kp.supportsFiber)try{Oo=kp.inject(H0),$n=kp}catch{}}return Al.createRoot=function(n,s){if(!K(n))throw Error(h(299));var a=!1,o="",l=ir,p=ur,e=br,t=null;return s!=null&&(s.unstable_strictMode===!0&&(a=!0),s.identifierPrefix!==void 0&&(o=s.identifierPrefix),s.onUncaughtError!==void 0&&(l=s.onUncaughtError),s.onCaughtError!==void 0&&(p=s.onCaughtError),s.onRecoverableError!==void 0&&(e=s.onRecoverableError),s.unstable_transitionCallbacks!==void 0&&(t=s.unstable_transitionCallbacks)),s=U3(n,1,!1,null,null,a,o,l,p,e,t,null),n[Ca]=s.current,Dt(n),new qt(s)},Al.hydrateRoot=function(n,s,a){if(!K(n))throw Error(h(299));var o=!1,l="",p=ir,e=ur,t=br,c=null,u=null;return a!=null&&(a.unstable_strictMode===!0&&(o=!0),a.identifierPrefix!==void 0&&(l=a.identifierPrefix),a.onUncaughtError!==void 0&&(p=a.onUncaughtError),a.onCaughtError!==void 0&&(e=a.onCaughtError),a.onRecoverableError!==void 0&&(t=a.onRecoverableError),a.unstable_transitionCallbacks!==void 0&&(c=a.unstable_transitionCallbacks),a.formState!==void 0&&(u=a.formState)),s=U3(n,1,!0,s,a??null,o,l,p,e,t,c,u),s.context=z3(null),a=s.current,o=es(),o=Up(o),l=Xs(o),l.callback=null,Zs(a,l,o),a=o,s.current.lanes=a,Eo(s,a),ws(s),n[Ca]=s.current,Dt(n),new Yp(s)},Al.version="19.1.0",Al}var ey;function N0(){if(ey)return Qt.exports;ey=1;function E(){if(!(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__>"u"||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!="function"))try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(E)}catch(q){console.error(q)}}return E(),Qt.exports=I0(),Qt.exports}var G0=N0();const ac=[{id:1,title:"ええじゃないか",titleKana:"ええじゃないか",lyricist:"岩崎貴文・mildsalt",composer:"岩崎貴文",arranger:"CHOKKAKU",album:["ええじゃないか","ええじゃないか[初回盤]","ええじゃないか[MY BEST CD盤]","ええじゃないか[通常盤]","go WEST よーいドン！","go WEST よーいドン！[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`ええじゃないか[初回盤(WEST盤)] （Music Clip & Making）
 go WEST よーいドン！[初回盤]（Music Clip Dance Ver.）`,performances:["なにわともあれ、ほんまにありがとう！{1}","なにわともあれ、ほんまにありがとう！{14}","一発めぇぇぇぇぇぇぇ！{1}","一発めぇぇぇぇぇぇぇ！(各会場オーラス){1}","一発めぇぇぇぇぇぇぇ！(各会場オーラス){20}","一発めぇぇぇぇぇぇぇ！(大阪オーラス){1}","一発めぇぇぇぇぇぇぇ！(大阪オーラス){20}","パリピポ{12}","パリピポ(各会場オーラス){12}","パリピポ(各会場オーラス){27}","パリピポ(兵庫オーラス){12}","パリピポ(兵庫オーラス){27}","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟){2}","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟のオーラス){2}","ラッキィィィィィィィ7(大阪,宮城){2}","ラッキィィィィィィィ7(大阪オーラス){2}","ラッキィィィィィィィ7(宮城オーラス){2}","24(ニシ)から感謝届けます♡{1}","24(ニシ)から感謝届けます♡(オーラス){1}","24(ニシ)から感謝届けます♡(オーラス){26}","なうぇすと(〜横浜3日目){19}","なうぇすと(横浜4日目〜,福井,福岡,宮城,愛知,静岡,大阪,北海道,広島){19}","なうぇすと(各会場オーラス){19}","なうぇすと(広島オーラス){19}","WESTival(各会場オーラス){28}","WESTival(北海道オーラス){28}","WESTV!{2}","WESTV!(各会場オーラス){2}","WESTV!(北海道オーラス){2}","WESTV!(北海道オーラス){29}","W trouble12/11{26}","W trouble12/12昼,12/13夜{27}","W trouble12/12夜,12/13昼{27}","rainboW(北海道){25}","rainboW(宮城,愛知,新潟,埼玉,熊本){25}","rainboW(円盤){25}","Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10){3}","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11){3}","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜){3}","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼){3}","Mixed Juice(北海道オーラス){3}","TO BE KANSAI COLOR-翔べ関西から-(大阪){34}","TO BE KANSAI COLOR-翔べ関西から-(名古屋){32}","TO BE KANSAI COLOR-翔べ関西から-(東京){30}","TO BE KANSAI COLOR-翔べ関西から-(東京オーラス){30}","POWER(宮城){2}","POWER(横浜,福岡,新潟,静岡,大阪,北海道,愛知){2}","POWER(愛知オーラス){2}","AWARD(大阪){1}","AWARD(新潟){1}","AWARD(宮城){1}","AWARD(愛知){1}","AWARD(横浜,静岡,福岡,広島,北海道){1}","AWARD(北海道オーラス){1}","DOME TOUR AWARD(大阪,福岡){22}","DOME TOUR AWARD(東京){23}","DOME TOUR AWARD(東京オーラス){23}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){3}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){3}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){3}","メトロック2022(大阪){1}","LOVE MUSIC FESTIVAL2022{4}","サマソニ2023(大阪,東京){1}","めざまし30周年フェス(東京){1}","メトロック2024(東京){1}","サマソニ2024(大阪,東京){1}","a-nation2024{4}","KOYABU SONIC2024{1}","CDTV ライブ！ ライブ！大感謝祭2024{4}","CDTV ライブ！ ライブ！春の大感謝祭2025{2}","メトロック2025(東京){2}","Johnny's World Happy LIVE with YOU(3/29){1}","Johnny's World Happy LIVE with YOU(6/18){7}","ジャニーズWEST デビュー記念イベント デビューしてもええじゃないか ～バンザイ!! その先の一等賞へ～{2}","皆様のおかげSummer Carnival!{2}","５周ねんやねん♪よろしゅうねん♪{1}","Johnny's DREAM IsLAND 2020→2025 〜大好きなこの街から〜 大阪松竹座 ジャニーズWEST公演{4}","【年越し生配信2024→2025】デビュー10周年ありがとう⭐️&登録者数100万人達成記念SP🎉 ✨100/100✨{1}","10周年生配信トーク＆ライブ「虹会」{3}","WEST. 10th Anniversary Live “W”{18}","WEST. 10th Anniversary Live “W”-Film edition-{20}","なにわ侍　ハローTOKYO!!{5}","台風n Dreamer{5}","WEST. 10th Anniversary 大阪松竹座公演(千穐楽){7}"],singer:"WEST.",date:"2014-04-23",lyrics:`ひとつひとまず「なんでやねん！」
 ふたつふたりで「どないやねん！」
 みっつみんなで「ほんまやねん！」
@@ -2832,7 +2832,7 @@ Yeah Yeah Yeah
 
 <span style='color:#ffc81b;'>何</span><span style='color:#0099ff;'>も</span><span style='color:#ffc81b;'>な</span><span style='color:#0099ff;'>か</span><span style='color:#ffc81b;'>っ</span><span style='color:#0099ff;'>た</span><span style='color:#ffc81b;'>よ</span><span style='color:#0099ff;'>う</span><span style='color:#ffc81b;'>な</span><span style='color:#0099ff;'>そ</span><span style='color:#ffc81b;'>ぶ</span><span style='color:#0099ff;'>り</span>
 <span style='color:#ffc81b;'>ご</span><span style='color:#0099ff;'>ま</span><span style='color:#ffc81b;'>か</span><span style='color:#0099ff;'>し</span><span style='color:#ffc81b;'>続</span><span style='color:#0099ff;'>け</span><span style='color:#ffc81b;'>て</span><span style='color:#0099ff;'>い</span><span style='color:#ffc81b;'>た</span><span style='color:#0099ff;'>言</span><span style='color:#ffc81b;'>葉</span><span style='color:#0099ff;'>も</span>
-<span style='color:#ee3333;'>ブ</span><span style='color:#32cd32;'>レ</span><span style='color:#ee3333;'>ー</span><span style='color:#32cd32;'>キ</span><span style='color:#ee3333;'>を</span><span style='color:#32cd32;'>か</span><span style='color:#ee3333;'>け</span><span style='color:#32cd32;'>た</span><span style='color:#ee3333;'>ま</span><span style='color:#32cd32;'>ま</span><span style='color:#ee3333;'>じ</span><span style='color:#32cd32;'>ゃ</span><span style='color:#ee3333;'>一</span><span style='color:#32cd32;'>歩</span><span style='color:#ee3333;'>も</span><span style='color:#32cd32;'>前</span><span style='color:#ee3333;'>に</span><span style='color:#32cd32;'>は</span><span style='color:#ee3333;'>進</span><span style='color:#32cd32;'>め</span><span style='color:#ee3333;'>な</span><span style='color:#32cd32;'>い</span><span style='color:#9933ff;'>(ハモリ)</span>
+<span style='color:#ee3333;'>ブ</span><span style='color:#32cd32;'>レ</span><span style='color:#ee3333;'>ー</span><span style='color:#32cd32;'>キ</span><span style='color:#ee3333;'>を</span><span style='color:#32cd32;'>か</span><span style='color:#ee3333;'>け</span><span style='color:#32cd32;'>た</span><span style='color:#ee3333;'>ま</span><span style='color:#32cd32;'>ま</span><span style='color:#ee3333;'>じ</span><span style='color:#32cd32;'>ゃ</span><span style='color:#ee3333;'>一</span><span style='color:#32cd32;'>歩</span><span style='color:#ee3333;'>も</span><span style='color:#32cd32;'>前</span><span style='color:#ee3333;'>に</span><span style='color:#32cd32;'>は</span><span style='color:#ee3333;'>進</span><span style='color:#32cd32;'>め</span><span style='color:#ee3333;'>な</span><span style='color:#32cd32;'>い</span>
 
 限られた 時間(とき)でどれだけの人に出会えるのかな
 <span style='color:#9933ff;'>後悔してばかりのあの日を　消して</span>
@@ -2844,7 +2844,7 @@ Yeah Yeah Yeah
 
 </span><span style='color:#ee3333;'>ど</span><span style='color:#9933ff;'>う</span><span style='color:#ee3333;'>で</span><span style='color:#9933ff;'>も</span><span style='color:#ee3333;'>い</span><span style='color:#9933ff;'>い</span><span style='color:#ee3333;'>事</span><span style='color:#9933ff;'>と</span><span style='color:#ee3333;'>割</span><span style='color:#9933ff;'>り</span><span style='color:#ee3333;'>切</span><span style='color:#9933ff;'>っ</span><span style='color:#ee3333;'>て
 </span><span style='color:#9933ff;'>電</span><span style='color:#ee3333;'>話</span><span style='color:#9933ff;'>越</span><span style='color:#ee3333;'>し</span><span style='color:#9933ff;'>に</span><span style='color:#ee3333;'>聞</span><span style='color:#9933ff;'>こ</span><span style='color:#ee3333;'>え</span><span style='color:#9933ff;'>た</span><span style='color:#ee3333;'>泣</span><span style='color:#9933ff;'>き</span><span style='color:#ee3333;'>声</span><span style='color:#9933ff;'>を
-</span><span style='color:#f39800;'>今</span><span style='color:#ff66b2;'>で</span><span style='color:#f39800;'>も</span><span style='color:#ff66b2;'>思</span><span style='color:#f39800;'>う</span><span style='color:#ff66b2;'>た</span><span style='color:#f39800;'>び　</span><span style='color:#ff66b2;'>抱</span><span style='color:#f39800;'>き</span><span style='color:#ff66b2;'>し</span><span style='color:#f39800;'>め</span><span style='color:#ff66b2;'>た</span><span style='color:#f39800;'>く</span><span style='color:#ff66b2;'>な</span><span style='color:#f39800;'>る　</span><span style='color:#ff66b2;'>ご</span><span style='color:#f39800;'>め</span><span style='color:#ff66b2;'>ん</span><span style='color:#f39800;'>ね</span><span style='color:#ff66b2;'>と</span><span style='color:#9933ff;'>(ハモリ)</span>
+</span><span style='color:#f39800;'>今</span><span style='color:#ff66b2;'>で</span><span style='color:#f39800;'>も</span><span style='color:#ff66b2;'>思</span><span style='color:#f39800;'>う</span><span style='color:#ff66b2;'>た</span><span style='color:#f39800;'>び　</span><span style='color:#ff66b2;'>抱</span><span style='color:#f39800;'>き</span><span style='color:#ff66b2;'>し</span><span style='color:#f39800;'>め</span><span style='color:#ff66b2;'>た</span><span style='color:#f39800;'>く</span><span style='color:#ff66b2;'>な</span><span style='color:#f39800;'>る　</span><span style='color:#ff66b2;'>ご</span><span style='color:#f39800;'>め</span><span style='color:#ff66b2;'>ん</span><span style='color:#f39800;'>ね</span><span style='color:#ff66b2;'>と</span>
 
 間違いじゃ　なかったとあの日確かに強がっていた
 </span><span style='color:#32cd32;'>今になって　気づくことばかり　僕は</span>
@@ -3135,8 +3135,8 @@ Kiss me Kiss me Kiss me
 Baby Baby Baby
 Love me Love me Love me
 甘いToxic Love (Give me love....)`,lyricsn:`<span style='color:#0099ff;'>Yeah I can't let you go
-I've been stuck in your Toxic love
-So listen to me now, Let's go
+</span><span style='color:#32cd32;'>I've </span><span style='color:#0099ff;'>been </span><span style='color:#32cd32;'>stuck </span><span style='color:#0099ff;'>in </span><span style='color:#32cd32;'>your </span><span style='color:#0099ff;'>Toxic </span><span style='color:#32cd32;'>love
+</span><span style='color:#0099ff;'>So </span><span style='color:#32cd32;'>listen </span><span style='color:#0099ff;'>to </span><span style='color:#32cd32;'>me </span><span style='color:#0099ff;'>now, </span><span style='color:#32cd32;'>Let's </span><span style='color:#0099ff;'>go
 </span><span style='color:#f39800;'>Yeah woo...
 </span><span style='color:#32cd32;'>Get </span><span style='color:#0099ff;'>ready </span><span style='color:#32cd32;'>for </span><span style='color:#0099ff;'>this </span><span style='color:#32cd32;'>1,2,3
 Here we go！
@@ -3148,8 +3148,8 @@ Here we go！
 
 </span><span style='color:#9933ff;'>滲む暁　重ねた指に</span><span style='color:#32cd32;'>(ハモリ)
 </span><span style='color:#9933ff;'>静かに光る　罪にこごえてる</span><span style='color:#32cd32;'>(ハモリ)
-</span><span style='color:#ffc81b;'>触れて Hot, Hot, Hot
-君に Touch, Touch, Touch
+</span><span style='color:#ffc81b;'>触れて Hot, Hot, Hot</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>君に Touch, Touch, Touch</span><span style='color:#0099ff;'>(ハモリ)
 </span><span style='color:#f39800;'>奪い去りたい</span>
 
 Baby Baby Baby
@@ -3164,10 +3164,10 @@ Hey girl 今すぐ教えて
 </span><span style='color:#32cd32;'>火照る肌に　乱れた髪は
 </span><span style='color:#9933ff;'>ごまかせないよ Yeah Oh Yeah
 
-</span><span style='color:#ffc81b;'>見つめる瞳　こぼれた雫
-今飲み干せば　罪を消せるかな？
-</span><span style='color:#ff66b2;'>まるで Trap, Trap, Trap
-ここに Stuck, Stuck, Stuck
+</span><span style='color:#ffc81b;'>見つめる瞳　こぼれた雫</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ffc81b;'>今飲み干せば　罪を消せるかな？</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>まるで Trap, Trap, Trap</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>ここに Stuck, Stuck, Stuck</span><span style='color:#0099ff;'>(ハモリ)
 </span><span style='color:#f39800;'>もう戻れない </span><span style='color:#0099ff;'>Yeah Let's go</span>
 
 Baby Baby Baby
@@ -6496,8 +6496,8 @@ Ah...見上げれば　ハッキリと見えるだろう
 僕らはずっと夢を描き　進んだ Road
 </span><span style='color:#32cd32;'>くじけそうになったとしても Don't worry
 決して逃げない　険しい道ぐらいが丁度良い
-</span><span style='color:#ff66b2;'>日々日々成長 Step by step　信じる力こそが Make my day
-</span><span style='color:#ffc81b;'>努力は惜しまない　流してきた涙は無駄じゃない
+</span><span style='color:#ee3333;'>日</span><span style='color:#ff66b2;'>々</span><span style='color:#ee3333;'>日</span><span style='color:#ff66b2;'>々</span><span style='color:#ee3333;'>成</span><span style='color:#ff66b2;'>長 </span><span style='color:#ee3333;'>Step </span><span style='color:#ff66b2;'>by </span><span style='color:#ee3333;'>step　</span><span style='color:#ff66b2;'>信</span><span style='color:#ee3333;'>じ</span><span style='color:#ff66b2;'>る</span><span style='color:#ee3333;'>力</span><span style='color:#ff66b2;'>こ</span><span style='color:#ee3333;'>そ</span><span style='color:#ff66b2;'>が </span><span style='color:#ee3333;'>Make </span><span style='color:#ff66b2;'>my </span><span style='color:#ee3333;'>day
+</span><span style='color:#f39800;'>努</span><span style='color:#ffc81b;'>力</span><span style='color:#f39800;'>は</span><span style='color:#ffc81b;'>惜</span><span style='color:#f39800;'>し</span><span style='color:#ffc81b;'>ま</span><span style='color:#f39800;'>な</span><span style='color:#ffc81b;'>い　</span><span style='color:#f39800;'>流</span><span style='color:#ffc81b;'>し</span><span style='color:#f39800;'>て</span><span style='color:#ffc81b;'>き</span><span style='color:#f39800;'>た</span><span style='color:#ffc81b;'>涙</span><span style='color:#f39800;'>は</span><span style='color:#ffc81b;'>無</span><span style='color:#f39800;'>駄</span><span style='color:#ffc81b;'>じ</span><span style='color:#f39800;'>ゃ</span><span style='color:#ffc81b;'>な</span><span style='color:#f39800;'>い
 </span><span style='color:#0099ff;'>テッペンを目指す僕らは Chaser　光求め掲げる Hands up
 諦めない NO NO NO　ただ今は前へ GO GO GO GO
 
@@ -11592,8 +11592,8 @@ Let's go！
 
 <span style='color:#ffc81b;'>Hey！ We can shake it up！</span><span style='color:#9933ff;'>(ハモリ)
 </span><span style='color:#ffc81b;'>君の思うまま Shake it up！</span><span style='color:#9933ff;'>(ハモリ)</span>
-Yeah...<span style='color:#f39800;'>(One time)</span>
-Oh...<span style='color:#f39800;'>(Two time)
+Yeah...<span style='color:#ffc81b;'>(One time)</span>
+Oh...<span style='color:#ffc81b;'>(Two time)
 </span><span style='color:#f39800;'>Hey！ Bouncin' up & down！</span><span style='color:#9933ff;'>(ハモリ)
 </span><span style='color:#f39800;'>もっと行こうまた Up & Down</span><span style='color:#9933ff;'>(ハモリ)</span>
 Yeah...
@@ -13622,9 +13622,9 @@ Fu Fu Fu
 </span><span style='color:#32cd32;'>3.2.1で　ハイ、ポーズ！</span>
 
 せーの！で　オメデトウ♪
-<span style='color:#ffc81b;'>Happy Birthday, </span><span style='color:#f39800;'>Happy Birtday
-</span><span style='color:#ff66b2;'>最高の君に告ぐ
-</span><span style='color:#9933ff;'>“It's your Happy Birthday,
+<span style='color:#ffc81b;'>Happy Birthday, </span><span style='color:#f39800;'>Happy Birtday</span>
+最高の君に告ぐ
+<span style='color:#9933ff;'>“It's your Happy Birthday,
 </span><span style='color:#ff66b2;'>Happy Happy Birthday”</span>
 スペシャルなパレード
 <span style='color:#ee3333;'>Happy Birthday, </span><span style='color:#32cd32;'>Happy Birthday</span>
@@ -13664,7 +13664,7 @@ Fu Fu Fu
 <span style='color:#ee3333;'>Happy Birthday, </span><span style='color:#f39800;'>Happy Birthday</span>
 最高の君に告ぐ
 <span style='color:#ffc81b;'>“It's your Happy Birthday,
-</span><span style='color:#9933ff;'>Happy Happy Birthday”</span>
+</span><span style='color:#f39800;'>Happy Happy Birthday”</span>
 スペシャルなパレード
 <span style='color:#ff66b2;'>Happy Birthday, </span><span style='color:#0099ff;'>Happy Birthday</span>
 パーティーはそう　終わらない！
@@ -15995,14 +15995,14 @@ I love you　ほら愛ならある
 </span><span style='color:#9933ff;'>何度も何度でも</span>
 さよなら上の空　僕は僕で僕なんだ<span style='color:#0099ff;'>(下ハモ)
 </span><span style='color:#ff66b2;'>間違っちゃいない</span>
-間違っちゃいないんだ</span><span style='color:#9933ff;'>(ハモリ)
+間違っちゃいないんだ</span><span style='color:#f39800;'>(ハモリ)
 
 </span><span style='color:#32cd32;'>ないものねだりタラレバを振り払う
 </span><span style='color:#ffc81b;'>朝の占い　横目で順位気にしてさ
 </span><span style='color:#9933ff;'>理想と現実で結ぶ靴ひも　歩けるかな
 </span><span style='color:#ff66b2;'>教えて近所の青空</span><span style='color:#9933ff;'>(ハモリ)
 
-</span><span style='color:#f39800;'>ぐるぐる渦巻く世界で</span><span style='color:#32cd32;'>(フェイク)　</span><span style='color:#0099ff;'>君が花びら
+</span><span style='color:#f39800;'>ぐるぐる渦巻く世界で　</span><span style='color:#0099ff;'>君が花びら
 </span><span style='color:#ee3333;'>花丸つくれるね</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 間違っちゃいないよな<span style='color:#0099ff;'>(下ハモ)</span>
@@ -16013,7 +16013,7 @@ I love you　ほら愛ならある
 間違ってもいい</span>
 間違ってもいいんだ<span style='color:#9933ff;'>(ハモリ)
 
-</span><span style='color:#ffc81b;'>頑</span><span style='color:#ff66b2;'>張</span><span style='color:#ffc81b;'>れ</span><span style='color:#ff66b2;'>な</span><span style='color:#ffc81b;'>く</span><span style='color:#ff66b2;'>て</span><span style='color:#ffc81b;'>い</span><span style='color:#ff66b2;'>い　</span><span style='color:#ffc81b;'>嫌</span><span style='color:#ff66b2;'>に</span><span style='color:#ffc81b;'>な</span><span style='color:#ff66b2;'>っ</span><span style='color:#ffc81b;'>た</span><span style='color:#ff66b2;'>っ</span><span style='color:#ffc81b;'>て</span><span style='color:#ff66b2;'>い</span><span style='color:#ffc81b;'>い
+</span><span style='color:#ffc81b;'>頑</span><span style='color:#ff66b2;'>張</span><span style='color:#ffc81b;'>れ</span><span style='color:#ff66b2;'>な</span><span style='color:#ffc81b;'>く</span><span style='color:#ff66b2;'>て</span><span style='color:#ffc81b;'>い</span><span style='color:#ff66b2;'>い　</span><span style='color:#ffc81b;'>嫌</span><span style='color:#ff66b2;'>に</span><span style='color:#ffc81b;'>な</span><span style='color:#ff66b2;'>っ</span><span style='color:#ffc81b;'>た</span><span style='color:#ff66b2;'>っ</span><span style='color:#ffc81b;'>て</span><span style='color:#ff66b2;'>い</span><span style='color:#ffc81b;'>い</span><span style='color:#f39800;'>(ハモリ)
 </span><span style='color:#f39800;'>情</span><span style='color:#0099ff;'>け</span><span style='color:#f39800;'>無</span><span style='color:#0099ff;'>く</span><span style='color:#f39800;'>て</span><span style='color:#0099ff;'>い</span><span style='color:#f39800;'>い　</span><span style='color:#0099ff;'>ダ</span><span style='color:#f39800;'>サ</span><span style='color:#0099ff;'>く</span><span style='color:#f39800;'>て</span><span style='color:#0099ff;'>い</span><span style='color:#f39800;'>い　</span><span style='color:#0099ff;'>怖</span><span style='color:#f39800;'>く</span><span style='color:#0099ff;'>な</span><span style='color:#f39800;'>っ</span><span style='color:#0099ff;'>て</span><span style='color:#f39800;'>も</span><span style='color:#0099ff;'>い</span><span style='color:#f39800;'>い
 </span><span style='color:#32cd32;'>どんな自分だっていい
 
@@ -16028,7 +16028,7 @@ I love you　ほら愛ならある
 </span><span style='color:#f39800;'>間違っちゃいないよな</span>
 目が合う近所の空　僕は僕で僕だ<span style='color:#0099ff;'>(下ハモ)</span>
 間違っちゃいない<span style='color:#0099ff;'>(下ハモ)</span>
-間違っちゃいないんだ<span style='color:#0099ff;'>(下ハモ)
+間違っちゃいないんだ<span style='color:#0099ff;'>(下ハモ)</span>
 <span style='color:#ee3333;'>間違っちゃいない</span>
 間違っちゃいないんだ<span style='color:#9933ff;'>(ハモリ)</span>`},{id:139,title:"ANS",titleKana:"ANS",lyricist:"神山智洋・藤井流星",composer:"神山智洋",arranger:"akkin",album:["証拠","証拠[初回B]","AWARD","AWARD[通常盤]"],announce:"t",performances:["W trouble12/12夜,12/13昼{11}","TO BE KANSAI COLOR-翔べ関西から-(東京){13}","TO BE KANSAI COLOR-翔べ関西から-(東京オーラス){13}","LOVE MUSIC FESTIVAL2022{8}","サマソニ2023(大阪,東京){7}","Special Studio Recording(証拠[初回B]){3}"],singer:"WEST.",date:"2020-06-24",lyrics:`wow oh...
 
@@ -23209,7 +23209,7 @@ C'est la vie.
 
 C'est la vie！`,lyricsn:`<span style='color:#0099ff;'>冬が終わって春が来るように
 気づいた時には大人になっていた
-</span><span style='color:#ffc81b;'>いつか僕も誰かの思い出の花瓶の中で</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>いつか僕も誰かの思い出の花瓶の中で</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#9933ff;'>(ハモリ)
 </span><span style='color:#ffc81b;'>枯れてゆくのだろう</span><span style='color:#9933ff;'>(ハモリ)
 
 </span><span style='color:#f39800;'>空白がいつか君になっていた
@@ -23247,17 +23247,17 @@ C'est la vie, c'est la vie！
 </span><span style='color:#ff66b2;'>伸ばした手を拒まれても</span><span style='color:#9933ff;'>(ハモリ)</span>
 うつろいながら続いていく
 
-<span style='color:#ee3333;'>雪</span><span style='color:#f39800;'>が</span><span style='color:#ee3333;'>泥</span><span style='color:#f39800;'>に</span><span style='color:#ee3333;'>な</span><span style='color:#f39800;'>る</span><span style='color:#ee3333;'>よ</span><span style='color:#f39800;'>う</span><span style='color:#ee3333;'>に
-</span><span style='color:#f39800;'>人</span><span style='color:#ee3333;'>が</span><span style='color:#f39800;'>思</span><span style='color:#ee3333;'>い</span><span style='color:#f39800;'>出</span><span style='color:#ee3333;'>に</span><span style='color:#f39800;'>な</span><span style='color:#ee3333;'>る</span><span style='color:#f39800;'>よ</span><span style='color:#ee3333;'>う</span><span style='color:#f39800;'>に
+<span style='color:#ee3333;'>雪</span><span style='color:#f39800;'>が</span><span style='color:#ee3333;'>泥</span><span style='color:#f39800;'>に</span><span style='color:#ee3333;'>な</span><span style='color:#f39800;'>る</span><span style='color:#ee3333;'>よ</span><span style='color:#f39800;'>う</span><span style='color:#ee3333;'>に</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>人</span><span style='color:#ee3333;'>が</span><span style='color:#f39800;'>思</span><span style='color:#ee3333;'>い</span><span style='color:#f39800;'>出</span><span style='color:#ee3333;'>に</span><span style='color:#f39800;'>な</span><span style='color:#ee3333;'>る</span><span style='color:#f39800;'>よ</span><span style='color:#ee3333;'>う</span><span style='color:#f39800;'>に</span><span style='color:#0099ff;'>(ハモリ)
 </span><span style='color:#32cd32;'>僕</span><span style='color:#ff66b2;'>の</span><span style='color:#32cd32;'>心</span><span style='color:#ff66b2;'>の</span><span style='color:#32cd32;'>何</span><span style='color:#ff66b2;'>も</span><span style='color:#32cd32;'>な</span><span style='color:#ff66b2;'>い</span><span style='color:#32cd32;'>場</span><span style='color:#ff66b2;'>所</span><span style='color:#32cd32;'>に</span><span style='color:#0099ff;'>(ハモリ)
 </span><span style='color:#ff66b2;'>君</span><span style='color:#32cd32;'>が</span><span style='color:#ff66b2;'>住</span><span style='color:#32cd32;'>み</span><span style='color:#ff66b2;'>着</span><span style='color:#32cd32;'>い</span><span style='color:#ff66b2;'>て</span><span style='color:#32cd32;'>し</span><span style='color:#ff66b2;'>ま</span><span style='color:#32cd32;'>っ</span><span style='color:#ff66b2;'>た</span><span style='color:#32cd32;'>り</span><span style='color:#ff66b2;'>し</span><span style='color:#32cd32;'>て
 </span><span style='color:#ffc81b;'>全</span><span style='color:#9933ff;'>て</span><span style='color:#ffc81b;'>が</span><span style='color:#9933ff;'>う</span><span style='color:#ffc81b;'>つ</span><span style='color:#9933ff;'>ろ</span><span style='color:#ffc81b;'>っ</span><span style='color:#9933ff;'>て</span><span style='color:#ffc81b;'>い</span><span style='color:#9933ff;'>く
 </span><span style='color:#ffc81b;'>古</span><span style='color:#9933ff;'>い</span><span style='color:#ffc81b;'>自</span><span style='color:#9933ff;'>分</span><span style='color:#ffc81b;'>が</span><span style='color:#9933ff;'>流</span><span style='color:#ffc81b;'>さ</span><span style='color:#9933ff;'>れ</span><span style='color:#ffc81b;'>て</span><span style='color:#9933ff;'>い</span><span style='color:#ffc81b;'>く
-</span><span style='color:#0099ff;'>先の見えない未来に漕ぎ出すこと</span>
+</span><span style='color:#0099ff;'>先の見えない未来に漕ぎ出すこと</span><span style='color:#32cd32;'>(ハモリ)</span>
 怖がらないで進めばいい
 C'est la vie.
 
-C'est la vie！`},{id:200,title:"努力賞",titleKana:"どりょくしょう",lyricist:"syudou",composer:"syudou",arranger:"syudou",album:["Mixed Juice","Mixed Juice[初回A]"],announce:"t",performances:["Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10){8}","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11){8}","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜){8}","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼){8}","Mixed Juice(北海道オーラス){8}"],singer:"WEST.",date:"2022-03-09",lyrics:`努力賞なんて後回し
+</span><span style='color:#0099ff;'>C'est la vie！</span><span style='color:#9933ff;'>(ハモリ)</span>`},{id:200,title:"努力賞",titleKana:"どりょくしょう",lyricist:"syudou",composer:"syudou",arranger:"syudou",album:["Mixed Juice","Mixed Juice[初回A]"],announce:"t",performances:["Mixed Juice(静岡3/20,熊本3/26,宮城4/1,宮城4/2,愛知4/10,愛知4/15,横浜4/28,北海道6/10){8}","Mixed Juice(静岡3/21,熊本3/27,宮城4/3,愛知4/9,大阪4/16,大阪4/17,横浜4/27昼,横浜4/29昼,横浜4/30,城ホ5/5昼,新潟5/15昼,北海道6/11){8}","Mixed Juice(横浜4/27夜,横浜5/1夜,城ホ5/5夜,新潟5/15夜,北海道6/12夜){8}","Mixed Juice(横浜4/29夜,横浜5/1昼,城ホ5/4,新潟5/16,北海道6/12昼){8}","Mixed Juice(北海道オーラス){8}"],singer:"WEST.",date:"2022-03-09",lyrics:`努力賞なんて後回し
 今は勝って満たされたい
 
 もういったい何度言い訳を並べ
@@ -27603,66 +27603,66 @@ Fu......
 喉元すぎるようにそっと
 変わってく季節に
 ため息が溶けてく
-Fu......`,lyricsn:`ずっと頭に鳴り響いてたメロディ
+Fu......`,lyricsn:`<span style='color:#ffc81b;'>ずっと頭に鳴り響いてたメロディ
 気づけばどうしても思い出せない
-アンドゥして拾い出せたらいいのに
+</span><span style='color:#9933ff;'>アンドゥして拾い出せたらいいのに
 
-思わず口から飛び出した言葉と
-忘れたことさえ気付いてない記憶は
-もう取り戻せないって知った
+</span><span style='color:#f39800;'>思わず口から飛び出した言葉と</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>忘れたことさえ気付いてない記憶は</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>もう取り戻せないって知った</span><span style='color:#0099ff;'>(ハモリ)
 
 いつのまにかこんなに
 遠くまで来たんだなんて
 感慨はなくもないけど今は
-日当たり悪い窓辺に
-置いたままにしてしまった
-あの花が気がかりだ
+</span><span style='color:#ee3333;'>日当たり悪い窓辺に</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>置いたままにしてしまった</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>あの花が気がかりだ</span><span style='color:#9933ff;'>(ハモリ)</span>
 
 車窓の向こうに閃いた
 焦燥に目を逸らしたんだ
-行き場をなくした言葉が
-降り積もって出口塞いでく
+<span style='color:#f39800;'>行</span><span style='color:#ff66b2;'>き</span><span style='color:#f39800;'>場</span><span style='color:#ff66b2;'>を</span><span style='color:#f39800;'>な</span><span style='color:#ff66b2;'>く</span><span style='color:#f39800;'>し</span><span style='color:#ff66b2;'>た</span><span style='color:#f39800;'>言</span><span style='color:#ff66b2;'>葉</span><span style='color:#f39800;'>が
+</span><span style='color:#ff66b2;'>降</span><span style='color:#f39800;'>り</span><span style='color:#ff66b2;'>積</span><span style='color:#f39800;'>も</span><span style='color:#ff66b2;'>っ</span><span style='color:#f39800;'>て</span><span style='color:#ff66b2;'>出</span><span style='color:#f39800;'>口</span><span style='color:#ff66b2;'>塞</span><span style='color:#f39800;'>い</span><span style='color:#ff66b2;'>で</span><span style='color:#f39800;'>く</span>
 「もしあの時もっと...」
 脳裏に響く声に
 打ち込まれたままのパイルが
-ふらつきだしてまた
+<span style='color:#32cd32;'>ふらつきだしてまた
 ため息に溺れる
 Fu......
 
-知らなくてもいいようなことばかりを
-溜め込んでいつでも容量不足
-大事なことも見えなくなって
+</span><span style='color:#ee3333;'>知らなくてもいいようなことばかりを</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>溜め込んでいつでも容量不足</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>大事なことも見えなくなって</span><span style='color:#0099ff;'>(ハモリ)
 
 窓に映る自分を
 ぼんやり眺めてると
 考え過ぎの癖のせいでまた
-浮かんでは消えてゆく
-答えのない問いかけに
-当てもなく沈み込んでく
+</span><span style='color:#f39800;'>浮かんでは消えてゆく</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>答えのない問いかけに</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>当てもなく沈み込んでく</span><span style='color:#9933ff;'>(ハモリ)</span>
 
 虚像の向こうに煌めいた
 希望に目を凝らしたんだ
-未来はいつまでもずっと
-未来のままで揺らいでる
+</span><span style='color:#32cd32;'>未</span><span style='color:#9933ff;'>来</span><span style='color:#32cd32;'>は</span><span style='color:#9933ff;'>い</span><span style='color:#32cd32;'>つ</span><span style='color:#9933ff;'>ま</span><span style='color:#32cd32;'>で</span><span style='color:#9933ff;'>も</span><span style='color:#32cd32;'>ず</span><span style='color:#9933ff;'>っ</span><span style='color:#32cd32;'>と
+</span><span style='color:#9933ff;'>未</span><span style='color:#32cd32;'>来</span><span style='color:#9933ff;'>の</span><span style='color:#32cd32;'>ま</span><span style='color:#9933ff;'>ま</span><span style='color:#32cd32;'>で</span><span style='color:#9933ff;'>揺</span><span style='color:#32cd32;'>ら</span><span style='color:#9933ff;'>い</span><span style='color:#32cd32;'>で</span><span style='color:#9933ff;'>る</span>
 通りすぎた場所に
 手を伸ばしてるより
-打ち込まれたままのパイルを
+<span style='color:#ffc81b;'>打ち込まれたままのパイルを
 握ってる力を少しずつ緩めて
 
-ドアが閉まる
-列車は次の駅へと
-違う景色が流れてゆく
+</span><span style='color:#9933ff;'>ドアが閉まる
+</span><span style='color:#ee3333;'>列車は次の駅へと
+</span><span style='color:#32cd32;'>違う景色が流れてゆく</span>
 
 車窓の向こうに閃いた
 焦燥に目を逸らしたんだ
-行き場をなくした言葉が
-新しいメロディ紡いでく
+<span style='color:#ee3333;'>行き場をなくした言葉が
+新しいメロディ紡いでく</span>
 こんな日々もきっと
 温かく思えるよ
 喉元すぎるようにそっと
 変わってく季節に
 ため息が溶けてく
-Fu......`},{id:238,title:"絶体絶命",titleKana:"ぜったいぜつめい",lyricist:"杉山勝彦",composer:"杉山勝彦・佐々木”コジロー”貴之",arranger:"佐々木”コジロー”貴之",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`絶体絶命 / Beautiful / AS ONE[初回A]（Music Video, Making, Music Video-Dance Ver.-）
+<span style='color:#ff66b2;'>Fu......</span>`},{id:238,title:"絶体絶命",titleKana:"ぜったいぜつめい",lyricist:"杉山勝彦",composer:"杉山勝彦・佐々木”コジロー”貴之",arranger:"佐々木”コジロー”貴之",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`絶体絶命 / Beautiful / AS ONE[初回A]（Music Video, Making, Music Video-Dance Ver.-）
 YouTube（Music Vudeo YouTube Ver.）
 YouTube（Music Vudeo -Dance Ver.- YouTube Ver.）`,performances:["AWARD(大阪){10}","AWARD(新潟){10}","AWARD(宮城){10}","AWARD(愛知){10}","AWARD(横浜,静岡,福岡,広島,北海道){10}","AWARD(北海道オーラス){10}","DOME TOUR AWARD(大阪,福岡){20}","DOME TOUR AWARD(東京){21}","DOME TOUR AWARD(東京オーラス){21}"],singer:"WEST.",date:"2023-10-25",tiup:"テレビ朝日系 オシドラサタデー『単身花日』主題歌",lyrics:`良い人とか呼ぶなって
 僕はそんな良いヤツじゃない
@@ -27726,68 +27726,68 @@ YouTube（Music Vudeo -Dance Ver.- YouTube Ver.）`,performances:["AWARD(大阪)
 
 この痛みに　愛情以外
 何があるの？
-ただ君が欲しいだけ`,lyricsn:`良い人とか呼ぶなって
+ただ君が欲しいだけ`,lyricsn:`<span style='color:#ee3333;'>良い人とか呼ぶなって
 僕はそんな良いヤツじゃない
-そこ止まりの人と
+</span><span style='color:#ffc81b;'>そこ止まりの人と
 ラベルを貼るのやめろって
-秒針の音も胸の鼓動も耳障りだ
-君がすぐに返事をしないせいで壊れそうだ
+</span><span style='color:#f39800;'>秒針の音も胸の鼓動も耳障りだ</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#9933ff;'>君がすぐに返事をしないせいで壊れそうだ
 
-眠れない　僕の知らない　誰かの指で
-悶える君が　浮かんで消える
-ひとり見上げる夜空に
-やけに綺麗な月とかいらない Ah
+</span><span style='color:#ff66b2;'>眠れない　僕の知らない　誰かの指で</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>悶える君が　浮かんで消える</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>ひとり見上げる夜空に
+</span><span style='color:#0099ff;'>やけに綺麗な月とかいらない Ah</span><span style='color:#32cd32;'>(ハモリ)
 届かない願いなら
-壊してしまいたい
+壊してしまいたい</span>
 
 今夜　絶体絶命
 愛せば愛すほどに
-君を遠く感じて　狂おしくなる
-どうせ僕だけでしょう？
+<span style='color:#ee3333;'>君を遠く感じて　狂おしくなる
+どうせ僕だけでしょう？</span><span style='color:#9933ff;'>(ハモリ)</span>
 現在進行形
 どうしてフリーじゃない女性(ヒト)
-奪いたい癖(ヘキ)とか
-全然ないって
+<span style='color:#ffc81b;'>奪いたい癖(ヘキ)とか
+全然ないって</span>
 ただ君が欲しいだけ
 
-僕は君にとって
+<span style='color:#0099ff;'>僕は君にとって
 さみしい時だけの存在かい？
-それってもしかして　都合の良い男性(ヒト)
+それってもしかして　都合の良い男性(ヒト)</span><span style='color:#32cd32;'>(ハモリ)
 
-ね、良いの？　そんな僕を信用して
-胸のホクロさえも知ってるのに
-違う　そんな　君を脅すワケ
-ないよ　ただね　少し逢いたいだけ
+</span><span style='color:#ff66b2;'>ね、良いの？　そんな僕を信用して
+</span><span style='color:#9933ff;'>胸のホクロさえも知ってるのに
+</span><span style='color:#32cd32;'>違う　そんな　君を脅すワケ
+</span><span style='color:#f39800;'>ないよ　ただね　少し逢いたいだけ
 
-信じたい　僕の目を見て
+</span><span style='color:#32cd32;'>信じたい　僕の目を見て
 はじめて本気になったよと言ってた
-あの日の君を
-いくら飲んでも酔えない夜に限って
-飲まずにいられない Ah
-行くあてのない感情
-飲み干してしまいたい
+あの日の君を</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>いくら飲んでも酔えない夜に限って
+飲まずにいられない Ah</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>行くあてのない感情
+飲み干してしまいたい</span>
 
 今夜　絶体絶命
 どうしても止まれない
-独りで果てたってさ　消えるわけないのに
-あの肌の感触
+<span style='color:#ffc81b;'>独りで果てたってさ　消えるわけないのに
+あの肌の感触</span><span style='color:#ff66b2;'>(ハモリ)</span>
 目一杯説明
 なんていらない抱きしめて
-それよりも何よりも　抱きしめさせて
-僕だけの女性(ヒト)でいて
+<span style='color:#f39800;'>それよりも何よりも　抱きしめさせて
+僕だけの女性(ヒト)でいて</span>
 
 絶体絶命
 愛せば愛すほどに
-君を遠く感じて　狂おしくなる
-どうせ僕だけでしょう？
+<span style='color:#9933ff;'>君を遠く感じて　狂おしくなる
+どうせ僕だけでしょう？</span><span style='color:#32cd32;'>(ハモリ)</span>
 一体全体さ
 ルールなんかで止まれるの？
-そうじゃないのが愛だって
-教えたくせに
+<span style='color:#ffc81b;'>そうじゃないのが愛だって
+教えたくせに</span>
 知らなけりゃ良かったよ
 
-この痛みに　愛情以外
-何があるの？
+<span style='color:#ee3333;'>この痛みに　愛情以外
+何があるの？</span>
 ただ君が欲しいだけ`},{id:239,title:"Beautiful",titleKana:"Beautiful",lyricist:"栗原暁(Jazzin'park)",composer:"栗原暁(Jazzin'park)・前田佑",arranger:"前田佑",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回A]","絶体絶命 / Beautiful / AS ONE[初回B]","絶体絶命 / Beautiful / AS ONE[初回C]","絶体絶命 / Beautiful / AS ONE[通常盤]","AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`絶体絶命 / Beautiful / AS ONE[初回B]（Music Video, Making, Music Video-Dance Ver.-）
 YouTube（Music Vudeo YouTube Ver.）
 YouTube（Dance Practice）`,performances:["AWARD(大阪){5}","AWARD(新潟){5}","AWARD(宮城){5}","AWARD(愛知){5}","AWARD(横浜,静岡,福岡,広島,北海道){5}","AWARD(北海道オーラス){5}","DOME TOUR AWARD(大阪,福岡){7}","DOME TOUR AWARD(東京){7}","DOME TOUR AWARD(東京オーラス){7}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){13}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){13}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){13}"],singer:"WEST.",date:"2023-10-25",tiup:"ABCテレビ・テレビ朝日系ドラマ『18歳、新妻、不倫します』主題歌",lyrics:`Sha La La
@@ -27870,78 +27870,78 @@ You're Beautiful Beautiful
 Beautiful Beautiful
 You're Beautiful Beautiful`,lyricsn:`Sha La La
 Love is automatic　逆らえない...
-思わず息を呑んだ
+<span style='color:#0099ff;'>思わず息を呑んだ</span>
 
 Beautiful Beautiful
 You're Beautiful Beautiful
 Beautiful Beautiful
 You're Beautiful Beautiful
 
-ないものばかり　探してる
+<span style='color:#f39800;'>ないものばかり　探してる
 纏った涙は何色？
-誰かじゃなくてキミの運命はどこ
-What do you really want？
+</span><span style='color:#ffc81b;'>誰かじゃなくてキミの運命はどこ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>What do you really want？</span><span style='color:#9933ff;'>(ハモリ)
 
-Why…　自由なほど不自由で
+</span><span style='color:#ff66b2;'>Why…　自由なほど不自由で
 危険なほど気になって
-「出口はこちらへどうぞ」
-自分見失うくらいなら
+</span><span style='color:#32cd32;'>「出口はこちらへどうぞ」
+</span><span style='color:#ee3333;'>自分見失うくらいなら
 ちゃんと欲しがればいいさ
 
-本当のキミは隠せない
-てゆうか　隠さなくて良い
-裸の瞳　吸い込まれてゆく
-Secret...　ひとさし指　約束
+</span><span style='color:#9933ff;'>本当のキミは隠せない</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>てゆうか　隠さなくて良い
+</span><span style='color:#9933ff;'>裸の瞳</span><span style='color:#32cd32;'>(ハモリ)　</span><span style='color:#0099ff;'>吸い込まれてゆく
+</span><span style='color:#ff66b2;'>Secret...　ひとさし指　約束</span>
 
 Sha La La
 Love is automatic　逆らえない...
-思わず息を呑んだ Your lips
+<span style='color:#0099ff;'>思わず息を呑んだ Your lips</span>
 たとえ全て失っても　確かにキミを
-抱きしめるよ...
+<span style='color:#ee3333;'>抱きしめるよ...
 
-Bitter or Sweet！？
+</span><span style='color:#32cd32;'>Bitter or Sweet！？
 どんなオレが欲しい！？
-Don't wait and see
+Don't </span><span style='color:#0099ff;'>wait </span><span style='color:#32cd32;'>and </span><span style='color:#0099ff;'>see
 おあずけとか無理
 Crazy baby... Let's kiss
 
-いつも誰かと比べてない？
+</span><span style='color:#9933ff;'>いつも誰かと比べてない？
 気にしないオレSuit & tie
-大切なのは今日も
-昨日より上手く笑うことさ
+</span><span style='color:#f39800;'>大切なのは今日も
+昨日より上手く笑うことさ</span><span style='color:#ff66b2;'>(ハモリ)
 
-Love...　近づくほど遠のいて
+</span><span style='color:#32cd32;'>Love...　近づくほど遠のいて
 期待するほど不安で
-「入口はこちらですよ」
-無防備なほどに守りたい
+</span><span style='color:#ffc81b;'>「入口はこちらですよ」
+</span><span style='color:#0099ff;'>無防備なほどに守りたい
 そのままでいればいいよ
 
-本当のオレも隠せない
-てゆうか　隠さなくて良い
-裸の瞳　ちゃんとこっちを見て
-Don't move...　触れた頬　色づく
+</span><span style='color:#ee3333;'>本当のオレも隠せない</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>てゆうか　隠さなくて良い
+</span><span style='color:#ee3333;'>裸の瞳</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#ff66b2;'>ちゃんとこっちを見て
+</span><span style='color:#ffc81b;'>Don't move...　触れた頬　色づく</span>
 
 Sha La La
 Love is automatic　逆らえない...
-思わず息を呑んだ Your lips
+<span style='color:#9933ff;'>思わず息を呑んだ Your lips</span>
 たとえ全て失っても　確かにキミを
 
-一番近くで...
-キミを見ていたんだ
-何度触れたって...
-まだ足りなくて
-生まれ変わってもキミがいい
-どんな明日が待っていても
+<span style='color:#ee3333;'>一番近くで...
+</span><span style='color:#9933ff;'>キミを見ていたんだ
+</span><span style='color:#ff66b2;'>何度触れたって...
+</span><span style='color:#f39800;'>まだ足りなくて
+</span><span style='color:#ffc81b;'>生まれ変わってもキミがいい
+</span><span style='color:#32cd32;'>どんな明日が待っていても</span>
 
 誰も邪魔できない　邪魔させない
-迷わず愛したいんだ This love
+<span style='color:#ee3333;'>迷わず愛したいんだ This love</span>
 キミがいるこの世界ごと
-奪い去りたい
+<span style='color:#9933ff;'>奪い去りたい</span>
 Sha La La
 Love is automatic　逆らえない...
-思わず息を呑んだ Your lips
+<span style='color:#f39800;'>思わず息を呑んだ Your lips</span>
 たとえ全て失っても　確かにキミを
-抱きしめるよ...
+<span style='color:#0099ff;'>抱きしめるよ...</span>
 
 Beautiful Beautiful
 You're Beautiful Beautiful
@@ -28007,61 +28007,61 @@ Oh
 go！ go！ go！
 
 届け僕らの願い(シュート)！
-go！ go！ goal！`,lyricsn:`何度立ち上がってきただろう
+go！ go！ goal！`,lyricsn:`<span style='color:#9933ff;'>何度立ち上がってきただろう
 ここで終われるわけないと
-悔しさは明日へのアンセム
+</span><span style='color:#f39800;'>悔しさは明日へのアンセム
 心の支えは君の呼ぶ声
 
-強いから勝つんじゃない
-勝者がいつだって強い
-笑いあうその日まで
-諦める理由探すのやめて
-挑み続けるよ
-そう何度でも
+</span><span style='color:#0099ff;'>強いから勝つんじゃない</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#0099ff;'>勝者がいつだって強い</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>笑いあうその日まで
+</span><span style='color:#32cd32;'>諦める理由探すのやめて</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>挑み続けるよ
+そう何度でも</span>
 
 Oh
-君と描くHistory
+<span style='color:#ff66b2;'>君と描くHistory</span>
 Oh
-BE AS ONE
+<span style='color:#32cd32;'>BE AS ONE</span>
 
 揺らせgo！ go！ goal！
 最高の景色を目指して
 最後の最後の一秒まで共にゆこう
-刻め忘れ得ぬ時代を
-パッションは群青
-オオゾラアガレ愛
+</span><span style='color:#ffc81b;'>刻</span><span style='color:#32cd32;'>め</span><span style='color:#0099ff;'>忘</span><span style='color:#ffc81b;'>れ</span><span style='color:#32cd32;'>得</span><span style='color:#0099ff;'>ぬ</span><span style='color:#ffc81b;'>時</span><span style='color:#32cd32;'>代</span><span style='color:#0099ff;'>を
+</span><span style='color:#ee3333;'>パ</span><span style='color:#f39800;'>ッ</span><span style='color:#9933ff;'>シ</span><span style='color:#ee3333;'>ョ</span><span style='color:#f39800;'>ン</span><span style='color:#9933ff;'>は</span><span style='color:#ee3333;'>群</span><span style='color:#f39800;'>青
+</span><span style='color:#9933ff;'>オ</span><span style='color:#ee3333;'>オ</span><span style='color:#f39800;'>ゾ</span><span style='color:#9933ff;'>ラ</span><span style='color:#ee3333;'>ア</span><span style='color:#f39800;'>ガ</span><span style='color:#9933ff;'>レ</span><span style='color:#ee3333;'>愛</span>
 Oh
-君の思い
-繋げる　未来へと
+<span style='color:#ff66b2;'>君の思い
+繋げる　未来へと</span>
 届け僕らの願い(シュート)！
 go！ go！ goal！
 
-今日を頑張ったって
+<span style='color:#0099ff;'>今日を頑張ったって
 誰かに褒められたいからじゃない
-心は誤魔化せない鏡さ
+</span><span style='color:#32cd32;'>心は誤魔化せない鏡さ
 僕ららしくいたい　昨日よりもっと
 
-傷つきたいわけじゃない
-傷つけたいわけじゃない
-だから強くありたい
-焦り苛立ちもがく日々でも
-夜明けは来るんだ
-そう何度でも
+</span><span style='color:#f39800;'>傷つきたいわけじゃない</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#f39800;'>傷つけたいわけじゃない</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#9933ff;'>だから強くありたい
+</span><span style='color:#ff66b2;'>焦り苛立ちもがく日々でも</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>夜明けは来るんだ
+そう何度でも</span>
 
 Oh
-一人一人が奇跡
+<span style='color:#ee3333;'>一人一人が奇跡</span>
 Oh
-BE AS ONE
+<span style='color:#ff66b2;'>BE AS ONE</span>
 
 掴めgo！ go！ goal！
 最高の景色を目指して
 最後の最後の一秒まで共にゆこう
-歌え忘れ得ぬ夢を
-エモーションは金青
-オオゾラアガレ愛
+<span style='color:#ffc81b;'>歌</span><span style='color:#32cd32;'>え</span><span style='color:#0099ff;'>忘</span><span style='color:#ffc81b;'>れ</span><span style='color:#32cd32;'>得</span><span style='color:#0099ff;'>ぬ</span><span style='color:#ffc81b;'>夢</span><span style='color:#32cd32;'>を
+</span><span style='color:#f39800;'>エ</span><span style='color:#9933ff;'>モ</span><span style='color:#ff66b2;'>ー</span><span style='color:#f39800;'>シ</span><span style='color:#9933ff;'>ョ</span><span style='color:#ff66b2;'>ン</span><span style='color:#f39800;'>は</span><span style='color:#9933ff;'>金</span><span style='color:#ff66b2;'>青
+</span><span style='color:#f39800;'>オ</span><span style='color:#9933ff;'>オ</span><span style='color:#ff66b2;'>ゾ</span><span style='color:#f39800;'>ラ</span><span style='color:#9933ff;'>ア</span><span style='color:#ff66b2;'>ガ</span><span style='color:#f39800;'>レ</span><span style='color:#9933ff;'>愛</span>
 Oh
-君の思い
-駆けだす　未来へと
+<span style='color:#ee3333;'>君の思い
+駆けだす　未来へと</span>
 叫べ僕らの衝動
 go！ go！ go！
 
@@ -28098,30 +28098,30 @@ go！ go！ goal！`},{id:241,title:"超きっと大丈夫",titleKana:"ちょう
 そうきっと大丈夫
 
 美しい　美しい　君は何より美しい
-笑ってる　笑ってる　最後に君が笑ってる`,lyricsn:`くだらない明日ってなんだろう
+笑ってる　笑ってる　最後に君が笑ってる`,lyricsn:`<span style='color:#0099ff;'>くだらない明日ってなんだろう
 みっともない明日ってなんだろう
-おんなじ　おんなじ事で悩んでる
-知らない誰かになってみるなら
+</span><span style='color:#ff66b2;'>おんなじ　おんなじ事で悩んでる
+</span><span style='color:#32cd32;'>知らない誰かになってみるなら
 知らない明日を生きてみるのさ
-終わり　そんな事言うなよ
+</span><span style='color:#ffc81b;'>終わり　そんな事言うなよ
 
-笑ってる　笑ってる　いっせーのーせーエイエイオー
+</span><span style='color:#9933ff;'>笑ってる　笑ってる　いっせーのーせー</span>エイエイオー
 
 おまたせしました　ジャジャーン登場さ応援団！
-見える　見える　君が笑ってる
-悲しい言葉など　似合わないから
-超きっと大丈夫　もういっちょ大丈夫
+<span style='color:#ee3333;'>見える　見える　君が笑ってる
+</span><span style='color:#f39800;'>悲しい言葉など　似合わないから
+超きっと大丈夫　もういっちょ大丈夫</span>
 そうきっと大丈夫
 
-くだらない明日ってなんだろう
-みっともない明日ってなんだろう
+<span style='color:#ee3333;'>くだらない明日ってなんだろう
+みっともない明日ってなんだろう</span>
 おんなじ　終わりのない日々に
 
-おまたせしました　ジャジャーン登場さ応援団！
-言える　言える　君は頑張ってる
-押してもダメならば引いてみようか
-そんな事言わない　超一緒に押してやる
-超きっと大丈夫　超一緒に生きてやる　さぁ行け
+<span style='color:#9933ff;'>おまたせしました　ジャジャーン登場さ応援団！
+</span><span style='color:#ffc81b;'>言える　言える　君は頑張ってる
+</span><span style='color:#32cd32;'>押してもダメならば引いてみようか
+</span><span style='color:#0099ff;'>そんな事言わない　超一緒に押してやる
+</span><span style='color:#f39800;'>超きっと大丈夫　超一緒に生きてやる</span>　さぁ行け
 
 おもいっきり　ジャジャーンプで登場さ応援団！
 見える　見える　君が笑ってる
@@ -28129,8 +28129,8 @@ go！ go！ goal！`},{id:241,title:"超きっと大丈夫",titleKana:"ちょう
 超きっと大丈夫　もういっちょ大丈夫
 そうきっと大丈夫
 
-美しい　美しい　君は何より美しい
-笑ってる　笑ってる　最後に君が笑ってる`},{id:242,title:"POP&POP",titleKana:"POP&POP",lyricist:"meiyo",composer:"meiyo",arranger:"平田洋一郎",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回B]"],announce:"f",performances:[],singer:"WEST.",date:"2023-10-25",lyrics:`Get Up！Get Up！Get Up！Get Up！Pop&Pop！
+<span style='color:#ee3333;'>美しい　美しい　君は何より美しい
+</span><span style='color:#ff66b2;'>笑ってる　笑ってる</span>　最後に君が笑ってる`},{id:242,title:"POP&POP",titleKana:"POP&POP",lyricist:"meiyo",composer:"meiyo",arranger:"平田洋一郎",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回B]"],announce:"f",performances:[],singer:"WEST.",date:"2023-10-25",lyrics:`Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 踏み出せばOK！
 
 あぁもうまたウッカリ　落ちてしまうことばかりコリゴリ
@@ -28192,60 +28192,60 @@ Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 それだけでOK！`,lyricsn:`Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 踏み出せばOK！
 
-あぁもうまたウッカリ　落ちてしまうことばかりコリゴリ
+<span style='color:#ffc81b;'>あぁもうまたウッカリ　落ちてしまうことばかりコリゴリ
 自分で自分のご機嫌取り　とりあえずまた来る明日
 いつも通り　無問題
-ハッ！と気付いたらまた　大胆に本末転倒
+</span><span style='color:#0099ff;'>ハッ！と気付いたらまた　大胆に本末転倒
 嫌んなる本当…ってかいつになりゃ
 ブラックなんて頼める大人になれるんだ？
 
-涙目でも　ダメダメでも
+</span><span style='color:#32cd32;'>涙目でも　ダメダメでも
 僕だけは君の味方、なんて
 柄じゃないけど
 
-パッパレ！
+</span><span style='color:#ff66b2;'>パッパレ！</span>
 なんもかんも忘れて Be alright！
 もうあんなことこんなこと Dreams come true！
-案外そのまんまで良いんじゃない？　パラッパッパッパッパ！
+<span style='color:#f39800;'>案外そのまんまで良いんじゃない？　パラッパッパッパッパ！</span>
 
 Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 踏み出せばOK！
 
-あれやこれや夢や妄想の類じゃマズいか？
+<span style='color:#ee3333;'>あれやこれや夢や妄想の類じゃマズいか？
 現実に向き合うか…
 なんか上手いこと説得されてばっかりじゃないか！？
-いつからこんなに難しくなった？
+</span><span style='color:#9933ff;'>いつからこんなに難しくなった？
 淡々生きる毎日の散々だこと
 やることなすこと希望に溢れた時代に縋ってたってもう
 
-君とふたり　取り留めのない
+</span><span style='color:#ffc81b;'>君とふたり　取り留めのない
 言葉も一つずつ拾いあえば
 無くさないでしょ？
 
-パッパレ！
+</span><span style='color:#f39800;'>パッパレ！</span>
 簡単なことだぜ Be alright！
 困難も楽しめたら Dreams come true！
-今日はダメだっても良いんじゃない？　パラッパッパッパッパ！
+<span style='color:#32cd32;'>今日はダメだっても良いんじゃない？　パラッパッパッパッパ！</span>
 
 Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 笑えばOK！
 
-間違いなんて一つもない
+<span style='color:#ff66b2;'>間違いなんて一つもない
 心が歌い出すフレーズを
-ただ真っ直ぐに飛ばそう
-それだけ
+</span><span style='color:#ee3333;'>ただ真っ直ぐに飛ばそう
+それだけ</span>
 
 パッパレ！
 なんもかんも忘れて Be alright！
 もうあんなことこんなこと Dreams come true！
-案外そのまんまで良いんじゃない？　パラッパッパッパッパ！
+<span style='color:#9933ff;'>案外そのまんまで良いんじゃない？　パラッパッパッパッパ！</span>
 
 Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 踏み出せばOK！
 
 La La La…
 
-自分のことほど分かんない　そのくらいで良い！
+<span style='color:#f39800;'>自分のことほど分かんない　そのくらいで良い！</span>
 
 Get Up！Get Up！Get Up！Get Up！Pop&Pop！
 それだけでOK！`},{id:243,title:"BOYFRIEND",titleKana:"BOYFRIEND",lyricist:"神山智洋",composer:"神山智洋",arranger:"井上薫",translate:"D&H(PURPLE NIGHT)",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[初回C]"],announce:"f",performances:[],singer:"WEST.",date:"2023-10-25",lyrics:`I got the lightning shock yea
@@ -28315,73 +28315,73 @@ You got me all over this game of love
 (Feelin' me right now)
 I can't do anything without you
 Would you be my girl？
-Wanna be your boyfriend now`,lyricsn:`I got the lightning shock yea
+Wanna be your boyfriend now`,lyricsn:`<span style='color:#ee3333;'>I got the lightning shock yea
 Your beauty caught my eyes
-What're you looking for？
+</span><span style='color:#f39800;'>What're you looking for？
 よそ見しないで
 I'm all yours alright
-I can't breath cause of ya
-Our time is ticking
-Tell me about you babe
-どうしたらいい？
-My heart is pounding
-What'd you do to me？
+</span><span style='color:#ff66b2;'>I can't breath cause of ya</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>Our time is ticking</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>Tell me about you babe</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>どうしたらいい？</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>My heart is pounding</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>What'd you do to me？</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 I can't control
 My head is full of ya
-Can't you feel it now？
+<span style='color:#9933ff;'>Can't you feel it now？</span>
 I can't do anything without you
-Would you be my...
-Sending the sign for you
-Start with the letter “L”
+<span style='color:#32cd32;'>Would you be my...
+</span><span style='color:#ffc81b;'>Sending the sign for you
+Start with the letter “L”</span>
 All you gotta say is “YES”
 Would you be my girl？
-Wanna be your boyfriend now
+<span style='color:#f39800;'>Wanna be your boyfriend now</span><span style='color:#9933ff;'>(ハモリ)
 
-なんかフワフワすんだ
-何も喉を通らない
-これがいわゆる恋煩いってやつか
-教えてよ
-君の好きを好きになりたいから
-ビビッと来た
-僕らを結ぶ赤い糸
+</span><span style='color:#32cd32;'>なんかフワフワすんだ
+</span><span style='color:#ee3333;'>何も喉を通らない
+こ</span><span style='color:#32cd32;'>れ</span><span style='color:#ee3333;'>が</span><span style='color:#32cd32;'>い</span><span style='color:#ee3333;'>わ</span><span style='color:#32cd32;'>ゆ</span><span style='color:#ee3333;'>る</span><span style='color:#32cd32;'>恋</span><span style='color:#ee3333;'>煩</span><span style='color:#32cd32;'>い</span><span style='color:#ee3333;'>っ</span><span style='color:#32cd32;'>て</span><span style='color:#ee3333;'>や</span><span style='color:#32cd32;'>つ</span><span style='color:#ee3333;'>か
+</span><span style='color:#ffc81b;'>教えてよ
+</span><span style='color:#0099ff;'>君の好きを好きになりたいから
+</span><span style='color:#ffc81b;'>ビ</span><span style='color:#0099ff;'>ビ</span><span style='color:#ffc81b;'>ッ</span><span style='color:#0099ff;'>と</span><span style='color:#ffc81b;'>来</span><span style='color:#0099ff;'>た
+</span><span style='color:#ffc81b;'>僕</span><span style='color:#0099ff;'>ら</span><span style='color:#ffc81b;'>を</span><span style='color:#0099ff;'>結</span><span style='color:#ffc81b;'>ぶ</span><span style='color:#0099ff;'>赤</span><span style='color:#ffc81b;'>い</span><span style='color:#0099ff;'>糸</span>
 
 You got me all over this game of love
-Feelin' me right now
+<span style='color:#f39800;'>Feelin' me right now</span>
 I can't do anything without you
-Would you be my...
-Even I see you in my dream
-I'll say the start with “L”
+<span style='color:#9933ff;'>Would you be my...
+</span><span style='color:#ff66b2;'>Even I see you in my dream
+I'll say the start with “L”</span>
 All you gotta say is “YES”
 Would you be my girl？
-Wanna be your boyfriend now
+<span style='color:#ee3333;'>Wanna be your boyfriend now</span><span style='color:#9933ff;'>(ハモリ)</span>
 
 I just wanna be your boyfriend now
 (Your boyfriend)
 Would you be my girlfriend now？
 (My girlfriend)
-例えばアダムとイヴさ
-どうしようもなく君が好き
+<span style='color:#0099ff;'>例えばアダムとイヴさ
+</span><span style='color:#ff66b2;'>どうしようもなく君が好き</span>
 
 I can't control
 My head is full of ya
-Can't you feel it now？
+<span style='color:#f39800;'>Can't you feel it now？</span>
 I can't do anything without you
-Would you be my...
-Sending the sign for you
-Start with the letter “L”
+<span style='color:#ee3333;'>Would you be my...
+</span><span style='color:#9933ff;'>Sending the sign for you
+Start with the letter “L”</span>
 All you gotta say is “YES”
-Would you be my girl？
+<span style='color:#0099ff;'>Would you be my girl？
 
-I can't control
-My head is full of ya
+</span><span style='color:#ff66b2;'>I can't control
+My head is full of ya</span>
 (Can't you feel it now？)
-I can't do anything without you
+</span><span style='color:#ffc81b;'>I can't do anything without you</span>
 (Would you be my...)
-You got me all over this game of love
+<span style='color:#32cd32;'>You got me all over this game of love</span>
 (Feelin' me right now)
 I can't do anything without you
-Would you be my girl？
+<span style='color:#32cd32;'>Would you be my girl？</span>
 Wanna be your boyfriend now`},{id:244,title:"疲れちゃうや",titleKana:"つかれちゃうや",lyricist:"Kanata Okajima",composer:"Kanata Okajima・ESME MORI",arranger:"ESME MORI",album:["絶体絶命 / Beautiful / AS ONE","絶体絶命 / Beautiful / AS ONE[通常盤]"],announce:"t",performances:["AWARD(大阪){9}","AWARD(新潟){9}","AWARD(宮城){9}","AWARD(愛知){9}","AWARD(横浜,静岡,福岡,広島,北海道){9}","AWARD(北海道オーラス){9}"],singer:"WEST.",date:"2023-10-25",lyrics:`疲れちゃうや
 デタラメの海に
 疲れちゃうや
@@ -28443,68 +28443,68 @@ Only　画面の向こう？
 疲れちゃうや
 わかんないや
 疲れちゃうや
-わかんないや`,lyricsn:`疲れちゃうや
+わかんないや`,lyricsn:`<span style='color:#32cd32;'>疲れちゃうや
 デタラメの海に
 疲れちゃうや
 欲しいのは君と静けさだけ
-また振り出しとか反吐が出るや
+</span><span style='color:#f39800;'>また振り出しとか反吐が出るや
 こんなに無駄に好きだったのに
 
-気づいてる？
+</span><span style='color:#ffc81b;'>気づいてる？
 君＆僕(ぼくら)の世界
 おかげさまで
 微妙なムード
 
-上手く行っていたはずなのに
-目の前にいる君はもう
-Like　画面の向こう
+</span><span style='color:#0099ff;'>上手く行っていたはずなのに</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>目の前にいる君はもう</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>Like　画面の向こう
 
-飲み飽きた珈琲
-無理矢理流し込んで
-なんだか笑えてきた
+</span><span style='color:#ff66b2;'>飲み飽きた珈琲
+無理矢理流し込んで</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>なんだか笑えてきた</span>
 
 疲れちゃうや
-デタラメの海に
+<span style='color:#ee3333;'>デタラメの海に</span><span style='color:#32cd32;'>(ハモリ)</span>
 疲れちゃうや
-欲しいのは君と静けさだけ
-また振り出しとか反吐が出るや
-こんなに無駄に好きだったのに
+<span style='color:#ee3333;'>欲しいのは君と静けさだけ</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>また振り出しとか反吐が出るや
+こんなに無駄に好きだったのに</span><span style='color:#32cd32;'>(ハモリ)
 
-夢見てた
+</span><span style='color:#f39800;'>夢見てた
 いわゆる未来
 “普通”が一番
 何気にむずい
 
-真面目に生きているのに
-信じてる幸せはもう
-Only　画面の向こう？
+</span><span style='color:#ee3333;'>真面目に生きているのに</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ee3333;'>信じてる幸せはもう</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ee3333;'>Only　画面の向こう？
 
-わからないや
-此処はどこだ
-嫌になるや
-僕はどこだ
-わからないや
-此処はどこだ
-嫌になるや
+</span><span style='color:#f39800;'>わからないや
+</span><span style='color:#0099ff;'>此処はどこだ
+</span><span style='color:#ee3333;'>嫌になるや
+</span><span style='color:#9933ff;'>僕はどこだ
+</span><span style='color:#ffc81b;'>わからないや
+</span><span style='color:#ff66b2;'>此処はどこだ
+</span><span style='color:#32cd32;'>嫌になるや
 
-疲れちゃうや
+</span><span style='color:#9933ff;'>疲れちゃうや
 デタラメの海に
 疲れちゃうや
 欲しいのは君と静けさだけ
-また振り出しとか反吐が出るや
-こんなに好きだったのに
+</span><span style='color:#ff66b2;'>また振り出しとか反吐が出るや
+こんなに好きだったのに</span>
 
 疲れちゃうや
-ため息の部屋に
+<span style='color:#0099ff;'>ため息の部屋に</span><span style='color:#32cd32;'>(ハモリ)</span>
 疲れちゃうや
-残った支払いと甘めMemory
-また振り出しとか反吐が出るや
-こんなに無駄に好きだったのに
+<span style='color:#0099ff;'>残った支払いと甘めMemory</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ffc81b;'>また振り出しとか反吐が出るや
+こんなに無駄に好きだったのに</span><span style='color:#32cd32;'>(ハモリ)
 
-疲れちゃうや
-わかんないや
-疲れちゃうや
-わかんないや`},{id:245,title:"AWARD",titleKana:"AWARD",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`AWARD[初回A]（Music Video & Making）
+</span><span style='color:#f39800;'>疲れちゃうや
+</span><span style='color:#ee3333;'>わかんないや
+</span><span style='color:#32cd32;'>疲れちゃうや
+</span><span style='color:#ff66b2;'>わかんないや</span>`},{id:245,title:"AWARD",titleKana:"AWARD",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`AWARD[初回A]（Music Video & Making）
 YouTube（Music Vudeo Short Ver.）`,performances:["AWARD(大阪){2}","AWARD(新潟){2}","AWARD(宮城){2}","AWARD(愛知){2}","AWARD(横浜,静岡,福岡,広島,北海道){2}","AWARD(北海道オーラス){2}","DOME TOUR AWARD(大阪,福岡){2}","DOME TOUR AWARD(東京){2}","DOME TOUR AWARD(東京オーラス){2}","めざまし30周年フェス(東京){2}","10周年生配信トーク＆ライブ「虹会」{1}"],singer:"WEST.",date:"2024-03-13",lyrics:`オリジナルのRUNWAY
 夢　並べてこうぜ
 明日もきっと素敵で賞
@@ -28577,74 +28577,74 @@ Gimme！
 世界一の超幸せ者
 一生がHAPPY AWARD`,lyricsn:`オリジナルのRUNWAY
 夢　並べてこうぜ
-明日もきっと素敵で賞
+<span style='color:#ee3333;'>明日もきっと素敵で賞</span>
 言わせてよ　あえて
 君と出逢えて
-一生がHAPPY AWARD
+<span style='color:#9933ff;'>一生がHAPPY AWARD
 
-「やれば出来る」って？
-分かるけど待って！
-レペゼンマイペースからの3 2 1 でAction！
-「なんでもない日バンザイ！」
-とか言えたら君も天才
-一山超えたらノミネート　毎日Vパレード
+</span><span style='color:#f39800;'>「やれば出来</span>る」って？
+<span style='color:#f39800;'>分かるけど待って！
+</span><span style='color:#0099ff;'>レペゼンマイペースからの3 2 1 で</span>Action！
+<span style='color:#ffc81b;'>「なんでもない日</span>バンザイ！」
+<span style='color:#ffc81b;'>とか言えたら君も</span>天才
+<span style='color:#ee3333;'>一山超えたらノミネート　毎日V</span>パレード
 
-晴れでも雨でも
-君の隣だから
-全部愛しいんじゃない
-オツカレ　ごめんね　アリガト　だいすき
-AWARD
+<span style='color:#9933ff;'>晴れでも雨でも</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>君の隣だから
+</span><span style='color:#ff66b2;'>全部愛しいんじゃない</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>オ</span><span style='color:#9933ff;'>ツ</span><span style='color:#ff66b2;'>カ</span><span style='color:#32cd32;'>レ　</span><span style='color:#9933ff;'>ご</span><span style='color:#ff66b2;'>め</span><span style='color:#32cd32;'>ん</span><span style='color:#9933ff;'>ね　</span><span style='color:#ff66b2;'>ア</span><span style='color:#32cd32;'>リ</span><span style='color:#9933ff;'>ガ</span><span style='color:#ff66b2;'>ト　</span><span style='color:#32cd32;'>だ</span><span style='color:#9933ff;'>い</span><span style='color:#ff66b2;'>す</span><span style='color:#32cd32;'>き
+</span><span style='color:#9933ff;'>A</span><span style='color:#ff66b2;'>W</span><span style='color:#32cd32;'>A</span><span style='color:#9933ff;'>R</span><span style='color:#ff66b2;'>D</span>
 
 オリジナルのRUNWAY
 夢　並べてこうぜ
-明日もきっと素敵で賞
+<span style='color:#0099ff;'>明日もきっと素敵で賞</span>
 言わせてよ　あえて
 君と出逢えて
-一生がHAPPY AWARD
+<span style='color:#f39800;'>一生がHAPPY AWARD
 
-関係各位感謝　つねに新陳代謝
-色々あるけれどバラ色です
-目指せオンリーワンのしわしわ作品賞
-酸いも甘いも抱きしめて Hey！　もう一杯どう？
+</span><span style='color:#ffc81b;'>関係各位感謝　</span><span style='color:#32cd32;'>つねに新陳代謝
+</span><span style='color:#ff66b2;'>色々あるけれど</span>バラ色です
+<span style='color:#0099ff;'>目指せオンリーワンの</span><span style='color:#9933ff;'>しわしわ作品賞
+</span><span style='color:#ee3333;'>酸いも甘いも抱きしめて</span> Hey！　<span style='color:#f39800;'>もう一杯</span>どう？
 
-メンタル四面楚歌
-程々にしてください
-なんかごめんなさい
+</span><span style='color:#ee3333;'>メ</span><span style='color:#9933ff;'>ン</span><span style='color:#ee3333;'>タ</span><span style='color:#9933ff;'>ル</span><span style='color:#ee3333;'>四</span><span style='color:#9933ff;'>面</span><span style='color:#ee3333;'>楚</span><span style='color:#9933ff;'>歌
+</span><span style='color:#f39800;'>程</span><span style='color:#ff66b2;'>々</span><span style='color:#f39800;'>に</span><span style='color:#ff66b2;'>し</span><span style='color:#f39800;'>て</span><span style='color:#ff66b2;'>く</span><span style='color:#f39800;'>だ</span><span style='color:#ff66b2;'>さ</span><span style='color:#f39800;'>い
+</span><span style='color:#ffc81b;'>な</span><span style='color:#32cd32;'>ん</span><span style='color:#ffc81b;'>か</span><span style='color:#32cd32;'>ご</span><span style='color:#ffc81b;'>め</span><span style='color:#32cd32;'>ん</span><span style='color:#ffc81b;'>な</span><span style='color:#32cd32;'>さ</span><span style='color:#ffc81b;'>い</span>
 何卒よろしくどうにかお願い
 AWARD
 
 まがりくねった MY WAY
 肩　並べてこうぜ
-明日はきっと無敵で賞
+<span style='color:#32cd32;'>明日はきっと無敵で賞</span>
 言わせてよ　あえて
 君と出逢えて
-一生がHAPPY AWARD
+<span style='color:#ff66b2;'>一生がHAPPY AWARD
 
-こんなもんじゃない
+</span><span style='color:#ee3333;'>こ</span><span style='color:#0099ff;'>ん</span><span style='color:#ee3333;'>な</span><span style='color:#0099ff;'>も</span><span style='color:#ee3333;'>ん</span><span style='color:#0099ff;'>じ</span><span style='color:#ee3333;'>ゃ</span><span style='color:#0099ff;'>な</span><span style='color:#ee3333;'>い</span>
 Gimme！
 (Gimme AWARD AWARD)
-叶えたいじゃない
+<span style='color:#f39800;'>叶</span><span style='color:#ffc81b;'>え</span><span style='color:#f39800;'>た</span><span style='color:#ffc81b;'>い</span><span style='color:#f39800;'>じ</span><span style='color:#ffc81b;'>ゃ</span><span style='color:#f39800;'>な</span><span style='color:#ffc81b;'>い</span>
 Gimme！
 (Gimme AWARD AWARD)
-待って！　ネタじゃない
+<span style='color:#ff66b2;'>待って！　ネタじゃない</span>
 Gimme！
 (Gimme　慌,　慌 AWARD, AWARD...)
 
-これからも　いつまでも
-何度でも　一緒に笑ってくれますか
+<span style='color:#0099ff;'>これからも　</span><span style='color:#32cd32;'>いつまでも
+</span><span style='color:#ff66b2;'>何度でも　</span><span style='color:#32cd32;'>一</span><span style='color:#0099ff;'>緒</span><span style='color:#ff66b2;'>に</span><span style='color:#32cd32;'>笑</span><span style='color:#0099ff;'>っ</span><span style='color:#ff66b2;'>て</span><span style='color:#32cd32;'>く</span><span style='color:#0099ff;'>れ</span><span style='color:#ff66b2;'>ま</span><span style='color:#32cd32;'>す</span><span style='color:#0099ff;'>か
 
-伝えたいことがあって
-会いたい人がいて
-全部全部　ひっくるめて人生でShow
+</span><span style='color:#ee3333;'>伝えたいことがあって
+</span><span style='color:#9933ff;'>会いたい人がいて
+</span><span style='color:#f39800;'>全部全部　ひっくるめて</span><span style='color:#ee3333;'>人</span><span style='color:#f39800;'>生</span><span style='color:#9933ff;'>で</span><span style='color:#ee3333;'>S</span><span style='color:#f39800;'>h</span><span style='color:#9933ff;'>ow</span>
 
 はいもういっちょ
 
 オリジナルのRUNWAY
 夢　並べてこうぜ
-明日もきっと素敵で賞
+<span style='color:#ffc81b;'>明日もきっと素敵で賞</span>
 言わせてよ　あえて
 君と出逢えて
-世界一の超幸せ者
+<span style='color:#ee3333;'>世界一の超幸せ者</span>
 一生がHAPPY AWARD`},{id:246,title:"REWARD",titleKana:"REWARD",lyricist:"TAKA 3",composer:"TAKA 3・芳賀政哉",arranger:"芳賀政哉",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`AWARD[初回A]（Music Video & Making）
 YouTube（Music Vudeo Short Ver.）`,performances:["AWARD(大阪){14}","AWARD(新潟){14}","AWARD(宮城){14}","AWARD(愛知){14}","AWARD(横浜,静岡,福岡,広島,北海道){14}","AWARD(北海道オーラス){14}","めざまし30周年フェス(東京){4}"],singer:"WEST.",date:"2024-03-13",lyrics:`Award part2
 Let's go
@@ -28726,35 +28726,35 @@ wo o o o　歌えや going going
 (Let's go Let's go)
 wo o o o o o　(ワッショイ)
 前人未到の
-Award掴め`,lyricsn:`Award part2
-Let's go
+Award掴め`,lyricsn:`<span style='color:#9933ff;'>Award part2
+</span><span style='color:#32cd32;'>Let's go
 さあさあ
 待ちわびた
 Showの幕開けだ
 It's time for seven
 いざ今日をこじ開けよう
-Put your hands up say ho (Ho)
-負け戦はNo more (Oh)
-雨は上がり
+</span><span style='color:#0099ff;'>Put your hands up say ho</span> (Ho)
+<span style='color:#0099ff;'>負け戦はNo more</span> (Oh)
+<span style='color:#ffc81b;'>雨は上がり
 虹はかかる
 願いかける
 Keep in mind
 
-恥かいたら
+</span><span style='color:#f39800;'>恥かいたら
 みっともねーか？
 やる前から
 言ってもねーや
-食らいつくように進め
+</span><span style='color:#ff66b2;'>食らいつくように進め
 思い上がんなや
-当たってから
-砕けりゃいーや
-そうやって前へ
+</span><span style='color:#ee3333;'>当たってから</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>砕けりゃいーや</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>そうやって前へ</span><span style='color:#0099ff;'>(ハモリ)</span>
 hoo hoo
-Everybody
+<span style='color:#0099ff;'>Everybody</span>
 hoo hoo
-タラリラ
+<span style='color:#0099ff;'>タラリラ
 
-Let's go up and up
+</span><span style='color:#9933ff;'>Let's go up and up</span>
 
 愛だって恋だって
 前ならえ？ (Hey)
@@ -28766,30 +28766,30 @@ Let's go up and up
 オドレヤ　(オドレヤ)
 騒ぎましょ宴　(ウタゲ)
 
-wo o o o o o　(ワッショイ)
+wo o o o o o　<span style='color:#32cd32;'>(ワッショイ)</span>
 wo o o o　歌えや going going
-(Let's go Let's go)
-wo o o o o o　(ワッショイ)
+<span style='color:#32cd32;'>(Let's go Let's go)</span>
+wo o o o o o　<span style='color:#32cd32;'>(ワッショイ)</span>
 前人未到の
-Award掴め
+<span style='color:#ee3333;'>Award掴め
 
-Eeny, meeny, miny, moe
+</span><span style='color:#9933ff;'>Eeny, meeny, miny, moe
 俯いても何も
 希望は見当たらね
-光射す方へ
-手を伸ばせ
-One more time
-地を張って
-もう一回
-いざ賞手にするまで
-ビビデバビデランデブー
+</span><span style='color:#ee3333;'>光射す方へ
+</span><span style='color:#ffc81b;'>手を伸ばせ
+</span><span style='color:#0099ff;'>On</span><span style='color:#ffc81b;'>e </span><span style='color:#0099ff;'>mo</span><span style='color:#ffc81b;'>re </span><span style='color:#0099ff;'>ti</span><span style='color:#ffc81b;'>me
+</span><span style='color:#ffc81b;'>地を張って
+</span><span style='color:#0099ff;'>も</span><span style='color:#ffc81b;'>う</span><span style='color:#0099ff;'>一</span><span style='color:#ffc81b;'>回
+</span><span style='color:#ffc81b;'>いざ賞手に</span><span style='color:#0099ff;'>す</span><span style='color:#ffc81b;'>る</span><span style='color:#0099ff;'>ま</span><span style='color:#ffc81b;'>で
+</span><span style='color:#0099ff;'>ビビデバビデランデブー
 
-あの日君と誓った場所へ
+</span><span style='color:#f39800;'>あの日君と誓った場所へ
 扉は今ここで開かれる
-これからも一緒に
-夢のまた夢　叶えにいこう
+</span><span style='color:#ff66b2;'>これからも一緒に</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>夢のまた夢　叶えにいこう</span><span style='color:#9933ff;'>(ハモリ)
 
-Let's go up and up
+</span><span style='color:#32cd32;'>Let's go up and up</span>
 
 愛だって恋だって
 前ならえ？ (Hey)
@@ -28801,10 +28801,10 @@ Let's go up and up
 オドレヤ　(オドレヤ)
 騒ぎましょ宴　(ウタゲ)
 
-wo o o o o o　(ワッショイ)
+wo o o o o o　<span style='color:#ee3333;'>(ワッショイ)</span>
 wo o o o　歌えや going going
-(Let's go Let's go)
-wo o o o o o　(ワッショイ)
+<span style='color:#ee3333;'>(Let's go Let's go)</span>
+wo o o o o o　<span style='color:#ee3333;'>(ワッショイ)</span>
 前人未到の
 Award掴め`},{id:247,title:"ファンタジスタ",titleKana:"ふぁんたじすた",lyricist:"今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",composer:"今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"今井了介・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"f",performances:[],singer:"WEST.",date:"2024-03-13",tiup:"テレビアニメ『キャプテン翼シーズン2 ジュニアユース編』オープニングテーマ",lyrics:`手を伸ばせばきっと掴めるさ
 Make my dreams come true
@@ -28869,70 +28869,70 @@ don't wanna give it up
 We're gonna, we're gonna,
 we're gonna be the one
 
-あの日見た大空を飛び越えて`,lyricsn:`手を伸ばせばきっと掴めるさ
+あの日見た大空を飛び越えて`,lyricsn:`<span style='color:#ff66b2;'>手を伸ばせばきっと掴めるさ
 Make my dreams come true
-必ず
+必ず</span>
 Don't wanna, don't wanna,
 don't wanna give it up
 
-走り続けた　涙も汗も枯れるほど
-あの日々がFlash back
-痛みを勇気に変えて
+<span style='color:#f39800;'>走り続けた　涙も汗も枯れるほど</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>あの日々がFlash back
+痛みを勇気に変えて</span><span style='color:#9933ff;'>(ハモリ)
 
-今 Stand up
-守るべきものがある
-Now, we can get together
-見えない道でもたどり着ける
-We go！
+</span><span style='color:#ffc81b;'>今 Stand up</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>守るべきものがある</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>Now, we can get together</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>見えない道でもたどり着ける
+We go！</span>
 
-手を伸ばせばきっと掴めるさ
-Make my dreams come true
+手を伸ばせばきっと<span style='color:#0099ff;'>(ハモリ)</span>掴めるさ
+Make my dreams come true<span style='color:#0099ff;'>(ハモリ)</span>
 必ず
-Don't wanna, don't wanna,
-don't wanna give it up
-誰よりも願えば　勝ち取る翼になる
+Don't wanna, don't wanna,<span style='color:#0099ff;'>(ハモリ)</span>
+don't wanna give it up<span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>誰よりも願えば　勝ち取る翼になる</span><span style='color:#0099ff;'>(ハモリ)</span>
 必ず
-We're gonna, we're gonna,
-we're gonna be the one
+We're gonna, we're gonna,<span style='color:#0099ff;'>(ハモリ)</span>
+we're gonna be the one<span style='color:#0099ff;'>(ハモリ)</span>
 
-逆境は最強への兆候
-時代を変えろファンタジスタ
-地平線へ続く Victory road
-信じた分だけ近づくゴール
-Come on！！
+<span style='color:#ee3333;'>逆</span><span style='color:#ff66b2;'>境</span><span style='color:#ee3333;'>は</span><span style='color:#ff66b2;'>最</span><span style='color:#ee3333;'>強</span><span style='color:#ff66b2;'>へ</span><span style='color:#ee3333;'>の</span><span style='color:#ff66b2;'>兆</span><span style='color:#ee3333;'>候</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>時</span><span style='color:#9933ff;'>代</span><span style='color:#f39800;'>を</span><span style='color:#9933ff;'>変</span><span style='color:#f39800;'>え</span><span style='color:#9933ff;'>ろ</span><span style='color:#f39800;'>フ</span><span style='color:#9933ff;'>ァ</span><span style='color:#f39800;'>ン</span><span style='color:#9933ff;'>タ</span><span style='color:#f39800;'>ジ</span><span style='color:#9933ff;'>ス</span><span style='color:#f39800;'>タ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>地</span><span style='color:#32cd32;'>平</span><span style='color:#ffc81b;'>線</span><span style='color:#32cd32;'>へ</span><span style='color:#ffc81b;'>続</span><span style='color:#32cd32;'>く </span><span style='color:#ffc81b;'>Victory </span><span style='color:#32cd32;'>road</span><span style='color:#0099ff;'>(ハモリ)</span>
+信じた分だけ近づくゴール<span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>Come on！！</span>
 
-Stand up
-誇るべきものがある
-Now, we can get together
-世界の風に髪がなびく
-We go！
+</span><span style='color:#ee3333;'>Stand up</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>誇るべきものがある</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>Now, we can get together</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>世</span><span style='color:#ff66b2;'>界</span><span style='color:#ffc81b;'>の</span><span style='color:#ff66b2;'>風</span><span style='color:#ffc81b;'>に</span><span style='color:#ff66b2;'>髪</span><span style='color:#ffc81b;'>が</span><span style='color:#ff66b2;'>な</span><span style='color:#ffc81b;'>び</span><span style='color:#ff66b2;'>く
+</span><span style='color:#ffc81b;'>We </span><span style='color:#ff66b2;'>go！</span>
 
-手を伸ばせばきっと掴めるさ
-Make my dreams come true
+手を伸ばせばきっと<span style='color:#0099ff;'>(ハモリ)</span>掴めるさ
+Make my dreams come true<span style='color:#0099ff;'>(ハモリ)</span>
 必ず
-Don't wanna, don't wanna,
-don't wanna give it up
-誰よりも願えば　勝ち取る翼になる
+Don't wanna, don't wanna,<span style='color:#0099ff;'>(ハモリ)</span>
+don't wanna give it up<span style='color:#0099ff;'>(ハモリ)</span>
+誰よりも願えば　勝ち取る翼になる<span style='color:#0099ff;'>(ハモリ)</span>
 必ず
-We're gonna, we're gonna,
-we're gonna be the one
-To the next stage
+We're gonna, we're gonna,<span style='color:#0099ff;'>(ハモリ)</span>
+we're gonna be the one<span style='color:#0099ff;'>(ハモリ)</span>
+To the next stage<span style='color:#0099ff;'>(ハモリ)</span>
 
-近づくほどに遠ざかる理想
-好奇心を追い風に
-キミが信じた君でゆけばいいさ
+<span style='color:#0099ff;'>近づくほどに遠ざかる理想</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>好奇心を追い風に
+</span><span style='color:#f39800;'>キミが信じた君でゆけばいいさ</span><span style='color:#9933ff;'>(ハモリ)
 
-手を伸ばせばきっと掴めるさ
-Make my dreams come true
-必ず
-Don't wanna, don't wanna,
-don't wanna give it up
-同じ時を越えて　同じ鼓動感じた
-必ず
-We're gonna, we're gonna,
-we're gonna be the one
+</span><span style='color:#ee3333;'>手</span><span style='color:#32cd32;'>を</span><span style='color:#ee3333;'>伸</span><span style='color:#32cd32;'>ば</span><span style='color:#ee3333;'>せ</span><span style='color:#32cd32;'>ば</span><span style='color:#ee3333;'>き</span><span style='color:#32cd32;'>っ</span><span style='color:#ee3333;'>と</span><span style='color:#0099ff;'>(ハモリ)</span><span style='color:#32cd32;'>掴</span><span style='color:#ee3333;'>め</span><span style='color:#32cd32;'>る</span><span style='color:#ee3333;'>さ
+</span><span style='color:#32cd32;'>Make </span><span style='color:#ee3333;'>my </span><span style='color:#32cd32;'>dreams </span><span style='color:#ee3333;'>come </span><span style='color:#32cd32;'>true</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>必ず</span>
+Don't wanna, don't wanna,<span style='color:#0099ff;'>(ハモリ)</span>
+don't wanna give it up<span style='color:#0099ff;'>(ハモリ)</span>
+</span><span style='color:#9933ff;'>同じ時を越えて</span><span style='color:#0099ff;'>(ハモリ)　</span><span style='color:#9933ff;'>同じ鼓動感じた</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>必ず</span>
+We're gonna, we're gonna,</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)</span>
+we're gonna be the one</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)
 
-あの日見た大空を飛び越えて`},{id:248,title:"FICTION",titleKana:"FICTION",lyricist:"中村瑛彦・栗原暁(Jazzin'park)",composer:"中村瑛彦・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)・中村瑛彦",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`AWARD[初回A]（Music Video, Making, Music Video -Dance Ver.-）
+</span><span style='color:#ff66b2;'>あの日見た大空を飛び越えて</span>`},{id:248,title:"FICTION",titleKana:"FICTION",lyricist:"中村瑛彦・栗原暁(Jazzin'park)",composer:"中村瑛彦・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)・中村瑛彦",album:["AWARD","AWARD[初回A]","AWARD[初回B]","AWARD[通常盤]"],announce:"t",mv:`AWARD[初回A]（Music Video, Making, Music Video -Dance Ver.-）
 YouTube（Music Vudeo YouTube Ver.）`,performances:["AWARD(大阪){22}","AWARD(新潟){23}","AWARD(宮城){23}","AWARD(愛知){23}","AWARD(横浜,静岡,福岡,広島,北海道){23}","AWARD(北海道オーラス){23}","めざまし30周年フェス(東京){5}"],singer:"WEST.",date:"2024-03-13",tiup:"映画『ある閉ざされた雪の山荘で』主題歌",lyrics:`単調なノンフィクションに
 飾られた騙し絵
 そうやって演じ疲れて
@@ -29002,76 +29002,76 @@ Wow　痛いのはごめんだ
 それが愛なら
 終わらないから
 抱きしめるから
-優しい嘘はいらない...`,lyricsn:`単調なノンフィクションに
+優しい嘘はいらない...`,lyricsn:`<span style='color:#ee3333;'>単調なノンフィクションに
 飾られた騙し絵
 そうやって演じ疲れて
 ねえ　今　キミは誰？
 
-無限の階段上って降りても
-ここはどこ...頂上(こたえ)はない
+</span><span style='color:#ff66b2;'>無限の階段上って降りても</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>ここはどこ...頂上(こたえ)はない
 やけに虚しくて
 
-目に映った君は
-理不尽なほどに美しい
-次のセリフ　隠さないで
-ワンカットで
+</span><span style='color:#32cd32;'>目に映った君は</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>理不尽なほどに美しい
+</span><span style='color:#f39800;'>次のセリフ　隠さないで</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#f39800;'>ワンカットで</span>
 
 どうして月に裏切られた太陽
 僕は誰のために泣いた
-知れば傷つき　知らぬも傷ついて
-どこからどこまでフィクション？
+<span style='color:#ee3333;'>知れば傷つき　知らぬも傷ついて</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>ど</span><span style='color:#ffc81b;'>こ</span><span style='color:#f39800;'>か</span><span style='color:#ffc81b;'>ら</span><span style='color:#f39800;'>ど</span><span style='color:#ffc81b;'>こ</span><span style='color:#f39800;'>ま</span><span style='color:#ffc81b;'>で</span><span style='color:#f39800;'>フ</span><span style='color:#ffc81b;'>ィ</span><span style='color:#f39800;'>ク</span><span style='color:#ffc81b;'>シ</span><span style='color:#f39800;'>ョ</span><span style='color:#ffc81b;'>ン</span><span style='color:#f39800;'>？</span><span style='color:#9933ff;'>(ハモリ)</span>
 今まだ抱えきれない絶望も
 そこから生まれてよ　希望
-それが愛なら
-優しい嘘はいらない...
+<span style='color:#ff66b2;'>それが愛なら</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>優しい嘘はいらない...
 
-作り笑いでセッション
+</span><span style='color:#f39800;'>作り笑いでセッション
 皮肉混じり　やつれた現実
 覗き込む　ボクは誰？
 
-誰かの過ち願ってみたって
-それがなに...
+</span><span style='color:#ffc81b;'>誰かの過ち願ってみたって</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>それがなに...
 喜劇になる筈もなくて
 
-信じてた涙は
-雪解けのように美しい
-その景色に　隠れないで
-スポットライトへ
+</span><span style='color:#ee3333;'>信じてた涙は</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>雪解けのように美しい
+</span><span style='color:#32cd32;'>その景色に　隠れないで</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#32cd32;'>スポットライトへ</span>
 
 どうして月に裏切られた太陽
 僕は誰のために泣いた
-知れば傷つき　知らぬも傷ついて
-どこからどこまでフィクション？
+</span><span style='color:#0099ff;'>知</span><span style='color:#ff66b2;'>れ</span><span style='color:#0099ff;'>ば</span><span style='color:#ff66b2;'>傷</span><span style='color:#0099ff;'>つ</span><span style='color:#ff66b2;'>き　</span><span style='color:#0099ff;'>知</span><span style='color:#ff66b2;'>ら</span><span style='color:#0099ff;'>ぬ</span><span style='color:#ff66b2;'>も</span><span style='color:#0099ff;'>傷</span><span style='color:#ff66b2;'>つ</span><span style='color:#0099ff;'>い</span><span style='color:#ff66b2;'>て
+</span><span style='color:#ee3333;'>ど</span><span style='color:#f39800;'>こ</span><span style='color:#ee3333;'>か</span><span style='color:#f39800;'>ら</span><span style='color:#ee3333;'>ど</span><span style='color:#f39800;'>こ</span><span style='color:#ee3333;'>ま</span><span style='color:#f39800;'>で</span><span style='color:#ee3333;'>フ</span><span style='color:#f39800;'>ィ</span><span style='color:#ee3333;'>ク</span><span style='color:#f39800;'>シ</span><span style='color:#ee3333;'>ョ</span><span style='color:#f39800;'>ン</span><span style='color:#ee3333;'>？</span><span style='color:#ffc81b;'>(ハモリ)</span>
 今まだ抱えきれない絶望も
 そこから生まれてよ　希望
-それが愛なら
-優しい嘘はいらない...
+<span style='color:#32cd32;'>それが愛なら</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>優しい嘘はいらない...
 
-自作自演　絡み合うエゴのFlame
-疑心暗鬼　逃れられないBad End
-Wow　痛いのはごめんだ
-目を伏せ無関心の完成
-ダレカレカマワズ
-アレコレネタバレ
-ルートA　ルートB
-ティックタックどっちだ
+</span><span style='color:#32cd32;'>自作自演　絡み合うエゴのFlame
+</span><span style='color:#0099ff;'>疑心暗鬼　逃れられないBad End
+</span><span style='color:#32cd32;'>Wow　痛いのはごめんだ
+</span><span style='color:#0099ff;'>目を伏せ無関心の完成
+</span><span style='color:#32cd32;'>ダレカレカマワズ
+</span><span style='color:#0099ff;'>アレコレネタバレ
+</span><span style='color:#32cd32;'>ル</span><span style='color:#0099ff;'>ー</span><span style='color:#32cd32;'>ト</span><span style='color:#0099ff;'>A　</span><span style='color:#32cd32;'>ル</span><span style='color:#0099ff;'>ー</span><span style='color:#32cd32;'>ト</span><span style='color:#0099ff;'>B
+</span><span style='color:#32cd32;'>テ</span><span style='color:#0099ff;'>ィ</span><span style='color:#32cd32;'>ッ</span><span style='color:#0099ff;'>ク</span><span style='color:#32cd32;'>タ</span><span style='color:#0099ff;'>ッ</span><span style='color:#32cd32;'>ク</span><span style='color:#0099ff;'>ど</span><span style='color:#32cd32;'>っ</span><span style='color:#0099ff;'>ち</span><span style='color:#32cd32;'>だ
 
-気づけばずっと探してた結末
+</span><span style='color:#ee3333;'>気づけばずっと探してた結末
 君は誰のために泣いた？
-信じてみたくて
-信じて欲しくて
-そばにいたのに
+</span><span style='color:#9933ff;'>信じてみたくて</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#9933ff;'>信じて欲しくて</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#9933ff;'>そばに</span><span style='color:#ff66b2;'>(ハモリ)</span><span style='color:#9933ff;'>いたのに</span>
 
 どうして月に裏切られた太陽
 僕は誰のために泣いた
-知れば傷つき　知らぬも傷ついて
-どこからどこまでフィクション？
+<span style='color:#ffc81b;'>知れば傷つき　知らぬも傷ついて
+</span><span style='color:#f39800;'>どこからどこまでフィクション？</span><span style='color:#32cd32;'>(ハモリ)</span>
 今まだ抱えきれない絶望も
 そこから生まれてよ　希望
-それが愛なら
-終わらないから
-抱きしめるから
-優しい嘘はいらない...`},{id:249,title:"あかさたなららら",titleKana:"あかさたなららら",lyricist:"重岡大毅",composer:"重岡大毅",arranger:"生田真心",album:["AWARD","AWARD[初回A]"],announce:"t",performances:["DOME TOUR AWARD(大阪,福岡){42}","DOME TOUR AWARD(東京){43}","DOME TOUR AWARD(東京オーラス){43}"],singer:"WEST.",date:"2024-03-13",lyrics:`ありがとう　あなたにちゃんと送るよ
+</span><span style='color:#0099ff;'>そ</span><span style='color:#9933ff;'>れ</span><span style='color:#0099ff;'>が</span><span style='color:#9933ff;'>愛</span><span style='color:#0099ff;'>な</span><span style='color:#9933ff;'>ら
+</span><span style='color:#f39800;'>終</span><span style='color:#ffc81b;'>わ</span><span style='color:#f39800;'>ら</span><span style='color:#ffc81b;'>な</span><span style='color:#f39800;'>い</span><span style='color:#ffc81b;'>か</span><span style='color:#f39800;'>ら
+</span><span style='color:#32cd32;'>抱</span><span style='color:#ff66b2;'>き</span><span style='color:#32cd32;'>し</span><span style='color:#ff66b2;'>め</span><span style='color:#32cd32;'>る</span><span style='color:#ff66b2;'>か</span><span style='color:#32cd32;'>ら
+</span><span style='color:#ee3333;'>優しい嘘はいらない...</span>`},{id:249,title:"あかさたなららら",titleKana:"あかさたなららら",lyricist:"重岡大毅",composer:"重岡大毅",arranger:"生田真心",album:["AWARD","AWARD[初回A]"],announce:"t",performances:["DOME TOUR AWARD(大阪,福岡){42}","DOME TOUR AWARD(東京){43}","DOME TOUR AWARD(東京オーラス){43}"],singer:"WEST.",date:"2024-03-13",lyrics:`ありがとう　あなたにちゃんと送るよ
 また会おう　思い出にそっと手を振ろう
 おめでとう　答えは一つじゃないのさ
 初めまして　ピリオド
@@ -29113,43 +29113,43 @@ Wow　痛いのはごめんだ
 かけがえのない日々を送る
 あぁ　会いたいって会いたいんだ
 あぁ　何度だって何度だって
-あぁ　幸せって幸せだ！`,lyricsn:`ありがとう　あなたにちゃんと送るよ
-また会おう　思い出にそっと手を振ろう
-おめでとう　答えは一つじゃないのさ
-初めまして　ピリオド
+あぁ　幸せって幸せだ！`,lyricsn:`<span style='color:#32cd32;'>ありがとう　あなたにちゃんと送るよ
+</span><span style='color:#9933ff;'>また会おう　思い出にそっと手を振ろう
+</span><span style='color:#ffc81b;'>おめでとう　答えは一つじゃないのさ
+</span><span style='color:#ee3333;'>初めまして　ピリオド
 
-おはよう　おやすみ僕らの間に
-ただいま　君の声が聞こえてきた
-おかえり　いつかはきっとくるのさ
-またね　いってらっしゃい
+</span><span style='color:#f39800;'>おはよう</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#f39800;'>おやすみ僕らの間に
+</span><span style='color:#0099ff;'>ただいま</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#0099ff;'>君の声が聞こえてきた
+</span><span style='color:#ff66b2;'>おかえり　いつかはきっとくるのさ</span><span style='color:#9933ff;'>(ハモリ)</span>
+またね　</span><span style='color:#ff66b2;'>いってらっしゃい
 
-あかさたな　はまやらわ　たった50音で
-ありのままの僕の自由を縛り付けてみせてよ
+</span><span style='color:#32cd32;'>あかさたな　はまやらわ　たった50音で
+</span><span style='color:#f39800;'>ありのままの僕の自由を縛り付けてみせてよ</span>
 
 あぁ　感じたままに
 君のもとへ駆け出せる
 負けないよ　ありがとうにさえも
-僕はどんな言葉も超える
-僕はどんな僕らを探し出す
+<span style='color:#ffc81b;'>僕はどんな言葉も超える
+僕はどんな僕らを探し出す</span>
 あぁ　楽しいって楽しいんだ！
 
-ありがとう　小さい子どもが言ってきた
+<span style='color:#0099ff;'>ありがとう　小さい子どもが言ってきた
 まっすぐ　夢いっぱいそうな声で
-あした晴れるといいね
+</span><span style='color:#ee3333;'>あした晴れるといいね
 元気でいてね
 
-ありがとう　愛してる　本気のごめんなさい
-ありのままの僕の全てを伝えることができるの
+</span><span style='color:#9933ff;'>ありがとう　愛してる　本気のごめんなさい
+</span><span style='color:#ff66b2;'>ありのままの僕の全てを伝えることができるの</span>
 
 あぁ　感じたままに
 君のもとへ駆け出せる
 負けないよ　ありがとうにさえも
 僕はどんな言葉も超える
 僕はどんな僕らを探し出す
-あぁ　楽しいって楽しいんだ！
+あぁ　<span style='color:#ee3333;'>楽しいって楽しいんだ！</span>
 
 あぁ　感じたままに
-君のもとへ駆け出してる
+君のもとへ駆け出してる<span style='color:#ee3333;'>(ハモリ)</span>
 負けないよ　アイラブユーにさえも
 君はなにげない日々の君へ
 かけがえのない日々を送る
@@ -29214,66 +29214,66 @@ Wow　痛いのはごめんだ
 連なって　叶っちゃって
 新たな何か探し続けていくんだろうな
 
-生きとし生ける　あなたへ愛を`,lyricsn:`言葉じゃ上手く纏められそうもないけど
+生きとし生ける　あなたへ愛を`,lyricsn:`</span><span style='color:#ff66b2;'>言葉じゃ上手く纏められそうもないけど
 歌にすれば伝えられそう
 どうか聞いてください
 
-ありのままが一番難しい
-でも　あなたにしか出せない魅力
+</span><span style='color:#9933ff;'>ありのままが一番難しい</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>でも</span><span style='color:#32cd32;'>(ハモリ)　</span><span style='color:#f39800;'>あなたにしか出せない魅力
 唯一無二の色
 
-ちょっとでも自分を褒めてあげれば
-ガチガチの心ほどけていく
-痛いの痛いのとんでいけ
+</span><span style='color:#0099ff;'>ちょっとでも自分を褒めてあげれば</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ffc81b;'>ガチガチの心ほどけていく
+痛</span><span style='color:#0099ff;'>い</span><span style='color:#ffc81b;'>の</span><span style='color:#0099ff;'>痛</span><span style='color:#ffc81b;'>い</span><span style='color:#0099ff;'>の</span><span style='color:#ffc81b;'>と</span><span style='color:#0099ff;'>ん</span><span style='color:#ffc81b;'>で</span><span style='color:#0099ff;'>い</span><span style='color:#ffc81b;'>け</span>
 
 あなたへ
 一人じゃない　一人にしない
 隣で笑う僕たちがいる
 七転び八起きなんて言うけどさ
-疲れたんなら転がったままでいいんじゃない？
+<span style='color:#ee3333;'>疲れたんなら転がったままでいいんじゃない？
 
-「大丈夫」って魔法の言葉
-重なって「ま、いっか」って
+</span><span style='color:#32cd32;'>「大丈夫」って魔法の言葉
+重なって「ま、いっか」って</span>
 明日は今日よリー皮剥けたらいいな
 
-肩肘張って幾重にもバリアを張って
-気づかぬよう　傷つかぬよう　準備をしてるの？
+<span style='color:#ffc81b;'>肩肘張って幾重にもバリアを張って</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>気づかぬよう　傷つかぬよう　準備をしてるの？
 
-1のマイナスが10のプラスを越えちゃって
-ネガティブスイッチ　無条件にON　現実逃避行
+</span><span style='color:#ee3333;'>1のマイナスが10のプラスを越えちゃって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>ネガティブスイッチ　無条件にON　現実逃避行
 
-どん底に落ちた夜は長くて
-遠くまで逃げたいよね
-ただ　ここが地獄じゃあるまいし
+</span><span style='color:#32cd32;'>どん底に落ちた夜は長くて</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#f39800;'>遠くまで逃げたいよね
+ただ　</span><span style='color:#32cd32;'>こ</span><span style='color:#f39800;'>こ</span><span style='color:#32cd32;'>が</span><span style='color:#f39800;'>地</span><span style='color:#32cd32;'>獄</span><span style='color:#f39800;'>じ</span><span style='color:#32cd32;'>ゃ</span><span style='color:#f39800;'>あ</span><span style='color:#32cd32;'>る</span><span style='color:#f39800;'>ま</span><span style='color:#32cd32;'>い</span><span style='color:#f39800;'>し</span>
 
 あなたへ
 日が昇る　夜明けはすぐ
 意味の無い人なんてどこにも居ないんだ
 強くなれとか言われてもさ
-悲しいんなら泣きじゃくっていたっていいんじゃない？
+<span style='color:#9933ff;'>悲しいんなら泣きじゃくっていたっていいんじゃない？
 
-時が経てばしょーもなくなるさ
-切り替えて「もういっちょ」って
+</span><span style='color:#ff66b2;'>時が経てばしょーもなくなるさ
+切り替えて「もういっちょ」って</span>
 自分のことだけは信じてあげようか
 
-苦しむなら自分の為に苦しみたいよな
-何かを大切にするならまずは自分を大切にしないとな
-考えること多いな　疲れるな
-だからこそ自分らしく“I”したい
-そんな自分を一番に愛していたい
+<span style='color:#0099ff;'>苦しむなら自分の為に苦しみたいよな
+</span><span style='color:#ffc81b;'>何かを大切にするならまずは自分を大切にしないとな
+</span><span style='color:#ff66b2;'>考えること多いな　疲れるな
+</span><span style='color:#9933ff;'>だからこそ自分らしく“I”したい
+</span><span style='color:#32cd32;'>そんな自分を一番に愛していたい
 
-あなたへ
+</span><span style='color:#ee3333;'>あなたへ
 ただ届け　あなたの元へ
-軌跡(みち)は続くよ
+軌跡(みち)は続くよ</span>
 響けファンファーレ
 何気ない一日が幸せと気づいた
-たまにはさ　急がば回れでいいんじゃない？
+<span style='color:#f39800;'>たまにはさ　急がば回れでいいんじゃない？
 
-「なんとかなる」って些細なことが
-連なって　叶っちゃって
+</span><span style='color:#ffc81b;'>「な</span><span style='color:#ff66b2;'>ん</span><span style='color:#ffc81b;'>と</span><span style='color:#ff66b2;'>か</span><span style='color:#ffc81b;'>な</span><span style='color:#ff66b2;'>る」</span><span style='color:#ffc81b;'>っ</span><span style='color:#ff66b2;'>て</span><span style='color:#ffc81b;'>些</span><span style='color:#ff66b2;'>細</span><span style='color:#ffc81b;'>な</span><span style='color:#ff66b2;'>こ</span><span style='color:#ffc81b;'>と</span><span style='color:#ff66b2;'>が
+</span><span style='color:#f39800;'>連</span><span style='color:#0099ff;'>な</span><span style='color:#f39800;'>っ</span><span style='color:#0099ff;'>て　</span><span style='color:#ee3333;'>叶</span><span style='color:#32cd32;'>っ</span><span style='color:#ee3333;'>ち</span><span style='color:#32cd32;'>ゃ</span><span style='color:#ee3333;'>っ</span><span style='color:#32cd32;'>て</span>
 新たな何か探し続けていくんだろうな
 
-生きとし生ける　あなたへ愛を`},{id:251,title:"あじわい",titleKana:"あじわい",lyricist:"橋口洋平(wacci)",composer:"橋口洋平(wacci)",arranger:"因幡始(wacci)",album:["AWARD","AWARD[通常盤]"],announce:"t",performances:["AWARD(大阪){12}","AWARD(新潟){12}","AWARD(宮城){12}","AWARD(愛知){12}","AWARD(横浜,静岡,福岡,広島,北海道){12}","AWARD(北海道オーラス){12}"],singer:"WEST.",date:"2024-03-13",tiup:"テレビ東京系ドラマNEXT『パティスリーMON』エンディングテーマ",lyrics:`こっちは薄くて　こっちは濃すぎるな
+<span style='color:#9933ff;'>生きとし生ける</span>　あなたへ愛を`},{id:251,title:"あじわい",titleKana:"あじわい",lyricist:"橋口洋平(wacci)",composer:"橋口洋平(wacci)",arranger:"因幡始(wacci)",album:["AWARD","AWARD[通常盤]"],announce:"t",performances:["AWARD(大阪){12}","AWARD(新潟){12}","AWARD(宮城){12}","AWARD(愛知){12}","AWARD(横浜,静岡,福岡,広島,北海道){12}","AWARD(北海道オーラス){12}"],singer:"WEST.",date:"2024-03-13",tiup:"テレビ東京系ドラマNEXT『パティスリーMON』エンディングテーマ",lyrics:`こっちは薄くて　こっちは濃すぎるな
 ふいに思い立った僕の慣れない料理に
 美味しいと笑いながら食べる君を見て
 なんだか照れくさくて　俯く僕
@@ -29314,48 +29314,48 @@ Wow　痛いのはごめんだ
 ふいに思い立った僕の慣れない料理に
 椅子にもたれて　お腹をさすりながら
 「美味しかったよ」とやっぱり笑う君に
-「そうでしょ」と言いながら泣きそうな僕`,lyricsn:`こっちは薄くて　こっちは濃すぎるな
+「そうでしょ」と言いながら泣きそうな僕`,lyricsn:`<span style='color:#9933ff;'>こっちは薄くて　こっちは濃すぎるな
 ふいに思い立った僕の慣れない料理に
-美味しいと笑いながら食べる君を見て
+</span><span style='color:#f39800;'>美味しいと笑いながら食べる君を見て
 なんだか照れくさくて　俯く僕
 
-春がアルバムをめくる
-花瓶の花が揺れる
-出会いから全てが宝物だよ
+</span><span style='color:#0099ff;'>春がアルバムをめくる
+</span><span style='color:#ffc81b;'>花瓶の花が揺れる
+</span><span style='color:#32cd32;'>出会いから全てが宝物だよ
 
-狭いけれど甘い夜も　背を向け合う苦い朝も
-とろけそうなほどのキスも　しょっぱくて仕方ない涙も
-まだまだまだ君と味わっていきたいんだよ
-大好きな君へ
+</span><span style='color:#ee3333;'>狭いけれど甘い夜も　背を向け合う苦い朝も</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>とろけそうなほどのキスも　しょっぱくて仕方ない涙も</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>まだまだまだ君と</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#9933ff;'>味わっていきたいんだよ
+大好きな君へ</span><span style='color:#32cd32;'>(ハモリ)
 
-同じレシピでも　人によって違う
+</span><span style='color:#ffc81b;'>同じレシピでも　人によって違う
 この世界でたった一つ　僕らの恋
-妬いて　沸かして　煮詰まって　不器用だけれど
-ごめんね　に　ありがとう　をまぶしながら
+</span><span style='color:#0099ff;'>妬いて　沸かして　煮詰まって　不器用だけれど</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>ごめんね　に　ありがとう　をまぶしながら
 
-変わりゆく時の中で　変わることのないもの
-一つでも多く　君と二人で
+</span><span style='color:#f39800;'>変わりゆく時の中で　</span><span style='color:#ee3333;'>変わることのないもの
+</span><span style='color:#f39800;'>一つでも多く　</span><span style='color:#ee3333;'>君</span><span style='color:#f39800;'>と</span><span style='color:#ee3333;'>二</span><span style='color:#f39800;'>人</span><span style='color:#ee3333;'>で
 
-チョコレートの甘い文字も　背伸びをしたフルコースも
-飲めもしないアルコールも　甘酸っぱくて青い台詞も
-まだまだまだ君と味わっていきたいんだよ
-全然飽きないから
+</span><span style='color:#9933ff;'>チョコレートの甘い文字も　背伸びをしたフルコースも</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#32cd32;'>飲めもしないアルコールも　甘酸っぱくて青い台詞も</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ff66b2;'>まだまだまだ君と</span><span style='color:#9933ff;'>(ハモリ)</span><span style='color:#ff66b2;'>味わっていきたいんだよ
+全然飽きないから</span><span style='color:#9933ff;'>(ハモリ)
 
-大好物のその笑顔　クセになるあの冗談も
-まろみのある粋な毒も　噛めば噛むほどに出る魅力も
-まだまだまだ君を味わっていきたいんだよ
+</span><span style='color:#ff66b2;'>大好物のその笑顔　</span><span style='color:#32cd32;'>クセになるあの冗談も
+</span><span style='color:#ffc81b;'>まろみのある粋な毒も　</span><span style='color:#0099ff;'>噛めば噛むほどに出る魅力も
+</span><span style='color:#f39800;'>まだまだまだ君を味わっていきたいんだよ</span>
 しわしわになるまで
 
 狭いけれど甘い夜も　背を向け合う苦い朝も
 とろけそうなほどのキスも　しょっぱくて仕方ない涙も
 まだまだまだ君と味わっていきたいんだよ
-確かめにいこう　幸せの味を
+確かめにいこう　<span style='color:#9933ff;'>幸せの味を
 
-こっちは薄くて　こっちは濃すぎるな
+</span><span style='color:#ee3333;'>こっちは薄くて　こっちは濃すぎるな
 ふいに思い立った僕の慣れない料理に
-椅子にもたれて　お腹をさすりながら
+</span><span style='color:#9933ff;'>椅子にもたれて　お腹をさすりながら
 「美味しかったよ」とやっぱり笑う君に
-「そうでしょ」と言いながら泣きそうな僕`},{id:252,title:"We are WEST!!!!!!! (10th Anniversary Version)",titleKana:"We are WEST!!!!!!! (10th Anniversary Version)",lyricist:"神山智洋",composer:"神山智洋",arranger:"ha-j・神山智洋",album:["AWARD","AWARD[通常盤]"],announce:"t",performances:["AWARD(大阪){4}","AWARD(新潟){4}","AWARD(宮城){4}","AWARD(愛知){4}","AWARD(横浜,静岡,福岡,広島,北海道){4}","AWARD(北海道オーラス){4}","DOME TOUR AWARD(大阪,福岡){6}","DOME TOUR AWARD(東京){6}","DOME TOUR AWARD(東京オーラス){6}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){32}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){32}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){32}"],singer:"WEST.",date:"2024-03-13",lyrics:`(しげー！！)はぁーい！！
+「そうでしょ」と言いながら泣きそうな僕</span>`},{id:252,title:"We are WEST!!!!!!! (10th Anniversary Version)",titleKana:"We are WEST!!!!!!! (10th Anniversary Version)",lyricist:"神山智洋",composer:"神山智洋",arranger:"ha-j・神山智洋",album:["AWARD","AWARD[通常盤]"],announce:"t",performances:["AWARD(大阪){4}","AWARD(新潟){4}","AWARD(宮城){4}","AWARD(愛知){4}","AWARD(横浜,静岡,福岡,広島,北海道){4}","AWARD(北海道オーラス){4}","DOME TOUR AWARD(大阪,福岡){6}","DOME TOUR AWARD(東京){6}","DOME TOUR AWARD(東京オーラス){6}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){32}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){32}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){32}"],singer:"WEST.",date:"2024-03-13",lyrics:`(しげー！！)はぁーい！！
 (あきとー！！)はいさい！！
 (じゅんたー！！)あいよー！！
 (かみちゃーん！！)はいはーい！！
@@ -29432,74 +29432,74 @@ Funky な感じでも本気で Catch the dream
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)
 大輪の花が彩り　すべての心繋ぐ
 虹色の We are WEST!!!!!!!
-Wow`,lyricsn:`(しげー！！)はぁーい！！
-(あきとー！！)はいさい！！
-(じゅんたー！！)あいよー！！
-(かみちゃーん！！)はいはーい！！
-(りゅーせー！！)えっ！？
-(はまちゃーん！！)あぃぃぃいー！！
-(のんちゃーん！！)うぃっす！！
+Wow`,lyricsn:`(しげー！！)<span style='color:#ee3333;'>はぁーい！！</span>
+(あきとー！！)<span style='color:#f39800;'>はいさい！！</span>
+(じゅんたー！！)<span style='color:#ffc81b;'>あいよー！！</span>
+(かみちゃーん！！)<span style='color:#32cd32;'>はいはーい！！</span>
+(りゅーせー！！)<span style='color:#0099ff;'>えっ！？</span>
+(はまちゃーん！！)<span style='color:#9933ff;'>あぃぃぃいー！！</span>
+(のんちゃーん！！)<span style='color:#ff66b2;'>うぃっす！！</span>
 LOVE, PEACE & WEST.
 We are WEST!!!!!!!
 S！！ K！！ N！！ K！！ F！！ H！！ K！！ WEST！！
 
-浪速の魂かかげ参上
-誇りを胸に暴れまわって
+<span style='color:#ffc81b;'>浪速の魂かかげ参上
+</span><span style='color:#ee3333;'>誇りを胸に暴れまわって</span>
 (なんでやねん！！ どないやねん！！)
-希望のつぼみ開いていく
-輝く太陽に憧れて
-めっちゃ個性的なアホが集った
+<span style='color:#ee3333;'>希</span><span style='color:#ffc81b;'>望</span><span style='color:#ee3333;'>の</span><span style='color:#ffc81b;'>つ</span><span style='color:#ee3333;'>ぼ</span><span style='color:#ffc81b;'>み</span><span style='color:#ee3333;'>開</span><span style='color:#ffc81b;'>い</span><span style='color:#ee3333;'>て</span><span style='color:#ffc81b;'>い</span><span style='color:#ee3333;'>く
+</span><span style='color:#ff66b2;'>輝く太陽に憧れて
+</span><span style='color:#f39800;'>めっちゃ個性的なアホが集った</span>
 (ボケて！！ツッコンで！！)
-がむしゃらに咲き乱れる
+<span style='color:#f39800;'>が</span><span style='color:#ff66b2;'>む</span><span style='color:#f39800;'>し</span><span style='color:#ff66b2;'>ゃ</span><span style='color:#f39800;'>ら</span><span style='color:#ff66b2;'>に</span><span style='color:#f39800;'>咲</span><span style='color:#ff66b2;'>き</span><span style='color:#f39800;'>乱</span><span style='color:#ff66b2;'>れ</span><span style='color:#f39800;'>る
 
-困難でも(はい！！) 信念が(はい！！)
-俺ら突き(はい！！) 動かす(はい！！)
-純粋な心で(気張って！！行こうぜ！！)
-さぁここから　空の彼方へ
+</span><span style='color:#0099ff;'>困難でも</span><span style='color:#32cd32;'>(ハモリ)</span>(はい！！) </span><span style='color:#0099ff;'>信念が</span><span style='color:#32cd32;'>(ハモリ)</span>(はい！！)
+</span><span style='color:#9933ff;'>俺ら突き</span>(はい！！) <span style='color:#9933ff;'>動かす</span>(はい！！)
+<span style='color:#0099ff;'>純</span><span style='color:#9933ff;'>粋</span><span style='color:#0099ff;'>な</span><span style='color:#9933ff;'>心</span><span style='color:#0099ff;'>で</span><span style='color:#32cd32;'>(ハモリ)</span>(気張って！！行こうぜ！！)
+<span style='color:#32cd32;'>さぁここから　空の彼方へ</span>
 
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！
 (あ～もう腕疲れたぁ)
-なんてまだ序の口ここから限界突破さ
+<span style='color:#ee3333;'>なんてまだ序の口ここから限界突破さ</span>
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)
-かけがえない楽しい思い出積み重ね
+<span style='color:#ff66b2;'>かけがえない楽しい思い出積み重ね</span>
 届け Happiness
 
-がっつりと根を張って奮い立つ
-一日花で終わらせないさ
+<span style='color:#0099ff;'>がっつりと根を張って奮い立つ
+</span><span style='color:#9933ff;'>一日花で終わらせないさ</span>
 (ガッチャガチャ！！ ワッチャワチャ！！)
-たぎる意志は枯らさないから
+<span style='color:#0099ff;'>た</span><span style='color:#9933ff;'>ぎ</span><span style='color:#0099ff;'>る</span><span style='color:#9933ff;'>意</span><span style='color:#0099ff;'>志</span><span style='color:#9933ff;'>は</span><span style='color:#0099ff;'>枯</span><span style='color:#9933ff;'>ら</span><span style='color:#0099ff;'>さ</span><span style='color:#9933ff;'>な</span><span style='color:#0099ff;'>い</span><span style='color:#9933ff;'>か</span><span style='color:#0099ff;'>ら
 
-糧を種に(はい！！)すれば(はい！！)
-見事な花(はい！！)が咲く(はい！！)
-来たる正念場(踏ん張って！！進め！！)
-暗闇でも　さぁ駆け抜けろ
+</span><span style='color:#ee3333;'>糧を種に</span><span style='color:#ff66b2;'>(ハモリ)</span>(はい！！)</span><span style='color:#ee3333;'>すれば</span><span style='color:#ff66b2;'>(ハモリ)</span>(はい！！)
+<span style='color:#32cd32;'>見事な花</span>(はい！！)<span style='color:#32cd32;'>が咲く</span>(はい！！)
+<span style='color:#ee3333;'>来</span><span style='color:#32cd32;'>た</span><span style='color:#ee3333;'>る</span><span style='color:#32cd32;'>正</span><span style='color:#ee3333;'>念</span><span style='color:#32cd32;'>場</span><span style='color:#ff66b2;'>(ハモリ)(踏ん張って！！進め！！)</span>
+</span><span style='color:#ff66b2;'>暗闇でも　さぁ駆け抜けろ</span>
 
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！
 (あ～もう声ガラガラ～)
-なんてまだ序の口ここから限界突破さ
+<span style='color:#ffc81b;'>なんてまだ序の口ここから限界突破さ</span>
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)
-遠く広がる満開の花びら舞う如く
+<span style='color:#f39800;'>遠く広がる満開の花びら舞う如く</span>
 空へ Fly away
 
-Naughtyな関西人　陽気でやかましい
+<span style='color:#9933ff;'>Naughtyな関西人　陽気でやかましい
 バリバリのチャキチャキたまに噛み噛みタジタジマジ(ワロタ www)
-Funky な感じでも本気で Catch the dream
+</span><span style='color:#0099ff;'>Funky な感じでも本気で Catch the dream
 七転び八起きでファイティーン！！ Ready to go！！
 
-逆境も(ばっちこーい！！)
-理不尽も(ばっちこーい！！)
-抱いていく大きな夢は(Fu！！Fu！！)
-まだこれから(どんどん！！)
-増えてくから(頑張れー！！)
-風に吹かれても(Go！！)
-雨に濡れても(Go！！)
-進め一歩でも(Go！！)
-描く道のその(Go！！) 先を Wow
-さぁ咲き誇れ
+</span><span style='color:#32cd32;'>逆境も</span>(ばっちこーい！！)
+</span><span style='color:#ff66b2;'>理不尽も</span>(ばっちこーい！！)
+</span><span style='color:#ffc81b;'>抱いていく大きな夢は</span>(Fu！！Fu！！)
+</span><span style='color:#f39800;'>まだこれから</span>(どんどん！！)
+</span><span style='color:#ee3333;'>増えてくから</span>(頑張れー！！)
+<span style='color:#0099ff;'>風</span><span style='color:#ff66b2;'>に</span><span style='color:#0099ff;'>吹</span><span style='color:#ff66b2;'>か</span><span style='color:#0099ff;'>れ</span><span style='color:#ff66b2;'>て</span><span style='color:#0099ff;'>も</span>(Go！！)
+<span style='color:#32cd32;'>雨</span><span style='color:#9933ff;'>に</span><span style='color:#32cd32;'>濡</span><span style='color:#9933ff;'>れ</span><span style='color:#32cd32;'>て</span><span style='color:#9933ff;'>も</span>(Go！！)
+<span style='color:#ee3333;'>進</span><span style='color:#ffc81b;'>め</span><span style='color:#ee3333;'>一</span><span style='color:#ffc81b;'>歩</span><span style='color:#ee3333;'>で</span><span style='color:#ffc81b;'>も</span>(Go！！)
+<span style='color:#f39800;'>描く道のその</span>(Go！！) <span style='color:#f39800;'>先を Wow
+</span><span style='color:#32cd32;'>さぁ咲き誇れ</span>
 
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 心揺さぶれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 夢の世界へ！！
@@ -29508,7 +29508,7 @@ Funky な感じでも本気で Catch the dream
 跳べ！！(Hey！！) 叫べ！！(Hey！！) 高く舞い上がれ！！(Hey！！)
 踊れ！！(Hey！！) 騒げ！！(Hey！！) 次のStageへ！！(Hey！！)
 大輪の花が彩り　すべての心繋ぐ
-虹色の We are WEST!!!!!!!
+<span style='color:#32cd32;'>虹色の We are WEST!!!!!!!</span>
 Wow`},{id:253,title:"ハート",titleKana:"はーと",lyricist:"柳沢亮太(SUPER BEAVER)",composer:"柳沢亮太(SUPER BEAVER)",arranger:"ha-j・柳沢亮太(SUPER BEAVER)",album:["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`ハート / FATE[初回A]（Music Video & Making）
 YouTube（Music Vudeo）`,performances:["AWARD(愛知){30}","AWARD(横浜,静岡,福岡,広島,北海道){30}","AWARD(北海道オーラス){30}","DOME TOUR AWARD(大阪,福岡){37}","DOME TOUR AWARD(東京){38}","DOME TOUR AWARD(東京オーラス){38}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){31}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){31}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){31}","メトロック2024(東京){3}","サマソニ2024(大阪,東京){7}","a-nation2024{2}","CDTV ライブ！ ライブ！大感謝祭2024{6}","【WESTube生配信】4.23デビュー10周年やねぇぇぇぇぇぇぇんSP{1}","WEST. 10th Anniversary Live “W”{7}","WEST. 10th Anniversary Live “W”-Film edition-{7}"],singer:"WEST.",date:"2024-04-24",tiup:"テレビアニメ『キャプテン翼シーズン2 ジュニアユース編』第3クールオープニングテーマ",lyrics:`諦めたい夢なんてないよな
 
@@ -29549,40 +29549,40 @@ YouTube（Music Vudeo）`,performances:["AWARD(愛知){30}","AWARD(横浜,静岡
 
 「信じる」をやめないハート`,lyricsn:`諦めたい夢なんてないよな
 
-敵わないかも　横を見て　上を見て　落ち込んだって
-いずれ全身全霊が　必須なことには違いない
-叶わないかも　焦るけど　足元見て　気がつくんだ
-いずれ前進する以外　叶えられる術はないと
+<span style='color:#32cd32;'>敵わないかも　横を見て　上を見て　落ち込んだって
+</span><span style='color:#0099ff;'>いずれ全身全霊が　必須なことには違いない</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>叶わないかも　焦るけど　足元見て　気がつくんだ
+</span><span style='color:#9933ff;'>いずれ前進する以外　叶えられる術はないと</span><span style='color:#ff66b2;'>(ハモリ)
 
-楽しいってさ　涙を蹴散らすことじゃなくて
-悔しい気持ちも　仲間と思えたときの心のこと
+</span><span style='color:#ffc81b;'>楽しいってさ　涙を蹴散らすことじゃなくて</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ee3333;'>悔しい気持ちも　仲間と思えたときの心のこと</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 きっと　いつまでも　どこまでも　ずっと
-戦っていくんだろう　張り合っていくんだろう　自分と
+</span><span style='color:#ff66b2;'>戦っていくんだろう　張り合っていくんだろう　自分と</span><span style='color:#0099ff;'>(ハモリ)</span>
 諦めたい夢なんてないよな
-涙って僕らの　正直さなんだよ
-誰にも止められやしない　勝ち越せたらいい
-好機を演出するのは　「信じる」をやめないハート
+<span style='color:#ff66b2;'>涙って僕らの　正直さなんだよ
+</span><span style='color:#ee3333;'>誰</span><span style='color:#0099ff;'>に</span><span style='color:#ee3333;'>も</span><span style='color:#0099ff;'>止</span><span style='color:#ee3333;'>め</span><span style='color:#0099ff;'>ら</span><span style='color:#ee3333;'>れ</span><span style='color:#0099ff;'>や</span><span style='color:#ee3333;'>し</span><span style='color:#0099ff;'>な</span><span style='color:#ee3333;'>い　</span><span style='color:#ffc81b;'>勝</span><span style='color:#ff66b2;'>ち</span><span style='color:#ffc81b;'>越</span><span style='color:#ff66b2;'>せ</span><span style='color:#ffc81b;'>た</span><span style='color:#ff66b2;'>ら</span><span style='color:#ffc81b;'>い</span><span style='color:#ff66b2;'>い
+</span><span style='color:#f39800;'>好</span><span style='color:#9933ff;'>機</span><span style='color:#f39800;'>を</span><span style='color:#9933ff;'>演</span><span style='color:#f39800;'>出</span><span style='color:#9933ff;'>す</span><span style='color:#f39800;'>る</span><span style='color:#9933ff;'>の</span><span style='color:#f39800;'>は</span><span style='color:#0099ff;'>(ハモリ)　</span><span style='color:#32cd32;'>「信じる」をやめないハート
 
-本当の敵は内側に　それもまた一つの真実
-それでも負けたくない誰か　競り合うことも間違いじゃない
-ただ見失いたくないな　打ち負かして　ニヤけたい　わけじゃないこと
-横も　上も　下もない　僕自身を
+本当の敵は内側に　</span><span style='color:#9933ff;'>それもまた一つの真実
+</span><span style='color:#ff66b2;'>それでも負けたくない誰か　</span><span style='color:#f39800;'>競り合うことも間違いじゃない
+</span><span style='color:#ffc81b;'>ただ見失いたくないな　</span><span style='color:#0099ff;'>打ち負かして　ニヤけたい　わけじゃないこと</span>
+横も　上も　下もない　<span style='color:#ee3333;'>僕自身を
 
-楽しいってさ　涙を蹴散らすことじゃなくて
-悔しい気持ちも　仲間と思えたときの心のこと
+</span><span style='color:#f39800;'>楽</span><span style='color:#ff66b2;'>し</span><span style='color:#f39800;'>い</span><span style='color:#ff66b2;'>っ</span><span style='color:#f39800;'>て</span><span style='color:#ff66b2;'>さ　</span><span style='color:#f39800;'>涙</span><span style='color:#ff66b2;'>を</span><span style='color:#f39800;'>蹴</span><span style='color:#ff66b2;'>散</span><span style='color:#f39800;'>ら</span><span style='color:#ff66b2;'>す</span><span style='color:#f39800;'>こ</span><span style='color:#ff66b2;'>と</span><span style='color:#f39800;'>じ</span><span style='color:#ff66b2;'>ゃ</span><span style='color:#f39800;'>な</span><span style='color:#ff66b2;'>く</span><span style='color:#f39800;'>て</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>悔</span><span style='color:#32cd32;'>し</span><span style='color:#ffc81b;'>い</span><span style='color:#32cd32;'>気</span><span style='color:#ffc81b;'>持</span><span style='color:#32cd32;'>ち</span><span style='color:#ffc81b;'>も　</span><span style='color:#32cd32;'>仲</span><span style='color:#ffc81b;'>間</span><span style='color:#32cd32;'>と</span><span style='color:#ffc81b;'>思</span><span style='color:#32cd32;'>え</span><span style='color:#ffc81b;'>た</span><span style='color:#32cd32;'>と</span><span style='color:#ffc81b;'>き</span><span style='color:#32cd32;'>の</span><span style='color:#ffc81b;'>心</span><span style='color:#32cd32;'>の</span><span style='color:#ffc81b;'>こ</span><span style='color:#32cd32;'>と</span><span style='color:#9933ff;'>(ハモリ)
 
-きっと　いつまでも　どこまでも　ずっと
-戦っていくんだろう　張り合っていくんだろう
+</span><span style='color:#ee3333;'>きっと　いつまでも　どこまでも　ずっと</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>戦っていくんだろう　張り合っていくんだろう</span>
 
 そう　いつまでも　どこまでも　ずっと
-戦っていくんだよ　張り合っていくんだよ　自分と
-諦めたい夢なんてないよな
-涙って僕らの　正直さなんだよ
-誰にも止められやしない　勝ち越せたらいい
-言い換えるのなら　最後の最後に
-仲間と肩組み　笑えたならいい
-好機を演出するのは　「信じる」をやめないハート
+<span style='color:#f39800;'>戦っていくんだよ　張り合っていくんだよ　自分と</span><span style='color:#0099ff;'>(ハモリ)
+諦めたい夢なんてないよな</span>
+<span style='color:#9933ff;'>涙って僕らの　正直さなんだよ
+</span><span style='color:#ff66b2;'>誰にも止められやしない　</span><span style='color:#0099ff;'>勝ち越せたらいい
+</span><span style='color:#ffc81b;'>言い換えるのなら　</span><span style='color:#f39800;'>最後の最後に</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>仲間と肩組み　</span><span style='color:#32cd32;'>笑えたならいい</span>
+好機を演出するのは　<span style='color:#9933ff;'>「信じる」をやめないハート</span>
 
 「信じる」をやめないハート`},{id:254,title:"FATE",titleKana:"FATE",lyricist:"久保田真悟(Jazzin'park)・UTA・AKIRA・Yohei",composer:"久保田真悟(Jazzin'park)・UTA・AKIRA・Yohei",arranger:"久保田真悟(Jazzin'park)・UTA",album:["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`ハート / FATE[初回B]（Music Video & Making, Music Video -Dance Ver.-）
 YouTube（Music Vudeo）`,performances:["DOME TOUR AWARD(大阪,福岡){34}","DOME TOUR AWARD(東京){35}","DOME TOUR AWARD(東京オーラス){35}","WEST. 10th Anniversary Live “W”{12}","WEST. 10th Anniversary Live “W”-Film edition-{12}"],singer:"WEST.",date:"2024-04-24",tiup:"WOWOW 連続ドラマW-30『白暮のクロニクル』主題歌",lyrics:`魘(うな)された夢は現(うつつ)か
@@ -29635,57 +29635,57 @@ I'll be the one
 我が身燃え尽きたって
 この目逸らしはしない
 Why I'm the one？
-明日も目覚める運命だ`,lyricsn:`魘(うな)された夢は現(うつつ)か
+明日も目覚める運命だ`,lyricsn:`<span style='color:#32cd32;'>魘(うな)された夢は現(うつつ)か
 嗚呼　いつしか涙涸らして
-彷徨って
-使命とやらを喰いもんにして
+</span><span style='color:#f39800;'>彷徨って</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>使命とやらを喰いもんにして</span><span style='color:#9933ff;'>(ハモリ)
 
-感じないようにしてた
-見えないようにしてたんだ
+</span><span style='color:#0099ff;'>感</span><span style='color:#ff66b2;'>じ</span><span style='color:#0099ff;'>な</span><span style='color:#ff66b2;'>い</span><span style='color:#0099ff;'>よ</span><span style='color:#ff66b2;'>う</span><span style='color:#0099ff;'>に</span><span style='color:#ff66b2;'>し</span><span style='color:#0099ff;'>て</span><span style='color:#ff66b2;'>た
+</span><span style='color:#0099ff;'>見</span><span style='color:#ff66b2;'>え</span><span style='color:#0099ff;'>な</span><span style='color:#ff66b2;'>い</span><span style='color:#0099ff;'>よ</span><span style='color:#ff66b2;'>う</span><span style='color:#0099ff;'>に</span><span style='color:#ff66b2;'>し</span><span style='color:#0099ff;'>て</span><span style='color:#ff66b2;'>た</span><span style='color:#0099ff;'>ん</span><span style='color:#ff66b2;'>だ</span>
 
 戻れぬ道だろうと
 もう果てなど無かろうと
-思い出すんだ...誰の為だよ
-声にならなくたって
-もう一度逆らい叫ぶ
+<span style='color:#ee3333;'>思い出すんだ...誰の為だよ
+</span><span style='color:#ffc81b;'>声にならなくたって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>もう一度逆らい叫ぶ</span><span style='color:#9933ff;'>(ハモリ)</span>
 I'll be the one
-明日も目覚める運命だ
+<span style='color:#32cd32;'>明日も目覚める運命だ
 
-箱に仕舞った感情など
+</span><span style='color:#ffc81b;'>箱に仕舞った感情など
 嗚呼　鍵も失くした筈だった
-巡り合う　その瞬間(とき)までの話さ
+</span><span style='color:#ee3333;'>巡り合う　その瞬間(とき)までの話さ</span><span style='color:#f39800;'>(ハモリ)
 
-とめどなく染まってる
-Colorful world　戸惑う
-刹那に触れ　色を取り戻す
-I wanna run　僕の番
-一筋の光　掴もう
-失っても　乗り越えればいい
+</span><span style='color:#32cd32;'>とめどなく染まってる
+</span><span style='color:#0099ff;'>Colorful world　戸惑う
+</span><span style='color:#32cd32;'>刹</span><span style='color:#0099ff;'>那</span><span style='color:#32cd32;'>に</span><span style='color:#0099ff;'>触</span><span style='color:#32cd32;'>れ　</span><span style='color:#0099ff;'>色</span><span style='color:#32cd32;'>を</span><span style='color:#0099ff;'>取</span><span style='color:#32cd32;'>り</span><span style='color:#0099ff;'>戻</span><span style='color:#32cd32;'>す
+</span><span style='color:#0099ff;'>I wanna run　僕の番
+</span><span style='color:#32cd32;'>一</span><span style='color:#0099ff;'>筋</span><span style='color:#32cd32;'>の</span><span style='color:#0099ff;'>光　</span><span style='color:#32cd32;'>掴</span><span style='color:#0099ff;'>も</span><span style='color:#32cd32;'>う
+失っても　乗り越えればいい</span>
 
 光を手繰り寄せた手に残った感触を
-忘れないんだ...乾きが襲っても
-我が身燃え尽きたって
-この目逸らしはしない
+<span style='color:#9933ff;'>忘れないんだ...乾きが襲っても
+</span><span style='color:#ff66b2;'>我が身燃え尽きたって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>この目逸らしはしない</span><span style='color:#9933ff;'>(ハモリ)</span>
 Why I'm the one？
-明日も目覚める運命だ
+<span style='color:#ee3333;'>明日も目覚める運命だ
 
-焦がれた夢　邪魔で動けやしない
-ただ守り抜くのが無様って言うんなら
-無様な儘でいいんだ
+</span><span style='color:#ffc81b;'>焦がれた夢　邪魔で動けやしない</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>ただ守り抜くのが無様って言うんなら</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>無様な儘でいいんだ
 
-戻れぬ道だろうと
+</span><span style='color:#32cd32;'>戻れぬ道だろうと
 もう果てなど無かろうと
 思い出すんだ...誰の為だよ
-声にならなくたって
+</span><span style='color:#ee3333;'>声にならなくたって
 もう一度逆らい叫ぶ
-I'll be the one
+I'll be the one</span>
 
 光を手繰り寄せた手に残った感触を
-忘れないんだ...乾きが襲っても
-我が身燃え尽きたって
-この目逸らしはしない
+<span style='color:#ff66b2;'>忘れないんだ...乾きが襲っても
+</span><span style='color:#0099ff;'>我が身燃え尽きたって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>この目逸らしはしない</span><span style='color:#9933ff;'>(ハモリ)</span>
 Why I'm the one？
-明日も目覚める運命だ`},{id:255,title:"・(ten)",titleKana:"ten",lyricist:"WEST.",composer:"重岡大毅・神山智洋",arranger:"ha-j・神山智洋",album:["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]"],announce:"t",mv:"ハート / FATE[通販盤]（Music Video & Making）",performances:["DOME TOUR AWARD(大阪,福岡){17}","DOME TOUR AWARD(東京){18}","DOME TOUR AWARD(東京オーラス){18}","10周年生配信トーク＆ライブ「虹会」{4}","WEST. 10th Anniversary 大阪松竹座公演(夜){4}","WEST. 10th Anniversary 大阪松竹座公演(千穐楽){4}"],singer:"WEST.",date:"2024-04-24",lyrics:`ライフ　イズ　オンリーワン！
+<span style='color:#32cd32;'>明日も目覚める運命だ</span>`},{id:255,title:"・(ten)",titleKana:"ten",lyricist:"WEST.",composer:"重岡大毅・神山智洋",arranger:"ha-j・神山智洋",album:["ハート / FATE","ハート / FATE[初回A]","ハート / FATE[初回B]","ハート / FATE[通常盤]","ハート / FATE[通販盤]"],announce:"t",mv:"ハート / FATE[通販盤]（Music Video & Making）",performances:["DOME TOUR AWARD(大阪,福岡){17}","DOME TOUR AWARD(東京){18}","DOME TOUR AWARD(東京オーラス){18}","10周年生配信トーク＆ライブ「虹会」{4}","WEST. 10th Anniversary 大阪松竹座公演(夜){4}","WEST. 10th Anniversary 大阪松竹座公演(千穐楽){4}"],singer:"WEST.",date:"2024-04-24",lyrics:`ライフ　イズ　オンリーワン！
 もうこんな時間か
 自分ってなんだ
 自由っておもしろいよなぁ
@@ -29745,29 +29745,29 @@ Why I'm the one？
 なんにもしなくたっていい
 ちゃんとわかってるし
 今までもこれからも
-待ちあわせしようよ`,lyricsn:`ライフ　イズ　オンリーワン！
+待ちあわせしようよ`,lyricsn:`<span style='color:#ee3333;'>ライフ　イズ　オンリーワン！
 もうこんな時間か
 自分ってなんだ
 自由っておもしろいよなぁ
-今日やろうかな？
+</span><span style='color:#0099ff;'>今日やろうかな？
 いや、明日でいいよな
 会いたいな。
 
-「大人」になったな！って
+</span><span style='color:#f39800;'>「大人」になったな！って
 笑い合ったりしてさ…
 本当はずっと「こどな」でいたいんだ！
-「また明日ね」ってフレーズ
+</span><span style='color:#ff66b2;'>「また明日ね」ってフレーズ
 なんか良いよね
 ずっと言ってたい
 そう思わん？
 
-この前買ったビンテージのワイン
+</span><span style='color:#ffc81b;'>この前買ったビンテージのワイン
 今度一緒に開けてみようよ
 もうすぐお前誕生日だし
-よく笑った
+</span><span style='color:#9933ff;'>よく笑った
 明日何時？
 遅刻するなよ。
-お前がゆうな！w
+お前がゆうな！w</span>
 
 ドレミファ　なんでもいい
 ソラシド　なんじゃない
@@ -29785,11 +29785,11 @@ Why I'm the one？
 今までもこれからも
 待ちあわせしようよ
 
-「そうやっけ？」「そうやって！」
+<span style='color:#32cd32;'>「そうやっけ？」「そうやって！」
 笑い合ってそうやって
 どこまでだって
 変わりゆく中で　変わりはしないもの
-らしく行こう　今日も
+らしく行こう　今日も</span>
 
 ドレミファ　なんでもいい
 ソラシド　なんじゃない
@@ -29858,59 +29858,59 @@ Why I'm the one？
 充電器貸すよ　何度だって100%で永遠を作り出そうよ
 気圧、貯蓄、たんぱく、口角？
 経験値、前髪、まなざし、セロトニン！
-一緒にアゲてく　人生ってYEAH！`,lyricsn:`コンビニ行くけどなんかいる？
-なあ俺にできることなんかある？
-コンビニ行くけど一緒行く？
+一緒にアゲてく　人生ってYEAH！`,lyricsn:`<span style='color:#f39800;'>コ</span><span style='color:#9933ff;'>ン</span><span style='color:#f39800;'>ビ</span><span style='color:#9933ff;'>ニ</span><span style='color:#f39800;'>行</span><span style='color:#9933ff;'>く</span><span style='color:#f39800;'>け</span><span style='color:#9933ff;'>ど</span><span style='color:#f39800;'>な</span><span style='color:#9933ff;'>ん</span><span style='color:#f39800;'>か</span><span style='color:#9933ff;'>い</span><span style='color:#f39800;'>る</span><span style='color:#9933ff;'>？
+</span><span style='color:#32cd32;'>な</span><span style='color:#0099ff;'>あ</span><span style='color:#32cd32;'>俺</span><span style='color:#0099ff;'>に</span><span style='color:#32cd32;'>で</span><span style='color:#0099ff;'>き</span><span style='color:#32cd32;'>る</span><span style='color:#0099ff;'>こ</span><span style='color:#32cd32;'>と</span><span style='color:#0099ff;'>な</span><span style='color:#32cd32;'>ん</span><span style='color:#0099ff;'>か</span><span style='color:#32cd32;'>あ</span><span style='color:#0099ff;'>る</span><span style='color:#32cd32;'>？
+</span><span style='color:#ee3333;'>コ</span><span style='color:#ffc81b;'>ン</span><span style='color:#ff66b2;'>ビ</span><span style='color:#ee3333;'>ニ</span><span style='color:#ffc81b;'>行</span><span style='color:#ff66b2;'>く</span><span style='color:#ee3333;'>け</span><span style='color:#ffc81b;'>ど</span><span style='color:#ff66b2;'>一</span><span style='color:#ee3333;'>緒</span><span style='color:#ffc81b;'>行</span><span style='color:#ff66b2;'>く</span><span style='color:#ee3333;'>？</span>
 よし俺にできること考える！
 
-この時間帯っておにぎりゼロじゃん　(えー！)
-来た意味ないけど笑えるね (YEAH！)
-そんな今日もOK！ (OK！)　散歩でもしようよ (YEAH！)
-隣でふざけ続けてもいい？　(はーい)
+<span style='color:#f39800;'>この時間帯っておにぎりゼロじゃん</span>　(えー！)
+<span style='color:#ffc81b;'>来た意味ないけど笑えるね</span> (YEAH！)
+<span style='color:#9933ff;'>そんな今日もOK！</span> (OK！)　<span style='color:#9933ff;'>散歩でもしようよ</span> (YEAH！)
+<span style='color:#ee3333;'>隣でふざけ続けてもいい？</span>　(はーい)
 
-さくら味の春　頑張っちゃう夏　ずっと見てたいよ (YO！)
-すべての君に会いにゆく覚悟あるんだ (YEAH！)
+<span style='color:#0099ff;'>さくら味の春　頑張っちゃう夏　ずっと見てたいよ</span> (YO！)
+<span style='color:#ff66b2;'>すべての君に会いにゆく覚悟あるんだ</span> (YEAH！)
 
-24 Hours！
+<span style='color:#ee3333;'>24 Hours！</span>
 眠れない夜も　寝過ぎた朝も
 コンビニみたいに寄り添って
-君が笑顔になる瞬間　なんで泣けてくるんだろう
+<span style='color:#32cd32;'>君が笑顔になる瞬間　なんで泣けてくるんだろう</span>
 充電器貸すよ　何度だって100%で永遠を始めようよ
-気圧、貯蓄、たんぱく、口角？
-一緒にアゲてく　人生ってYEAH！
+<span style='color:#ffc81b;'>気圧、貯蓄、たんぱく、口角？
+</span><span style='color:#f39800;'>一緒にアゲてく</span>　人生ってYEAH！
 
-期間限定を何度も逃して　(はーあ)
-二人それなりに過ごしたね (YEAH！)
-どんな今日もOK！ (OK！)　来週末遊園地！ (YEAH！)
-隣で歌い続けてもいい？　(はーい)
+<span style='color:#ee3333;'>期間限定を何度も逃して</span>　(はーあ)
+<span style='color:#0099ff;'>二人それなりに過ごしたね</span> (YEAH！)
+<span style='color:#ffc81b;'>どんな今日もOK！</span> (OK！)　<span style='color:#ffc81b;'>来週末遊園地！</span> (YEAH！)
+<span style='color:#32cd32;'>隣で歌い続けてもいい？</span>　(はーい)
 
-ピスタチオは秋　極端な冬　そっと見てたいよ (YO！)
-すべての君に会いにきてもらえるように (YEAH！)
+<span style='color:#ff66b2;'>ピスタチオは秋　極端な冬　そっと見てたいよ</span> (YO！)
+<span style='color:#f39800;'>すべての君に会いにきてもらえるように</span> (YEAH！)
 
-24 Hours！
+<span style='color:#32cd32;'>24 Hours！</span>
 何もない日曜も　特別な水曜も
 コンビニみたいにここにいよう
-俺が真顔になる瞬間　なんか君は笑ってくる
+<span style='color:#9933ff;'>俺が真顔になる瞬間　なんか君は笑ってくる</span>
 偶然だったかな？何度も確かめて必然を見つけようよ
-経験値、前髪、まなざし、セロトニン！
-一緒にアゲてく　人生ってYEAH！
+<span style='color:#ff66b2;'>経験値、前髪、まなざし、セロトニン！
+</span><span style='color:#ee3333;'>一緒にアゲてく</span>　人生ってYEAH！
 
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
-コンビニ行くけどなんかいる？
+</span><span style='color:#ffc81b;'>コンビニ行くけどなんかいる？
+</span><span style='color:#9933ff;'>コンビニ行くけどなんかいる？
+</span><span style='color:#f39800;'>コンビニ行くけどなんかいる？
+</span><span style='color:#ee3333;'>コンビニ行くけどなんかいる？
+</span><span style='color:#32cd32;'>コンビニ行くけどなんかいる？
+</span><span style='color:#0099ff;'>コンビニ行くけどなんかいる？
+</span><span style='color:#ff66b2;'>コンビニ行くけどなんかいる？</span>
 ああ、なんかあったらほんまに言って
 
-24 Hours！
+<span style='color:#9933ff;'>24 Hours！</span>
 眠れない夜も　寝過ぎた朝も
 コンビニみたいに寄り添って
 君が笑顔になる瞬間　そのために生きてこう
 充電器貸すよ　何度だって100%で永遠を作り出そうよ
-気圧、貯蓄、たんぱく、口角？
-経験値、前髪、まなざし、セロトニン！
+</span><span style='color:#ee3333;'>気</span><span style='color:#ffc81b;'>圧、</span><span style='color:#ff66b2;'>貯</span><span style='color:#ee3333;'>蓄、</span><span style='color:#ffc81b;'>た</span><span style='color:#ff66b2;'>ん</span><span style='color:#ee3333;'>ぱ</span><span style='color:#ffc81b;'>く、</span><span style='color:#ff66b2;'>口</span><span style='color:#ee3333;'>角</span><span style='color:#ffc81b;'>？
+</span><span style='color:#f39800;'>経</span><span style='color:#32cd32;'>験</span><span style='color:#0099ff;'>値、</span><span style='color:#9933ff;'>前</span><span style='color:#f39800;'>髪、</span><span style='color:#32cd32;'>ま</span><span style='color:#0099ff;'>な</span><span style='color:#9933ff;'>ざ</span><span style='color:#f39800;'>し、</span><span style='color:#32cd32;'>セ</span><span style='color:#0099ff;'>ロ</span><span style='color:#9933ff;'>ト</span><span style='color:#f39800;'>ニ</span><span style='color:#32cd32;'>ン</span><span style='color:#0099ff;'>！</span>
 一緒にアゲてく　人生ってYEAH！`},{id:257,title:"クセになる",titleKana:"くせになる",lyricist:"NakamuraEmi・カワムラヒロシ",composer:"NakamuraEmi・カワムラヒロシ",arranger:"カワムラヒロシ",album:["ハート / FATE","ハート / FATE[初回B]"],announce:"f",performances:[],singer:"WEST.",date:"2024-04-24",lyrics:`君に釘付けクセになる　ステキなステキなMy Fave
 君に釘付けクセになる　ステキなステキなMy Fave
 
@@ -29950,46 +29950,46 @@ Why I'm the one？
 向かい風も追い風に変えてしまおう
 綺麗な白い花がゆらゆら揺れてる
 土砂降りの雨も止んだら七色の虹がかかるよ
-明日は明日　頑張りましょう！`,lyricsn:`君に釘付けクセになる　ステキなステキなMy Fave
-君に釘付けクセになる　ステキなステキなMy Fave
+明日は明日　頑張りましょう！`,lyricsn:`<span style='color:#ff66b2;'>君に釘付けクセになる　ステキなステキなMy Fave
+</span><span style='color:#ffc81b;'>君に釘付けクセになる　ステキなステキなMy Fave
 
-メイク落としてさっぱり　今日の嫌なことバッサリ
-年々あっちゅう間に過ぎてくさ　理想は素敵なVintage
-モヤモヤはスパイスと煮込んでしまえ
+</span><span style='color:#32cd32;'>メイク落としてさっぱり　今日の嫌なことバッサリ
+</span><span style='color:#f39800;'>年々あっちゅう間に過ぎてくさ　理想は素敵なVintage
+</span><span style='color:#9933ff;'>モヤモヤはスパイスと煮込んでしまえ
 飲み込めるかは　知らんけど
 
-でも君は風呂上がりのビールのよう　眠る前のアイスのよう
-キュートでコメディー　遠巻きニヤリ眺めております
+</span><span style='color:#ee3333;'>でも君は風呂上がりのビールのよう　眠る前のアイスのよう
+</span><span style='color:#0099ff;'>キュートでコメディー　遠巻きニヤリ眺めております
 
-君のキラキラした生き様を　見るとこっちも輝けちゃうよ
-何でも話してくれる君が大好きさ
+</span><span style='color:#ffc81b;'>君のキラキラした生き様を　見るとこっちも輝けちゃうよ
+</span><span style='color:#ff66b2;'>何でも話してくれる君が</span>大好きさ
 
-君に釘付けクセになる　ステキなステキなMy Fave
-君に釘付けクセになる　ステキなステキなMy Fave
-目薬をさしたところで　その白目にはならない
-マシュマロを食べたところで　その白さにもならない
-でもいいのさ　そんなのいいのさ
+君に釘付けクセになる　<span style='color:#32cd32;'>ステキなステキなMy Fave</span>
+君に釘付けクセになる　<span style='color:#9933ff;'>ステキなステキなMy Fave
+</span><span style='color:#0099ff;'>目薬をさしたところで　その白目にはならない
+</span><span style='color:#ee3333;'>マシュマロを食べたところで　その白さにもならない
+</span><span style='color:#f39800;'>でもいいのさ　そんなのいいのさ</span>
 明日は明日　頑張りましょう！
 
-ここは洗濯機の中ですか？　気持ちの渦に泡吹きそう
-それは燃えるゴミですか？　いえ自分にとっちゃ宝物
-あちらの電球が切れそうです　こちらの電池も切れそうです
-どの花も枯れちゃうよ　あぁもうカラカラ
+<span style='color:#ee3333;'>ここは洗濯機の中ですか？　気持ちの渦に泡吹きそう
+</span><span style='color:#f39800;'>それは燃えるゴミですか？　いえ自分にとっちゃ宝物
+</span><span style='color:#0099ff;'>あちらの電球が切れそうです　こちらの電池も切れそうです
+</span><span style='color:#ffc81b;'>どの花も枯れちゃうよ　あぁもうカラカラ
 
-誰かを受けとめること　誰かを応援すること
-自分に余裕がないと　できないかもしれない
+</span><span style='color:#9933ff;'>誰かを受けとめること　</span><span style='color:#32cd32;'>誰かを応援すること
+</span><span style='color:#ff66b2;'>自分に余裕がないと　できないかもしれない
 
-たまには空気を入れ替えて　新しい柔軟剤にして
-誰かの価値観なんて　じゃぶじゃぶ洗い流して
-いっぱい太陽を浴びて　遊び心の余裕を
-君のことが大事な今が大好きさ
+</span><span style='color:#f39800;'>たまには空気を入れ替えて　</span><span style='color:#ffc81b;'>新しい柔軟剤にして
+</span><span style='color:#0099ff;'>誰かの価値観なんて　</span><span style='color:#ee3333;'>じゃぶじゃぶ洗い流して
+</span><span style='color:#ff66b2;'>いっぱい太陽を浴びて　</span><span style='color:#9933ff;'>遊び心の余裕を
+</span><span style='color:#32cd32;'>君のことが大事な今が大好きさ</span>
 
 君に釘付けクセになる　ステキなステキなMy Fave
 君に釘付けクセになる　ステキなステキなMy Fave
-向かい風も追い風に変えてしまおう
-綺麗な白い花がゆらゆら揺れてる
-土砂降りの雨も止んだら七色の虹がかかるよ
-明日は明日　頑張りましょう！`},{id:258,title:"天空エスカレーション",titleKana:"てんくうえすかれーしょん",lyricist:"河田総一郎",composer:"河田総一郎・佐々木望",arranger:"Soulife",album:["ハート / FATE","ハート / FATE[通常盤]"],announce:"t",performances:["10周年生配信トーク＆ライブ「虹会」{2}"],singer:"WEST.",date:"2024-04-24",tiup:"近鉄不動産 あべのハルカス 10周年記念CMソング",lyrics:`上がる　上がる　天空まで上がってく
+<span style='color:#0099ff;'>向かい風も追い風に</span><span style='color:#ffc81b;'>変えてしまおう
+</span><span style='color:#ff66b2;'>綺麗な白い花が</span><span style='color:#f39800;'>ゆらゆら揺れてる
+</span><span style='color:#ee3333;'>土砂降りの雨も止んだら</span><span style='color:#32cd32;'>七色の虹がかかるよ
+</span><span style='color:#9933ff;'>明日は明日</span>　頑張りましょう！`},{id:258,title:"天空エスカレーション",titleKana:"てんくうえすかれーしょん",lyricist:"河田総一郎",composer:"河田総一郎・佐々木望",arranger:"Soulife",album:["ハート / FATE","ハート / FATE[通常盤]"],announce:"t",performances:["10周年生配信トーク＆ライブ「虹会」{2}"],singer:"WEST.",date:"2024-04-24",tiup:"近鉄不動産 あべのハルカス 10周年記念CMソング",lyrics:`上がる　上がる　天空まで上がってく
 ハルカ澄んだ　あの場所に
 届けるまで　止めないでエナジー
 
@@ -30041,58 +30041,58 @@ Everyday, Power-Up
 ハルカ澄んだ　あの場所に
 どんな景色　広がってるの？
 この目で君と　見たいから
-いま心に　湧き上がるエナジー`,lyricsn:`上がる　上がる　天空まで上がってく
-ハルカ澄んだ　あの場所に
+いま心に　湧き上がるエナジー`,lyricsn:`<span style='color:#ee3333;'>上がる　上がる　天空まで上がってく
+</span><span style='color:#9933ff;'>ハルカ澄んだ　あの場所に</span>
 届けるまで　止めないでエナジー
 
-あの日君に出会った瞬間
+<span style='color:#0099ff;'>あの日君に出会った瞬間
 ディストーションみたいな直感
-目の前の景色が全部
-パワースポットに変わったよ
+</span><span style='color:#f39800;'>目の前の景色が全部
+パワースポットに変わったよ</span><span style='color:#9933ff;'>(ハモリ)
 
-泣き出しそうなCloudy skyもRainy dayも
-虹を待つ序章なんだよって
-君が教えてくれたから
-もうどんな　今日も　無駄にしない
+</span><span style='color:#32cd32;'>泣き出しそうなCloudy skyもRainy dayも</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>虹を待つ序章なんだよって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>君が教えてくれたから</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>もうどんな　今日も　無駄にしない</span><span style='color:#9933ff;'>(ハモリ)
 
-曲がりくねった道だからこそ
-たくさんのカーブで景色見れるよ
-君といるなら　遠回りもOK
+</span><span style='color:#ffc81b;'>曲がりくねった道だからこそ
+たくさんのカーブで景色見れるよ</span>
+君といるなら　遠回りも<span style='color:#ee3333;'>OK</span>
 
 変わる　変わる　この街も変わってく
-昨日よりも　“今日が好き”
+<span style='color:#9933ff;'>昨日よりも　“今日が好き”</span>
 Everyday, Power-Up
 明日もBeautiful day
 上がる　上がる　天空まで上がってく
-ハルカ澄んだ　あの場所が
+<span style='color:#ee3333;'>ハルカ澄んだ　あの場所が</span>
 待ってるから　止めないでエナジー
 
-幸せの基準は曖昧
-だからこそ感じてたい I like it！！
-MAPに載らない up-downも
-君となら　アトラクションさ
+<span style='color:#9933ff;'>幸せの基準は曖昧</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>だからこそ感じてたい I like it！！</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#f39800;'>MAPに載らない up-downも
+</span><span style='color:#ffc81b;'>君となら　アトラクションさ</span><span style='color:#32cd32;'>(ハモリ)
 
-迷った時は　あのタワーのように
-目印にして　僕を頼って
-つまずいたって　止まらないで　One way
+</span><span style='color:#ff66b2;'>迷った時は　あのタワーのように
+</span><span style='color:#ee3333;'>目印にして　僕を頼って</span>
+つまずいたって　止まらないで　<span style='color:#32cd32;'>One way</span>
 
 Higher Higher Higher
-無重力の世界みたいに　(離さないで)
+<span style='color:#ff66b2;'>無重力の世界みたいに　</span><span style='color:#ffc81b;'>(離さないで)</span>
 Fly Fly Fly
-恋も急上昇　(どこまでも)
-君と上がってこう
+<span style='color:#ff66b2;'>恋も急上昇　</span><span style='color:#ffc81b;'>(どこまでも)
+</span><span style='color:#9933ff;'>君と上がってこう
 
-きらり　ひかり　今日がまた始まる
-君を連れて　駆け上がってく
+</span><span style='color:#0099ff;'>きらり　ひかり　今日がまた始まる
+</span><span style='color:#32cd32;'>君を連れて　</span><span style='color:#ee3333;'>駆け上がってく</span>
 
 変わる　変わる　僕たちも変わってく
-昨日よりも　“君が好き”
+<span style='color:#ffc81b;'>昨日よりも　“君が好き”</span>
 Everyday, Power-Up
 今日だってBeautiful day
 上がる　上がる　天空まで上がってく
-ハルカ澄んだ　あの場所に
-どんな景色　広がってるの？
-この目で君と　見たいから
+<span style='color:#f39800;'>ハルカ澄んだ　あの場所に
+</span><span style='color:#9933ff;'>どんな景色　広がってるの？
+</span><span style='color:#ff66b2;'>この目で君と　見たいから</span>
 いま心に　湧き上がるエナジー`},{id:259,title:"Closer",titleKana:"Closer",lyricist:"Shadow-words・篠原とまと",composer:"高橋諒",arranger:"高橋諒",album:["ハート / FATE","ハート / FATE[通販盤]"],announce:"f",performances:[],singer:"WEST.",date:"2024-04-24",lyrics:`(Got this melting love)
 (Lighting up my soul)
 (Right, you might be in love)
@@ -30218,95 +30218,95 @@ Yeah 馬鹿は俺だ
 (Right, you might be in love)
 (But not in control)
 
-さあ 君ならこれからどうしたい？
+<span style='color:#32cd32;'>さあ 君ならこれからどうしたい？
 未知の展開 find
 居心地最高 ぬるま湯ライフ
 ハッピーな振りだけなんじゃない？
-一貫した no clueless
+</span><span style='color:#0099ff;'>一貫した no clueless
 それとも素直になれないフェーズ？
 解せない じゃ俺から先制で
 0から100まで Give me all of you
 
-選べぬ choice
-揺れ動いて heart beating
-リスキーな priority
-I can understand
+</span><span style='color:#9933ff;'>選べぬ choice
+揺</span><span style='color:#ff66b2;'>れ</span><span style='color:#9933ff;'>動</span><span style='color:#ff66b2;'>い</span><span style='color:#9933ff;'>て </span><span style='color:#ff66b2;'>he</span><span style='color:#9933ff;'>ar</span><span style='color:#ff66b2;'>t b</span><span style='color:#9933ff;'>ea</span><span style='color:#ff66b2;'>ti</span><span style='color:#9933ff;'>ng
+</span><span style='color:#ff66b2;'>リ</span><span style='color:#9933ff;'>ス</span><span style='color:#ff66b2;'>キ</span><span style='color:#9933ff;'>ー</span><span style='color:#ff66b2;'>な </span><span style='color:#9933ff;'>pr</span><span style='color:#ff66b2;'>io</span><span style='color:#9933ff;'>ri</span><span style='color:#ff66b2;'>ty
+</span><span style='color:#ffc81b;'>I can understand
 Don't hide away
 Why'd you make that face?
-塞いだ唇に this reality
-Yeah, I know
+</span><span style='color:#9933ff;'>塞</span><span style='color:#ff66b2;'>い</span><span style='color:#9933ff;'>だ</span><span style='color:#ff66b2;'>唇</span><span style='color:#9933ff;'>に </span><span style='color:#ff66b2;'>th</span><span style='color:#9933ff;'>is </span><span style='color:#ff66b2;'>re</span><span style='color:#9933ff;'>al</span><span style='color:#ff66b2;'>it</span><span style='color:#9933ff;'>y
+</span><span style='color:#ffc81b;'>Yeah, I know
 I still love you
 
-窓の外 rainy blue
+</span><span style='color:#ee3333;'>窓の外 rainy blue
 さめざめ止まぬ小雨
 雨にも負けず
-心に問う 躊躇いの決め手に
-広がる sky blue
+</span><span style='color:#f39800;'>心に問う 躊躇いの決め手に
+</span><span style='color:#ee3333;'>広がる sky blue
 厚い雲はいずれ晴れる
-もうその愛が呼んでんだ
+</span><span style='color:#f39800;'>もうその愛が呼んでんだ</span>
 
 So I won't let you go
 (Baby)
 掛け違えた想いが drowning
-惹かれ合ってまた向こう
-交わらない 逃避行
+<span style='color:#32cd32;'>惹かれ合ってまた向こう
+交わらない 逃避行</span>
 I won't let you go
 (No)
 御伽話でも構わない
 Alright, alright
-Come on closer
+<span style='color:#0099ff;'>Come on closer</span>
 
 (Got this melting love)
 (Lighting up my soul)
 (Right, you might be in love)
 (But not in control)
-Yeah 焦ってんな
+<span style='color:#f39800;'>Yeah 焦ってんな
 アドリブだけじゃ無理 突破
 溢れる思いをブチまけたい
 喉は痺れて何も言えない
-Yeah 焦ってんな
-アドリブだけじゃ無理 突破
-溢れる思いをブチまけたい
-君の目の中へ now respond
+</span><span style='color:#ff66b2;'>Yeah 焦ってんな</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>アドリブだけじゃ無理 突破</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>溢れる思いをブチまけたい</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>君の目の中へ now respond</span><span style='color:#9933ff;'>(ハモリ)
 
-めでたく一緒 新生 couple
+</span><span style='color:#ffc81b;'>めでたく一緒 新生 couple
 そうなりゃ毎日 bright
 陽だまりの中 見つめ合い
-分かち合うのさ 喜怒哀楽(Always)
-たまにはmore遠くまで
+分かち合うのさ 喜怒哀楽</span>(Always)
+<span style='color:#0099ff;'>たまにはmore遠くまで
 なんぼあってもいい思い出
 最高 no mercyな現実に
-見えた夢
+見えた夢</span>
 
 (Met you, my heart unsealed)
-愛に口実はいらない
+<span style='color:#ee3333;'>愛に口実はいらない</span>
 (Just feel)
-縛れない
+<span style='color:#ffc81b;'>縛れない</span>
 (Know you now and it's real)
-もう誰も止められない
+<span style='color:#f39800;'>もう誰も止められない</span>
 (Just feel)
-I'll take you out
+<span style='color:#32cd32;'>I'll take you out</span>
 (Thought of you, my heart peels)
 
-輝いて city lights
-雨模様 空の下
+<span style='color:#9933ff;'>輝いて city lights
+雨模様 空の下</span>
 (Up high)
-強く抱き寄せた
+<span style='color:#ff66b2;'>強く抱き寄せた</span>
 (in these skies)
-このハートを君へ
+<span style='color:#ff66b2;'>このハートを君へ</span>
 (Feel them inside)
 
-言葉なんていいから
+<span style='color:#0099ff;'>言葉なんていいから
 君の全てを
-教えてほしい 心からの君を
-言い訳なんていいから
-描いてみよう 無限の夢想
+</span><span style='color:#32cd32;'>教えてほしい 心からの君を
+</span><span style='color:#0099ff;'>言い訳なんていいから
+</span><span style='color:#32cd32;'>描いてみよう 無限の夢想</span>
 
 So I won't let you go
 (Baby)
 絡み合う日々を now, draw them
-つかず離れず 探り合う
-時間忘れて all night long
+<span style='color:#ffc81b;'>つかず離れず 探り合う
+時間忘れて all night long</span>
 I won't let you go
 (No)
 ありふれた朝を君と keep on
@@ -30314,26 +30314,26 @@ I won't let you go
 So I won't let you go
 (Baby)
 掛け違えた想いが drowning
-惹かれ合ってまた向こう
-交わらない 逃避行
+<span style='color:#ff66b2;'>惹かれ合ってまた向こう
+交わらない 逃避行</span>
 I won't let you go
 (No)
 御伽話でも構わない
 Alright, alright
-Come on closer
+<span style='color:#f39800;'>Come on closer</span>
 
 (Got this melting love)
 (Lighting up my soul)
 (Right, you might be in love)
 (But not in control)
-Yeah そんな馬鹿な
+<span style='color:#9933ff;'>Yeah そんな馬鹿な
 胸を焦がして オーバーヒート
 シナリオ狂って大暴走
 見つけた気がした ハッピーエンド
-Yeah 馬鹿は俺だ
+</span><span style='color:#ee3333;'>Yeah 馬鹿は俺だ
 見えないものを見ようとした
 醒めた後に残った感情
-まっすぐに君を愛してた`},{id:260,title:"まぁいっか！",titleKana:"まぁいっか！",lyricist:"meiyo",composer:"meiyo",arranger:"高橋諒",album:["まぁいっか！","まぁいっか！[初回A]","まぁいっか！[初回B]","まぁいっか！[通常盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`まぁいっか！[初回A]（Music Video & Making, Music Video -Dance Ver.-）
+まっすぐに君を愛してた</span>`},{id:260,title:"まぁいっか！",titleKana:"まぁいっか！",lyricist:"meiyo",composer:"meiyo",arranger:"高橋諒",album:["まぁいっか！","まぁいっか！[初回A]","まぁいっか！[初回B]","まぁいっか！[通常盤]","A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`まぁいっか！[初回A]（Music Video & Making, Music Video -Dance Ver.-）
 YouTube（Music Vudeo）`,performances:["DOME TOUR AWARD(東京){17}","DOME TOUR AWARD(東京オーラス){17}","A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){5}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){5}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){5}","a-nation2024{5}","KOYABU SONIC2024{4}","CDTV ライブ！ ライブ！大感謝祭2024{2}"],singer:"WEST.",date:"2024-09-10",lyrics:`(ワンツー...まぁいっか！)
 La La La...
 (まぁいっか！まぁいっか！)
@@ -30393,54 +30393,54 @@ La La La...
 La La La...
 (まぁいっか！まぁいっか！)
 
-この物語の主人公は僕です
-絶対そうって言い切れる！
-いつか見た理想や　あのとき笑われた夢が
-キラッと光って今　僕を照らしている
+<span style='color:#ee3333;'>こ</span><span style='color:#0099ff;'>の</span><span style='color:#ee3333;'>物</span><span style='color:#0099ff;'>語</span><span style='color:#ee3333;'>の</span><span style='color:#0099ff;'>主</span><span style='color:#ee3333;'>人</span><span style='color:#0099ff;'>公</span><span style='color:#ee3333;'>は</span><span style='color:#0099ff;'>僕</span><span style='color:#ee3333;'>で</span><span style='color:#0099ff;'>す
+</span><span style='color:#ee3333;'>絶</span><span style='color:#0099ff;'>対</span><span style='color:#ee3333;'>そ</span><span style='color:#0099ff;'>う</span><span style='color:#ee3333;'>っ</span><span style='color:#0099ff;'>て</span><span style='color:#ee3333;'>言</span><span style='color:#0099ff;'>い</span><span style='color:#ee3333;'>切</span><span style='color:#0099ff;'>れ</span><span style='color:#ee3333;'>る</span><span style='color:#0099ff;'>！
+</span><span style='color:#9933ff;'>い</span><span style='color:#ff66b2;'>つ</span><span style='color:#9933ff;'>か</span><span style='color:#ff66b2;'>見</span><span style='color:#9933ff;'>た</span><span style='color:#ff66b2;'>理</span><span style='color:#9933ff;'>想</span><span style='color:#ff66b2;'>や　</span><span style='color:#9933ff;'>あ</span><span style='color:#ff66b2;'>の</span><span style='color:#9933ff;'>と</span><span style='color:#ff66b2;'>き</span><span style='color:#9933ff;'>笑</span><span style='color:#ff66b2;'>わ</span><span style='color:#9933ff;'>れ</span><span style='color:#ff66b2;'>た</span><span style='color:#9933ff;'>夢</span><span style='color:#ff66b2;'>が</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>キ</span><span style='color:#ff66b2;'>ラ</span><span style='color:#9933ff;'>ッ</span><span style='color:#ff66b2;'>と</span><span style='color:#9933ff;'>光</span><span style='color:#ff66b2;'>っ</span><span style='color:#9933ff;'>て</span><span style='color:#ff66b2;'>今　</span><span style='color:#9933ff;'>僕</span><span style='color:#ff66b2;'>を</span><span style='color:#9933ff;'>照</span><span style='color:#ff66b2;'>ら</span><span style='color:#9933ff;'>し</span><span style='color:#ff66b2;'>て</span><span style='color:#9933ff;'>い</span><span style='color:#ff66b2;'>る</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 (まぁいっか！)
 
-ちょっとの事など気にしないぜ (Z！)
-昨日よりも今日の方が最強じゃん！ (でも？)
-時々あっちゃこっちゃ羨ましいなって...
+<span style='color:#0099ff;'>ちょっとの事など気にしないぜ</span> (Z！)
+<span style='color:#f39800;'>昨日よりも今日の方が最強じゃん！</span> (でも？)
+<span style='color:#ffc81b;'>時々あっちゃこっちゃ羨ましいなって...
 僕は僕なのに！
 
-まぁいっか！
+</span><span style='color:#9933ff;'>まぁいっか！</span>
 なんとなく過ごす日々に愛は隠れてる
-やり切れないことばっか押し寄せて来ちゃうけど
+<span style='color:#32cd32;'>やり切れないことばっか押し寄せて来ちゃうけど</span>
 みんな違ってみんな良いだなんて思えなくても良い
-僕が僕を愛してあげないとさ
-大好きな君に笑われちゃうよな
+<span style='color:#ee3333;'>僕が僕を愛してあげないとさ
+</span><span style='color:#ff66b2;'>大好きな君に笑われちゃうよな
 
-少し大げさに言うなれば
-無敵のヒーローです
-誰かの理想に　イヤイヤ合わせるくらいなら
-サイテーの上で　歌って踊ってやる！
+</span><span style='color:#0099ff;'>少</span><span style='color:#ff66b2;'>し</span><span style='color:#0099ff;'>大</span><span style='color:#ff66b2;'>げ</span><span style='color:#0099ff;'>さ</span><span style='color:#ff66b2;'>に</span><span style='color:#0099ff;'>言</span><span style='color:#ff66b2;'>う</span><span style='color:#0099ff;'>な</span><span style='color:#ff66b2;'>れ</span><span style='color:#0099ff;'>ば
+</span><span style='color:#ff66b2;'>無</span><span style='color:#0099ff;'>敵</span><span style='color:#ff66b2;'>の</span><span style='color:#0099ff;'>ヒ</span><span style='color:#ff66b2;'>ー</span><span style='color:#0099ff;'>ロ</span><span style='color:#ff66b2;'>ー</span><span style='color:#0099ff;'>で</span><span style='color:#ff66b2;'>す
+</span><span style='color:#ee3333;'>誰</span><span style='color:#32cd32;'>か</span><span style='color:#ee3333;'>の</span><span style='color:#32cd32;'>理</span><span style='color:#ee3333;'>想</span><span style='color:#32cd32;'>に　</span><span style='color:#ee3333;'>イ</span><span style='color:#32cd32;'>ヤ</span><span style='color:#ee3333;'>イ</span><span style='color:#32cd32;'>ヤ</span><span style='color:#ee3333;'>合</span><span style='color:#32cd32;'>わ</span><span style='color:#ee3333;'>せ</span><span style='color:#32cd32;'>る</span><span style='color:#ee3333;'>く</span><span style='color:#32cd32;'>ら</span><span style='color:#ee3333;'>い</span><span style='color:#32cd32;'>な</span><span style='color:#ee3333;'>ら</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>サ</span><span style='color:#ee3333;'>イ</span><span style='color:#32cd32;'>テ</span><span style='color:#ee3333;'>ー</span><span style='color:#32cd32;'>の</span><span style='color:#ee3333;'>上</span><span style='color:#32cd32;'>で　</span><span style='color:#ee3333;'>歌</span><span style='color:#32cd32;'>っ</span><span style='color:#ee3333;'>て</span><span style='color:#32cd32;'>踊</span><span style='color:#ee3333;'>っ</span><span style='color:#32cd32;'>て</span><span style='color:#ee3333;'>や</span><span style='color:#32cd32;'>る</span><span style='color:#ee3333;'>！</span>
 
 (まぁいっか！)
 
-「みんなそんなもんでしょ」ってかなわんわ (そーれ！)
-楽しんだもん勝ちって言ってんじゃん！ (ピース！)
-根拠なんてないんだけど
-馬鹿馬鹿しいなって　とりあえず　それとなく
-笑えればIt's OK！
+<span style='color:#f39800;'>「みんなそんなもんでしょ」ってかなわんわ</span> (そーれ！)
+<span style='color:#ff66b2;'>楽しんだもん勝ちって言ってんじゃん！</span> (ピース！)
+<span style='color:#9933ff;'>根拠なんてないんだけど
+馬鹿馬鹿しいなって　</span><span style='color:#ffc81b;'>とりあえず　</span><span style='color:#9933ff;'>それとなく
+</span><span style='color:#ffc81b;'>笑</span><span style='color:#9933ff;'>え</span><span style='color:#ffc81b;'>れ</span><span style='color:#9933ff;'>ば</span><span style='color:#ffc81b;'>It's </span><span style='color:#9933ff;'>OK！
 
-まぁいっか！
+</span><span style='color:#f39800;'>まぁいっか！</span>
 なんとなく過ごす日々に愛は隠れてる
-やり切れないことばっか押し寄せて来ちゃうけど
+<span style='color:#0099ff;'>やり切れないことばっか押し寄せて来ちゃうけど</span>
 みんな違ってみんな良いだなんて思えなくても良い
-僕が僕を愛してあげないとさ
-大好きな君に笑われちゃうよな
+<span style='color:#32cd32;'>僕が僕を愛してあげないとさ
+</span><span style='color:#ffc81b;'>大好きな君に笑われちゃうよな</span>
 
 La La La...
 
 まぁいっか！
 
-こうやってなんとなく過ごす日々に愛が溢れてく
-そんなイメージ持ってりゃこんな世界もちょっと煌めくぜ！
+<span style='color:#ee3333;'>こうやってなんとなく過ごす日々に愛が溢れてく</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>そんなイメージ持ってりゃこんな世界もちょっと煌めくぜ！</span><span style='color:#ff66b2;'>(ハモリ)</span>
 みんな違ってみんな良いだなんて思えなくても良い
-少しも難しいことはないのさ
-僕が僕を愛していたいから
+<span style='color:#ffc81b;'>少しも難しいことはないのさ
+</span><span style='color:#9933ff;'>僕が僕を愛していたいから</span>
 大好きな君のために歌っていいかな
 
 La La La...
@@ -30508,71 +30508,71 @@ Wow...... 広がっていく
 あなたがいて
 僕らがいる
 
-僕らがいる`,lyricsn:`僕が選んだからには
+僕らがいる`,lyricsn:`<span style='color:#ff66b2;'>僕が選んだからには
 ありきたりで終わらせないぜ
-扉　ぶっ壊れた今こそ
+</span><span style='color:#f39800;'>扉　ぶっ壊れた今こそ
 誰も邪魔出来ないんだ
 
-アリエナイ　バカミタイ
-散々言われたけれど
-後悔するくらいなら
+</span><span style='color:#ee3333;'>アリエナイ　バカミタイ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>散々言われたけれど
+</span><span style='color:#9933ff;'>後悔するくらいなら
 笑われたほうが良いや
 
-「何者かになりたい」それだけ
+</span><span style='color:#32cd32;'>「何者かになりたい」それだけ
 ポケットに捩じ込んだ Night
-時代のせいにしてたら
+</span><span style='color:#ffc81b;'>時代のせいにしてたら
 なんかゲームセットじゃない
-眺めてた　街の灯りも
-消えてくころ　僕は出てくよ
-勇敢なヒーローの振りして
+</span><span style='color:#0099ff;'>眺めてた　街の灯りも</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>消えてくころ　僕は出てくよ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>勇敢なヒーローの振りして</span>
 
 なりふりかまわず　生きたくて
-何処かで愛求め　迷子だった衝動は
+何処かで愛求め　<span style='color:#f39800;'>迷子だった衝動は</span>
 僕をつくり　僕を目覚めさせる
-前だけ見てりゃ上等さ
+<span style='color:#ff66b2;'>前だけ見てりゃ上等さ</span><span style='color:#9933ff;'>(ハモリ)
 
-なにやってんの
+</span><span style='color:#0099ff;'>なにやってんの
 涼しい顔してらんないよ
-心に突き刺さるメンション
+</span><span style='color:#32cd32;'>心に突き刺さるメンション
 Why'd you stop？ お前に聞いてんの
-変わってみたいなら
-向き合うしか無いかな
-まだ　僕を諦めたくないや
+</span><span style='color:#ee3333;'>変わってみたいなら</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ee3333;'>向き合うしか無いかな</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ee3333;'>まだ　僕を諦めたくないや</span><span style='color:#ff66b2;'>(ハモリ)
 
-ひたすら信じていたい　それだけ
+</span><span style='color:#ffc81b;'>ひたすら信じていたい　それだけ
 止まっては　進んでく Style
-時計の針に追いかけられている場合じゃない
-つまづいた時の砂利の味も
-今でも忘れていないよ
-いっさいがっさいを味方にして
+</span><span style='color:#9933ff;'>時計の針に追いかけられている場合じゃない
+</span><span style='color:#f39800;'>つまづいた時の砂利の味も</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#f39800;'>今でも忘れていないよ</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#f39800;'>いっさいがっさいを味方にして</span>
 
 なりふりかまわず　生きたくて
-何処かで愛求め　迷子だった衝動は
+何処かで愛求め　<span style='color:#32cd32;'>迷子だった衝動は</span>
 僕をつくり　僕を目覚めさせる
-前だけ見てりゃ上等さ
+<span style='color:#0099ff;'>前だけ見てりゃ上等さ</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 Wow...... 響いていく
 Wow...... 広がっていく
 
-僕らがいて
-あなたがいて
-それだけで笑える
-これでいいんだって思える
-あなたがいて
-僕らがいる
-生きたいって思える
+<span style='color:#9933ff;'>僕らがいて
+</span><span style='color:#ffc81b;'>あなたがいて
+</span><span style='color:#ff66b2;'>それだけで笑える
+</span><span style='color:#f39800;'>これでいいんだって思える
+</span><span style='color:#0099ff;'>あなたがいて</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>僕らがいる</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>生きたいって思える</span><span style='color:#9933ff;'>(ハモリ)</span>
 
 なりふりかまわず　生きたくて
-何処かで愛求め　迷子だった衝動は
+何処かで愛求め　<span style='color:#ffc81b;'>迷子だった衝動は</span>
 僕をつくり　僕を目覚めさせる
-今を歌えりゃ　充分さ
+<span style='color:#32cd32;'>今を歌えりゃ　充分さ
 
-僕らがいて
-あなたがいて
-あなたがいて
-僕らがいる
+</span><span style='color:#ff66b2;'>僕らがいて
+</span><span style='color:#f39800;'>あなたがいて
+</span><span style='color:#0099ff;'>あなたがいて
+</span><span style='color:#ee3333;'>僕らがいる
 
-僕らがいる`},{id:262,title:"I like you!!",titleKana:"I like you!!",lyricist:"山崎あおい",composer:"白戸佑輔",arranger:"白戸佑輔",album:["まぁいっか！","まぁいっか！[初回A]"],announce:"t",performances:["ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>){1}"],singer:"WEST.",date:"2024-09-10",lyrics:`まっすぐ声にしよう
+</span><span style='color:#9933ff;'>僕らがいる</span>`},{id:262,title:"I like you!!",titleKana:"I like you!!",lyricist:"山崎あおい",composer:"白戸佑輔",arranger:"白戸佑輔",album:["まぁいっか！","まぁいっか！[初回A]"],announce:"t",performances:["ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>){1}"],singer:"WEST.",date:"2024-09-10",lyrics:`まっすぐ声にしよう
 やっぱり僕らは
 “I like you！！”
 ねえ、手を繋ごう
@@ -30648,25 +30648,25 @@ Wow...... 広がっていく
 芽生えたあの日と
 同じ温度の
 “I like you！！”
-ねえ、手を繋ごう`,lyricsn:`まっすぐ声にしよう
+ねえ、手を繋ごう`,lyricsn:`<span style='color:#32cd32;'>まっすぐ声にしよう
 やっぱり僕らは
-“I like you！！”
+</span><span style='color:#ff66b2;'>“I like you！！”
 ねえ、手を繋ごう
 
-午後の金木犀が
+</span><span style='color:#f39800;'>午後の金木犀が
 ゆっくり街をつつんだの
-ふいに出会ったころの
+</span><span style='color:#0099ff;'>ふいに出会ったころの
 君が揺らめいて
 
-とっくに見慣れたすっぴん
+</span><span style='color:#ee3333;'>とっくに見慣れたすっぴん
 良いのに、うつむかないで
-からかってないけどさ
+</span><span style='color:#9933ff;'>からかってないけどさ
 いとしくて　ごめんね
 
-ふたつの影
+</span><span style='color:#ffc81b;'>ふたつの影
 まるで当たり前の幸せ
-こんな日に似合う
-言の葉を集めて
+</span><span style='color:#32cd32;'>こんな日に似合う</span>
+</span><span style='color:#32cd32;'>言の葉を集めて</span>
 
 まっすぐ声にしよう
 やっぱり僕らは
@@ -30676,22 +30676,22 @@ Wow...... 広がっていく
 しわくちゃになったら
 着こなせるかな
 “I love you！！”
-そっと待ってて
+<span style='color:#0099ff;'>そっと待ってて
 
-巡るたび季節は
+</span><span style='color:#9933ff;'>巡るたび季節は
 きっとね　加速してる
-君もそう思うんなら
+</span><span style='color:#ee3333;'>君もそう思うんなら
 気のせいじゃないかも？
 
-バースデー　そろそろだね
+</span><span style='color:#ffc81b;'>バースデー　そろそろだね
 ヒントは9つまで
-かわいい願い事を
+</span><span style='color:#32cd32;'>かわいい願い事を
 今年こそ当てるよ
 
-ひとつになる
+</span><span style='color:#ff66b2;'>ひとつになる
 思い出と未来のシュプール
-はぐれないように
-ひらめく限りの灯を
+</span><span style='color:#f39800;'>はぐれないように
+ひらめく限りの灯を</span>
 
 最後の恋にしよう
 やっぱり君だよ
@@ -30701,20 +30701,20 @@ Wow...... 広がっていく
 芽生えたあの日と
 同じ温度の
 “I like you！！”
-ねえ、手を繋ごう
+<span style='color:#32cd32;'>ねえ、手を繋ごう
 
-夕暮れ　細道　笑い合えば
-こだましたやさしさ
+</span><span style='color:#f39800;'>夕暮れ　細道　笑い合えば
+</span><span style='color:#ee3333;'>こだましたやさしさ
 やっと見つけた　愛だ
 
-格好もつけたいけど
+</span><span style='color:#ff66b2;'>格好もつけたいけど
 やっぱり僕には
-“I love you！！”以上
-“I like you！！”が「らしい」ね
+</span><span style='color:#0099ff;'>“I love you！！”以上</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>“I like you！！”</span><span style='color:#32cd32;'>(ハモリ)</span><span style='color:#0099ff;'>が「らしい」ね
 
-しわくちゃになっても
+</span><span style='color:#ffc81b;'>しわくちゃになっても
 こんな「好き」を重ねよう
-何百回だってさ
+</span><span style='color:#9933ff;'>何百回だってさ</span>
 
 最後の恋にしよう
 やっぱり君だよ
@@ -30762,40 +30762,40 @@ Wow...... 広がっていく
 私が決めるのよ
 
 もう会わないでいようね
-諦める主役`,lyricsn:`私の毎日を狂わすのは
+諦める主役`,lyricsn:`<span style='color:#ee3333;'>私の毎日を狂わすのは
 錆びた弦でも切れた縁でもない
-まだ好きでいたくて
+</span><span style='color:#9933ff;'>まだ好きでいたくて
 まだ好きなのに痛くて
-白黒を選べない
+</span><span style='color:#0099ff;'>白黒を選べない
 私は私を選べない
 
-さよなら私の夢よ
+</span><span style='color:#32cd32;'>さよなら私の夢よ
 私の想いよ
-このまま枯れるよりも
-さよなら私の日々よ
+</span><span style='color:#ff66b2;'>このまま枯れるよりも
+</span><span style='color:#f39800;'>さよなら私の日々よ
 私の全てよ
-おやすみ
+</span><span style='color:#ffc81b;'>おやすみ
 
-春は親切に訪れるの
-風は健気に街を駆けていくの
-私は私で居たくて
-私が私だと痛くて
-何者にでも慣れて
+</span><span style='color:#ee3333;'>春は親切に訪れるの
+</span><span style='color:#9933ff;'>風は健気に街を駆けていくの
+</span><span style='color:#0099ff;'>私は私で居たくて
+</span><span style='color:#32cd32;'>私が私だと痛くて
+</span><span style='color:#ffc81b;'>何者にでも慣れて
 未だ何者にも成れない
 
-泣いて笑って
+</span><span style='color:#f39800;'>泣いて笑って
 落ち込んで崩れて
-それでも私の人生
+</span><span style='color:#ff66b2;'>それでも私の人生
 強く生きてみたりする
 
-誰か気付いて
-誰か気付いて
-こんな私の人生
-これも私だ
+</span><span style='color:#9933ff;'>誰か気付いて
+</span><span style='color:#0099ff;'>誰か気付いて
+</span><span style='color:#32cd32;'>こんな私の人生
+</span><span style='color:#ee3333;'>これも私だ
 
-今でも私の光よ。
-これまでの痛みも
-抱えて探して進んでいく
+</span><span style='color:#f39800;'>今でも私の光よ。
+</span><span style='color:#ffc81b;'>これまでの痛みも
+</span><span style='color:#ff66b2;'>抱えて探して進んでいく</span>
 全てが私の日々よ
 私が決めるのよ
 
@@ -30885,74 +30885,74 @@ Hey！ めちゃめちゃええ夢みさせるぜ Yeah！
 煌びやかに照らすキラリ笑みは満面(Hey！)
 It's show time！ ゴールデンタイム！
 声聞かせてよ
-いつ！？　今！！いくでGO WEST.`,lyricsn:`踊ろうや歌おうやど真ん中人生謳歌
-(あんたもそうでっか？)
-ほな良かったまだまだせーへんSlow down
-めったにないよなこの瞬間
+いつ！？　今！！いくでGO WEST.`,lyricsn:`<span style='color:#ffc81b;'>踊ろうや歌おうやど真ん中人生謳歌
+</span><span style='color:#9933ff;'>(あんたもそうでっか？)
+</span><span style='color:#ffc81b;'>ほな良かったまだまだせーへんSlow down
+</span><span style='color:#0099ff;'>めったにないよなこの瞬間
 乗ってけみんなで魔法の絨毯
 しんどい？ hahaまたまた御冗談
 Shall we dance？お任せ僕、長男
 
-待ちに待った夢見心地
-(風吹かそうその手を叩いて)
-忘れてええよ明日なんて
-(ふっ飛ばそうぜ月の向こうまで)
+</span><span style='color:#9933ff;'>待ちに待った夢見心地
+</span><span style='color:#ff66b2;'>(風吹かそうその手を叩いて)
+</span><span style='color:#9933ff;'>忘れてええよ明日なんて
+</span><span style='color:#ff66b2;'>(ふっ飛ばそうぜ月の向こうまで)
 
-君が照らした光目指し
-駆け出す　はじまる　全てはここから
+</span><span style='color:#f39800;'>君が照らした光目指し</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ffc81b;'>駆け出す　</span><span style='color:#ff66b2;'>はじまる　</span><span style='color:#f39800;'>全てはここから</span><span style='color:#32cd32;'>(ハモリ)
 
-ひとりになんてさせやしないぜ
+</span><span style='color:#ee3333;'>ひとりになんてさせやしないぜ
 瞳奪うなんてお手のもんです
 一度きりなんて言わんといて
 他の誰かはちょっと置いといて
 
-巡り巡り君と共に声を響かす (Hey！)
-熱意決意込めて奥に音を届ける (Hey！)
-It's show time！ ゴールデンタイム！
+</span><span style='color:#32cd32;'>巡り巡り君と共に声を響かす</span> (Hey！)
+</span><span style='color:#32cd32;'>熱意決意込めて奥に音を届ける</span> (Hey！)
+</span><span style='color:#32cd32;'>It's show time！ ゴールデンタイム！
 踊りたい人　どこ！？　そこ！！
-あそこにも！！了解！！
+あそこにも！！</span>了解！！
 
 ピカピカ光る笑顔　集まれば始まりの合図
-Hey！ 今はぼちぼちじゃなく強引にGoing！
+Hey！ <span style='color:#ffc81b;'>今はぼちぼちじゃなく強引にGoing！</span>
 奇跡起こる予感
 イラーッとなんかしないでここにくれば
 夢のような世界へ
-なにわともあれいくぜ I go my way
-男子も女子も手に手をとったら歌え
+<span style='color:#f39800;'>なにわともあれいくぜ I go my way
+男子も女子も手に手をとったら歌え</span>
 ナイナイ心配ナイ緊張なんていらナイ
 ここに来たなら楽しむしかナイ
 
-Let it be　思うままに
+<span style='color:#32cd32;'>Let it be　思うままに
 予測可能な明日なんかつまんない
-背伸びした景色に
+</span><span style='color:#f39800;'>背伸びした景色に
 胸を膨らまして生きる方がいい
 
-君が照らした光　受け取り
-今また　はじまる　まだまだこれから
+</span><span style='color:#ffc81b;'>君が照らした光　受け取り</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>今また　</span><span style='color:#32cd32;'>はじまる　</span><span style='color:#ffc81b;'>まだまだこれから</span><span style='color:#9933ff;'>(ハモリ)
 
-Hey　口から出まかせ
+</span><span style='color:#0099ff;'>Hey　口から出まかせ
 蔓延る世界に立ち向かえ
-未来に期待全部自分次第
-めちゃくちゃに肩組んで喋りもて
+</span><span style='color:#ff66b2;'>未来に期待</span><span style='color:#0099ff;'>全部自分次第
+</span><span style='color:#0099ff;'>め</span><span style='color:#ff66b2;'>ち</span><span style='color:#0099ff;'>ゃ</span><span style='color:#ff66b2;'>く</span><span style='color:#0099ff;'>ち</span><span style='color:#ff66b2;'>ゃ</span><span style='color:#0099ff;'>に</span><span style='color:#ff66b2;'>肩</span><span style='color:#0099ff;'>組</span><span style='color:#ff66b2;'>ん</span><span style='color:#0099ff;'>で</span><span style='color:#ff66b2;'>喋</span><span style='color:#0099ff;'>り</span><span style='color:#ff66b2;'>も</span><span style='color:#0099ff;'>て
 
-おい！今何時や？
-ん？7時ぐらいやな
-おい！めっちゃええやん！
+</span><span style='color:#ee3333;'>おい！今何時や？
+</span><span style='color:#ffc81b;'>ん？7時ぐらいやな
+</span><span style='color:#ee3333;'>おい！めっちゃええやん！
 ゴールデンタイムや！
-ほんまやな！
+</span><span style='color:#9933ff;'>ほんまやな！
 でもゴールデンタイムってなんで
 ゴールデンタイムなんや？
-そりゃみんな集まって
+</span><span style='color:#ff66b2;'>そりゃみんな集まって
 『どっひゃー』なれるからやろ？
-ほんまやなー　ピッカピカやー！
+</span><span style='color:#ee3333;'>ほ</span><span style='color:#9933ff;'>ん</span><span style='color:#ee3333;'>ま</span><span style='color:#9933ff;'>や</span><span style='color:#ee3333;'>な</span><span style='color:#9933ff;'>ー　</span><span style='color:#ee3333;'>ピ</span><span style='color:#9933ff;'>ッ</span><span style='color:#ee3333;'>カ</span><span style='color:#9933ff;'>ピ</span><span style='color:#ee3333;'>カ</span><span style='color:#9933ff;'>や</span><span style='color:#ee3333;'>ー</span><span style='color:#9933ff;'>！</span>
 
 ピカピカ光る笑顔　集まれば始まりの合図
-Hey！ 今はぼちぼちじゃなく強引にGoing！
+Hey！ <span style='color:#32cd32;'>今はぼちぼちじゃなく強引にGoing！</span>
 奇跡起こる予感
 イラーッとなんかしないでここにくれば
 夢のような世界へ
-なにわともあれいくぜ I go my way
-男子も女子も手に手をとったら歌え
+<span style='color:#ffc81b;'>なにわともあれいくぜ I go my way
+男子も女子も手に手をとったら歌え</span>
 ナイナイ心配ナイ緊張なんていらナイ
 ここに来たなら楽しむしかナイ
 
@@ -30960,16 +30960,16 @@ Hey！ 今はぼちぼちじゃなく強引にGoing！
 
 めちゃめちゃええやん最高
 めちゃめちゃええやん最高超でいこう
-キラキラのその笑顔抱きしめに行くよ
+キラキラの<span style='color:#ff66b2;'>その笑顔抱きしめに行くよ</span>
 めちゃめちゃええやん最高
 めちゃめちゃええやん最高超でいこう
-曇った世界にこの声届けどこまでも晴れ渡れ
+曇った世界に<span style='color:#f39800;'>この声届けどこまでも晴れ渡れ</span>
 Hey！ めちゃめちゃええ夢みさせるぜ Yeah！
 
-君の為に声を大にここに宣言(Hey！)
-煌びやかに照らすキラリ笑みは満面(Hey！)
-It's show time！ ゴールデンタイム！
-声聞かせてよ
+<span style='color:#ee3333;'>君の為に声を大にここに宣言</span>(Hey！)
+<span style='color:#9933ff;'>煌びやかに照らすキラリ笑みは満面</span>(Hey！)
+<span style='color:#0099ff;'>It's show time！ ゴールデンタイム！
+声聞かせてよ</span>
 いつ！？　今！！いくでGO WEST.`},{id:265,title:"Checkmate",titleKana:"Checkmate",lyricist:"長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",composer:"長沢知亜紀・永野小織・Kaz Kuwamura・小木岳司",arranger:"小木岳司",album:["まぁいっか！","まぁいっか！[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){21}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){21}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){21}","メトロック2025(東京){9}"],singer:"WEST.",date:"2024-09-10",lyrics:`Checkmate
 
 Oh Checkmate
@@ -31042,79 +31042,79 @@ Checkmate
 Yeah eh eh, Yeah eh eh eh
 Checkmate
 Mate, this is how we make it
-Checkmate`,lyricsn:`Checkmate
+Checkmate`,lyricsn:`<span style='color:#0099ff;'>Checkmate
 
-Oh Checkmate
+</span><span style='color:#f39800;'>Oh Checkmate
 
-目が合うたび逸らす君は
-ねぇLove youが漏れてるよ
-白黒つかない態度で
-ごまかしたってWhat's your point？
+</span><span style='color:#0099ff;'>目が合うたび逸らす君は</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>ねぇLove youが漏れてるよ</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>白黒つかない態度で</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>ごまかしたってWhat's your point？</span><span style='color:#32cd32;'>(ハモリ)
 
-左ならもうGo home
-右ならこの恋Stay hope
-どっち選べばいいか
-わかってるんでしょう
+</span><span style='color:#ffc81b;'>左ならもうGo home</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>右ならこの恋Stay hope</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>どっち選べばいいか</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>わかってるんでしょう
 
-心は“行かないで”
-口では“バイバイ”なんて
-引き止めてほしい君はずるい
+</span><span style='color:#ee3333;'>心は“行かないで”</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>口では“バイバイ”なんて</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>引き止めてほしい君はずるい</span><span style='color:#9933ff;'>(ハモリ)
 
-覚悟決めて
+</span><span style='color:#32cd32;'>覚悟決めて</span>
 会いたいなら会いたい
 触れたいなら触れたい
-素直になれたらYou're the winner
-簡単に攻略できないから燃えるんだろう
-結局
+<span style='color:#32cd32;'>素直になれたらYou're the winner
+</span><span style='color:#f39800;'>簡単に攻略できないから燃えるんだろう
+</span><span style='color:#ff66b2;'>結局</span>
 愛したいから愛したい
 言いたいもう言いたい
-降参しちゃえば欲しいものあげる
-目を閉じてごらん　君の唇に
-Checkmate
-Checkmate
+<span style='color:#ff66b2;'>降参しちゃえば欲しいものあげる
+</span><span style='color:#9933ff;'>目を閉じてごらん　君の唇に
+Checkmate</span><span style='color:#0099ff;'>(ハモリ)
+C</span><span style='color:#9933ff;'>heckmate</span><span style='color:#0099ff;'>(ハモリ)
 
-指先触れるたび君は
-Want youの裏返しだね
-僕は強気の一手
-気づかれないよPoker face
+</span><span style='color:#ff66b2;'>指先触れるたび君は</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#ff66b2;'>Want youの裏返しだね</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#ff66b2;'>僕は強気の一手</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#ff66b2;'>気づかれないよPoker face</span><span style='color:#ffc81b;'>(ハモリ)
 
-下ならひとりDream world
-上ならふたりSweetest night
-どっち狙ってるかなんて
-言うまでもないでしょう
+</span><span style='color:#32cd32;'>下ならひとりDream world</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>上ならふたりSweetest night</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>どっち狙ってるかなんて</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>言うまでもないでしょう</span><span style='color:#0099ff;'>(ハモリ)
 
-頭じゃ“わかってる”
-みつめて“どうしたい？”なんて
-委ねて逃げるから追いかけちゃう
+</span><span style='color:#f39800;'>頭じゃ“わかってる”</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#f39800;'>みつめて“どうしたい？”なんて</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#f39800;'>委ねて逃げるから追いかけちゃう</span><span style='color:#ff66b2;'>(ハモリ)
 
-Checkmate
+</span><span style='color:#ee3333;'>Checkmate
 
-君のReady次第で僕らはSteady
-もうわかってるくせに
-Don't be a silly billy！
+</span><span style='color:#0099ff;'>君のReady次第で僕らはSteady</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>もうわかってるくせに
+</span><span style='color:#0099ff;'>Don't be a silly billy！
 No 猜疑心
 Endgame, Checkmate
-終わりのその先へ
+</span><span style='color:#ffc81b;'>終わりのその先へ
 その先へ
 
-「なぁ......言わせんなよ」
+</span><span style='color:#ff66b2;'>「なぁ......言わせんなよ」
 
-会いたいなら会いたい
+</span><span style='color:#32cd32;'>会いたいなら会いたい
 触れたいなら触れたい
 素直になれたらYou're the winner
-簡単に攻略できないから燃えるんだろう
+</span><span style='color:#9933ff;'>簡単に攻略できないから燃えるんだろう
 
-結局
+</span><span style='color:#f39800;'>結局</span>
 愛したいから愛したい
 言いたいもう言いたい
-降参しちゃえば欲しいものあげる
-目を閉じてごらん　君の唇に
-Checkmate
+<span style='color:#f39800;'>降参しちゃえば欲しいものあげる</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>目を閉じてごらん　君の唇に</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>Checkmate
 
-Yeah eh eh, Yeah eh eh eh
-Checkmate
-Mate, this is how we make it
-Checkmate`},{id:266,title:"A.H.O.",titleKana:"A.H.O",lyricist:"MUTEKI DEAD SNAKE",composer:"MUTEKI DEAD SNAKE・Hiroki Sagawa・児山啓介・鈴木まなか(Relic Lyric, inc.)",arranger:"Hiroki Sagawa(Relic Lyric inc.)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`A.H.O. -Audio Hang Out-[初回A]（Music Video & Making）
+</span><span style='color:#9933ff;'>Yeah eh eh, Yeah eh eh eh
+</span><span style='color:#ee3333;'>Ch</span><span style='color:#f39800;'>ec</span><span style='color:#ee3333;'>km</span><span style='color:#f39800;'>at</span><span style='color:#ee3333;'>e
+</span><span style='color:#32cd32;'>Mate, this is how we make it
+</span><span style='color:#ffc81b;'>Checkmate</span>`},{id:266,title:"A.H.O.",titleKana:"A.H.O",lyricist:"MUTEKI DEAD SNAKE",composer:"MUTEKI DEAD SNAKE・Hiroki Sagawa・児山啓介・鈴木まなか(Relic Lyric, inc.)",arranger:"Hiroki Sagawa(Relic Lyric inc.)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`A.H.O. -Audio Hang Out-[初回A]（Music Video & Making）
 YouTube（Music Vudeo）`,performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){1}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){1}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){1}","CDTV ライブ！ ライブ！春の大感謝祭2025{6}","メトロック2025(東京){7}","11周年生配信トーク＆ライブ「虹会」{1}"],singer:"WEST.",date:"2025-03-12",tiup:"Red Bull『Red Bull The Spring Edition』タイアップソング",lyrics:`夢から醒めた
 現実にマジか (泣)
 余裕とかなくても
@@ -31199,91 +31199,91 @@ Oh Yeah！
 人類みな解放
 AHOに生きようぜ
 
-Audio Hang Out`,lyricsn:`夢から醒めた
+Audio Hang Out`,lyricsn:`<span style='color:#ffc81b;'>夢から醒めた
 現実にマジか (泣)
 余裕とかなくても
 スマホでコーヒータイム
-月曜日 Bonus Day
+</span><span style='color:#f39800;'>月曜日 Bonus Day
 火曜日 おつかれDay
 水木金は実質土日で毎日Party
-Oh No！前代未聞の失態
+</span><span style='color:#32cd32;'>Oh No！</span><span style='color:#ff66b2;'>前代未聞の失態
 友人に電話して　号泣した翌日
-「まあ、次あるっしょ！」
+</span><span style='color:#9933ff;'>「まあ、次あるっしょ！」
 「なんとかなるっしょ！」
-反省しても後悔しない
+</span><span style='color:#ff66b2;'>反省しても後悔しない
 切り替え早めのスタイル Yeah
 
-本来　人類はみなアニマル
-兄弟　まあ気楽にもう一杯
-アクセルベタ踏みで空も飛びたい
+</span><span style='color:#ee3333;'>本来　人類はみなアニマル
+</span><span style='color:#f39800;'>兄弟　まあ気楽にもう一杯
+</span><span style='color:#32cd32;'>アクセルベタ踏みで空も飛びたい</span>
 
 超弩級のAHO AHO AHO AHO AHO
 最強のAHO AHO AHO
 なんて素晴らしい！
-一寸先も　千年先も
-笑えりゃOK　全てはAlright
+<span style='color:#0099ff;'>一寸先も　千年先も
+笑えりゃOK　全てはAlright</span>
 つまり悩んでるのもアホらしい
-まあいいっしょ　最低でも最高
-こんなんじゃ足りないや
+<span style='color:#9933ff;'>まあいいっしょ</span>　最低でも最高
+<span style='color:#ee3333;'>こんなんじゃ足りないや
 
-やめときなさいって　なんでやねん
+</span><span style='color:#0099ff;'>やめときなさいって　なんでやねん
 ほいならおたくはどないやねん
-っちゅうか　なんたらかんたら説教垂れる前に
+</span><span style='color:#32cd32;'>っちゅうか　なんたらかんたら説教垂れる前に
 踊りゃええんちゃうの？
 
-四の五の言わずに笑えばええ
+</span><span style='color:#ff66b2;'>四の五の言わずに笑えばええ
 恥ずかしがらんで遊べばええ
-そうなんとかかんとか　考えるよりも今
+</span><span style='color:#ee3333;'>そうなんとかかんとか　考えるよりも今
 全部脱ぎ去って
 
-あーやれやれだ　だめだめだ
+</span><span style='color:#9933ff;'>あーやれやれだ　だめだめだ
 アセアセだ　風邪気味だ
 そんなのどうでもいいよ
 人生が一度きりなら
 人の目とか気にすんじゃねえ！
-We're サラブレッド　ドアホ　ドアホ
+</span><span style='color:#f39800;'>We'</span><span style='color:#ff66b2;'>re </span><span style='color:#f39800;'>サ</span><span style='color:#ff66b2;'>ラ</span><span style='color:#f39800;'>ブ</span><span style='color:#ff66b2;'>レ</span><span style='color:#f39800;'>ッ</span><span style='color:#ff66b2;'>ド　</span><span style='color:#f39800;'>ド</span><span style='color:#ff66b2;'>ア</span><span style='color:#f39800;'>ホ　</span><span style='color:#ff66b2;'>ド</span><span style='color:#f39800;'>ア</span><span style='color:#ff66b2;'>ホ</span>
 
 最上級のAHO AHO AHO AHO AHO
 空前のAHO AHO AHO
 だってそうでしょ？
-白でもいいじゃん　黒でもいいじゃん
-幸せならば　全ては正解
+<span style='color:#ffc81b;'>白でもいいじゃん　黒でもいいじゃん
+幸せならば　全ては正解</span>
 つまり後悔するのもアホらしい
-超いいっしょ　最高以上行こう
-胸張って生きたいじゃん
+<span style='color:#ee3333;'>超いいっしょ</span>　最高以上行こう
+<span style='color:#32cd32;'>胸張って生きたいじゃん
 
-楽しくないと意味ないよ実際
+</span><span style='color:#0099ff;'>楽しくないと意味ないよ実際
 全部は気分次第
 
-天才じゃなくても
+</span><span style='color:#9933ff;'>天才じゃなくても
 ご立派じゃなくても
-いつだって自分だけは自分の味方でいたい
-マジくだらないよな
-ああしろ　こうしろってさ
-やってられないよな
-誰だってアホみたいなもんやのに
-アホがアホにアホって
+</span><span style='color:#ff66b2;'>いつだって自分だけは自分の味方でいたい
+</span><span style='color:#ee3333;'>マジくだらないよな
+</span><span style='color:#f39800;'>ああしろ　こうしろってさ
+</span><span style='color:#ee3333;'>やってられないよな
+</span><span style='color:#f39800;'>誰だってアホみたいなもんやのに
+</span><span style='color:#ffc81b;'>アホがアホにアホって
 言うのが一番アホやん
-Oh Yeah！
+</span><span style='color:#9933ff;'>Oh Yeah！
 
-心配事の99%気にしすぎ
-顔色ばっか窺っても意味ない
-さっさと遊びに行こうか！
+</span><span style='color:#32cd32;'>心配事の99%気にしすぎ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>顔色ばっか窺っても意味ない</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>さっさと遊びに行こうか！</span>
 
 超弩級のAHO AHO AHO AHO AHO
 最強のAHO AHO AHO
 なんて素晴らしい！
-一寸先も　千年先も
-笑えりゃOK　全てはAlright
+<span style='color:#32cd32;'>一寸先も　千年先も
+笑えりゃOK　全てはAlright</span>
 つまり悩んでるのもアホらしい
-まあいいっしょ　最低でも最高
-人生は喜劇
+<span style='color:#0099ff;'>まあいいっしょ</span>　最低でも最高
+<span style='color:#f39800;'>人生は喜劇</span>
 最高以上行こう
-確定でハッピーエンド
+<span style='color:#9933ff;'>確定でハッピーエンド</span>
 人類みな解放
-AHOに生きようぜ
+<span style='color:#ee3333;'>AHOに生きようぜ
 
-Audio Hang Out`},{id:267,title:"アップルパイ",titleKana:"あっぷるぱい",lyricist:"篠原とまと",composer:"川口進・MiNE・佐原康太",arranger:"佐原康太",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){19}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){19}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){19}"],singer:"WEST.",date:"2025-03-12",lyrics:`(Mmm... c'est si bon...)
+</span><span style='color:#ff66b2;'>Audio Hang Out</span>`},{id:267,title:"アップルパイ",titleKana:"あっぷるぱい",lyricist:"篠原とまと",composer:"川口進・MiNE・佐原康太",arranger:"佐原康太",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){19}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){19}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){19}"],singer:"WEST.",date:"2025-03-12",lyrics:`(Mmm... c'est si bon...)
 Ooh yeah
 Wow baby
 Open your eyes, my sweetie
@@ -31372,96 +31372,96 @@ Kissing my heart tonight
 アップルパイ
 
 抜け出せないわ
-抜け出せないわ`,lyricsn:`(Mmm... c'est si bon...)
-Ooh yeah
-Wow baby
-Open your eyes, my sweetie
+抜け出せないわ`,lyricsn:`<span style='color:#ffc81b;'>(Mmm... c'est si bon...)
+</span><span style='color:#9933ff;'>Ooh yeah
+</span><span style='color:#0099ff;'>Wow baby
+</span><span style='color:#0099ff;'>Open </span><span style='color:#9933ff;'>your </span><span style='color:#0099ff;'>eyes, </span><span style='color:#9933ff;'>my </span><span style='color:#0099ff;'>swe</span><span style='color:#9933ff;'>etie
 
-兎角、この世は愛おしい
+</span><span style='color:#ee3333;'>兎角、この世は愛おしい
 全て手に入れてみせましょう
-投げたRed apple
+</span><span style='color:#32cd32;'>投げたRed apple
 夜に溶ける
 惚れ薬　毒をちょっと一匙
 
-In the night sky (In the night sky)
-甘くないの (甘くないの)
-これが罠なんて
+</span><span style='color:#ff66b2;'>In the night sky </span><span style='color:#9933ff;'>(In the night sky)
+</span><span style='color:#ff66b2;'>甘くないの </span><span style='color:#9933ff;'>(甘くないの)
+</span><span style='color:#f39800;'>これが罠なんて
 もう台無しだわ
 
-Follow me
+</span><span style='color:#ffc81b;'>Follow me
 世間知らずなフリをして
 炙り出す　本当の答え
-染まる前の夜空にFly away
+</span><span style='color:#0099ff;'>染まる前の夜空にFly away
 触れば仰天、齧(かじ)れば昇天
-君にだけ
+</span><span style='color:#ffc81b;'>君にだけ</span>
 
 You wanna kiss kiss
 Kissing my heart tonight
-丸裸にしたい
+<span style='color:#ff66b2;'>丸裸にしたい</span>
 You wanna kiss kiss
 Kissing my lips tonight
-もっと求めてしまいそう
-いずれは醒める夢と
-分かってるつもりよ
+<span style='color:#9933ff;'>もっと求めてしまいそう
+</span><span style='color:#f39800;'>いずれは醒める夢と
+分かってるつもりよ</span>
 You wanna kiss kiss
 Kissing my lips tonight
-さあ、愛を召し上がれ
+<span style='color:#ffc81b;'>さあ、愛を召し上がれ</span>
 アップルパイ
 
-いつかは素敵な王子様と……
-信じてるなんてお子様ね、ホント
+<span style='color:#ff66b2;'>いつかは素敵な王子様と……
+</span><span style='color:#32cd32;'>信じてるなんてお子様ね、ホント
 
-I'm here if you want (I'm here if you want)
-どこにいるの (どこにいるの)
-ただ足掻いても
+</span><span style='color:#9933ff;'>I'm here if you want </span><span style='color:#f39800;'>(I'm here if you want)
+</span><span style='color:#9933ff;'>どこにいるの </span><span style='color:#f39800;'>(どこにいるの)
+</span><span style='color:#ffc81b;'>ただ足掻いても
 抜け出せないわ
 
-想像以上　手強い恋の迷路
+</span><span style='color:#32cd32;'>想像以上　手強い恋の迷路
 貴方を翻弄
-迷う前に出口にRunaway
+</span><span style='color:#ee3333;'>迷う前に出口にRunaway
 迷えば反転、曲がれば終点
-私の方へ
+</span><span style='color:#32cd32;'>私の方へ</span>
 
 You wanna kiss kiss
 Kissing my heart tonight
-丸裸にしたい
+<span style='color:#9933ff;'>丸裸にしたい</span>
 You wanna kiss kiss
 Kissing my lips tonight
-もっと求めてしまいそう
-いずれは醒める夢と
-分かってるつもりよ
+<span style='color:#f39800;'>もっと求めてしまいそう
+</span><span style='color:#0099ff;'>いずれは醒める夢と
+分かってるつもりよ</span>
 You wanna kiss kiss
 Kissing my lips tonight
-さあ、愛を召し上がれ
+<span style='color:#ff66b2;'>さあ、愛を召し上がれ</span>
 アップルパイ
 
-甘い蜜に誘われて
-いい気味ね、好きで身を投げて
-Oh boy
-軽くお芝居
-全て思い通り
-You say yes, you say more
-ちょろいもんね
+<span style='color:#ee3333;'>甘い蜜に誘われて
+</span><span style='color:#32cd32;'>いい気味ね、好きで身を投げて
+</span><span style='color:#9933ff;'>Oh boy
+</span><span style='color:#ff66b2;'>軽くお芝居
+</span><span style='color:#f39800;'>全て思い通り
+</span><span style='color:#0099ff;'>You say yes, you say more
+</span><span style='color:#ffc81b;'>ちょろいもんね
 
-Ooh yeah
-Wow baby
-Open your eyes, my sweetie
+</span><span style='color:#f39800;'>Ooh yeah
+</span><span style='color:#32cd32;'>Wow baby
+</span><span style='color:#f39800;'>Open </span><span style='color:#32cd32;'>your </span><span style='color:#f39800;'>eyes, </span><span style='color:#32cd32;'>my </span><span style='color:#f39800;'>swe</span><span style='color:#32cd32;'>etie</span>
 
 You wanna kiss kiss
 Kissing my heart tonight
-まだまだ満たされない
+<span style='color:#0099ff;'>まだまだ満たされない</span>
 You wanna kiss kiss
 Kissing my heart tonight
-飲み込まれてしまいそう
-派手に振り回されても
-たまにはいいでしょ？
+<span style='color:#ee3333;'>飲み込まれてしまいそう
+</span><span style='color:#9933ff;'>派手に振り回されても
+たまにはいいでしょ？</span>
 You wanna kiss kiss
 Kissing my heart tonight
-さあ、おはようのキスを
+<span style='color:#ff66b2;'>さあ、おはようのキスを</span>
 アップルパイ
 
-抜け出せないわ
-抜け出せないわ`},{id:268,title:"shhhhhhh!!",titleKana:"shhhhhhh!!",lyricist:"前田佑・栗原暁(Jazzin’park)",composer:"前田佑・栗原暁(Jazzin’park)",arranger:"前田佑",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`A.H.O. -Audio Hang Out-[初回A]（Music Video & Making）
+<span style='color:#f39800;'>抜け出せないわ
+</span><span style='color:#ffc81b;'>抜け出せないわ</span>`},{id:268,title:"shhhhhhh!!",titleKana:"shhhhhhh!!",lyricist:"前田佑・栗原暁(Jazzin’park)",composer:"前田佑・栗原暁(Jazzin’park)",arranger:"前田佑",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:`A.H.O. -Audio Hang Out-[初回A]（Music Video & Making）
 YouTube（Music Vudeo YouTube Ver.）`,performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){18}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){18}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){18}","CDTV ライブ！ ライブ！春の大感謝祭2025{5}","11周年生配信トーク＆ライブ「虹会」{5}"],singer:"WEST.",date:"2025-03-12",tiup:"読売テレビ ドラマDiVE+『キスでふさいで、バレないで。』オープニング主題歌",lyrics:`わかってるくせに... shhhhhhh！！
 大胆なセリフ
 ねえ　言いたい　言えない　言わない　絶対？
@@ -31540,61 +31540,61 @@ Don't change change change my heart
 そのままのキミを見たくて...
 唇に確かめたんだ
 君が少し照れた瞬間
-Kiss you`,lyricsn:`わかってるくせに... shhhhhhh！！
-大胆なセリフ
+Kiss you`,lyricsn:`わかってるくせに... <span style='color:#0099ff;'>shhhhhhh！！
+</span><span style='color:#ff66b2;'>大胆なセリフ
 ねえ　言いたい　言えない　言わない　絶対？
-初めての顔を見せて...
+</span><span style='color:#0099ff;'>初めての顔を見せて...
 
-無理　無理　昨日から
+</span><span style='color:#ee3333;'>無理　無理　昨日から
 普通のフリ　フリ
-思い出すたびにHoney, honey
-甘過ぎて隠しきれないPassionate
-桜色...
+思い出すたびに</span><span style='color:#f39800;'>Honey, honey</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#f39800;'>甘過ぎて隠しきれないPassionate
+桜色...</span><span style='color:#32cd32;'>(ハモリ)
 
-Hey don't miss it
-Our love is the real
-二人を縛る運命のひも
-Step over the line if you want me...
-なんてね
+</span><span style='color:#ffc81b;'>Hey don't miss it
+</span><span style='color:#32cd32;'>Our love is the real
+</span><span style='color:#ffc81b;'>二人を縛る運命のひも
+</span><span style='color:#32cd32;'>Step over the line</span><span style='color:#9933ff;'>(ハモリ) </span><span style='color:#32cd32;'>if you want me...
+</span><span style='color:#ffc81b;'>な</span><span style='color:#32cd32;'>ん</span><span style='color:#ffc81b;'>て</span><span style='color:#32cd32;'>ね</span><span style='color:#9933ff;'>(ハモリ)
 
-焦(あせ)り過ぎでしょ...
-まだ開けちゃいけないSweet Box
-誰かに言いたくて
-とろけそうさ
+</span><span style='color:#9933ff;'>焦(あせ)り過ぎでしょ...</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#9933ff;'>まだ開けちゃいけないSweet Box</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#ff66b2;'>誰かに言いたくて
+とろけそうさ</span>
 
-わかってるくせに... shhhhhhh！！
+わかってるくせに... <span style='color:#0099ff;'>shhhhhhh！！</span>
 大胆なセリフ
 ねえ　言いたい　言えない　言わない　絶対？
 焦(じ)れったいほどにSweet
 もう　バレちゃう　バレたい　バレない　今日も
-そのままのキミを見たくて...
-Kiss you
+<span style='color:#0099ff;'>そのままのキミを見たくて...
+Kiss</span> you
 
-シャツの奥で　ざわつく　鼓動
-耳を塞いでも　消えない程
-いつから呼んでたファーストネーム
-二人だけが知ってる
-確信犯
+<span style='color:#ee3333;'>シャツの奥で　ざわつく　鼓動</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#ee3333;'>耳を塞いでも　消えない程</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#ffc81b;'>いつから呼んでたファーストネーム</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>二人だけが知ってる</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>確信犯</span><span style='color:#ff66b2;'>(ハモリ)
 
-Can you feel it？
-Our love is the real
-電話越しでもわかる感触
-Check deep in my heart if you want me...
-おやすみ
+</span><span style='color:#0099ff;'>Can you feel it？
+</span><span style='color:#9933ff;'>Our love is the real
+</span><span style='color:#0099ff;'>電話越しでもわかる感触</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>Check deep in my heart</span><span style='color:#32cd32;'>(ハモリ) </span><span style='color:#9933ff;'>if you want me...
+</span><span style='color:#0099ff;'>お</span><span style='color:#9933ff;'>や</span><span style='color:#0099ff;'>す</span><span style='color:#9933ff;'>み</span><span style='color:#32cd32;'>(ハモリ)
 
-静かな部屋は
-余計に愛しくなるよ
-らしくないことさえ
-しちゃいそうさ
+</span><span style='color:#f39800;'>静かな部屋は</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>余計に愛しくなるよ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>らしくないことさえ
+しちゃいそうさ</span>
 
-わかってるくせに... shhhhhhh！！
+わかってるくせに... <span style='color:#ff66b2;'>shhhhhhh！！</span>
 大胆なセリフ
 ねえ　言いたい　言えない　言わない　絶対？
 焦(じ)れったいほどにSweet
 もう　バレちゃう　バレたい　バレない今日も
-そのままのキミを見たくて...
+<span style='color:#ff66b2;'>そのままのキミを見たくて...
 
-Feelin'... missin'...
+</span><span style='color:#32cd32;'>Feelin'... missin'...
 I'm twistin'
 Fallin'... Callin'...
 my heart insistin'
@@ -31603,21 +31603,21 @@ Sweet ok　じゃあ　後で
 Bitter　嘘...　自問　自答
 Sweet　そっか　君も　同じ？
 
-今以上が欲しいから
-Don't change change change my heart
-たったひとつのラストシーン
-わかってるくせに... shhhhhhh！！
-時がとまったのは
-僕だけのキミだったから
+</span><span style='color:#ff66b2;'>今以上が欲しいから
+</span><span style='color:#9933ff;'>Don't change change change my heart
+</span><span style='color:#f39800;'>たったひとつのラストシーン</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ee3333;'>わかってるくせに... </span><span style='color:#ffc81b;'>shhhhhhh！！
+</span><span style='color:#0099ff;'>時がとまったのは
+僕だけのキミだったから</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 わかってるくせに... shhhhhhh！！
 大胆なセリフ
 ねえ　言いたい　言えない　言わない　絶対？
 焦(じ)れったいほどにSweet
 もう　バレちゃう　バレたい　バレない今日も
-そのままのキミを見たくて...
-唇に確かめたんだ
-君が少し照れた瞬間
+</span><span style='color:#32cd32;'>そ</span><span style='color:#0099ff;'>の</span><span style='color:#32cd32;'>ま</span><span style='color:#0099ff;'>ま</span><span style='color:#32cd32;'>の</span><span style='color:#0099ff;'>キ</span><span style='color:#32cd32;'>ミ</span><span style='color:#0099ff;'>を</span><span style='color:#32cd32;'>見</span><span style='color:#0099ff;'>た</span><span style='color:#32cd32;'>く</span><span style='color:#0099ff;'>て</span><span style='color:#32cd32;'>...
+</span><span style='color:#ffc81b;'>唇</span><span style='color:#ff66b2;'>に</span><span style='color:#ffc81b;'>確</span><span style='color:#ff66b2;'>か</span><span style='color:#ffc81b;'>め</span><span style='color:#ff66b2;'>た</span><span style='color:#ffc81b;'>ん</span><span style='color:#ff66b2;'>だ
+</span><span style='color:#ee3333;'>君</span><span style='color:#f39800;'>が</span><span style='color:#9933ff;'>少</span><span style='color:#ee3333;'>し</span><span style='color:#f39800;'>照</span><span style='color:#9933ff;'>れ</span><span style='color:#ee3333;'>た</span><span style='color:#f39800;'>瞬</span><span style='color:#9933ff;'>間</span>
 Kiss you`},{id:269,title:"TICKTOK",titleKana:"TICKTOK",lyricist:"TSINGTAO・Sorato・Dvii・Ryo Ito",composer:"TSINGTAO・Sorato・Dvii・Ryo Ito",arranger:"Sorato",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){12}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){12}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){12}"],singer:"WEST.",date:"2025-03-12",lyrics:`Yeah
 TICK TICKTOK
 Uh uh uh
@@ -31713,94 +31713,94 @@ TICKTOK
 TICK TICKTOK
 Uh uh uh
 
-Yeah　胸の奥でずっと Ringing
+<span style='color:#ee3333;'>Yeah　胸の奥でずっと Ringing
 逃げられなくて
 Yeah　揺れ動く瞳　I'm asking
 Wanna go or stay？ Aye
 
-時計の針重なる瞬間
+</span><span style='color:#32cd32;'>時計の針重なる瞬間
 急かすように始まる Countdown
 進むほどに戻れない
 うつろう Mind　惹き合う Silhouette
 
-It's toxic but sweet
-惑わせて焦らせて
-On & on & on & on
-近づくたび So deep
-もっと君を知りたい　But why？
+</span><span style='color:#f39800;'>It's toxic but sweet
+惑わせて焦らせて</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>On & on & on & on
+</span><span style='color:#9933ff;'>近づくたび So deep
+もっと君を知りたい　But why？</span>
 Just watch me
 
-Uh huh
+<span style='color:#9933ff;'>Uh huh</span>
 
 We go like TICKTOK
 We don't stop
-時を忘れ君と刻むこの Rhythm
+<span style='color:#ffc81b;'>時を忘れ君と刻むこの Rhythm</span>
 Like TICKTOK
 We don't talk
-言葉じゃなくて距離で確かめる Feelin'
+<span style='color:#ffc81b;'>言葉じゃなくて距離で確かめる Feelin'</span>
 TICKTOK
-密かに触れ合った手
+<span style='color:#ff66b2;'>密かに触れ合った手</span>
 TICKTOK
 溶け出す二人の Moment
 TICKTOK
 秒針を狂わせて
-終わりのない夜へ Dive in
+<span style='color:#ff66b2;'>終わりのない夜へ Dive in</span>
 
-Aye　失った Patience
+</span><span style='color:#0099ff;'>Aye　失った Patience
 動くだけが Mission
-Aye Gotta run　もっと Speed up
+</span><span style='color:#32cd32;'>Aye Gotta run　もっと Speed up
 鼓動は BUM BUM
 越える Dimensions
 
-規則的かつ神秘的
+</span><span style='color:#ee3333;'>規則的かつ神秘的
 迷い込んだ Space
 吐息だけがずっと Echo
-TICKTOK
+</span><span style='color:#ff66b2;'>TICKTOK
 迫り来る音
 You hear？
 
-Don't stay just say
-気づかせて滾(たぎ)らせて
-On & on & on & on
-消えていく My fear
-熱を帯びて高鳴った Heart
+</span><span style='color:#9933ff;'>Don't stay just say
+気づかせて滾(たぎ)らせて</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>On & on & on & on
+</span><span style='color:#ffc81b;'>消えていく My fear
+熱を帯びて高鳴った Heart</span>
 Just touch me
 
-One more time
+</span><span style='color:#ffc81b;'>One more time</span>
 
 We go like TICKTOK
 We don't stop
-時を忘れ君と刻むこの Rhythm
+<span style='color:#ff66b2;'>時を忘れ君と刻むこの Rhythm</span>
 Like TICKTOK
 We don't talk
-言葉じゃなく距離で確かめる Feelin'
+<span style='color:#ff66b2;'>言葉じゃなく距離で確かめる Feelin'</span>
 TICKTOK
-密かに触れ合った手
+<span style='color:#ee3333;'>密かに触れ合った手</span>
 TICKTOK
-溶け出す二人の Moment
+<span style='color:#ee3333;'>溶け出す二人の Moment</span>
 TICKTOK
 秒針を狂わせて
-終わりのない夜へ Dive in
+<span style='color:#ee3333;'>終わりのない夜へ Dive in
 
-永遠が流れてる
+</span><span style='color:#ffc81b;'>永遠が流れてる
 君と僕二人の Room
-止まらずこのまま
+</span><span style='color:#9933ff;'>止まらずこのまま
 誰もいない場所へ
-時を忘れて Let's dive in
+時を忘れて Let's dive in</span>
 
 We go like TICKTOK
 We don't stop
-時を忘れ君と刻むこの Rhythm
+<span style='color:#0099ff;'>時を忘れ君と刻むこの Rhythm</span>
 Like TICKTOK
 We don't talk
-言葉じゃなく距離で確かめる Feelin'
+<span style='color:#0099ff;'>言葉じゃなく距離で確かめる Feelin'</span>
 TICKTOK
-密かに触れ合った手
+<span style='color:#f39800;'>密かに触れ合った手</span>
 TICKTOK
-溶け出す二人の Moment
+<span style='color:#f39800;'>溶け出す二人の Moment</span>
 TICKTOK
 秒針を狂わせて
-終わりのない夜へ Dive in`},{id:270,title:"Sweety",titleKana:"Sweety",lyricist:"CONY・Sayaka Inoue",composer:"CONY・Sayaka Inoue",arranger:"CONY",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){20}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){20}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){20}"],singer:"WEST.",date:"2025-03-12",lyrics:`Sunlight
+<span style='color:#f39800;'>終わりのない夜へ Dive in</span>`},{id:270,title:"Sweety",titleKana:"Sweety",lyricist:"CONY・Sayaka Inoue",composer:"CONY・Sayaka Inoue",arranger:"CONY",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){20}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){20}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){20}"],singer:"WEST.",date:"2025-03-12",lyrics:`Sunlight
 You're my light
 Sunlight
 
@@ -31882,89 +31882,89 @@ Sunlight
 Light
 You're my light
 Sunlight
-君がいるなら Alright`,lyricsn:`Sunlight
+君がいるなら Alright`,lyricsn:`<span style='color:#ff66b2;'>Sunlight
 You're my light
 Sunlight
 
-待ち合わせていた 3pm
+</span><span style='color:#ffc81b;'>待ち合わせていた 3pm
 高鳴る鼓動は BGM
 I know
 
-Everytime, oh oh oh
+</span><span style='color:#f39800;'>Everytime, oh oh oh
 Everytime, oh oh oh
 
-憂鬱もスプーンで溶かして
+</span><span style='color:#0099ff;'>憂鬱もスプーンで溶かして
 ふたりきりで過ごせば So slow
-最高に贅沢な Saturday
+</span><span style='color:#f39800;'>最高に贅沢な Saturday
 
-言葉なんていらない Stay with me
-君という Flavor を
+</span><span style='color:#ee3333;'>言葉なんていらない Stay with me
+</span><span style='color:#9933ff;'>君という Flavor を
 Just let me try
 
-Baby, you are my sweety
+</span><span style='color:#32cd32;'>Baby, you are my sweety
 I feel it
 そばにいるだけで
 甘い想い溢れ出す
-So sweet tea
+</span><span style='color:#ff66b2;'>So sweet tea
 We feel it
 時が止まるように
 ふたりだけの世界
-永遠に感じたい
+永遠に感じたい</span>
 
 Sunlight
 You're my light
 Sunlight
-君がいるなら Alright
+<span style='color:#ee3333;'>君がいるなら Alright
 
 君に含まれている成分
 ハマってくよ Twenty-four seven
 You know？
 
-Tell me now, oh oh oh
+</span><span style='color:#32cd32;'>Tell me now, oh oh oh
 Tell me now, oh oh oh
 
-これから先も変わらずに
+</span><span style='color:#f39800;'>これから先も変わらずに
 吸い寄せられる Honeybee みたい
-それすら愛おしい Common name
+</span><span style='color:#32cd32;'>それすら愛おしい Common name
 
-他の何かじゃ満ち足りない
-君という Flavor を
+</span><span style='color:#0099ff;'>他の何かじゃ満ち足りない
+</span><span style='color:#ff66b2;'>君という Flavor を
 Just let me try
 
-Baby, you are my sweety
+</span><span style='color:#ffc81b;'>Baby, you are my sweety
 I feel it
 過ごしてく中で
 ときに苦い日もあるけど
-So sweet tea
+</span><span style='color:#9933ff;'>So sweet tea
 We feel it
 また君と踊れば
 人生は輝くから
 明日も It's OK
 
-渇いた心に (So sweet)
-愛が満ちてゆく (I need your love)
-花が水を待つように
+</span><span style='color:#32cd32;'>渇</span><span style='color:#0099ff;'>い</span><span style='color:#32cd32;'>た</span><span style='color:#0099ff;'>心</span><span style='color:#32cd32;'>に </span><span style='color:#ffc81b;'>(So sweet)
+</span><span style='color:#0099ff;'>愛</span><span style='color:#32cd32;'>が</span><span style='color:#0099ff;'>満</span><span style='color:#32cd32;'>ち</span><span style='color:#0099ff;'>て</span><span style='color:#32cd32;'>ゆ</span><span style='color:#0099ff;'>く </span><span style='color:#ffc81b;'>(I need your love)
+</span><span style='color:#ff66b2;'>花が水を待つように
 僕には君だけだって
 感じてるのさ
 
-Baby, you are my sweety
+</span><span style='color:#f39800;'>Baby, you are my sweety
 I feel it
 そばにいるだけで
 甘い想い溢れ出す
-So sweet tea
+</span><span style='color:#ee3333;'>So sweet tea
 We feel it
 時が止まるように
 ふたりだけの世界
-永遠に感じたい
+永遠に感じたい</span>
 
 Sunlight
 You're my light
 Sunlight
-いつまでも Your side
+<span style='color:#9933ff;'>いつまでも Your side</span>
 Light
 You're my light
 Sunlight
-君がいるなら Alright`},{id:271,title:"Rainy Rhapsody",titleKana:"Rainy Rhapsody",lyricist:"大原拓真(Penthouse)",composer:"浪岡真太郎(Penthouse)",arranger:"久保田真悟(Jazzin'park)・浪岡真太郎(Penthouse)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){16}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){16}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){16}"],singer:"WEST.",date:"2025-03-12",lyrics:`降り出した通り雨がくれた
+<span style='color:#9933ff;'>君がいるなら Alri</span><span style='color:#ff66b2;'>ght</span>`},{id:271,title:"Rainy Rhapsody",titleKana:"Rainy Rhapsody",lyricist:"大原拓真(Penthouse)",composer:"浪岡真太郎(Penthouse)",arranger:"久保田真悟(Jazzin'park)・浪岡真太郎(Penthouse)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){16}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){16}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){16}"],singer:"WEST.",date:"2025-03-12",lyrics:`降り出した通り雨がくれた
 ひとときの帰れない言い訳
 呟いた「あのね」に手を引かれ
 意味のないくちづけを交わそう
@@ -31998,41 +31998,41 @@ Sunlight
 「いつまでも」「いつまでも」あなたの腕で眠るの
 雨音と鼓動のラプソディーに　呼吸が重なったハーモニーで
 この願いを止められないの
-どうせならこのまま帰れないようにして`,lyricsn:`降り出した通り雨がくれた
+どうせならこのまま帰れないようにして`,lyricsn:`<span style='color:#f39800;'>降り出した通り雨がくれた
 ひとときの帰れない言い訳
-呟いた「あのね」に手を引かれ
-意味のないくちづけを交わそう
+</span><span style='color:#ff66b2;'>呟いた「あのね」に手を引かれ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>意味のないくちづけを交わそう
 
-「さよなら」の約束を　濡らす涙がほどいていく
+</span><span style='color:#ffc81b;'>「さよなら」の約束を　濡らす涙がほどいていく</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 恋は終わりって知ってたって　二度と会えないって知ってたって
-「あと少し」「あと少し」あなたの腕で眠るの
+<span style='color:#ee3333;'>「あと少し」「あと少し」あなたの腕で眠るの</span><span style='color:#0099ff;'>(ハモリ)</span>
 雨音と鼓動のラプソディーに　呼吸が重なったハーモニーが
-この願いを確かめさせる
-どうせならこのまま帰れないようにして
+<span style='color:#9933ff;'>この願いを確かめさせる
+</span><span style='color:#32cd32;'>どうせならこのまま帰れないようにして</span><span style='color:#9933ff;'>(ハモリ)
 
-雨粒は絶えず鳴り続いて
+</span><span style='color:#f39800;'>雨粒は絶えず鳴り続いて
 古ぼけた映写機のようだね
-いたずらに回り出す思い出
-嫌気がさすほどに美しくて
+</span><span style='color:#9933ff;'>いたずらに回り出す思い出</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>嫌気がさすほどに美しくて
 
-「さよなら」の熱(ほとぼ)りを　窓の雫が冷ましていく
+</span><span style='color:#0099ff;'>「さよなら」の熱(ほとぼ)りを　窓の雫が冷ましていく</span><span style='color:#f39800;'>(ハモリ)</span>
 
 恋は終わりって言ってたって　二度と会わないって言ってたって
-「もう一度」「もう一度」あなたの腕で眠るの
+<span style='color:#ffc81b;'>「もう一度」「もう一度」あなたの腕で眠るの</span><span style='color:#f39800;'>(ハモリ)
 雨音に隠したダイアローグ　きっと後少しのエンドロール
-肌重ねてごまかしていく
-言いかけたわがまま気づかれぬようにして
+<span style='color:#ff66b2;'>肌重ねてごまかしていく
+</span><span style='color:#ee3333;'>言いかけたわがまま気づかれぬようにして</span><span style='color:#f39800;'>(ハモリ)
 
-終らせるなら　土砂降りの中
-一人にさせて欲しいのに
-どこまでもずるい人　ほら忘れられなくなってしまうでしょ？
+</span><span style='color:#0099ff;'>終らせるなら　</span><span style='color:#ffc81b;'>土砂降りの中
+</span><span style='color:#ee3333;'>一人にさせて欲しいのに
+</span><span style='color:#9933ff;'>どこまでもずるい人</span><span style='color:#ff66b2;'>(ハモリ)　</span><span style='color:#9933ff;'>ほら忘れられなくなってしまうでしょ？</span><span style='color:#ff66b2;'>(ハモリ)</span>
 
 恋は終わりって知ってたって　二度と会えないって知ってたって
-「いつまでも」「いつまでも」あなたの腕で眠るの
+<span style='color:#32cd32;'>「いつまでも」「いつまでも」あなたの腕で眠るの</span><span style='color:#0099ff;'>(ハモリ)</span>
 雨音と鼓動のラプソディーに　呼吸が重なったハーモニーで
-この願いを止められないの
-どうせならこのまま帰れないようにして`},{id:272,title:"それいけベストフレンド！",titleKana:"それいけべすとふれんど！",lyricist:"重岡大毅",composer:"重岡大毅",arranger:"ha-j",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){15}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){15}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){15}"],singer:"WEST.",date:"2025-03-12",lyrics:`頑張ってんだろ　ヘイどうだい？
+<span style='color:#f39800;'>この願いを止められないの</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>どうせならこのまま帰れないようにして</span><span style='color:#0099ff;'>(ハモリ)</span>`},{id:272,title:"それいけベストフレンド！",titleKana:"それいけべすとふれんど！",lyricist:"重岡大毅",composer:"重岡大毅",arranger:"ha-j",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){15}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){15}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){15}"],singer:"WEST.",date:"2025-03-12",lyrics:`頑張ってんだろ　ヘイどうだい？
 
 旅立ちの日　名もなき道
 心もとない　僕の鼻唄
@@ -32077,48 +32077,48 @@ Sunlight
 
 それいけ頑張ろう　ラブ&ピース`,lyricsn:`頑張ってんだろ　ヘイどうだい？
 
-旅立ちの日　名もなき道
-心もとない　僕の鼻唄
-桜吹雪　手を振る先
-言葉に出来ずに　なんだかなぁ
+<span style='color:#0099ff;'>旅立ちの日　名もなき道
+</span><span style='color:#ffc81b;'>心もとない　僕の鼻唄
+</span><span style='color:#9933ff;'>桜吹雪　手を振る先
+</span><span style='color:#ee3333;'>言葉に出来ずに　なんだかなぁ
 
-元気でいろよ　ベストフレンド
-新しい街　相も変わらぬフリして
-正直どっかでなんかわかっている
+</span><span style='color:#f39800;'>元気でいろよ　ベストフレンド
+新しい街　</span><span style='color:#32cd32;'>相も変わらぬフリして
+正直どっかでなんかわかっている</span>
 僕らに幸あれ！
 
 頑張ってんだろ　ヘイどうだい？
 さぁはじめようぜ　胸張ってオーライ
-ベイビー　未来は自由自在
+<span style='color:#ff66b2;'>ベイビー　未来は自由自在</span>
 なんだかんだいっても L O V E ラブ
 
-諸行無常の響きあり
-難しくて解りはしないし
-その日暮らし　それも良い感じ
-ちいさくでっかく　やっていこう
+<span style='color:#ffc81b;'>諸行無常の響きあり
+</span><span style='color:#0099ff;'>難しくて解りはしないし
+</span><span style='color:#32cd32;'>その日暮らし　それも良い感じ
+</span><span style='color:#9933ff;'>ちいさくでっかく</span>　やっていこう
 
-約束しろよ　ベストフレンド
-いつか会う日に　生きててよかったなんて
-クサいセリフでうまい酒を飲む
+<span style='color:#ff66b2;'>約束しろよ　ベストフレンド
+いつか会う日に　</span><span style='color:#f39800;'>生きててよかったなんて
+クサいセリフでうまい酒を飲む</span>
 世界に幸あれ！
 
 頑張ってんだろ　ヘイどうだい？
 さぁはじめようぜ　胸張ってオーライ
-ベイビー　未来は自由自在
+<span style='color:#ee3333;'>ベイビー　未来は自由自在</span>
 なんだかんだいっても L O V E ラブ
 
-泣きたくなんだろ　ヘイどうだい？
-なぁよくわかるぜ　誰だってオーライ
-ベイビー　いつでも自慢したい
-どいつもこいつも L O V E
+<span style='color:#0099ff;'>泣きたくなんだろ　ヘイどうだい？
+</span><span style='color:#ffc81b;'>なぁよくわかるぜ　誰だってオーライ
+</span><span style='color:#9933ff;'>ベイビー　いつでも自慢したい
+</span><span style='color:#32cd32;'>どいつもこいつも</span> L O V E
 
 頑張ってんだろ　ヘイどうだい？
 さぁはじめようぜ　胸張ってオーライ
-勝たなくてもいい　ただ負けないで
+<span style='color:#f39800;'>勝たなくてもいい　ただ負けないで</span>
 なんだかんだいっても L O V E ラブ
-そう愛だよな！
+<span style='color:#ff66b2;'>そう愛だよな！
 
-それいけ頑張ろう　ラブ&ピース`},{id:273,title:"WESTraight",titleKana:"WESTraight",lyricist:"KOPERU・peko・コーラ・KBD・teppei・HATCH・KZ・KennyDoes",composer:"Cosaqu",arranger:"Cosaqu",produce:"梅田サイファー",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:"YouTube（YouTube Original Recording）",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){6}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){6}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){6}","メトロック2025(東京){8}"],singer:"WEST.",date:"2025-03-12",lyrics:`強くもねぇけど弱くもねぇ
+</span><span style='color:#ee3333;'>それいけ頑張ろう</span>　ラブ&ピース`},{id:273,title:"WESTraight",titleKana:"WESTraight",lyricist:"KOPERU・peko・コーラ・KBD・teppei・HATCH・KZ・KennyDoes",composer:"Cosaqu",arranger:"Cosaqu",produce:"梅田サイファー",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]"],announce:"t",mv:"YouTube（YouTube Original Recording）",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){6}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){6}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){6}","メトロック2025(東京){8}"],singer:"WEST.",date:"2025-03-12",lyrics:`強くもねぇけど弱くもねぇ
 硬い意志持ってまっすぐに突き進め
 止まらず go way　目指したい方へ
 Don't stop get it get it　今ぶちかませ
@@ -32216,41 +32216,41 @@ W to da E to da S to da T
 W to da E to da S to da T
 北から南　西から東
 W to da E to da S to da T
-W to da E to da S to da T`,lyricsn:`強くもねぇけど弱くもねぇ
-硬い意志持ってまっすぐに突き進め
-止まらず go way　目指したい方へ
-Don't stop get it get it　今ぶちかませ
-誰もかれも諦めなきゃきっとできる ok？
-なんでもかんでも抱え込んじゃ満足しないどうせ
-所々見直してその繰り返しで
-無理難題の壁ぶち壊せ
+W to da E to da S to da T`,lyricsn:`<span style='color:#32cd32;'>強くもねぇけど</span>弱くもねぇ
+<span style='color:#32cd32;'>硬い意志持ってまっすぐに</span>突き進め
+<span style='color:#32cd32;'>止まらず</span> go way　<span style='color:#32cd32;'>目指したい</span>方へ
+<span style='color:#32cd32;'>Don't stop</span> get it get it　<span style='color:#32cd32;'>今</span>ぶちかませ
+<span style='color:#32cd32;'>誰もかれも諦めなきゃ</span>きっとできる ok？
+<span style='color:#32cd32;'>なんでもかんでも抱え込んじゃ</span>満足しないどうせ
+<span style='color:#32cd32;'>所々見直して</span>その繰り返しで
+<span style='color:#32cd32;'>無理難題の壁</span>ぶち壊せ
 
-するわけないやんびびってガクブル
-分厚い壁おもっくそブチ破る
-突き抜けた先に見えてくるブルー
-狙い目がけて真っ直ぐ当てるブル
-上には上がいるならその上行くだけ
-一生涯走り切る終わりがくるまで
-腹に括った覚悟は揺るがねえ
-俺ら始まったばっかつまり今からだ
+<span style='color:#0099ff;'>するわけないやんびびって</span>ガクブル
+<span style='color:#0099ff;'>分厚い壁おもっくそ</span>ブチ破る
+<span style='color:#0099ff;'>突き抜けた先に見えてくる</span>ブルー
+<span style='color:#0099ff;'>狙い目がけて真っ直ぐ</span>当てるブル
+<span style='color:#0099ff;'>上には上がいるならその上</span>行くだけ
+<span style='color:#0099ff;'>一生涯走り切る終わりが</span>くるまで
+<span style='color:#0099ff;'>腹に括った覚悟は</span>揺るがねえ
+<span style='color:#0099ff;'>俺ら始まったばっかつまり</span>今からだ
 
-今の俺ならブレない右にも左にも
-ボイスとプライドはマケナイ説一文
-斜め上の予想だにしないビジョン
-真っ直ぐに届ける君の期待以上
-もはやハンドルロック
-脇見なんて無しでキャントストップ
-コンパス代わりにマイクロフォンが
-さし示す先まで life goes on
+<span style='color:#ff66b2;'>今の俺ならブレない右にも</span>左にも
+<span style='color:#ff66b2;'>ボイスとプライドはマケナイ</span>説一文
+<span style='color:#ff66b2;'>斜め上の予想だにしない</span>ビジョン
+<span style='color:#ff66b2;'>真っ直ぐに届ける君の</span>期待以上
+<span style='color:#ff66b2;'>もはや</span>ハンドルロック
+<span style='color:#ff66b2;'>脇見なんて無しで</span>キャントストップ
+<span style='color:#ff66b2;'>コンパス代わりに</span>マイクロフォンが
+<span style='color:#ff66b2;'>さし示す先まで</span> life goes on
 
-デクレシェンドよりもまた make legend
-不滅の熱量で WESTraight
-外野の野次とか受け付けんと
-減速せず正面抜けるゲート
-未だ進行形　新しい光景
-笑い声仲間　魂の共鳴
-怠惰な日常へ抗い挑戦
-Feelしたなら皆　かましにいこうぜ
+<span style='color:#ffc81b;'>デクレシェンドよりもまた</span> make legend
+<span style='color:#ffc81b;'>不滅の熱量で</span> WESTraight
+<span style='color:#ffc81b;'>外野の野次とか</span>受け付けんと
+<span style='color:#ffc81b;'>減速せず正面</span>抜けるゲート
+<span style='color:#ffc81b;'>未だ進行形</span>　新しい光景
+<span style='color:#ffc81b;'>笑い声仲間</span>　魂の共鳴
+<span style='color:#ffc81b;'>怠惰な日常へ</span>抗い挑戦
+<span style='color:#ffc81b;'>Feelしたなら皆　かましにいこうぜ</span>
 
 WESTraight
 駆け抜けていくでネクストへ c'mon
@@ -32260,44 +32260,44 @@ WESTraight
 まあ、なんしかしっかりせんとね c'mon
 WESTraight
 
-一度決めたら変えねえルート
-道も半ばじゃ降りねぇずっと
-例えナビが俺を阻もうとしても直線 WESTraight
+<span style='color:#9933ff;'>一度決めたら変えねえ</span>ルート
+<span style='color:#9933ff;'>道も半ばじゃ降りねぇ</span>ずっと
+<span style='color:#9933ff;'>例えナビが俺を</span>阻もう<span style='color:#9933ff;'>としても直線</span> WESTraight
 Can't stop！
 Won't stop！
 Don't stop now！
-超えろ難関一点突破
+<span style='color:#9933ff;'>超えろ</span>難関<span style='color:#9933ff;'>一点</span>突破
 Can't stop！
 Won't stop！
 Don't stop now！
-飛ばせガンガン信じろ直感
+<span style='color:#9933ff;'>飛ばせ</span>ガンガン<span style='color:#9933ff;'>信じろ</span>直感
 
-振り向くな後ろ前だけを見ろ
-あるで力量メーター振り切ろう
-破竹の勢い　増してくスピード
-ライフは一度真っ直ぐ生きろ
-(Hey)100％で挑む
-この身ひとつでピークに切り込む
-(Hey)まずは Let's get it on
-やってみ？そこの君も　君も
+<span style='color:#f39800;'>振り向くな</span>後ろ<span style='color:#f39800;'>前だけを</span>見ろ
+<span style='color:#f39800;'>あるで</span>力量<span style='color:#f39800;'>メーター振り</span>切ろう
+<span style='color:#f39800;'>破竹の</span>勢い　<span style='color:#f39800;'>増してく</span>スピード
+<span style='color:#f39800;'>ライフは</span>一度<span style='color:#f39800;'>真っ直ぐ</span>生きろ
+<span style='color:#f39800;'>(Hey)100％で挑む
+この</span>身ひとつでピークに切り込む
+<span style='color:#f39800;'>(Hey)まずは Let's get it on
+やって</span>み？そこの君も　君も
 
-道の先見たかっこいい理想
-憧れてたのはあの日のヒーロー
-俺も主人公　君も主人公
-折れそうな時ほどまっすぐに行こう
-誰だって最初の一歩は新人
-まずは己が己を信じる
-ピンチはチャンスの意味を知り
-必死のバッチで　一本道
+<span style='color:#ee3333;'>道の先見た</span>かっこいい理想
+<span style='color:#ee3333;'>憧れてたのは</span>あの日のヒーロー
+<span style='color:#ee3333;'>俺も主人公　</span>君も主人公
+<span style='color:#ee3333;'>折れそうな時ほど</span>まっすぐに行こう
+<span style='color:#ee3333;'>誰だって最初の</span>一歩は新人
+<span style='color:#ee3333;'>まずは己が</span>己を信じる
+<span style='color:#ee3333;'>ピンチはチャンスの</span>意味を知り
+<span style='color:#ee3333;'>必死のバッチで　</span>一本道
 
-rep関西沸かす日本
-芯一本通しノリは keep on
-勢いゴリ押しで通す猛スピード
-道のりは強引に go　よーいどん
-でも忘れへんで義理と人情　目指してる場所は前人未到
+</span><span style='color:#32cd32;'>rep関西沸かす日本
+</span><span style='color:#ff66b2;'>芯一本</span><span style='color:#f39800;'>通しノリは keep on
+</span><span style='color:#ee3333;'>勢い</span><span style='color:#9933ff;'>ゴリ押しで通す猛スピード
+</span><span style='color:#ffc81b;'>道のりは</span><span style='color:#0099ff;'>強引に go</span>　よーいどん
+<span style='color:#32cd32;'>でも忘れへんで義理と人情　目指してる場所は前人未到
 全員集合　王道　正規ルートをまっすぐでええっちゅうの
 It's not over till it's over やでほんま We let you know
-毎回ベストの更新続けるWESTraightや調子どう？
+毎回ベストの更新続けるWESTraightや調子どう？</span>
 
 WESTraight
 駆け抜けていくでネクストへ c'mon
@@ -32362,50 +32362,50 @@ W to da E to da S to da T`},{id:274,title:"ティダ",titleKana:"てぃだ",lyri
 夢　照らせ　ティダ
 日々　照らせ　ティダ
 愛　照らせ　ティダ
-遥か彼方まで`,lyricsn:`照りつけるティダ
-僕の心も　熱く焦がしておくれよ
+遥か彼方まで`,lyricsn:`</span><span style='color:#9933ff;'>照りつけるティダ</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#9933ff;'>僕の心も　熱く焦がしておくれよ</span><span style='color:#f39800;'>(ハモリ)
 
-きらめく波に　身を委ねて
-ゆらりゆらゆら
+</span><span style='color:#ee3333;'>きらめく波に　身を委ねて</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#ee3333;'>ゆらりゆらゆら</span><span style='color:#f39800;'>(ハモリ)
 
-普通はこうとか　当たり前だとか
-そんなことはどうでもいいよ
-君が笑っていられるのなら　どんな日もかりゆしDAY
-さぁ両手揺らして　幸せみんなで招き入れよう！
+</span><span style='color:#0099ff;'>普通はこうとか　当たり前だとか
+そんなことはどうでもいいよ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>君が笑っていられるのなら　どんな日もかりゆしDAY</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>さぁ両手揺らして　幸せみんなで招き入れよう！</span><span style='color:#0099ff;'>(ハモリ)</span>
 
 1・2・3 (ティー！ター！ミー！)
 
-ハイサイ！　君も一緒に歌おう
-老いも若きも　いちゃりばちょーでー
-ハイサイ！　ここで出会えたことが　奇跡なのさ
+ハイサイ！<span style='color:#f39800;'>(フェイク)</span>　君も一緒に歌おう
+<span style='color:#ff66b2;'>老いも若きも　いちゃりばちょーでー</span>
+ハイサイ！<span style='color:#f39800;'>(フェイク)</span>　ここで出会えたことが　奇跡なのさ
 
-手を伸ばせば　届きそうな空が
-全て包んでくれるさ
+<span style='color:#ffc81b;'>手を伸ばせば　届きそうな空が</span><span style='color:#ee3333;'>(ハモリ)
+</span><span style='color:#ffc81b;'>全て包んでくれるさ</span><span style='color:#ee3333;'>(ハモリ)
 
-海も風も鳥も花達も
-君を待ってる
+</span><span style='color:#0099ff;'>海も風も鳥も花達も</span><span style='color:#ee3333;'>(ハモリ)
+</span><span style='color:#0099ff;'>君を待ってる</span><span style='color:#ee3333;'>(ハモリ)
 
-誰かと比べて　落ち込まないでね
-君は君のまんまでいいよ
-明日は今日より強くなれるさ　どんな日もかりゆしDAY
-さぁ両手揺らして　喜び悲しみかき混ぜよう！
+</span><span style='color:#32cd32;'>誰かと比べて　落ち込まないでね
+君は君のまんまでいいよ</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#ff66b2;'>明日は今日より強くなれるさ　どんな日もかりゆしDAY</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#9933ff;'>さぁ両手揺らして　喜び悲しみかき混ぜよう！</span><span style='color:#f39800;'>(ハモリ)</span>
 
 1・2・3 (ティー！ター！ミー！)
 
 ハイサイ！　みんな一緒に歌おう
-君もあなたも　いちゃりばちょーでー
+<span style='color:#ffc81b;'>君もあなたも　いちゃりばちょーでー</span>
 ハイサイ！　君が生まれたことは　奇跡なのさ
 
 もう一回！(ナーティーチ！)
 
-ハイサイ！　君も一緒に歌おう
+ハイサイ！<span style='color:#32cd32;'>(フェイク)</span>　君も一緒に歌おう
 老いも若きも　いちゃりばちょーでー
-ハイサイ！　ここで出会えたことが　奇跡なのさ
+ハイサイ！<span style='color:#32cd32;'>(フェイク)</span>　ここで出会えたことが　奇跡なのさ
 
-君　照らせ　ティダ
-道　照らせ　ティダ
-明日　照らせ　ティダ
-雲突き抜けて
+<span style='color:#f39800;'>君　照らせ</span>　ティダ
+<span style='color:#f39800;'>道　照らせ</span>　ティダ
+<span style='color:#f39800;'>明日　照らせ</span>　ティダ
+<span style='color:#ee3333;'>雲突き抜けて</span><span style='color:#f39800;'>(フェイク)</span>
 
 夢　照らせ　ティダ
 日々　照らせ　ティダ
@@ -32455,43 +32455,43 @@ You raise me up, sweet memories
 太陽みたいに笑う
 あどけない夢をみる
 眩しい夏に溶けてく`,lyricsn:`Summer breeze, sweet melodies
-風を追いかけて
+<span style='color:#f39800;'>風を追いかけて</span><span style='color:#ff66b2;'>(ハモリ)</span>
 You raise me up, sweet memories
-太陽みたいに笑う
-あどけない夢をみる
-眩しい夏に溶けてく
+<span style='color:#ee3333;'>太陽みたいに笑う</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>あどけない夢をみる</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>眩しい夏に溶けてく</span><span style='color:#f39800;'>(ハモリ)
 
-今すぐ逃げ出そう
-着の身着のまま
-気の向くまま
+</span><span style='color:#ffc81b;'>今すぐ逃げ出そう
+</span><span style='color:#32cd32;'>着の身着のまま
+</span><span style='color:#ffc81b;'>気の向くまま
 
-流離(さすら)い彷徨う
-行くあてもなく
-どこまでも
+</span><span style='color:#f39800;'>流離(さすら)い彷徨う</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>行くあてもなく
+</span><span style='color:#f39800;'>どこまでも</span><span style='color:#9933ff;'>(ハモリ)
 
-迷子のように
-ドキドキと不安が
+</span><span style='color:#ff66b2;'>迷子のように</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>ドキドキと不安が
 
-振り子のように
-止まらない胸の鼓動
-揺れてる
+</span><span style='color:#ee3333;'>振り子のように</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>止まらない胸の鼓動</span><span style='color:#ff66b2;'>(ハモリ)</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>揺</span><span style='color:#ff66b2;'>れ</span><span style='color:#ee3333;'>て</span><span style='color:#ff66b2;'>る</span><span style='color:#0099ff;'>(ハモリ)</span>
 
 Summer breeze, sweet melodies
-風に吹かれながら
+<span style='color:#9933ff;'>風に吹かれながら</span>
 You raise me up, sweet memories
 答えを探しに行こう
-2人だけの夢を見る
+<span style='color:#0099ff;'>2人だけの夢を見る</span>
 新しい夏に飛び込む
 
 South WEST beach！！
 South WEST beach！！
 
-迷子のように
-ドキドキと不安が
+</span><span style='color:#ffc81b;'>迷子のように</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>ドキドキと不安が
 
-振り子のように
-止まらない胸の鼓動
-揺れてる
+</span><span style='color:#ff66b2;'>振り子のように</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>止まらない胸の鼓動</span><span style='color:#0099ff;'>(ハモリ)</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>揺れてる</span><span style='color:#0099ff;'>(ハモリ)</span>
 
 Summer breeze, sweet melodies
 風を追いかけて
@@ -32543,52 +32543,52 @@ Wow　俯いてたって Wow　どんな場所にいたって　そうさ
 生きて　生きて　讃え続け
 何処へ？なんてないぜ　答えならそう
 心(ここ)にあんだ
-始めようか Yeah`,lyricsn:`雨上がり手に持て余してる　傘みたいなもんだな　後悔なんて
-晴れ渡る空　塞がる手では Any more　何も掴めなくて
+始めようか Yeah`,lyricsn:`<span style='color:#f39800;'>雨上がり手に持て余してる　傘みたいなもんだな　後悔なんて
+</span><span style='color:#0099ff;'>晴れ渡る空　塞がる手では Any more　何も掴めなくて
 
-Life...　溢れ出す　その涙輝かすため
+</span><span style='color:#9933ff;'>Life...　溢れ出す　その涙輝かすため
 世界はスタートを繰り返す
-東の空に　ほら今日もSun goes up
+</span><span style='color:#ffc81b;'>東の空に　ほら今日もSun goes up</span>
 
 0秒先の未来だけ見据え　歩み続ける
 無駄なもんは　何ひとつなかったと言えるように
 過去じゃなく　その意味を　変えていけばいい
-「もしあの時」だなんてさ　遠くばっか見てちゃ躓くぜ
-新しい時代　そのど真ん中行こう
+<span style='color:#32cd32;'>「もしあの時」だなんてさ　遠くばっか見てちゃ躓くぜ
+</span><span style='color:#ff66b2;'>新しい時代　そのど真ん中行こう</span>
 何処へ？なんてないぜ　答えならそう
-心(ここ)にあんだ
+<span style='color:#ee3333;'>心(ここ)にあんだ
 
-地図(ナビ)を辿れば　正解地点
+</span><span style='color:#9933ff;'>地図(ナビ)を辿れば　正解地点
 道を間違えるほうが　難しい時代だろう？
 
-Right...　時に迷い　踏み外し　笑われていいさ
-いつも“未知”切り拓くのは　そんなヤツらさ
-そうやって Make my way
+</span><span style='color:#ff66b2;'>Right...　時に迷い　踏み外し　笑われていいさ
+いつも“未知”切り拓くのは　</span><span style='color:#f39800;'>そんなヤツらさ
+そうやって Make my way</span>
 
 0・100　二元論で出来上がった　イマって時代を
 泥臭い人間論で　彩っていくんだよ
 過去も全部　傷も全部　模様に変えてく
-明るい色だけじゃほら　綺麗な絵なんて描けないぜ
-白・黒じゃない　極彩色の日々を
+<span style='color:#ee3333;'>明るい色だけじゃほら　綺麗な絵なんて描けないぜ
+</span><span style='color:#ffc81b;'>白・黒じゃない　極彩色の日々を</span>
 書いて　消して　泣いて　繰り返して
-描き上げんだ
+<span style='color:#0099ff;'>描き上げんだ</span>
 
-Wow　濡れたアスファルト Wow　出来た水溜まり　眩しく映った青空
-Wow　俯いてたって Wow　どんな場所にいたって　そうさ
+Wow　<span style='color:#ff66b2;'>濡れたアスファルト</span> Wow　<span style='color:#ff66b2;'>出来た水溜まり　</span><span style='color:#0099ff;'>眩しく映った青空</span>
+Wow　<span style='color:#ffc81b;'>俯いてたって</span> Wow　<span style='color:#f39800;'>どんな場所にいたって　そうさ</span>
 希望(ひかり)は見える
 
-僕らは　後戻りなど出来ない日々を生きてる
-どんな今日も手探りで　進むしかないんだよ
+<span style='color:#32cd32;'>僕らは　後戻りなど出来ない日々を生きてる
+</span><span style='color:#ee3333;'>どんな今日も手探りで　進むしかないんだよ</span>
 0秒先の未来だけ見据えてく
 無駄なもんは　何ひとつなかったと言えるように
 過去じゃなく　その意味を　変えていけばいい
 「もしあの時」だなんてさ　遠くばっか見てちゃ躓くぜ
-新しい時代　そのど真ん中行こう
-前へ　前へ　惹かれ続け
-生きて　生きて　讃え続け
-何処へ？なんてないぜ　答えならそう
+<span style='color:#f39800;'>新</span><span style='color:#ffc81b;'>し</span><span style='color:#0099ff;'>い</span><span style='color:#ff66b2;'>時</span><span style='color:#f39800;'>代　</span><span style='color:#ffc81b;'>そ</span><span style='color:#0099ff;'>の</span><span style='color:#ff66b2;'>ど</span><span style='color:#f39800;'>真</span><span style='color:#ffc81b;'>ん</span><span style='color:#0099ff;'>中</span><span style='color:#ff66b2;'>行</span><span style='color:#f39800;'>こ</span><span style='color:#ffc81b;'>う
+</span><span style='color:#0099ff;'>前</span><span style='color:#ff66b2;'>へ　</span><span style='color:#f39800;'>前</span><span style='color:#ffc81b;'>へ　</span><span style='color:#0099ff;'>惹</span><span style='color:#ff66b2;'>か</span><span style='color:#f39800;'>れ</span><span style='color:#ffc81b;'>続</span><span style='color:#0099ff;'>け
+</span><span style='color:#ee3333;'>生</span><span style='color:#32cd32;'>き</span><span style='color:#9933ff;'>て　</span><span style='color:#ee3333;'>生</span><span style='color:#32cd32;'>き</span><span style='color:#9933ff;'>て　</span><span style='color:#ee3333;'>讃</span><span style='color:#32cd32;'>え</span><span style='color:#9933ff;'>続</span><span style='color:#ee3333;'>け
+</span><span style='color:#32cd32;'>何</span><span style='color:#9933ff;'>処</span><span style='color:#ee3333;'>へ</span><span style='color:#32cd32;'>？</span><span style='color:#9933ff;'>な</span><span style='color:#ee3333;'>ん</span><span style='color:#32cd32;'>て</span><span style='color:#9933ff;'>な</span><span style='color:#ee3333;'>い</span><span style='color:#32cd32;'>ぜ　</span><span style='color:#9933ff;'>答</span><span style='color:#ee3333;'>え</span><span style='color:#32cd32;'>な</span><span style='color:#9933ff;'>ら</span><span style='color:#ee3333;'>そ</span><span style='color:#32cd32;'>う</span>
 心(ここ)にあんだ
-始めようか Yeah`},{id:277,title:"この旋律よ 誰かの歌になれ",titleKana:"このせんりつよ だれかのうたになれ",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin’park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin’park)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回B]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){25}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){25}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){25}"],singer:"WEST.",date:"2025-03-12",lyrics:`上手く歌えなくてもかまわない
+<span style='color:#9933ff;'>始めようか Yeah</span>`},{id:277,title:"この旋律よ 誰かの歌になれ",titleKana:"このせんりつよ だれかのうたになれ",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin’park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin’park)",album:["A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回B]"],announce:"t",performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){25}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){25}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){25}"],singer:"WEST.",date:"2025-03-12",lyrics:`上手く歌えなくてもかまわない
 そのクセ　君には届けたい
 何が正義かもわからない
 でも、君といるなら
@@ -32669,83 +32669,83 @@ We just sing it loud
 この旋律よ　僕らの歌になれ
 この旋律よ　誰かの歌になれ
 この旋律よ　僕らの歌になれ
-この旋律よ　僕らの歌になれ`,lyricsn:`上手く歌えなくてもかまわない
+この旋律よ　僕らの歌になれ`,lyricsn:`<span style='color:#ffc81b;'>上手く歌えなくてもかまわない
 そのクセ　君には届けたい
-何が正義かもわからない
+</span><span style='color:#9933ff;'>何が正義かもわからない
 でも、君といるなら
 
-We go round & round
+</span><span style='color:#32cd32;'>We go round & round
 No need for doubt, doubt, doubt
 We just sing it loud
 
-「初めまして」も思い出せないくらい
-響いてた音が
-気づけば　ノイズだらけの部屋
-見失った僕は oh
+</span><span style='color:#ff66b2;'>「初めまして」も思い出せないくらい</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>響いてた音が
+</span><span style='color:#f39800;'>気づけば　ノイズだらけの部屋</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>見失った僕は oh</span><span style='color:#9933ff;'>(ハモリ)
 
-譜面からはみでたメロディー
-必死にすくって　叫んだ
-ねえ　今も　聞こえてるの？
-ずっと　飲み込んでいた想い　空に向けて
-奏でるのは自由だ
+</span><span style='color:#ee3333;'>譜面からはみでたメロディー</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>必死にすくって　叫んだ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>ねえ　今も　聞こえてるの？
+</span><span style='color:#0099ff;'>ずっと　飲み込んでいた想い　空に向けて
+奏でるのは自由だ</span>
 
 二度とはない感情
 歌うよ　全部　歌うよ
-世界中の賞賛より
-誰かの歌になれ
+<span style='color:#ffc81b;'>世界中の賞賛より
+誰かの歌になれ</span>
 
 泣きながら笑っても
 いいんだ　全部　いいんだ
 もう一度始めよう
-君といたいから　僕でいたいから
+君といたいから　<span style='color:#32cd32;'>僕でいたいから
 
-100回目の渇望　名も無き thrive
+</span><span style='color:#0099ff;'>100回目の渇望　名も無き thrive
 クタクタになろうとも　追いかけてたい
-こんなのどう？　未来永劫 We sing along
+こんなのどう？　未来永劫</span> We sing along
 
-目を合わすのも　わずらわしいくらい
-気持ちミュートしてた
-誰かのせいにしていたら
-いつの間にか　ぼっちか oh
+<span style='color:#ee3333;'>目を合わすのも　わずらわしいくらい</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ee3333;'>気持ちミュートしてた
+</span><span style='color:#ffc81b;'>誰かのせいにしていたら</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#ffc81b;'>いつの間にか　ぼっちか oh</span><span style='color:#ff66b2;'>(ハモリ)
 
-今度こそを繰り返して
-奇跡のコード探した
-ねえ　今も　聞こえてるの？
-ずっと　言いかけてた言葉かき集めて
-奏でるのは自分だ
+</span><span style='color:#32cd32;'>今度こそを繰り返して</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>奇跡のコード探した</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>ねえ　今も　聞こえてるの？
+</span><span style='color:#f39800;'>ずっと　言いかけてた言葉かき集めて
+奏でるのは自分だ</span>
 
 二度とはない感情
 歌うよ　全部　歌うよ
-世界中の賞賛より
-誰かの歌になれ
+<span style='color:#ff66b2;'>世界中の賞賛より
+誰かの歌になれ</span>
 
 泣きながら笑っても
 いいんだ　全部　いいんだ
 もう一度始めよう
-君といたいから　僕でいたいから
+君といたいから　<span style='color:#9933ff;'>僕でいたいから</span>
 
 この旋律よ　僕らの歌になれ
 この旋律よ　誰かの歌になれ
 この旋律よ　僕らの歌になれ
 この旋律よ
 
-口ずさむ　探してる
-終わらない　アカペラ
-過ぎて行く今日も
-変わっていく明日も
-昨日の正解(こたえ)も
-嘘じゃない　いいんじゃない
-全部　歌にするんだ
+<span style='color:#ffc81b;'>口ずさむ　</span><span style='color:#0099ff;'>探してる
+</span><span style='color:#ff66b2;'>終わらない　アカペラ
+</span><span style='color:#32cd32;'>過ぎて行く今日も</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>変わっていく明日も</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>昨日の正解(こたえ)も</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>嘘じゃない　</span><span style='color:#f39800;'>いいんじゃない
+全部</span>　歌にするんだ</span>
 
 二度とはない感情
 歌うよ　全部　歌うよ
-世界中の賞賛より
-誰かの歌になれ
+<span style='color:#9933ff;'>世界中の賞賛より
+誰かの歌になれ</span>
 
 泣きながら笑っても
 いいんだ　全部　いいんだ
 もう一度始めよう
-君といたいから　僕でいたいから
+君といたいから　<span style='color:#ee3333;'>僕でいたいから</span>
 
 この旋律よ　僕らの歌になれ
 この旋律よ　誰かの歌になれ
@@ -32799,54 +32799,54 @@ We just sing it loud
 パワースポット俺「あらどうも」
 君はもう何回目よ
 
-パワースポット俺`,lyricsn:`パワースポット俺「ほらどうぞ」
-見ていたいなら遠慮なく
-パワースポット俺「あらどうも」
-君はもう何回目よ
+パワースポット俺`,lyricsn:`パワースポット俺<span style='color:#ee3333;'>「ほらどうぞ」
+見ていたいなら遠慮なく</span>
+パワースポット俺<span style='color:#32cd32;'>「あらどうも」
+君はもう何回目よ</span>
 
 パワースポット俺
 
-どっかの山だけじゃ足りてないの
-どっかの岩よりも俺だろ
-一礼したあと手合わせ
-賽銭よりも目を合わせ
+<span style='color:#f39800;'>どっかの山だけじゃ足りてないの
+</span><span style='color:#ff66b2;'>どっかの岩よりも俺だろ
+</span><span style='color:#0099ff;'>一礼したあと手合わせ
+</span><span style='color:#ffc81b;'>賽銭よりも目を合わせ
 
-気分落ちたらここに来い
+</span><span style='color:#ee3333;'>気分落ちたらここに来い
 故に作法なんてもう要らない
-風の噂で落ちてない
-そんなに気にしないでも
+</span><span style='color:#32cd32;'>風の噂で落ちてない
+そんなに気にしないでも</span>
 
-パワースポット俺「ほらどうぞ」
-見ていたいなら遠慮なく
-パワースポット俺「あらどうも」
+パワースポット俺<span style='color:#9933ff;'>「ほらどうぞ」
+見ていたいなら遠慮なく</span>
+パワースポット俺<span style='color:#ff66b2;'>「あらどうも」
 君はもう何回目よ
 
-どっかしらオイラも縋りたいの
-負担かけ合う人はどこ
-強がってる人だってもう
-飽和スレスレなの
+</span><span style='color:#0099ff;'>どっかしらオイラも縋りたいの
+</span><span style='color:#ffc81b;'>負担かけ合う人はどこ
+</span><span style='color:#32cd32;'>強がってる人だってもう
+</span><span style='color:#ee3333;'>飽和スレスレなの
 
-気分癒やしたら行って良い
+</span><span style='color:#ff66b2;'>気分癒やしたら行って良い
 故に作法なんてもう要らない
-風の噂が耳痛い
-そんなに気にしたくはない
+</span><span style='color:#9933ff;'>風の噂が耳痛い
+そんなに気にしたくはない</span>
 
-パワースポットお前「ほらどうぞ」
-見ていたいから離れない
-パワースポットお前「あらどうも」
-どうも
+パワースポットお前<span style='color:#0099ff;'>「ほらどうぞ」
+見ていたいから離れない</span>
+パワースポットお前<span style='color:#f39800;'>「あらどうも」
+どうも</span>
 
 パワースポット俺
 
-拝まないで俺の鈴の緒
-巻いたままどっか行かないで
-拝まないで俺の鈴の緒
-御利益なんてもう
+<span style='color:#32cd32;'>拝まないで俺の鈴の緒</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>巻いたままどっか行かないで</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>拝まないで俺の鈴の緒</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>御利益なんてもう</span><span style='color:#0099ff;'>(ハモリ)</span>
 
-パワースポット俺「ほらどうぞ」
-見ていたいなら遠慮なく
-パワースポット俺「あらどうも」
-君はもう何回目よ
+パワースポット俺<span style='color:#ffc81b;'>「ほらどうぞ」
+見ていたいなら遠慮なく</span>
+パワースポット俺<span style='color:#9933ff;'>「あらどうも」
+君はもう何回目よ</span>
 
 パワースポット俺`},{id:279,title:"ウェッサイソウル！",titleKana:"うぇっさいそうる！",lyricist:"トータス松本",composer:"トータス松本",arranger:"ウルフルズ・菅原龍平",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],announce:"t",mv:`ウェッサイソウル！ / BIG LOVE SONG[初回A]（Music Video & Making）
 YouTube（Music Vudeo）`,performances:["A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12){10}","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知){10}","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){10}","メトロック2025(東京){6}","11周年生配信トーク＆ライブ「虹会」{7}"],singer:"WEST.",date:"2025-05-07",tiup:"映画『裏社員。ースパイやらせてもろてますー』主題歌",lyrics:`騙されたのか
@@ -32921,71 +32921,71 @@ Never Give Up！
 最初で最後
 人生そんなもんやっ！
 伸るか反るか一か八かそうさ
-負けへんぞ！`,lyricsn:`騙されたのか
+負けへんぞ！`,lyricsn:`<span style='color:#ee3333;'>騙されたのか
 悪い夢なのか
 おらは死んじまったのか
 
-誰もいなくなって
-(寂しいよ)
-ケータイも壊れちゃって
-(悲しいよ)
-どうすりゃ届くのか
-真っ暗闇で
+</span><span style='color:#0099ff;'>誰もいなくなって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>(寂しいよ)</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>ケータイも壊れちゃって</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>(悲しいよ)</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>どうすりゃ届くのか</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>真っ暗闇で</span><span style='color:#9933ff;'>(ハモリ)
 
-優柔不断が命取り
-笑わないでお願い
+</span><span style='color:#f39800;'>優柔不断が命取り</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#f39800;'>笑わないでお願い</span><span style='color:#ff66b2;'>(ハモリ)</span><span style='color:#32cd32;'>(ハモリ)
 
-だけど
+</span><span style='color:#ffc81b;'>だけど</span>
 最後にゃ最高
 ゲットだ　最高を
 最初は最低でも
 Never Give Up！
 前後も左右も　上下も関係ないわ！
-おれがおれでおれはおれさそうさ
-負けへんぞ！
+<span style='color:#ee3333;'>おれが</span><span style='color:#32cd32;'>おれで</span><span style='color:#0099ff;'>おれは</span><span style='color:#ff66b2;'>おれさ</span><span style='color:#9933ff;'>そうさ
+</span><span style='color:#f39800;'>負けへんぞ！
 
-ダサい嘘をついた
-(虚しいよ)
-消えてしまおう
-(悔しいよ)
-君が恋しいよ
+</span><span style='color:#ff66b2;'>ダサい嘘をついた
+</span><span style='color:#f39800;'>(虚しいよ)</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>消えてしまおう
+</span><span style='color:#f39800;'>(悔しいよ)</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>君が恋しいよ
 
-強く抱きしめて
-(ひと息に)
-叱り飛ばしてよ
-(思いきり)
-思わず涙ぐんだ
-坂の途中で
+</span><span style='color:#32cd32;'>強く抱きしめて</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#ee3333;'>(ひと息に)
+</span><span style='color:#32cd32;'>叱り飛ばしてよ</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#ee3333;'>(思いきり)
+</span><span style='color:#32cd32;'>思わず涙ぐんだ</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#32cd32;'>坂の途中で</span><span style='color:#ffc81b;'>(ハモリ)
 
-空前絶後の空回り
-構わないでお願い
+</span><span style='color:#9933ff;'>空前絶後の空回り</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>構わないでお願い</span><span style='color:#0099ff;'>(ハモリ)</span><span style='color:#32cd32;'>(ハモリ)
 
-だけど
+</span><span style='color:#ee3333;'>だ</span><span style='color:#0099ff;'>け</span><span style='color:#ee3333;'>ど</span>
 最後にゃ最高
 ゲットだ　最高を
 最初は最低でも
 Never Give Up！
 汗と涙で　白黒つけたるわ！
-伸るか反るか一か八かそうさ
-負けへんぞ！
+<span style='color:#ff66b2;'>伸るか</span><span style='color:#f39800;'>反るか</span><span style='color:#32cd32;'>一か</span><span style='color:#0099ff;'>八か</span><span style='color:#ffc81b;'>そうさ
+</span><span style='color:#9933ff;'>負けへんぞ！
 
-ひとりじゃ張り切れない
+</span><span style='color:#0099ff;'>ひとりじゃ張り切れない</span>
 (Oh～West Side Soul)
-君がいなきゃつまらない
+<span style='color:#32cd32;'>君がいなきゃつまらない</span>
 (Oh～West Side Soul)
-悲しくてやりきれない
+<span style='color:#ffc81b;'>悲しくてやりきれない</span>
 (Oh～West Side Soul)
-愛して愛されたい
+<span style='color:#ff66b2;'>愛して愛されたい</span>
 (Clap Your Hands
 負けへんぞ！)
 
-最後にゃ最高
+<span style='color:#9933ff;'>最後にゃ最高
 ゲットだ　最高を
-最初は最低でも
+</span><span style='color:#ffc81b;'>最初は最低でも</span>
 Never Give Up！
-前後も左右も　上下も関係ないわ！
-おれがおれでおれはおれさそうさ
-もういっちょう！
+<span style='color:#f39800;'>前後も左右も　上下も関係ないわ！
+</span><span style='color:#ee3333;'>おれが</span><span style='color:#32cd32;'>おれで</span><span style='color:#0099ff;'>おれは</span><span style='color:#ff66b2;'>おれさ</span><span style='color:#9933ff;'>そうさ
+</span><span style='color:#ee3333;'>もういっちょう！</span>
 最後にゃ最高
 ゲットだ　最高を
 最初は最低でも
@@ -33063,76 +33063,76 @@ BIG LOVE
 抱きしめよう
 You know　その胸の中
 Tu tu tu tu...
-Who's with BIG LOVE？`,lyricsn:`I know　すぐそこにある
-小さく色づく BIG LOVE
-逢いにゆこう
+Who's with BIG LOVE？`,lyricsn:`<span style='color:#32cd32;'>I know　すぐそこにある
+小さく色づく</span> BIG LOVE
+<span style='color:#32cd32;'>逢いにゆこう</span>
 Tu tu tu tu...
-Who's with BIG LOVE？
+<span style='color:#ff66b2;'>Who's with BIG LOVE？
 
-手のひらの中に収まる
-現実ばかりスライドで
+</span><span style='color:#0099ff;'>手のひらの中に収まる
+現実ばかり</span><span style='color:#9933ff;'>スライドで
 ちょっと食傷気味なDays
-作りかけの理想ばかりで
-味気ないじゃない？ Deny it
-You'll see that ain't true
+</span><span style='color:#ffc81b;'>作りかけの理想ばかりで
+味気ないじゃない？ Deny it</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>You'</span><span style='color:#0099ff;'>ll </span><span style='color:#9933ff;'>see </span><span style='color:#ffc81b;'>that </span><span style='color:#0099ff;'>ain't </span><span style='color:#9933ff;'>true
 
-ゆれるベルベットの夕暮れが
+</span><span style='color:#f39800;'>ゆれるベルベットの夕暮れが
 信号待ち二人を包んだ
-おなじようで違う日々さ
+</span><span style='color:#ee3333;'>おなじようで違う日々さ
 Let's say...
-なんてBeautiful, Beautiful！
+</span><span style='color:#32cd32;'>なんて</span>Beautiful, Beautiful！
 
 I know　すぐそこにある
 小さく色づく BIG LOVE
-僕らなら
+<span style='color:#ff66b2;'>僕らなら</span>
 You know　その胸の中
 小さく華やぐ BIG HEART
-逢いにゆこう
+<span style='color:#ff66b2;'>逢いにゆこう</span>
 Tu tu tu tu...
 
-遠回りの近道に
+<span style='color:#f39800;'>遠回りの近道に
 気づいたら It's OK
-ふと開いたPhoto bookで涙
+</span><span style='color:#32cd32;'>ふと開いたPhoto bookで涙
 それってひょっとして　幸せのカケラ
-ひとりぼっちの夜は
-星屑をスプーンですくって
+</span><span style='color:#ff66b2;'>ひとりぼっちの夜は
+星屑を</span><span style='color:#32cd32;'>スプーンですくって
 珈琲に混ぜて
-ケセラセラ
+</span><span style='color:#f39800;'>ケ</span><span style='color:#32cd32;'>セ</span><span style='color:#ff66b2;'>ラ</span><span style='color:#f39800;'>セ</span><span style='color:#32cd32;'>ラ
 
-そよぐヘルメットの風ん中
+</span><span style='color:#9933ff;'>そよぐヘルメットの風ん中
 いつものように　手を振るんだ
-こんな日が続けばいいな
+</span><span style='color:#ffc81b;'>こんな日が続けばいいな
 Let's say...
-なんてBeautiful, Beautiful！
+</span><span style='color:#0099ff;'>なんて</span>Beautiful, Beautiful！
 
 I know　すぐそこにある
 小さく色づく BIG LOVE
-抱きしめよう
+<span style='color:#ee3333;'>抱きしめよう</span>
 You know　その胸の中
 小さく華やぐ BIG HEART
-逢いにゆこう
+<span style='color:#ee3333;'>逢いにゆこう
 
-'足りない'だらけだって
-そのままでいいよ
+</span><span style='color:#f39800;'>'足りない'だらけだって
+</span><span style='color:#0099ff;'>そのままでいいよ
 きっと　大丈夫さ
-変わり者と呼ばれても
-オリジナルのスパイスで
-'Life' is yours
-なんてBeautiful
+</span><span style='color:#9933ff;'>変わり者と呼ばれても
+</span><span style='color:#ffc81b;'>オリジナルのスパイスで
+</span><span style='color:#ff66b2;'>'Life' is yours
+</span><span style='color:#ee3333;'>なんてBeautiful</span>
 
 I know　すぐそこにある
 小さく色づく BIG LOVE
 抱きしめよう
 You know　その胸の中
 小さく華やぐ BIG HEART
-逢いにゆこう
+<span style='color:#32cd32;'>逢いにゆこう</span>
 
 I know　すぐそこにある
 BIG LOVE
 抱きしめよう
 You know　その胸の中
 Tu tu tu tu...
-Who's with BIG LOVE？`},{id:281,title:"君の嫌いな君",titleKana:"きみのきらいなきみ",lyricist:"ゆっきゅん",composer:"如月結愛",arranger:"如月結愛",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`愛が嫌いなんて　潤んだ目で　言わないでよ
+<span style='color:#32cd32;'>Who's with BIG LOVE？</span>`},{id:281,title:"君の嫌いな君",titleKana:"きみのきらいなきみ",lyricist:"ゆっきゅん",composer:"如月結愛",arranger:"如月結愛",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`愛が嫌いなんて　潤んだ目で　言わないでよ
 
 去年は思い出さずにいられた気がしたけど
 また君　別れて壊した　だとか聞いたから
@@ -33171,124 +33171,186 @@ Who's with BIG LOVE？`},{id:281,title:"君の嫌いな君",titleKana:"きみの
 君の嫌いな君にも会いたかった
 後悔を消すように響け　歌
 
-人生で一番好きな人`,lyricsn:`愛が嫌いなんて　潤んだ目で　言わないでよ
+人生で一番好きな人`,lyricsn:`<span style='color:#9933ff;'>愛が嫌いなんて　潤んだ目で　言わないでよ
 
-去年は思い出さずにいられた気がしたけど
+</span><span style='color:#0099ff;'>去年は思い出さずにいられた気がしたけど
 また君　別れて壊した　だとか聞いたから
 
-成長が過去の罪を増やしてく
-今でも、今更、今なら、なんて　遅すぎて
+</span><span style='color:#32cd32;'>成長が過去の罪を増やしてく
+今でも、今更、今なら、なんて</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#32cd32;'>遅すぎて
 
-愛が嫌いだって鍵をかけて
+</span><span style='color:#f39800;'>愛が嫌いだって鍵をかけて
 閉じこもった君がまだ泣いてんだ
-名前を呼んで追いかけても
+</span><span style='color:#ffc81b;'>名前を呼んで追いかけても
 聴こえないふりしたね　最悪な日
 
-傷つけたくないと遠ざけてさ
+</span><span style='color:#ff66b2;'>傷つけたくないと遠ざけてさ
 適当に誰かと笑ってんだ
-君の嫌いな君にも会いたかった
+</span><span style='color:#ee3333;'>君の嫌いな君にも会いたかった
 後悔のように疼く夢
 
-楽しく時間を過ごすことだけ考えてたから
-大事な話を逸らすみたいに側にいた
+</span><span style='color:#9933ff;'>楽しく時間を過ごすことだけ考えてたから
+</span><span style='color:#f39800;'>大事な話を逸らすみたいに側にいた
 
-成功は過去の傷を癒やすかな
-それでも、あの日の、二人の涙　乾かない
+</span><span style='color:#ee3333;'>成功は過去の傷を癒やすかな
+</span><span style='color:#ffc81b;'>それでも、あの日の、二人の涙</span><span style='color:#0099ff;'>(ハモリ)　</span><span style='color:#ffc81b;'>乾かない
 
-ぐちゃぐちゃの心で鏡を見た
+</span><span style='color:#0099ff;'>ぐちゃぐちゃの心で鏡を見た
 いつもと変わらない顔した人がいるんだ
-こうやって　大人になって　強くなって
-弱くなって　ああ　何を守れたんだろう
+</span><span style='color:#ff66b2;'>こうやって　大人になって　強くなって</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>弱くなって　ああ</span><span style='color:#32cd32;'>(ハモリ)　</span><span style='color:#ff66b2;'>何を守れたんだろう
 
-愛が嫌いだって鍵をかけて
+</span><span style='color:#ee3333;'>愛が嫌いだって鍵をかけて
 閉じこもった君は元気ですか
-名前を呼んで追いかけても
+</span><span style='color:#f39800;'>名前を呼んで追いかけても
 聴こえないふりしても　忘れないよ
 
-傷つけることを恐れないで
+</span><span style='color:#9933ff;'>傷つけることを恐れないで
 誰かを本気で愛せましたか
-君の嫌いな君にも会いたかった
+</span><span style='color:#32cd32;'>君の嫌いな君にも会いたかった
 後悔を消すように響け　歌
 
-人生で一番好きな人`},{id:282,title:"escape",titleKana:"escape",lyricist:"Yohei",composer:"前田佑・Yohei",arranger:"前田佑",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回B]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`愛が嫌いなんて　潤んだ目で　言わないでよ
+</span><span style='color:#ffc81b;'>人生で一番好きな人</span>`},{id:282,title:"escape",titleKana:"escape",lyricist:"Yohei",composer:"前田佑・Yohei",arranger:"前田佑",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回B]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`メカニック　頭も支配モード
+抗う　俺ら人間だろ？
+イキきった　ノイズ達
+檻の中もがいてんの損
+狂わせる脳信号
+虚ろな賛美に No
+正常化して Next round
 
-去年は思い出さずにいられた気がしたけど
-また君　別れて壊した　だとか聞いたから
+Groove, I just wanna break the silence
+Move, 磨きあげる感性
+Ooh, under the moonlight,
+I just wanna feel its glow.
 
-成長が過去の罪を増やしてく
-今でも、今更、今なら、なんて　遅すぎて
+Ooh, 異なる景色　ブロック
+Ooh, hell no, 不適切だね
+Do, 世界創生
+君と俺は等身大
 
-愛が嫌いだって鍵をかけて
-閉じこもった君がまだ泣いてんだ
-名前を呼んで追いかけても
-聴こえないふりしたね　最悪な日
+被らん Nobody
+破天荒な Honey
+そんな君を待ってたね　離さない
+そうさ Downしても即アガる We gather up
+不確かな未来は Gone
 
-傷つけたくないと遠ざけてさ
-適当に誰かと笑ってんだ
-君の嫌いな君にも会いたかった
-後悔のように疼く夢
+We don't need struggle no more, yeah
+We don't need trouble no more, yeah
+隠しきれない Chains
+I feel you, but let go
+(まだ足りないよ)
 
-楽しく時間を過ごすことだけ考えてたから
-大事な話を逸らすみたいに側にいた
+Nananana nananana na
+We keep on running
+栄光の向こう
+We keep on learning
+消えない炎
+狂わせる　見栄と欲望
+You don't need to fall in the dark
+No more alone babe
+夢へ逃避行
 
-成功は過去の傷を癒やすかな
-それでも、あの日の、二人の涙　乾かない
+地球にI'm called
+どこに行こう？
+Ah, 自由を確かめにいく？
+暴く　隠された罠
+描こう　無礼講
+I feel you through my way
 
-ぐちゃぐちゃの心で鏡を見た
-いつもと変わらない顔した人がいるんだ
-こうやって　大人になって　強くなって
-弱くなって　ああ　何を守れたんだろう
+感じない Lonely
+迷うことはない Just trust you
+離さない君を
+(まだ足りないよ)
+Here we go
 
-愛が嫌いだって鍵をかけて
-閉じこもった君は元気ですか
-名前を呼んで追いかけても
-聴こえないふりしても　忘れないよ
+Nananana nananana na
+We keep on running
+栄光の向こう
+We keep on learning
+消えない炎
+狂わせる　見栄と欲望
+You don't need to fall in the dark
+No more alone babe
+夢へ逃避行
 
-傷つけることを恐れないで
-誰かを本気で愛せましたか
-君の嫌いな君にも会いたかった
-後悔を消すように響け　歌
+踊らされてる Every night
+疲れた人形
+憎しみよりも See the light
+決めつけんの Stop
+ただ怖いだけだろ？
+俺らと乗ろう　メリーゴーランド
+頭ん中　解毒
+夢へ逃避行`,lyricsn:`<span style='color:#32cd32;'>メカニック　頭も支配モード
+抗う　俺ら人間だろ？
+イキきった　ノイズ達
+檻の中もがいてんの損
+</span><span style='color:#ffc81b;'>狂わせる脳信号
+虚ろな賛美に No
+正常化して Next round
 
-人生で一番好きな人`,lyricsn:`愛が嫌いなんて　潤んだ目で　言わないでよ
+</span><span style='color:#9933ff;'>Groove, I just wanna break the silence
+</span><span style='color:#f39800;'>Move, 磨きあげる感性
+</span><span style='color:#ff66b2;'>Ooh, under the moonlight,
+I just wanna feel its glow.
 
-去年は思い出さずにいられた気がしたけど
-また君　別れて壊した　だとか聞いたから
+</span><span style='color:#ffc81b;'>Ooh, 異なる景色　ブロック
+</span><span style='color:#ee3333;'>Ooh, hell no, 不適切だね
+</span><span style='color:#32cd32;'>Do, 世界創生
+君と俺は等身大
 
-成長が過去の罪を増やしてく
-今でも、今更、今なら、なんて　遅すぎて
+</span><span style='color:#0099ff;'>被らん Nobody
+破天荒な Honey
+そんな君を待ってたね　離さない
+そうさ Downしても即アガる We gather up
+不確かな未来は Gone
 
-愛が嫌いだって鍵をかけて
-閉じこもった君がまだ泣いてんだ
-名前を呼んで追いかけても
-聴こえないふりしたね　最悪な日
+</span><span style='color:#9933ff;'>We don't need struggle no more, yeah
+We don't need trouble no more, yeah
+隠しきれない Chains
+I feel you, but let go
+</span><span style='color:#ffc81b;'>(まだ足りないよ)</span>
 
-傷つけたくないと遠ざけてさ
-適当に誰かと笑ってんだ
-君の嫌いな君にも会いたかった
-後悔のように疼く夢
+Nananana nananana na
+We keep on running
+栄光の向こう
+We keep on learning
+消えない炎
+<span style='color:#f39800;'>狂わせる　見栄と欲望
+You don't need to fall in the dark
+</span><span style='color:#32cd32;'>No more alone babe
+</span><span style='color:#ee3333;'>夢</span><span style='color:#9933ff;'>へ</span><span style='color:#ee3333;'>逃</span><span style='color:#9933ff;'>避</span><span style='color:#ee3333;'>行
 
-楽しく時間を過ごすことだけ考えてたから
-大事な話を逸らすみたいに側にいた
+</span><span style='color:#0099ff;'>地球にI'm called</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>どこに行こう？</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>Ah, 自由を確かめにいく？
+</span><span style='color:#0099ff;'>暴く　隠された罠</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>描こう　無礼講
+</span><span style='color:#f39800;'>I feel you through my way
 
-成功は過去の傷を癒やすかな
-それでも、あの日の、二人の涙　乾かない
+</span><span style='color:#ff66b2;'>感じない Lonely
+迷うことはない Just trust you
+離さない君を
+</span><span style='color:#ee3333;'>(まだ足りないよ)
+</span><span style='color:#32cd32;'>Here we go</span>
 
-ぐちゃぐちゃの心で鏡を見た
-いつもと変わらない顔した人がいるんだ
-こうやって　大人になって　強くなって
-弱くなって　ああ　何を守れたんだろう
+Nananana nananana na
+We keep on running
+栄光の向こう
+We keep on learning
+消えない炎
+<span style='color:#ee3333;'>狂わせる　見栄と欲望
+You don't need to fall in the dark
+</span><span style='color:#32cd32;'>No more alone babe
+</span><span style='color:#f39800;'>夢</span><span style='color:#9933ff;'>へ</span><span style='color:#f39800;'>逃</span><span style='color:#9933ff;'>避</span><span style='color:#f39800;'>行</span>
 
-愛が嫌いだって鍵をかけて
-閉じこもった君は元気ですか
-名前を呼んで追いかけても
-聴こえないふりしても　忘れないよ
-
-傷つけることを恐れないで
-誰かを本気で愛せましたか
-君の嫌いな君にも会いたかった
-後悔を消すように響け　歌
-
-人生で一番好きな人`},{id:283,title:"春びより",titleKana:"はるびより",lyricist:"瀬奈",composer:"竹内聖",arranger:"竹内聖",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){34}","11周年生配信トーク＆ライブ「虹会」{8}"],singer:"WEST.",date:"2025-05-07",lyrics:`バラバラに光って見えていた
+踊らされてる Every night
+<span style='color:#ffc81b;'>疲れた人形</span>
+憎しみよりも See the light
+<span style='color:#ffc81b;'>決めつけんの Stop
+</span><span style='color:#9933ff;'>ただ怖いだけだろ？</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#9933ff;'>俺らと乗ろう　メリーゴーランド</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>頭ん中　解毒</span>
+夢へ逃避行`},{id:283,title:"春びより",titleKana:"はるびより",lyricist:"瀬奈",composer:"竹内聖",arranger:"竹内聖",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],announce:"t",performances:["A.H.O. -Audio Hang Out-A.H.O(愛知オーラス){34}","11周年生配信トーク＆ライブ「虹会」{8}"],singer:"WEST.",date:"2025-05-07",lyrics:`バラバラに光って見えていた
 またすれ違った言葉
 そっと触れたら壊れちゃいそうな
 僕らのせいだ
@@ -33343,53 +33405,53 @@ Shiny　光るアスファルトが
 バカにしてんだ
 きっとまた増えてくこの愛してる
 雨上がりに春風が舞い込んだ
-そばにいてよ`,lyricsn:`バラバラに光って見えていた
+そばにいてよ`,lyricsn:`<span style='color:#ee3333;'>バラバラに光って見えていた
 またすれ違った言葉
-そっと触れたら壊れちゃいそうな
-僕らのせいだ
+</span><span style='color:#32cd32;'>そっと触れたら壊れちゃいそうな
+</span><span style='color:#ee3333;'>僕らのせいだ</span><span style='color:#32cd32;'>(ハモリ)
 
-曇り空がまた明けていった
+</span><span style='color:#f39800;'>曇り空がまた明けていった
 友達みたいな距離を映し出してる
-少しだけ背伸びしてみたくなった
-ひとりが好きだなんて
+</span><span style='color:#ffc81b;'>少しだけ背伸びしてみたくなった</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ffc81b;'>ひとりが好きだなんて
 嘘ついたりしてみたんだ
 
-Rainy day　止まらないでいて
-Tiny Tiny　届かなくて
-また曖昧な時間の中
-色づいた景色から
+</span><span style='color:#ff66b2;'>Rainy day　止まらないでいて
+</span><span style='color:#0099ff;'>Tiny Tiny　届かなくて
+</span><span style='color:#ff66b2;'>また曖昧な時間の中
+色づいた景色から</span><span style='color:#0099ff;'>(ハモリ)</span>
 
 バラバラに光って見えていた
 またすれ違った色で
-だらしない空が晴れて
-意地悪に影を濃くして
+<span style='color:#9933ff;'>だらしない空が晴れて
+意地悪に影を濃くして</span>
 バカにしてんだ
 きっとまた増えてくこの愛してる
-壊れちゃうから
-言葉なんて要らないや
+<span style='color:#9933ff;'>壊れちゃうから
+言葉なんて要らないや</span>
 このままで
 
-たしかめたい心の中
-満天の空が褪せた
-Tell me　夢の中の僕ら
-みたいな未来は？
-なんとなく期待してみた
-さっきまでの相合傘
-ずっと進まないストーリーは
-君の笑顔がもっと見たいから
+<span style='color:#ffc81b;'>たしかめたい心の中
+</span><span style='color:#f39800;'>満天の空が褪せた
+</span><span style='color:#0099ff;'>Tell me　夢の中の僕ら
+</span><span style='color:#f39800;'>み</span><span style='color:#ffc81b;'>た</span><span style='color:#0099ff;'>い</span><span style='color:#f39800;'>な</span><span style='color:#ffc81b;'>未</span><span style='color:#0099ff;'>来</span><span style='color:#f39800;'>は</span><span style='color:#ffc81b;'>？
+</span><span style='color:#ee3333;'>なんとなく期待してみた
+</span><span style='color:#32cd32;'>さっきまでの相合傘
+</span><span style='color:#ff66b2;'>ずっと進まないストーリーは
+</span><span style='color:#9933ff;'>君の笑顔がもっと見たいから
 
-Rainy day　開(ひら)けてく空
-Shiny　光るアスファルトが
-どうにもできないこの心色づいた日から
+</span><span style='color:#0099ff;'>Rainy day　開(ひら)けてく空
+</span><span style='color:#ffc81b;'>Shiny　光るアスファルトが
+</span><span style='color:#0099ff;'>どうにもできないこの心色づいた日から
 
-何光年も遠いようで
+</span><span style='color:#f39800;'>何光年も遠いようで
 傍らに感じている
-だらしない空が晴れて
+</span><span style='color:#32cd32;'>だらしない空が晴れて
 僕らが離れてかないように
-君が好きって言いたくて
-増えてくこの愛してる
-壊れないように、大切にしたいんだ
-笑っていてよ
+</span><span style='color:#ee3333;'>君が好きって言いたくて</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>増えてくこの愛してる</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>壊れないように、大切にしたいんだ
+笑っていてよ</span>
 
 2人光って見えていた
 重なり合った色で
@@ -33397,8 +33459,8 @@ Shiny　光るアスファルトが
 僕らと答えを重ねてく
 バカにしてんだ
 きっとまた増えてくこの愛してる
-雨上がりに春風が舞い込んだ
-そばにいてよ`},{id:284,title:"僕だけの小さな花",titleKana:"ぼくだけのちいさなはな",lyricist:"篠原とまと",composer:"山田竜平",arranger:"山田竜平",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`帰り道　ここでお別れ
+<span style='color:#ffc81b;'>雨上がりに春風が舞い込んだ</span><span style='color:#0099ff;'>(ハモリ)
+</span>そばにいてよ`},{id:284,title:"僕だけの小さな花",titleKana:"ぼくだけのちいさなはな",lyricist:"篠原とまと",composer:"山田竜平",arranger:"山田竜平",album:["ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[通常盤]"],announce:"f",performances:[],singer:"WEST.",date:"2025-05-07",lyrics:`帰り道　ここでお別れ
 手を振って離れて「じゃあまたね」
 明日へ向かって伸びた影
 戻れない、静かすぎた恋
@@ -33463,68 +33525,68 @@ Shiny　光るアスファルトが
 胸いっぱい　大きな花束に
 隠す　お気に入りの一輪
 舞い上がる風に託すよ
-いつまでも愛に満ちた日々を`,lyricsn:`帰り道　ここでお別れ
+いつまでも愛に満ちた日々を`,lyricsn:`<span style='color:#ff66b2;'>帰り道　ここでお別れ
 手を振って離れて「じゃあまたね」
-明日へ向かって伸びた影
+</span><span style='color:#ffc81b;'>明日へ向かって伸びた影
 戻れない、静かすぎた恋
 
-つまらない授業も
+</span><span style='color:#0099ff;'>つまらない授業も
 忙しなく人行き交う大通りも
 二人でなら
 何もかも楽しかった
 
-人は皆違うから面白い
+</span><span style='color:#f39800;'>人は皆違うから面白い
 派手にぶつかるのもご愛嬌
-すれ違うほど強く
+</span><span style='color:#32cd32;'>すれ違うほど強く
 絆の糸は　繋がってく
 
-「ずっとこのままでいられるなら」
+</span><span style='color:#ee3333;'>「ずっとこのままでいられるなら」
 何度も迷って言えないまま
-あと少しだけ時間があれば
+</span><span style='color:#9933ff;'>あと少しだけ時間があれば
 ちゃんとした気持ちも伝えられたかな
-とか、考える
+とか、考える</span>
 
 今も心の中に咲く
 僕だけの小さな花だから
 ささやかにそっと守りたい
-知らぬ間に　消えないように
+<span style='color:#ffc81b;'>知らぬ間に　消えないように</span>
 胸いっぱい　大きな花束に
 隠す　お気に入りの一輪
 見えなくてもただ祈ろう
-喜びと笑顔　溢れるように
+<span style='color:#ff66b2;'>喜びと笑顔　溢れるように
 
 無邪気だった僕も
 忙しなく今じゃ街を駆け回る
-らしくもない
+</span><span style='color:#ee3333;'>らしくもない
 大人ってやつになっちまった
 
-運命は思惑通りには動かない
+</span><span style='color:#32cd32;'>運命は思惑通りには動かない
 いつも降りかかる急展開
-二択を外したって
+</span><span style='color:#0099ff;'>二択を外したって
 時は戻らず　ただ流れる
 
-ポストに届いた君の便り
+</span><span style='color:#ffc81b;'>ポストに届いた君の便り
 君らしいややこしい言葉選び
-どうやら元気でいるみたい
+</span><span style='color:#f39800;'>どうやら元気でいるみたい
 遠く同じ空の下　幸せならば
-それでいい
+それでいい</span>
 
 恋の終わりに咲いていた
 あの頃の小さな花だから
 甘酸っぱくて懐かしい
-二人だけ　手も繋げない日々
+<span style='color:#9933ff;'>二人だけ　手も繋げない日々
 
-後悔しないわけじゃない
-胸の棘は取れそうにもない
-この痛みさえも大切に
-忘れないように
-抱きしめるように
-大事に守るよ
+</span><span style='color:#f39800;'>後悔しないわけじゃない
+</span><span style='color:#ff66b2;'>胸の棘は取れそうにもない
+</span><span style='color:#9933ff;'>この痛みさえも大切に
+</span><span style='color:#0099ff;'>忘れないように
+</span><span style='color:#ffc81b;'>抱きしめるように
+</span><span style='color:#32cd32;'>大事に守るよ</span>
 
 今も心の中に咲く
 僕だけの小さな花だから
 ささやかにそっと守りたい
-知らぬ間に　消えないように
+<span style='color:#ee3333;'>知らぬ間に　消えないように</span>
 胸いっぱい　大きな花束に
 隠す　お気に入りの一輪
 舞い上がる風に託すよ
