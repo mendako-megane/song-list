@@ -25704,28 +25704,28 @@ Ah...
 愛されたい？ hah...
 愛していい？ see ya...
 
-逃げ出した　そこは酷く広い世界
+<span style='color:#ee3333;'>逃げ出した　そこは酷く広い世界
 知りたくもない　現実ばかりスクロール
-華やかな Fake　踊らされる Truth
-拡声器で本音晒す
-匿名(アノニマス)
+</span><span style='color:#32cd32;'>華やかな Fake　踊らされる Truth</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#32cd32;'>拡声器で本音晒す</span><span style='color:#ff66b2;'>(ハモリ)
+</span><span style='color:#32cd32;'>匿名(アノニマス)</span><span style='color:#ff66b2;'>(ハモリ)
 
 要らないエンパシー
 Shower で洗い流し
 物思いにふけ　今夜飛びたい気分
-空などないさ...
-笑えないジョーク
-それなら楽しめ True man show
+空などないさ...</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>笑えないジョーク</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>それなら楽しめ True man show</span><span style='color:#32cd32;'>(ハモリ)
 
-入り口だらけ
-出口なんてないんだ
-No more fantasy
-此処はどこ　僕は誰
+</span><span style='color:#0099ff;'>入り口だらけ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>出口なんてないんだ</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>No more fantasy</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>此処はどこ　僕は誰</span><span style='color:#9933ff;'>(ハモリ)
 
-抱きしめた　この感情
-君の欠片　集めた
-カレイドスコープ
-もっと覗いて欲しいだけ
+</span><span style='color:#f39800;'>抱きしめた　この感情</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>君の欠片　集めた</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#f39800;'>カレイドスコープ</span><span style='color:#ffc81b;'>(ハモリ)
+</span><span style='color:#f39800;'>もっと覗いて欲しいだけ</span>
 
 理想な自分演じてみたり
 ジャンクな気分晒してみたり
@@ -25786,20 +25786,20 @@ Ah...
 
 叫んで　壊して　うざったい罪はもう捨てて
 破って　吐き出して　抱いた痛み愛していたい
-<span style='color:#ffc81b;'>守りたい大切なもんだけ　</span><span style='color:#9933ff;'>無くさないように</span>
+<span style='color:#ffc81b;'>守りたい大切なもんだけ　</span><span style='color:#9933ff;'>無くさないように
 
-変わり続けてく毎日の中で　戸惑い　溺れて
-見つけ出した答えすら信じ合えず　傷つけ合ってしまった
+</span><span style='color:#32cd32;'>変わり続けてく毎日の中で</span><span style='color:#ff66b2;'>(ハモリ)　</span><span style='color:#32cd32;'>戸惑い　溺れて
+</span><span style='color:#9933ff;'>見つけ出した答えすら信じ合えず　傷つけ合ってしまった</span><span style='color:#ff66b2;'>(ハモリ)
 
-誰も知らず知らず　すれ違ってく
-だから君の想い伝えなきゃ
-過去の過ちを許し合える日まで
+</span><span style='color:#ffc81b;'>誰も知らず知らず　すれ違ってく</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>だから君の想い伝えなきゃ</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>過去の過ちを許し合える日まで</span>
 
 唸って　剥がして　じれったい罪はもう捨てて
 繋いで　混ぜ込んで　笑って痛いの飛んでいけ
-譲れないもの同士でも　道の先に
+<span style='color:#f39800;'>譲れないもの同士でも　</span><span style='color:#ee3333;'>道の先に
 
-<span style='color:#0099ff;'>遠い空の下</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#ff66b2;'>誰かが奪った笑顔が</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#0099ff;'>遠い空の下</span><span style='color:#9933ff;'>(ハモリ)　</span><span style='color:#ff66b2;'>誰かが奪った笑顔が</span><span style='color:#32cd32;'>(ハモリ)
 </span><span style='color:#ffc81b;'>巡り巡って僕らの</span><span style='color:#f39800;'>涙になって流れた
 
 </span><span style='color:#ee3333;'>それでも進もう</span>
@@ -25906,23 +25906,23 @@ Ah...
 それだけでなんだかドキドキしているんだよ
 <span style='color:#ffc81b;'>拾い集めた毎日を
 名前のつかない未来を
-全部飲み込んで行く</span>
+全部飲み込んで行く
 
-息をするだけで擦り傷は絶えないな
+</span><span style='color:#ee3333;'>息をするだけで擦り傷は絶えないな
 人だかりで躓いてたら置いて行かれた
 できれば言葉には頼らずに
 心だけで君の全てが分かればいいのに
 
-耳鳴りやはらいたの全部を
-分け合えなくてもそばにいて
-体が遠く離れた時も
-ちゃんと思い出して
+</span><span style='color:#32cd32;'>耳</span><span style='color:#0099ff;'>鳴</span><span style='color:#32cd32;'>り</span><span style='color:#0099ff;'>や</span><span style='color:#32cd32;'>は</span><span style='color:#0099ff;'>ら</span><span style='color:#32cd32;'>い</span><span style='color:#0099ff;'>た</span><span style='color:#32cd32;'>の</span><span style='color:#0099ff;'>全</span><span style='color:#32cd32;'>部</span><span style='color:#0099ff;'>を
+</span><span style='color:#32cd32;'>分</span><span style='color:#0099ff;'>け</span><span style='color:#32cd32;'>合</span><span style='color:#0099ff;'>え</span><span style='color:#32cd32;'>な</span><span style='color:#0099ff;'>く</span><span style='color:#32cd32;'>て</span><span style='color:#0099ff;'>も</span><span style='color:#32cd32;'>そ</span><span style='color:#0099ff;'>ば</span><span style='color:#32cd32;'>に</span><span style='color:#0099ff;'>い</span><span style='color:#32cd32;'>て
+</span><span style='color:#ffc81b;'>体</span><span style='color:#9933ff;'>が</span><span style='color:#ffc81b;'>遠</span><span style='color:#9933ff;'>く</span><span style='color:#ffc81b;'>離</span><span style='color:#9933ff;'>れ</span><span style='color:#ffc81b;'>た</span><span style='color:#9933ff;'>時</span><span style='color:#ffc81b;'>も
+</span><span style='color:#9933ff;'>ち</span><span style='color:#ffc81b;'>ゃ</span><span style='color:#9933ff;'>ん</span><span style='color:#ffc81b;'>と</span><span style='color:#9933ff;'>思</span><span style='color:#ffc81b;'>い</span><span style='color:#9933ff;'>出</span><span style='color:#ffc81b;'>し</span><span style='color:#9933ff;'>て</span>
 
 誰にも似てないふたりをただ重ねよう
-駄目な夜は震えながら体寄せ合ってさ
+<span style='color:#f39800;'>駄目な夜は震えながら体寄せ合ってさ</span>
 誰にも似てない記憶をただ集めよう
 朝焼けの方角　窓から手を伸ばして
-悲しみの毎日を
+<span style='color:#ff66b2;'>悲しみの毎日を
 未だ見えぬ未来を
 全部飲み込んで行く
 
@@ -26624,50 +26624,50 @@ oh yeah</span>
 
 ラララ・・・
 
-行こう`,lyricsn:`生き方は一つじゃない
+行こう`,lyricsn:`<span style='color:#ffc81b;'>生き方は一つじゃない
 決められた道筋なんて・・・
-知らないペンで書かれたストーリー
+</span><span style='color:#ee3333;'>知らないペンで書かれたストーリー
 時には落書きしたいんだ
 
-落ちてく　夕日が
+</span><span style='color:#0099ff;'>落ちてく　夕日が
 灯ってく　星々が
-「変わらなくてもいい」
-教えてくれた　気がしたんだ
+</span><span style='color:#f39800;'>「変わらなくてもいい」
+教えてくれた</span>　気がしたんだ
 
 調子っぱずれの歌を
-どんな時でも　恐れないでいい
+どんな時でも　<span style='color:#ff66b2;'>恐れないでいい</span>
 「ヨロシク」と明日へ
-挨拶を込めて　手を振って行こう
+挨拶を込めて　<span style='color:#9933ff;'>手を振って行こう</span>
 僕が僕のために歌うメロディ
-歌おう
+<span style='color:#32cd32;'>歌おう
 
-いつものバス停に並ぶ
-行き先の違う人たち
-どこをとっても　同じじゃないんだな
-当たり前のことなのに
+</span><span style='color:#ff66b2;'>いつものバス停に並ぶ
+</span><span style='color:#0099ff;'>行き先の違う人たち
+</span><span style='color:#9933ff;'>どこをとっても　同じじゃないんだな
+</span><span style='color:#32cd32;'>当たり前のことなのに
 
-忙しい　毎日に
-ながれる　流行りに廃りに
-追いかけられてた　そんな日々に
+</span><span style='color:#f39800;'>忙しい　毎日に
+</span><span style='color:#ee3333;'>ながれる　流行りに廃りに
+</span><span style='color:#ffc81b;'>追いかけられてた　そんな日々に</span>
 さよならさ
 
-生き方は一つじゃない
-何も決められちゃいない
+<span style='color:#9933ff;'>生き方は一つじゃない
+</span><span style='color:#32cd32;'>何も決められちゃいない
 
-そういうことさ
+</span><span style='color:#32cd32;'>そ</span><span style='color:#9933ff;'>う</span><span style='color:#32cd32;'>い</span><span style='color:#9933ff;'>う</span><span style='color:#32cd32;'>こ</span><span style='color:#9933ff;'>と</span><span style='color:#32cd32;'>さ</span>
 
 調子っぱずれの歌を
-どんな時でも　誇れたらいい
+どんな時でも　<span style='color:#ee3333;'>誇</span><span style='color:#32cd32;'>れ</span><span style='color:#ee3333;'>た</span><span style='color:#32cd32;'>ら</span><span style='color:#ee3333;'>い</span><span style='color:#32cd32;'>い</span>
 「アイシテル」と未来へ
-希望を抱いて　迎えられるように
+希望を抱いて　<span style='color:#ffc81b;'>迎</span><span style='color:#0099ff;'>え</span><span style='color:#ffc81b;'>ら</span><span style='color:#0099ff;'>れ</span><span style='color:#ffc81b;'>る</span><span style='color:#0099ff;'>よ</span><span style='color:#ffc81b;'>う</span><span style='color:#0099ff;'>に</span>
 僕が僕であるためのメロディ
-歌おう
+<span style='color:#ff66b2;'>歌おう
 
-歌おう
+歌おう</span>
 
 ラララ・・・
 
-行こう`},{id:230,title:"SOUL 2 SOUL〈Special Wind Orchestra Collab Ver.〉",titleKana:"SOUL 2 SOUL〈Special Wind Orchestra Collab Ver.〉",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)・村田陽一",album:["POWER","POWER[通販盤]"],announce:"f",performances:[],singer:"WEST.",date:"2023-03-01",lyrics:`ちょっと待った　話そうぜ　いいか
+<span style='color:#ff66b2;'>行こう</span>`},{id:230,title:"SOUL 2 SOUL〈Special Wind Orchestra Collab Ver.〉",titleKana:"SOUL 2 SOUL〈Special Wind Orchestra Collab Ver.〉",lyricist:"Kanata Okajima・栗原暁(Jazzin'park)",composer:"Kanata Okajima・久保田真悟(Jazzin'park)・栗原暁(Jazzin'park)",arranger:"久保田真悟(Jazzin'park)・村田陽一",album:["POWER","POWER[通販盤]"],announce:"f",performances:[],singer:"WEST.",date:"2023-03-01",lyrics:`ちょっと待った　話そうぜ　いいか
 ベストがマストなわけないさ
 いつからでも　燃やそうぜTHE SOUL
 全肯定型キャンペーン　いっちょかましましょ
