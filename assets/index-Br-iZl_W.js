@@ -2323,7 +2323,7 @@ High High High!!!
 派手派手衣装　アゲアゲで！
 歌わにゃSong!
 踊らにゃ損やで！
-友達 You達もSo
+友達 みんなもSo
 一緒に笑いなよ WOW
 
 北は北海道　でっかいどう！
@@ -2356,7 +2356,7 @@ High High High!!!
 派手派手衣装　アゲアゲで！
 歌わにゃSong!
 踊らにゃ損やで！
-友達 You達もSo
+友達 みんなもSo
 一緒に笑いなよ WOW`,lyricsn:`<span style='color:#ee3333;'>夢を叶えるために</span>
 <span style='color:#f39800;'>旅に出よう、派手なパレードで</span>
 <span style='color:#ff66b2;'>7つの海を渡り</span>
@@ -2417,7 +2417,7 @@ High High High!!!
 <span style='color:#ffc81b;'>派手派手衣装　アゲアゲで！</span>
 歌わにゃSong!
 踊らにゃ損やで！
-友達 You達もSo
+友達 みんなもSo
 一緒に笑いなよ WOW
 
 <span style='color:#ffc81b;'>北は北海道　でっかいどう！</span>
@@ -2450,7 +2450,7 @@ High High High!!!
 <span style='color:#f39800;'>派手派手衣装　アゲアゲで！</span>
 歌わにゃSong!
 踊らにゃ損やで！
-友達 You達もSo
+友達 みんなもSo
 一緒に笑いなよ WOW`},{id:20,title:"Can’t Stop",titleKana:"Can’t Stop",lyricist:"zoop",composer:"Takuya Harada・STEVEN LEE・Goldfingerz",arranger:"鈴木雅也",album:["ジパング・おおきに大作戦/夢を抱きしめて","ジパング・おおきに大作戦/夢を抱きしめて[初回C]"],announce:"t",performances:["一発めぇぇぇぇぇぇぇ！{6}","一発めぇぇぇぇぇぇぇ！(各会場オーラス){6}","一発めぇぇぇぇぇぇぇ！(大阪オーラス){6}","パリピポ{7}","パリピポ(各会場オーラス){7}","パリピポ(兵庫オーラス){7}","24(ニシ)から感謝届けます♡{6}","24(ニシ)から感謝届けます♡(オーラス){6}","TO BE KANSAI COLOR-翔べ関西から-(大阪){19}","TO BE KANSAI COLOR-翔べ関西から-(名古屋){18}","なにわ侍 団五郎一座{2}"],singer:"WEST.",date:"2014-10-08",lyrics:`Can't stop
 
 シャンデリア　煌めき　宴のざわめき
