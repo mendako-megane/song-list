@@ -196,6 +196,7 @@ export default function App() {
     ],
     "フェス":[
       "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
+      "WESSION FESTIVAL DAY1","WESSION FESTIVAL DAY2",
     ],
     "ファンクラブ限定動画":[
       "ファンクラブ限定動画(改名発表)","ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>)",
