@@ -317,6 +317,45 @@
     cursor: default; /* クリック可能ではないためデフォルトのカーソル */
   }
 
+  /* 試聴リンクのコンテナ */
+  .modal-listen-section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .modal-listen-link {
+    display: inline-block; /* 丸く囲むために必須 */
+    
+    
+    background-color: #FFC81B; /* ★変更点: テーマカラーを背景に★ */
+    color: #333; /* 文字色を濃い灰色にして馴染ませる */
+    text-decoration: none; /* 下線を削除 */
+    
+    
+    padding: 5px 100px; /* ★変更点: パディングを調整して文字を囲む★ */
+    border-radius: 8px; /* ★変更点: 角丸を強くしてピル型にする★ */
+    
+    font-weight: 700;
+    font-size: 1.15rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 優しい影を追加 */
+    transition: all 0.2s ease;
+  }
+
+  .modal-listen-link::before {
+    content: '▶︎ '; /* 再生ボタンの絵文字 */
+    margin-right: 5px;
+  }
+
+  /* ホバー時のスタイル */
+  .modal-listen-link:hover {
+    color:#555;
+    transform: translateY(-1px); /* わずかに浮き上がる効果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+  }
+
+
   /* アニメーション */
   @keyframes fadeIn {
     from { opacity: 0; }

@@ -114,6 +114,7 @@ const SongModal = ({ song, onClose }) => {
             />
           </p>
         )}
+
         <p><strong>収録シングル/アルバム:</strong></p>
         <ul>
           {filteredAlbums.map((album, index) => (
@@ -125,6 +126,19 @@ const SongModal = ({ song, onClose }) => {
         </ul>
         <p><strong>披露情報:</strong> <span className="modal-item-value">{displayAnnounce(song.announce)}</span></p>
         
+        {song.link && (
+          <p className="modal-listen-section">
+            <a
+              href={song.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-listen-link"
+            >
+              "{song.title}"を聴く
+            </a>
+          </p>
+        )}
+
         {/* 歌詞セクション */}
         {song.lyrics && (
           <div className="lyrics-section">
