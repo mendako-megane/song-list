@@ -333,7 +333,7 @@
     text-decoration: none; /* 下線を削除 */
     
     
-    padding: 5px 100px; /* ★変更点: パディングを調整して文字を囲む★ */
+    padding: 5px 50px; /* ★変更点: パディングを調整して文字を囲む★ */
     border-radius: 8px; /* ★変更点: 角丸を強くしてピル型にする★ */
     
     font-weight: 700;
