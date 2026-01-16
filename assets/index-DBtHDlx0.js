@@ -35208,18 +35208,18 @@ We keep on learning
 <span style='color:#f39800;'>狂わせる　見栄と欲望
 You don't need to fall in the dark
 </span><span style='color:#32cd32;'>No more alone babe
-</span><span style='color:#ee3333;'>夢</span><span style='color:#9933ff;'>へ</span><span style='color:#ee3333;'>逃</span><span style='color:#9933ff;'>避</span><span style='color:#ee3333;'>行
+</span><span style='color:#ee3333;'>夢へ逃避行
 
-</span><span style='color:#0099ff;'>地球にI'm called</span><span style='color:#9933ff;'>(ハモリ)
-</span><span style='color:#0099ff;'>どこに行こう？</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>地球にI'm called</span><span style='color:#f39800;'>(ハモリ)
+</span><span style='color:#0099ff;'>どこに行こう？</span><span style='color:#f39800;'>(ハモリ)
 </span><span style='color:#32cd32;'>Ah, 自由を確かめにいく？
-</span><span style='color:#0099ff;'>暴く　隠された罠</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#0099ff;'>暴く　隠された罠</span><span style='color:#f39800;'>(ハモリ)
 </span><span style='color:#32cd32;'>描こう　無礼講
 </span><span style='color:#f39800;'>I feel you through my way
 
-</span><span style='color:#ff66b2;'>感じない Lonely
-迷うことはない Just trust you
-離さない君を
+</span><span style='color:#ff66b2;'>感じない Lonely</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>迷うことはない Just trust you</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>離さない君を
 </span><span style='color:#ee3333;'>(まだ足りないよ)
 </span><span style='color:#32cd32;'>Here we go</span>
 
@@ -35231,7 +35231,7 @@ We keep on learning
 <span style='color:#ee3333;'>狂わせる　見栄と欲望
 You don't need to fall in the dark
 </span><span style='color:#32cd32;'>No more alone babe
-</span><span style='color:#f39800;'>夢</span><span style='color:#9933ff;'>へ</span><span style='color:#f39800;'>逃</span><span style='color:#9933ff;'>避</span><span style='color:#f39800;'>行</span>
+</span><span style='color:#f39800;'>夢へ逃避行</span>
 
 踊らされてる Every night
 <span style='color:#ffc81b;'>疲れた人形</span>
