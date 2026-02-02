@@ -6411,8 +6411,8 @@ Yeah！</span> 「yeah！」 <span style='color:#f39800;'>Yeah！</span> 「yeah
 
 </span><span style='color:#ffc81b;'>女神が弾いたコイン</span><span style='color:#32cd32;'>(ハモリ)
 </span><span style='color:#ffc81b;'>なにかが変わるサイン
-</span><span style='color:#9933ff;'>ゴールまでの長い距離に
-一歩</span><span style='color:#32cd32;'>(ハモリ)　</span><span style='color:#9933ff;'>踏み出す時だろう
+</span><span style='color:#9933ff;'>ゴールまでの長い距離に</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#9933ff;'>一歩</span><span style='color:#32cd32;'>(ハモリ)　</span><span style='color:#9933ff;'>踏み出す時だろう
 
 </span><span style='color:#0099ff;'>運命なんて
 決まっちゃいない
@@ -10594,14 +10594,14 @@ Look into your eyes, girl
 </span><span style='color:#0099ff;'>最終　電車に　</span><span style='color:#ff66b2;'>乗り込んでいく君の
 </span><span style='color:#ffc81b;'>背</span><span style='color:#ff66b2;'>中</span><span style='color:#ffc81b;'>を　</span><span style='color:#ff66b2;'>見</span><span style='color:#ffc81b;'>て</span><span style='color:#ff66b2;'>い</span><span style='color:#ffc81b;'>た</span><span style='color:#0099ff;'>(ハモリ)
 
-</span><span style='color:#ffc81b;'>Get down, Break down
-もっと恋に落ちてく
-</span><span style='color:#0099ff;'>Get down, Cuz I can't stop
-瞳に溺れてく
-</span><span style='color:#ff66b2;'>Get down, Break down
-もっと君に堕ちてく
-</span><span style='color:#ffc81b;'>Get down, Cuz I can't stop
-瞳に溺れてく
+</span><span style='color:#ffc81b;'>Ge</span><span style='color:#0099ff;'>t d</span><span style='color:#ff66b2;'>ow</span><span style='color:#ffc81b;'>n, </span><span style='color:#0099ff;'>Br</span><span style='color:#ff66b2;'>ea</span><span style='color:#ffc81b;'>k d</span><span style='color:#0099ff;'>ow</span><span style='color:#ff66b2;'>n
+<span style='color:#ffc81b;'>もっと恋に落ちてく
+</span><span style='color:#ffc81b;'>Ge</span><span style='color:#0099ff;'>t d</span><span style='color:#ff66b2;'>ow</span><span style='color:#ffc81b;'>n, </span><span style='color:#0099ff;'>Cu</span><span style='color:#ff66b2;'>z I </span><span style='color:#ffc81b;'>ca</span><span style='color:#0099ff;'>n't </span><span style='color:#ff66b2;'>st</span><span style='color:#ffc81b;'>op
+<span style='color:#0099ff;'>瞳に溺れてく
+</span><span style='color:#ffc81b;'>Ge</span><span style='color:#0099ff;'>t d</span><span style='color:#ff66b2;'>ow</span><span style='color:#ffc81b;'>n, </span><span style='color:#0099ff;'>Br</span><span style='color:#ff66b2;'>ea</span><span style='color:#ffc81b;'>k d</span><span style='color:#0099ff;'>ow</span><span style='color:#ff66b2;'>n
+<span style='color:#ff66b2;'>もっと君に堕ちてく
+</span><span style='color:#ffc81b;'>Ge</span><span style='color:#0099ff;'>t d</span><span style='color:#ff66b2;'>ow</span><span style='color:#ffc81b;'>n, </span><span style='color:#0099ff;'>Cu</span><span style='color:#ff66b2;'>z I </span><span style='color:#ffc81b;'>ca</span><span style='color:#0099ff;'>n't </span><span style='color:#ff66b2;'>st</span><span style='color:#ffc81b;'>op
+<span style='color:#ffc81b;'>瞳に溺れてく
 </span><span style='color:#ff66b2;'>Woo… Pretty baby </span><span style='color:#0099ff;'>(Into your eyes)
 </span><span style='color:#ffc81b;'>Keep on lovin' </span><span style='color:#ff66b2;'>(Lovin', Lovin'), </span><span style='color:#0099ff;'>Keep on lovin' </span><span style='color:#ffc81b;'>(All day)
 
@@ -10611,7 +10611,7 @@ Look into your eyes, girl
 </span><span style='color:#ffc81b;'>許された　時間を壊さないで</span><span style='color:#ff66b2;'>(フェイク)
 </span><span style='color:#0099ff;'>Won't stop　君を
 </span><span style='color:#ff66b2;'>愛すほどに Lost my way
-</span><span style='color:#ffc81b;'>濡れたシャツもTake off
+</span><span style='color:#ffc81b;'>濡れたシャツもTake off</span><span style='color:#0099ff;'>(ハモリ)
 
 </span><span style='color:#ff66b2;'>Look into your eyes
 </span><span style='color:#0099ff;'>肌を重ねDancing
