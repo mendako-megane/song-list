@@ -35480,7 +35480,7 @@ Shiny　光るアスファルトが
 胸いっぱい　大きな花束に
 隠す　お気に入りの一輪
 舞い上がる風に託すよ
-いつまでも愛に満ちた日々を`},{id:285,title:"愛執",titleKana:"あいしゅう",lyricist:"草川瞬",composer:"佐原康太",arranger:"佐々木”コジロー”貴之",album:["愛執","愛執[DIGITAL]"],announce:"f",mv:`唯一無二[初回B]（Music Video & Making）
+いつまでも愛に満ちた日々を`},{id:285,title:"愛執",titleKana:"あいしゅう",lyricist:"草川瞬",composer:"佐原康太",arranger:"佐々木”コジロー”貴之",album:["愛執","愛執[DIGITAL]"],announce:"t",mv:`唯一無二[初回B]（Music Video & Making）
 YouTube（Music Vudeo）`,performances:["【WESTube生配信】WEST. Special Street Live{3}"],singer:"WEST.",date:"2026-01-19",tiup:"テレビ朝日系オシドラサタデー『ぜんぶ、あなたのためだから』主題歌",link:"https://open.spotify.com/intl-ja/track/6d9zFmuJoTW5RdsJJX1er1?si=8c64682c7e914d8f",lyrics:`Get it down, get it down　このHungry love
 ゲリラ的な感情 感じ Dive
 当たり前などないさ愛は無常
