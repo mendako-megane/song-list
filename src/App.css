@@ -154,4 +154,18 @@ input, select {
     min-width: 150px;          /* ← 必要なら調整 */
     flex-shrink: 0;
   }
+  .search-input {
+    /* iPhoneの自動ズーム防止：16px以上に設定 */
+    font-size: 16px !important;
+    /* 他のスタイル */
+    padding: 10px 15px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  /* もしプレースホルダーが見づらい場合は調整 */
+  .search-input::placeholder {
+    font-size: 14px; 
+  }
 }

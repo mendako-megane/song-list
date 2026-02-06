@@ -14,6 +14,10 @@
     align-items: center;
     z-index: 1000;
     animation: fadeIn 0.15s ease-out;
+    /* 横方向のハミ出しを完全に禁止 */
+    overflow-x: hidden;
+    /* 背景のスクロール連動を防止 */
+    overscroll-behavior: contain;
   }
   
   /* モーダルコンテンツ本体 */
@@ -24,6 +28,7 @@
     width: 90%;
     max-width: 600px; /* 少し広めに */
     max-height: 85vh;
+    overflow-x: hidden;
     overflow-y: auto;
     position: relative;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* 優しめの影 */
@@ -31,6 +36,10 @@
     color: #333; /* 全体に合わせて #333 */
     font-family: sans-serif; /* 全体に合わせて sans-serif */
     border: 2px solid #FFC81B; /* ヘッダーの黄色を縁取りに */
+    /* モバイルでのスクロールを滑らかに */
+    -webkit-overflow-scrolling: touch;
+    /* パディングが幅に影響しないように設定 */
+    box-sizing: border-box;
   }
   
   /* モーダルのタイトル */
@@ -404,7 +413,7 @@
   @media (max-width: 480px) {
     .modal-content {
       padding: 15px;
-      width: 85%;
+      width: 90%;
       max-height: 80vh
     }
     .modal-content h2 {
