@@ -5087,7 +5087,7 @@ Party Time！`},{id:40,title:"Seven Powers",titleKana:"Seven Powers",lyricist:"�
 
 <span style='color:#0099ff;'>俺はブルー……
 </span><span style='color:#9933ff;'>俺はパープル……
-</span><span style='color:#0099ff;'>俺はミドリ……</span>
+</span><span style='color:#32cd32;'>俺はミドリ……</span>
 おんなじ色ちゃうで　セブンぶんBoom！
 
 おもろいパワー持ってんで　ごっついパワー持ってんで
@@ -5718,7 +5718,7 @@ WAになれ！！
 
 </span><span style='color:#32cd32;'>エンジン音が　近づいてくる
 あいつらがやってくる　</span><span style='color:#ee3333;'>安息の時は Too short
-</span><span style='color:#9933ff;'>これが最後の戦いだ </span><span style='color:#0099ff;'>Just do it now, I'm ready now
+</span><span style='color:#ff66b2;'>これが最後の戦いだ </span><span style='color:#0099ff;'>Just do it now, I'm ready now
 
 </span><span style='color:#ffc81b;'>君が隣にいるなら　</span><span style='color:#f39800;'>どんな終わりも綺麗だね
 </span><span style='color:#9933ff;'>後悔なんてない　夜が明けてくよ </span><span style='color:#0099ff;'>Gotta go Gotta go my way</span>
@@ -5732,10 +5732,10 @@ WAになれ！！
 
 愛が止められない　止めたくない
 どこにも I can't let you go
-輝く未来も涙も　全てくれないか
+輝く未来も涙も<span style='color:#f39800;'>(フェイク)</span>　全てくれないか
 刹那のKissでも Like a 永遠
 終わりじゃ消せない情熱
-世界中敵になっても　君を守り抜く
+世界中敵になっても<span style='color:#f39800;'>(フェイク)</span>　君を守り抜く<span style='color:#f39800;'>(フェイク)</span>
 君がいないと Only Eternal Darkness`},{id:46,title:"TAMER",titleKana:"TAMER",lyricist:"中間淳太",composer:"Kevin Borg・Simon Gribbe",arranger:"Kevin Borg・Simon Gribbe",album:["ラッキィィィィィィィ7","ラッキィィィィィィィ7[通常盤]"],announce:"t",performances:["ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟){21}","ラッキィィィィィィィ7(大阪,横浜,愛知,広島,福岡,新潟のオーラス){21}","ラッキィィィィィィィ7(大阪,宮城){22}","ラッキィィィィィィィ7(大阪オーラス){22}","ラッキィィィィィィィ7(宮城オーラス){22}"],singer:"中間淳太",date:"2015-12-09",link:"https://open.spotify.com/intl-ja/track/114zHBHjq1W5XfBEgNeWWs?si=51d359e7a6d44697",lyrics:`燃える Fire ring 唸る Something roars
 The beast looks crazy in my amazing show
 
@@ -6455,10 +6455,10 @@ Yeah！</span> 「yeah！」 <span style='color:#f39800;'>Yeah！</span> 「yeah
 </span><span style='color:#ffc81b;'>怖</span><span style='color:#32cd32;'>く</span><span style='color:#9933ff;'>な</span><span style='color:#f39800;'>い</span><span style='color:#ffc81b;'>さ　</span><span style='color:#ee3333;'>き</span><span style='color:#0099ff;'>っ</span><span style='color:#ff66b2;'>と</span>
 きっと勝ちに行こう
 
-<span style='color:#f39800;'>それぞれの瞬間が
-交わる未来</span><span style='color:#9933ff;'>(ハモリ)
-</span><span style='color:#ff66b2;'>出逢いは奇跡を
-導くだろう</span><span style='color:#32cd32;'>(ハモリ)</span>
+<span style='color:#f39800;'>それぞれの瞬間が</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#f39800;'>交わる未来</span><span style='color:#9933ff;'>(ハモリ)
+</span><span style='color:#ff66b2;'>出逢いは奇跡を</span><span style='color:#32cd32;'>(ハモリ)
+</span><span style='color:#ff66b2;'>導くだろう</span><span style='color:#32cd32;'>(ハモリ)</span>
 
 やるならガンガン攻めようぜ
 逃げてちゃ将来だって後悔
