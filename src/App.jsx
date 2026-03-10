@@ -64,6 +64,7 @@ export default function App() {
     "A.H.O. -Audio Hang Out-","A.H.O. -Audio Hang Out-[初回A]","A.H.O. -Audio Hang Out-[初回B]","A.H.O. -Audio Hang Out-[通常盤]",
     "ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]",
     "愛執[DIGITAL]",
+    "唯一無二","唯一無二[初回A]","唯一無二[初回B]","唯一無二[通常盤]",
   ];
 
   const performanceCategories = {
