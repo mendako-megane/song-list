@@ -35683,22 +35683,22 @@ Get down.
 王子様　お姫様　イェイイェイ
 スポットライト消して　イェイイェイ
 
-shh...`,lyricsn:`バレる？バレる？
-内緒で始めようぜ！
-東・西・南・北？
-とうとう見つけちまった！
-ANGEL？ DEVIL？
-吉と出るか？吉が出るさ！
-身勝手なチョイス
+shh...`,lyricsn:`<span style='color:#ee3333;'>バレる？バレる？</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>内緒で始めようぜ！
+</span><span style='color:#f39800;'>東・西・南・北？</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#f39800;'>とうとう見つけちまった！
+</span><span style='color:#32cd32;'>ANGEL？ DEVIL？</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#32cd32;'>吉と出るか？吉が出るさ！
+</span><span style='color:#ff66b2;'>身勝手なチョイス
 
-いくぜ
+</span><span style='color:#ffc81b;'> いくぜ
 
 オーディオ上げて　イェイイェイ
-よーいドン　チョけて　イェイイェイ
-オンリーワン君と　イェイイェイ
-コケコッコ　朝まで　イェイイェイ
-ド鼓動ン...　ここどこ？　イェイイェイ
-マイクあるじゃない
+</span><span style='color:#9933ff;'>よーいドン　チョけて　イェイイェイ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ffc81b;'>オ</span><span style='color:#9933ff;'>ン</span><span style='color:#ff66b2;'>リ</span><span style='color:#ffc81b;'>ー</span><span style='color:#9933ff;'>ワ</span><span style='color:#ff66b2;'>ン</span><span style='color:#ffc81b;'>君</span><span style='color:#9933ff;'>と　</span><span style='color:#ff66b2;'>イ</span><span style='color:#ffc81b;'>ェ</span><span style='color:#9933ff;'>イ</span><span style='color:#ff66b2;'>イ</span><span style='color:#ffc81b;'>ェ</span><span style='color:#9933ff;'>イ</span><span style='color:#0099ff;'>(ハモリ)
+</span><span style='color:#ee3333;'>コ</span><span style='color:#ffc81b;'>ケ</span><span style='color:#32cd32;'>コ</span><span style='color:#9933ff;'>ッ</span><span style='color:#ff66b2;'>コ　</span><span style='color:#ee3333;'>朝</span><span style='color:#ffc81b;'>ま</span><span style='color:#32cd32;'>で　</span><span style='color:#9933ff;'>イ</span><span style='color:#ff66b2;'>ェ</span><span style='color:#ee3333;'>イ</span><span style='color:#ffc81b;'>イ</span><span style='color:#32cd32;'>ェ</span><span style='color:#9933ff;'>イ</span><span style='color:#0099ff;'>(ハモリ)</span>
+ド鼓動ン...　ここどこ？　イェイイェイ</span><span style='color:#0099ff;'>(ハモリ)</span>
+<span style='color:#f39800;'>マイクあるじゃない</span>
 
 ハチャメチャビート　すったもんだ上等
 楽しくなきゃやってられないよ
@@ -35706,36 +35706,36 @@ ANGEL？ DEVIL？
 何がなんでも　これでいいのだ！
 
 曲げる？曲げる？
-ルールなんて曲げちまおうぜ！
+<span style='color:#ee3333;'>ル</span><span style='color:#0099ff;'>ー</span><span style='color:#ee3333;'>ル</span><span style='color:#0099ff;'>な</span><span style='color:#ee3333;'>ん</span><span style='color:#0099ff;'>て</span><span style='color:#ee3333;'>曲</span><span style='color:#0099ff;'>げ</span><span style='color:#ee3333;'>ち</span><span style='color:#0099ff;'>ま</span><span style='color:#ee3333;'>お</span><span style='color:#0099ff;'>う</span><span style='color:#ee3333;'>ぜ</span><span style='color:#0099ff;'>！</span>
 混ぜる？混ぜる？
-混ぜるな危険だ！
+</span><span style='color:#ffc81b;'>混</span><span style='color:#32cd32;'>ぜ</span><span style='color:#ffc81b;'>る</span><span style='color:#32cd32;'>な</span><span style='color:#ffc81b;'>危</span><span style='color:#32cd32;'>険</span><span style='color:#ffc81b;'>だ</span><span style='color:#32cd32;'>！</span>
 ANGEL？ DEVIL？
-YES or NO？
-二度と聞かないで！ AHA
+<span style='color:#f39800;'>Y</span><span style='color:#ff66b2;'>E</span><span style='color:#f39800;'>S </span><span style='color:#ff66b2;'>o</span><span style='color:#f39800;'>r </span><span style='color:#ff66b2;'>N</span><span style='color:#f39800;'>O</span><span style='color:#ff66b2;'>？
+</span><span style='color:#9933ff;'>二度と聞かないで！ AHA
 
-Don't think, feel.
+</span><span style='color:#32cd32;'>Don't think, feel.
 Get down.
 
 退屈なのに　抜け出せずに
 あーだこーだ言ってんじゃないの？
-12時の続き　願い叶える
-「ビビデバビデブー」
+</span><span style='color:#9933ff;'>12時の続き　願い叶える
+</span>「ビビデバビデブー」
 
-カモン　スポットライト
+<span style='color:#9933ff;'>カモン　スポットライト
 
-神様どうか今夜の僕らを
+</span><span style='color:#0099ff;'>神様どうか今夜の僕らを
 決して誰にも言わないでよね
-ここにいてよ　君はいいの？　君がいいのだ
+</span><span style='color:#ffc81b;'>ここにいてよ　</span><span style='color:#ff66b2;'>君はいいの？　</span><span style='color:#ee3333;'>君がいいのだ</span> 
 
 ハチャメチャビート　すったもんだ上等
 楽しくなきゃやってられないよ
 見せてあげようぜオンリーワン！
-何がなんでも
+<span style='color:#f39800;'>何がなんでも</span>
 
 これでいいのだ！　大爆笑！
 楽しくなきゃやってられナイナイ
-見せてあげようぜオンリーワン！
-何がなんでも　これでいいのだ！
+<span style='color:#9933ff;'>見せてあげようぜオンリーワン！
+</span><span style='color:#ee3333;'>何がなんでも</span> 　これでいいのだ！
 
 オーディオ上げて　イェイイェイ
 よーいドン　チョけて　イェイイェイ
@@ -35746,7 +35746,7 @@ Get down.
 王子様　お姫様　イェイイェイ
 スポットライト消して　イェイイェイ
 
-shh...`},{id:287,title:"踊るしかないじゃん！",titleKana:"おどるしかないじゃん！",lyricist:"熊木幸丸",composer:"熊木幸丸",arranger:"熊木幸丸",album:["唯一無二","唯一無二[初回A]","唯一無二[初回B]","唯一無二[通常盤]"],announce:"t",performances:["WESSION FESTIVAL DAY1{4}","【WESTube生配信】WEST. Special Street Live{2}"],singer:"WEST.",date:"2026-03-10",link:"",lyrics:`Excuse me
+<span style='color:#32cd32;'>shh...</span>`},{id:287,title:"踊るしかないじゃん！",titleKana:"おどるしかないじゃん！",lyricist:"熊木幸丸",composer:"熊木幸丸",arranger:"熊木幸丸",album:["唯一無二","唯一無二[初回A]","唯一無二[初回B]","唯一無二[通常盤]"],announce:"t",performances:["WESSION FESTIVAL DAY1{4}","【WESTube生配信】WEST. Special Street Live{2}"],singer:"WEST.",date:"2026-03-10",link:"",lyrics:`Excuse me
 お困りですか？
 Excuse me
 お悩みですか？
