@@ -35691,7 +35691,7 @@ shh...`,lyricsn:`<span style='color:#ee3333;'>バレる？バレる？</span><sp
 </span><span style='color:#32cd32;'>吉と出るか？吉が出るさ！
 </span><span style='color:#ff66b2;'>身勝手なチョイス
 
-</span><span style='color:#ffc81b;'> いくぜ
+</span><span style='color:#ffc81b;'>いくぜ
 
 オーディオ上げて　イェイイェイ
 </span><span style='color:#9933ff;'>よーいドン　チョけて　イェイイェイ</span><span style='color:#0099ff;'>(ハモリ)
