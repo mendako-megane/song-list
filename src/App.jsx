@@ -86,6 +86,7 @@ export default function App() {
       "DOME TOUR AWARD(大阪,福岡)","DOME TOUR AWARD(東京)","DOME TOUR AWARD(東京オーラス)",
       "A.H.O. -Audio Hang Out-(香川,大阪,福岡,宮城4/12)","A.H.O. -Audio Hang Out-(宮城4/13,北海道,横浜,新潟,静岡,愛知)","A.H.O. -Audio Hang Out-A.H.O(愛知オーラス)",
       "WESTA!(12/31昼)","WESTA!(12/31-1/1年越し)","WESTA!(1/1オーラス)",
+      "唯一無二(北海道,大阪,福岡,宮城)",
     ],
     "フェス":[
       "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
