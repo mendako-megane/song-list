@@ -93,7 +93,7 @@ export default function App() {
       "WESSION FESTIVAL DAY1","WESSION FESTIVAL DAY2","LIVE AZUMA 2025","テレビ朝日ドリームフェスティバル2025", "What a Wonderful World!!25",
     ],
     "ファンクラブ限定動画":[
-      "ファンクラブ限定動画(改名発表)","ファンクラブ限定動画(ゴールデンウィークはWEST. WEEK!<Special Performance>)",
+      "改名発表","ゴールデンウィークはWEST. WEEK!<Special Performance>","Special Performance 2026"
     ],
     "Happy Live with you":[
       "Johnny's World Happy LIVE with YOU(3/29)","Johnny's World Happy LIVE with YOU(6/18)",
