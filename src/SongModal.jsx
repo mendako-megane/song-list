@@ -82,8 +82,18 @@ const SongModal = ({ song, onClose }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h2>{song.title}</h2>
-        <p><strong>作詞者:</strong> <span className="modal-item-value">{song.lyricist}</span></p>
-        <p><strong>作曲者:</strong> <span className="modal-item-value">{song.composer}</span></p>
+        {song.lyricist && (
+          <p><strong>作詞者:</strong> <span className="modal-item-value">{song.lyricist}</span></p>
+        )}
+        {song.composer && (
+          <p><strong>作曲者:</strong> <span className="modal-item-value">{song.composer}</span></p>
+        )}
+        {song.Lyrics && (
+          <p><strong>Lyrics:</strong> <span className="modal-item-value">{song.Lyrics}</span></p>
+        )}
+        {song.Music && (
+          <p><strong>Music:</strong> <span className="modal-item-value">{song.Music}</span></p>
+        )}
         {song.arranger && (
           <p><strong>編曲者:</strong> <span className="modal-item-value">{song.arranger}</span></p>
         )}
@@ -98,6 +108,9 @@ const SongModal = ({ song, onClose }) => {
         )}
         {song.translate && (
           <p><strong>英訳詞:</strong> <span className="modal-item-value">{song.translate}</span></p>
+        )}
+        {song.Turntables && (
+          <p><strong>Turntables by:</strong> <span className="modal-item-value">{song.Turntables}</span></p>
         )}
 
         <p><strong>ユニット:</strong> <span className="modal-item-value">{song.singer || 'WEST.'}</span></p>

@@ -65,6 +65,8 @@ export default function App() {
     "ウェッサイソウル！ / BIG LOVE SONG","ウェッサイソウル！ / BIG LOVE SONG[初回A]","ウェッサイソウル！ / BIG LOVE SONG[初回B]","ウェッサイソウル！ / BIG LOVE SONG[通常盤]",
     "愛執[DIGITAL]",
     "唯一無二","唯一無二[初回A]","唯一無二[初回B]","唯一無二[通常盤]",
+    "G.O.D[DIGITAL]",
+    "INPUT⇄OUTPUT","INPUT⇄OUTPUT[初回A]","INPUT⇄OUTPUT[初回B]","INPUT⇄OUTPUT[通常盤]",
   ];
 
   const performanceCategories = {
@@ -90,7 +92,7 @@ export default function App() {
     ],
     "フェス":[
       "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
-      "WESSION FESTIVAL DAY1","WESSION FESTIVAL DAY2","LIVE AZUMA 2025","テレビ朝日ドリームフェスティバル2025", "What a Wonderful World!!25","DayDay. SUPER LIVE 2026","メトロック2026(大阪)",
+      "WESSION FESTIVAL DAY1","WESSION FESTIVAL DAY2","LIVE AZUMA 2025","テレビ朝日ドリームフェスティバル2025", "What a Wonderful World!!25","DayDay. SUPER LIVE 2026","メトロック2026(大阪)","サマソニ2026(大阪,東京)",
     ],
     "ファンクラブ限定動画":[
       "WEST. Special Performance","ゴールデンウィークはWEST. WEEK!<Special Performance>","Special Performance 2026"
