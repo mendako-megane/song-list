@@ -90,6 +90,9 @@ export default function App() {
       "WESTA!(12/31昼)","WESTA!(12/31-1/1年越し)","WESTA!(1/1オーラス)",
       "唯一無二","唯一無二(千葉オーラス)",
     ],
+    "ソロコン":[
+      "INPUT⇄OUTPUT",
+    ],
     "フェス":[
       "メトロック2022(大阪)","LOVE MUSIC FESTIVAL2022","サマソニ2023(大阪,東京)","めざまし30周年フェス(東京)","メトロック2024(東京)","サマソニ2024(大阪,東京)","a-nation2024","KOYABU SONIC2024","CDTV ライブ！ ライブ！大感謝祭2024","CDTV ライブ！ ライブ！春の大感謝祭2025","メトロック2025(東京)",
       "WESSION FESTIVAL DAY1","WESSION FESTIVAL DAY2","LIVE AZUMA 2025","テレビ朝日ドリームフェスティバル2025", "What a Wonderful World!!25","DayDay. SUPER LIVE 2026","メトロック2026(大阪)","サマソニ2026(大阪,東京)",
